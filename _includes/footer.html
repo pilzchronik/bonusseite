@@ -1,0 +1,23 @@
+<footer class="site-footer h-card" style="background:#ffe9e9; border-top:4px solid #cc0000; padding:1rem;">
+  <!-- FOOTER-TEST-123 -->
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:space-between; align-items:flex-start;">
+    <div style="flex:1 1 280px;">
+      <p class="site-title" style="margin:0 0 .25rem 0; font-weight:600;">{{ site.title }}</p>
+      {% if site.email %}
+      <p style="margin:.25rem 0;"><a href="mailto:{{ site.email }}" style="text-decoration:none;">{{ site.email }}</a></p>
+      {% endif %}
+    </div>
+    {% if site.description %}
+    <div style="flex:1 1 280px;"><p style="margin:.25rem 0;">{{ site.description }}</p></div>
+    {% endif %}
+    <div style="flex:1 1 220px;">
+      <p style="margin:.25rem 0;">
+        <a href="{{ '/impressum/' | relative_url }}" style="text-decoration:none;">Impressum</a>
+        &nbsp;·&nbsp;
+        <a href="{{ '/datenschutz/' | relative_url }}" style="text-decoration:none;">Datenschutz</a>
+      </p>
+    </div>
+  </div>
+</footer>
