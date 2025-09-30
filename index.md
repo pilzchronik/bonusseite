@@ -12,7 +12,6 @@ Ergänzungen, Errata und digitale Inhalte zur gedruckten Pilz-Chronik.
 - [Downloads]({{ site.baseurl }}/downloads/)
 - [Karte]({{ site.baseurl }}/karte/)
 - [Quellen & Links]({{ site.baseurl }}/links/)
-- [Errata & Ergänzungen]({{ site.baseurl }}/errata/)
 - [Kontakt & Impressum]({{ site.baseurl }}/kontakt/)
 
 *Letztes Update: {{ "now" | date: "%d.%m.%Y" }}*
