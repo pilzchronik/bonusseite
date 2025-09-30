@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "Karte"
+title: Karte
 permalink: /karte/
 ---
+
+Kurztext + Link/Einbettung deiner Kartenlösung.
 
 
 
