@@ -7,8 +7,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Navigation exakt steuern:
 header_pages:
-  - about.md
   - downloads.md
   - karte.md
   - links.md
+  - errata.md
+  - kontakt.md
