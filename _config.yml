@@ -2,7 +2,12 @@ title: "Die Seite zur Pilz-Chronik"
 description: "Ergänzungen, Errata und digitale Inhalte zur gedruckten Pilz-Chronik."
 url: "https://pilzchronik.github.io"
 baseurl: "/bonusseite"
-
+header_pages:
+  - index.md
+  - downloads.md
+  - karte.md
+  - links.md
+  - about.md
 theme: minima
 plugins:
   - jekyll-feed
