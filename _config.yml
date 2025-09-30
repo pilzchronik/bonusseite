@@ -7,9 +7,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Navigation exakt steuern:
+# Navigation (Start/Über nicht in der Navi)
 header_pages:
   - downloads.md
   - karte.md
   - links.md
   - kontakt.md
+
+# Auszüge im Änderungslog anzeigen
+show_excerpts: true
