@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "Downloads"
+title: Downloads
 permalink: /downloads/
 ---
+
+Hier kommen deine PDF-Leseproben, Errata-PDFs, Zusatzmaterialien.
 
 
 Hier findest du digitale Ergänzungen, Errata und weitere Materialien zur Pilz-Chronik.
