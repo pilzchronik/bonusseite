@@ -14,7 +14,6 @@ E-Mail: [pilz@gmx.at](mailto:pilz@gmx.at)
 
 **Medieninhaber & verantwortlich für den Inhalt:**  
 Wolfgang Pilz  
-(Adresse hier eintragen, so wie du es rechtlich in Österreich angeben möchtest)
 
 **Grundlegende Richtung der Website:**  
 Private, nicht-kommerzielle Seite zur Familien- und Regionalgeschichte.  
