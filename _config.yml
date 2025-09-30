@@ -18,20 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Die Seite zur Pilz-Chronik
-email: pilz@gmx.at
+title: "Die Seite zur Pilz-Chronik"
 description: "Ergänzungen, Errata und digitale Inhalte zur gedruckten Pilz-Chronik."
-url: "https://zlipflow.github.io"
-baseurl: "/pilzchronik"
-markdown: kramdown
-kramdown:
-  input: GFM
+url: "https://pilzchronik.github.io"
+baseurl: "/bonusseite"
 
-header_pages:
-  - about.md
-  - downloads.md
-  - karte.md
-  - links.md
+theme: minima     # schnelles, sauberes Standard-Theme
+plugins: []       # vorerst keine Plugins
 # Build settings
 theme: minima
 plugins:
