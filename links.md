@@ -1,8 +1,10 @@
 ---
 layout: page
-title: "Quellen & Links zur Pilz-Chronik"
-permalink: /quellen/
+title: Quellen & Links
+permalink: /links/
 ---
+
+Hier steht deine große Linktabelle / Verweise auf Archive, DOIs etc.
 <style>
 /* Gilt nur für Tabellen im Inhaltsbereich dieser Seite */
 .post-content table {
