@@ -47,7 +47,7 @@ Hier steht deine große Linktabelle / Verweise auf Archive, DOIs etc.
 |---|---|---|---|
 | Impressum | Bd. 1, S. 5<br>Bd. 2, S. 5 | [pilz@gmx.at](mailto:pilz@gmx.at) | E-Mail-Adresse des Autors |
 | Projekt-Website & Archiv | Bd. 1, S. 16 | [pilzchronik.github.io/bonusseite](https://pilzchronik.github.io/bonusseite/) | Begleitwebseite zur Chronik |
-| URL-Webseite | Bd. 1 | [pilzchronik.github.io/bonusseite/links.html](https://pilzchronik.github.io/bonusseite/links.html) | Übersicht aller URLs im Buch |
+| URL-Webseite | Bd. 1 | [pilzchronik.github.io/bonusseite/links.html](https://pilzchronik.github.io/bonusseite/links) | Übersicht aller URLs im Buch |
 | Zenodo Langzeitarchiv | Bd. 1, S. 15<br>Bd. 2, S. 180 | [doi.org/10.5281/zenodo.15828594](https://doi.org/10.5281/zenodo.15828594) | Wissenschaftliche Langzeitsicherung aller Daten und des digitalen Familienarchivs |
 | Verweis auf Tagebuch | Bd. 1, S. 97 | [Google Docs](https://sites.google.com/d/14h2Dj-fE3gkh_mwjM2cQyf2UWrhRLQSf/p/1ubsocuUXl5fEKcMf_BgaJlbEG2SL955V/edit) | Digitalisat des Tagebuchs von Johann Eberstaller |
 
