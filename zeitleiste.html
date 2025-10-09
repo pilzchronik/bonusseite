@@ -1,3 +1,13 @@
+---
+layout: page
+title: "Zeitleiste"
+permalink: /zeitleiste/
+---
+
+<div id="mount">Lade Zeitleiste…</div>
+
+<!-- Deinen bisherigen (escapten) HTML-Export hier als reinen Text einfügen -->
+<script id="src" type="text/plain">
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 		"http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -429,3 +439,34 @@ permalink:&nbsp;/zeitleiste/
 &lt;/body&gt;
 &lt;/html&gt;</span></code></pre></body>
 </html>
+
+</script>
+
+<script>
+(function () {
+  // 1) Rohtext holen (dein exportierter, escapeter HTML-Block)
+  var raw = document.getElementById('src').textContent || '';
+
+  // 2) HTML-Entities decodieren (&lt; &gt; &amp; &nbsp; …)
+  var ta = document.createElement('textarea');
+  ta.innerHTML = raw.replace(/&nbsp;/g, ' '); // NBSP zu Leerzeichen
+  var decoded = ta.value;
+
+  // 3) Nur <style>…</style> und den <main>…</main>-Block herausziehen
+  var styleMatch = decoded.match(/<style[^>]*>[\s\S]*?<\/style>/i);
+  var mainMatch  = decoded.match(/<main[\s\S]*?<\/main>/i);
+
+  var out = '';
+  if (styleMatch) out += styleMatch[0];
+  if (mainMatch)  out += mainMatch[0];
+
+  // Fallback, falls <main> fehlt
+  if (!out) out = '<p>Zeitleiste konnte nicht extrahiert werden.</p>';
+
+  // 4) In die Seite einsetzen (Jekyll liefert <html>/<head>/<body> über layout: page)
+  document.getElementById('mount').innerHTML = out;
+
+  // 5) Optional: kleine Nachbesserung für Anker-Scroll auf GitHub Pages
+  if ('scrollRestoration' in history) { history.scrollRestoration = 'auto'; }
+})();
+</script>
