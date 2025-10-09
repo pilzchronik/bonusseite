@@ -9,6 +9,7 @@ title: Start
 
 **Schnelleinstieg**
 - [Downloads]({{ site.baseurl }}/downloads/)
+- [Zeitleiste]({{ site.baseurl }}/zeitleiste/)
 - [Karte]({{ site.baseurl }}/karte/)
 - [Quellen & Links]({{ site.baseurl }}/links/)
 - [Kontakt & Impressum]({{ site.baseurl }}/kontakt/)
