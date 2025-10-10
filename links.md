@@ -61,7 +61,7 @@ Hier steht deine große Linktabelle / Verweise auf Archive, DOIs etc.
 | Taufe (Konversion) Apollonia Jablotzki 30.10.1768 | Bd. 1, S. 21<br>Bd. 2, S. 104, 175–176 | [ebadatelna.soapraha.cz](https://ebadatelna.soapraha.cz/d/6850/60) | Konversion, jüdische Wurzeln, Verbindung zum Hochadel |
 | Heirat Philipp Bechinie & Rudolphiana (Theresia) 22.10.1769 | Bd. 2, S. 176 | [ebadatelna.soapraha.cz](https://ebadatelna.soapraha.cz/d/5876/167) | Verbindung zur Bechinie-Linie |
 | Tod Johanna Sophia Pilz (geb. Schuberth) 11.05.1772 | Bd. 1, S. 49, 74 | [Vademecum Leitmeritz](https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:-7718&scan=d23789c7c2aa4e75b0bfdf9ef4c6593b) | Früher Tod – Schlüsselereignis |
-| Kirchenbuch Leitmeritz (Taufe A. F. Pilz) | Bd. 1, S. 75 | [Vademecum Leitmeritz](https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:-747e&scan=4efc5f91034a44d1ac50afc8e8eed735) | Taufeintrag August Friedrich Pilz |
+| Kirchenbuch Libeschitz (Unterschrift F. A. Pilz) | Bd. 1, S. 75 | [Vademecum Leitmeritz](https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:-747e&scan=4efc5f91034a44d1ac50afc8e8eed735) | Taufeintrag August Friedrich Pilz |
 | Tod Johann Kreissl 16.08.1698 | Bd. 1, S. 54 | [Vademecum Leitmeritz](https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:30bdd2c7:1201ea2ef5b:-76ce&scan=102db7dc74664d869c0516617ce01e32) | „Im Bergwerk verschüttet“ |
 | Kriegstrauung J. Eberstaller & K. Reider, 25.05.1916 | Bd. 1, S. 94–95 | [Matriken Tirol](https://matriken.tirol.gv.at/portal/main.php?todo=showObjData&objid=301360#)  | Bürokratische Hürden des Krieges |
 
