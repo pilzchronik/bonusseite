@@ -72,7 +72,7 @@ Hier steht deine große Linktabelle / Verweise auf Archive, DOIs etc.
 | Kontext / Link-Text | Fundstelle (Band, Seite) | Vollständige Ziel-URL | Inhalt der Zielseite / Bedeutung |
 |---|---|---|---|
 | Ahnenliste Eberstaller (Adler 1953) | Bd. 1, S. 91 | [Google Drive PDF](https://drive.google.com/file/d/10M1CXZaet3WLb7xonSvEdDJWKH6mBN7-/view?usp=sharing) | Genealogische Quelle |
-| Artikel Karoline Eberstaller | Bd. 1, S. 139 | [memoria.bn.gov.br](https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=030015_05&pesq=%22Leia%20Bruckner%22&pasta=ano%20193&hf=memoria.bn.gov.br&pagfis=81325) | Bericht über „Leia Bruckner“ |
+| Artikel Karoline Eberstaller | Bd. 1, S. 139 | [memoria.bn.gov.br](https://memoria.bn.gov.br/DocReader/DocReader.aspx?bib=030015_05&pesq=%22Leia%20Bruckner%22&pasta=ano%20193&hf=memoria.bn.gov.br&pagfis=81325) | Bericht über „Karoline Eberstaller“ |
 | Zeitungsfund Kupferberg 1 | Bd. 1, S. 141 | [ANNO – 23.03.1871](https://anno.onb.ac.at/cgi-content/anno?aid=vtl&datum=18710323&seite=5) | Artikel in *Das Vaterland* |
 | Zeitungsfund Kupferberg 2 | Bd. 1, S. 141 | [ANNO – 06.09.1872](https://anno.onb.ac.at/cgi-content/anno?aid=vtl&datum=18720906&seite=4) | Artikel in *Das Vaterland* |
 | Raufhandel (Franz Eberstaller) | Bd. 1, S. 142 | [ANNO – 21.05.1887](https://anno.onb.ac.at/cgi-content/anno?aid=sch&datum=18870521&query=%22Franz%22+%22Eberstaller%22+%22Kadanka%22&ref=anno-search&seite=3) | Zeitungsartikel |
@@ -160,5 +160,5 @@ Hier steht deine große Linktabelle / Verweise auf Archive, DOIs etc.
 | Karte: Gottesgab | Bd. 2, S. 190 | [Arcanum-Karte](https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1420522.0169836103%2C6516013.745949181%2C1448975.700762767%2C6526390.072538894) | Historische Karte Gottesgab |
 | Karte: Kupferberg | Bd. 2, S. 190 | [Arcanum-Karte](https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1453930.2129265417%2C6517095.079965256%2C1468157.05481612%2C6522283.243260112) | Historische Karte Kupferberg |
 | Karte: Libeschitz | Bd. 2, S. 190 | [Arcanum-Karte](https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1509115.4141514006%2C6494857.886762588%2C1523342.256040979%2C6500046.050057444) | Historische Karte Libeschitz |
-| Karte: Hlaváčov | Bd. 2, S. 190 | [Arcanum-Karte](https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1640536.6216254844%2C6431209.996370013%2C1647650.0425702739%2C6433804.078017441) | Historische Karte Hlaváčov |
+| Karte: Hlawatschow | Bd. 2, S. 190 | [Arcanum-Karte](https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1640536.6216254844%2C6431209.996370013%2C1647650.0425702739%2C6433804.078017441) | Historische Karte Hlaváčov |
 | Karte: Amschelberg | Bd. 2, S. 190 | [Arcanum-Karte](https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1604997.3691489003%2C6384502.183862386%2C1619224.2110384787%2C6389690.347157242) | Historische Karte Amschelberg |
