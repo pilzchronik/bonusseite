@@ -33,7 +33,8 @@ Alle Materialien wurden geprüft und sind nach Themen geordnet.
 
 <hr style="border: 0.5px solid #b86c3a; margin: 1em 0;">
 
-<p><a href="{{ "/posts/" | relative_url }}" style="color:#3b5b92; font-weight:bold;">→ Alle Beiträge anzeigen</a></p>
+<p><a href="{{ site.baseurl }}/posts/" style="color:#3b5b92; font-weight:bold;">
+→ Alle Beiträge anzeigen</a></p>
 
 ---
 
