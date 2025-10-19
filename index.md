@@ -1,6 +1,6 @@
 ---
-layout: home
-title: Pilz-Chronik – Bonusseite
+layout: default
+title: "Pilz-Chronik – Bonusseite"
 ---
 
 # Willkommen auf der Bonusseite zur Pilz-Chronik
@@ -23,14 +23,15 @@ Alle Materialien wurden geprüft und sind nach Themen geordnet.
 
 {% for post in site.posts limit:3 %}
 <div style="margin-bottom:1.5em; padding-left:0.5em;">
-📘 <strong>{{ post.date | date: "%d.%m.%Y" }} – <a href="{{ post.url | relative_url }}" style="color:#3b5b92;">{{ post.title }}</a></strong><br>
+📘 <strong>{{ post.date | date: "%d.%m.%Y" }} – 
+<a href="{{ post.url | relative_url }}" style="color:#3b5b92;">{{ post.title }}</a></strong><br>
 <span style="color:#333;">{{ post.excerpt | strip_html | truncate: 200 }}</span>
 </div>
 {% endfor %}
 
 <hr style="border: 0.5px solid #b86c3a; margin: 1em 0;">
 
-<p><a href="{{ "/" | relative_url }}" style="color:#3b5b92; font-weight:bold;">→ Alle Beiträge anzeigen</a></p>
+<p><a href="{{ "/posts/" | relative_url }}" style="color:#3b5b92; font-weight:bold;">→ Alle Beiträge anzeigen</a></p>
 
 ---
 
