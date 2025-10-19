@@ -17,9 +17,10 @@ header_pages:
   - about.md
   - links.md
   - karte.md
-  - zeitleiste.html
+  - zeitleiste.html 
   - downloads.md
   - kontakt.md
+  - posts.md   # <— diese Zeile neu hinzufügen!
 
 # --------------------------------------------
 # Autorendaten
