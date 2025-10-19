@@ -1,0 +1,25 @@
+title: "Pilz-Chronik – Bonusseite"
+description: "Ergänzungen, Richtigstellungen und digitale Quellen zur Familienchronik Pilz"
+theme: minima
+markdown: kramdown
+lang: de-AT
+
+header_pages:
+  - index.md
+  - about.md
+  - links.md
+  - karte.md
+  - downloads.md
+  - kontakt.md
+
+author: "Wolfgang Pilz"
+email: "pilz@gmx.at"
+
+url: "https://pilzchronik.github.io"
+baseurl: "/bonusseite"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+show_excerpts: true
