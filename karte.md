@@ -4,11 +4,9 @@ title: Karte
 permalink: /karte/
 ---
 
-Kurztext + Link/Einbettung deiner Kartenlösung.
+# Karte der Lebensorte
 
-
-
-Die Karte zeigt die wichtigsten Lebensorte der Vorfahren. Sie verbindet Sachsen, Böhmen, Tirol und weitere Regionen. Durch Zoomen und Anklicken lassen sich Details direkt erkunden.
+Die Karte zeigt die wichtigsten Lebensorte der Vorfahren. Sie verbindet Böhmen, Tirol und Sachsen.
 
 <div style="position:relative; padding-bottom:65%; height:0; overflow:hidden;">
   <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1bYaowjZM7T8_kZl9k-z6_Aebnz7-iIg&ehbc=2E312F"
