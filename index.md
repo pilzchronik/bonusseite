@@ -19,7 +19,9 @@ Alle Materialien wurden geprüft und sind nach Themen geordnet.
 
 ---
 
-<h2 style="color:#3b5b92; border-bottom:2px solid #b86c3a; padding-bottom:4px;">🕮 Neueste Beiträge</h2>
+<h2 style="color:#3b5b92; border-bottom:2px solid #b86c3a; padding-bottom:4px;">
+🕮 Änderungen, Ergänzungen und sonstige Neuigkeiten
+</h2>
 
 {% for post in site.posts limit:3 %}
 <div style="margin-bottom:1.5em; padding-left:0.5em;">
