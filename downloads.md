@@ -1,3 +1,3 @@
 # Downloads
 
-Hier werden Ihre PDF-Downloads gelistet.
+Hier werden künftig PDF-Downloads gelistet.
