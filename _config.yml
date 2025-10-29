@@ -1,0 +1,13 @@
+title: "Pilz-Chronik – Bonusseite"
+theme: minima
+lang: de-AT
+url: "https://pilzchronik.github.io"
+baseurl: "/bonusseite"
+
+# Nur Startseite im Header – maximal schlank
+header_pages:
+  - index.md
+
+markdown: kramdown
+permalink: pretty
+timezone: "Europe/Vienna"
