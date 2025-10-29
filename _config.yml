@@ -1,0 +1,55 @@
+# ============================================
+#  Pilz-Chronik – Bonusseite (GitHub Pages)
+#  Konfiguration – Stand Oktober 2025
+# ============================================
+
+title: "Pilz-Chronik – Bonusseite"
+description: "Ergänzungen, Richtigstellungen und digitale Quellen zur Familienchronik Pilz"
+theme: minima
+markdown: kramdown
+lang: de-AT
+
+# --------------------------------------------
+# Navigationsstruktur
+# --------------------------------------------
+header_pages:
+  - index.md
+  # - about.md        # ENTFERNEN, sonst Doppelung
+  - links.md
+  - karte.md
+  - zeitleiste.html
+  - downloads.md
+  - kontakt.md
+  - posts.md   # <— diese Zeile neu hinzufügen!
+
+# --------------------------------------------
+# Autorendaten
+# --------------------------------------------
+author: "Wolfgang Pilz"
+email: "pilz@gmx.at"
+
+# --------------------------------------------
+# Seiten- und Verzeichnisstruktur
+# --------------------------------------------
+url: "https://pilzchronik.github.io"
+baseurl: "/bonusseite"
+
+# --------------------------------------------
+# Plugins (SEO, RSS)
+# --------------------------------------------
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  
+
+# --------------------------------------------
+# Darstellung & Layoutsteuerung
+# --------------------------------------------
+show_excerpts: false   # Keine doppelte Blogliste auf der Startseite
+paginate: false        # Keine automatische Blog-Seitenaufteilung
+
+# --------------------------------------------
+# Lokalisierung
+# --------------------------------------------
+timezone: "Europe/Vienna"
+permalink: pretty
