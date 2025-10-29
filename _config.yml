@@ -13,7 +13,7 @@ lang: de-AT
 # Navigationsstruktur
 # --------------------------------------------
 header_pages:
-  - index.md
+  #- index.md
   # - about.md        # ENTFERNEN, sonst Doppelung
   - links.md
   - karte.md
