@@ -8,6 +8,7 @@ tags: [Neuigkeiten, Sachsen, Gerichtsbücher, Pültz, Dörnthal]
 **Kurzfassung:** Ein mehrseitiger Eintrag aus dem Gerichtshandelsbuch Dörnthal (GB AG Sayda Nr. 239, fol. 15v–18r) datiert den Tod eines *Michael Püntzner (Pültz?)* eindeutig auf das Frühjahr **1558**. 
 Damit lässt sich der spätere **Vertrag 1562** (mit Caspar von Schönberg) stimmig als **zweiter Michael (Pültz?)** deuten. 
 **Jobst Pültz** ist **1601** als *verordneter Richter* belegt – ein klarer sozialer Aufstieg innerhalb einer Generation.
+
 Quelle: Sächsische Gerichtsbücher – Portal des Sächsischen Staatsarchivs/ISGV. Online unter: https://www.saechsische-gerichtsbuecher.de/ (Zugriff: 28. 10. 2025)
 
 
