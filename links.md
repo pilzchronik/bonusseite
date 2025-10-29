@@ -4,7 +4,6 @@ title: Quellen & Links
 permalink: /links/
 ---
 
-# Quellen & Links zur Pilz-Chronik
 
 Diese Seite enthält sämtliche im Buch verwendeten Internet-Quellen.
 Die Einträge sind thematisch geordnet, mit Kurzlink, vollständiger URL und Seitenangabe im Druckwerk.
