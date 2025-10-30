@@ -1,37 +1,40 @@
 ---
 layout: post
-title: "Die Familie Pültz/Püntzner in Dörnthal im 16. Jahrhundert"
+title: "Vorläufige Befunde zur Familie Pültz/Püntzner in Dörnthal im 16. Jahrhundert"
 date: 2025-10-30
 categories: [Analysen]
 ---
 
-Die Auswertung des *Gerichtshandelsbuchs von Dörnthal (1550–1596)* belegt die frühe Präsenz der Familie Pültz/Püntzner in der Region Sayda. Zwei Einträge zeigen, dass es bereits Mitte des 16. Jahrhunderts mindestens zwei verschiedene Männer dieses Namens gab:
+Dieser Eintrag fasst einen **vorläufigen Fund** aus dem *Gerichtshandelsbuch von Dörnthal (1550–1596)* zusammen.  
+Die Hinweise deuten auf eine frühe Präsenz der Familie Pültz/Püntzner in der Region Sayda hin, müssen jedoch noch weiter geprüft und ausgewertet werden.
 
-- **Michael I. Püntzner († vor 1558)** – Nachlassverfahren mit vier minderjährigen Kindern.  
-- **Michael II. Pültz (1562)** – aktiv bei einem Grundstückshandel gemeinsam mit **Balzer Pultzen**.
+Zwei Einträge lassen sich derzeit unterscheiden:
 
-Diese Dokumente stammen beide aus dem Gerichtsbuch *AG Sayda Nr. 239* und belegen zwei Generationen bzw. Seitenzweige einer alteingesessenen Familie.  
-Die späteren Geschäfte deuten auf eine Neuordnung des Besitzes nach dem Tod des älteren Michael hin.
+- **Michael I. Püntzner († vor 1558)** – erwähnt in einem Nachlassverfahren mit vier minderjährigen Kindern.  
+- **Michael II. Pültz (1562)** – als Beteiligter eines Grundstückshandels gemeinsam mit **Balzer Pultzen**.
+
+Diese Fundstellen stammen aus dem Gerichtsbuch *AG Sayda Nr. 239* und deuten auf zwei Generationen oder Seitenzweige einer ortsansässigen Familie hin.  
+Die späteren Geschäfte lassen eine mögliche Neuordnung des Besitzes nach dem Tod des älteren Michael vermuten.
 
 ---
 
 ### Familiennamen
 
-Dabei kann durchaus ein Lesefehler vorliegen.  
-Eine unterschiedliche Schreibweise wäre aber auch denkbar.  
-Jedenfalls muss man da noch weiter prüfen.
+Die unterschiedlichen Schreibweisen (*Pültz, Pülcz, Püntzner, Puntigen*) könnten auf Lesefehler, aber auch auf regionale Varianten hinweisen.  
+Die genaue Zuordnung erfordert weitere Überprüfung anhand der Originalquelle.
 
 ---
 
 ### Historischer Rahmen
 
 Dörnthal war ein typisches *Waldhufendorf* im Erzgebirge.  
-Mitte des 16. Jahrhunderts förderte Oberberghauptmann **Caspar von Schönberg († 1578)** den Bergbau, von dem auch Familien wie die Pültz/Püntzner profitierten.  
-Landwirtschaft und Bergbau standen eng nebeneinander.
+Mitte des 16. Jahrhunderts förderte Oberberghauptmann **Caspar von Schönberg († 1578)** den Bergbau, von dem auch Familien wie die Pültz/Püntzner profitiert haben könnten.  
+Landwirtschaft und bergbauliche Tätigkeiten standen in dieser Zeit eng beieinander.
 
 ---
 
-📄 **[Vollständiger Bericht als PDF herunterladen]({{ site.baseurl }}/assets/pdf/bericht_doernthal.pdf)**
+📄 **[Vorläufiger Bericht (PDF)]({{ site.baseurl }}/assets/pdf/bericht_doernthal.pdf)**  
+*Der Bericht wurde unter Verwendung von KI-Hilfsmitteln erstellt und dient vorerst als Gedächtnisstütze für noch ausstehende Detailforschungen.*
 
 ---
 
