@@ -14,7 +14,7 @@ Diese Dokumente stammen beide aus dem Gerichtsbuch *AG Sayda Nr. 239* und belege
 Die späteren Geschäfte deuten auf eine Neuordnung des Besitzes nach dem Tod des älteren Michael hin.
 
 **Familiennamen** 
-Dabei kann durchaus ein Lesefehler vorliegen. Eine unterschiedliche Schreibweise wäre aber auch denkbar. Jedenfalls sollte man da noch weiter prüfen.
+Dabei kann durchaus ein Lesefehler vorliegen. Eine unterschiedliche Schreibweise wäre aber auch denkbar. Jedenfalls muss man da noch weiter prüfen.
 
 **Historischer Rahmen:**  
 Dörnthal war ein typisches *Waldhufendorf* im Erzgebirge. Mitte des 16. Jh. förderte Oberberghauptmann **Caspar von Schönberg († 1578)** den Bergbau, von dem auch Familien wie die Pültz/Püntzner profitierten. Landwirtschaft und Bergbau standen eng nebeneinander.
