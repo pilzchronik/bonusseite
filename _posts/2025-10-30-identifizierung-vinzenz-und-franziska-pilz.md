@@ -26,7 +26,7 @@ Diese unabhängigen Gutachten bilden eine geschlossene Beweiskette. Das Foto dar
 ### 📸 Bestätigtes Foto: Vinzenz und Franziska Pilz (geb. Gahler)
 *(Atelier G. Greiner, Komotau/Weipert, ca. 1875–1880)*  
 
-![Vinzenz und Franziska Pilz]({{ "/assets/images/Vinzenz-und-Franziska-Pilz.jpg" | relative_url }})
+![Vinzenz und Franziska Pilz](/bonusseite/assets/images/vinzenz-und-franziska-pilz.jpg)
 
 ---
 
