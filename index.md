@@ -32,8 +32,11 @@ Hier erscheinen Ergänzungen, neue Funde und Berichtigungen zu:
 
 ## Downloads
 
-PDFs und Ergänzungsdokumente: Menü **„Downloads“** oder direkt im Ordner  
-`/assets/pdf/`.
+Hier findest du die ergänzenden PDF-Dokumente zur *Pilz-Chronik*:
+
+- [Errata 2025 (Berichtigungen zu Band 1 und 2)](/assets/pdf/Errata_2025.pdf)
+- [Leseprobe aus Band 1](/assets/pdf/Pilz-Chronik_Band1_Leseprobe.pdf)
+- [Alle Downloads anzeigen]({{ "/downloads/" | relative_url }})
 
 ---
 
