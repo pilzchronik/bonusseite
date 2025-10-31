@@ -3,12 +3,12 @@ layout: page
 title: "Pilz-Chronik – Bonusseite"
 ---
 
+# Pilz-Chronik – Bonusseite
 
-Willkommen auf der Bonusseite zur *Pilz-Chronik*.  
-Diese Seite ergänzt die gedruckten Bände der *Pilz-Chronik* um digitale Inhalte, aktuelle Ergänzungen, Richtigstellungen und zusätzliche Quellen.  
-Alle Materialien wurden überprüft und sind nach Themen geordnet.
+Willkommen auf der Ergänzungsseite zur *Pilz-Chronik*.  
+Hier sammelst du Aktualisierungen, neue Funde und kleinere Berichtigungen zu **Band 1 (Die Suche)** und **Band 2 (Ahnentafel und Analysen)**. Die gedruckten Bände bleiben die Hauptquelle – hier kommen nur Nachträge dazu.
 
-## Inhalte dieser Bonusseite
+## Was hier zu finden ist
 
 - Projektarchiv und Online-Ressourcen  
   (ergänzende Dokumente, Kirchenbücher, Urkunden, Zeitungen)
@@ -16,7 +16,7 @@ Alle Materialien wurden überprüft und sind nach Themen geordnet.
 - Downloads und Errata  
   (aktualisierte Fassungen und Korrekturen zu Band 1 und Band 2)
 
-## Änderungen, Ergänzungen und Neuigkeiten
+## Ergänzungen und Neuigkeiten
 
 Die letzten Einträge:
 
@@ -29,4 +29,4 @@ Die letzten Einträge:
 
 ---
 
-*Stand: {{ site.time | date: "%B %Y" }} – Pilz-Chronik-Bonusseite*
+*Stand: {{ site.time | date: "%B %Y" }}*
