@@ -13,15 +13,14 @@ Alle Materialien wurden überprüft und sind nach Themen geordnet.
 - Projektarchiv und Online-Ressourcen  
   (ergänzende Dokumente, Kirchenbücher, Urkunden, Zeitungen)
 - Karten, Ortsverzeichnisse und historische Datenbanken
-- Interaktive Zeitleiste  
-  (chronologische Darstellung der Familienereignisse, online besser nutzbar als im Druck)  
-  → [Zur Zeitleiste]({{ "/zeitleiste.html" | relative_url }})
 - Downloads und Errata  
   (aktualisierte Fassungen und Korrekturen zu Band 1 und Band 2)
 
-## Änderungen, Ergänzungen und Neuigkeiten
+## Aktuelle Ergänzungen
 
-Die letzten Einträge:
+Hier werden neue oder berichtigte Hinweise zur *Pilz-Chronik* gesammelt.
+
+### Die letzten Einträge
 
 {% for post in site.posts limit:3 %}
 - **{{ post.date | date: "%d.%m.%Y" }} – [{{ post.title }}]({{ post.url | relative_url }})**  
