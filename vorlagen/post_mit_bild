@@ -1,15 +1,12 @@
 ---
-layout: post
-title: "Überschrift des Beitrags"
-date: 2025-11-01
-author: "Wolfgang Pilz"
-categories: [Ergänzungen]
+layout: none
+title: "VORLAGE – Beitrag mit Bild"
 ---
 
-### Kurze Einleitung
+# Überschrift des Beitrags
 
-Ein bis zwei Sätze, warum dieser Eintrag auf die Bonusseite gehört.
+Einleitender Text …
 
-![Bildbeschreibung](/bonusseite/assets/images/dateiname.jpg)
+![Bildbeschreibung](/assets/images/beispiel.jpg)
 
-Text, Erläuterungen, Quellen usw.
+Weiterer Text …
