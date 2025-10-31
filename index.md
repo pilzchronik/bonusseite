@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "Pilz-Chronik – Bonusseite"
 ---
 
@@ -16,11 +16,9 @@ Alle Materialien wurden überprüft und sind nach Themen geordnet.
 - Downloads und Errata  
   (aktualisierte Fassungen und Korrekturen zu Band 1 und Band 2)
 
-## Aktuelle Ergänzungen
+## Änderungen, Ergänzungen und Neuigkeiten
 
-Hier werden neue oder berichtigte Hinweise zur *Pilz-Chronik* gesammelt.
-
-### Die letzten Einträge
+Die letzten Einträge:
 
 {% for post in site.posts limit:3 %}
 - **{{ post.date | date: "%d.%m.%Y" }} – [{{ post.title }}]({{ post.url | relative_url }})**  
