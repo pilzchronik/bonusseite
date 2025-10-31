@@ -12,15 +12,13 @@ lang: de-AT
 # --------------------------------------------
 # Navigationsstruktur
 # --------------------------------------------
-header_pages:
-  #- index.md
-  # - about.md        # ENTFERNEN, sonst Doppelung
-  - links.md
+ header_pages:
+  - index.md
+  - posts.md
   - karte.md
-  - zeitleiste.html
   - downloads.md
+  - links.md
   - kontakt.md
-  - posts.md   # <— diese Zeile neu hinzufügen!
 
 # --------------------------------------------
 # Autorendaten
