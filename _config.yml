@@ -52,3 +52,4 @@ paginate: false        # Keine automatische Blog-Seitenaufteilung
 # --------------------------------------------
 timezone: "Europe/Vienna"
 permalink: pretty
+rebuild: true
