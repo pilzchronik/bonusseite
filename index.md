@@ -23,7 +23,7 @@ Die letzten Einträge:
   {{ post.excerpt | strip_html | truncate: 180 }}
 {% endfor %}
 
-[→ Alle Beiträge anzeigen]({{ "/posts.html" | relative_url }})
+[→ Alle Beiträge anzeigen]({{ "/posts/" | relative_url }})
 
 ---
 
