@@ -33,4 +33,9 @@ NACH DEM UPLOAD
 - Die Downloads sind im Menü "Downloads" erreichbar.
 - Designanpassungen können Sie in assets/custom.css vornehmen.
 
-Viel Erfolg mit der Pilz-Chronik-Bonusseite!
+Hinweis (Stand November 2025):
+Die neue index.md wurde korrekt eingespielt, wird aber auf GitHub Pages derzeit noch nicht angezeigt.
+Ursache vermutlich Caching bzw. Build-Verzögerung bei Pages.
+Nächster regulärer Commit (z. B. neuer Post) sollte automatischen Rebuild auslösen.
+Keine inhaltliche oder syntaktische Korrektur nötig.
+
