@@ -9,13 +9,16 @@ Hier erscheinen Ergänzungen, neue Funde und Berichtigungen zu:
 - **Band 1 – Die Suche**  
 - **Band 2 – Ahnentafel und Analysen**
 
+Die gedruckten Bände bleiben die Hauptquelle.  
+Diese Seite dient dazu, aktuelle Ergänzungen und Forschungsergebnisse fortzuführen.
+
 ---
 
 ## Inhalt
 
-- Nachträge, Funde und Berichtigungen  
-- Dokumente und PDF-Downloads  
-- Hinweise auf Online-Quellen und Karten
+- Nachträge und Funde zu Personen, Orten und Familienlinien  
+- Berichtigungen und Ergänzungen zu den beiden Bänden  
+- zusätzliche Dokumente, Scans und Quellenhinweise
 
 ---
 
