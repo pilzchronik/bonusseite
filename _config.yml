@@ -52,5 +52,4 @@ paginate: false        # Keine automatische Blog-Seitenaufteilung
 # --------------------------------------------
 timezone: "Europe/Vienna"
 permalink: pretty
-# force rebuild
-dummy: "2025-11-01"
+
