@@ -26,6 +26,10 @@ email: "pilz@gmx.at"
 url: "https://pilzchronik.github.io"
 baseurl: "/bonusseite"
 
+# Ordner, die GitHub/Jekyll NICHT bauen soll
+exclude:
+  - vorlagen
+
 # Plugins (nur die erlaubten!)
 plugins:
   - jekyll-feed
