@@ -1,16 +1,11 @@
 ---
 layout: page
 title: "Pilz-Chronik – Bonusseite"
-show_title: false
 ---
 
 # Pilz-Chronik – Bonusseite
 
-Willkommen auf der Bonusseite zur *Pilz-Chronik* …
----
-
-# Willkommen auf der Bonusseite zur *Pilz-Chronik*
-
+Willkommen auf der Bonusseite zur *Pilz-Chronik*.  
 Diese Seite ergänzt die gedruckten Bände der *Pilz-Chronik* um digitale Inhalte, aktuelle Ergänzungen, Richtigstellungen und zusätzliche Quellen.  
 Alle Materialien wurden überprüft und sind nach Themen geordnet.
 
