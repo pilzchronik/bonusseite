@@ -1,6 +1,12 @@
 ---
 layout: page
 title: "Pilz-Chronik – Bonusseite"
+show_title: false
+---
+
+# Pilz-Chronik – Bonusseite
+
+Willkommen auf der Bonusseite zur *Pilz-Chronik* …
 ---
 
 # Willkommen auf der Bonusseite zur *Pilz-Chronik*
