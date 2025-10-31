@@ -1,0 +1,18 @@
+---
+layout: page
+title: "Alle Beiträge"
+permalink: /posts/
+---
+
+# Alle Beiträge
+
+Hier findest du eine vollständige Liste aller bisherigen Beiträge der Bonusseite.
+
+{% for post in site.posts %}
+- **{{ post.date | date: "%d.%m.%Y" }} – [{{ post.title }}]({{ post.url | relative_url }})**
+  {{ post.excerpt | strip_html | truncate: 180 }}
+{% endfor %}
+
+---
+
+[← Zurück zur Startseite]({{ "/" | relative_url }})
