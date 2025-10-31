@@ -3,18 +3,27 @@ layout: page
 title: "Pilz-Chronik – Bonusseite"
 ---
 
-Willkommen auf der Ergänzungsseite zur *Pilz-Chronik*.  
-Hier sammelst du Aktualisierungen, neue Funde und kleinere Berichtigungen zu **Band 1 (Die Suche)** und **Band 2 (Ahnentafel und Analysen)**. Die gedruckten Bände bleiben die Hauptquelle – hier kommen nur Nachträge dazu.
+Willkommen auf der Ergänzungsseite zur **Pilz-Chronik**.
+
+Hier veröffentlichst du laufend **Nachträge, Berichtigungen, neue Funde und Downloads** zu
+- **Band 1 – Die Suche** und
+- **Band 2 – Ahnentafel und Analysen**.
+
+Die gedruckten Bände bleiben die Hauptquelle.  
+Diese Seite dient nur dazu, den Stand aktuell zu halten.
+
+---
 
 ## Was hier zu finden ist
 
-- Projektarchiv und Online-Ressourcen  
-  (ergänzende Dokumente, Kirchenbücher, Urkunden, Zeitungen)
-- Karten, Ortsverzeichnisse und historische Datenbanken
-- Downloads und Errata  
-  (aktualisierte Fassungen und Korrekturen zu Band 1 und Band 2)
+- Ergänzungen zu Personen, Orten und Linien aus den Bänden
+- Berichtigungen (z. B. Datumsangaben, Schreibweisen, Ortszuordnungen)
+- zusätzliche Dokumente (Scans, PDF, Kirchenbuchauszüge)
+- Hinweise auf Online-Quellen, die im Buch nicht mehr untergebracht waren
 
-## Ergänzungen und Neuigkeiten
+---
+
+## Neueste Beiträge
 
 Die letzten Einträge:
 
@@ -24,6 +33,13 @@ Die letzten Einträge:
 {% endfor %}
 
 [→ Alle Beiträge anzeigen]({{ "/posts/" | relative_url }})
+
+---
+
+## Downloads
+
+Die Downloads (PDF, Scans, Errata) findest du über den Menüpunkt **„Downloads“**  
+oder direkt im Ordner `assets/pdf/`.
 
 ---
 
