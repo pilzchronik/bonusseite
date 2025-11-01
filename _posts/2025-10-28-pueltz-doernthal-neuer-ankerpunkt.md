@@ -1,50 +1,27 @@
 ---
 layout: post
-title: "Vorläufige Befunde zur Familie Pültz/Püntzner in Dörnthal im 16. Jahrhundert"
+title: "Vorläufige Befunde zu Dörnthal als frühem Ort der Pilz/Pültz-Linie"
 date: 2025-10-30
 categories: [Analysen]
+excerpt: "Arbeitsnotiz: Dörnthal als Sitz eines Erbrichters Piltz/Pültz im 16. Jahrhundert; Hinweise auf eine gerichtliche Überlieferung (Gerichtsbuch Dörnthal, Amt Lauterstein) – noch nicht im Original geprüft."
 ---
+
 > ⚠️ **Vorläufiger Arbeitsstand**  
->  
+>
 > Dieser Beitrag wurde **im Wesentlichen mithilfe Künstlicher Intelligenz (KI)** erstellt.  
-> Er dient derzeit **als Information, Gedankenstütze und Entwurf** für weitere, genauere Nachforschungen im Rahmen der *Pilz-Chronik*.  
->  
+> Er dient derzeit **als Gedankenstütze und Merker** für weitere, genauere Nachforschungen im Rahmen der *Pilz-Chronik*.  
+>
 > Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
-<!--more-->
-
-Dieser Eintrag fasst einen **vorläufigen Fund** aus dem *Gerichtshandelsbuch von Dörnthal (1550–1596)* zusammen.  
-Die Hinweise deuten auf eine frühe Präsenz der Familie Pültz/Püntzner in der Region Sayda hin, müssen jedoch noch weiter geprüft und ausgewertet werden.
-
-Zwei Einträge lassen sich derzeit unterscheiden:
-
-- **Michael I. Püntzner († vor 1558)** – erwähnt in einem Nachlassverfahren mit vier minderjährigen Kindern.  
-- **Michael II. Pültz (1562)** – als Beteiligter eines Grundstückshandels gemeinsam mit **Balzer Pultzen**.
-
-Diese Fundstellen stammen aus dem Gerichtsbuch *AG Sayda Nr. 239* und deuten auf zwei Generationen oder Seitenzweige einer ortsansässigen Familie hin.  
-Die späteren Geschäfte lassen eine mögliche Neuordnung des Besitzes nach dem Tod des älteren Michael vermuten.
 
 ---
 
-### Familiennamen
+Aus mehreren Sekundärzusammenstellungen (genealogische Exporte, Ortschronik Dörnthal, Online-Hinweise) lässt sich derzeit nur **plausibel**, aber noch **nicht quellenkritisch gesichert** annehmen, dass im 16. Jahrhundert **ein Erbrichter Piltz/Pültz (Bueltz)** in Dörnthal tätig war.  
+Diese Funktion würde sehr gut zur späteren, im Gutachten beschriebenen Linie passen (Jobst Piltz → Abraham Pilz → Olbernhau).
 
-Die unterschiedlichen Schreibweisen (*Pültz, Pülcz, Püntzner, Puntigen*) könnten auf Lesefehler, aber auch auf regionale Varianten hinweisen.  
-Die genaue Zuordnung erfordert weitere Überprüfung anhand der Originalquelle.
+**Was noch fehlt:**
 
----
+1. Einsicht in das **Gerichtsbuch Dörnthal** (ca. 1560–1620).  
+2. Abgleich mit dem **Amt Lauterstein**, falls der Fall „Witwe Pilzin“ dorthin eskaliert wurde.  
+3. Suche nach **Namensvarianten**: Bueltz / Bülz / Pültz / Piltz.
 
-### Historischer Rahmen
-
-Dörnthal war ein typisches *Waldhufendorf* im Erzgebirge.  
-Mitte des 16. Jahrhunderts förderte Oberberghauptmann **Caspar von Schönberg († 1578)** den Bergbau, von dem auch Familien wie die Pültz/Püntzner profitiert haben könnten.  
-Landwirtschaft und bergbauliche Tätigkeiten standen in dieser Zeit eng beieinander.
-
----
-
-📄 **[Vorläufiger Bericht (PDF)]({{ site.baseurl }}/assets/pdf/bericht_doernthal.pdf)**  
-*Der Bericht wurde unter Verwendung von KI-Hilfsmitteln erstellt und dient vorerst als Gedächtnisstütze für noch ausstehende Detailforschungen.*
-
----
-
-*Quelle:*  
-Sächsisches Staatsarchiv, Bestand 12613 Gerichtsbücher, Nr. GB AG Sayda Nr. 239,  
-Folio 15v–18r und S. 160–161.
+Diese Notiz bleibt so lange **vorläufig**, bis ein Archivalnachweis (Scan oder Signatur) vorliegt.
