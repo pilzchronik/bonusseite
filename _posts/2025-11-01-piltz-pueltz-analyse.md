@@ -5,6 +5,7 @@ date: 2025-11-01
 author: Wolfgang Pilz
 categories: [Ahnenforschung, Sachsen]
 image: /assets/images/doernthal-karte.jpg
+excerpt: "Konsolidierter Forschungsstand zur sächsischen Linie Piltz/Pültz (Dörnthal → Olbernhau → Niederneuschönberg) und Deutung des Witwe-Pilzin-Falls von 1575 auf Basis des PDF-Gutachtens."
 ---
 
 > ⚠️ **Vorläufiger Arbeitsstand**  
@@ -15,44 +16,22 @@ image: /assets/images/doernthal-karte.jpg
 > Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
 
 ---
-<!--more-->
 
+Die Auswertung des PDFs **„Piltz_Pueltz-Genealogie_Analyse-und-Forschung.pdf“** fasst die sächsische Stammlinie über acht Generationen zusammen – von **Michael Piltz (†1565, mutmaßlich Frauenstein)** über **Jobst Piltz (Richter/Erbrichter in Dörnthal)** bis zu **Carl Gottlob Pilz (1738, Niederneuschönberg)**.  
+Auffällig ist der soziale Wandel: vom dörflichen Erbgericht hin zu spezialisierten Handwerks- und Musikberufen im Umfeld von Olbernhau und der Saigerhütte.
 
-### Aktueller Stand *„Piltz/Pültz-Genealogie – Analyse und Forschung“*  
+Wesentliche Punkte:
 
-Ein von gemini erstellter Bericht untersucht die **sächsische Stammlinie Piltz (auch: Pültz oder Bueltz)** von etwa 1510 bis 1738.  
-Ziel war es, die Generationenfolge zu konsolidieren, Namensvarianten zu klären und die Herkunft der frühesten Vorfahren zu bestimmen.
+1. **Namensvarianten**  
+   Die Formen *Bueltz* – *Pültz* – *Piltz* sind als **eine** Familie zu lesen. Für frühe Archivrecherchen (vor 1600) muss daher auch nach „Bueltz“ gesucht werden.
 
-**Ergebnisse in Kürze:**
+2. **Witwe-Pilzin-Fall (1575)**  
+   Die im Gutachten rekonstruierte Auseinandersetzung passt zeitlich exakt zu einem Erb-/Altteil-Konflikt nach dem Tod von Michael Piltz (1565). Die Quelle ist im **Gerichtsbuch Dörnthal** bzw. im **Amt Lauterstein** zu erwarten.
 
-1. **Gesicherte Stammlinie (ca. 1510–1738)**  
-   Von *Michael Piltz* (†1565, vermutlich Frauenstein) über *Jobst Piltz* (Richter von Dörnthal) bis *Carl Gottlob Pilz* (1738, Niederneuschönberg) ergibt sich eine lückenlose Abfolge über acht Generationen.
+3. **Böhmischer Bezug**  
+   Der Böhmen-Kontakt kommt über eine **eingeheiratete** Familie (Brandau → Olbernhau), nicht über die Piltz-Linie selbst.
 
-2. **Sozialer Wandel**  
-   Die Familie wandelt sich vom **Erbrichter in Dörnthal** zur **Handwerker- und Musikerfamilie in Olbernhau/Niederneuschönberg** – ein Beispiel für den Übergang vom feudalen zum handwerklichen Bürgertum im Erzgebirge.
+4. **Tirol-Hypothese**  
+   In den vorliegenden Unterlagen **nicht belegt**; bis zum Archivnachweis als Arbeitshypothese zu behandeln.
 
-3. **Namensentwicklung**  
-   Die Varianten *Bueltz*, *Pültz* und *Piltz* bezeichnen dieselbe Familie.  
-   Frühe Einträge („Bueltz“) sollten daher bei zukünftigen Archivrecherchen berücksichtigt werden.
-
-4. **„Witwe-Pilzin-Fall (1575)“**  
-   Der erwähnte Widerspruch wird als **Erb- oder Altenteilstreit** nach dem Tod von Michael Piltz (1565) interpretiert.  
-   Die Quelle dürfte im **Gerichtsbuch Dörnthal oder Amt Lauterstein** zu finden sein.
-
-5. **Migrationslinien**  
-   - **Böhmen–Bezug**: nachgewiesen über die eingeheiratete Familie *Bach*, die aus Brandau (Böhmen) nach Sachsen kam.  
-   - **Tirol–Hypothese**: durch die Aktenlage **nicht belegt**.
-
----
-
-### Download und Quellen
-
-📄 Vollständiges Gutachten als PDF:  
-[📄 Vollständiges Gutachten anzeigen]({{ site.baseurl }}/assets/pdf/Piltz_Pueltz-Genealogie_Analyse-und-Forschung.pdf)
-
----
-
-**Hinweis:**  
-Für künftige Forschungen werden insbesondere das **Gerichtsbuch Dörnthal** (Bestand 12613) und die **Amtsbücher Lauterstein/Frauenstein** (Sächsisches Hauptstaatsarchiv Dresden) empfohlen.
-
----
+📄 **[Vollständiges Gutachten anzeigen]({{ site.baseurl }}/assets/pdf/Piltz_Pueltz-Genealogie_Analyse-und-Forschung.pdf))**
