@@ -4,7 +4,12 @@ title: "Vorläufige Befunde zur Familie Pültz/Püntzner in Dörnthal im 16. Jah
 date: 2025-10-30
 categories: [Analysen]
 ---
-
+> ⚠️ **Vorläufiger Arbeitsstand**  
+>  
+> Dieser Beitrag wurde **im Wesentlichen mithilfe Künstlicher Intelligenz (KI)** erstellt.  
+> Er dient derzeit **als Information, Gedankenstütze und Entwurf** für weitere, genauere Nachforschungen im Rahmen der *Pilz-Chronik*.  
+>  
+> Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
 Dieser Eintrag fasst einen **vorläufigen Fund** aus dem *Gerichtshandelsbuch von Dörnthal (1550–1596)* zusammen.  
 Die Hinweise deuten auf eine frühe Präsenz der Familie Pültz/Püntzner in der Region Sayda hin, müssen jedoch noch weiter geprüft und ausgewertet werden.
 
