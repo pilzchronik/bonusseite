@@ -43,5 +43,7 @@ paginate: false
 timezone: "Europe/Vienna"
 permalink: pretty
 
+excerpt_separator: <!--more-->
+
 # force rebuild
 rebuild_trigger: "2025-11-01"
