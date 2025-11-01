@@ -7,6 +7,14 @@ categories: [Ahnenforschung, Forensik]
 image: /assets/images/Vinzenz-und-Franziska-Pilz.jpg
 ---
 
+
+> ⚠️ **Vorläufiger Arbeitsstand**  
+>  
+> Dieser Beitrag wurde **im Wesentlichen mithilfe Künstlicher Intelligenz (KI)** erstellt.  
+> Er dient derzeit **als Information, Gedankenstütze und Entwurf** für weitere, genauere Nachforschungen im Rahmen der *Pilz-Chronik*.  
+>  
+> Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
+
 ### 🧬 Forensische Identitätsbestätigung unserer Urgroßeltern
 
 Nach mehreren unabhängigen KI Analysen konnte ein sehr vager Verdacht nun mit hoher Wahrscheinlichkeit bestätigt werden, dass das auf einer alten Atelieraufnahme abgebildete Ehepaar tatsächlich **Vinzenz Pilz (1830–1883)** und **Franziska Maria Anna Pilz, geb. Gahler (1844–1921)** zeigt – die Urgroßeltern unserer Familie.
