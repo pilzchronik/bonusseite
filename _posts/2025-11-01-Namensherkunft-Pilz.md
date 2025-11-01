@@ -3,10 +3,28 @@ layout: post
 title: "Die Herkunft des deutschen Familiennamens Pilz (Bueltz – Pültz – Piltz)"
 date: 2025-11-01
 author: "Wolfgang Pilz"
-categories: [Namenskunde, Ergänzungen]
+categories: ["Namenskunde", "Ergänzungen"]
 excerpt: >
   Widersprechende Version zu jener im Buch. Der Familienname Pilz geht auf mittelhochdeutsch
-  bülz/bülez zurück und bezeichnet ursprünglich einen Sammler oder Händler von Speisepilzen.
+  bülz/bülez zurück und bezeichnet ursprünglich einen Sammler oder Händler von Speisepilzen;
+  die Varianten Bueltz, Pültz, Piltz und Pilz spiegeln dialektale und orthographische
+  Entwicklungen zwischen 12. und 19. Jahrhundert.
+---
+
+> ⚠️ **Vorläufiger Arbeitsstand**  
+>
+> Dieser Beitrag wurde **zur Gänze mithilfe Künstlicher Intelligenz (Claude)** erstellt.  
+> Er dient derzeit **als Information, Gedankenstütze und Entwurf** für weitere, genauere Nachforschungen im Rahmen der *Pilz-Chronik*.  
+> Interessant, weil er die im Buch erwähnte wahrscheinliche Variante teilweise in Frage stellt.
+>
+> Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
+
+---
+
+# Die Herkunft des deutschen Familiennamens Pilz und seiner Varianten
+
+**Der deutsche Familienname Pilz ist ein mittelhochdeutscher Berufsname …**  
+*(ab hier dein langer Text unverändert weiter …)*
 
 > ⚠️ **Vorläufiger Arbeitsstand**  
 >
