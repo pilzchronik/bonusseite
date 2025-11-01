@@ -11,7 +11,7 @@ So findest du auch ältere Berichtigungen wieder.
 
 {% for post in site.posts %}
 - **{{ post.date | date: "%d.%m.%Y" }} – [{{ post.title }}]({{ post.url | relative_url }})**
-  {{ post.excerpt | strip_html | truncate: 200 }}
+ {{ post.excerpt | default: post.content | strip_html | truncate: 200 }}
 {% endfor %}
 
 ---
