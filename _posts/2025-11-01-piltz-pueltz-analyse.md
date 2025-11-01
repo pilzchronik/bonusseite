@@ -16,9 +16,9 @@ image: /assets/images/doernthal-karte.jpg
 
 ---
 
-### Zusammenfassung des Gutachtens *„Piltz/Pültz-Genealogie – Analyse und Forschung“*  
+### Aktueller Stand *„Piltz/Pültz-Genealogie – Analyse und Forschung“*  
 
-Das Gutachten untersucht die **sächsische Stammlinie Piltz (auch: Pültz oder Bueltz)** von etwa 1510 bis 1738.  
+Ein von gemini erstellter Bericht untersucht die **sächsische Stammlinie Piltz (auch: Pültz oder Bueltz)** von etwa 1510 bis 1738.  
 Ziel war es, die Generationenfolge zu konsolidieren, Namensvarianten zu klären und die Herkunft der frühesten Vorfahren zu bestimmen.
 
 **Ergebnisse in Kürze:**
