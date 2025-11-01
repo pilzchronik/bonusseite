@@ -46,7 +46,7 @@ Ziel war es, die Generationenfolge zu konsolidieren, Namensvarianten zu klären 
 ### Download und Quellen
 
 📄 Vollständiges Gutachten als PDF:  
-[📄 Vollständiges Gutachten anzeigen]({{ "/assets/pdf/Piltz_Pueltz-Genealogie_Analyse-und-Forschung.pdf" | relative_url }})
+[📄 Vollständiges Gutachten anzeigen]({{ site.baseurl }}/assets/pdf/Piltz_Pueltz-Genealogie_Analyse-und-Forschung.pdf)
 
 ---
 
