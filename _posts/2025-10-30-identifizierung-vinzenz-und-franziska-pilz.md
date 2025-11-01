@@ -14,6 +14,8 @@ image: /assets/images/Vinzenz-und-Franziska-Pilz.jpg
 > Er dient derzeit **als Information, Gedankenstütze und Entwurf** für weitere, genauere Nachforschungen im Rahmen der *Pilz-Chronik*.  
 >  
 > Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
+<!--more-->
+
 
 ### 🧬 Forensische Identitätsbestätigung unserer Urgroßeltern
 
