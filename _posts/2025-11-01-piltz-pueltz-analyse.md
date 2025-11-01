@@ -15,6 +15,8 @@ image: /assets/images/doernthal-karte.jpg
 > Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
 
 ---
+<!--more-->
+
 
 ### Aktueller Stand *„Piltz/Pültz-Genealogie – Analyse und Forschung“*  
 
