@@ -19,6 +19,7 @@ Diese Seite dient dazu, aktuelle Ergänzungen und Forschungsergebnisse fortzufü
 - Nachträge und Funde zu Personen, Orten und Familienlinien  
 - Berichtigungen und Ergänzungen zu den beiden Bänden  
 - zusätzliche Dokumente, Scans und Quellenhinweise
+- 👉 [Zum vollständigen Verzeichnis]({{ "/verzeichnis/" | relative_url }})
 
 ---
 
