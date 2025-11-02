@@ -54,3 +54,25 @@ footer {
   color: #555;
   font-size: 0.9em;
 }
+/* 
+ * Anpassung des Header-Layouts für Desktop-Ansichten im Minima-Theme.
+ * 
+ * Begründung:
+ * - Entfernt die übergroße Lücke zwischen Titel und Menü, wenn wenige Punkte vorhanden sind.
+ * - Verwendet modernes Flexbox-Layout statt float.
+ * - Bleibt vollständig kompatibel mit dem responsiven (mobilen) Minima-Layout.
+ */
+
+@media (min-width: 600px) {
+
+  .site-header .wrapper {
+    display: flex;
+    align-items: center; /* vertikale Zentrierung */
+    gap: 1rem;           /* definiert Abstand zwischen Titel und Navigation */
+  }
+
+  .site-nav {
+    margin-top: 0;       /* beseitigt den alten float-Versatz */
+  }
+
+}
