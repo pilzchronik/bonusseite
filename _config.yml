@@ -10,7 +10,6 @@ lang: de-AT
 
 # Navigationsstruktur
 header_pages:
-  - index.md
   - posts.md
   - karte.md
   - zeitleiste.html
