@@ -4,13 +4,12 @@
 
 title: "Pilz-Chronik – Bonusseite"
 description: "Ergänzungen, Richtigstellungen und digitale Quellen zur Familienchronik Pilz"
-# theme: minima   ← DAS auskommentieren oder löschen
+
+# ACHTUNG: wir verwenden das entfernte Minima-Theme von GitHub
 remote_theme: "jekyll/minima"
 
 lang: de-AT
 
-
-# Navigationsstruktur
 # Navigationsstruktur
 header_pages:
   - karte.md
