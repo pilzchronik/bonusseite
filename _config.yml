@@ -11,8 +11,8 @@ lang: de-AT
 
 
 # Navigationsstruktur
+# Navigationsstruktur
 header_pages:
-  - posts.md
   - karte.md
   - zeitleiste.html
   - downloads.md
