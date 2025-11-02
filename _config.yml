@@ -7,13 +7,8 @@ description: "Ergänzungen, Richtigstellungen und digitale Quellen zur Familienc
 remote_theme: "jekyll/minima"
 lang: de-AT
 
-# Navigationsstruktur
-header_pages:
-  - karte.md
-  - zeitleiste.html
-  - downloads.md
-  - links.md
-  - kontakt.md
+# Navigationsstruktur (keine Einrückungen nötig!)
+header_pages: ["karte.md", "zeitleiste.html", "downloads.md", "links.md", "kontakt.md"]
 
 # Autorendaten
 author: "Wolfgang Pilz"
@@ -24,13 +19,10 @@ url: "https://pilzchronik.github.io"
 baseurl: "/bonusseite"
 
 # Ordner, die GitHub/Jekyll NICHT bauen soll
-exclude:
-  - vorlagen
+exclude: ["vorlagen"]
 
 # Plugins (nur die erlaubten!)
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+plugins: ["jekyll-feed", "jekyll-seo-tag"]
 
 # Darstellung & Layoutsteuerung
 show_excerpts: false
