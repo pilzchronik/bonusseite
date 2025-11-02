@@ -8,6 +8,7 @@ remote_theme: "jekyll/minima"
 lang: de-AT
 
 # Navigationsstruktur
+# (Hier wurden die ungültigen Leerzeichen durch 2 normale Leerzeichen ersetzt)
 header_pages:
   - karte.md
   - zeitleiste.html
@@ -24,10 +25,12 @@ url: "https://pilzchronik.github.io"
 baseurl: "/bonusseite"
 
 # Ordner, die GitHub/Jekyll NICHT bauen soll
+# (Hier wurden die ungültigen Leerzeichen durch 2 normale Leerzeichen ersetzt)
 exclude:
   - vorlagen
 
 # Plugins (nur die erlaubten!)
+# (Hier wurden die ungültigen Leerzeichen durch 2 normale Leerzeichen ersetzt)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -40,7 +43,5 @@ paginate: false
 timezone: "Europe/Vienna"
 permalink: pretty
 
-excerpt_separator: <!--more-->
-
-# force rebuild
+excerpt_separator: # force rebuild
 rebuild_trigger: "2025-11-01"
