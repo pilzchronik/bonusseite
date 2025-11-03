@@ -5,7 +5,10 @@
 title: "Pilz-Chronik – Bonusseite"
 description: "Ergänzungen, Richtigstellungen und digitale Quellen zur Familienchronik Pilz"
 remote_theme: "jekyll/minima"
-lang: de-AT
+# Sprache und Datumseinstellung
+lang: de
+locale: de_AT
+date_format: "%-d. %B %Y"
 
 # Navigationsstruktur
 header_pages: ["karte.md", "zeitleiste.html", "downloads.md", "links.md", "kontakt.md"]
