@@ -1,11 +1,8 @@
 title: "Pilz-Chronik - Bonusseite"
-description: "Ergaenzungen und Berichtigungen zur Pilz-Chronik (Band 1 und 2)."
-author: "Wolfgang Pilz"
+theme: minima
 
 url: "https://pilzchronik.github.io"
 baseurl: "/bonusseite"
-
-theme: minima
 
 lang: de
 timezone: Europe/Vienna
@@ -13,21 +10,6 @@ timezone: Europe/Vienna
 minima:
   date_format: "%-d. %B %Y"
 
-header_pages:
-  - index.md
-  - about.md
-  - downloads.md
-  - karte.md
-  - links.md
-  - kontakt.md
-
-markdown: kramdown
-kramdown:
-  input: GFM
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-show_excerpts: true
-paginate: 5
