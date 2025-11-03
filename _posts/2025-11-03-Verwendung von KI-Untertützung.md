@@ -15,7 +15,7 @@ Artikel, bei denen KI geholfen hat, sind auf dieser Website entsprechend **geken
 
 #### Vorsicht bei „KI-Sprache“
 
-Allerdings gibt es dabei ein Problem, vor dem ich **warnen möchte**:  
+Allerdings gibt es dabei ein weiteres Problem, vor dem ich **warnen möchte**:  
 Gerade bei Texten, die von *Gemini* stammen, ist die Sprache oft **unnötig aufgeblasen**.  
 Sie täuscht eine Gründlichkeit und Tiefe vor, die der tatsächliche Inhalt nicht immer hat.  
 Die Formulierungen klingen wichtig, aber bei genauerer Prüfung zeigt sich oft:  
