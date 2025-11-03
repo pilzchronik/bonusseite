@@ -1,81 +1,41 @@
-# ============================================================
-#  Pilz-Chronik – Bonusseite
-#  GitHub Pages / Jekyll-Konfiguration
-#  Stand: November 2025
-# ============================================================
-
 title: "Pilz-Chronik – Bonusseite"
+description: "Ergänzungen, Berichtigungen und neue Funde zu Band 1 und Band 2 der Pilz-Chronik."
 author: "Wolfgang Pilz"
-email: "pilz@gmx.at"
-description: >-
-  Ergänzungen, Berichtigungen und neue Funde zur zweibändigen Familienchronik
-  von Wolfgang Pilz: „Band 1 – Die Suche“ und „Band 2 – Ahnentafel und Analysen“.
 
-# ------------------------------------------------------------
-# Website-Grunddaten
-# ------------------------------------------------------------
+# Basis-URLs
 url: "https://pilzchronik.github.io"
 baseurl: "/bonusseite"
-# Ergebnis: https://pilzchronik.github.io/bonusseite/
 
-# ------------------------------------------------------------
-# Theme-Einstellungen
-# ------------------------------------------------------------
+# Theme
 theme: minima
 
-minima:
-  skin: classic
-  date_format: "%-d. %B %Y"   # Ausgabe z. B. "3. November 2025"
-  social_links:
-    github: pilzchronik
-    email: pilz@gmx.at
-
-# ------------------------------------------------------------
-# Sprache und Lokalisierung
-# ------------------------------------------------------------
+# Sprache / Region / Datum
 lang: de
 locale: de_AT
 timezone: Europe/Vienna
 
-# ------------------------------------------------------------
-# Navigation (sichtbar oben)
-# ------------------------------------------------------------
+minima:
+  date_format: "%-d. %B %Y"
+
+# Navigation – nur Seiten, die es wirklich gibt
 header_pages:
   - index.md
-  - neuigkeiten.md
-  - ergänzungen.md
-  - analysen.md
+  - about.md
+  - downloads.md
+  - karte.md
+  - links.md
   - kontakt.md
 
-# ------------------------------------------------------------
-# Markdown- und Blog-Einstellungen
-# ------------------------------------------------------------
+# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
-  hard_wrap: false
 
-# Nur Beiträge aus _posts anzeigen
-collections:
-  posts:
-    output: true
-
-# ------------------------------------------------------------
-# Plugins (nur, was GitHub Pages erlaubt)
-# ------------------------------------------------------------
+# von GitHub erlaubte Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# ------------------------------------------------------------
-# Sonstiges
-# ------------------------------------------------------------
+# Blog-Einstellungen
 show_excerpts: true
-excerpt_separator: "<!--more-->"
 paginate: 5
-
-# ------------------------------------------------------------
-# Copyright / Impressum
-# ------------------------------------------------------------
-footer:
-  text: "© 2025 Wolfgang Pilz – Für den privaten, nicht-kommerziellen Gebrauch"
