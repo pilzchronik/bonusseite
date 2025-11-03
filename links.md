@@ -7,7 +7,7 @@ permalink: /links/
 Diese Seite enthält sämtliche im Buch verwendeten Internet-Quellen.
 Die Einträge sind thematisch geordnet, mit Kurzlink, vollständiger URL und Seitenangabe im Druckwerk.
 
-*(Hinweis: Der frühere Eintrag „Übersicht aller URLs im Buch“ wurde entfernt, da er auf diese Seite verweist.)*
+
 
 ---
 
