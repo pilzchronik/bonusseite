@@ -1,17 +1,15 @@
 ---
 layout: page
-title: Kontakt & Impressum
+title: Kontakt
 permalink: /kontakt/
+description: "Kontakt zur Bonusseite der Pilz-Chronik."
 ---
 
-# Kontakt & Impressum
+## Kontakt
 
-**E-Mail:** [pilz@gmx.at](mailto:pilz@gmx.at)
+Diese Bonusseite wird von **Wolfgang Pilz** betreut.
 
----
+- E-Mail: <mailto:pilz@gmx.at>
+- Zweck der Seite: Ergänzungen, Berichtigungen und neue Funde zu *Band 1* und *Band 2* der Pilz-Chronik.
 
-**Medieninhaber & verantwortlich für den Inhalt:**  
-Wolfgang Pilz  
-
-**Grundlegende Richtung der Website:**  
-Private Familienchronik mit genealogischen und historischen Inhalten.
+Bitte geben Sie beim Schreiben an, auf welche Stelle der Chronik oder der Bonusseite Sie sich beziehen.
