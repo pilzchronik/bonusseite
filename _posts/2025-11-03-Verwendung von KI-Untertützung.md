@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Zur Verwendung von KI-generierten Texten auf dieser Website"
-date: 2025-10-30
+date: 2025-11-03
 categories: [Analysen]
 excerpt: "Hinweis: Verwendung KI unterstützt erstellter Beiträge; Beweissicherung; Warnhinweise beachten;"
 ---
