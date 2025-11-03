@@ -1,42 +1,81 @@
-# Pilz-Chronik – Bonusseite
-# Konfiguration (GitHub Pages)
-# Stand: November 2025
+# ============================================================
+#  Pilz-Chronik – Bonusseite
+#  GitHub Pages / Jekyll-Konfiguration
+#  Stand: November 2025
+# ============================================================
 
 title: "Pilz-Chronik – Bonusseite"
-description: "Ergänzungen, Richtigstellungen und digitale Quellen zur Familienchronik Pilz"
-remote_theme: "jekyll/minima"
-# Sprache und Datumseinstellung
-lang: de
-locale: de_AT
-date_format: "%-d. %B %Y"
-
-# Navigationsstruktur
-header_pages: ["karte.md", "zeitleiste.html", "downloads.md", "links.md", "kontakt.md"]
-
-# Autorendaten
 author: "Wolfgang Pilz"
 email: "pilz@gmx.at"
+description: >-
+  Ergänzungen, Berichtigungen und neue Funde zur zweibändigen Familienchronik
+  von Wolfgang Pilz: „Band 1 – Die Suche“ und „Band 2 – Ahnentafel und Analysen“.
 
-# Seiten- und Verzeichnisstruktur
+# ------------------------------------------------------------
+# Website-Grunddaten
+# ------------------------------------------------------------
 url: "https://pilzchronik.github.io"
 baseurl: "/bonusseite"
+# Ergebnis: https://pilzchronik.github.io/bonusseite/
 
-# Ordner, die GitHub/Jekyll NICHT bauen soll
-exclude: ["vorlagen"]
+# ------------------------------------------------------------
+# Theme-Einstellungen
+# ------------------------------------------------------------
+theme: minima
 
-# Plugins (nur die erlaubten!)
-plugins: ["jekyll-feed", "jekyll-seo-tag"]
+minima:
+  skin: classic
+  date_format: "%-d. %B %Y"   # Ausgabe z. B. "3. November 2025"
+  social_links:
+    github: pilzchronik
+    email: pilz@gmx.at
 
-# Darstellung & Layoutsteuerung
-show_excerpts: false
-paginate: false
+# ------------------------------------------------------------
+# Sprache und Lokalisierung
+# ------------------------------------------------------------
+lang: de
+locale: de_AT
+timezone: Europe/Vienna
 
-# Lokalisierung
-timezone: "Europe/Vienna"
-permalink: pretty
+# ------------------------------------------------------------
+# Navigation (sichtbar oben)
+# ------------------------------------------------------------
+header_pages:
+  - index.md
+  - neuigkeiten.md
+  - ergänzungen.md
+  - analysen.md
+  - kontakt.md
 
-# Trennmarke für Beiträge
+# ------------------------------------------------------------
+# Markdown- und Blog-Einstellungen
+# ------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Nur Beiträge aus _posts anzeigen
+collections:
+  posts:
+    output: true
+
+# ------------------------------------------------------------
+# Plugins (nur, was GitHub Pages erlaubt)
+# ------------------------------------------------------------
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# ------------------------------------------------------------
+# Sonstiges
+# ------------------------------------------------------------
+show_excerpts: true
 excerpt_separator: "<!--more-->"
+paginate: 5
 
-# force rebuild
-rebuild_trigger: "2025-11-01"
+# ------------------------------------------------------------
+# Copyright / Impressum
+# ------------------------------------------------------------
+footer:
+  text: "© 2025 Wolfgang Pilz – Für den privaten, nicht-kommerziellen Gebrauch"
