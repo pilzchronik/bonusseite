@@ -7,7 +7,7 @@ permalink: /posts/
 # Alle Beiträge
 
 Hier sind **alle bisher erschienenen Beiträge** der Bonusseite aufgelistet – chronologisch rückwärts.
-So findest du auch ältere Berichtigungen wieder.
+So finden Sie auch ältere Berichtigungen wieder.
 
 {% for post in site.posts %}
 - **{{ post.date | date: "%d.%m.%Y" }} – [{{ post.title }}]({{ post.url | relative_url }})**
