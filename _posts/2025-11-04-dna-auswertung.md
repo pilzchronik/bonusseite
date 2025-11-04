@@ -10,6 +10,5 @@ Diese Seite zeigt die drei Bereiche **Y-DNA**, **mtDNA** und **autosomal** über
 
 👉 Die Darstellung finden Sie hier:
 
-[Zur externen DNA-Seite (Gemini)](https://gemini.google.com/share/4d7b51374484)
+[Zur DNA-Auswertung](/bonusseite/dna-analyse.html)
 
-**Hinweis:** Die Seite liegt nicht auf GitHub, sondern bei Google/Gemini. Änderungen können daher außerhalb der Bonusseite erfolgen.
