@@ -10,7 +10,7 @@ Auf dieser Seite sollen künftig ausgewählte Materialien als Download zur Verf�
 
 Die vorläufigen Fassungen der beiden Bände stehen hier zum privaten Lesen bereit:
 
-- [Band 1 – Die Suche (PDF)](/assets/pdf/PilzChronik_1.pdf)
+- [Band 1 – Die Suche (PDF)](/assets/pdf//assets/pdf/PilzChronik_1.pdf)
 - [Band 2 – Ahnentafel und Analysen (PDF)](/assets/pdf/PilzChronik_2.pdf)
 
 Einige Beiträge enthalten bereits eingebettete oder verlinkte PDF-Dateien. Diese finden Sie direkt im jeweiligen Beitrag unter „Neuigkeiten“.
