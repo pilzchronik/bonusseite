@@ -10,6 +10,11 @@ timezone: Europe/Vienna
 minima:
   date_format: "%-d. %B %Y"
 
+# Seiten, die oben im Menü angezeigt werden sollen
+header_pages:
+  - index.md
+  - dna.md
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
