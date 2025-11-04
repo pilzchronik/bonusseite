@@ -328,4 +328,13 @@ Seiten: Bd. 2, S. 190
 
 ---
 
+## DNA
+
+**DNA-Analyse: Übersicht** Kurzlink: Beitrag vom 4. November 2025  
+🔗 [Link zur Seite](https://pilzchronik.github.io/bonusseite/2025/11/04/dna-analyse-zu-vaeterlicher-muetterlicher-und-autosomaler-linie.html)  
+Seiten: Bd. 2, S. 123 ff.
+
+
+---
+
 *Stand: Oktober 2025 – alle Links wurden geprüft; Format: TT.MM.JJJJ; Seitenangaben gemäß Druckausgabe.*
