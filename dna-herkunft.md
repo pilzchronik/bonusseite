@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DNA-Herkunft
-permalink: /dna-herkunft/
+permalink: /dna/
 ---
 
 # DNA-Herkunft
