@@ -279,7 +279,7 @@ permalink: /dna/
                 <div class="data-value"><strong>509</strong></div>
             </div>
             <div class="data-item">
-                <div class="data-label">STR Matches (25-111 Marker)</div>
+                <div class="data-label">STR Matches (25–111 Marker)</div>
                 <div class="data-value"><strong>0</strong></div>
             </div>
         </div>
@@ -387,81 +387,3 @@ permalink: /dna/
             <li>Östliche Herkunft (Kaukasus/Ukraine), nicht iberisch wie H1/H3</li>
             <li>Verbindung zur Yamnaya-Kultur der Bronzezeit</li>
             <li>Sehr späte Entstehung (Mittelalter, ca. 1000 n. Chr.)</li>
-            <li>Hauptverbreitung im Alpen-Balkan-Raum</li>
-            <li>Teil der größeren H41-Linie, die mit Bronzezeit-Migrationen nach Europa kam</li>
-            <li>Mischung aus Östlichen Jägern und Sammlern (EHG) und Kaukasischen Jägern (CHG)</li>
-        </ul>
-
-        <h3>Migrationsgeschichte</h3>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-date">25.000–20.000 v. Chr.</div>
-                <div class="timeline-location">Kaukasus/Naher Osten</div>
-                <p>Entstehung der Ur-Haplogruppe H im Kaukasus-Refugium während der letzten Eiszeit.</p>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">15.000–10.000 v. Chr.</div>
-                <div class="timeline-location">Osteuropa (Ukraine)</div>
-                <p>Östliche Jäger und Sammler (EHG) im ukrainischen Refugium.</p>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">6.250 v. Chr.</div>
-                <div class="timeline-location">Pontisch-Kaspische Steppe</div>
-                <p>Entstehung der Großmutterlinie H41 in der Steppe.</p>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">3.000–2.700 v. Chr.</div>
-                <div class="timeline-location">Südrussland (Yamnaya-Kultur)</div>
-                <p>Yamnaya-Reitervolk, Mischung aus EHG und CHG (Kaukasische Jäger).</p>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">1.750 v. Chr.</div>
-                <div class="timeline-location">Bronzezeit-Migration nach Europa</div>
-                <p>Entstehung der Mutterlinie H41a, massive Migration der Yamnaya nach Mitteleuropa.</p>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">1.000 n. Chr.</div>
-                <div class="timeline-location">Alpen-Balkan-Gebiet</div>
-                <p>Entstehung des Unterzweigs H41a9 im frühen Mittelalter.</p>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-date">Heute</div>
-                <div class="timeline-location">Österreich, Kroatien, Slowenien</div>
-                <p>Hauptverbreitung im Alpen-Balkan-Raum.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Zusammenfassung -->
-    <section id="zusammenfassung">
-        <h2>Zusammenfassung</h2>
-        
-        <div class="info-box">
-            <h3>Väterliche Linie</h3>
-            <p>
-                Haplogruppe J-FT159612 aus dem Nahen Osten, entstanden ca. 200 v. Chr., 
-                heute hauptsächlich in Mitteleuropa verbreitet.
-            </p>
-        </div>
-
-        <div class="info-box">
-            <h3>Mütterliche Linie</h3>
-            <p>
-                Haplogruppe H41a9 mit östlicher Herkunft (Kaukasus/Ukraine über Yamnaya), 
-                entstanden ca. 1000 n. Chr. im Alpen-Balkan-Raum.
-            </p>
-        </div>
-
-        <p>
-            Beide Linien zeigen interessante Migrationsmuster: Die väterliche Linie kam mit den 
-            frühen Bauern aus dem Nahen Osten, während die mütterliche Linie mit den Yamnaya-Reitervölkern 
-            aus der Steppe nach Europa gelangte. Die Kombination beider Linien spiegelt die komplexe 
-            Besiedlungsgeschichte Mitteleuropas wider.
-        </p>
-    </section>
-
-    <footer>
-        <p>Stand: November 2025 – Pilz-Chronik</p>
-        <p>Datenquelle: FamilyTreeDNA, Kit 330595</p>
-    </footer>
-</div>
