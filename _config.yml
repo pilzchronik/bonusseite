@@ -13,7 +13,7 @@ minima:
 # Seiten, die oben im Menü angezeigt werden sollen
 header_pages:
   - index.md
-  - dna.md
+  - dna-herkunft.html
 
 plugins:
   - jekyll-feed
