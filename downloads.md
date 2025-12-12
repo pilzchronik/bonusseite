@@ -10,7 +10,7 @@ Auf dieser Seite finden Sie derzeit nur die Übersichten und Verzeichnisse zu de
 > **Hinweis:** Die vollständigen Bücher stehen hier nicht zum Download bereit. Diese Seite dient der Orientierung und Recherche.
 
 ## Inhaltsverzeichnisse
-
+<pre>
 Band 1
 Vorwort	7
 Dank	8
@@ -135,13 +135,13 @@ Ortsverzeichnis & Historische Geografie	161
 Karten & Geografisches	162
 Bildnachweis	166
 Gesamtindex	169
-
+</pre>
 ## Register
 
 Das Register hilft Ihnen, schnell bestimmte Namen, Orte sowie Sachthemen in der Chronik zu finden:
 
 - **Namens- und Ortsverzeichnis:** 
-
+<pre>
 I. PERSONENVERZEICHNIS
 A
 Auer, Wolfgang, Kekulé 216, Häusler Frankenburg – Band 2: 66
@@ -378,6 +378,7 @@ Waldhäuser, Oberösterreich, Forsthaus Alois Johann – Band 1: 40, 55; Band 2:
 Wallern an der Trattnach, Oberösterreich, Reichhof heute – Band 1: 95
 Weipert, (Vejprty), Böhmen, Geburtsort Alois Johann – Band 1: 36; Band 2: 17
 Wels, Oberösterreich, Tod Johann B. Eberstaller – Band 1: 91–92; Band 2: 18, 85, 144
+</pre>
 ---
 
 Haben Sie Fragen zu einem bestimmten Eintrag oder suchen Sie eine spezielle Information?
