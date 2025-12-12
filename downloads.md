@@ -12,8 +12,8 @@ Auf dieser Seite finden Sie derzeit nur die Übersichten und Verzeichnisse zu de
 
 Hier können Sie einsehen, welche Themen und Familienzweige in den Bänden behandelt werden:
 
-- **Band 1 – Inhaltsverzeichnis ansehen (PDF)](/assets/pdf/band_1_inhalt.pdf)
-- **Band 2 – Inhaltsverzeichnis ansehen (PDF)](/assets/pdf/band_2_inhalt.pdf)
+- **Band 1** – [Inhaltsverzeichnis ansehen (PDF)](/assets/pdf/band_1_inhalt.pdf)
+- **Band 2** – [Inhaltsverzeichnis ansehen (PDF)](/assets/pdf/band_2_inhalt.pdf)
 
 ## Register
 
