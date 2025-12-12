@@ -29,7 +29,6 @@ Da die "Pilz-Chronik" als Buchprojekt abgeschlossen ist, dienen diese externen S
   Grundlagen und Details zu den Haplogruppen.
 
 ---
-
 ---
 
 ## Projekt- & Buch-Links
