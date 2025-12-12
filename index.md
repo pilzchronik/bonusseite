@@ -12,6 +12,21 @@ Hier erscheinen Ergänzungen, neue Funde und Berichtigungen zu:
 Die gedruckten Bände bleiben die Hauptquelle.  
 Diese Seite dient dazu, aktuelle Ergänzungen und Forschungsergebnisse fortzuführen.
 
+### Weiterführende Online-Angebote
+
+Diese Bonusseite ist der zentrale, dauerhafte Speicherort. Zusätzlich pflegen wir spezialisierte Seiten für vertiefende Forschung und interaktive Daten:
+
+**🧬 Interaktive Stammbäume (Lebende Datenbanken)**
+Hier können Sie selbst nach Namen suchen und Verwandtschaftsverhältnisse prüfen.
+* [**TNG Datenbank (pilz.fun)**](https://www.pilz.fun) – *Passwortgeschützte Hauptdatenbank*
+* [**MacFamilyTree Online**](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html) – *Alternative grafische Ansicht*
+
+**🔍 Spezialisierte Forschung (Themenseiten)**
+Detaillierte Hintergründe zu komplexen Familienzweigen und Rätseln.
+* [**Familie Kofler & Cofler**](https://sites.google.com/view/koflerzucofler/startseite) – *Von Osttirol nach Italien*
+* [**Rätsel Slawonien**](https://sites.google.com/view/raetsel-in-slawonien/startseite) – *Die Spuren von Alois Vjekoslav Pilz*
+* [**Das Bechinie-Rätsel**](https://sites.google.com/view/raetselphilippbechinie/startseite) – *Forschung zu den adeligen Wurzeln*
+* [**DNA-Genealogie**](https://sites.google.com/view/pilzdna/startseite) – *Details zu Haplogruppen und Urzeit*
 ---
 
 ## Inhalt
