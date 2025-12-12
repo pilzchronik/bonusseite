@@ -11,36 +11,12 @@ Dies ist die zentrale Anlaufstelle für Ergänzungen, neue Funde und Berichtigun
 - **Band 2 – Ahnentafel und Analysen**
 
 Die gedruckten Bände bleiben die Hauptquelle.
-Diese Seite ist die **einzige Plattform, die noch aktiv betreut wird**.
-
 ---
+## Weiterführende Forschung
 
-## Das digitale Familien-Archiv
+Die spezialisierten Webseiten (Slawonien, Kofler, Bechinie, DNA) sowie die interaktiven Stammbaum-Datenbanken finden Sie nun gesammelt unter:
 
-Über viele Jahre sind neben dem Buchprojekt verschiedene spezialisierte Webseiten entstanden. Da ich dieses Projekt als Privatperson führe, kann ich diese Vielzahl an Seiten nicht mehr laufend pflegen.
-
-Sie bleiben jedoch als **abgeschlossene Archive ("Lese-Bibliothek")** online, damit die dort gesammelten wertvollen Details nicht verloren gehen. Bitte beachten Sie, dass dort keine Aktualisierungen mehr stattfinden.
-
-### 🧬 Stammbaum-Datenbanken
-*(Stand der Daten: Archiviert)*
-
-- [**TNG Datenbank (pilz.fun)**](https://www.pilz.fun)  
-  Umfangreiche Datenbank mit Suchfunktion.
-- [**MacFamilyTree Online**](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html)  
-  Grafische Ansicht der Verwandtschaftsverhältnisse.
-
-### 🔍 Themen-Archive
-*(Detaillierte Forschungsergebnisse aus früheren Jahren)*
-
-- [**Familie Kofler & Cofler**](https://sites.google.com/view/koflerzucofler/startseite)  
-  Historie der Wanderung von Osttirol nach Italien.
-- [**Rätsel Slawonien**](https://sites.google.com/view/raetsel-in-slawonien/startseite)  
-  Umfangreiche Materialsammlung zu Alois Vjekoslav Pilz.
-- [**Das Bechinie-Rätsel**](https://sites.google.com/view/raetselphilippbechinie/startseite)  
-  Forschungsstand zu den möglichen adeligen Wurzeln.
-- [**DNA-Genealogie**](https://sites.google.com/view/pilzdna/startseite)  
-  Grundlagen und Details zu den Haplogruppen.
-
+[→ Zu den Forschungsprojekten & Datenbanken](/links/)
 ---
 
 ## Inhalt dieser Bonusseite
