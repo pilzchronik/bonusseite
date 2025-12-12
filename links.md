@@ -1,7 +1,7 @@
 
 ---
 layout: page
-title: Quellen & Links
+title: Quellen und Links
 permalink: /links/
 ---
 
@@ -351,4 +351,4 @@ Seiten: Bd. 2, S. 190
 
 ---
 
-*Stand: Dezember 2023 – alle Links wurden geprüft; Format: TT.MM.JJJJ; Seitenangaben gemäß Druckausgabe.*
+*Stand: Dezember 2025 – alle Links wurden geprüft; Format: TT.MM.JJJJ; Seitenangaben gemäß Druckausgabe.*
