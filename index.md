@@ -16,7 +16,7 @@ Die gedruckten Bände bleiben die Hauptquelle.
 
 Die spezialisierten Webseiten (Slawonien, Kofler, Bechinie, DNA) sowie die interaktiven Stammbaum-Datenbanken finden Sie nun gesammelt unter:
 
-[→ Zu den Forschungsprojekten & Datenbanken](/links/)
+[→ Zu den Forschungsprojekten & Datenbanken](https://pilzchronik.github.io/bonusseite/links/)
 ---
 
 ## Inhalt dieser Bonusseite
