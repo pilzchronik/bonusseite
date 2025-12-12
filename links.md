@@ -1,13 +1,34 @@
+
 ---
 layout: page
 title: Quellen & Links
 permalink: /links/
 ---
 
-Diese Seite enthält sämtliche im Buch verwendeten Internet-Quellen.
+Diese Seite enthält unten sämtliche im Buch verwendeten Internet-Quellen. Sie beginnt aber mit Webprojekten, welche nicht mehr gepflegt werden, aber interessante Daten enthalten.
 Die Einträge sind thematisch geordnet, mit Kurzlink, vollständiger URL und Seitenangabe im Druckwerk.
 
 
+---
+## Spezialisierte Forschung & Datenbanken
+*(Frühere Webprojekte und interaktive Stammbäume)*
+
+Da die "Pilz-Chronik" als Buchprojekt abgeschlossen ist, dienen diese externen Seiten als vertiefende **Lese-Bibliothek** für spezielle Themen:
+
+- [**TNG Datenbank (pilz.fun)**](https://www.pilz.fun)
+  Umfangreiche Datenbank mit Suchfunktion.
+- [**MacFamilyTree Online**](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html)
+  Grafische Ansicht der Verwandtschaftsverhältnisse.
+- [**Familie Kofler & Cofler**](https://sites.google.com/view/koflerzucofler/startseite)
+  Historie der Wanderung von Osttirol nach Italien.
+- [**Rätsel Slawonien**](https://sites.google.com/view/raetsel-in-slawonien/startseite)
+  Materialsammlung zu Alois Vjekoslav Pilz.
+- [**Das Bechinie-Rätsel**](https://sites.google.com/view/raetselphilippbechinie/startseite)
+  Forschungsstand zu den möglichen adeligen Wurzeln.
+- [**DNA-Genealogie**](https://sites.google.com/view/pilzdna/startseite)
+  Grundlagen und Details zu den Haplogruppen.
+
+---
 
 ---
 
@@ -281,7 +302,7 @@ Seiten: Bd. 2, S. 187
 **Historische Karten Tschechien** Kurzlink: `mapy.cz` 
 🔗 [Link zu mapy.cz](https://mapy.cz/)  
 Seiten: Bd. 2, S. 188
-            s
+            
 **Maps Arcanum – Historische Karten Zentraleuropa** Kurzlink: `mapire.eu`  
 🔗 [Link zu Maps Arcanum](https://mapire.eu/en/)  
 Seiten: Bd. 2, S. 188
@@ -328,13 +349,7 @@ Seiten: Bd. 2, S. 190
 
 ---
 
-## DNA
-
-**DNA-Analyse: Übersicht** Kurzlink: Beitrag vom 4. November 2025  
-🔗 [Link zur Seite](https://pilzchronik.github.io/bonusseite/2025/11/04/dna-analyse-zu-vaeterlicher-muetterlicher-und-autosomaler-linie.html)  
-Seiten: Bd. 2, S. 123 ff.
-
 
 ---
 
-*Stand: Oktober 2025 – alle Links wurden geprüft; Format: TT.MM.JJJJ; Seitenangaben gemäß Druckausgabe.*
+*Stand: Dezember 2023 – alle Links wurden geprüft; Format: TT.MM.JJJJ; Seitenangaben gemäß Druckausgabe.*
