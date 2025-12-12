@@ -374,4 +374,6 @@ Wels, Oberösterreich, Tod Johann B. Eberstaller – Band 1: 91–92; Band 2: 18
 ---
 
 Haben Sie Fragen zu einem bestimmten Eintrag oder suchen Sie eine spezielle Information?
-Wenden Sie sich gerne direkt an den Autor: [pilz@gmx.at](mailto:pilz@gmx.at)
+Wenden Sie sich gerne direkt an den Autor: **pilz (at) gmx . at**
+
+*(Bitte ersetzen Sie beim Schreiben das "(at)" durch ein @-Zeichen und lassen Sie die Leerzeichen weg)*
