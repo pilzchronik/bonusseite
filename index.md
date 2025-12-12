@@ -3,55 +3,59 @@ layout: page
 title: "Pilz-Chronik – Bonusseite"
 ---
 
-Willkommen auf der **Bonusseite zur Pilz-Chronik**.  
-Hier erscheinen Ergänzungen, neue Funde und Berichtigungen zu:
+Willkommen auf der **Bonusseite zur Pilz-Chronik**.
 
-- **Band 1 – Die Suche** - **Band 2 – Ahnentafel und Analysen**
+Dies ist die zentrale Anlaufstelle für Ergänzungen, neue Funde und Berichtigungen zu den gedruckten Bänden:
 
-Die gedruckten Bände bleiben die Hauptquelle.  
-Diese Seite dient dazu, aktuelle Ergänzungen und Forschungsergebnisse fortzuführen.
+- **Band 1 – Die Suche**
+- **Band 2 – Ahnentafel und Analysen**
+
+Die gedruckten Bände bleiben die Hauptquelle.
+Diese Seite ist die **einzige Plattform, die noch aktiv betreut wird**.
 
 ---
 
-## Weiterführende Online-Angebote
+## Das digitale Familien-Archiv
 
-Diese Bonusseite ist der zentrale, dauerhafte Speicherort. Zusätzlich pflegen wir spezialisierte Seiten für vertiefende Forschung und interaktive Daten.
+Über viele Jahre sind neben dem Buchprojekt verschiedene spezialisierte Webseiten entstanden. Da ich dieses Projekt als Privatperson führe, kann ich diese Vielzahl an Seiten nicht mehr laufend pflegen.
 
-### 🧬 Interaktive Stammbäume
-*(Lebende Datenbanken zum Suchen)*
+Sie bleiben jedoch als **abgeschlossene Archive ("Lese-Bibliothek")** online, damit die dort gesammelten wertvollen Details nicht verloren gehen. Bitte beachten Sie, dass dort keine Aktualisierungen mehr stattfinden.
+
+### 🧬 Stammbaum-Datenbanken
+*(Stand der Daten: Archiviert)*
 
 - [**TNG Datenbank (pilz.fun)**](https://www.pilz.fun)  
-  Passwortgeschützte Hauptdatenbank
+  Umfangreiche Datenbank mit Suchfunktion.
 - [**MacFamilyTree Online**](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html)  
-  Alternative grafische Ansicht
+  Grafische Ansicht der Verwandtschaftsverhältnisse.
 
-### 🔍 Spezialisierte Forschung
-*(Themenseiten zu komplexen Familienzweigen)*
+### 🔍 Themen-Archive
+*(Detaillierte Forschungsergebnisse aus früheren Jahren)*
 
 - [**Familie Kofler & Cofler**](https://sites.google.com/view/koflerzucofler/startseite)  
-  Von Osttirol nach Italien
+  Historie der Wanderung von Osttirol nach Italien.
 - [**Rätsel Slawonien**](https://sites.google.com/view/raetsel-in-slawonien/startseite)  
-  Die Spuren von Alois Vjekoslav Pilz
+  Umfangreiche Materialsammlung zu Alois Vjekoslav Pilz.
 - [**Das Bechinie-Rätsel**](https://sites.google.com/view/raetselphilippbechinie/startseite)  
-  Forschung zu den adeligen Wurzeln
+  Forschungsstand zu den möglichen adeligen Wurzeln.
 - [**DNA-Genealogie**](https://sites.google.com/view/pilzdna/startseite)  
-  Details zu Haplogruppen und Urzeit
+  Grundlagen und Details zu den Haplogruppen.
 
 ---
 
 ## Inhalt dieser Bonusseite
 
-Hier finden Sie:
-- Nachträge und Funde zu Personen, Orten und Familienlinien  
-- Berichtigungen und Ergänzungen zu den beiden Bänden  
-- zusätzliche Dokumente, Scans und Quellenhinweise
+Hier finden Sie die aktuellen Nachträge:
+- Funde zu Personen, Orten und Familienlinien
+- Berichtigungen und Ergänzungen zu den Bänden
+- Zusätzliche Dokumente und Quellenhinweise
 
 ---
 
 ## Neueste Beiträge
 
 {% for post in site.posts limit:3 %}
-- **{{ post.date | date: "%d.%m.%Y" }} – [{{ post.title }}]({{ post.url | relative_url }})** {{ post.excerpt | strip_html | truncate: 180 }}
+- **{{ post.date | date: "%d.%m.%Y" }} – [{{ post.title }}]({{ post.url | relative_url }})**
 {% endfor %}
 
 [→ Alle Beiträge anzeigen]({{ "/posts/" | relative_url }})
@@ -60,8 +64,8 @@ Hier finden Sie:
 
 ## Downloads
 
-Ergänzende Inhalte zur *Pilz-Chronik* stehen gesammelt auf der Seite:  
-[→ Downloads anzeigen]({{ "/downloads/" | relative_url }})
+Übersichten und Verzeichnisse zur *Pilz-Chronik* finden Sie hier:  
+[→ Zu den Downloads]({{ "/downloads/" | relative_url }})
 
 ---
 
