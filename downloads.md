@@ -161,7 +161,7 @@ Cofler, Maria Antonietta, (verh. Gioppi), Garibaldi-Anekdote, Radetzky-Erzähler
 Cofler, Nany, im Testament erwähnt – Band 2: 137, 140
 Cofler, Pietro, Handelskammer Rovereto; Präsident; Lederfabrikant – Band 1: 120; Band 2: 81
 D
-Dorudi, Helga, (geb. Pilz), Cousine, Graz – Band 1: 71,
+Dorudi, Helga, (geb. Pilz), Cousine, Graz – Band 1: 71, 91, 134
 E
 Eberstaller, Dr. Oskar, [1886–1939], Orgelsachverständiger – Band 2: 86
 Eberstaller, Dr. Richard, [1886–1945], ÖFB-Präsident, Jurist – Band 2: 85–89
@@ -370,6 +370,7 @@ Wallern an der Trattnach, Oberösterreich, Reichhof heute – Band 1: 95
 Weipert, (Vejprty), Böhmen, Geburtsort Alois Johann – Band 1: 36; Band 2: 17
 Wels, Oberösterreich, Tod Johann B. Eberstaller – Band 1: 91–92; Band 2: 18, 85, 144
 </pre>
+
 ---
 
 Haben Sie Fragen zu einem bestimmten Eintrag oder suchen Sie eine spezielle Information?
