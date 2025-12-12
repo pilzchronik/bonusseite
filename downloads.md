@@ -1,7 +1,7 @@
 
 ---
 layout: page
-title: "Buch-Inhalt & Downloads"
+title: Buch-Inhalt und Downloads
 permalink: /downloads/
 ---
 
