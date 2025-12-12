@@ -2,11 +2,12 @@
 layout: page
 title: Buchinhalt und Downloads
 permalink: /downloads/
+description: "Vollständiges Inhaltsverzeichnis und Namensregister der Pilz-Chronik (Band 1 & 2). Finden Sie hier alle dokumentierten Vorfahren, Orte und Familiennamen aus der Genealogie."
 ---
 
-Auf dieser Seite finden Sie derzeit nur die Übersichten und Verzeichnisse zu den gedruckten Bänden der Pilz-Chronik.
+Auf dieser Seite finden Sie das vollständige Inhaltsverzeichnis und das Namensregister der gedruckten Bände der **Pilz-Chronik**.
 
-> **Hinweis:** Die vollständigen Bücher stehen hier nicht zum Download bereit. Diese Seite dient der Orientierung und Recherche.
+> **Hinweis:** Die vollständigen Bücher stehen hier nicht zum Download bereit. Diese Seite dient der Orientierung und Recherche für Familienforscher.
 
 ## Inhaltsverzeichnisse & Register
 
@@ -375,5 +376,3 @@ Wels, Oberösterreich, Tod Johann B. Eberstaller – Band 1: 91–92; Band 2: 18
 
 Haben Sie Fragen zu einem bestimmten Eintrag oder suchen Sie eine spezielle Information?
 Wenden Sie sich gerne direkt an den Autor: **pilz (at) gmx . at**
-
-*(Bitte ersetzen Sie beim Schreiben das "(at)" durch ein @-Zeichen und lassen Sie die Leerzeichen weg)*
