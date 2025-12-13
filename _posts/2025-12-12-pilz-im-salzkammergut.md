@@ -4,12 +4,12 @@ title: "Der Name Pilz im Salzkammergut: Geschichte einer Familie zwischen Sachse
 date: 2025-12-12
 ---
 
-> ⚠️ **Vorläufiger Arbeitsstand**  
->
-> Dieser Beitrag wurde **im Wesentlichen mithilfe Künstlicher Intelligenz (KI)** erstellt.  
-> Er dient derzeit **als Information, Gedankenstütze und Entwurf** für weitere, genauere Nachforschungen im Rahmen der *Pilz-Chronik*.  
->
-> Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
+
+⚠️ **Vorläufiger Arbeitsstand**  
+
+Dieser Beitrag wurde **im Wesentlichen mithilfe Künstlicher Intelligenz (KI)** erstellt.  
+Er dient derzeit **als Information, Gedankenstütze und Entwurf** für weitere, genauere Nachforschungen im Rahmen der *Pilz-Chronik*.  
+Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
 
 ---
 *Eine Analyse der Wanderungsbewegungen der Frühen Neuzeit und der sächsischen Wurzeln.*
