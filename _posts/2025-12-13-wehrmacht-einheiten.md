@@ -29,7 +29,7 @@ Die Rekonstruktion basiert auf den Stammdaten (Einheiten, Zeiträume), die ich v
 
 Eine ergänzende Recherche im Bundesarchiv-Militärarchiv in Freiburg ist in Vorbereitung, um auch diese letzte Quelle zu prüfen. Nach aktueller Einschätzung sind die Aussichten auf den Fund einer persönlichen Akte jedoch gering, da Personalunterlagen für Dienstgrade unterhalb der Offiziersebene dort in der Regel nicht archiviert wurden, sofern keine gerichtlichen Verfahren anhängig waren. Die Bedeutung dieses Archivs liegt für diese Dokumentation daher primär in den dort verwahrten Kriegstagebüchern der übergeordneten Einheiten, die den militärischen Kontext liefern.
 
-Verwendet wurden:
+Verwendet wurden zudem:
 - Fachliteratur zur Militärgeschichte (u.a. "Lexikon der Wehrmacht", "Blutiges Edelweiß" von Ahlfen/Moll)
 - Forschungen zur Wehrmacht im Vernichtungskrieg
 - Dokumentationen zu Kriegsverbrechen der beteiligten Großverbände
@@ -80,19 +80,23 @@ Dies ist die kritischste Station. Das Gebirgsjäger-Regiment 99 war Teil der 1. 
 
 **Einsatzrealität:** Die Division operierte im Kaukasus in einem Raum, in dem die Grenzen zwischen Partisanenbekämpfung, Judenverfolgung und Terror gegen die Zivilbevölkerung vollständig verschwammen.
 
+**Medizinische Erkenntnisse aus den Akten:**
+Ein Karteikarteneintrag vom Juni 1942 verzeichnet einen Lazarettaufenthalt aufgrund von Venenproblemen ("Krampfadern"). Dies deutet darauf hin, dass die Beine meines Vaters bereits vor dem extremen Wintereinsatz im Kaukasus eine gesundheitliche Schwachstelle waren. In Kombination mit der späteren Infektion (Sumpffieber/Wolhynisches Fieber) führte dies dazu, dass er den physischen Anforderungen der Hochgebirgstruppe nicht mehr gewachsen war. Dies erklärt seine spätere "Abstufung" zur Infanterie und den Einsatz im Ersatzheer.
+
 **Dokumentierte Verbrechenskomplexe:**
 - **"Bandenbekämpfung":** Geiselerschießungen und "Sühnemaßnahmen" an der Zivilbevölkerung bei vermutetem Widerstand
 - **Verbrannte Erde:** Niederbrennen ganzer Dörfer, Wegnahme von Vieh und Nahrungsmitteln
 - **Holocaust im Kaukasus:** Beteiligung an der Aufspürung und Ermordung von Juden, insbesondere der "Bergjuden" (Taten). Da motorisierte Einsatzgruppen das Hochgebirge oft nicht erreichten, übernahmen Gebirgsjäger-Einheiten exekutive Aufgaben.
 - **Rückzugspolitik 1943:** Beim Rückzug systematische Zerstörung der Lebensgrundlagen, Zwangsverschleppung arbeitsfähiger Zivilisten.
 
-**Historische Einordnung:** Die 1. Gebirgs-Division war bereits 1941 in Lemberg an Pogromen gegen Juden beteiligt. Das Offizierskorps und die Stammbesetzung waren durch diese Ereignisse geprägt. Die Hemmschwelle zur Gewaltanwendung gegen Zivilisten war in dieser Einheit extrem abgesenkt.
-
 ### 1944: Grenadier-Ersatz-Bataillon 107 (Westwall)
 
 Die letzte Station führte zum Grenadier-Ersatz-Bataillon 107 im Wehrkreis XII, aus dem die "Kampfgruppe Heitmann" gebildet wurde.
 
-**Einsatzrealität:** Im Herbst 1944 kämpfte diese Kampfgruppe im Raum Aachen gegen vorrückende US-Truppen. In dieser Phase verschwammen die Grenzen zwischen Ausbildungs- und Fronteinheiten vollständig.
+**Einsatzrealität:** Im Herbst 1944 wurde mein Vater, obwohl aufgrund seiner gesundheitlichen Vorschäden (Sumpffieber, Venenleiden) eigentlich nur im Ersatzheer geführt, erneut an die Front geworfen. Die Akten bestätigen einen Einsatz gegen US-Truppen am Westwall (Raum Saarpfalz).
+
+**Die finale Verwundung:**
+Die Personalunterlagen verzeichnen für den **28. November 1944** eine Verwundung. Dies deckt sich exakt mit seiner Erzählung, er sei "von einem Amerikaner angeschossen" worden. Dass er als körperlich geschwächter Soldat einer Ersatz-Einheit in diese schweren Abwehrkämpfe geschickt wurde, ist symptomatisch für die Situation des "letzten Aufgebots" im Spätherbst 1944.
 
 **Historischer Kontext:**
 - **Terror gegen die eigene Bevölkerung:** Standrechtliche Erschießung von Zivilisten, die weiße Fahnen hissten
@@ -116,7 +120,7 @@ Die letzte Station führte zum Grenadier-Ersatz-Bataillon 107 im Wehrkreis XII, 
 
 ### Was wir aus der Verwundung ableiten können:
 
-Die schwere Verwundung und langwierige Erkrankung (Wolhynisches Sumpffieber) führten bereits 1943 zur Einstufung als "nicht mehr frontverwendungsfähig". Dies bedeutet, dass er nach dem kritischen Kaukasus-Einsatz nicht mehr in direkten Kampfhandlungen an der Ostfront stand. Die anschließende Versetzung 1944 zu einer Ersatz-Einheit entspricht diesem Status.
+Die schwere Verwundung vom 28. November 1944 am Westwall, in Kombination mit den Vorschädigungen durch das Wolhynische Sumpffieber und die Venenerkrankung, führte Anfang 1945 zur endgültigen Dienstuntauglichkeit. Das Kriegsende erlebte er somit nicht mehr in der Truppe, sondern im Lazarettsystem.
 
 ## Der Kontext, nicht die Antwort
 
@@ -146,9 +150,10 @@ Das Schweigen meines Vaters kann ich nicht brechen. Aber ich kann dokumentieren,
 
 ---
 
-**Verwendete Quellen (Auswahl):**
+**Dokumente und Quellen:**
 
-- Bundesarchiv-Militärarchiv Freiburg: Bestände zu den genannten Einheiten (Kriegstagebücher)
+- **Bundesarchiv:** [Auskunftsschreiben und Karteikarte Alois Pilz (PDF)](/assets/documents/Pilz_Alois_Bundesarchiv_Auskunft.pdf) – *Enthält die Bestätigung der Einheiten und Verwundungen.*
+- Bundesarchiv-Militärarchiv Freiburg: Bestände zu den genannten Einheiten (Kriegstagebücher - angefragt)
 - Ahlfen, Hans von / Moll, Otto Eduard: *Blutiges Edelweiß. Die 1. Gebirgs-Division im Zweiten Weltkrieg*, München 1987
 - Lexikon der Wehrmacht (online): Einheitengeschichten Bau-Bataillon 158, Landesschützen-Ersatz-Bataillon 18, Gebirgsjäger-Regiment 99, Grenadier-Ersatz-Bataillon 107
 - Forschungen zum Stalag XVIII C (Markt Pongau)
