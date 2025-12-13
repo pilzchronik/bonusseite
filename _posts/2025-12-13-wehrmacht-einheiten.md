@@ -152,7 +152,7 @@ Das Schweigen meines Vaters kann ich nicht brechen. Aber ich kann dokumentieren,
 
 **Dokumente und Quellen:**
 
-- **Bundesarchiv:** [Auskunftsschreiben und Karteikarte Alois Pilz (PDF)](/assets/documents/Pilz_Alois_Bundesarchiv_Auskunft.pdf) – *Enthält die Bestätigung der Einheiten und Verwundungen.*
+- - **Bundesarchiv:** [Auskunftsschreiben und Karteikarte Alois Pilz (PDF)](/assets/pdf/Pilz,%20Alois%202025-G-7171.pdf) – *Enthält die Bestätigung der Einheiten und Verwundungen.
 - Bundesarchiv-Militärarchiv Freiburg: Bestände zu den genannten Einheiten (Kriegstagebücher - angefragt)
 - Ahlfen, Hans von / Moll, Otto Eduard: *Blutiges Edelweiß. Die 1. Gebirgs-Division im Zweiten Weltkrieg*, München 1987
 - Lexikon der Wehrmacht (online): Einheitengeschichten Bau-Bataillon 158, Landesschützen-Ersatz-Bataillon 18, Gebirgsjäger-Regiment 99, Grenadier-Ersatz-Bataillon 107
