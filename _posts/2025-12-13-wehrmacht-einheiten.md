@@ -27,7 +27,7 @@ Mein Vater war für mich zunächst und vor allem Opfer: Opfer einer schweren Ver
 
 Die Rekonstruktion basiert auf den Stammdaten (Einheiten, Zeiträume), die ich vom Bundesarchiv in Berlin (ehemals WASt) erhielt, sowie der historischen Forschung zu den jeweiligen Einheiten.
 
-[cite_start]Die Auskunft des Bundesarchivs bestätigt, dass die Prüfung der personenbezogenen Bestände auch das Militärarchiv in Freiburg bereits einschloss und dort keine Personalakte vorliegt. Die weitere Recherche in Freiburg zielt daher nicht mehr auf die Person, sondern ausschließlich auf die dort verwahrten Kriegstagebücher und Tätigkeitsberichte der Einheiten, um den militärischen Kontext zu rekonstruieren.
+Die Auskunft des Bundesarchivs bestätigt, dass die Prüfung der personenbezogenen Bestände auch das Militärarchiv in Freiburg bereits einschloss und dort keine Personalakte vorliegt. Die weitere Recherche in Freiburg zielt daher nicht mehr auf die Person, sondern ausschließlich auf die dort verwahrten Kriegstagebücher und Tätigkeitsberichte der Einheiten, um den militärischen Kontext zu rekonstruieren.
 
 Verwendet wurden zudem:
 - Fachliteratur zur Militärgeschichte (u.a. "Lexikon der Wehrmacht", "Blutiges Edelweiß" von Ahlfen/Moll)
@@ -40,7 +40,7 @@ Die Darstellung folgt dem Grundsatz der Trennung zwischen gesichertem Wissen und
 
 ### 1940: Bau-Bataillon 158 (Frankreich)
 
-[cite_start]Die erste militärische Station war die 3. Kompanie des Bau-Bataillons 158 während des Westfeldzugs[cite: 58]. Das Bataillon war der Heeresgruppe C unterstellt und operierte im rückwärtigen Gebiet.
+Die erste militärische Station war die 3. Kompanie des Bau-Bataillons 158 während des Westfeldzugs. Das Bataillon war der Heeresgruppe C unterstellt und operierte im rückwärtigen Gebiet.
 
 **Strukturelle Besonderheit:** Die Einheit rekrutierte sich zunächst aus dem Reichsarbeitsdienst (RAD), was bedeutet, dass die Mannschaft bereits vor dem militärischen Einsatz eine intensive nationalsozialistische Schulung durchlaufen hatte.
 
@@ -53,7 +53,7 @@ Für das Bau-Bataillon 158 liegen keine spezifischen Täterdokumente vor.
 
 ### 1942: Landesschützen-Ersatz-Bataillon 18 (Salzburg)
 
-[cite_start]Die Versetzung zum Landesschützen-Ersatz-Bataillon 18 im Wehrkreis XVIII (Salzburg) markiert einen kritischen Punkt[cite: 60].
+Die Versetzung zum Landesschützen-Ersatz-Bataillon 18 im Wehrkreis XVIII (Salzburg) markiert einen kritischen Punkt.
 
 **Funktion:** Landesschützen-Bataillone bestanden oft aus älteren Jahrgängen oder temporär nicht frontverwendungsfähigen Soldaten. Ihre Hauptaufgabe war die Bewachung von Kriegsgefangenen. Das Ersatz-Bataillon fungierte als "Personaldrehscheibe" – es bildete Wachmannschaften aus und stellte Ersatz für die aktiven Bataillone.
 
@@ -63,7 +63,7 @@ Für das Bau-Bataillon 158 liegen keine spezifischen Täterdokumente vor.
 
 ### 1942: Gebirgsjäger-Ersatz-Regiment III/136 (Innsbruck/Salzburg)
 
-[cite_start]Der Wechsel zur Gebirgstruppe deutet auf eine "Hochschleusung" zur Frontverwendung hin[cite: 70].
+Der Wechsel zur Gebirgstruppe deutet auf eine "Hochschleusung" zur Frontverwendung hin.
 
 **Besonderheit:** Die Gebirgstruppe verstand sich als Elitekorps mit extrem ausgeprägtem Korpsgeist. Die Ausbildung 1942 beinhaltete nicht nur militärische Inhalte, sondern explizite Schulungen in der "Bandenbekämpfung".
 
@@ -73,7 +73,7 @@ Für das Bau-Bataillon 158 liegen keine spezifischen Täterdokumente vor.
 
 ### 1942/43: Gebirgsjäger-Regiment 99 (Ukraine/Kaukasus)
 
-[cite_start]Dies ist die kritischste Station[cite: 75]. Das Gebirgsjäger-Regiment 99 war Teil der 1. Gebirgs-Division, die zu den am stärksten belasteten Großverbänden der Wehrmacht zählt.
+Dies ist die kritischste Station. Das Gebirgsjäger-Regiment 99 war Teil der 1. Gebirgs-Division, die zu den am stärksten belasteten Großverbänden der Wehrmacht zählt.
 
 **Führung:** Das Regiment stand unter dem Kommando von Oberst Walter Stettner Ritter von Grabenhofen, der Divisionskommandeur war Generalleutnant Hubert Lanz. Lanz wurde nach dem Krieg im Nürnberger Nachfolgeprozess verurteilt.
 *Anmerkung:* Stettner kommandierte später, im September 1943, das Regiment bei dem Massaker an über 5.000 italienischen Kriegsgefangenen auf Kephalonia. Mein Vater hatte die Einheit zu diesem Zeitpunkt aufgrund seiner Verwundung bereits verlassen, doch er diente zuvor unter demselben Kommandeur, dessen Führungsstil diese Eskalation der Gewalt später ermöglichte.
@@ -81,7 +81,7 @@ Für das Bau-Bataillon 158 liegen keine spezifischen Täterdokumente vor.
 **Einsatzrealität:** Die Division operierte im Kaukasus in einem Raum, in dem die Grenzen zwischen Partisanenbekämpfung, Judenverfolgung und Terror gegen die Zivilbevölkerung vollständig verschwammen.
 
 **Medizinische Erkenntnisse aus den Akten:**
-[cite_start]Ein Karteikarteneintrag vom Juni 1942 verzeichnet einen Lazarettaufenthalt aufgrund von Venenproblemen ("Krampfadern")[cite: 19]. Dies deutet darauf hin, dass die Beine meines Vaters bereits vor dem extremen Wintereinsatz im Kaukasus eine gesundheitliche Schwachstelle waren. In Kombination mit der späteren Infektion (Sumpffieber/Wolhynisches Fieber) führte dies dazu, dass er den physischen Anforderungen der Hochgebirgstruppe nicht mehr gewachsen war. Dies erklärt seine spätere "Abstufung" zur Infanterie und den Einsatz im Ersatzheer.
+Ein Karteikarteneintrag vom Juni 1942 verzeichnet einen Lazarettaufenthalt aufgrund von Venenproblemen ("Krampfadern"). Dies deutet darauf hin, dass die Beine meines Vaters bereits vor dem extremen Wintereinsatz im Kaukasus eine gesundheitliche Schwachstelle waren. In Kombination mit der späteren Infektion (Sumpffieber/Wolhynisches Fieber) führte dies dazu, dass er den physischen Anforderungen der Hochgebirgstruppe nicht mehr gewachsen war. Dies erklärt seine spätere "Abstufung" zur Infanterie und den Einsatz im Ersatzheer.
 
 **Dokumentierte Verbrechenskomplexe:**
 - **"Bandenbekämpfung":** Geiselerschießungen und "Sühnemaßnahmen" an der Zivilbevölkerung bei vermutetem Widerstand
@@ -91,12 +91,12 @@ Für das Bau-Bataillon 158 liegen keine spezifischen Täterdokumente vor.
 
 ### 1944: Grenadier-Ersatz-Bataillon 107 (Westwall)
 
-[cite_start]Die letzte Station führte zum Grenadier-Ersatz-Bataillon 107 im Wehrkreis XII, aus dem die "Kampfgruppe Heitmann" gebildet wurde[cite: 80].
+Die letzte Station führte zum Grenadier-Ersatz-Bataillon 107 im Wehrkreis XII, aus dem die "Kampfgruppe Heitmann" gebildet wurde.
 
 **Einsatzrealität:** Im Herbst 1944 wurde mein Vater, obwohl aufgrund seiner gesundheitlichen Vorschäden (Sumpffieber, Venenleiden) eigentlich nur im Ersatzheer geführt, erneut an die Front geworfen. Die Akten bestätigen einen Einsatz gegen US-Truppen am Westwall (Raum Saarpfalz).
 
 **Die finale Verwundung:**
-Die Personalunterlagen verzeichnen für den **28. [cite_start]November 1944** eine Verwundung[cite: 19]. Dies deckt sich exakt mit seiner Erzählung, er sei "von einem Amerikaner angeschossen" worden. Dass er als körperlich geschwächter Soldat einer Ersatz-Einheit in diese schweren Abwehrkämpfe geschickt wurde, ist symptomatisch für die Situation des "letzten Aufgebots" im Spätherbst 1944.
+Die Personalunterlagen verzeichnen für den **28. November 1944** eine Verwundung. Dies deckt sich exakt mit seiner Erzählung, er sei "von einem Amerikaner angeschossen" worden. Dass er als körperlich geschwächter Soldat einer Ersatz-Einheit in diese schweren Abwehrkämpfe geschickt wurde, ist symptomatisch für die Situation des "letzten Aufgebots" im Spätherbst 1944.
 
 **Historischer Kontext:**
 - **Terror gegen die eigene Bevölkerung:** Standrechtliche Erschießung von Zivilisten, die weiße Fahnen hissten
@@ -128,7 +128,7 @@ Eine individuelle strafrechtliche Bewertung ist nicht möglich und nicht Gegenst
 
 Die Wehrmacht war kein neutraler Apparat, der vom Nationalsozialismus missbraucht wurde. Sie war integraler Bestandteil der Vernichtungspolitik.
 
-Das bedeutet nicht, dass jeder Soldat ein Kriegsverbrecher war. [cite_start]Es bedeutet, dass die Strukturen verbrecherisch waren und dass die Frage der individuellen Verantwortung komplex bleibt – zu komplex, um sie 80 Jahre später aus Akten zu beantworten, zumal persönliche Aufzeichnungen aus Freiburg fehlen[cite: 52].
+Das bedeutet nicht, dass jeder Soldat ein Kriegsverbrecher war. Es bedeutet, dass die Strukturen verbrecherisch waren und dass die Frage der individuellen Verantwortung komplex bleibt – zu komplex, um sie 80 Jahre später aus Akten zu beantworten, zumal persönliche Aufzeichnungen aus Freiburg fehlen.
 
 ## Die Spuren, die blieben
 
