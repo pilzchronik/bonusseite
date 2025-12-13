@@ -27,9 +27,9 @@ Mein Vater war für mich zunächst und vor allem Opfer: Opfer einer schweren Ver
 
 Die Rekonstruktion basiert auf den Stammdaten (Einheiten, Zeiträume), die ich vom Bundesarchiv in Berlin (ehemals WASt) erhielt, sowie der historischen Forschung zu den jeweiligen Einheiten.
 
-Eine weiterführende Recherche im Bundesarchiv-Militärarchiv in Freiburg im Breisgau brachte keine zusätzlichen Erkenntnisse zur Person. Da Personalakten für Dienstgrade unterhalb der Offiziersebene in der Regel nicht archiviert wurden – sofern keine gerichtlichen Verfahren anhängig waren –, existiert für Alois Pilz dort keine individuelle Akte. Die Rekonstruktion stützt sich daher auf die in Freiburg verwahrten Kriegstagebücher und Tätigkeitsberichte der übergeordneten Einheiten, die den militärischen Kontext liefern.
+Eine ergänzende Recherche im Bundesarchiv-Militärarchiv in Freiburg ist in Vorbereitung, um auch diese letzte Quelle zu prüfen. Nach aktueller Einschätzung sind die Aussichten auf den Fund einer persönlichen Akte jedoch gering, da Personalunterlagen für Dienstgrade unterhalb der Offiziersebene dort in der Regel nicht archiviert wurden, sofern keine gerichtlichen Verfahren anhängig waren. Die Bedeutung dieses Archivs liegt für diese Dokumentation daher primär in den dort verwahrten Kriegstagebüchern der übergeordneten Einheiten, die den militärischen Kontext liefern.
 
-Verwendet wurden zudem:
+Verwendet wurden:
 - Fachliteratur zur Militärgeschichte (u.a. "Lexikon der Wehrmacht", "Blutiges Edelweiß" von Ahlfen/Moll)
 - Forschungen zur Wehrmacht im Vernichtungskrieg
 - Dokumentationen zu Kriegsverbrechen der beteiligten Großverbände
