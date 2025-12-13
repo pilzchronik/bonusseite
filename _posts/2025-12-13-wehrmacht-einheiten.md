@@ -9,6 +9,8 @@ excerpt: "Eine Dokumentation der militärischen Stationen meines Vaters Alois Pi
 
 # Was ich über die Kriegszeit meines Vaters weiß – und was nicht
 
+> *Vorab eine Anmerkung: Die historischen Fakten und die persönliche Einordnung in diesem Text stammen von mir. Für die textliche Ausformulierung habe ich jedoch eine Künstliche Intelligenz als Werkzeug genutzt. Dies diente dazu, die nötige sachliche Distanz und sprachliche Präzision zu wahren, die mir bei diesem emotionalen Thema schwerfällt.*
+
 ## Warum diese Dokumentation notwendig ist
 
 Ich habe meinen Vater nur nach dem Krieg gekannt. Als Kind, als Jugendlicher, als junger Erwachsener. Ich kannte ihn als jemanden, der mit einem steifen Bein lebte, der regelmäßig nach Italien fuhr, der pflichtbewusst seinen Dienst beim Zoll versah. Ich kannte ihn als verschlossenen Mann, der zu seinen älteren Kindern Renate und Erhard ein anderes Verhältnis hatte als zu mir, seinem jüngsten Sohn.
@@ -25,8 +27,9 @@ Mein Vater war für mich zunächst und vor allem Opfer: Opfer einer schweren Ver
 
 Die Rekonstruktion basiert auf den Stammdaten (Einheiten, Zeiträume), die ich vom Bundesarchiv in Berlin (ehemals WASt) erhielt, sowie der historischen Forschung zu den jeweiligen Einheiten.
 
-Eine weiterführende Recherche im Bundesarchiv-Militärarchiv in Freiburg im Breisgau könnte theoretisch zu neuen Erkenntnissen führen. Da Personalakten für Dienstgrade unterhalb der Offiziersebene in der Regel nicht archiviert wurden – sofern keine gerichtlichen Verfahren anhängig waren –, existiert für Alois Pilz dort aber wohl keine individuelle Akte.
-Verwendet wurden:
+Eine weiterführende Recherche im Bundesarchiv-Militärarchiv in Freiburg im Breisgau brachte keine zusätzlichen Erkenntnisse zur Person. Da Personalakten für Dienstgrade unterhalb der Offiziersebene in der Regel nicht archiviert wurden – sofern keine gerichtlichen Verfahren anhängig waren –, existiert für Alois Pilz dort keine individuelle Akte. Die Rekonstruktion stützt sich daher auf die in Freiburg verwahrten Kriegstagebücher und Tätigkeitsberichte der übergeordneten Einheiten, die den militärischen Kontext liefern.
+
+Verwendet wurden zudem:
 - Fachliteratur zur Militärgeschichte (u.a. "Lexikon der Wehrmacht", "Blutiges Edelweiß" von Ahlfen/Moll)
 - Forschungen zur Wehrmacht im Vernichtungskrieg
 - Dokumentationen zu Kriegsverbrechen der beteiligten Großverbände
