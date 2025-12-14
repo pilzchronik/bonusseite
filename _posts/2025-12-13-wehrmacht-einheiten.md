@@ -149,6 +149,10 @@ Wir können die Vergangenheit nicht ändern. Wir können aber verhindern, dass s
 Das Schweigen meines Vaters kann ich nicht brechen. Aber ich kann dokumentieren, worüber er schwieg.
 
 ---
+**Siehe auch**
+- **Gebirgsjäger-Regiment 99 (1941–1942): Tätigkeiten und Kriegsverbrechen (PDF)**: [Zusammenstellung (PDF)](https://pilzchronik.github.io/bonusseite/assets/pdf/Gebirgsjä%CC%88ger%20Kriegsverbrechen.pdf)
+
+---
 
 **Dokumente und Quellen:**
 
