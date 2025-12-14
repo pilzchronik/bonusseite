@@ -150,7 +150,7 @@ Das Schweigen meines Vaters kann ich nicht brechen. Aber ich kann dokumentieren,
 
 ---
 **Siehe auch**
-- **Gebirgsjäger-Regiment 99 (1941–1942): Tätigkeiten und Kriegsverbrechen (PDF)**: [Zusammenstellung (PDF)](https://pilzchronik.github.io/bonusseite/assets/pdf/Gebirgsjä%CC%88ger%20Kriegsverbrechen.pdf)
+- **Gebirgsjäger-Regiment 99 (1941–1942): Tätigkeiten und Kriegsverbrechen (PDF)**: [Zusammenstellung (PDF)](assets/pdf/Gebirgsjaeger-Kriegsverbrechen.pdf)
 
 ---
 
