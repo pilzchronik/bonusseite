@@ -447,13 +447,17 @@ dass sie verschwiegen wird.
 
 ### Ergänzende Online-Quellen (neutral-populärwissenschaftlich)
 
-- Institut für Zeitgeschichte  
-  https://www.ifz-muenchen.de/heftarchiv/2001_5_3_heer.pdf  
-- Yad Vashem – Lemberg 1941  
-  https://www.yadvashem.org/articles/general/the-lviv-pogroms.html  
-- USHMM – Lviv  
-  https://encyclopedia.ushmm.org/content/de/article/lviv  
-- Bundeszentrale für politische Bildung  
-  https://www.bpb.de/themen/nationalsozialismus/holocaust/  
-- Dokumentation 1. Gebirgs-Division  
-  https://www.traditionspflege-gebirgsjaeger.de/1-gebirgs-division.html
+- **Institut für Zeitgeschichte (IfZ), München**  
+  [Wehrmacht und Gewaltverbrechen im Osten (PDF)](https://www.ifz-muenchen.de/heftarchiv/2001_5_3_heer.pdf)
+
+- **Yad Vashem – Holocaust-Gedenkstätte Jerusalem**  
+  [Die Pogrome von Lemberg 1941](https://www.yadvashem.org/articles/general/the-lviv-pogroms.html)
+
+- **United States Holocaust Memorial Museum (USHMM)**  
+  [Lviv 1941 – Wehrmacht, Pogrome und Holocaust](https://encyclopedia.ushmm.org/content/de/article/lviv)
+
+- **Bundeszentrale für politische Bildung (bpb)**  
+  [Wehrmacht und Vernichtungskrieg](https://www.bpb.de/themen/nationalsozialismus/holocaust/)
+
+- **Dokumentation zur 1. Gebirgs-Division**  
+  [Historische Einordnung und Forschungsergebnisse](https://www.traditionspflege-gebirgsjaeger.de/1-gebirgs-division.html)
