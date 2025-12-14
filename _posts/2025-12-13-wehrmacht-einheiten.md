@@ -448,7 +448,7 @@ dass sie verschwiegen wird.
 ### Ergänzende Online-Quellen (neutral-populärwissenschaftlich)
 
 - **Institut für Zeitgeschichte (IfZ), München**  
-  [Wehrmacht und Gewaltverbrechen im Osten (PDF)](https://www.ifz-muenchen.de/heftarchiv/2001_5_3_heer.pdf)
+  [Wehrmacht und Gewaltverbrechen im Osten (PDF, via archive.org)](https://archive.org/details/ifz-hefte-2001-5-3-heer-wehrmacht-gewaltverbrechen-ostfront/)
 
 - **Yad Vashem – Holocaust-Gedenkstätte Jerusalem**  
   [Die Pogrome von Lemberg 1941](https://www.yadvashem.org/articles/general/the-lviv-pogroms.html)
