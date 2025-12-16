@@ -81,14 +81,14 @@ Ich ging jeden einzelnen Vorwurf durch. Nicht mit dem Ziel der Entlastung – so
 **KI-Vorwurf:** Beteiligung am Pogrom von Lemberg (30. Juni - 3. Juli 1941) durch Zugehörigkeit zum Gebirgsjäger-Regiment 99.
 
 **Die Fakten:**
-- Im **März 1941** heiratete mein Vater in Kartitsch, Tirol
+- Im **März 1941** heiratete mein Vater in Innsbruck
 - In den Wochen vor "Barbarossa" (22. Juni 1941) waren Urlaube in Angriffsdivisionen extrem restriktiv
 - Von 1941 bis Anfang 1942 war er beim **Landesschützen-Ersatz-Bataillon 18 in Lienz** – einer Ausbildungseinheit, **nicht** an der Ostfront
 - Die Versetzung zum GJR 99 erfolgte erst 1942, für die Kaukasus-Offensive
 
 **Zeitliche Diskrepanz:** Er kam mehr als ein Jahr **nach** den Lemberger Pogromen zur Einheit.
 
-**Bewertung:** Ausgeschlossen. Dies ist das stärkste Alibi – die Hochzeit macht eine Anwesenheit in der Ukraine unmöglich.
+**Bewertung:** Ausgeschlossen. Dies ist das stärkste Alibi – die Hochzeit und seine Zuteilung nach Lienz macht eine Anwesenheit in der Ukraine unmöglich.
 
 ---
 
@@ -100,9 +100,9 @@ Ich ging jeden einzelnen Vorwurf durch. Nicht mit dem Ziel der Entlastung – so
 - Mein Vater war beim **Landesschützen-Ersatz-Bataillon 18** in **Lienz**
 - Ein **Ersatz**-Bataillon ist eine Ausbildungs- und Verwaltungseinheit im Innendienst
 - Die tatsächliche Lagerbewachung oblag **Feld**-Landesschützen-Bataillonen (z.B. Ldsch.Btl. 921, 922)
-- **Geografische Barriere:** Lienz liegt in Osttirol, Pongau im Salzburger Land – getrennt durch die Hohen Tauern
+- **Geografische Barriere:** Lienz liegt in Osttirol, Pongau im Salzburger Land – getrennt durch die Hohen Tauern, damals ohne direkte Verkehrsverbindung
 
-**Die entscheidende Erklärung:** Mein Vater war **Zollbeamter**. Die Reichsfinanzverwaltung nutzte das Landesschützen-Ersatz-Bataillon 18 in Lienz explizit zur militärischen Ausbildung ihrer Beamten für den späteren Grenzdienst. Er war "Gast" der Wehrmacht, nicht Wachpersonal eines Kriegsgefangenenlagers.
+**Die entscheidende Erklärung:** Mein Vater war **Zollbeamter**. Die Reichsfinanzverwaltung nutzte das Landesschützen-Ersatz-Bataillon 18 in Lienz explizit zur militärischen Ausbildung ihrer Beamten für den späteren Grenzdienst. Er war möglicherweise nur "Gast" der Wehrmacht, aber jedenfalls nicht Wachpersonal eines Kriegsgefangenenlagers.
 
 **Bewertung:** Ausgeschlossen.
 
@@ -114,13 +114,11 @@ Ich ging jeden einzelnen Vorwurf durch. Nicht mit dem Ziel der Entlastung – so
 
 **Die Fakten:**
 - Im Winter 1942/43 erkrankte mein Vater im Kaukasus am **Wolhynischen Sumpffieber** (eine schwere Fiebererkrankung)
-- Er erlitt eine **schwere Durchschussverletzung am Bein**
-- Das Bein blieb "**dauerhaft steif**" und nur eingeschränkt belastbar
 - Ab 1943 war er **nicht mehr frontverwendungsfähig**
 
-**Das physiologische Argument:** Der Partisanenkrieg in Griechenland fand im unwegsamen Epirus-Gebirge statt. Die "Sühnemaßnahmen" erforderten Eilmärsche über steile Pfade. Ein Soldat mit einem steifen Bein kann diese Anforderungen physisch nicht erfüllen.
+**Das physiologische Argument:** Der Partisanenkrieg in Griechenland fand im unwegsamen Epirus-Gebirge statt. Die "Sühnemaßnahmen" erforderten Eilmärsche über steile Pfade.
 
-**Der administrative Beweis:** Ab 1944 wird er bei der **Stamm-Kompanie des Grenadier-Ersatz-Bataillons 107** geführt – eine Heimateinheit im Wehrkreis XII (Westdeutschland), wo frontuntaugliche Kriegsversehrte im Innendienst eingesetzt wurden.
+**Der administrative Beweis:** Ab 1944 wird er bei der **Stamm-Kompanie des Grenadier-Ersatz-Bataillons 107** geführt – eine Heimateinheit im Wehrkreis XII (Westdeutschland), wo frontuntaugliche Kriegsversehrte im Innendienst eingesetzt wurden. Grund war ein Krampfadernleiden.
 
 **Bewertung:** Ausgeschlossen.
 
@@ -134,7 +132,7 @@ Das Gebirgsjäger-Regiment 99 war dort nachweislich in "Bandenbekämpfung" (d.h.
 
 Mein Vater war in diesem Zeitraum Teil dieser Einheit.
 
-**Was ich damit anfange – als Sohn und als Historiker:**
+**Was ich damit anfange – als Sohn und als Chronikschreiber**
 
 Ich kann nicht belegen, dass er **nicht** beteiligt war. Aber ich kann auch nicht belegen, dass er es **war**. Individuelle Schuld ist ohne konkrete Zeugenaussagen oder Dokumente nicht nachweisbar.
 
