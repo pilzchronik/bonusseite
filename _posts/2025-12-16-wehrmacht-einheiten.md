@@ -213,7 +213,7 @@ Aber sie ist jetzt wenigstens **nicht mehr falsch**.
 
 ## Anhang und Quellen
 
-**→ [Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung]({{ site.baseurl }}/assets/mds/forensischer_anhang.md)**
+**→ [Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung](/bonusseite/assets/mds/forensischer_anhang.md)**
 
 
 Dieser umfassende Anhang dokumentiert:
