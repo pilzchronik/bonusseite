@@ -213,7 +213,8 @@ Aber sie ist jetzt wenigstens **nicht mehr falsch**.
 
 ## Anhang und Quellen
 
-**→ [Forensische Detailanalyse: Biografische Evidenz kontra Algorithmus-Täterprofilierung (PDF)](link-zum-anhang)**
+**→ [Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung]({{ site.baseurl }}/assets/mds/forensischer_anhang.md)**
+
 
 Dieser umfassende Anhang dokumentiert:
 - Alle geografischen, zeitlichen und institutionellen Diskrepanzen
