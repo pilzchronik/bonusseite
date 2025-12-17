@@ -1,173 +1,180 @@
 ---
 layout: post
-title: "Einheiten, in denen unser Vater im zweiten Weltkrieg diente"
+title: "Militärische Stationen meines Vaters 1940–1945: Eine Recherche"
 date: 2025-12-16
 author: Wolfgang Pilz
 categories: [Ahnenforschung, Zweiter Weltkrieg]
-excerpt: "Eine Dokumentation der militärischen Stationen meines Vaters Alois Pilz 1940–1945 und der historischen Realität der Einheiten, denen er angehörte. Über den Krieg selbst hat er nie gesprochen."
+excerpt: "Die Dokumentation der militärischen Einheiten, denen Alois Pilz 1940–1945 angehörte, und die systematische Überprüfung der historischen Kontexte."
 ---
 
+# Militärische Stationen meines Vaters 1940–1945: Eine Recherche
 
-# Als die KI meinen Vater zum Kriegsverbrecher machte – und warum das eine Warnung ist
-
-**13. Dezember 2025 | Wolfgang Pilz**
-
----
-
-## Der Moment des Schocks
-
-Ich hatte die Militärakten meines Vaters vom Bundesarchiv erhalten. Nüchterne Daten: Einheitsnummern, Feldpostnummern, Stationierungsorte. Nichts Persönliches. Nur das Gerüst seiner Kriegsjahre.
-
-Um dieses Gerüst mit historischem Kontext zu füllen, wandte ich mich an eine Künstliche Intelligenz. Ich gab die Einheitsnamen ein und bat um eine Einordnung: In welchen Einsatzräumen operierten diese Verbände? Welche Kriegsverbrechen sind für diese Einheiten dokumentiert?
-
-Was dann kam, traf mich wie ein Schlag.
-
-Die KI erstellte eine detaillierte Analyse, die meinen Vater systematisch in Verbindung brachte mit:
-- Den Massakern an französischen Kolonialtruppen 1940 (Chasselay)
-- Den Pogromen von Lemberg 1941
-- Der Bewachung des "Russenlagers" Pongau 1941/42, wo tausende sowjetische Kriegsgefangene verhungerten
-- Den Massakern in Griechenland 1943/44 (Kommeno, Kefalonia)
-
-Vier Schauplätze. Vier schwere Vorwürfe. Alle mit präzisen Datumsangaben, geografischen Details, Opferzahlen.
-
-Es las sich überzeugend. Es klang fundiert.
-
-**Es war fast vollständig falsch.**
+**16. Dezember 2025 | Wolfgang Pilz**
 
 ---
 
-## Die Methode des Algorithmus – und ihr fataler Fehler
+## Ausgangspunkt: Die Archivauskunft
 
-Der Fehler der KI lag nicht in mangelnder Intelligenz. Er lag in ihrer Methode.
+Im März 2025 wandte ich mich an das Bundesarchiv mit der Bitte um Auskunft über die militärische Verwendung meines Vaters Alois Pilz (*25.08.1909, †26.07.1968).
 
-Der Algorithmus funktioniert so:
-1. **Einheit identifizieren:** Bau-Bataillon 158 → Teil der Wehrmacht im Westfeldzug
-2. **Verbrechen zuordnen:** Wehrmacht 1940 in Frankreich → Massaker an Kolonialtruppen
-3. **Verbindung herstellen:** Soldat war in Frankreich → potenzieller Täter
+Die Antwort erreichte mich am 1. Dezember 2025 (Aktenzeichen DR 22025/G-7171). Sie bestätigte, was für Mannschaftsdienstgrade bzw. Unteroffiziere der Wehrmacht typisch ist: Es existiert keine Personalakte, sondern lediglich eine Karteikarte und Einträge in Erkennungsmarkenverzeichnissen.
 
-Was die KI nicht berücksichtigt:
-- **Funktion der Einheit:** Bautruppe im rückwärtigen Gebiet ≠ Kampftruppe an der Spitze
-- **Geografische Distanz:** Lothringen ≠ Lyon (über 300 km)
-- **Zeitliche Abläufe:** Wann war wer wo?
+Die Auskunft dokumentiert fünf Einheiten:
 
-Die KI behandelt die Wehrmacht als homogene Masse. Wer irgendwo zur selben Zeit im selben Land war, wird zum Teil des Verbrechens.
+1. **3. Kompanie Bau-Bataillon 158** (1940)
+2. **2. Kompanie Landesschützen-Ersatz-Bataillon 18** (1942)
+3. **14. Kompanie Gebirgsjäger-Ersatz-Regiment III/136** (1942)
+4. **2. Kompanie Gebirgsjäger-Regiment 99** (1942)
+5. **Stamm-Kompanie Grenadier-Ersatz-Bataillon 107** (1944)
 
-Das ist historisch unhaltbar. Und es ist menschlich verheerend.
+Das Bundesarchiv weist in seinem Schreiben darauf hin, dass nähere Informationen zu Einsatzräumen von Wehrmacht-Einheiten in der Publikation von Georg Tessin (*Verbände und Truppen der deutschen Wehrmacht und Waffen-SS im Zweiten Weltkrieg 1939–1945*) sowie im *Lexikon der Wehrmacht* zu finden sind.
 
 ---
 
-## Die systematische Überprüfung – oder: Wie Geschichte wirklich funktioniert
+## Die Recherche: Einheiten und ihre Kontexte
 
-Als Jurist bin ich es gewohnt, Indizien zu prüfen. Als Genealoge habe ich gelernt, Quellen zu hinterfragen. Beides half mir jetzt.
+Was folgte, war eine systematische Recherche zu jeder dieser Einheiten. Die Frage lautete nicht, was mein Vater persönlich tat – das lässt sich ohne weitere Dokumente nicht klären. Die Frage lautete: **In welchen historischen Kontexten operierten diese Einheiten?**
 
-Ich ging jeden einzelnen Vorwurf durch. Nicht mit dem Ziel der Entlastung – sondern mit dem Ziel der **Wahrheit**.
-
-### Frankreich 1940: Die Bautruppe
-
-**KI-Vorwurf:** Beteiligung an Massakern an senegalesischen Soldaten bei Lyon/Chasselay.
-
-**Die Fakten:**
-- Das Bau-Bataillon 158 operierte im Raum Lothringen/Saar, weit nördlich
-- Seine Aufgabe: Straßenbau, Brückeninstandsetzung – im Tross, nicht an der Spitze
-- Die Massaker bei Lyon wurden von Elite-Kampfverbänden (Division "Großdeutschland", SS-Totenkopf) verübt
-- **Geografische Diskrepanz:** >300 km Distanz zwischen Einsatzort und Tatort
-
-**Bewertung:** Ausgeschlossen.
+Dabei stellte sich heraus, dass die bloße Zugehörigkeit zu einer Einheit noch nichts über die individuelle Beteiligung an spezifischen Ereignissen aussagt. Entscheidend sind:
+- **Zeitliche Überschneidung:** War die Person zum Zeitpunkt eines Verbrechens nachweislich bei der Einheit?
+- **Geografische Präsenz:** Befand sich die Einheit am Tatort?
+- **Funktionale Zuordnung:** Gehörte die Person zur operativen Truppe oder zu Ersatz-/Ausbildungseinheiten?
 
 ---
 
-### Lemberg 1941: Das absolute Alibi
+## Die Einheiten im Einzelnen
 
-**KI-Vorwurf:** Beteiligung am Pogrom von Lemberg (30. Juni - 3. Juli 1941) durch Zugehörigkeit zum Gebirgsjäger-Regiment 99.
+### 1. Bau-Bataillon 158 (1940, Frankreich)
 
-**Die Fakten:**
-- Im **März 1941** heiratete mein Vater in Innsbruck
-- In den Wochen vor "Barbarossa" (22. Juni 1941) waren Urlaube in Angriffsdivisionen extrem restriktiv
-- Von 1941 bis Anfang 1942 war er beim **Landesschützen-Ersatz-Bataillon 18 in Lienz** – einer Ausbildungseinheit, **nicht** an der Ostfront
-- Die Versetzung zum GJR 99 erfolgte erst 1942, für die Kaukasus-Offensive
+**Einheitstyp:** Logistik- und Baueinheit (keine Kampftruppe)  
+**Herkunft:** Rekrutierung aus dem Reichsarbeitsdienst (RAD)  
+**Aufgabe:** Infrastrukturwiederherstellung (Straßen, Brücken)  
+**Einsatzraum:** Heeresgruppe C, Raum Lothringen/Saar
 
-**Zeitliche Diskrepanz:** Er kam mehr als ein Jahr **nach** den Lemberger Pogromen zur Einheit.
+**Historischer Kontext:**  
+Im Westfeldzug 1940 wurden Kriegsverbrechen begangen, insbesondere Massaker an französischen Kolonialtruppen (Tirailleurs Sénégalais) durch Elite-Kampfverbände im Raum Lyon/Chasselay.
 
-**Bewertung:** Ausgeschlossen. Dies ist das stärkste Alibi – die Hochzeit und seine Zuteilung nach Lienz macht eine Anwesenheit in der Ukraine unmöglich.
-
----
-
-### Pongau 1941/42: Die institutionelle Trennung
-
-**KI-Vorwurf:** Wachdienst im Stalag XVIII C (Markt Pongau), wo tausende sowjetische Kriegsgefangene verhungerten.
-
-**Die Fakten:**
-- Mein Vater war beim **Landesschützen-Ersatz-Bataillon 18** in **Lienz**
-- Ein **Ersatz**-Bataillon ist eine Ausbildungs- und Verwaltungseinheit im Innendienst
-- Die tatsächliche Lagerbewachung oblag **Feld**-Landesschützen-Bataillonen (z.B. Ldsch.Btl. 921, 922)
-- **Geografische Barriere:** Lienz liegt in Osttirol, Pongau im Salzburger Land – getrennt durch die Hohen Tauern, damals ohne direkte Verkehrsverbindung
-
-**Die entscheidende Erklärung:** Mein Vater war **Zollbeamter**. Die Reichsfinanzverwaltung nutzte das Landesschützen-Ersatz-Bataillon 18 in Lienz explizit zur militärischen Ausbildung ihrer Beamten für den späteren Grenzdienst. Er war möglicherweise nur "Gast" der Wehrmacht, aber jedenfalls nicht Wachpersonal eines Kriegsgefangenenlagers.
-
-**Bewertung:** Ausgeschlossen.
+**Bewertung:**  
+Das Bau-Bataillon 158 operierte im rückwärtigen Gebiet der Heeresgruppe C (Lothringen), weit entfernt von den Tatorten der Massaker (>300 km). Die Einheit war funktional und geografisch von den dokumentierten Verbrechen getrennt.
 
 ---
 
-### Griechenland 1943/44: Das physiologische Unmöglichkeits-Theorem
+### 2. Landesschützen-Ersatz-Bataillon 18 (1942, Lienz)
 
-**KI-Vorwurf:** Beteiligung an den Massakern der 1. Gebirgs-Division in Griechenland (Kommeno, Kefalonia).
+**Einheitstyp:** Ausbildungs- und Verwaltungseinheit des Ersatzheeres  
+**Standort:** Lienz (Osttirol)  
+**Funktion:** Rekrutierung, Ausbildung, Administration
 
-**Die Fakten:**
-- Im Winter 1942/43 erkrankte mein Vater im Kaukasus am **Wolhynischen Sumpffieber** (eine schwere Fiebererkrankung)
-- Ab 1943 war er **nicht mehr frontverwendungsfähig**
+**Historischer Kontext:**  
+Im Wehrkreis XVIII (Salzburg) befanden sich große Kriegsgefangenenlager, insbesondere das Stalag XVIII C in Markt Pongau, wo 1941/42 tausende sowjetische Kriegsgefangene durch systematische Unterversorgung starben. Die Bewachung oblag aktiven Landesschützen-Bataillonen der 900er-Serie.
 
-**Das physiologische Argument:** Der Partisanenkrieg in Griechenland fand im unwegsamen Epirus-Gebirge statt. Die "Sühnemaßnahmen" erforderten Eilmärsche über steile Pfade.
+**Die Zollbeamten-Frage:**  
+Mein Vater war Zollbeamter (Dienstherr: Reichsfinanzverwaltung). Das Landesschützen-Ersatz-Bataillon 18 in Lienz war als Ausbildungsstätte für Zollanwärter ausgewiesen. Die Reichsfinanzverwaltung nutzte Wehrmacht-Kapazitäten zur militärischen Ausbildung ihrer Beamten für den späteren Einsatz im Zollgrenzschutz.
 
-**Der administrative Beweis:** Ab 1944 wird er bei der **Stamm-Kompanie des Grenadier-Ersatz-Bataillons 107** geführt – eine Heimateinheit im Wehrkreis XII (Westdeutschland), wo frontuntaugliche Kriegsversehrte im Innendienst eingesetzt wurden. Grund war ein Krampfadernleiden.
-
-**Bewertung:** Ausgeschlossen.
-
----
-
-## Was bleibt: Der Kaukasus 1942/43
-
-Es gibt **eine** Schnittmenge zwischen biografischer Präsenz und Verbrechensraum: die Kaukasus-Offensive 1942/43.
-
-Das Gebirgsjäger-Regiment 99 war dort nachweislich in "Bandenbekämpfung" (d.h. Repressalien gegen Zivilisten) und die Verfolgung von Juden involviert. Die historische Forschung ist hier eindeutig.
-
-Mein Vater war in diesem Zeitraum Teil dieser Einheit.
-
-**Was ich damit anfange – als Sohn und als Chronikschreiber**
-
-Ich kann nicht belegen, dass er **nicht** beteiligt war. Aber ich kann auch nicht belegen, dass er es **war**. Individuelle Schuld ist ohne konkrete Zeugenaussagen oder Dokumente nicht nachweisbar.
-
-Was ich weiß: Seine Krankheit und Verwundung in dieser Zeit beendeten seinen Frontdienst. Sie bewahrten ihn – unfreiwillig – vor der Beteiligung an den späteren, noch schwereren Verbrechen der Einheit in Griechenland.
+**Bewertung:**  
+Ein Ersatz-Bataillon ist institutionell vom Feldheer getrennt. Die geografische Distanz zwischen Lienz und Markt Pongau (>100 km, durch die Hohen Tauern getrennt, damals ohne direkte Verkehrsverbindung) macht einen operativen Einsatz als Lagerwache unwahrscheinlich. Die Zollbeamten-Ausbildung bietet eine plausible alternative Erklärung für die Stationierung.
 
 ---
 
-## Die Lehre: Wenn Algorithmen Geschichte schreiben
+### 3. Gebirgsjäger-Ersatz-Regiment III/136 (1942)
 
-Diese Erfahrung ist eine Warnung.
+**Einheitstyp:** Ausbildungseinheit der Gebirgstruppe  
+**Funktion:** Vorbereitung auf Fronteinsatz
 
-KI-Systeme werden zunehmend in der genealogischen und historischen Forschung eingesetzt. Sie können riesige Datenmengen verarbeiten, Muster erkennen, Zusammenhänge herstellen.
+**Historischer Kontext:**  
+Die Gebirgstruppe verstand sich als Elitekorps. Die Ausbildung 1942 beinhaltete auch Schulungen in der "Bandenbekämpfung". Gegen Angehörige des Gebirgsjäger-Ersatz-Regiments 136 wurden nach dem Krieg Ermittlungen geführt.
 
-**Aber sie verstehen nicht:**
-- Die Differenz zwischen Ersatzheer und Feldheer
-- Die Bedeutung einer Hochzeit im März 1941
-- Die Unmöglichkeit, mit einem steifen Bein im Hochgebirge zu kämpfen
-
-Sie denken in Korrelationen, nicht in Kausalitäten.
-Sie sehen Einheiten, nicht Menschen.
-Sie erkennen Daten, aber keine biografischen Brüche.
-
-**Das Ergebnis:** Eine "Täterbiografie", die faktisch unhaltbar ist – aber so überzeugend formuliert, dass ich sie zunächst fast geglaubt hätte.
+**Bewertung:**  
+Als Ausbildungseinheit war das Regiment nicht unmittelbar an Frontverbrechen beteiligt. Die Versetzung hierher deutet auf die Vorbereitung für den Einsatz beim Gebirgsjäger-Regiment 99 hin.
 
 ---
 
-## Transparenz als Pflicht
+### 4. Gebirgsjäger-Regiment 99 (1942, Kaukasus)
 
-Ich habe die ursprüngliche KI-Analyse zunächst auf dieser Website veröffentlicht. Mit einer Warnung, ja – aber ich habe sie veröffentlicht.
+**Einheitstyp:** Kampfeinheit (Teil der 1. Gebirgs-Division)  
+**Zeitraum:** 1942  
+**Einsatzraum:** Kaukasus ("Operation Edelweiß")
 
-Das war ein Fehler. Nicht, weil ich die Wahrheit verschweigen wollte. Sondern weil ich die **Unwahrheit** nicht hätte verbreiten dürfen, nur weil sie gut formuliert war.
+**Historischer Kontext:**  
+Das GJR 99 war Teil der Heeresgruppe A und führte die Offensive in den Kaukasus. Die Einheit war nachweislich in folgende Verbrechenskomplexe involviert:
+- "Bandenbekämpfung": Geiselerschießungen, "Sühnemaßnahmen" an der Zivilbevölkerung
+- "Kommissarbefehl": Erschießung von Politkommissaren der Roten Armee
+- "Verbrannte Erde": Niederbrennen von Dörfern, Wegnahme von Vieh und Nahrungsmitteln
+- Holocaust im Kaukasus: Beteiligung an der Aufspürung und Ermordung von Juden (besonders "Bergjuden" bei Naltschik)
 
-Dieser korrigierte Beitrag ersetzt die frühere Version.
+**Die medizinische Zäsur – und ihre Grenzen:**  
+Im Winter 1942/43 erkrankte mein Vater am Wolhynischen Sumpffieber. Die Karteikarte des Bundesarchivs verzeichnet zudem ein Krampfadernleiden. Diese gesundheitlichen Probleme führten zur Einstufung als "nicht mehr frontverwendungsfähig" – eine Einstufung, die 1944 ignoriert werden sollte.
 
-Die detaillierte forensische Analyse – alle Belege, Tabellen, Quellen – habe ich in einen separaten Anhang ausgelagert. Wer die Beweisführung im Detail nachvollziehen möchte, findet sie dort verlinkt.
+**Bewertung:**  
+Dies ist der einzige Zeitraum, in dem eine Schnittmenge zwischen biografischer Präsenz und Verbrechensraum besteht. Mein Vater war 1942 Teil einer Einheit, die nachweislich Kriegsverbrechen beging.
+
+Was ich nicht weiß: Ob und in welcher Form er persönlich beteiligt war. Individuelle Schuld ist ohne konkrete Zeugenaussagen oder Dokumente nicht nachweisbar.
+
+Was ich weiß: Seine Erkrankung und das Krampfadernleiden bewahrten ihn – unfreiwillig – vor der Beteiligung an den späteren, noch schwereren Verbrechen der Einheit in Griechenland (Kommeno, Kefalonia, 1943/44). Doch die Wehrmacht respektierte seine Frontuntauglichkeit nicht dauerhaft.
+
+---
+
+### 5. Grenadier-Ersatz-Bataillon 107 (1944, Westwall)
+
+**Einheitstyp:** Ersatzeinheit im Wehrkreis XII  
+**Standort:** Idar-Oberstein / Westwall-Bereich  
+**Zugehörigkeit:** Stamm-Kompanie
+
+**Historischer Kontext:**  
+Im Herbst 1944 befand sich die Wehrmacht im "letzten Aufgebot". Aus Ersatzeinheiten wurden Kampfgruppen gebildet und gegen die anrückenden US-Truppen eingesetzt. Auch frontuntaugliche Soldaten wurden erneut an die Front geschickt.
+
+**Der erneute Fronteinsatz:**  
+Trotz seiner Einstufung als "nicht mehr frontverwendungsfähig" aufgrund des Krampfadernleidens und der Folgen des Wolhynischen Sumpffiebers wurde mein Vater im Herbst 1944 erneut an die Front geworfen. Aus dem Grenadier-Ersatz-Bataillon 107 wurde eine Kampfgruppe gebildet, die gegen US-Truppen am Westwall eingesetzt wurde.
+
+Dort erlitt er eine **schwere Schussverletzung am Bein**. Diese Verwundung war so gravierend, dass sie seine militärische Verwendungsfähigkeit endgültig beendete.
+
+**Bewertung:**  
+Die Versetzung zur Stamm-Kompanie eines Ersatz-Bataillons hätte normalerweise Innendienst bedeutet. Doch 1944 wurde diese Einheit operativ eingesetzt. Die schwere Verwundung am Westwall markiert das Ende seiner Kriegszeit. Während die 1. Gebirgs-Division 1943/44 in Griechenland Massaker beging, befand sich mein Vater zunächst im Ersatzheer – wurde dann aber 1944 noch einmal an die Front geschickt, wo er schwer verwundet wurde.
+
+---
+
+## Zusammenfassende Bewertung
+
+Von den fünf dokumentierten Einheiten besteht nur für **eine** eine nachweisbare Schnittmenge zwischen biografischer Präsenz und Verbrechensraum: das Gebirgsjäger-Regiment 99 im Kaukasus 1942.
+
+Für die anderen vier Fälle (Frankreich 1940, Pongau 1941/42, Griechenland-Zeitraum 1943/44, Westwall 1944) ergeben sich unterschiedliche Kontexte:
+- **Frankreich:** Geografische und funktionale Trennung (Bautruppe im Tross ≠ Kampftruppe an der Spitze)
+- **Pongau:** Institutionelle Trennung (Ersatzheer ≠ Feldheer), Zollbeamten-Ausbildung, geografische Distanz
+- **Griechenland 1943/44:** Medizinische Invalidität verhinderte Teilnahme an den Massakern der 1. Gebirgs-Division (Kommeno, Kefalonia)
+- **Westwall 1944:** Erneuter Fronteinsatz trotz Invalidität, schwere Schussverletzung beendete endgültig den Kriegsdienst
+
+---
+
+## Methodische Reflexion
+
+Diese Recherche zeigt die Notwendigkeit einer differenzierten Betrachtung militärischer Biografien:
+
+1. **Die Wehrmacht war eine verbrecherische Organisation.** Das steht außer Frage. Die Verbrechen waren systematisch, nicht Einzelfälle.
+
+2. **Einheitszugehörigkeit ≠ Täterschaft.** Die bloße Zugehörigkeit zu einer Einheit, die Verbrechen beging, beweist keine individuelle Beteiligung an spezifischen Taten.
+
+3. **Biografische Details sind Fakten, keine Alibis.** Hochzeiten, Krankheiten, Verwundungen, Versetzungen sind dokumentierbare Ausschlusskriterien für bestimmte Tatorte und Zeitpunkte.
+
+4. **Ersatzheer ≠ Feldheer.** Die institutionelle Unterscheidung zwischen Ausbildungs-/Verwaltungseinheiten und operativen Kampfeinheiten ist militärhistorisch fundamental.
+
+Diese Differenzierungen vorzunehmen bedeutet nicht, die Verbrechen der Wehrmacht zu relativieren. Es bedeutet, die Wahrheit über ein einzelnes Leben zu respektieren.
+
+---
+
+## Transparenz über den Rechercheprozess
+
+Bei dieser Recherche habe ich auch Künstliche Intelligenz als Werkzeug eingesetzt – mit gemischten Erfahrungen.
+
+Zunächst ließ ich die Einheitsnamen von einer KI analysieren. Das Ergebnis war eine detaillierte Auflistung von Kriegsverbrechen, die meinen Vater mit vier schweren Vorwürfen in Verbindung brachte. Es klang fundiert und überzeugend.
+
+Bei der systematischen Überprüfung stellte sich heraus, dass drei dieser Vorwürfe faktisch unhaltbar waren. Die KI hatte:
+- Zeitliche Abläufe ignoriert (Versetzung erst 1942, aber Pogrom 1941)
+- Geografische Distanzen unterschätzt (>300 km zwischen Einsatzort und Tatort)
+- Institutionelle Unterscheidungen nicht erkannt (Ersatzheer vs. Feldheer)
+
+Das ist eine Warnung: KI-Systeme können große Datenmengen verarbeiten, aber sie verstehen biografische Kontexte nicht. Sie behandeln die Wehrmacht als homogene Masse und übersehen die Details, die über Wahrheit oder Unwahrheit entscheiden.
+
+Die endgültige Bewertung erforderte klassische historische Methode: Quellenabgleich, zeitliche Rekonstruktion, geografische Prüfung.
 
 ---
 
@@ -175,314 +182,35 @@ Die detaillierte forensische Analyse – alle Belege, Tabellen, Quellen – habe
 
 Mein Vater hat nie über den Krieg gesprochen. Nicht ein Wort.
 
-Ich kenne seine Kriegserfahrung nur aus Archivdokumenten. Ich weiß, wo er war – aber nicht, was er tat.
+Ich kenne seine Kriegserfahrung nur aus Archivdokumenten. Ich weiß, wo er war – aber nicht, was er tat, wie er dachte, was er empfand.
 
-Die KI wollte mir diese Lücke füllen. Sie bot mir eine **Erklärung** an, eine **Einordnung**, einen **Kontext**.
+Die Karteikarte des Bundesarchivs verzeichnet nüchtern:
+- Erkennungsmarke: 4545-33A
+- Geburtsort: Waldhäuser/Mühlviertel
+- Dienstgrad: Feldwebel
+- Einheiten: siehe oben
+- Medizinische Einträge: Krampfadern, weitere unleserliche Vermerke
 
-Aber Geschichte ist keine Lücke, die man mit Algorithmen auffüllen kann.
+Das steife Bein, das Resultat der schweren Schussverletzung am Westwall 1944, begleitete ihn sein Leben lang. Das Schweigen auch.
 
-Mein Vater war Teil einer verbrecherischen Organisation. Die Wehrmacht war keine neutrale Armee, die vom Nationalsozialismus missbraucht wurde. Sie war integraler Bestandteil der Vernichtungspolitik.
-
-**Aber:**
-Nicht jeder Soldat war an jedem Verbrechen beteiligt.
-Nicht jede Einheit beging jedes Verbrechen.
-Und biografische Details – Hochzeiten, Krankheiten, Verwundungen – sind keine Alibis, sondern **Fakten**.
-
-Diese Fakten anzuerkennen, bedeutet nicht, die Verbrechen der Wehrmacht zu relativieren.
-
-Es bedeutet, die **Wahrheit** über ein einzelnes Leben zu respektieren.
-
----
-
-## Epilog: Die Spuren, die blieben
-
-Mein Vater kehrte physisch und psychisch gezeichnet aus diesem Krieg zurück.
-
-Das steife Bein begleitete ihn sein Leben lang.
-Das Schweigen auch.
-
-Ich habe ihn nie über den Kaukasus reden hören.
-Nie über Lemberg, Pongau oder Griechenland – weil er dort nicht war.
-Und nie über das, was er wirklich erlebt hat.
-
-Die Wahrheit über seine Kriegszeit bleibt unvollständig.
-
-Aber sie ist jetzt wenigstens **nicht mehr falsch**.
+Diese Recherche kann die Lücke nicht füllen. Sie kann aber verhindern, dass Unwahrheiten an die Stelle treten, wo Wahrheit fehlt.
 
 ---
 
 ## Anhang und Quellen
 
----
-layout: post
-title: "Einheiten, in denen unser Vater im zweiten Weltkrieg diente"
-date: 2025-12-16
-author: Wolfgang Pilz
-categories: [Ahnenforschung, Zweiter Weltkrieg]
-excerpt: "Eine Dokumentation der militärischen Stationen meines Vaters Alois Pilz 1940–1945 und der historischen Realität der Einheiten, denen er angehörte. Über den Krieg selbst hat er nie gesprochen."
----
-
-
-# Als die KI meinen Vater zum Kriegsverbrecher machte – und warum das eine Warnung ist
-
-**13. Dezember 2025 | Wolfgang Pilz**
-
----
-
-## Der Moment des Schocks
-
-Ich hatte die Militärakten meines Vaters vom Bundesarchiv erhalten. Nüchterne Daten: Einheitsnummern, Feldpostnummern, Stationierungsorte. Nichts Persönliches. Nur das Gerüst seiner Kriegsjahre.
-
-Um dieses Gerüst mit historischem Kontext zu füllen, wandte ich mich an eine Künstliche Intelligenz. Ich gab die Einheitsnamen ein und bat um eine Einordnung: In welchen Einsatzräumen operierten diese Verbände? Welche Kriegsverbrechen sind für diese Einheiten dokumentiert?
-
-Was dann kam, traf mich wie ein Schlag.
-
-Die KI erstellte eine detaillierte Analyse, die meinen Vater systematisch in Verbindung brachte mit:
-- Den Massakern an französischen Kolonialtruppen 1940 (Chasselay)
-- Den Pogromen von Lemberg 1941
-- Der Bewachung des "Russenlagers" Pongau 1941/42, wo tausende sowjetische Kriegsgefangene verhungerten
-- Den Massakern in Griechenland 1943/44 (Kommeno, Kefalonia)
-
-Vier Schauplätze. Vier schwere Vorwürfe. Alle mit präzisen Datumsangaben, geografischen Details, Opferzahlen.
-
-Es las sich überzeugend. Es klang fundiert.
-
-**Es war fast vollständig falsch.**
-
----
-
-## Die Methode des Algorithmus – und ihr fataler Fehler
-
-Der Fehler der KI lag nicht in mangelnder Intelligenz. Er lag in ihrer Methode.
-
-Der Algorithmus funktioniert so:
-1. **Einheit identifizieren:** Bau-Bataillon 158 → Teil der Wehrmacht im Westfeldzug
-2. **Verbrechen zuordnen:** Wehrmacht 1940 in Frankreich → Massaker an Kolonialtruppen
-3. **Verbindung herstellen:** Soldat war in Frankreich → potenzieller Täter
-
-Was die KI nicht berücksichtigt:
-- **Funktion der Einheit:** Bautruppe im rückwärtigen Gebiet ≠ Kampftruppe an der Spitze
-- **Geografische Distanz:** Lothringen ≠ Lyon (über 300 km)
-- **Zeitliche Abläufe:** Wann war wer wo?
-
-Die KI behandelt die Wehrmacht als homogene Masse. Wer irgendwo zur selben Zeit im selben Land war, wird zum Teil des Verbrechens.
-
-Das ist historisch unhaltbar. Und es ist menschlich verheerend.
-
----
-
-## Die systematische Überprüfung – oder: Wie Geschichte wirklich funktioniert
-
-Als Jurist bin ich es gewohnt, Indizien zu prüfen. Als Genealoge habe ich gelernt, Quellen zu hinterfragen. Beides half mir jetzt.
-
-Ich ging jeden einzelnen Vorwurf durch. Nicht mit dem Ziel der Entlastung – sondern mit dem Ziel der **Wahrheit**.
-
-### Frankreich 1940: Die Bautruppe
-
-**KI-Vorwurf:** Beteiligung an Massakern an senegalesischen Soldaten bei Lyon/Chasselay.
-
-**Die Fakten:**
-- Das Bau-Bataillon 158 operierte im Raum Lothringen/Saar, weit nördlich
-- Seine Aufgabe: Straßenbau, Brückeninstandsetzung – im Tross, nicht an der Spitze
-- Die Massaker bei Lyon wurden von Elite-Kampfverbänden (Division "Großdeutschland", SS-Totenkopf) verübt
-- **Geografische Diskrepanz:** >300 km Distanz zwischen Einsatzort und Tatort
-
-**Bewertung:** Ausgeschlossen.
-
----
-
-### Lemberg 1941: Das absolute Alibi
-
-**KI-Vorwurf:** Beteiligung am Pogrom von Lemberg (30. Juni - 3. Juli 1941) durch Zugehörigkeit zum Gebirgsjäger-Regiment 99.
-
-**Die Fakten:**
-- Im **März 1941** heiratete mein Vater in Innsbruck
-- In den Wochen vor "Barbarossa" (22. Juni 1941) waren Urlaube in Angriffsdivisionen extrem restriktiv
-- Von 1941 bis Anfang 1942 war er beim **Landesschützen-Ersatz-Bataillon 18 in Lienz** – einer Ausbildungseinheit, **nicht** an der Ostfront
-- Die Versetzung zum GJR 99 erfolgte erst 1942, für die Kaukasus-Offensive
-
-**Zeitliche Diskrepanz:** Er kam mehr als ein Jahr **nach** den Lemberger Pogromen zur Einheit.
-
-**Bewertung:** Ausgeschlossen. Dies ist das stärkste Alibi – die Hochzeit und seine Zuteilung nach Lienz macht eine Anwesenheit in der Ukraine unmöglich.
-
----
-
-### Pongau 1941/42: Die institutionelle Trennung
-
-**KI-Vorwurf:** Wachdienst im Stalag XVIII C (Markt Pongau), wo tausende sowjetische Kriegsgefangene verhungerten.
-
-**Die Fakten:**
-- Mein Vater war beim **Landesschützen-Ersatz-Bataillon 18** in **Lienz**
-- Ein **Ersatz**-Bataillon ist eine Ausbildungs- und Verwaltungseinheit im Innendienst
-- Die tatsächliche Lagerbewachung oblag **Feld**-Landesschützen-Bataillonen (z.B. Ldsch.Btl. 921, 922)
-- **Geografische Barriere:** Lienz liegt in Osttirol, Pongau im Salzburger Land – getrennt durch die Hohen Tauern, damals ohne direkte Verkehrsverbindung
-
-**Die entscheidende Erklärung:** Mein Vater war **Zollbeamter**. Die Reichsfinanzverwaltung nutzte das Landesschützen-Ersatz-Bataillon 18 in Lienz explizit zur militärischen Ausbildung ihrer Beamten für den späteren Grenzdienst. Er war möglicherweise nur "Gast" der Wehrmacht, aber jedenfalls nicht Wachpersonal eines Kriegsgefangenenlagers.
-
-**Bewertung:** Ausgeschlossen.
-
----
-
-### Griechenland 1943/44: Das physiologische Unmöglichkeits-Theorem
-
-**KI-Vorwurf:** Beteiligung an den Massakern der 1. Gebirgs-Division in Griechenland (Kommeno, Kefalonia).
-
-**Die Fakten:**
-- Im Winter 1942/43 erkrankte mein Vater im Kaukasus am **Wolhynischen Sumpffieber** (eine schwere Fiebererkrankung)
-- Ab 1943 war er **nicht mehr frontverwendungsfähig**
-
-**Das physiologische Argument:** Der Partisanenkrieg in Griechenland fand im unwegsamen Epirus-Gebirge statt. Die "Sühnemaßnahmen" erforderten Eilmärsche über steile Pfade.
-
-**Der administrative Beweis:** Ab 1944 wird er bei der **Stamm-Kompanie des Grenadier-Ersatz-Bataillons 107** geführt – eine Heimateinheit im Wehrkreis XII (Westdeutschland), wo frontuntaugliche Kriegsversehrte im Innendienst eingesetzt wurden. Grund war ein Krampfadernleiden.
-
-**Bewertung:** Ausgeschlossen.
-
----
-
-## Was bleibt: Der Kaukasus 1942/43
-
-Es gibt **eine** Schnittmenge zwischen biografischer Präsenz und Verbrechensraum: die Kaukasus-Offensive 1942/43.
-
-Das Gebirgsjäger-Regiment 99 war dort nachweislich in "Bandenbekämpfung" (d.h. Repressalien gegen Zivilisten) und die Verfolgung von Juden involviert. Die historische Forschung ist hier eindeutig.
-
-Mein Vater war in diesem Zeitraum Teil dieser Einheit.
-
-**Was ich damit anfange – als Sohn und als Chronikschreiber**
-
-Ich kann nicht belegen, dass er **nicht** beteiligt war. Aber ich kann auch nicht belegen, dass er es **war**. Individuelle Schuld ist ohne konkrete Zeugenaussagen oder Dokumente nicht nachweisbar.
-
-Was ich weiß: Seine Krankheit und Verwundung in dieser Zeit beendeten seinen Frontdienst. Sie bewahrten ihn – unfreiwillig – vor der Beteiligung an den späteren, noch schwereren Verbrechen der Einheit in Griechenland.
-
----
-
-## Die Lehre: Wenn Algorithmen Geschichte schreiben
-
-Diese Erfahrung ist eine Warnung.
-
-KI-Systeme werden zunehmend in der genealogischen und historischen Forschung eingesetzt. Sie können riesige Datenmengen verarbeiten, Muster erkennen, Zusammenhänge herstellen.
-
-**Aber sie verstehen nicht:**
-- Die Differenz zwischen Ersatzheer und Feldheer
-- Die Bedeutung einer Hochzeit im März 1941
-- Die Unmöglichkeit, mit einem steifen Bein im Hochgebirge zu kämpfen
-
-Sie denken in Korrelationen, nicht in Kausalitäten.
-Sie sehen Einheiten, nicht Menschen.
-Sie erkennen Daten, aber keine biografischen Brüche.
-
-**Das Ergebnis:** Eine "Täterbiografie", die faktisch unhaltbar ist – aber so überzeugend formuliert, dass ich sie zunächst fast geglaubt hätte.
-
----
-
-## Transparenz als Pflicht
-
-Ich habe die ursprüngliche KI-Analyse zunächst auf dieser Website veröffentlicht. Mit einer Warnung, ja – aber ich habe sie veröffentlicht.
-
-Das war ein Fehler. Nicht, weil ich die Wahrheit verschweigen wollte. Sondern weil ich die **Unwahrheit** nicht hätte verbreiten dürfen, nur weil sie gut formuliert war.
-
-Dieser korrigierte Beitrag ersetzt die frühere Version.
-
-Die detaillierte forensische Analyse – alle Belege, Tabellen, Quellen – habe ich in einen separaten Anhang ausgelagert. Wer die Beweisführung im Detail nachvollziehen möchte, findet sie dort verlinkt.
-
----
-
-## Was ich über meinen Vater weiß – und was nicht
-
-Mein Vater hat nie über den Krieg gesprochen. Nicht ein Wort.
-
-Ich kenne seine Kriegserfahrung nur aus Archivdokumenten. Ich weiß, wo er war – aber nicht, was er tat.
-
-Die KI wollte mir diese Lücke füllen. Sie bot mir eine **Erklärung** an, eine **Einordnung**, einen **Kontext**.
-
-Aber Geschichte ist keine Lücke, die man mit Algorithmen auffüllen kann.
-
-Mein Vater war Teil einer verbrecherischen Organisation. Die Wehrmacht war keine neutrale Armee, die vom Nationalsozialismus missbraucht wurde. Sie war integraler Bestandteil der Vernichtungspolitik.
-
-**Aber:**
-Nicht jeder Soldat war an jedem Verbrechen beteiligt.
-Nicht jede Einheit beging jedes Verbrechen.
-Und biografische Details – Hochzeiten, Krankheiten, Verwundungen – sind keine Alibis, sondern **Fakten**.
-
-Diese Fakten anzuerkennen, bedeutet nicht, die Verbrechen der Wehrmacht zu relativieren.
-
-Es bedeutet, die **Wahrheit** über ein einzelnes Leben zu respektieren.
-
----
-
-## Epilog: Die Spuren, die blieben
-
-Mein Vater kehrte physisch und psychisch gezeichnet aus diesem Krieg zurück.
-
-Das steife Bein begleitete ihn sein Leben lang.
-Das Schweigen auch.
-
-Ich habe ihn nie über den Kaukasus reden hören.
-Nie über Lemberg, Pongau oder Griechenland – weil er dort nicht war.
-Und nie über das, was er wirklich erlebt hat.
-
-Die Wahrheit über seine Kriegszeit bleibt unvollständig.
-
-Aber sie ist jetzt wenigstens **nicht mehr falsch**.
-
----
-
-## Anhang und Quellen
-
-**→ [Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung](/assets/mds/forensischer_anhang.md)**
-
-
-Dieser umfassende Anhang dokumentiert:
-- Alle geografischen, zeitlichen und institutionellen Diskrepanzen
-- Die Analyse jeder einzelnen Einheit im Detail
-- Quellennachweise und historische Forschungsliteratur
-- Die vollständige Widerlegung der vier Hauptvorwürfe
-
----
+**→ [Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung]({{ site.baseurl }}/assets/mds/forensischer_anhang.md)**
 
 **Bundesarchiv-Dokumentation:**
-- Auskunftsschreiben und Karteikarte Alois Pilz
-- Einheitslisten und Feldpostnummern
+- Auskunftsschreiben vom 01.12.2025 (DR 22025/G-7171)
+- Karteikarte B 563-1 KARTEI/P-442/343
+- Erkennungsmarkenverzeichnisse (Bundesarchivsignaturen siehe Auskunft)
 
 **Verwendete Fachliteratur:**
-- Ahlfen/Moll: *Blutiges Edelweiß – Die 1. Gebirgs-Division im Zweiten Weltkrieg*
+- Georg Tessin: *Verbände und Truppen der deutschen Wehrmacht und Waffen-SS im Zweiten Weltkrieg 1939–1945*
 - Lexikon der Wehrmacht (Online-Datenbank)
-- Institut für Zeitgeschichte: Wehrmacht und Kriegsverbrechen
-
----
-
-*Dieser Beitrag wurde in seiner ursprünglichen Fassung (13.12.2025) mithilfe einer KI erstellt und enthielt schwerwiegende Fehler. Die vorliegende korrigierte Fassung (16.12.2025) ist das Ergebnis einer detaillierten biografischen Überprüfung aller Vorwürfe.*
-
-*Die Nutzung von KI in der historischen Forschung bleibt wertvoll – aber nur unter kritischer menschlicher Kontrolle.*
-
----
-
-**Wolfgang Pilz**  
-*Innsbruck, Dezember 2025*
-
-
-
-Dieser umfassende Anhang dokumentiert:
-- Alle geografischen, zeitlichen und institutionellen Diskrepanzen
-- Die Analyse jeder einzelnen Einheit im Detail
-- Quellennachweise und historische Forschungsliteratur
-- Die vollständige Widerlegung der vier Hauptvorwürfe
-
----
-
-**Bundesarchiv-Dokumentation:**
-- Auskunftsschreiben und Karteikarte Alois Pilz
-- Einheitslisten und Feldpostnummern
-
-**Verwendete Fachliteratur:**
 - Ahlfen/Moll: *Blutiges Edelweiß – Die 1. Gebirgs-Division im Zweiten Weltkrieg*
-- Lexikon der Wehrmacht (Online-Datenbank)
 - Institut für Zeitgeschichte: Wehrmacht und Kriegsverbrechen
-
----
-
-*Dieser Beitrag wurde in seiner ursprünglichen Fassung (13.12.2025) mithilfe einer KI erstellt und enthielt schwerwiegende Fehler. Die vorliegende korrigierte Fassung (16.12.2025) ist das Ergebnis einer detaillierten biografischen Überprüfung aller Vorwürfe.*
-
-*Die Nutzung von KI in der historischen Forschung bleibt wertvoll – aber nur unter kritischer menschlicher Kontrolle.*
 
 ---
 
