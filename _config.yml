@@ -1,43 +1,38 @@
 # ==============================================================================
 # HAUPTKONFIGURATION DER PILZ-CHRONIK BONUSSEITE
 # ==============================================================================
-# Diese Datei steuert die globalen Einstellungen, Metadaten und die Navigation.
-# Basierend auf den Forschungsdaten aus 'Pilz-Chronik-Webseite-Texte.docx'.
 
 title: Pilz-Chronik Bonusseite
 email: pilz@gmx.at
 description: >-
-  Dies ist die offizielle Ergänzung zur gedruckten Familienchronik (Band 1 & 2).
-  Hier finden Sie interaktive Inhalte, neue Funde, DNA-Analysen und Korrekturen.
-baseurl: "" # Wenn die Seite in einem Unterordner liegt, hier anpassen (z.B. "/chronik")
-url: "" # Die volle Domain (z.B. "https://pilz-chronik.de")
+  Ergänzungen, Korrekturen und Forschungsdaten zur gedruckten Pilz-Chronik.
+
+# WICHTIG: Das hier repariert das Design (CSS) und die Links!
+baseurl: "/bonusseite"
+url: "https://pilzchronik.github.io"
 
 # ------------------------------------------------------------------------------
-# Design- und Build-Einstellungen
+# Design-Einstellungen
 # ------------------------------------------------------------------------------
 theme: minima
 plugins:
   - jekyll-feed
 
-# Exclude-Liste: Dateien, die nicht ins fertige Build kopiert werden sollen
+# Exclude-Liste (verhindert Fehler beim Hochladen)
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
 
 # ------------------------------------------------------------------------------
-# Navigation (Header)
+# Navigation oben (Das Menü)
 # ------------------------------------------------------------------------------
-# Hier wird explizit definiert, welche Seiten im oberen Menü erscheinen sollen.
-# Dies verhindert, dass jeder Blog-Post oder jede Unterseite die Navigation flutet.
+# ACHTUNG: Die Dateinamen hier müssen EXAKT so heißen wie deine Dateien im Ordner.
+# Am besten alles kleinschreiben!
 header_pages:
-  - karte.md          # Geografie der Familie
-  - zeitleiste.md     # Chronologische Historie
-  - dna-herkunft.md   # Genetische Abstammung
-  - downloads.md      # Register und PDFs
-  - links.md          # Externe Verweise
-  - about.md          # Impressum / Über das Projekt
+  - karte.md
+  - zeitleiste.md
+  - dna-herkunft.md
+  - downloads.md
+  - links.md
+  - about.md
