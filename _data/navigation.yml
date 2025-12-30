@@ -1,0 +1,20 @@
+# Diese Datei steuert das obere Menü.
+# Änderungen hier erfordern einen Neustart des Servers (jekyll serve).
+
+- name: Startseite
+  link: /
+  weight: 1
+
+- name: Chronik-Updates
+  link: /updates/
+  weight: 2
+  highlight: true  # Markierung für Wichtigkeit
+
+- name: Datenbank (TNG)
+  link: https://www.pilz.fun
+  external: true
+  weight: 3
+
+- name: Kontakt & Impressum
+  link: /about/
+  weight: 4

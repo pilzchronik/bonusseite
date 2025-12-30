@@ -1,0 +1,20 @@
+title: Pilz-Chronik Bonusseite
+email: pilz@gmx.at
+description: >-
+  Ergänzungen, Korrekturen und Forschungsdaten zur gedruckten Pilz-Chronik.
+baseurl: "" 
+url: "" 
+
+# Design-Einstellungen
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Navigation oben (damit nicht alle Seiten oben erscheinen)
+header_pages:
+  - karte.md
+  - archiv.md     # NEU: Ersetzt die Einzelseiten
+  - downloads.md
+  - links.md
+  - about.md
+ 

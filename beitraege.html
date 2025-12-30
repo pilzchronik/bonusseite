@@ -1,0 +1,149 @@
+---
+layout: page
+title: Werkstattbericht & Neuigkeiten
+permalink: /beitraege/
+search_omit: false
+---
+
+<style>
+  /* Container für angepinnte Beiträge */
+ .sticky-container {
+    background-color: #f0f4f8; /* Sehr helles Pilz-Blau */
+    border-left: 5px solid #2a5d8f; /* Pilz-Blau Akzent */
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+ .sticky-badge {
+    display: inline-block;
+    background-color: #2a5d8f;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  /* Styling für die normale Beitragsliste */
+ .post-list-item {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+  }
+
+ .post-meta {
+    font-size: 0.9rem;
+    color: #828282;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+ .post-link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2a2a2a;
+    text-decoration: none;
+  }
+
+ .post-link:hover {
+    color: #2a5d8f;
+    text-decoration: underline;
+  }
+
+ .category-tag {
+    background-color: #e1e1e1;
+    color: #333;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
+  
+ .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #2a5d8f;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+</style>
+
+<div class="posts-wrapper">
+
+  <p class="intro-text">
+    Willkommen im dynamischen Teil der Pilz-Chronik. Hier veröffentliche ich aktuelle 
+    Forschungsergebnisse, Korrekturen zu den gedruckten Bänden und Einblicke in die 
+    "Stille Reserve" – Hypothesen, die noch auf ihre Bestätigung warten.
+  </p>
+
+  {% assign sticky_posts = site.posts | where: "sticky", true %}
+  
+  {% if sticky_posts.size > 0 %}
+    <section class="sticky-section">
+      {% for post in sticky_posts %}
+        <article class="sticky-container">
+          <span class="sticky-badge">★ Hervorgehoben</span>
+          
+          <h2 style="margin-top: 0;">
+            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </h2>
+          
+          <span class="post-meta">
+            {{ post.date | date: "%d. %B %Y" }}
+            {% if post.categories.size > 0 %}
+              • Kategorien: 
+              {% for category in post.categories %}
+                <span class="category-tag">{{ category }}</span>
+              {% endfor %}
+            {% endif %}
+          </span>
+
+          <div class="post-excerpt">
+            {{ post.excerpt | strip_html | truncatewords: 40 }}
+          </div>
+          
+          <a href="{{ post.url | relative_url }}" class="read-more">Ganzen Beitrag lesen &rarr;</a>
+        </article>
+      {% endfor %}
+    </section>
+  {% endif %}
+
+
+  <section class="feed-section">
+    <h2 style="border-bottom: 2px solid #2a5d8f; padding-bottom: 10px; margin-bottom: 20px;">
+      Neueste Einträge
+    </h2>
+    
+    <ul class="post-list" style="list-style: none; margin-left: 0;">
+      {% for post in site.posts %}
+        {% unless post.sticky == true %}
+          <li class="post-list-item">
+            <span class="post-meta">{{ post.date | date: "%d. %B %Y" }}</span>
+            
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+              {% if post.categories contains 'Stille Reserve' %}
+                <span class="category-tag" style="background:#fff3cd; color:#856404;">Stille Reserve</span>
+              {% endif %}
+            </h3>
+
+            <div class="post-excerpt">
+              {{ post.excerpt | strip_html | truncatewords: 50 }}
+            </div>
+            
+            <a href="{{ post.url | relative_url }}" class="read-more">Weiterlesen...</a>
+          </li>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </section>
+
+</div>
