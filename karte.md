@@ -14,7 +14,7 @@ permalink: /karte/
     line-height: 1.6;
   }
 
-  /* Der Rahmen für die Karte (Responsive, 4:3 passend zur Karte) */
+  /* Der Rahmen für die Karte (Responsive 4:3) */
   .map-container {
     position: relative;
     width: 100%;
@@ -67,14 +67,14 @@ permalink: /karte/
 <div class="intro-text">
   <p>
     Diese Karte visualisiert die Wanderungsbewegungen über die Jahrhunderte.
-    Sie verbindet die historischen Schwerpunkte der Familiengeschichte
-    (Sachsen/Böhmen) mit den späteren Lebensorten in Österreich und Norditalien.
+    Sie verbindet die historischen Schwerpunkte der Familiengeschichte:
+    Sachsen, Böhmen und Tirol.
   </p>
 </div>
 
 <div class="map-container">
   <iframe
-    src="https://www.google.com/maps/d/u/0/embed?mid=1bYaowjZM7T8_kZl9k-z6_Aebnz7-iIg&ehbc=2E312F&ll=47.9630,12.0030&z=7"
+    src="https://www.google.com/maps/d/u/0/embed?mid=1bYaowjZM7T8_kZl9k-z6_Aebnz7-iIg&ehbc=2E312F&ll=48.5000,12.0000&z=6"
     loading="lazy"
     referrerpolicy="no-referrer-when-downgrade"
     allowfullscreen>
@@ -82,28 +82,26 @@ permalink: /karte/
 </div>
 
 <div class="regions-grid">
-
   <div class="region">
     <h3>Sachsen (Ursprung)</h3>
     <p>
-      Im Raum Freiberg/Erzgebirge liegen wichtige frühe Bezugspunkte der Familiengeschichte.
+      Im Erzgebirge liegen die ältesten dokumentierten Wurzeln der direkten Linie im 16. und 17. Jahrhundert.
     </p>
   </div>
 
   <div class="region">
-    <h3>Österreich (Wels, Innsbruck)</h3>
+    <h3>Böhmen (Heimat)</h3>
     <p>
-      Spätere Lebensstationen und Verlagerungen der Familie führten nach Oberösterreich und Tirol.
+      Über fast zwei Jahrhunderte war das böhmische Erzgebirge der Lebensmittelpunkt, geprägt durch Forstwesen und Handwerk.
     </p>
   </div>
 
   <div class="region">
-    <h3>Norditalien (Rovereto)</h3>
+    <h3>Tirol (Gegenwart)</h3>
     <p>
-      Rovereto steht exemplarisch für Verbindungen und Wege über den Alpenraum.
+      Durch berufliche Versetzungen und die Ereignisse des 20. Jahrhunderts verlagerte sich der Schwerpunkt nach Lienz und Innsbruck.
     </p>
   </div>
-
 </div>
 
 <p style="text-align: center; margin-top: 60px;">
