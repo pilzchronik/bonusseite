@@ -90,5 +90,5 @@ permalink: /ergaenzungen/
 </ul>
 
 <p style="text-align: center; margin-top: 60px;">
-  <a href="/" style="text-decoration: none; color: #555;">← Zurück zur Startseite</a>
+  <a href="{{ '/' | relative_url }}" style="...">← Zurück zur Startseite</a>
 </p>
