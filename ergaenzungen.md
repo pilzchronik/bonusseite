@@ -28,14 +28,20 @@ permalink: /ergaenzungen/
   .download-table td {
     padding: 12px;
     border-bottom: 1px solid #eee;
+    vertical-align: middle;
   }
   .download-table a {
-    font-weight: bold;
-    color: #2a5d8f;
+    background-color: #2a5d8f;
+    color: white;
+    padding: 8px 15px;
     text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: bold;
+    display: inline-block;
   }
   .download-table a:hover {
-    text-decoration: underline;
+    background-color: #1a4a75;
   }
 
   /* Liste für Errata */
@@ -62,19 +68,23 @@ permalink: /ergaenzungen/
 </div>
 
 <h2>📂 Downloads (Register)</h2>
-<p>Hier können Sie die Register als PDF herunterladen, um im Buch schneller zu suchen.</p>
+<p>Hier können Sie das vollständige Register als PDF herunterladen, um im Buch schneller nach Namen und Orten zu suchen.</p>
 
 <table class="download-table">
   <tr>
-    <td>📄 <strong>Gesamtregister Band 1 & 2</strong></td>
-    <td><a href="#">Download PDF</a> (in Vorbereitung)</td>
+    <td style="width: 70%;">
+      📄 <strong>Gesamtregister Band 1 & 2</strong><br>
+      <span style="font-size: 0.85em; color: #666;">Enthält Namen- und Ortsverzeichnis (Datei: index.pdf)</span>
+    </td>
+    <td>
+      <a href="/bonusseite/index.pdf" target="_blank">⬇ PDF öffnen</a>
+    </td>
   </tr>
-  
 </table>
 
 <h2>🛠️ Errata (Korrekturverzeichnis)</h2>
-<p>Folgende Korrekturen sind für die gedruckte Ausgabe zu vermerken:</p>
-Achtung; die Eintragungen dienen derzeit nur als Platzhalter und geben keine Fehler wieder.
+<p>**Achtung, das folgende ist nur eine Demonstration und gibt keine tatsächlichen Fheler wieder!"**Folgende Korrekturen sind für die gedruckte Ausgabe zu vermerken:</p>
+
 <ul class="errata-list">
   <li>
     <span class="page-ref">Band 1, S. 145</span>
