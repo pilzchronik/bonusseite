@@ -335,5 +335,5 @@ permalink: /links/
 </ul>
 
 <p style="text-align: center; margin-top: 60px;">
-  <a href="/" style="text-decoration: none; color: #555; border-bottom: 1px solid #ccc;">← Zurück zur Startseite</a>
+  <a href="{{ '/' | relative_url }}" style="...">← Zurück zur Startseite</a>
 </p>
