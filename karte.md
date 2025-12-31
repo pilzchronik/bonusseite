@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Karte der Lebensorte
+title: Karte
 permalink: /karte/
 ---
 
