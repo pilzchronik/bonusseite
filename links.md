@@ -93,7 +93,6 @@ permalink: /links/
 
 </style>
 
-<h1 style="text-align: center; margin-bottom: 20px;">Quellen & Verweise</h1>
 
 <div class="intro-text">
   <p>
