@@ -55,17 +55,19 @@ permalink: /karte/
   }
 </style>
 
-<h1 style="text-align: center; margin-bottom: 20px;">Geografie der Familie</h1>
-
 <div class="intro-text">
   <p>
-    [cite_start]Diese Karte visualisiert die Wanderungsbewegungen der Familie über die Jahrhunderte[cite: 6].
-    [cite_start]Sie verbindet die drei historischen Schwerpunkte: Sachsen, Böhmen und Tirol[cite: 7].
+    Diese Karte visualisiert die Wanderungsbewegungen der Familie über die Jahrhunderte.
+    Sie verbindet die drei historischen Schwerpunkte: Sachsen, Böhmen und Tirol.
   </p>
 </div>
 
 <div class="map-container">
-  <iframe src="https://www.google.com/maps/d/embed?mid=YOUR_MAP_ID_HERE" width="640" height="480"></iframe>
+  <iframe 
+    src="https://www.google.com/maps/d/embed?mid=1_Platzhalter_fuer_Ihre_Map_ID&z=6&ll=49.0,13.0" 
+    width="640" 
+    height="480">
+  </iframe>
 </div>
 
 <div class="regions-grid">
@@ -73,21 +75,21 @@ permalink: /karte/
   <div class="region">
     <h3>Sachsen (Ursprung)</h3>
     <p>
-      [cite_start]Im Erzgebirge (Dörnthal, Rothenthal) liegen die ältesten dokumentierten Wurzeln der direkten Linie im 16. und 17. Jahrhundert[cite: 8]. Hier begann die Familiengeschichte in den Kirchenbüchern.
+      Im Erzgebirge (Dörnthal, Rothenthal) liegen die ältesten dokumentierten Wurzeln der direkten Linie im 16. und 17. Jahrhundert. Hier begann die Familiengeschichte in den Kirchenbüchern.
     </p>
   </div>
 
   <div class="region">
     <h3>Böhmen (Heimat)</h3>
     <p>
-      [cite_start]Über fast zwei Jahrhunderte war das böhmische Erzgebirge (Kallich, Schmiedeberg, Görkau) der Lebensmittelpunkt, geprägt durch Forstwesen und Handwerk[cite: 9]. [cite_start]Nach dem Siebenjährigen Krieg erfolgte hier die Festigung der Familie[cite: 25, 27].
+      Über fast zwei Jahrhunderte war das böhmische Erzgebirge (Kallich, Schmiedeberg, Görkau) der Lebensmittelpunkt, geprägt durch Forstwesen und Handwerk. Nach dem Siebenjährigen Krieg erfolgte hier die Festigung der Familie.
     </p>
   </div>
 
   <div class="region">
     <h3>Tirol (Gegenwart)</h3>
     <p>
-      [cite_start]Durch berufliche Versetzungen (Zollwache) und die Ereignisse des 20. Jahrhunderts verlagerte sich der Schwerpunkt nach Lienz und Innsbruck[cite: 10].
+      Durch berufliche Versetzungen (Zollwache) und die Ereignisse des 20. Jahrhunderts verlagerte sich der Schwerpunkt nach Lienz und Innsbruck.
     </p>
   </div>
 
@@ -100,10 +102,10 @@ permalink: /karte/
   </p>
   <ul>
     <li>
-      <strong>Väterliche Linie (J2-M172):</strong> Ursprung im Nahen Osten/Kaukasus vor ca. 25.000 Jahren. [cite_start]Diese Linie kam vermutlich mit frühen Ackerbauern über den Balkan nach Mitteleuropa[cite: 12, 13, 15].
+      <strong>Väterliche Linie (J2-M172):</strong> Ursprung im Nahen Osten/Kaukasus vor ca. 25.000 Jahren. Diese Linie kam vermutlich mit frühen Ackerbauern über den Balkan nach Mitteleuropa.
     </li>
     <li>
-      <strong>Mütterliche Linie (H41a9):</strong> Ein seltener Zweig, der sich im Alpen-Balkan-Raum herausbildete. [cite_start]Die Vorfahren überlebten die Eiszeit vermutlich in refugialen Gebieten Osteuropas[cite: 16, 49].
+      <strong>Mütterliche Linie (H41a9):</strong> Ein seltener Zweig, der sich im Alpen-Balkan-Raum herausbildete. Die Vorfahren überlebten die Eiszeit vermutlich in refugialen Gebieten Osteuropas.
     </li>
   </ul>
   <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
