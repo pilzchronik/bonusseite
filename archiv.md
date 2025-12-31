@@ -1,79 +1,71 @@
 ---
 layout: page
-title: Alle Beiträge
+title: Archiv & Fundstücke
 permalink: /archiv/
 ---
 
 <style>
-  /* Container für die Liste */
   .post-list {
     list-style: none;
     padding: 0;
-    margin: 0;
   }
-
-  /* Der einzelne Eintrag */
   .post-item {
-    padding: 25px 0;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
     border-bottom: 1px solid #eee;
   }
-
-  .post-item:last-child {
-    border-bottom: none;
-  }
-
-  /* Datum */
-  .post-meta {
-    font-size: 0.85em;
+  .post-date {
     color: #888;
+    font-size: 0.9em;
     margin-bottom: 5px;
     display: block;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
-
-  /* Titel als Link */
-  .post-link {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #2a5d8f; /* Pilz-Blau */
-    text-decoration: none;
-    display: block;
+  .post-title {
+    font-size: 1.6em;
+    margin-top: 0;
     margin-bottom: 10px;
-    transition: color 0.2s;
   }
-
-  .post-link:hover {
-    color: #1a3a5a;
+  .post-title a {
+    text-decoration: none;
+    color: #2a5d8f;
+  }
+  .post-title a:hover {
     text-decoration: underline;
   }
-
-  /* Auszugstext */
   .post-excerpt {
     color: #555;
     line-height: 1.6;
-    margin: 0;
   }
-
-  /* Intro-Text oben */
-  .archive-intro {
-    background: #f9f9f9;
-    padding: 20px;
-    border-left: 4px solid #2a5d8f;
-    margin-bottom: 40px;
-    color: #444;
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2a5d8f;
+    font-weight: bold;
+    font-size: 0.9em;
+    text-decoration: none;
   }
 </style>
 
-<div class="archive-intro">
-  <p>Hier finden Sie alle bisher veröffentlichten Ergänzungen, Forschungsberichte und Korrekturen zur Chronik in chronologischer Reihenfolge.</p>
-</div>
+<h1>Archiv & Fundstücke</h1>
+<p style="color: #666; margin-bottom: 40px;">
+  Hintergrundberichte und Dokumente aus der digitalen Werkstatt.
+</p>
 
 <ul class="post-list">
   {% for post in site.posts %}
     <li class="post-item">
-      <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      <span class="post-date">{{ post.date | date: "%d. %B %Y" }}</span>
+      <h2 class="post-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+      </div>
+      <a href="{{ post.url | relative_url }}" class="read-more">Weiterlesen →</a>
     </li>
   {% endfor %}
 </ul>
+
+<p style="text-align: center; margin-top: 60px;">
+  <a href="/" style="text-decoration: none; color: #555;">← Zurück zur Startseite</a>
+</p>
