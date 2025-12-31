@@ -46,7 +46,6 @@ permalink: /archiv/
   }
 </style>
 
-<h1>Archiv & Fundstücke</h1>
 <p style="color: #666; margin-bottom: 40px;">
   Hintergrundberichte und Dokumente aus der digitalen Werkstatt.
 </p>
