@@ -5,35 +5,11 @@ permalink: /zeitleiste/
 ---
 
 <style>
-  /* Design-Philosophie: Richterlicher Stil */
-  /* Schlicht, seriös, weißer Hintergrund, Akzentfarbe Dunkelblau */
-
-  .timeline-intro {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 40px auto;
-    color: #555;
-    line-height: 1.6;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
-  }
-
-  .timeline-section-title {
-    color: #333;
-    font-size: 1.4em;
-    margin: 40px 0 20px 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-left: 5px solid #2a5d8f;
-    padding-left: 15px;
-  }
-
   /* Die Linie */
   .timeline {
     position: relative;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 40px auto;
     padding-left: 30px;
     border-left: 3px solid #e0e0e0;
   }
@@ -49,12 +25,12 @@ permalink: /zeitleiste/
   .container::before {
     content: '';
     position: absolute;
-    left: -39px; /* Exakt auf der Linie positioniert */
+    left: -39px;
     top: 6px;
     width: 14px;
     height: 14px;
     background: white;
-    border: 3px solid #2a5d8f; /* Pilz-Blau */
+    border: 3px solid #2a5d8f;
     border-radius: 50%;
     z-index: 2;
   }
@@ -73,72 +49,97 @@ permalink: /zeitleiste/
   h3 {
     margin-top: 0;
     margin-bottom: 5px;
-    font-size: 1.2em;
-    color: #222;
+    font-size: 1.25em;
+    color: #333;
+    font-weight: 600;
   }
 
   /* Fließtext */
   p {
-    margin: 0;
     color: #555;
-    line-height: 1.5;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    margin-top: 0;
   }
 
-  /* Kleines Tag für die Kategorie */
+  /* Kleine Tags (Kategorien) */
   .meta-tag {
     display: inline-block;
-    margin-top: 8px;
+    font-size: 0.85em;
+    color: #777;
+    background: #f4f4f4;
     padding: 2px 8px;
-    background: #f0f4f8;
-    color: #444;
-    font-size: 0.8em;
     border-radius: 4px;
-    font-style: italic;
+    border: 1px solid #eee;
+  }
+
+  /* DNA-Aufklappbereich */
+  details {
+    margin-bottom: 50px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  
+  summary {
+    cursor: pointer;
+    padding: 15px;
+    font-weight: bold;
+    color: #555;
+    outline: none;
+  }
+  
+  summary:hover {
+    background: #f0f0f0;
+  }
+
+  .dna-section {
+    padding: 20px;
+    border-top: 1px solid #eee;
+    background: white;
   }
 </style>
 
-<div class="timeline-intro">
-  <h2>Geschichte im Zeitraffer</h2>
-  <p>Eine chronologische Reise durch die Familiengeschichte – von den genetischen Ursprüngen bis zur Gegenwart.</p>
+<div class="intro-section" style="text-align: center; margin-bottom: 50px;">
+  <h1>Geschichte im Zeitraffer</h1>
+  <p style="color: #666; max-width: 600px; margin: 0 auto;">
+    Eine chronologische Reise durch die Familiengeschichte – von den genetischen Ursprüngen bis zur Gegenwart.
+  </p>
 </div>
-
-<div class="timeline-section-title">Prähistorische Wurzeln (DNA-Analyse)</div>
 
 <div class="timeline">
 
-  <div class="container">
-    <span class="year">ca. 25.000 v. Chr.</span>
-    <h3>Väterliche Linie (J2-M172)</h3>
-    <p>Entstehung im Nahen Osten/Kaukasus. Die Vorfahren waren Jäger und Sammler vor dem Höhepunkt der letzten Eiszeit.</p>
-    <span class="meta-tag">DNA-Analyse</span>
-  </div>
+  <details>
+    <summary>🧬 Prähistorische Wurzeln anzeigen (DNA-Analyse)</summary>
+    <div class="dna-section">
+      
+      <div class="container" style="margin-bottom: 20px;">
+        <span class="year">ca. 25.000 v. Chr.</span>
+        <h3>Väterliche Linie (J2-M172)</h3>
+        <p>Entstehung im Nahen Osten/Kaukasus. Die Vorfahren waren Jäger und Sammler vor dem Höhepunkt der letzten Eiszeit.</p>
+      </div>
 
-  <div class="container">
-    <span class="year">ca. 20.000 v. Chr.</span>
-    <h3>Mütterliche Linie (H)</h3>
-    <p>Entstehung in Westasien. Diese Linie erreichte Europa vermutlich vor dem Höhepunkt der Eiszeit und ist heute die häufigste in Europa.</p>
-    <span class="meta-tag">DNA-Analyse</span>
-  </div>
+      <div class="container" style="margin-bottom: 20px;">
+        <span class="year">ca. 20.000 v. Chr.</span>
+        <h3>Mütterliche Linie (H)</h3>
+        <p>Entstehung in Westasien. Diese Linie erreichte Europa vermutlich vor dem Höhepunkt der Eiszeit und ist heute die häufigste in Europa.</p>
+      </div>
 
-  <div class="container">
-    <span class="year">ca. 6.500 v. Chr.</span>
-    <h3>Neolithische Expansion</h3>
-    <p>Frühe Ackerbauern bringen die J2-Linien über den Balkan nach Mitteleuropa.</p>
-    <span class="meta-tag">DNA-Analyse</span>
-  </div>
+      <div class="container" style="margin-bottom: 20px;">
+        <span class="year">ca. 6.500 v. Chr.</span>
+        <h3>Neolithische Expansion</h3>
+        <p>Frühe Ackerbauern bringen die J2-Linien über den Balkan nach Mitteleuropa.</p>
+      </div>
 
-  <div class="container">
-    <span class="year">Mittelalter</span>
-    <h3>Entstehung H41a9</h3>
-    <p>Der spezifische mütterliche Zweig H41a9 bildet sich im Alpen-Balkan-Raum heraus.</p>
-    <span class="meta-tag">DNA-Analyse</span>
-  </div>
+      <div class="container" style="margin-bottom: 0;">
+        <span class="year">Mittelalter</span>
+        <h3>Entstehung H41a9</h3>
+        <p>Der spezifische mütterliche Zweig H41a9 bildet sich im Alpen-Balkan-Raum heraus.</p>
+      </div>
 
-</div>
+    </div>
+  </details>
 
-<div class="timeline-section-title">Historische Zeitleiste</div>
-
-<div class="timeline">
 
   <div class="container">
     <span class="year">ca. 1290</span>
@@ -162,13 +163,6 @@ permalink: /zeitleiste/
   </div>
 
   <div class="container">
-    <span class="year">1562</span>
-    <h3>Michael Pültz in Dörnthal</h3>
-    <p>Erste urkundliche Nennung im Gerichtsbuch: Michael Pültz besiegelt als Schöppe einen Grundstücksverkauf an Caspar von Schönberg. Der belegte Beginn der Familiengeschichte im Erzgebirge.</p>
-    <span class="meta-tag">Ursprung</span>
-  </div>
-
-  <div class="container">
     <span class="year">1591</span>
     <h3>Geburt von Abraham Piltz</h3>
     <p>Stammvater in Dörnthal. Ab hier lassen sich die Primärquellen der direkten Linie lückenlos nachweisen.</p>
@@ -180,13 +174,6 @@ permalink: /zeitleiste/
     <h3>Dreißigjähriger Krieg</h3>
     <p>Verwüstung in Sachsen und Böhmen. Rahmenbedingung für erste Migrationen. Erwähnung eines Niclas Reichl in Kallich.</p>
     <span class="meta-tag">Zeitgeschichte</span>
-  </div>
-
-  <div class="container">
-    <span class="year">1621</span>
-    <h3>Blutgericht am Altstädter Ring</h3>
-    <p>Hinrichtung von 27 böhmischen Anführern in Prag. Ein dramatischer Wendepunkt für den protestantischen Adel, der den historischen Hintergrund für das "Bechinie-Rätsel" bildet.</p>
-    <span class="meta-tag">Kontext</span>
   </div>
 
   <div class="container">
@@ -267,3 +254,7 @@ permalink: /zeitleiste/
   </div>
 
 </div>
+
+<p style="text-align: center; margin-top: 60px;">
+  <a href="/" style="text-decoration: none; color: #555; border-bottom: 1px solid #ccc;">← Zurück zur Startseite</a>
+</p>
