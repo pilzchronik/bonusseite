@@ -1,106 +1,126 @@
 ---
-layout: home
+layout: default
 title: Startseite
 ---
 
 <style>
-/* LOKALES CSS FÜR DAS KACHEL-LAYOUT */
-.intro-section {
-  background-color: #f0f4f8;
-  padding: 30px;
-  border-radius: 5px;
-  margin-bottom: 40px;
-  text-align: center;
-  border-bottom: 4px solid #ccdbe8;
-}
-.intro-section h1 { color: #2a5d8f; margin-bottom: 10px; }
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  margin-bottom: 50px;
-}
-.card-box {
-  background-color: #ffffff;
-  border: 1px solid #e1e4e8;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-  text-decoration: none!important;
-  color: #333;
-  display: block;
-  transition: transform 0.2s;
-}
-.card-box:hover {
-  transform: translateY(-5px);
-  border-color: #2a5d8f;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-}
-.card-box h3 { color: #2a5d8f; margin-top: 0; }
-.card-icon { margin-right: 5px; }
+  /* Intro-Box oben */
+  .intro-section {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    border-bottom: 4px solid #ccdbe8;
+  }
+  
+  /* Kacheln nebeneinander */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-bottom: 50px;
+  }
+  
+  /* Aussehen der einzelnen Kachel */
+  .card-box {
+    display: block;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-decoration: none !important;
+    color: #333 !important;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.2s ease;
+  }
+  
+  /* Hover-Effekt */
+  .card-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    border-color: #aaa;
+  }
+  
+  .card-box h3 {
+    margin-top: 0;
+    color: #2a5d8f;
+    font-size: 1.2em;
+  }
+
+  /* News-Bereich */
+  .news-item {
+    margin-bottom: 20px; 
+    padding-bottom: 20px; 
+    border-bottom: 1px solid #eee;
+  }
+  .news-date {
+    color: gray; 
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .news-link {
+    font-size: 1.2em; 
+    font-weight: bold; 
+    text-decoration: none;
+    color: #2a5d8f;
+  }
+  .news-link:hover {
+    text-decoration: underline;
+  }
+  .news-desc {
+    color: #555;
+    margin-top: 5px;
+    display: block;
+  }
 </style>
 
 <div class="intro-section">
   <h1>Willkommen im digitalen Pilz-Archiv</h1>
-  <p>
-    Dies ist die offizielle Ergänzung zur gedruckten Familienchronik (Band 1 & 2).
-    Hier finden Sie interaktive Inhalte, die über das Buch hinausgehen: 
-    neue Archivfunde, genetische Analysen und laufende Korrekturen.
+  <p style="font-size: 1.1em; color: #555;">
+    Dies ist die offizielle Ergänzung zur gedruckten Familienchronik (Band 1 & 2).<br>
+    Hier finden Sie interaktive Inhalte, neue Funde und Korrekturen.
   </p>
 </div>
 
 <div class="grid-container">
   
-  <a href="{{ '/karte/' | relative_url }}" class="card-box">
-    <h3><span class="card-icon">🗺️</span> Karte</h3>
-    <p>
-      <strong>Geografie der Familie.</strong><br>
-      Visualisierung der Wanderungsbewegungen. Von den Ursprüngen im sächsischen Erzgebirge über die Heimat in Böhmen bis zur Gegenwart in Tirol.
-    </p>
+  <a href="karte/" class="card-box">
+    <h3>🗺️ Karte</h3>
+    <p>Die Lebensorte der Vorfahren in Böhmen, Tirol und Sachsen.</p>
   </a>
 
-  <a href="{{ '/zeitleiste/' | relative_url }}" class="card-box">
-    <h3><span class="card-icon">⏳</span> Zeitleiste</h3>
-    <p>
-      <strong>Geschichte im Zeitraffer.</strong><br>
-      Eine chronologische Reise von den prähistorischen DNA-Wurzeln (25.000 v. Chr.) über das Mittelalter bis zum Abschluss der Chronik 2025.
-    </p>
+  <a href="zeitleiste/" class="card-box">
+    <h3>⏳ Zeitleiste</h3>
+    <p>Von der Urzeit bis heute: Geschichte im Zeitstrahl.</p>
   </a>
 
-  <a href="{{ '/dna-herkunft/' | relative_url }}" class="card-box">
-    <h3><span class="card-icon">🧬</span> DNA-Analyse</h3>
-    <p>
-      <strong>Tiefe Wurzeln.</strong><br>
-      Ergebnisse der Y-DNA und mtDNA-Analysen. Herkunft vor den Kirchenbüchern: Haplogruppen J-FT159612 und H41a9 im Detail.
-    </p>
+  <a href="dna-herkunft/" class="card-box">
+    <h3>🧬 DNA-Analyse</h3>
+    <p>Tiefe Wurzeln: Unsere Herkunft vor den Kirchenbüchern.</p>
   </a>
 
-  <a href="{{ '/downloads/' | relative_url }}" class="card-box">
-    <h3><span class="card-icon">📂</span> Downloads</h3>
-    <p>
-      <strong>Daten & Fakten.</strong><br>
-      Zugriff auf Register, Stammbaum-Übersichten und Korrekturblätter als PDF zum Herunterladen und Ausdrucken.
-    </p>
+  <a href="downloads/" class="card-box">
+    <h3>📂 Downloads</h3>
+    <p>Register, Übersichten und Korrekturen als PDF.</p>
   </a>
 
 </div>
 
-<hr>
+<hr style="margin: 40px 0;">
 
-<h2>Neueste Einträge</h2>
-
-<ul class="post-list">
-  {% for post in site.posts limit:3 %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
+<div class="news-section">
+  <h2 style="color: #333; border-bottom: 2px solid #2a5d8f; display: inline-block; padding-bottom: 5px;">Neueste Einträge</h2>
+  <ul style="list-style: none; padding: 0; margin-top: 20px;">
+    {% for post in site.posts limit:3 %}
+      <li class="news-item">
+        <span class="news-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+        <a href="{{ post.url | relative_url }}" class="news-link">
+          {{ post.title }}
         </a>
-      </h3>
-      {% if post.description %}
-        <p>{{ post.description }}</p>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+        <span class="news-desc">{{ post.description }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
