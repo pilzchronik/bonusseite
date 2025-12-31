@@ -13,11 +13,11 @@ permalink: /karte/
     line-height: 1.6;
   }
 
-  /* Karte */
+  /* Karte - Responsive Container */
   .map-container {
     position: relative;
     width: 100%;
-    padding-bottom: 75%; 
+    padding-bottom: 75%; /* 4:3 Format */
     height: 0;
     overflow: hidden;
     border-radius: 8px;
@@ -63,11 +63,7 @@ permalink: /karte/
 </div>
 
 <div class="map-container">
-  <iframe 
-    src="https://www.google.com/maps/d/embed?mid=1_Platzhalter_fuer_Ihre_Map_ID&z=6&ll=49.0,13.0" 
-    width="640" 
-    height="480">
-  </iframe>
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1a89vKqG-qC20vF8u-xH35cQz1gQ&ehbc=2E312F" width="640" height="480"></iframe>
 </div>
 
 <div class="regions-grid">
@@ -98,14 +94,14 @@ permalink: /karte/
 <div class="dna-box">
   <h3>🧬 Tiefe Wurzeln: Die DNA-Herkunft</h3>
   <p>
-    Noch vor den schriftlichen Aufzeichnungen zeigen genetische Analysen den Weg der Vorfahren:
+    [cite_start]Noch vor den schriftlichen Aufzeichnungen zeigen genetische Analysen den Weg der Vorfahren[cite: 74, 76]:
   </p>
   <ul>
     <li>
-      <strong>Väterliche Linie (J2-M172):</strong> Ursprung im Nahen Osten/Kaukasus vor ca. 25.000 Jahren. Diese Linie kam vermutlich mit frühen Ackerbauern über den Balkan nach Mitteleuropa.
+      <strong>Väterliche Linie (J2-M172):</strong> Ursprung im Nahen Osten/Kaukasus vor ca. [cite_start]25.000 Jahren[cite: 33, 34]. [cite_start]Diese Linie kam vermutlich mit frühen Ackerbauern über den Balkan nach Mitteleuropa[cite: 38].
     </li>
     <li>
-      <strong>Mütterliche Linie (H41a9):</strong> Ein seltener Zweig, der sich im Alpen-Balkan-Raum herausbildete. Die Vorfahren überlebten die Eiszeit vermutlich in refugialen Gebieten Osteuropas.
+      [cite_start]<strong>Mütterliche Linie (H41a9):</strong> Ein seltener Zweig, der sich im Alpen-Balkan-Raum herausbildete[cite: 40, 96]. [cite_start]Die Vorfahren überlebten die Eiszeit vermutlich in refugialen Gebieten Osteuropas[cite: 98].
     </li>
   </ul>
   <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
