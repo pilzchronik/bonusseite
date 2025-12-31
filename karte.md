@@ -67,9 +67,11 @@ permalink: /karte/
 
 <div class="map-container">
   <iframe 
-    src="https://www.google.com/maps/d/embed?mid=1bYaowjZM7T8_kZI9k-z6_Aebnz7-ilg&z=6"
-    width="640" 
-    height="480">
+    src="https://www.google.com/maps/d/u/0/embed?mid=1bYaowjZM7T8_kZl9k-z6_Aebnz7-iIg&ehbc=2E312F"
+    width="640"
+    height="480"
+    frameborder="0"
+    allowfullscreen>
   </iframe>
 </div>
 
