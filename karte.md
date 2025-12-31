@@ -13,11 +13,11 @@ permalink: /karte/
     line-height: 1.6;
   }
 
-  /* Karte - Responsive Container */
+  /* Karte - Responsive Container (4:3 Format) */
   .map-container {
     position: relative;
     width: 100%;
-    padding-bottom: 75%; /* 4:3 Format */
+    padding-bottom: 75%; 
     height: 0;
     overflow: hidden;
     border-radius: 8px;
@@ -26,6 +26,8 @@ permalink: /karte/
     background: #f9f9f9;
     margin-bottom: 50px;
   }
+  
+  /* Damit die Karte den Container voll ausfüllt */
   .map-container iframe {
     position: absolute;
     top: 0;
@@ -46,6 +48,7 @@ permalink: /karte/
   }
 
   h3 { color: #2a5d8f; margin-top: 0; }
+  
   .dna-box {
     background-color: #f4f6f8;
     padding: 20px;
@@ -63,7 +66,11 @@ permalink: /karte/
 </div>
 
 <div class="map-container">
-  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1a89vKqG-qC20vF8u-xH35cQz1gQ&ehbc=2E312F" width="640" height="480"></iframe>
+  <iframe 
+    src="https://www.google.com/maps/d/u/0/embed?mid=1bYaowjZM7T8_kZl9k-z6_Aebnz7-iIg&ehbc=2E312F" 
+    width="640" 
+    height="480">
+  </iframe>
 </div>
 
 <div class="regions-grid">
@@ -94,14 +101,14 @@ permalink: /karte/
 <div class="dna-box">
   <h3>🧬 Tiefe Wurzeln: Die DNA-Herkunft</h3>
   <p>
-    [cite_start]Noch vor den schriftlichen Aufzeichnungen zeigen genetische Analysen den Weg der Vorfahren[cite: 74, 76]:
+    Noch vor den schriftlichen Aufzeichnungen zeigen genetische Analysen den Weg der Vorfahren:
   </p>
   <ul>
     <li>
-      <strong>Väterliche Linie (J2-M172):</strong> Ursprung im Nahen Osten/Kaukasus vor ca. [cite_start]25.000 Jahren[cite: 33, 34]. [cite_start]Diese Linie kam vermutlich mit frühen Ackerbauern über den Balkan nach Mitteleuropa[cite: 38].
+      <strong>Väterliche Linie (J2-M172):</strong> Ursprung im Nahen Osten/Kaukasus vor ca. 25.000 Jahren. Diese Linie kam vermutlich mit frühen Ackerbauern über den Balkan nach Mitteleuropa.
     </li>
     <li>
-      [cite_start]<strong>Mütterliche Linie (H41a9):</strong> Ein seltener Zweig, der sich im Alpen-Balkan-Raum herausbildete[cite: 40, 96]. [cite_start]Die Vorfahren überlebten die Eiszeit vermutlich in refugialen Gebieten Osteuropas[cite: 98].
+      <strong>Mütterliche Linie (H41a9):</strong> Ein seltener Zweig, der sich im Alpen-Balkan-Raum herausbildete. Die Vorfahren überlebten die Eiszeit vermutlich in refugialen Gebieten Osteuropas.
     </li>
   </ul>
   <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
