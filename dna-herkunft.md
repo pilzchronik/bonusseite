@@ -30,7 +30,7 @@ permalink: /dna-herkunft/
     font-size: 1.8em;
     margin-bottom: 25px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #2a5d8f; /* Pilz-Blau */
+    border-bottom: 2px solid #2a5d8f;
     display: inline-block;
   }
 
@@ -40,7 +40,7 @@ permalink: /dna-herkunft/
     font-size: 1.3em;
   }
 
-  /* Daten-Gitter (Kacheln für Fakten) */
+  /* Daten-Gitter */
   .data-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -86,7 +86,7 @@ permalink: /dna-herkunft/
     border: 1px solid #ddd;
   }
 
-  /* Mini-Timeline für Wanderungen (angepasst an Haupt-Timeline) */
+  /* Mini-Timeline für Wanderungen */
   .mini-timeline {
     border-left: 2px solid #e0e0e0;
     margin-left: 10px;
