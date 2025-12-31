@@ -31,7 +31,7 @@ permalink: /links/
     margin: 0;
   }
 
-  /* --- Design A: Detaillierte Einträge (für Quellen mit Text) --- */
+  /* --- Design A: Detaillierte Einträge --- */
   li.detail {
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -70,7 +70,7 @@ permalink: /links/
     font-style: italic;
   }
 
-  /* --- Design B: Kompakte Liste (für Archive & Karten) --- */
+  /* --- Design B: Kompakte Liste --- */
   li.compact {
     margin-bottom: 6px;
     padding-bottom: 6px;
@@ -103,7 +103,6 @@ permalink: /links/
 </div>
 
 <h2>Spezialisierte Forschung & Datenbanken</h2>
-<p style="font-size:0.9em; color:#666;">Interaktive Stammbäume und vertiefende Lese-Bibliotheken.</p>
 <ul>
   <li class="detail">
     <strong>TNG Datenbank (pilz.fun)</strong>
