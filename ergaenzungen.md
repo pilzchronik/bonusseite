@@ -66,13 +66,10 @@ permalink: /ergaenzungen/
 
 <table class="download-table">
   <tr>
-    <td>📄 <strong>Namenregister Band 1 & 2</strong></td>
+    <td>📄 <strong>Gesamtregister Band 1 & 2</strong></td>
     <td><a href="#">Download PDF</a> (in Vorbereitung)</td>
   </tr>
-  <tr>
-    <td>📄 <strong>Ortsverzeichnis</strong></td>
-    <td><a href="#">Download PDF</a> (in Vorbereitung)</td>
-  </tr>
+  
 </table>
 
 <h2>🛠️ Errata (Korrekturverzeichnis)</h2>
