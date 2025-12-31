@@ -74,7 +74,7 @@ permalink: /ergaenzungen/
 
 <h2>🛠️ Errata (Korrekturverzeichnis)</h2>
 <p>Folgende Korrekturen sind für die gedruckte Ausgabe zu vermerken:</p>
-
+Achtung; die Eintragungen dienen derzeit nur als Platzhalter und geben keine Fehler wieder.
 <ul class="errata-list">
   <li>
     <span class="page-ref">Band 1, S. 145</span>
