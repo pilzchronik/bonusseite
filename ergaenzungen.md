@@ -83,7 +83,7 @@ permalink: /ergaenzungen/
 </table>
 
 <h2>🛠️ Errata (Korrekturverzeichnis)</h2>
-<p>**Achtung, das folgende ist nur eine Demonstration und gibt keine tatsächlichen Fheler wieder!"**Folgende Korrekturen sind für die gedruckte Ausgabe zu vermerken:</p>
+<p>**Achtung, das folgende ist nur eine Demonstration und gibt keine tatsächlichen Fheler wieder!**Folgende Korrekturen sind für die gedruckte Ausgabe zu vermerken:</p>
 
 <ul class="errata-list">
   <li>
