@@ -14,11 +14,11 @@ permalink: /karte/
     line-height: 1.6;
   }
 
-  /* Der Rahmen für die Karte (Responsive 4:3) */
+  /* Der Rahmen für die Karte (Responsive) */
   .map-container {
     position: relative;
     width: 100%;
-    padding-bottom: 75%; /* 4:3 */
+    padding-bottom: 75%;
     height: 0;
     overflow: hidden;
     border-radius: 8px;
@@ -50,7 +50,7 @@ permalink: /karte/
 
   .region h3 {
     margin-top: 0;
-    color: #2a5d8f; /* Pilz-Blau */
+    color: #2a5d8f;
     font-size: 1.2em;
     margin-bottom: 10px;
   }
@@ -66,42 +66,43 @@ permalink: /karte/
 
 <div class="intro-text">
   <p>
-    Diese Karte visualisiert die Wanderungsbewegungen über die Jahrhunderte.
-    Sie verbindet die historischen Schwerpunkte der Familiengeschichte:
+    Diese Karte visualisiert die Wanderungsbewegungen über die Jahrhunderte. 
+    Sie verbindet die drei historischen Schwerpunkte der Familiengeschichte: 
     Sachsen, Böhmen und Tirol.
   </p>
 </div>
 
 <div class="map-container">
-  <iframe
-    src="https://www.google.com/maps/d/u/0/embed?mid=1bYaowjZM7T8_kZl9k-z6_Aebnz7-iIg&ehbc=2E312F&ll=48.5000,12.0000&z=6"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-    allowfullscreen>
+  <iframe 
+    src="https://www.google.com/maps/d/u/0/embed?mid=1bYaowjZM7T8_kZl9k-z6_Aebnz7-iIg&ehbc=2E312F" 
+    width="640" 
+    height="480">
   </iframe>
 </div>
 
 <div class="regions-grid">
+  
   <div class="region">
     <h3>Sachsen (Ursprung)</h3>
     <p>
-      Im Erzgebirge liegen die ältesten dokumentierten Wurzeln der direkten Linie im 16. und 17. Jahrhundert.
+      Im Erzgebirge (Dörnthal, Rothenthal) liegen die ältesten dokumentierten Wurzeln der direkten Linie im 16. und 17. Jahrhundert.
     </p>
   </div>
 
   <div class="region">
     <h3>Böhmen (Heimat)</h3>
     <p>
-      Über fast zwei Jahrhunderte war das böhmische Erzgebirge der Lebensmittelpunkt, geprägt durch Forstwesen und Handwerk.
+      Über fast zwei Jahrhunderte war das böhmische Erzgebirge (Kallich, Schmiedeberg, Görkau) der Lebensmittelpunkt, geprägt durch Forstwesen und Handwerk.
     </p>
   </div>
 
   <div class="region">
     <h3>Tirol (Gegenwart)</h3>
     <p>
-      Durch berufliche Versetzungen und die Ereignisse des 20. Jahrhunderts verlagerte sich der Schwerpunkt nach Lienz und Innsbruck.
+      Durch berufliche Versetzungen (Zollwache) und die Ereignisse des 20. Jahrhunderts verlagerte sich der Schwerpunkt nach Lienz und Innsbruck.
     </p>
   </div>
+
 </div>
 
 <p style="text-align: center; margin-top: 60px;">
