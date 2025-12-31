@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quellen und Links
+title: Quellen
 permalink: /links/
 ---
 
