@@ -67,11 +67,9 @@ permalink: /karte/
 
 <div class="map-container">
   <iframe 
-    src="https://www.google.com/maps/d/u/0/embed?mid=1bYaowjZM7T8_kZl9k-z6_Aebnz7-iIg&ehbc=2E312F"
-    width="640"
-    height="480"
-    frameborder="0"
-    allowfullscreen>
+    src="https://www.google.com/maps/d/embed?mid=1bYaowjZM7T8_kZl9k-z6_Aebnz7-iIg&z=6" 
+    width="640" 
+    height="480">
   </iframe>
 </div>
 
@@ -119,5 +117,5 @@ permalink: /karte/
 </div>
 
 <p style="text-align: center; margin-top: 60px;">
- <a href="{{ '/' | relative_url }}" style="...">← Zurück zur Startseite</a>
+  <a href="/bonusseite/" style="text-decoration: none; color: #555;">← Zurück zur Startseite</a>
 </p>
