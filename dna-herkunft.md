@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DNA-Herkunft
+title: DNA-Analyse
 permalink: /dna-herkunft/
 ---
 
