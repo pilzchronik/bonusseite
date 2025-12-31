@@ -29,10 +29,13 @@ exclude:
 # ------------------------------------------------------------------------------
 # ACHTUNG: Die Dateinamen hier müssen EXAKT so heißen wie deine Dateien im Ordner.
 # Am besten alles kleinschreiben!
+# _config.yml Ausschnitt
+# Navigationseinstellungen
+# Definiert die Reihenfolge und Auswahl der Menüpunkte im Header
+
 header_pages:
-  - karte.md
-  - zeitleiste.md
-  - dna-herkunft.md
-  - downloads.md
-  - links.md
-  - about.md
+  - index.md
+  - geschichte.md      # NEU: Die Fusion aus Karte & Zeitleiste
+  - stammbaum.md       # NEU: Das Portal für Datenbank & MacFamilyTree
+  - downloads.md       # Bestehend: Quellen & PDFs
+  - about.md           # Impressum/Kontakt
