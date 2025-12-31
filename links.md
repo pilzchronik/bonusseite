@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quellen
+title: Quellen und Links
 permalink: /links/
 ---
 
@@ -31,7 +31,7 @@ permalink: /links/
     margin: 0;
   }
 
-  /* --- Design A: Detaillierte Einträge --- */
+  /* --- Design A: Detaillierte Einträge (für Quellen mit Text) --- */
   li.detail {
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -70,7 +70,7 @@ permalink: /links/
     font-style: italic;
   }
 
-  /* --- Design B: Kompakte Liste --- */
+  /* --- Design B: Kompakte Liste (für Archive & Karten) --- */
   li.compact {
     margin-bottom: 6px;
     padding-bottom: 6px;
@@ -103,6 +103,7 @@ permalink: /links/
 </div>
 
 <h2>Spezialisierte Forschung & Datenbanken</h2>
+<p style="font-size:0.9em; color:#666;">Interaktive Stammbäume und vertiefende Lese-Bibliotheken.</p>
 <ul>
   <li class="detail">
     <strong>TNG Datenbank (pilz.fun)</strong>
@@ -329,11 +330,4 @@ permalink: /links/
   <li class="compact"><strong>Karte Weipert</strong> <span class="separator">|</span> <a href="https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=141&bbox=1446497.9646065556%2C6530467.831409333%2C1453611.385551345%2C6533061.913056761">Direktlink</a></li>
   <li class="compact"><strong>Karte Gottesgab</strong> <span class="separator">|</span> <a href="https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1420522.0169836103%2C6516013.745949181%2C1448975.700762767%2C6526390.072538894">Direktlink</a></li>
   <li class="compact"><strong>Karte Kupferberg</strong> <span class="separator">|</span> <a href="https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1453930.2129265417%2C6517095.079965256%2C1468157.05481612%2C6522283.243260112">Direktlink</a></li>
-  <li class="compact"><strong>Karte Libeschitz</strong> <span class="separator">|</span> <a href="https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1509115.4141514006%2C6494857.886762588%2C1523342.256040979%2C6500046.050057444">Direktlink</a></li>
-  <li class="compact"><strong>Karte Hlawatschow</strong> <span class="separator">|</span> <a href="https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1640536.6216254844%2C6431209.996370013%2C1647650.0425702739%2C6433804.078017441">Direktlink</a></li>
-  <li class="compact"><strong>Karte Amschelberg</strong> <span class="separator">|</span> <a href="https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1604997.3691489003%2C6384502.183862386%2C1619224.2110384787%2C6389690.347157242">Direktlink</a></li>
-</ul>
-
-<p style="text-align: center; margin-top: 60px;">
-  <a href="{{ '/' | relative_url }}" style="...">← Zurück zur Startseite</a>
-</p>
+  <li class="compact"><strong>Karte Libeschitz</strong> <span class="separator">|</span> <a href="
