@@ -1,17 +1,19 @@
 title: Pilz-Chronik Bonusseite
 email: pilz@gmx.at
 description: >-
-  Ergänzungen, Korrekturen und Forschungsdaten zur gedruckten Pilz-Chronik.
-
-# WICHTIG: Hier muss der Name Ihres GitHub-Repositories stehen (mit Slash davor)
-# Wenn Ihr Link https://pilzchronik.github.io/bonusseite/ ist, dann:
-baseurl: "/bonusseite" 
+  Digitale Ergänzung und Werkstatt zur gedruckten Pilz-Chronik (Band 1 & 2).
+baseurl: "/bonusseite" # Ändern, falls das Repository anders heißt
 url: "" 
 
-# Design-Einstellungen
+# Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation wird über _data/navigation.yml gesteuert, 
+# daher muss sie hier NICHT stehen.
 
 # Navigation oben
   header_pages:
