@@ -11,11 +11,39 @@ permalink: /quellen/
   /* Intro */
   .intro-text {
     max-width: 800px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 30px auto;
     color: #555;
     border-left: 3px solid #2a5d8f;
     padding-left: 20px;
     font-size: 1.05em;
+  }
+
+  /* --- KORREKTUR-BOX (Wichtigste Zone oben) --- */
+  .correction-box {
+    background-color: #fffcfc; /* Sehr zartes Rot/Weiß */
+    border: 1px solid #eecaca; /* Dezenter roter Rahmen */
+    border-left: 5px solid #c0392b; /* Kräftigerer roter Akzent links */
+    padding: 20px 25px;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+  }
+  
+  .correction-title {
+    color: #c0392b; /* Dunkles Rot */
+    font-family: "Georgia", serif;
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fae3e3;
+    padding-bottom: 10px;
+  }
+
+  .placeholder-note {
+    font-style: italic;
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 15px;
   }
 
   /* --- ZONEN-TITEL (Hauptkategorien) --- */
@@ -41,7 +69,7 @@ permalink: /quellen/
   /* --- KATEGORIEN --- */
   h3.category-title {
     color: #2a5d8f;
-    font-size: 0.95em; /* Etwas kleiner für Eleganz */
+    font-size: 0.95em;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -117,29 +145,33 @@ permalink: /quellen/
   }
   .detail-source:hover { text-decoration: underline; }
 
-  /* --- DOWNLOAD ZONE --- */
+  /* --- DOWNLOAD ZONE (Unten) --- */
   .download-zone {
-    background: #fcfcfc;
+    background: #f8f9fa;
     border: 1px solid #eee;
     padding: 25px;
     margin-top: 60px;
     border-radius: 2px;
-  }
-  h4.Koffekturen-title {
-    margin-top: 25px;
-    margin-bottom: 10px;
-    color: #8f2a2a;
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 5px;
   }
 </style>
 
 <div class="intro-text">
   Diese Seite versammelt digitale Archive, konkrete Quellenfunde sowie Werkzeuge zur räumlichen und historischen Einordnung. Sie dient als transparente Arbeitsgrundlage und Ergänzung zur gedruckten Chronik.
 </div>
+
+<div class="correction-box">
+  <h2 class="correction-title">⚠️ Korrekturen zur 1. Auflage (2025)</h2>
+  
+  <p class="placeholder-note">
+    Hinweis: Bei den folgenden Einträgen handelt es sich derzeit nur um Platzhalter zur Demonstration des Layouts. Es sind noch keine offiziellen Druckfehler erfasst.
+  </p>
+  
+  <ul class="clean-list">
+    <li class="clean-item"><strong>Bd. 1, S. 145:</strong> Geburtsdatum ist 12. Mai 1880 (nicht 1881).</li>
+    <li class="clean-item"><strong>Bd. 2, S. 98:</strong> Ortsname lautet „Schmiedeberg“.</li>
+  </ul>
+</div>
+
 
 <h2 class="zone-title">Archive & Portale</h2>
 <span class="zone-subtitle">Institutionelle Herkunft der ausgewerteten Quellen</span>
@@ -278,6 +310,10 @@ permalink: /quellen/
     <span class="detail-title">Radfahrerwildling Alois Pilz</span>
     <a href="#" class="detail-source">ANNO &nearr;</a>
   </li>
+  <li class="detail-item">
+    <span class="detail-title">Petition der Abdecker</span>
+    <a href="#" class="detail-source">wasbishergeschah.at &nearr;</a>
+  </li>
 </ul>
 
 <h3 class="category-title">Nachlässe & Sonderdokumente</h3>
@@ -289,10 +325,6 @@ permalink: /quellen/
    <li class="detail-item">
     <span class="detail-title">Ahnenliste Eberstaller (Adler 1953)</span>
     <a href="https://drive.google.com/file/d/10M1CXZaet3WLb7xonSvEdDJWKH6mBN7-/view?usp=sharing" target="_blank" class="detail-source">Google Drive &nearr;</a>
-  </li>
-  <li class="detail-item">
-    <span class="detail-title">Petition der Abdecker</span>
-    <a href="#" class="detail-source">wasbishergeschah.at &nearr;</a>
   </li>
 </ul>
 
@@ -351,9 +383,9 @@ permalink: /quellen/
 
 
 <div class="download-zone">
-  <h2 style="font-family:'Georgia',serif; color:#333; border:none; margin-bottom:15px;">Downloads & Ergänzungen</h2>
+  <h2 style="font-family:'Georgia',serif; color:#333; border:none; margin-bottom:15px; font-size:1.3em;">Downloads & Langzeitsicherung</h2>
   
-  <ul style="list-style:none; padding:0; margin-bottom:30px;">
+  <ul style="list-style:none; padding:0; margin-bottom:10px;">
     <li style="margin-bottom:15px;">
       <strong>Gesamtregister Band 1 & 2 (PDF)</strong><br>
       <span style="color:#666; font-size:0.9em;">Namen- und Ortsverzeichnis zur schnellen Orientierung.</span><br>
@@ -365,13 +397,6 @@ permalink: /quellen/
       <a href="https://doi.org/10.5281/zenodo.15828594" target="_blank" class="ref-link">Zum Zenodo Archiv &rarr;</a>
     </li>
   </ul>
-
-  <h4 class="Koffekturen-title">Koffekturen & Korrekturen (1. Auflage 2025)</h4>
-  <ul class="clean-list">
-    <li class="clean-item"><strong>Bd. 1, S. 145:</strong> Geburtsdatum ist 12. Mai 1880 (nicht 1881).</li>
-    <li class="clean-item"><strong>Bd. 2, S. 98:</strong> Ortsname lautet „Schmiedeberg“.</li>
-  </ul>
-
 </div>
 
 <p style="text-align:center; margin-top:50px; color:#999; font-size:0.85em;">
