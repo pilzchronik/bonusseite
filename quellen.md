@@ -18,62 +18,70 @@ permalink: /quellen/
     margin-bottom: 30px;
     color: #555;
     font-size: 1.05em;
+    border-left: 3px solid #2a5d8f;
+    padding-left: 15px;
   }
 
   /* --- INHALTSVERZEICHNIS (TOC) --- */
   .toc-container {
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
     padding: 20px;
     border-radius: 4px;
-    margin-bottom: 40px;
-    border-left: 4px solid #666;
+    margin-bottom: 50px;
+    border: 1px solid #e9ecef;
   }
   .toc-title {
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     display: block;
     font-size: 1.1em;
-    color: #333;
+    color: #1a3d5c;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
   }
   .toc-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    columns: 2; /* Hier sind Spalten okay, da es nur kurze Links sind */
+    /* Hier nutzen wir Spalten, weil die Links kurz sind - das spart Platz */
+    columns: 2; 
     column-gap: 40px;
   }
   @media (max-width: 600px) { .toc-list { columns: 1; } }
   
-  .toc-item { margin-bottom: 5px; font-size: 0.95em; }
+  .toc-item { margin-bottom: 6px; font-size: 0.95em; break-inside: avoid; }
   .toc-item a { text-decoration: none; color: #2a5d8f; }
-  .toc-item a:hover { text-decoration: underline; }
+  .toc-item a:hover { text-decoration: underline; color: #000; }
   
-  /* Unterpunkte im TOC einrücken */
-  .toc-sub { margin-left: 15px; font-size: 0.9em; color: #666; }
+  /* Einrückung für Unterpunkte */
+  .toc-sub { margin-left: 20px; font-size: 0.9em; color: #666; }
 
-  /* --- KORREKTUR-BOX (Sachlich) --- */
+  /* --- KORREKTUR-BOX (Sachlich & Dezent) --- */
   .correction-box {
+    background-color: #fffbfb; /* Ganz zartes Rot/Weiß */
     border: 1px solid #eecaca;
-    background-color: #fffbfb;
-    border-left: 5px solid #c0392b;
+    border-left: 5px solid #c0392b; /* Dunkelrot */
     padding: 20px;
     margin-bottom: 60px; /* Viel Abstand zum Rest */
+    border-radius: 4px;
   }
   .correction-head {
     color: #c0392b;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 10px;
     display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
 
-  /* --- ÜBERSCHRIFTEN --- */
+  /* --- ÜBERSCHRIFTEN (Hierarchie) --- */
   h2 {
     color: #1a3d5c;
     font-size: 1.6em;
     border-bottom: 2px solid #eee;
     padding-bottom: 10px;
-    margin-top: 60px; /* Viel Luft nach oben */
+    margin-top: 60px; /* Viel Luft nach oben für Ruhe */
     margin-bottom: 20px;
   }
   
@@ -81,10 +89,11 @@ permalink: /quellen/
     color: #333;
     font-size: 1.1em;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 35px;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    font-size: 0.95em;
   }
   
   .category-desc {
@@ -94,7 +103,7 @@ permalink: /quellen/
     font-style: italic;
   }
 
-  /* --- LISTEN (Einspaltig & Ruhig) --- */
+  /* --- LISTEN (Einspaltig für Lesbarkeit) --- */
   ul.ref-list {
     list-style: none;
     padding: 0;
@@ -115,14 +124,15 @@ permalink: /quellen/
   }
   a.ext-link:hover { text-decoration: underline; color: #000; }
   
-  .sep { color: #ccc; margin: 0 5px; }
+  .sep { color: #ccc; margin: 0 6px; font-weight: 300; }
 
   /* --- DOWNLOAD BEREICH --- */
   .download-area {
-    background: #f9f9f9;
-    padding: 20px;
+    background: #f8f9fa;
+    padding: 25px;
     margin-top: 60px;
-    border-top: 4px solid #ccc;
+    border-top: 1px solid #ddd;
+    border-radius: 4px;
   }
 </style>
 
@@ -142,7 +152,7 @@ permalink: /quellen/
     <li class="toc-item"><a href="#funde">3. Konkrete Quellenfunde</a></li>
     <li class="toc-item toc-sub"><a href="#urkunden">3.1 Urkunden & Einträge</a></li>
     <li class="toc-item toc-sub"><a href="#presse">3.2 Zeitungsartikel</a></li>
-    <li class="toc-item toc-sub"><a href="#nachlaesse">3.3 Nachlässe & Sonderdokumente</a></li>
+    <li class="toc-item toc-sub"><a href="#nachlaesse">3.3 Nachlässe & Audio</a></li>
     <li class="toc-item"><a href="#karten">4. Räumliche Verortung</a></li>
     <li class="toc-item"><a href="#downloads">5. Downloads & Sicherung</a></li>
   </ul>
@@ -150,8 +160,8 @@ permalink: /quellen/
 
 <div id="korrekturen" class="correction-box">
   <span class="correction-head">⚠️ Korrekturen zur 1. Auflage (2025)</span>
-  <p style="margin-bottom:15px; font-size:0.9em; color:#555;">
-    Hinweis: Die folgenden Einträge sind Platzhalter zur Demonstration.
+  <p style="margin-bottom:15px; font-size:0.9em; color:#666; font-style:italic;">
+    Hinweis: Bei den folgenden Einträgen handelt es sich derzeit um Platzhalter zur Demonstration.
   </p>
   <ul class="ref-list">
     <li class="ref-item"><strong>Bd. 1, S. 145:</strong> Geburtsdatum ist 12. Mai 1880 (nicht 1881).</li>
