@@ -20,11 +20,19 @@ title: Startseite
     color: #333;
     margin-bottom: 15px;
   }
+  
+  .intro-links a {
+    color: #2a5d8f;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  .intro-links a:hover { text-decoration: underline; }
 
-  /* Grid für die Navigation */
+  /* Grid für die Navigation (2x2) */
   .nav-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     margin-bottom: 60px;
   }
@@ -33,7 +41,7 @@ title: Startseite
   .nav-card {
     display: flex;
     flex-direction: column;
-    padding: 25px;
+    padding: 30px;
     border: 1px solid #dee2e6;
     border-radius: 6px;
     text-decoration: none !important;
@@ -43,42 +51,46 @@ title: Startseite
   }
   
   .nav-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     border-color: #2a5d8f;
   }
   
   .nav-card h3 {
     margin-top: 0;
     color: #2a5d8f;
-    font-size: 1.3em;
-    margin-bottom: 10px;
+    font-size: 1.4em;
+    margin-bottom: 15px;
   }
   
   .nav-card p {
     color: #555;
-    line-height: 1.5;
+    line-height: 1.6;
     margin-bottom: 0;
-    flex-grow: 1;
   }
 
-  .icon {
-    font-size: 1.5em;
-    margin-bottom: 15px;
-    display: block;
-  }
+  .icon { font-size: 2em; margin-bottom: 20px; display: block; }
 </style>
 
 <div class="intro-section">
   <h1>Willkommen im digitalen Pilz-Archiv</h1>
-  <p style="font-size: 1.15em; color: #555; max-width: 700px; margin: 0 auto;">
+  <p style="font-size: 1.15em; color: #555; max-width: 700px; margin: 0 auto 20px auto;">
     Dies ist die offizielle Ergänzung zur gedruckten Familienchronik (Band 1 & 2).<br>
     Diese Seite dient der Dokumentation, der Korrektur und der Veröffentlichung neuer Forschungsergebnisse.
   </p>
+  <div class="intro-links">
+    <a href="{{ '/zeitleiste/' | relative_url }}">⏳ Zur historischen Zeitleiste</a>
+  </div>
 </div>
 
 <div class="nav-grid">
   
+  <a href="stammbaum/" class="nav-card">
+    <span class="icon">🌳</span>
+    <h3>Stammbaum & Dossiers</h3>
+    <p>Interaktive Grafiken, Spezialforschungen (Slawonien, Bechinie) und Datenbanken.</p>
+  </a>
+
   <a href="werkstatt/" class="nav-card">
     <span class="icon">🔨</span>
     <h3>Werkstatt</h3>
@@ -91,16 +103,10 @@ title: Startseite
     <p>Karte der Lebensorte und DNA-Analyse. Geografische und genetische Wurzeln in der Übersicht.</p>
   </a>
 
-  <a href="ergaenzungen/" class="nav-card">
-    <span class="icon">📂</span>
-    <h3>Ergänzungen</h3>
-    <p>Downloads (Register), Errata und Korrekturen zu den gedruckten Bänden.</p>
-  </a>
-
   <a href="quellen/" class="nav-card">
     <span class="icon">📚</span>
-    <h3>Quellen</h3>
-    <p>Verzeichnis der Archive, Datenbanken und Online-Ressourcen.</p>
+    <h3>Quellen & Material</h3>
+    <p>Register-Downloads, Errata-Listen sowie das Verzeichnis aller Archive und Belege.</p>
   </a>
 
 </div>
