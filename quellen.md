@@ -7,7 +7,15 @@ permalink: /quellen/
 # Quellen & Forschungswerkzeuge zur Pilz-Chronik
 
 Digitale Ergänzungen zur gedruckten *Pilz-Chronik*.  
-Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur räumlichen und historischen Einordnung von Personen, Orten und Besitzlagen.
+Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur räumlichen und historischen Einordnung.
+
+---
+
+## ⚠️ Korrekturen zur 1. Auflage (2025)
+*Hinweis: Dies sind Platzhalter zur Demonstration.*
+
+- **Band 1, Seite 145:** Geburtsdatum ist 12. Mai 1880 (nicht 1881).
+- **Band 2, Seite 98:** Ortsname lautet korrekt „Schmiedeberg“.
 
 ---
 
@@ -54,7 +62,7 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 
 ### Urkunden & Kirchenbucheinträge
 - [Verlassenschaft Wolf Eberstaller (1672)](https://familysearch.org/ark:/61903/3:1:33S7-L1X7-HX1)
-- [Taufe / Konversion Apollonia Jablotzki (1768, Amschelberg)](https://ebadatelna.soapraha.cz/d/6850/60)
+- [Tod Johann Kreissl (1698)](http://vademecum.soalitomerice.cz/) - [Taufe / Konversion Apollonia Jablotzki (1768, Amschelberg)](https://ebadatelna.soapraha.cz/d/6850/60)
 - [Heirat Philipp Bechinie & Rudolphiana (1769)](https://ebadatelna.soapraha.cz/d/5876/167)
 - [Tod Johanna Sophia Pilz, geb. Schuberth (1772)](https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:7718&scan=d23789c7c2aa4e75b0bfdf9ef4c6593b)
 - [Kirchenbuch Pfarre Kallich – Unterschrift F. A. Pilz](https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:747e&scan=4efc5f91034a44d1ac50afc8e8eed735)
@@ -73,8 +81,11 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 - [Tagblatt Linz (1898): „Radfahrerwildling“ Alois Pilz](https://anno.onb.ac.at/anno-suche/simple?query=%22mit%20einem%20Fahrrade%20in%20sausendem%20Tempo%22)
 - [Petition der Abdecker](https://wasbishergeschah.at/artikel/Artikel_Arbeit/Abdecker.html)
 
-### Nachlässe & Sonderdokumente
-- Digitalisat Tagebuch Johann Eberstaller (interner, nicht öffentlicher Link)
+### Nachlässe, Sonderdokumente & Audio
+- [Digitalisat Tagebuch Johann Eberstaller](https://sites.google.com/d/14h2Dj-fE3gkh_mwjM2cQyf2UWrhRLQSf/p/1ubsocuUXl5fEKcMf_BgaJlbEG2SL955V/edit)
+- [Ahnenliste Eberstaller (Adler 1953)](https://drive.google.com/file/d/10M1CXZaet3WLb7xonSvEdDJWKH6mBN7-/view?usp=sharing)
+- 🎵 [Schubert: „Der Vollmond strahlt“ (E. Schwarzkopf)](https://www.youtube.com/watch?v=Y-o_qrazKQQ)
+- 🎵 [Schubert: „Lied der Anne Lyle“ (G. Janowitz)](https://www.youtube.com/watch?v=Ma59U6k926M)
 
 ---
 
@@ -92,8 +103,12 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 - [Hlawatschow](https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm,141&bbox=1640536.6216254844,6431209.996370013,1647650.0425702739,6433804.078017441)
 - [Amschelberg](https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm,141&bbox=1604997.3691489003,6384502.183862386,1619224.2110384787,6389690.347157242)
 
-### Parzellen- und Hofidentifikation (Oberösterreich / DORIS)
-- [DORIS – Digitales Oberösterreichisches Raum-Informations-System](https://doris.at)
+### Moderne Karten & Tools
+- [Mapire (Arcanum Main)](https://mapire.eu/en/)
+- [Mapy.cz](https://mapy.cz)
+- [DORIS (Oberösterreich)](https://doris.at)
+- [Topothek](https://www.topothek.at)
+- [HIK Tirol](https://hik.tirol.gv.at)
 
 ### Hilfsmittel zur Ortsnamenzuordnung (DE ↔ CZ)
 - [Wikipedia: Deutsche Ortsnamen in Tschechien](https://de.wikipedia.org/wiki/Liste_deutscher_Namen_tschechischer_Orte)
@@ -104,7 +119,7 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 
 ## Downloads & Langzeitsicherung
 
-- Gesamtregister Band 1 & 2 (PDF)
+- Gesamtregister Band 1 & 2 (PDF) – *[Download folgt]*
 - [Langzeitsicherung der Forschungsdaten (Zenodo)](https://doi.org/10.5281/zenodo.15828594)
 
 ---
