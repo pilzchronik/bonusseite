@@ -22,10 +22,26 @@ permalink: /werkstatt/
   }
   .post-title:hover { text-decoration: underline; }
   .post-excerpt { color: #555; line-height: 1.6; }
+  
+  /* Neuer Disclaimer */
+  .update-note {
+    background: #f9f9f9;
+    color: #777;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    border: 1px dashed #ccc;
+  }
 </style>
 
-<div style="text-align: center; margin-bottom: 40px; color: #555;">
+<div style="text-align: center; margin-bottom: 20px; color: #555;">
   <p>Laufende Analysen, Hintergrundberichte und neue Erkenntnisse aus der digitalen Werkstatt zur Pilz-Chronik.</p>
+</div>
+
+<div class="update-note">
+  ℹ️ <em>Neue Beiträge erscheinen unregelmäßig und abhängig vom Fortgang der Forschung.</em>
 </div>
 
 <ul class="post-list">
