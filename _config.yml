@@ -2,8 +2,8 @@ title: Pilz-Chronik Bonusseite
 email: pilz@gmx.at
 description: >-
   Digitale Ergänzung und Werkstatt zur gedruckten Pilz-Chronik (Band 1 & 2).
-baseurl: "/bonusseite" # Ändern, falls das Repository anders heißt
-url: "" 
+baseurl: "/bonusseite"
+url: ""
 
 # Build settings
 theme: minima
@@ -12,14 +12,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Navigation wird über _data/navigation.yml gesteuert, 
-# daher muss sie hier NICHT stehen.
-
-# Navigation oben
-  header_pages:
+# Navigation
+# WICHTIG: header_pages muss ganz links stehen (keine Leerzeichen davor!)
+header_pages:
   - index.md
-  - stammbaum.md    # Die neue Verteilerseite
+  - stammbaum.md
   - werkstatt.md
   - orte.md
   - zeitleiste.md
-  - quellen.md      # Die fusionierte Seite
+  - quellen.md
