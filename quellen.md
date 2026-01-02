@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Quellen & Forschungswerkzeuge
+title: Quellen
 permalink: /quellen/
 ---
+
+<h1 style="color: #333; margin-bottom: 20px;">Quellen & Forschungswerkzeuge</h1>
 
 <style>
   /* --- TYPOGRAFIE & BASIS --- */
