@@ -9,10 +9,25 @@
 
     <div style="font-size: 0.85em; color: #999;">
       &copy; {{ site.time | date: '%Y' }} {{ site.title }}
-      {% if site.email %}
-        <span style="margin: 0 5px;">•</span> 
-        <a href="mailto:{{ site.email }}" style="color: #999; text-decoration: none;">{{ site.email }}</a>
-      {% endif %}
+      <span style="margin: 0 5px;">•</span> 
+      
+      <span id="kontakt-placeholder">Wird geladen...</span>
+
+      <script>
+        // Wir zerlegen die Adresse, damit Bots sie nicht finden
+        var teil1 = "pilz";
+        var teil2 = "gmx.at";
+        var linkText = teil1 + "@" + teil2;
+        
+        // Das Skript baut den Link erst im Browser zusammen
+        document.getElementById("kontakt-placeholder").innerHTML = 
+          '<a href="mailto:' + linkText + '" style="color: #999; text-decoration: none;">' + linkText + '</a>';
+      </script>
+      
+      <noscript>
+        pilz (at) gmx.at
+      </noscript>
+
     </div>
 
   </div>
