@@ -14,10 +14,10 @@ plugins:
   - jekyll-feed
 
 # Navigation oben
-header_pages:
-  - index.md        # Startseite
-  - stammbaum.md    # NEU (Platz 2)
+  header_pages:
+  - index.md
+  - stammbaum.md    # Die neue Verteilerseite
   - werkstatt.md
   - orte.md
-  - zeitleiste.md   # Bleibt im Menü, auch wenn keine Kachel mehr
-  - quellen.md      # NEU (Fusioniert)
+  - zeitleiste.md
+  - quellen.md      # Die fusionierte Seite
