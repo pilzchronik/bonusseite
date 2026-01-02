@@ -7,6 +7,9 @@ permalink: /quellen/
 <h1 style="color: #333; margin-bottom: 20px;">Quellen & Forschungswerkzeuge</h1>
 
 <style>
+  /* --- FIX: Automatische Überschrift ausblenden --- */
+  .post-header { display: none !important; }
+
   /* --- TYPOGRAFIE & BASIS --- */
   .page-content { 
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
@@ -101,8 +104,8 @@ permalink: /quellen/
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 10px;
-    text-transform: none;       /* keine Versalien */
-    letter-spacing: normal;     /* bessere Lesbarkeit */
+    text-transform: none;        /* keine Versalien */
+    letter-spacing: normal;      /* bessere Lesbarkeit */
   }
   
   .category-desc {
@@ -336,4 +339,3 @@ permalink: /quellen/
 <p class="page-stand">
   Stand: 02.01.2026. Diese Seite ergänzt die gedruckte Pilz-Chronik.
 </p>
-###
