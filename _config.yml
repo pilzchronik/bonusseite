@@ -15,8 +15,8 @@ plugins:
 
 # Navigation oben
 header_pages:
-  - index.md
-  - ergaenzungen.md
-  - karte.md
-  - archiv.md
-  - links.md
+  - index.md        # Start/Drehscheibe
+  - ergaenzungen.md # Neu (war downloads)
+  - orte.md         # Neu (Karte + DNA kombiniert)
+  - werkstatt.md    # Neu (Die Blog-Übersicht)
+  - quellen.md      # Neu (Umbennung von links.md)
