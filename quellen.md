@@ -5,7 +5,7 @@ permalink: /quellen/
 ---
 
 <style>
-  /* ZONE A: Downloads (Hervorgehoben) */
+  /* ZONE A: Downloads & Errata */
   .download-zone {
     background: #f1f3f5;
     padding: 25px;
@@ -13,7 +13,18 @@ permalink: /quellen/
     border-left: 5px solid #2a5d8f;
     margin-bottom: 50px;
   }
-  .download-zone h2 { margin-top: 0; border-bottom: none; font-size: 1.4em; }
+  .download-zone h2 { margin-top: 0; border-bottom: none; font-size: 1.4em; color: #333; }
+  
+  /* Spezielle Box für Errata (Warnung) */
+  .errata-box {
+    margin-top: 30px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    border-radius: 4px;
+    border-left: 5px solid #d9534f; /* Signalrot für Fehler */
+  }
+  .errata-title { color: #d9534f; font-weight: bold; display: block; margin-bottom: 10px; }
 
   /* ZONE B: Beweise (Detailliste) */
   .evidence-list { list-style: none; padding: 0; }
@@ -28,7 +39,7 @@ permalink: /quellen/
     column-count: 2; /* 2 Spalten auf Desktop */
     column-gap: 40px;
   }
-  @media (max-width: 700px) { .tools-container { column-count: 1; } } /* Mobil 1 Spalte */
+  @media (max-width: 700px) { .tools-container { column-count: 1; } }
   
   .tools-list { list-style: none; padding: 0; margin-top: 0; }
   .tool-item { margin-bottom: 8px; break-inside: avoid; font-size: 0.95em; }
@@ -49,26 +60,28 @@ permalink: /quellen/
 
 <div class="download-zone">
   <h2>📥 Ergänzungen zum Buch</h2>
-  <p>Digitale Arbeitsmittel und Korrekturen zur gedruckten Ausgabe.</p>
+  <p>Digitale Arbeitsmittel zur gedruckten Ausgabe.</p>
   
-  <ul style="margin-bottom: 20px;">
-    <li>
+  <ul style="margin-bottom: 0;">
+    <li style="margin-bottom: 10px;">
       <strong>Gesamtregister Band 1 & 2 (PDF)</strong><br>
       Namen- und Ortsverzeichnis zur schnelleren Orientierung.<br>
       <a href="#">[Download folgt]</a>
     </li>
-    <li style="margin-top: 15px;">
+    <li>
       <strong>Langzeitsicherung (Zenodo)</strong><br>
       Archivierte Forschungsdaten (DOI: 10.5281/zenodo.15828594).<br>
       <a href="https://doi.org/10.5281/zenodo.15828594" target="_blank">🔗 Zum Zenodo Archiv</a>
     </li>
   </ul>
 
-  <h3>⚠️ Errata (1. Auflage 2025)</h3>
-  <ul style="font-size: 0.9em; color: #555;">
-    <li><strong>Bd. 1, S. 145:</strong> Geburtsdatum ist 12. Mai 1880 (nicht 1881).</li>
-    <li><strong>Bd. 2, S. 98:</strong> Ortsname lautet „Schmiedeberg“.</li>
-  </ul>
+  <div class="errata-box">
+    <span class="errata-title">⚠️ Errata & Korrekturen (1. Auflage 2025)</span>
+    <ul style="font-size: 0.95em; color: #333; margin-bottom: 0; padding-left: 20px;">
+      <li><strong>Bd. 1, S. 145:</strong> Geburtsdatum ist 12. Mai 1880 (nicht 1881).</li>
+      <li><strong>Bd. 2, S. 98:</strong> Ortsname lautet „Schmiedeberg“.</li>
+    </ul>
+  </div>
 </div>
 
 
@@ -106,7 +119,17 @@ permalink: /quellen/
     <a href="https://anno.onb.ac.at/cgi-content/anno?aid=vtl&datum=18710323&seite=5" target="_blank">🔗 Artikel bei ANNO</a>
     <span class="meta">Bd. 1, S. 140, 141</span>
   </li>
-  </ul>
+  <li class="evidence-item">
+    <strong>Tod Johanna Sophia Pilz (geb. Schuberth, 1772)</strong>
+    <a href="https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:-7718&scan=d23789c7c2aa4e75b0bfdf9ef4c6593b" target="_blank">🔗 Archiv Leitmeritz</a>
+    <span class="meta">Bd. 1, S. 49, 74</span>
+  </li>
+  <li class="evidence-item">
+    <strong>Kirchenbuch Kallich (Unterschrift F. A. Pilz)</strong>
+    <a href="https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:-747e&scan=4efc5f91034a44d1ac50afc8e8eed735" target="_blank">🔗 Archiv Leitmeritz</a>
+    <span class="meta">Bd. 1, S. 73</span>
+  </li>
+</ul>
 
 
 <h2 class="zone-title">🗃️ Archive, Karten & Portale</h2>
@@ -124,6 +147,8 @@ permalink: /quellen/
     <li class="tool-item"><strong>FamilySearch</strong> <span class="separator">|</span> <a href="https://www.familysearch.org/" target="_blank">familysearch.org</a></li>
     <li class="tool-item"><strong>ANNO Zeitungen</strong> <span class="separator">|</span> <a href="https://anno.onb.ac.at/" target="_blank">anno.onb.ac.at</a></li>
     <li class="tool-item"><strong>Geni (Prague Families)</strong> <span class="separator">|</span> <a href="https://www.geni.com/projects/Jewish-Families-from-Prague/7995" target="_blank">geni.com</a></li>
+    <li class="tool-item"><strong>Archion</strong> <span class="separator">|</span> <a href="https://www.archion.de/" target="_blank">archion.de</a></li>
+    <li class="tool-item"><strong>CompGen</strong> <span class="separator">|</span> <a href="https://www.compgen.de/" target="_blank">compgen.de</a></li>
   </ul>
 
   <h3 style="margin-top: 30px;">Historische Karten</h3>
@@ -133,5 +158,6 @@ permalink: /quellen/
     <li class="tool-item"><strong>Karte Schmiedeberg</strong> <span class="separator">|</span> <a href="https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm%2C141&bbox=1445671.6567497356%2C6519835.961017222%2C1459898.498639314%2C6525024.124312078" target="_blank">Direktlink</a></li>
     <li class="tool-item"><strong>HIK Tirol</strong> <span class="separator">|</span> <a href="https://hik.tirol.gv.at/" target="_blank">hik.tirol.gv.at</a></li>
     <li class="tool-item"><strong>DORIS OÖ</strong> <span class="separator">|</span> <a href="https.doris.at/" target="_blank">doris.at</a></li>
+    <li class="tool-item"><strong>Mapy.cz</strong> <span class="separator">|</span> <a href="https://mapy.cz/" target="_blank">mapy.cz</a></li>
   </ul>
 </div>
