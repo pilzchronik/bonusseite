@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Stammbaum & Dossiers
+title: Stammbaum
 permalink: /stammbaum/
 ---
+
+<h1 style="color: #333; margin-bottom: 20px;">Stammbaum & Dossiers</h1>
 
 <style>
   /* Haupt-Aktion (MacFamilyTree) */
