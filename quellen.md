@@ -1,8 +1,20 @@
 ---
 layout: page
-title: Quellen & Forschungswerkzeuge
+title: Quellen
 permalink: /quellen/
 ---
+
+<style>
+  /* Verhindert die doppelte Überschrift (blendet den automatischen Titel aus) */
+  .post-header { display: none !important; }
+  
+  /* Optional: Etwas mehr Abstand für die Hauptüberschrift */
+  h1 { margin-bottom: 20px; color: #333; }
+  h2 { margin-top: 40px; border-bottom: 2px solid #eee; padding-bottom: 10px; color: #1a3d5c; }
+  h3 { margin-top: 30px; margin-bottom: 10px; color: #444; }
+  ul { margin-bottom: 20px; }
+  li { margin-bottom: 6px; }
+</style>
 
 # Quellen & Forschungswerkzeuge zur Pilz-Chronik
 
@@ -62,7 +74,8 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 
 ### Urkunden & Kirchenbucheinträge
 - [Verlassenschaft Wolf Eberstaller (1672)](https://familysearch.org/ark:/61903/3:1:33S7-L1X7-HX1)
-- [Tod Johann Kreissl (1698)](http://vademecum.soalitomerice.cz/) - [Taufe / Konversion Apollonia Jablotzki (1768, Amschelberg)](https://ebadatelna.soapraha.cz/d/6850/60)
+- [Tod Johann Kreissl (1698)](http://vademecum.soalitomerice.cz/)
+- [Taufe / Konversion Apollonia Jablotzki (1768, Amschelberg)](https://ebadatelna.soapraha.cz/d/6850/60)
 - [Heirat Philipp Bechinie & Rudolphiana (1769)](https://ebadatelna.soapraha.cz/d/5876/167)
 - [Tod Johanna Sophia Pilz, geb. Schuberth (1772)](https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:7718&scan=d23789c7c2aa4e75b0bfdf9ef4c6593b)
 - [Kirchenbuch Pfarre Kallich – Unterschrift F. A. Pilz](https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:747e&scan=4efc5f91034a44d1ac50afc8e8eed735)
@@ -103,12 +116,8 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 - [Hlawatschow](https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm,141&bbox=1640536.6216254844,6431209.996370013,1647650.0425702739,6433804.078017441)
 - [Amschelberg](https://maps.arcanum.com/de/map/firstsurvey-bohemia/?layers=osm,141&bbox=1604997.3691489003,6384502.183862386,1619224.2110384787,6389690.347157242)
 
-### Moderne Karten & Tools
-- [Mapire (Arcanum Main)](https://mapire.eu/en/)
-- [Mapy.cz](https://mapy.cz)
-- [DORIS (Oberösterreich)](https://doris.at)
-- [Topothek](https://www.topothek.at)
-- [HIK Tirol](https://hik.tirol.gv.at)
+### Parzellen- und Hofidentifikation (Oberösterreich / DORIS)
+- [DORIS – Digitales Oberösterreichisches Raum-Informations-System](https://doris.at)
 
 ### Hilfsmittel zur Ortsnamenzuordnung (DE ↔ CZ)
 - [Wikipedia: Deutsche Ortsnamen in Tschechien](https://de.wikipedia.org/wiki/Liste_deutscher_Namen_tschechischer_Orte)
