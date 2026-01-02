@@ -1,101 +1,38 @@
 ---
 layout: page
-title: Ergänzungen & Korrekturen
+title: Ergänzungen
 permalink: /ergaenzungen/
 ---
 
 <style>
-  .intro-text {
-    border-left: 4px solid #ccc;
-    padding-left: 20px;
+  .download-box {
+    background: #f1f3f5;
+    padding: 20px;
+    border-radius: 4px;
+    border-left: 5px solid #2a5d8f;
     margin-bottom: 40px;
-    color: #555;
   }
-  
-  h2 {
-    color: #2a5d8f;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
-    margin-top: 50px;
-  }
-
-  /* Tabelle für Downloads */
-  .download-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 30px;
-  }
-  .download-table td {
-    padding: 12px;
-    border-bottom: 1px solid #eee;
-    vertical-align: middle;
-  }
-  .download-table a {
-    background-color: #2a5d8f;
-    color: white;
-    padding: 8px 15px;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 0.9em;
-    font-weight: bold;
-    display: inline-block;
-  }
-  .download-table a:hover {
-    background-color: #1a4a75;
-  }
-
-  /* Liste für Errata */
-  .errata-list li {
-    margin-bottom: 15px;
-    line-height: 1.6;
-  }
-  .page-ref {
-    font-weight: bold;
-    color: #333;
-    background: #eee;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-size: 0.9em;
-    margin-right: 8px;
-  }
+  .errata-list li { margin-bottom: 15px; }
+  h2 { border-bottom: 2px solid #2a5d8f; padding-bottom: 10px; margin-top: 50px; }
 </style>
 
-<div class="intro-text">
+<div style="text-align: center; max-width: 700px; margin: 0 auto 50px auto; color: #555;">
+  <p>Die Pilz-Chronik (Band 1 & 2) ist ein abgeschlossenes Werk (Stand 2025).<br>
+  Hier finden sich nachträgliche Korrekturen sowie digitale Arbeitsmittel.</p>
+</div>
+
+<h2>📥 Register & Downloads</h2>
+<div class="download-box">
+  <h3>Gesamtregister Band 1 & 2</h3>
+  <p>Namen- und Ortsverzeichnis zur schnelleren Orientierung.</p>
   <p>
-    Die Pilz-Chronik (Band 1 & 2) ist ein abgeschlossenes Werk (Stand 2025). 
-    Dennoch geht die Forschung weiter. Auf dieser Seite finden Sie Korrekturen zu Druckfehlern (Errata) sowie ergänzende Register zum Download.
+    <a href="#" style="background: #2a5d8f; color: white; padding: 10px 15px; text-decoration: none; border-radius: 4px;">⬇ PDF herunterladen (Demo)</a>
   </p>
 </div>
 
-<h2>📂 Downloads (Register)</h2>
-<p>Hier können Sie das vollständige Register als PDF herunterladen, um im Buch schneller nach Namen und Orten zu suchen.</p>
-
-<table class="download-table">
-  <tr>
-    <td style="width: 70%;">
-      📄 <strong>Gesamtregister Band 1 & 2</strong><br>
-      <span style="font-size: 0.85em; color: #666;">Enthält Namen- und Ortsverzeichnis (Datei: index.pdf)</span>
-    </td>
-    <td>
-      <a href="/bonusseite/index.pdf" target="_blank">⬇ PDF öffnen</a>
-    </td>
-  </tr>
-</table>
-
-<h2>🛠️ Errata (Korrekturverzeichnis)</h2>
-<p>**Achtung, das folgende ist nur eine Demonstration und gibt keine tatsächlichen Fheler wieder!**Folgende Korrekturen sind für die gedruckte Ausgabe zu vermerken:</p>
-
+<h2>⚠️ Errata & Korrekturen</h2>
+<p>Korrekturen zur 1. Auflage (2025):</p>
 <ul class="errata-list">
-  <li>
-    <span class="page-ref">Band 1, S. 145</span>
-    Das Datum des Unglücksfalls muss korrekt <strong>1925</strong> lauten (nicht 1924).
-  </li>
-  <li>
-    <span class="page-ref">Band 2, S. 176</span>
-    Bei der Heirat von Philipp Bechinie wurde das Datum auf den <strong>22. Mai</strong> präzisiert (Quelle: Archiv Prag).
-  </li>
+  <li><strong>S. 145 (Band 1):</strong> Das Geburtsdatum muss lauten: 12. Mai 1880 (nicht 1881).</li>
+  <li><strong>S. 98 (Band 2):</strong> Der Ortsname ist „Schmiedeberg“, nicht „Schmiedberg“.</li>
 </ul>
-
-<p style="text-align: center; margin-top: 60px;">
-  <a href="https://pilzchronik.github.io/bonusseite/" style="text-decoration: none; color: #555;">← Zurück zur Startseite</a>
-</p>
