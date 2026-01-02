@@ -33,9 +33,11 @@ permalink: /stammbaum/
     border: 1px solid #eee;
     background: white;
     border-radius: 4px;
+    transition: box-shadow 0.2s;
   }
+  .dossier-item:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
   .dossier-item h3 { margin-top: 0; font-size: 1.1em; color: #333; }
-  .dossier-item a { color: #2a5d8f; text-decoration: none; font-weight: bold; }
+  .dossier-item a { color: #2a5d8f; text-decoration: none; font-weight: bold; display: block; margin-top: 10px;}
   .dossier-item a:hover { text-decoration: underline; }
 
   /* Legacy Box */
@@ -46,6 +48,7 @@ permalink: /stammbaum/
     border-radius: 4px;
     margin-top: 50px;
     color: #856404;
+    font-size: 0.95em;
   }
 </style>
 
@@ -82,8 +85,8 @@ permalink: /stammbaum/
 </ul>
 
 <div class="legacy-box">
-  <strong>⚠️ Archiv-Hinweis:</strong><br>
-  Die TNG-Datenbank (<em>pilz.fun</em>) wird nicht mehr aktiv gepflegt und die Domain wird in absehbarer Zeit nicht verlängert. Bitte nutzen Sie für aktuelle Recherchen den MacFamilyTree-Link oben.
+  <strong>⚠️ Archiv-Hinweis (TNG):</strong><br>
+  Die alte TNG-Datenbank (<em>pilz.fun</em>) wird nicht mehr aktiv gepflegt und die Domain wird in absehbarer Zeit auslaufen. Bitte nutzen Sie primär den MacFamilyTree-Link oben.
   <br><br>
-  <a href="https://www.pilz.fun" style="color: #856404; text-decoration: underline;" target="_blank">Zur Datenbank (noch verfügbar)</a>
+  <a href="https://www.pilz.fun" style="color: #856404; text-decoration: underline;" target="_blank">Zur alten Datenbank (noch verfügbar)</a>
 </div>
