@@ -1,0 +1,27 @@
+---
+layout: page
+title: Über diese Seite
+permalink: /ueber/
+---
+
+<style>
+  p { line-height: 1.6; margin-bottom: 20px; color: #444; }
+  .lead { font-size: 1.1em; font-weight: bold; color: #2a5d8f; }
+</style>
+
+<p class="lead">
+  Diese Bonusseite ergänzt die gedruckte Pilz-Chronik (Band 1 & 2) um Korrekturen, Zusatzmaterialien und fortgeführte Forschung.
+</p>
+
+<p>
+  Während die Bücher einen abgeschlossenen Stand dokumentieren (Stand 2025), ermöglicht diese Website die laufende Aktualisierung einzelner Aspekte. Die Familiengeschichte ist ein lebendiger Prozess – Archive werden digitalisiert, DNA-Analysen verfeinert und neue Dokumente tauchen auf.
+</p>
+
+<p>
+  <strong>Warum eine digitale Werkstatt?</strong><br>
+  Nicht jedes Detail findet Platz im Buch. Diese Seite dient als „stille Reserve“ und Arbeitsspeicher für Hypothesen, methodische Hintergründe und umfangreiche Datensätze (wie die interaktive Karte), die im Druckformat nicht darstellbar wären.
+</p>
+
+<p>
+  Sie ersetzt nicht die Chronik, sondern erweitert sie punktuell dort, wo neue Erkenntnisse sinnvoll sind.
+</p>
