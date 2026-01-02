@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Orte & Herkunft
+title: Orte
 permalink: /orte/
 ---
 
+<h1 style="color: #333; margin-bottom: 20px;">Orte & Herkunft</h1>
 <style>
   /* Intro Text */
   .intro-block {
