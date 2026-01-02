@@ -4,8 +4,10 @@ title: Orte
 permalink: /orte/
 ---
 
-<h1 style="color: #333; margin-bottom: 20px;">Orte & Herkunft</h1>
 <style>
+  /* TRICK: Versteckt die automatische Überschrift des Themes */
+  .post-header { display: none !important; }
+
   /* Intro Text */
   .intro-block {
     text-align: center;
@@ -68,6 +70,8 @@ permalink: /orte/
   .dna-box h3 { margin-top: 0; color: #2a5d8f; }
   .dna-meta { font-weight: bold; display: block; margin-bottom: 10px; color: #333; }
 </style>
+
+<h1 style="color: #333; margin-bottom: 20px;">Orte & Herkunft</h1>
 
 <div class="intro-block">
   <p>
