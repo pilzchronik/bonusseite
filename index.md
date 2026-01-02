@@ -4,12 +4,12 @@ title: Startseite
 ---
 
 <style>
-  /* Intro-Bereich: Sachlich und einladend */
+  /* Intro-Bereich */
   .intro-section {
     text-align: center;
     margin-bottom: 50px;
     padding: 40px 20px;
-    background-color: #f8f9fa; /* Sehr helles Grau */
+    background-color: #f8f9fa;
     border-bottom: 1px solid #e9ecef;
     border-radius: 4px;
   }
@@ -39,7 +39,7 @@ title: Startseite
     text-decoration: none !important;
     background: white;
     transition: transform 0.2s, box-shadow 0.2s;
-    height: 100%; /* Macht alle Kacheln gleich hoch */
+    height: 100%;
   }
   
   .nav-card:hover {
@@ -50,7 +50,7 @@ title: Startseite
   
   .nav-card h3 {
     margin-top: 0;
-    color: #2a5d8f; /* Pilz-Blau */
+    color: #2a5d8f;
     font-size: 1.3em;
     margin-bottom: 10px;
   }
@@ -59,10 +59,9 @@ title: Startseite
     color: #555;
     line-height: 1.5;
     margin-bottom: 0;
-    flex-grow: 1; /* Schiebt Inhalt schön zurecht */
+    flex-grow: 1;
   }
 
-  /* Kleines Icon vor dem Text (optional via Emoji) */
   .icon {
     font-size: 1.5em;
     margin-bottom: 15px;
@@ -90,12 +89,6 @@ title: Startseite
     <span class="icon">📍</span>
     <h3>Orte & Herkunft</h3>
     <p>Karte der Lebensorte und DNA-Analyse. Geografische und genetische Wurzeln in der Übersicht.</p>
-  </a>
-
-  <a href="zeitleiste/" class="nav-card">
-    <span class="icon">⏳</span>
-    <h3>Zeitleiste</h3>
-    <p>Die Chronologie der Familie – von der Urzeit bis zur Gegenwart im Zeitstrahl.</p>
   </a>
 
   <a href="ergaenzungen/" class="nav-card">
