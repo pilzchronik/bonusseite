@@ -26,6 +26,7 @@ title: Startseite
     font-weight: bold;
     text-decoration: none;
     margin: 0 10px;
+    font-size: 0.95em;
   }
   .intro-links a:hover { text-decoration: underline; }
 
@@ -74,9 +75,9 @@ title: Startseite
 
 <div class="intro-section">
   <h1>Willkommen im digitalen Pilz-Archiv</h1>
-  <p style="font-size: 1.15em; color: #555; max-width: 700px; margin: 0 auto 20px auto;">
+  <p style="font-size: 1.15em; color: #555; max-width: 750px; margin: 0 auto 20px auto; line-height: 1.6;">
     Dies ist die offizielle Ergänzung zur gedruckten Familienchronik (Band 1 & 2).<br>
-    Diese Seite dient der Dokumentation, der Korrektur und der Veröffentlichung neuer Forschungsergebnisse.
+    Diese Seite dient als digitale Werkstatt für Inhalte, <strong>die im Buch keinen Platz fanden</strong>: interaktive Karten, umfangreiche Datensätze, Korrekturen und laufende Forschungsergebnisse.
   </p>
   <div class="intro-links">
     <a href="{{ '/zeitleiste/' | relative_url }}">⏳ Zur historischen Zeitleiste</a>
@@ -88,13 +89,13 @@ title: Startseite
   <a href="stammbaum/" class="nav-card">
     <span class="icon">🌳</span>
     <h3>Stammbaum & Dossiers</h3>
-    <p>Interaktive Grafiken, Spezialforschungen (Slawonien, Bechinie) und Datenbanken.</p>
+    <p>Interaktive Grafiken, Spezialforschungen (Slawonien, Bechinie) und die Datenbank.</p>
   </a>
 
   <a href="werkstatt/" class="nav-card">
     <span class="icon">🔨</span>
     <h3>Werkstatt</h3>
-    <p>Laufende Forschung, neue Funde und Hintergründe. Der aktuelle Arbeitsstand nach Drucklegung.</p>
+    <p>Laufende Analysen, neue Funde und Hintergründe. Der aktuelle Arbeitsstand nach der Drucklegung.</p>
   </a>
 
   <a href="orte/" class="nav-card">
