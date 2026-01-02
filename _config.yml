@@ -15,9 +15,9 @@ plugins:
 
 # Navigation oben
 header_pages:
-  - index.md
+  - index.md        # Startseite
+  - stammbaum.md    # NEU (Platz 2)
   - werkstatt.md
   - orte.md
-  - zeitleiste.md
-  - ergaenzungen.md
-  - quellen.md
+  - zeitleiste.md   # Bleibt im Menü, auch wenn keine Kachel mehr
+  - quellen.md      # NEU (Fusioniert)
