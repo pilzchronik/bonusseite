@@ -4,123 +4,110 @@ title: Startseite
 ---
 
 <style>
-  /* Intro-Box: Sachlich und informativ */
+  /* Intro-Bereich: Sachlich und einladend */
   .intro-section {
     text-align: center;
     margin-bottom: 50px;
-    padding: 30px;
-    background-color: #f8f9fa;
-    border-bottom: 4px solid #2a5d8f;
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Sehr helles Grau */
+    border-bottom: 1px solid #e9ecef;
     border-radius: 4px;
   }
   
-  /* Grid für genau 4 Bereiche (2x2 Raster) */
-  .grid-container {
+  .intro-section h1 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  /* Grid für die Navigation */
+  .nav-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
     margin-bottom: 60px;
   }
   
-  /* Das Design der Kacheln */
-  .card-box {
+  /* Die Kacheln */
+  .nav-card {
     display: flex;
     flex-direction: column;
     padding: 25px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #dee2e6;
     border-radius: 6px;
     text-decoration: none !important;
     background: white;
-    transition: all 0.2s ease;
-    height: 100%;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%; /* Macht alle Kacheln gleich hoch */
   }
   
-  .card-box:hover {
+  .nav-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
     border-color: #2a5d8f;
   }
   
-  .card-box h3 {
+  .nav-card h3 {
     margin-top: 0;
-    color: #2a5d8f;
+    color: #2a5d8f; /* Pilz-Blau */
     font-size: 1.3em;
-    margin-bottom: 12px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
-
-  .card-box p {
+  
+  .nav-card p {
     color: #555;
     line-height: 1.5;
-    font-size: 0.95em;
-    flex-grow: 1; 
     margin-bottom: 0;
+    flex-grow: 1; /* Schiebt Inhalt schön zurecht */
   }
 
-  /* Kleiner visueller Hinweis für externe Links */
-  .ext-icon {
-    font-size: 0.8em;
-    color: #999;
-    margin-left: 5px;
+  /* Kleines Icon vor dem Text (optional via Emoji) */
+  .icon {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    display: block;
   }
 </style>
 
 <div class="intro-section">
-  <h1 style="margin-top: 0;">Willkommen auf der Bonusseite</h1>
-  <p style="font-size: 1.15em; color: #444; max-width: 700px; margin: 0 auto;">
+  <h1>Willkommen im digitalen Pilz-Archiv</h1>
+  <p style="font-size: 1.15em; color: #555; max-width: 700px; margin: 0 auto;">
     Dies ist die offizielle Ergänzung zur gedruckten Familienchronik (Band 1 & 2).<br>
-    Diese Seite dient als <strong>„lebendes Dokument“</strong> für Korrekturen, neue Forschungsdaten und interaktive Inhalte.
+    Diese Seite dient der Dokumentation, der Korrektur und der Veröffentlichung neuer Forschungsergebnisse.
   </p>
 </div>
 
-<div class="grid-container">
+<div class="nav-grid">
   
-  <a href="karte/" class="card-box">
-    <h3>🗺️ Geografie & Herkunft</h3>
-    <p>
-      Die Lebensorte und Wanderungsbewegungen in Sachsen, Böhmen und Tirol – von den genetischen Ursprüngen bis heute.
-    </p>
+  <a href="werkstatt/" class="nav-card">
+    <span class="icon">🔨</span>
+    <h3>Werkstatt</h3>
+    <p>Laufende Forschung, neue Funde und Hintergründe. Der aktuelle Arbeitsstand nach Drucklegung.</p>
   </a>
 
-  <a href="https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html" target="_blank" class="card-box">
-    <h3>🌳 Interaktiver Stammbaum <span class="ext-icon">↗</span></h3>
-    <p>
-      Die grafische Datenbank (MacFamilyTree). Navigieren Sie interaktiv durch die Generationen und Verwandtschaftsverhältnisse.
-    </p>
+  <a href="orte/" class="nav-card">
+    <span class="icon">📍</span>
+    <h3>Orte & Herkunft</h3>
+    <p>Karte der Lebensorte und DNA-Analyse. Geografische und genetische Wurzeln in der Übersicht.</p>
   </a>
 
-  <a href="archiv/" class="card-box">
-    <h3>🏛️ Archiv & Fundstücke</h3>
-    <p>
-      Hintergrundberichte, Transkriptionen und Geschichten, die im gedruckten Buch keinen Platz fanden („Die Werkstatt“).
-    </p>
+  <a href="zeitleiste/" class="nav-card">
+    <span class="icon">⏳</span>
+    <h3>Zeitleiste</h3>
+    <p>Die Chronologie der Familie – von der Urzeit bis zur Gegenwart im Zeitstrahl.</p>
   </a>
 
-  <a href="ergaenzungen/" class="card-box">
-    <h3>📝 Ergänzungen & Korrekturen</h3>
-    <p>
-      Das „lebende Dokument“: Aktualisierungen, Errata-Listen und Register-Downloads für Besitzer der Chronik.
-    </p>
+  <a href="ergaenzungen/" class="nav-card">
+    <span class="icon">📂</span>
+    <h3>Ergänzungen</h3>
+    <p>Downloads (Register), Errata und Korrekturen zu den gedruckten Bänden.</p>
   </a>
 
-</div>
+  <a href="quellen/" class="nav-card">
+    <span class="icon">📚</span>
+    <h3>Quellen</h3>
+    <p>Verzeichnis der Archive, Datenbanken und Online-Ressourcen.</p>
+  </a>
 
-<hr style="margin: 50px 0; border: 0; border-top: 1px solid #eee;">
-
-<div class="news-section">
-  <h2 style="font-size: 1.4em; border-left: 4px solid #2a5d8f; padding-left: 15px; margin-bottom: 25px;">
-    Neueste Einträge im Archiv
-  </h2>
-  <ul style="list-style: none; padding: 0;">
-    {% for post in site.posts limit:3 %}
-      <li style="margin-bottom: 25px;">
-        <div style="font-size: 0.85em; color: #777; margin-bottom: 4px;">{{ post.date | date: "%d.%m.%Y" }}</div>
-        <a href="{{ post.url | relative_url }}" style="font-size: 1.1em; font-weight: bold; text-decoration: none; color: #2a5d8f;">
-          {{ post.title }}
-        </a>
-        <div style="color: #555; margin-top: 5px;">{{ post.excerpt | strip_html | truncatewords: 30 }}</div>
-      </li>
-    {% endfor %}
-  </ul>
 </div>
