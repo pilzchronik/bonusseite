@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Werkstatt
+title: Aktuelles
 permalink: /werkstatt/
 ---
 
