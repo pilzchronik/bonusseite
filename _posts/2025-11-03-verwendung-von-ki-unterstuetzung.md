@@ -5,10 +5,31 @@ date: 2025-11-03
 categories: [Analysen]
 excerpt: "Hinweis: Verwendung KI unterstützt erstellter Beiträge; Beweissicherung; Warnhinweise beachten;"
 ---
-### Zur Verwendung von KI-generierten Texten auf dieser Website
+<style>
+  .status-box {
+    background-color: #f9f9f9;
+    border-left: 4px solid #999;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 0.95em;
+  }
+  .status-label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+  }
+</style>
 
-Ich nutze **künstliche Intelligenz (KI)**, um Berichte und Analysen für die *Familienchronik* zu erstellen.  
-Das hilft bei der mühsamen Arbeit, Informationen aus alten Quellen zusammenzusuchen und zu verbinden.  
+<div class="status-box">
+  <span class="status-label">STATUS: ENTWURF / KI-UNTERSTÜTZT</span>
+  Dieser Beitrag dient als interne Gedankenstütze und Arbeitsgrundlage. 
+  Inhalte und Daten sind noch nicht final quellenkritisch gesichert.
+</div> zu verbinden.  
 Artikel, bei denen KI geholfen hat, sind auf dieser Website entsprechend **gekennzeichnet**.
 
 ---

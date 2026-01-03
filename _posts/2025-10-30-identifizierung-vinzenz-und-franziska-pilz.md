@@ -7,14 +7,31 @@ categories: [Ahnenforschung, Forensik]
 image: /assets/images/Vinzenz-und-Franziska-Pilz.jpg
 excerpt: "Forensische Analysen bestätigen: Das bisher unbeschriftete Atelierfoto zeigt mit hoher Wahrscheinlichkeit Vinzenz Pilz (1830–1883) und Franziska Pilz, geb. Gahler (1844–1921) – die Urgroßeltern unserer Familie."
 ---
+<style>
+  .status-box {
+    background-color: #f9f9f9;
+    border-left: 4px solid #999;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 0.95em;
+  }
+  .status-label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+  }
+</style>
 
-> ⚠️ **Vorläufiger Arbeitsstand**  
->
-> Dieser Beitrag wurde **im Wesentlichen mithilfe Künstlicher Intelligenz (KI)** erstellt.  
-> Er dient derzeit **als Information, Gedankenstütze und Entwurf** für weitere, genauere Nachforschungen im Rahmen der *Pilz-Chronik*.  
->
-> Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
-
+<div class="status-box">
+  <span class="status-label">STATUS: ENTWURF / KI-UNTERSTÜTZT</span>
+  Dieser Beitrag dient als interne Gedankenstütze und Arbeitsgrundlage. 
+  Inhalte und Daten sind noch nicht final quellenkritisch gesichert.
+</div>
 ---
 
 ### 🧬 Forensische Identitätsbestätigung unserer Urgroßeltern

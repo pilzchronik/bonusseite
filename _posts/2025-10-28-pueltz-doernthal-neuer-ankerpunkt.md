@@ -1,17 +1,36 @@
 ---
 layout: post
-title: "Vorläufige Befunde zu Dörnthal als frühem Ort der Pilz/Pültz-Linie"
+title: "Vorläufige Befunde zu Dörnthal..."
 date: 2025-10-30
 categories: [Analysen]
-excerpt: "Arbeitsnotiz: Dörnthal als Sitz eines Erbrichters Piltz/Pültz im 16. Jahrhundert; Hinweise auf eine gerichtliche Überlieferung (Gerichtsbuch Dörnthal, Amt Lauterstein) – noch nicht im Original geprüft."
+excerpt: "..."
 ---
 
-> ⚠️ **Vorläufiger Arbeitsstand**  
->
-> Dieser Beitrag wurde **im Wesentlichen mithilfe Künstlicher Intelligenz (KI)** erstellt.  
-> Er dient derzeit **als Gedankenstütze und Merker** für weitere, genauere Nachforschungen im Rahmen der *Pilz-Chronik*.  
->
-> Inhalte, Daten und Deutungen können sich noch ändern, sobald neue Quellen überprüft und eingearbeitet werden.
+<style>
+  .status-box {
+    background-color: #f9f9f9;
+    border-left: 4px solid #999;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 0.95em;
+  }
+  .status-label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+  }
+</style>
+
+<div class="status-box">
+  <span class="status-label">STATUS: ENTWURF / KI-UNTERSTÜTZT</span>
+  Dieser Beitrag dient als interne Gedankenstütze und Arbeitsgrundlage. 
+  Inhalte und Daten sind noch nicht final quellenkritisch gesichert.
+</div>
 
 ---
 
