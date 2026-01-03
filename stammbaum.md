@@ -100,13 +100,13 @@ permalink: /stammbaum/
 <div class="hero-box">
   <h2 style="margin-top: 0; color: #2a5d8f; font-size: 1.5em;">Interaktiver Stammbaum</h2>
   <p style="color: #555; line-height: 1.6;">
-    Die modernste Ansicht der Familiendaten. Erkunden Sie die Verwandtschaftsverhältnisse visuell über die Plattform MacFamilyTree.
+    Die modernste und aktuellste Ansicht der Familiendaten. Erkunden Sie die Verwandtschaftsverhältnisse visuell über die Plattform MacFamilyTree.
   </p>
   <a href="https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html" class="btn-primary" target="_blank">Stammbaum öffnen (Online)</a>
 </div>
 
 <h2 style="border-bottom: 2px solid #eee; padding-bottom: 10px; color: #1a3d5c;">Thematische Webseiten</h2>
-<p style="margin-bottom: 25px; color: #666;">Separate Forschungswebseiten zu speziellen Zweigen und Rätseln der Familie.</p>
+<p style="margin-bottom: 25px; color: #666;">Separate Webseiten zu speziellen Zweigen und Rätseln der Familie.</p>
 
 <ul class="dossier-list">
   <li class="dossier-item">
