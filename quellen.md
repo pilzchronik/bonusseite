@@ -128,7 +128,7 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 
 ## Downloads & Langzeitsicherung
 
-- Gesamtregister Band 1 & 2 (PDF) – *[Download folgt]*
+- [Gesamtregister Band 1 & 2 (PDF)](/buchindex.pdf)
 - [Langzeitsicherung der Forschungsdaten (Zenodo)](https://doi.org/10.5281/zenodo.15828594)
 
 ---
