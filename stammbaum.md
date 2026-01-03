@@ -105,7 +105,7 @@ permalink: /stammbaum/
   <a href="https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html" class="btn-primary" target="_blank">Stammbaum öffnen (Online)</a>
 </div>
 
-<h2 style="border-bottom: 2px solid #eee; padding-bottom: 10px; color: #1a3d5c;">Thematische Dossiers</h2>
+<h2 style="border-bottom: 2px solid #eee; padding-bottom: 10px; color: #1a3d5c;">Thematische Webseiten</h2>
 <p style="margin-bottom: 25px; color: #666;">Separate Forschungswebseiten zu speziellen Zweigen und Rätseln der Familie.</p>
 
 <ul class="dossier-list">
