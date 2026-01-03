@@ -40,23 +40,32 @@ title: Startseite
   
   /* Die Kacheln */
   .nav-card {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    border: 1px solid #dee2e6;
-    border-radius: 6px;
-    text-decoration: none !important;
-    background: white;
-    transition: transform 0.2s, box-shadow 0.2s;
-    height: 100%;
-  }
+ 	display: flex;
+  	flex-direction: column;
+  	padding: 30px;
+  	border: 1px solid #dee2e6;
+  	border-radius: 6px;
+  	text-decoration: none !important;
+  	background: white;
+  	height: 100%;
+}
+
+.nav-card:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+  border-color: #2a5d8f;
+}
   
-  .nav-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-    border-color: #2a5d8f;
+  /* Dachzeile (Eyebrow) statt Icon */
+  .eyebrow {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
   }
-  
+
   .nav-card h3 {
     margin-top: 0;
     color: #2a5d8f;
@@ -69,8 +78,6 @@ title: Startseite
     line-height: 1.6;
     margin-bottom: 0;
   }
-
-  .icon { font-size: 2em; margin-bottom: 20px; display: block; }
 </style>
 
 <div class="intro-section">
@@ -80,32 +87,32 @@ title: Startseite
     Diese Seite dient als digitale Werkstatt für Inhalte, <strong>die im Buch keinen Platz fanden</strong>: interaktive Karten, umfangreiche Datensätze, Korrekturen und laufende Forschungsergebnisse.
   </p>
   <div class="intro-links">
-    <a href="{{ '/zeitleiste/' | relative_url }}">⏳ Zur historischen Zeitleiste</a>
+    <a href="{{ '/zeitleiste/' | relative_url }}">Zur historischen Zeitleiste</a>
   </div>
 </div>
 
 <div class="nav-grid">
   
   <a href="stammbaum/" class="nav-card">
-    <span class="icon">🌳</span>
+    <span class="eyebrow">GENEALOGIE</span>
     <h3>Stammbaum & Dossiers</h3>
     <p>Interaktive Grafiken, Spezialforschungen (Slawonien, Bechinie) und die Datenbank.</p>
   </a>
 
   <a href="werkstatt/" class="nav-card">
-    <span class="icon">🔨</span>
+    <span class="eyebrow">FORSCHUNG</span>
     <h3>Werkstatt</h3>
     <p>Laufende Analysen, neue Funde und Hintergründe. Der aktuelle Arbeitsstand nach der Drucklegung.</p>
   </a>
 
   <a href="orte/" class="nav-card">
-    <span class="icon">📍</span>
+    <span class="eyebrow">GEOGRAFIE</span>
     <h3>Orte & Herkunft</h3>
     <p>Karte der Lebensorte und DNA-Analyse. Geografische und genetische Wurzeln in der Übersicht.</p>
   </a>
 
   <a href="quellen/" class="nav-card">
-    <span class="icon">📚</span>
+    <span class="eyebrow">DOKUMENTATION</span>
     <h3>Quellen & Material</h3>
     <p>Register-Downloads, Errata-Listen sowie das Verzeichnis aller Archive und Belege.</p>
   </a>
