@@ -40,20 +40,20 @@ title: Startseite
   
   /* Die Kacheln */
   .nav-card {
- 	display: flex;
-  	flex-direction: column;
-  	padding: 30px;
-  	border: 1px solid #dee2e6;
-  	border-radius: 6px;
-  	text-decoration: none !important;
-  	background: white;
-  	height: 100%;
-}
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    text-decoration: none !important;
+    background: white;
+    height: 100%;
+  }
 
-.nav-card:hover {
-  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
-  border-color: #2a5d8f;
-}
+  .nav-card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    border-color: #2a5d8f;
+  }
   
   /* Dachzeile (Eyebrow) statt Icon */
   .eyebrow {
@@ -84,7 +84,8 @@ title: Startseite
   <h1>Willkommen im digitalen Pilz-Archiv</h1>
   <p style="font-size: 1.15em; color: #555; max-width: 750px; margin: 0 auto 20px auto; line-height: 1.6;">
     Dies ist die offizielle Ergänzung zur gedruckten Familienchronik (Band 1 & 2).<br>
-    Diese Seite dient als digitale Werkstatt für Inhalte, <strong>die im Buch keinen Platz fanden</strong>: interaktive Karten, umfangreiche Datensätze, Korrekturen und laufende Forschungsergebnisse.
+    Diese Seite dient als digitale Werkstatt für Inhalte, <strong>die im Buch keinen Platz fanden</strong>:
+    Karten, Datensätze, Korrekturen und laufende Aktualisierungen.
   </p>
   <div class="intro-links">
     <a href="{{ '/zeitleiste/' | relative_url }}">Zur historischen Zeitleiste</a>
@@ -95,26 +96,26 @@ title: Startseite
   
   <a href="stammbaum/" class="nav-card">
     <span class="eyebrow">GENEALOGIE</span>
-    <h3>Stammbaum & Dossiers</h3>
-    <p>Interaktive Grafiken, Spezialforschungen (Slawonien, Bechinie) und die Datenbank.</p>
+    <h3>Stammbaum & Webseiten</h3>
+    <p>Interaktive Stammbäume, thematische Forschungsseiten und externe Projekt-Webseiten.</p>
   </a>
 
   <a href="werkstatt/" class="nav-card">
     <span class="eyebrow">FORSCHUNG</span>
-    <h3>Werkstatt</h3>
-    <p>Laufende Analysen, neue Funde und Hintergründe. Der aktuelle Arbeitsstand nach der Drucklegung.</p>
+    <h3>Aktuelles</h3>
+    <p>Neue Funde, Ergänzungen und Hintergrundartikel zur Familienchronik nach der Drucklegung.</p>
   </a>
 
   <a href="orte/" class="nav-card">
     <span class="eyebrow">GEOGRAFIE</span>
     <h3>Orte & Herkunft</h3>
-    <p>Karte der Lebensorte und DNA-Analyse. Geografische und genetische Wurzeln in der Übersicht.</p>
+    <p>Karte der Lebensorte sowie geografische und genetische Herkunft in der Übersicht.</p>
   </a>
 
   <a href="quellen/" class="nav-card">
     <span class="eyebrow">DOKUMENTATION</span>
-    <h3>Quellen & Material</h3>
-    <p>Register-Downloads, Errata-Listen sowie das Verzeichnis aller Archive und Belege.</p>
+    <h3>Korrekturen & Quellen</h3>
+    <p>Errata, Ergänzungen, Register-Downloads sowie das Verzeichnis aller Archive und Belege.</p>
   </a>
 
 </div>
