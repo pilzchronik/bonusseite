@@ -16,14 +16,17 @@ permalink: /quellen/
   li { margin-bottom: 6px; }
 </style>
 
-# Quellen & Forschungswerkzeuge zur Pilz-Chronik
+## Downloads & Langzeitsicherung
+
+- [Gesamtregister Band 1 & 2 (PDF)](/buchindex.pdf)
+- [Langzeitsicherung der Forschungsdaten (Zenodo)](https://doi.org/10.5281/zenodo.15828594)# Quellen & Forschungswerkzeuge zur Pilz-Chronik
 
 Digitale Ergänzungen zur gedruckten *Pilz-Chronik*.  
 Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur räumlichen und historischen Einordnung.
 
 ---
 
-## ⚠️ Korrekturen zur 1. Auflage (2025)
+## Korrekturen
 *Hinweis: Dies sind Platzhalter zur Demonstration.*
 
 - **Band 1, Seite 145:** Geburtsdatum ist 12. Mai 1880 (nicht 1881).
@@ -124,11 +127,5 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 - [Tschechien-Online: Ortsnamen A–Z](https://www.tschechien-online.org/basisinfo/deutsche-ortsnamen-tschechien-a-bis-z)
 - [Ortslexikon Nord- und Nordwestböhmen (SOA Leitmeritz)](https://www.soalitomerice.cz/de/lexikon-obci/)
 
----
-
-## Downloads & Langzeitsicherung
-
-- [Gesamtregister Band 1 & 2 (PDF)](/buchindex.pdf)
-- [Langzeitsicherung der Forschungsdaten (Zenodo)](https://doi.org/10.5281/zenodo.15828594)
 
 ---
