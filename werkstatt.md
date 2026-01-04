@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Aktuelles
+title: Aktuelles & Themen
 permalink: /werkstatt/
 ---
 
@@ -27,78 +27,86 @@ permalink: /werkstatt/
     padding-left: 15px;
   }
 
-  /* --- TOC / INHALTSVERZEICHNIS BOX --- */
-  .toc-box {
+  /* --- THEMEN-REGISTER (TOC) --- */
+  .topic-cloud {
     background-color: #f8f9fa;
     border: 1px solid #e9ecef;
     padding: 20px;
     margin-bottom: 50px;
     border-radius: 4px;
+    text-align: center;
   }
-  
-  .toc-title {
-    font-size: 0.85em;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #2a5d8f;
-    margin-bottom: 10px;
+
+  .topic-label {
     display: block;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
     letter-spacing: 1px;
-  }
-
-  .toc-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    column-count: 1; /* Einspaltig auf Mobile */
-  }
-  
-  /* Auf Desktop zweispaltig für Kompaktheit */
-  @media (min-width: 768px) {
-    .toc-list { column-count: 2; column-gap: 40px; }
-  }
-
-  .toc-item {
-    margin-bottom: 6px;
-    font-size: 0.95em;
-    break-inside: avoid; /* Verhindert Umbruch innerhalb eines Titels */
-  }
-
-  .toc-item a {
-    text-decoration: none;
-    color: #444;
-    border-bottom: 1px solid #eee;
-  }
-  .toc-item a:hover { color: #2a5d8f; border-color: #2a5d8f; }
-
-
-  /* --- BEITRAGSLISTE MIT JAHRESTRENNER --- */
-  .post-list { list-style: none; padding: 0; }
-  
-  .year-header {
-    font-size: 1.8em;
-    color: #ccc;
-    border-bottom: 1px solid #eee;
-    margin: 60px 0 30px 0;
-    padding-bottom: 5px;
     font-weight: bold;
   }
+
+  .topic-btn {
+    display: inline-block;
+    background: white;
+    border: 1px solid #ddd;
+    color: #2a5d8f;
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+  
+  .topic-btn:hover {
+    background: #2a5d8f;
+    color: white;
+    border-color: #2a5d8f;
+    text-decoration: none;
+  }
+  
+  .topic-count {
+    background: #eee;
+    color: #555;
+    font-size: 0.8em;
+    padding: 1px 6px;
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+
+  /* --- KATEGORIE-SEKTIONEN --- */
+  .category-section {
+    margin-bottom: 60px;
+    border-top: 2px solid #f0f0f0;
+    padding-top: 40px;
+  }
+
+  .cat-header {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+    border-left: 5px solid #2a5d8f;
+    padding-left: 15px;
+  }
+
+  /* --- BEITRAGSKARTEN --- */
+  .post-list { list-style: none; padding: 0; }
 
   .post-item {
-    margin-bottom: 40px;
-    padding-left: 20px;
-    border-left: 2px solid #eee;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
   }
   
-  .post-item:hover {
-    border-left-color: #2a5d8f;
-  }
-  
-  .post-meta-row {
+  .post-meta {
     font-size: 0.85em;
     color: #888;
-    margin-bottom: 5px;
-    text-transform: uppercase;
+    margin-bottom: 4px;
+    display: block;
   }
 
   .post-title {
@@ -111,56 +119,52 @@ permalink: /werkstatt/
   }
   .post-title:hover { text-decoration: underline; }
   
-  .post-excerpt { color: #555; line-height: 1.6; }
+  .post-excerpt { color: #555; line-height: 1.5; font-size: 0.95em; }
+
 </style>
 
 <div class="intro-text">
-  Laufende Analysen, Hintergrundberichte und neue Erkenntnisse aus der digitalen Werkstatt. 
-  Hier wird der Forschungsstand nach der Drucklegung dokumentiert.
+  Forschungsberichte sortiert nach Themengebieten. 
+  Einige Beiträge sind mehreren Kategorien zugeordnet und erscheinen dementsprechend mehrfach.
 </div>
 
-<div class="toc-box">
-  <span class="toc-title">Themenverzeichnis</span>
-  <ul class="toc-list">
-    {% for post in site.posts %}
-      <li class="toc-item">
-        <a href="#post-{{ post.id | slugify }}">
-          {{ post.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="topic-cloud">
+  <span class="topic-label">Themen-Schnellzugriff</span>
+  {% assign sorted_categories = site.categories | sort %}
+  {% for category in sorted_categories %}
+    <a href="#cat-{{ category[0] | slugify }}" class="topic-btn">
+      {{ category[0] | capitalize }}
+      <span class="topic-count">{{ category[1].size }}</span>
+    </a>
+  {% endfor %}
 </div>
 
-<div class="post-list-container">
+<div class="content-area">
   
-  {% assign current_year = "" %}
-  
-  {% for post in site.posts %}
-    {% assign post_year = post.date | date: "%Y" %}
+  {% for category in sorted_categories %}
+    {% assign cat_name = category[0] %}
+    {% assign cat_posts = category[1] %}
     
-    {% if post_year != current_year %}
-      <h2 class="year-header">{{ post_year }}</h2>
-      {% assign current_year = post_year %}
-    {% endif %}
-    
-    <div class="post-item" id="post-{{ post.id | slugify }}">
-      <div class="post-meta-row">
-        {{ post.date | date: "%d.%m." }} • 
-        {% if post.categories.size > 0 %}
-          {{ post.categories | join: ", " }}
-        {% else %}
-          Notiz
-        {% endif %}
-      </div>
+    <div class="category-section" id="cat-{{ cat_name | slugify }}">
+      <h2 class="cat-header">{{ cat_name | capitalize }}</h2>
       
-      <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <div class="post-excerpt">
-        {{ post.excerpt | strip_html | truncatewords: 40 }}
-        <br>
-        <a href="{{ post.url | relative_url }}" style="font-size: 0.9em; font-weight: bold; color: #2a5d8f; text-decoration: none;">[Weiterlesen]</a>
+      <ul class="post-list">
+        {% for post in cat_posts %}
+          <li class="post-item">
+            <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
+            <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <div class="post-excerpt">
+              {{ post.excerpt | strip_html | truncatewords: 35 }}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+      
+      <div style="text-align: right;">
+        <a href="#top" style="font-size: 0.8em; color: #999; text-decoration: none;">▲ nach oben</a>
       </div>
     </div>
-
+    
   {% endfor %}
+
 </div>
