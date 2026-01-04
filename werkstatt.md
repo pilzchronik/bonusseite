@@ -4,7 +4,7 @@ title: Aktuelles & Themen
 permalink: /werkstatt/
 ---
 
-<h1 style="color: #333; margin-bottom: 20px;">Werkstatt & Analysen</h1>
+<h1 style="color: #333; margin-bottom: 15px;">Werkstatt & Analysen</h1>
 
 <style>
   /* --- FIX: Automatische Überschrift ausblenden --- */
@@ -14,50 +14,44 @@ permalink: /werkstatt/
   .page-content { 
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
     color: #333; 
-    line-height: 1.6; 
+    line-height: 1.5; 
   }
 
-  /* Intro-Bereich */
+  /* Intro-Bereich: Kompakter */
   .intro-text {
     max-width: 800px;
-    margin-bottom: 30px;
-    color: #555;
-    font-size: 1.05em;
-    border-left: 3px solid #2a5d8f;
-    padding-left: 15px;
+    margin-bottom: 25px;
+    color: #666;
+    font-size: 1em;
   }
 
-  /* --- THEMEN-REGISTER (TOC) --- */
+  /* --- THEMEN-REGISTER (TOC) - Ruhiger gestaltet --- */
   .topic-cloud {
-    background-color: #f8f9fa;
-    border: 1px solid #e9ecef;
-    padding: 20px;
-    margin-bottom: 50px;
+    background-color: #f9f9f9; /* Sehr heller Hintergrund statt harter Box */
+    padding: 15px;
+    margin-bottom: 30px;
     border-radius: 4px;
-    text-align: center;
+    text-align: left; /* Linksbündig wirkt oft ruhiger als zentriert */
   }
 
   .topic-label {
-    display: block;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    color: #888;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
+    display: inline-block;
+    font-size: 0.85em;
     font-weight: bold;
+    color: #555;
+    margin-right: 10px;
   }
 
   .topic-btn {
     display: inline-block;
-    background: white;
-    border: 1px solid #ddd;
-    color: #2a5d8f;
-    padding: 6px 12px;
-    margin: 4px;
-    border-radius: 20px;
+    background: #fff;
+    border: 1px solid #e0e0e0; /* Zarterer Rahmen */
+    color: #444;
+    padding: 3px 10px; /* Kleiner */
+    margin: 2px;
+    border-radius: 3px; /* Eckiger wirkt oft seriöser/ruhiger als rund */
     text-decoration: none;
-    font-size: 0.9em;
-    font-weight: bold;
+    font-size: 0.85em;
     transition: all 0.2s ease;
   }
   
@@ -69,72 +63,85 @@ permalink: /werkstatt/
   }
   
   .topic-count {
-    background: #eee;
-    color: #555;
+    color: #999;
     font-size: 0.8em;
-    padding: 1px 6px;
-    border-radius: 10px;
-    margin-left: 5px;
+    margin-left: 4px;
   }
+  .topic-btn:hover .topic-count { color: #ddd; }
 
   /* --- KATEGORIE-SEKTIONEN --- */
   .category-section {
-    margin-bottom: 60px;
-    border-top: 2px solid #f0f0f0;
-    padding-top: 40px;
+    margin-bottom: 40px; /* Reduzierter Abstand (vorher 60) */
+    /* Keine Trennlinie oben, wirkt ruhiger */
   }
 
   .cat-header {
-    font-size: 1.6em;
-    color: #333;
-    margin-bottom: 30px;
+    font-size: 1.4em;
+    color: #2a5d8f; /* Farbe statt Balken */
+    margin-bottom: 15px;
     font-weight: bold;
-    border-left: 5px solid #2a5d8f;
-    padding-left: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eaeaea; /* Sehr dezente Linie UNTER der Überschrift */
+    padding-left: 0; /* Kein Einzug mehr */
+    border-left: none; /* Balken entfernt */
   }
 
-  /* --- BEITRAGSKARTEN --- */
-  .post-list { list-style: none; padding: 0; }
+  /* --- BEITRAGSLISTE --- */
+  .post-list { list-style: none; padding: 0; margin: 0; }
 
   .post-item {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
+    margin-bottom: 15px; /* Kompakter (vorher 30) */
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #eee; /* Dotted ist weniger dominant als solid */
   }
   
+  .post-item:last-child { border-bottom: none; }
+
   .post-meta {
-    font-size: 0.85em;
-    color: #888;
-    margin-bottom: 4px;
-    display: block;
+    font-size: 0.8em;
+    color: #999;
+    margin-right: 8px;
+    display: inline-block; /* Datum in einer Zeile mit Titel? Oder darüber. Hier: darüber aber klein. */
   }
 
   .post-title {
-    display: block;
-    font-size: 1.3em;
-    color: #2a5d8f;
+    display: inline-block; /* Damit es nicht zu wuchtig wirkt */
+    font-size: 1.15em;     /* Etwas kleiner */
+    color: #333;
     font-weight: bold;
     text-decoration: none;
-    margin: 0 0 10px 0;
+    margin-bottom: 2px;
   }
-  .post-title:hover { text-decoration: underline; }
+  .post-title:hover { text-decoration: underline; color: #2a5d8f; }
   
-  .post-excerpt { color: #555; line-height: 1.5; font-size: 0.95em; }
+  .post-excerpt { 
+    color: #666; 
+    line-height: 1.4; 
+    font-size: 0.9em; 
+    margin-top: 3px;
+  }
+
+  /* "Nach oben" Link dezenter */
+  .top-link {
+    font-size: 0.75em;
+    color: #bbb;
+    text-decoration: none;
+  }
+  .top-link:hover { color: #2a5d8f; }
 
 </style>
 
 <div class="intro-text">
   Forschungsberichte sortiert nach Themengebieten. 
-  Einige Beiträge sind mehreren Kategorien zugeordnet und erscheinen dementsprechend mehrfach.
+  Beiträge mit mehreren Schwerpunkten erscheinen in den entsprechenden Kategorien mehrfach.
 </div>
 
 <div class="topic-cloud">
-  <span class="topic-label">Themen-Schnellzugriff</span>
+  <span class="topic-label">Themen:</span>
   {% assign sorted_categories = site.categories | sort %}
   {% for category in sorted_categories %}
     <a href="#cat-{{ category[0] | slugify }}" class="topic-btn">
-      {{ category[0] | capitalize }}
-      <span class="topic-count">{{ category[1].size }}</span>
+      {{ category[0] | capitalize }}<span class="topic-count">{{ category[1].size }}</span>
     </a>
   {% endfor %}
 </div>
@@ -151,17 +158,20 @@ permalink: /werkstatt/
       <ul class="post-list">
         {% for post in cat_posts %}
           <li class="post-item">
-            <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
-            <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <div style="margin-bottom: 2px;">
+               <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
+               <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </div>
+            
             <div class="post-excerpt">
-              {{ post.excerpt | strip_html | truncatewords: 35 }}
+              {{ post.excerpt | strip_html | truncatewords: 30 }}
             </div>
           </li>
         {% endfor %}
       </ul>
       
-      <div style="text-align: right;">
-        <a href="#top" style="font-size: 0.8em; color: #999; text-decoration: none;">▲ nach oben</a>
+      <div style="text-align: right; margin-top: 10px;">
+        <a href="#top" class="top-link">▲ nach oben</a>
       </div>
     </div>
     
