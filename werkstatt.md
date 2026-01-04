@@ -4,7 +4,7 @@ title: Aktuelles & Themen
 permalink: /werkstatt/
 ---
 
-<h1 style="color: #333; margin-bottom: 15px;">Werkstatt & Analysen</h1>
+<h1 style="color: #111; margin-bottom: 15px;">Werkstatt & Analysen</h1>
 
 <style>
   /* --- FIX: Automatische Überschrift ausblenden --- */
@@ -17,7 +17,7 @@ permalink: /werkstatt/
     line-height: 1.5; 
   }
 
-  /* Intro-Bereich: Kompakter */
+  /* Intro-Bereich: Kompakt */
   .intro-text {
     max-width: 800px;
     margin-bottom: 25px;
@@ -25,31 +25,31 @@ permalink: /werkstatt/
     font-size: 1em;
   }
 
-  /* --- THEMEN-REGISTER (TOC) - Ruhiger gestaltet --- */
+  /* --- THEMEN-REGISTER (TOC) --- */
   .topic-cloud {
-    background-color: #f9f9f9; /* Sehr heller Hintergrund statt harter Box */
+    background-color: #f9f9f9; 
     padding: 15px;
     margin-bottom: 30px;
     border-radius: 4px;
-    text-align: left; /* Linksbündig wirkt oft ruhiger als zentriert */
+    text-align: left;
   }
 
   .topic-label {
     display: inline-block;
     font-size: 0.85em;
     font-weight: bold;
-    color: #555;
+    color: #333; /* Schwarz */
     margin-right: 10px;
   }
 
   .topic-btn {
     display: inline-block;
     background: #fff;
-    border: 1px solid #e0e0e0; /* Zarterer Rahmen */
-    color: #444;
-    padding: 3px 10px; /* Kleiner */
+    border: 1px solid #ccc; 
+    color: #2a5d8f; /* Blau */
+    padding: 3px 10px; 
     margin: 2px;
-    border-radius: 3px; /* Eckiger wirkt oft seriöser/ruhiger als rund */
+    border-radius: 3px; 
     text-decoration: none;
     font-size: 0.85em;
     transition: all 0.2s ease;
@@ -63,7 +63,7 @@ permalink: /werkstatt/
   }
   
   .topic-count {
-    color: #999;
+    color: #888;
     font-size: 0.8em;
     margin-left: 4px;
   }
@@ -71,63 +71,65 @@ permalink: /werkstatt/
 
   /* --- KATEGORIE-SEKTIONEN --- */
   .category-section {
-    margin-bottom: 40px; /* Reduzierter Abstand (vorher 60) */
-    /* Keine Trennlinie oben, wirkt ruhiger */
+    margin-bottom: 40px; 
   }
 
   .cat-header {
     font-size: 1.4em;
-    color: #2a5d8f; /* Farbe statt Balken */
+    color: #111; /* SCHWARZ (wie gewünscht) */
     margin-bottom: 15px;
     font-weight: bold;
     padding-bottom: 5px;
-    border-bottom: 1px solid #eaeaea; /* Sehr dezente Linie UNTER der Überschrift */
-    padding-left: 0; /* Kein Einzug mehr */
-    border-left: none; /* Balken entfernt */
+    border-bottom: 1px solid #eaeaea; 
+    padding-left: 0;
   }
 
   /* --- BEITRAGSLISTE --- */
   .post-list { list-style: none; padding: 0; margin: 0; }
 
   .post-item {
-    margin-bottom: 15px; /* Kompakter (vorher 30) */
+    margin-bottom: 15px; 
     padding-bottom: 15px;
-    border-bottom: 1px dotted #eee; /* Dotted ist weniger dominant als solid */
+    border-bottom: 1px dotted #ccc; /* Etwas deutlicher als vorher */
   }
   
   .post-item:last-child { border-bottom: none; }
 
   .post-meta {
     font-size: 0.8em;
-    color: #999;
+    color: #777; /* Dunkleres Grau für bessere Lesbarkeit */
     margin-right: 8px;
-    display: inline-block; /* Datum in einer Zeile mit Titel? Oder darüber. Hier: darüber aber klein. */
+    display: inline-block;
+    min-width: 80px; /* Damit die Titel bündig anfangen, wenn möglich */
   }
 
   .post-title {
-    display: inline-block; /* Damit es nicht zu wuchtig wirkt */
-    font-size: 1.15em;     /* Etwas kleiner */
-    color: #333;
+    display: inline-block; 
+    font-size: 1.15em;     
+    color: #2a5d8f !important; /* EINHEITLICH BLAU (Zwingend) */
     font-weight: bold;
     text-decoration: none;
     margin-bottom: 2px;
   }
-  .post-title:hover { text-decoration: underline; color: #2a5d8f; }
+  /* Auch bereits besuchte Links bleiben blau */
+  .post-title:visited { color: #2a5d8f !important; }
+  
+  .post-title:hover { text-decoration: underline; color: #1a3d5c !important; }
   
   .post-excerpt { 
-    color: #666; 
+    color: #444; /* Etwas dunkler für besseren Kontrast */
     line-height: 1.4; 
-    font-size: 0.9em; 
+    font-size: 0.95em; 
     margin-top: 3px;
+    display: block; /* Sicherstellen, dass es unter dem Titel steht */
   }
 
-  /* "Nach oben" Link dezenter */
   .top-link {
     font-size: 0.75em;
-    color: #bbb;
+    color: #999;
     text-decoration: none;
   }
-  .top-link:hover { color: #2a5d8f; }
+  .top-link:hover { color: #333; }
 
 </style>
 
@@ -170,7 +172,7 @@ permalink: /werkstatt/
         {% endfor %}
       </ul>
       
-      <div style="text-align: right; margin-top: 10px;">
+      <div style="text-align: right; margin-top: 5px;">
         <a href="#top" class="top-link">▲ nach oben</a>
       </div>
     </div>
