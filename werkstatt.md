@@ -17,52 +17,94 @@ permalink: /werkstatt/
     line-height: 1.6; 
   }
 
-  /* Intro (Konsistent mit Quellen-Seite) */
+  /* Intro-Bereich */
   .intro-text {
     max-width: 800px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: #555;
     font-size: 1.05em;
     border-left: 3px solid #2a5d8f;
     padding-left: 15px;
   }
 
-  /* Disclaimer-Box */
-  .update-note {
-    background: #f8f9fa;
-    color: #666;
-    font-size: 0.95em;
-    padding: 15px;
-    border-radius: 4px;
-    margin-bottom: 50px;
+  /* --- TOC / INHALTSVERZEICHNIS BOX --- */
+  .toc-box {
+    background-color: #f8f9fa;
     border: 1px solid #e9ecef;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+  }
+  
+  .toc-title {
+    font-size: 0.85em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2a5d8f;
+    margin-bottom: 10px;
+    display: block;
+    letter-spacing: 1px;
   }
 
-  /* Blog-Liste */
-  .post-list { list-style: none; padding: 0; }
+  .toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    column-count: 1; /* Einspaltig auf Mobile */
+  }
   
-  .post-item {
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+  /* Auf Desktop zweispaltig für Kompaktheit */
+  @media (min-width: 768px) {
+    .toc-list { column-count: 2; column-gap: 40px; }
+  }
+
+  .toc-item {
+    margin-bottom: 6px;
+    font-size: 0.95em;
+    break-inside: avoid; /* Verhindert Umbruch innerhalb eines Titels */
+  }
+
+  .toc-item a {
+    text-decoration: none;
+    color: #444;
     border-bottom: 1px solid #eee;
   }
+  .toc-item a:hover { color: #2a5d8f; border-color: #2a5d8f; }
+
+
+  /* --- BEITRAGSLISTE MIT JAHRESTRENNER --- */
+  .post-list { list-style: none; padding: 0; }
   
-  .post-date { 
-    color: #888; 
-    font-size: 0.85em; 
-    text-transform: uppercase; 
-    letter-spacing: 1px;
-    display: block;
-    margin-bottom: 5px;
+  .year-header {
+    font-size: 1.8em;
+    color: #ccc;
+    border-bottom: 1px solid #eee;
+    margin: 60px 0 30px 0;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .post-item {
+    margin-bottom: 40px;
+    padding-left: 20px;
+    border-left: 2px solid #eee;
   }
   
+  .post-item:hover {
+    border-left-color: #2a5d8f;
+  }
+  
+  .post-meta-row {
+    font-size: 0.85em;
+    color: #888;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+
   .post-title {
     display: block;
-    font-size: 1.4em;
-    color: #2a5d8f; /* Pilz-Blau */
+    font-size: 1.3em;
+    color: #2a5d8f;
     font-weight: bold;
     text-decoration: none;
     margin: 0 0 10px 0;
@@ -73,20 +115,52 @@ permalink: /werkstatt/
 </style>
 
 <div class="intro-text">
-  Laufende Analysen, Hintergrundberichte und neue Erkenntnisse aus der digitalen Werkstatt zur Pilz-Chronik. Hier wird der Forschungsstand nach Drucklegung dokumentiert.
+  Laufende Analysen, Hintergrundberichte und neue Erkenntnisse aus der digitalen Werkstatt. 
+  Hier wird der Forschungsstand nach der Drucklegung dokumentiert.
 </div>
 
-<div class="update-note">
-  <span>ℹ️</span> 
-  <em>Neue Beiträge erscheinen unregelmäßig und abhängig vom Fortgang der Forschung.</em>
+<div class="toc-box">
+  <span class="toc-title">Themenverzeichnis</span>
+  <ul class="toc-list">
+    {% for post in site.posts %}
+      <li class="toc-item">
+        <a href="#post-{{ post.id | slugify }}">
+          {{ post.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
 
-<ul class="post-list">
+<div class="post-list-container">
+  
+  {% assign current_year = "" %}
+  
   {% for post in site.posts %}
-    <li class="post-item">
-      <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+    {% assign post_year = post.date | date: "%Y" %}
+    
+    {% if post_year != current_year %}
+      <h2 class="year-header">{{ post_year }}</h2>
+      {% assign current_year = post_year %}
+    {% endif %}
+    
+    <div class="post-item" id="post-{{ post.id | slugify }}">
+      <div class="post-meta-row">
+        {{ post.date | date: "%d.%m." }} • 
+        {% if post.categories.size > 0 %}
+          {{ post.categories | join: ", " }}
+        {% else %}
+          Notiz
+        {% endif %}
+      </div>
+      
       <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <div class="post-excerpt">{{ post.excerpt }}</div>
-    </li>
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 40 }}
+        <br>
+        <a href="{{ post.url | relative_url }}" style="font-size: 0.9em; font-weight: bold; color: #2a5d8f; text-decoration: none;">[Weiterlesen]</a>
+      </div>
+    </div>
+
   {% endfor %}
-</ul>
+</div>
