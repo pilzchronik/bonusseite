@@ -47,12 +47,14 @@ permalink: /stammbaum/
     border: 1px solid #eee;
     background: white;
     border-radius: 4px;
+    position: relative; /* WICHTIG: Bezugspunkt für den Klick-Bereich */
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
   }
   
   .dossier-item:hover { 
-    transform: none;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     border-color: #2a5d8f;
+    cursor: pointer;
   }
   
   .dossier-item h3 { 
@@ -75,7 +77,19 @@ permalink: /stammbaum/
     font-weight: bold;
     display: inline-block; 
   }
+  
   .dossier-item a:hover { text-decoration: underline; }
+
+  /* TRICK: Dehnt den Link auf die gesamte Kachel aus */
+  .dossier-item a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
 
   /* Legacy Box (Hinweis) */
   .legacy-box {
