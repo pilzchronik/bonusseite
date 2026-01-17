@@ -5,7 +5,6 @@ description: >-
 baseurl: "/bonusseite"
 url: ""
 
-# Build settings
 theme: minima
 
 plugins:
@@ -13,7 +12,6 @@ plugins:
   - jekyll-seo-tag
 
 # Navigation
-# WICHTIG: header_pages muss ganz links stehen (keine Leerzeichen davor!)
 header_pages:
   - index.md
   - stammbaum.md
@@ -21,7 +19,17 @@ header_pages:
   - orte.md
   - zeitleiste.md
   - quellen.md
-  collections:
-  register:
-    output: true
-    permalink: /register/:name/
+
+# WICHTIG:
+# Damit Jekyll den Ordner "register/_gen" (beginnt mit _) trotzdem verarbeitet,
+# müssen wir ihn explizit inkludieren.
+include:
+  - register/_gen
+
+# Standardwerte für die automatisch erzeugten Registerseiten
+defaults:
+  - scope:
+      path: "register/_gen"
+    values:
+      sitemap: false
+      robots: noindex
