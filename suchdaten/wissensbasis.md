@@ -2,6 +2,7 @@
 layout: null
 sitemap: false
 robots: noindex
+render_with_liquid: false
 ---
 
 # SYSTEM-INSTRUKTIONEN & KONTEXT
