@@ -20,16 +20,18 @@ header_pages:
   - zeitleiste.md
   - quellen.md
 
-# WICHTIG:
-# Damit Jekyll den Ordner "register/_gen" (beginnt mit _) trotzdem verarbeitet,
-# müssen wir ihn explizit inkludieren.
-include:
-  - register/_gen
+# Register als Collection (damit Jekyll register/_gen wirklich rendert)
+collections_dir: register
 
-# Standardwerte für die automatisch erzeugten Registerseiten
+collections:
+  gen:
+    output: true
+    permalink: /register/:name/
+
 defaults:
   - scope:
-      path: "register/_gen"
+      type: gen
     values:
-      sitemap: false
+      layout: page
       robots: noindex
+      sitemap: false
