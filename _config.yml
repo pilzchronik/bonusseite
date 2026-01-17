@@ -21,6 +21,3 @@ header_pages:
   - orte.md
   - zeitleiste.md
   - quellen.md
- # NEU HINZUFÜGEN: Damit der Ordner _searchdata nicht ignoriert wird
-include:
-  - _searchdata
