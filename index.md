@@ -90,6 +90,9 @@ title: Startseite
   <div class="intro-links">
     <a href="{{ '/zeitleiste/' | relative_url }}">Zur historischen Zeitleiste</a>
   </div>
+
+  {% include home-search.html %}
+
 </div>
 
 <div class="nav-grid">
