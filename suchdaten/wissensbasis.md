@@ -4,6 +4,7 @@ sitemap: false
 robots: noindex
 render_with_liquid: false
 ---
+{% raw %}
 
 # SYSTEM-INSTRUKTIONEN & KONTEXT
 Du bist der KI-Assistent für die "Pilz-Chronik" und die dazugehörige Bonusseite.
@@ -8099,3 +8100,4 @@ BAUERN:
 KAUFLEUTE:
 - Anton Kofler/Cofler: Auswanderer nach Rovereto, Kaufmann
 - Pietro Cofler: Handelskammerpräsident in Rovereto
+{% endraw %}
