@@ -122,3 +122,9 @@ title: Startseite
   </a>
 
 </div>
+
+<div style="opacity:0; position:absolute; pointer-events:none; height:1px; overflow:hidden;" data-pagefind-body>
+  <p>Wichtige Orte: Kartitsch (Osttirol), St. Oswald (Kartitsch), Petererhof, Kainisch.</p>
+  <p>Familiennamen: Pilz (auch Piltz, Pültz, Pueltz), Kofler (auch Cofler), Reider, Eberstaller, Bechinie.</p>
+  <p>Themen: DNA (Y-DNA, mtDNA), Haplogruppen J2b, H41a9, Band 1, Band 2.</p>
+</div>
