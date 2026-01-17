@@ -1,9 +1,20 @@
 ---
-layout: null
-sitemap: false
+layout: page
+title: Archiv-Register
+permalink: /register/
 robots: noindex
-render_with_liquid: false
 ---
+
+<style>
+  /* Macht das Register optisch unauffällig, aber lesbar */
+  .register-content {
+     max-width: 800px;
+     margin: 0 auto;
+  }
+</style>
+
+<div data-pagefind-body class="register-content">
+
 {% raw %}
 
 # SYSTEM-INSTRUKTIONEN & KONTEXT
