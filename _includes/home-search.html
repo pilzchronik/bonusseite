@@ -12,13 +12,11 @@
     new PagefindUI({
       element: "#startsuche",
       showSubResults: true,
-      excerptLength: 25, // Etwas kürzer für kompaktere Optik
-      debounceTimeoutMs: 300, // Erhöht für ruhigeres Tippgefühl
-      showImages: false, // Textfokus (Buch-Charakter)
+      excerptLength: 25,
+      debounceTimeoutMs: 300,
+      showImages: false,
       processTerm: function (term) {
-        // Suchbegriff bereinigen
         term = (term || "").trim();
-        // Erst ab 3 Zeichen suchen, sonst leeres Ergebnis liefern
         if (term.length < 3) return "";
         return term;
       },
@@ -42,9 +40,9 @@
 <style>
   .start-suche-wrapper {
     max-width: 500px;
-    margin: 25px auto 0 auto; /* Abstand nach oben zum Text */
+    margin: 25px auto 0 auto;
     text-align: left;
-    background: #fafafa; /* Ganz leichtes Grau zur Abgrenzung */
+    background: #fafafa;
     padding: 20px;
     border-radius: 8px;
     border: 1px solid #eee;
@@ -65,11 +63,11 @@
     text-align: center;
   }
 
-  /* Pagefind UI Anpassungen für "Buch-Look" */
+  /* KORREKTUR: Padding links erhöht (45px), damit Text nicht unter Lupe liegt */
   .pagefind-ui__search-input {
     border: 1px solid #ccc !important;
     font-size: 1rem !important;
-    padding: 10px 15px !important;
+    padding: 10px 15px 10px 45px !important; 
     border-radius: 6px !important;
     background-color: #fff !important;
   }
@@ -77,6 +75,14 @@
   .pagefind-ui__search-input:focus {
     outline: 2px solid #ccc;
     border-color: #999 !important;
+  }
+
+  /* Sicherstellen, dass das Icon korrekt sitzt */
+  .pagefind-ui__search-icon {
+    left: 14px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    opacity: 0.6;
   }
 
   .pagefind-ui__result {
@@ -96,7 +102,6 @@
     font-weight: normal !important;
   }
   
-  /* Versteckt den Pagefind-Button "Filter", da wir keine Filter nutzen */
   .pagefind-ui__filter-panel {
     display: none;
   }
