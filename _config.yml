@@ -21,3 +21,7 @@ header_pages:
   - orte.md
   - zeitleiste.md
   - quellen.md
+  collections:
+  register:
+    output: true
+    permalink: /register/:name/
