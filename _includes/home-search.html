@@ -8,12 +8,13 @@
 <script src="{{ '/pagefind/pagefind-ui.js' | relative_url }}"></script>
 
 <script>
-  window.addEventListener('load', function () {
+  // Änderung: DOMContentLoaded startet schneller als window.load
+  window.addEventListener('DOMContentLoaded', function () {
     new PagefindUI({
       element: "#startsuche",
       showSubResults: true,
       excerptLength: 25,
-      debounceTimeoutMs: 300,
+      debounceTimeoutMs: 100, // Änderung: Reduziert für schnellere Reaktion
       showImages: false,
       processTerm: function (term) {
         term = (term || "").trim();
@@ -63,7 +64,7 @@
     text-align: center;
   }
 
-  /* KORREKTUR: Padding links erhöht (45px), damit Text nicht unter Lupe liegt */
+  /* Padding links 45px, damit Text nicht unter Lupe liegt */
   .pagefind-ui__search-input {
     border: 1px solid #ccc !important;
     font-size: 1rem !important;
@@ -77,7 +78,7 @@
     border-color: #999 !important;
   }
 
-  /* Sicherstellen, dass das Icon korrekt sitzt */
+  /* Icon Positionierung */
   .pagefind-ui__search-icon {
     left: 14px !important;
     top: 50% !important;
