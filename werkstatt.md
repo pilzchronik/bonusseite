@@ -8,17 +8,14 @@ permalink: /werkstatt/
 <h1 style="color: #111; margin-bottom: 15px;">Werkstatt &amp; Analysen</h1>
 
 <style>
-  /* --- FIX: Automatische Überschrift ausblenden --- */
   .post-header { display: none !important; }
-
-  /* --- TYPOGRAFIE & BASIS --- */
+  
   .page-content { 
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
     color: #333; 
     line-height: 1.5; 
   }
 
-  /* Intro-Bereich: Kompakt */
   .intro-text {
     max-width: 800px;
     margin-bottom: 25px;
@@ -26,13 +23,11 @@ permalink: /werkstatt/
     font-size: 1em;
   }
 
-  /* --- THEMEN-REGISTER (TOC) --- */
   .topic-cloud {
     background-color: #f9f9f9; 
     padding: 15px;
     margin-bottom: 30px;
     border-radius: 4px;
-    text-align: left;
   }
 
   .topic-label {
@@ -60,7 +55,6 @@ permalink: /werkstatt/
     background: #2a5d8f;
     color: white;
     border-color: #2a5d8f;
-    text-decoration: none;
   }
 
   .topic-count {
@@ -68,9 +62,7 @@ permalink: /werkstatt/
     font-size: 0.8em;
     margin-left: 4px;
   }
-  .topic-btn:hover .topic-count { color: #ddd; }
 
-  /* --- KATEGORIE-SEKTIONEN --- */
   .category-section { margin-bottom: 40px; }
 
   .cat-header {
@@ -80,10 +72,8 @@ permalink: /werkstatt/
     font-weight: bold;
     padding-bottom: 5px;
     border-bottom: 1px solid #eaeaea;
-    padding-left: 0;
   }
 
-  /* --- BEITRAGSLISTE --- */
   .post-list { list-style: none; padding: 0; margin: 0; }
 
   .post-item {
@@ -107,10 +97,8 @@ permalink: /werkstatt/
     color: #2a5d8f !important;
     font-weight: bold;
     text-decoration: none;
-    margin-bottom: 2px;
   }
-  .post-title:visited { color: #2a5d8f !important; }
-  .post-title:hover { text-decoration: underline; color: #1a3d5c !important; }
+  .post-title:hover { text-decoration: underline; }
 
   .post-excerpt { 
     color: #444;
@@ -133,45 +121,39 @@ permalink: /werkstatt/
   Beiträge mit mehreren Schwerpunkten erscheinen in den entsprechenden Kategorien mehrfach.
 </div>
 
-{% assign sorted_categories = site.categories | sort %}
-
+<!-- VEREINFACHTE THEMENWOLKE -->
 <div class="topic-cloud">
   <span class="topic-label">Themen:</span>
-  {% for category in sorted_categories %}
-    <a href="#cat-{{ category[0] | slugify }}" class="topic-btn">
-      {{ category[0] | capitalize }}<span class="topic-count">{{ category[1].size }}</span>
+  {% assign all_cats = site.categories | sort %}
+  {% for cat in all_cats %}
+    <a href="#cat-{{ cat[0] | slugify }}" class="topic-btn">
+      {{ cat[0] }}<span class="topic-count">({{ cat[1].size }})</span>
     </a>
   {% endfor %}
 </div>
 
-<div class="content-area">
-  {% for category in sorted_categories %}
-    {% assign cat_name = category[0] %}
-    {% assign cat_posts = category[1] %}
-
-    <div class="category-section" id="cat-{{ cat_name | slugify }}">
-      <h2 class="cat-header">{{ cat_name | capitalize }}</h2>
-
-      <ul class="post-list">
-        {% for post in cat_posts %}
-          <li class="post-item">
-            <div style="margin-bottom: 2px;">
-              <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
-              <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </div>
-
-            {% if post.excerpt %}
-            <div class="post-excerpt">
-              {{ post.excerpt | strip_html | truncatewords: 30 }}
-            </div>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-
-      <div style="text-align: right; margin-top: 5px;">
-        <a href="#top" class="top-link">▲ nach oben</a>
-      </div>
-    </div>
-  {% endfor %}
+<!-- KATEGORIE-SEKTIONEN -->
+{% for cat in all_cats %}
+<div class="category-section" id="cat-{{ cat[0] | slugify }}">
+  <h2 class="cat-header">{{ cat[0] }}</h2>
+  
+  <ul class="post-list">
+    {% for post in cat[1] %}
+      <li class="post-item">
+        <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
+        <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        
+        {% if post.excerpt %}
+        <span class="post-excerpt">
+          {{ post.excerpt | strip_html | truncatewords: 30 }}
+        </span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <div style="text-align: right; margin-top: 5px;">
+    <a href="#top" class="top-link">▲ nach oben</a>
+  </div>
 </div>
+{% endfor %}
