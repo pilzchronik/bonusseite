@@ -1,21 +1,8 @@
 ---
-layout: page
-title: Archiv-Register
-permalink: /register/
+layout: null
+sitemap: false
 robots: noindex
 ---
-
-<style>
-  /* Macht das Register optisch unauffällig, aber lesbar */
-  .register-content {
-     max-width: 800px;
-     margin: 0 auto;
-  }
-</style>
-
-<div data-pagefind-body class="register-content">
-
-{% raw %}
 
 # SYSTEM-INSTRUKTIONEN & KONTEXT
 Du bist der KI-Assistent für die "Pilz-Chronik" und die dazugehörige Bonusseite.
@@ -6610,7 +6597,7 @@ Diese Karte visualisiert die Wanderungsbewegungen der Familie über die Jahrhund
 ## Archiv & Fundstücke
 
 Hintergrundberichte und Dokumente aus der digitalen Werkstatt.
-      {{ post.date | ">
+  
   ← Zurück zur Startseite (/bonusseite/)
 
 ---
@@ -6620,7 +6607,7 @@ Hintergrundberichte und Dokumente aus der digitalen Werkstatt.
 Werkstatt & Analysen
   Forschungsberichte sortiert nach Themengebieten. 
   Beiträge mit mehreren Schwerpunkten erscheinen in den entsprechenden Kategorien mehrfach.
-               {{ post.date | ">
+            
         ▲ nach oben (#top)
 
 ---
@@ -8111,4 +8098,3 @@ BAUERN:
 KAUFLEUTE:
 - Anton Kofler/Cofler: Auswanderer nach Rovereto, Kaufmann
 - Pietro Cofler: Handelskammerpräsident in Rovereto
-{% endraw %}

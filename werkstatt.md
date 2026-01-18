@@ -4,30 +4,179 @@ title: Aktuelles & Themen
 permalink: /werkstatt/
 ---
 
-<h1>TEST: Werkstatt & Analysen</h1>
+<h1 style="color: #111; margin-bottom: 15px;">Werkstatt & Analysen</h1>
 
-<p>Wenn du das siehst, funktioniert die Seite grundsätzlich.</p>
+<style>
+  /* --- FIX: Automatische Überschrift ausblenden --- */
+  .post-header { display: none !important; }
 
-<hr>
+  /* --- TYPOGRAFIE & BASIS --- */
+  .page-content { 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
+    color: #333; 
+    line-height: 1.5; 
+  }
 
-<h2>TEST 1: Gibt es Posts?</h2>
-<p>Anzahl Posts: {{ site.posts.size }}</p>
+  /* Intro-Bereich: Kompakt */
+  .intro-text {
+    max-width: 800px;
+    margin-bottom: 25px;
+    color: #666;
+    font-size: 1em;
+  }
 
-<hr>
+  /* --- THEMEN-REGISTER (TOC) --- */
+  .topic-cloud {
+    background-color: #f9f9f9; 
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    text-align: left;
+  }
 
-<h2>TEST 2: Gibt es Kategorien?</h2>
-<p>Anzahl Kategorien: {{ site.categories.size }}</p>
+  .topic-label {
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #333; /* Schwarz */
+    margin-right: 10px;
+  }
 
-{% assign test_cats = site.categories | sort %}
-{% for cat in test_cats %}
-  <p>Kategorie: <strong>{{ cat[0] }}</strong> ({{ cat[1].size }} Beiträge)</p>
-{% endfor %}
+  .topic-btn {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ccc; 
+    color: #2a5d8f; /* Blau */
+    padding: 3px 10px; 
+    margin: 2px;
+    border-radius: 3px; 
+    text-decoration: none;
+    font-size: 0.85em;
+    transition: all 0.2s ease;
+  }
+  
+  .topic-btn:hover {
+    background: #2a5d8f;
+    color: white;
+    border-color: #2a5d8f;
+    text-decoration: none;
+  }
+  
+  .topic-count {
+    color: #888;
+    font-size: 0.8em;
+    margin-left: 4px;
+  }
+  .topic-btn:hover .topic-count { color: #ddd; }
 
-<hr>
+  /* --- KATEGORIE-SEKTIONEN --- */
+  .category-section {
+    margin-bottom: 40px; 
+  }
 
-<h2>TEST 3: Alle Posts auflisten</h2>
-<ul>
-{% for post in site.posts limit:5 %}
-  <li>{{ post.date | date: "%d.%m.%Y" }} - {{ post.title }}</li>
-{% endfor %}
-</ul>
+  .cat-header {
+    font-size: 1.4em;
+    color: #111; /* SCHWARZ (wie gewünscht) */
+    margin-bottom: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #eaeaea; 
+    padding-left: 0;
+  }
+
+  /* --- BEITRAGSLISTE --- */
+  .post-list { list-style: none; padding: 0; margin: 0; }
+
+  .post-item {
+    margin-bottom: 15px; 
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #ccc; /* Etwas deutlicher als vorher */
+  }
+  
+  .post-item:last-child { border-bottom: none; }
+
+  .post-meta {
+    font-size: 0.8em;
+    color: #777; /* Dunkleres Grau für bessere Lesbarkeit */
+    margin-right: 8px;
+    display: inline-block;
+    min-width: 80px; /* Damit die Titel bündig anfangen, wenn möglich */
+  }
+
+  .post-title {
+    display: inline-block; 
+    font-size: 1.15em;     
+    color: #2a5d8f !important; /* EINHEITLICH BLAU (Zwingend) */
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 2px;
+  }
+  /* Auch bereits besuchte Links bleiben blau */
+  .post-title:visited { color: #2a5d8f !important; }
+  
+  .post-title:hover { text-decoration: underline; color: #1a3d5c !important; }
+  
+  .post-excerpt { 
+    color: #444; /* Etwas dunkler für besseren Kontrast */
+    line-height: 1.4; 
+    font-size: 0.95em; 
+    margin-top: 3px;
+    display: block; /* Sicherstellen, dass es unter dem Titel steht */
+  }
+
+  .top-link {
+    font-size: 0.75em;
+    color: #999;
+    text-decoration: none;
+  }
+  .top-link:hover { color: #333; }
+
+</style>
+
+<div class="intro-text">
+  Forschungsberichte sortiert nach Themengebieten. 
+  Beiträge mit mehreren Schwerpunkten erscheinen in den entsprechenden Kategorien mehrfach.
+</div>
+
+<div class="topic-cloud">
+  <span class="topic-label">Themen:</span>
+  {% assign sorted_categories = site.categories | sort %}
+  {% for category in sorted_categories %}
+    <a href="#cat-{{ category[0] | slugify }}" class="topic-btn">
+      {{ category[0] | capitalize }}<span class="topic-count">{{ category[1].size }}</span>
+    </a>
+  {% endfor %}
+</div>
+
+<div class="content-area">
+  
+  {% for category in sorted_categories %}
+    {% assign cat_name = category[0] %}
+    {% assign cat_posts = category[1] %}
+    
+    <div class="category-section" id="cat-{{ cat_name | slugify }}">
+      <h2 class="cat-header">{{ cat_name | capitalize }}</h2>
+      
+      <ul class="post-list">
+        {% for post in cat_posts %}
+          <li class="post-item">
+            <div style="margin-bottom: 2px;">
+               <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
+               <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </div>
+            
+            <div class="post-excerpt">
+              {{ post.excerpt | strip_html | truncatewords: 30 }}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+      
+      <div style="text-align: right; margin-top: 5px;">
+        <a href="#top" class="top-link">▲ nach oben</a>
+      </div>
+    </div>
+    
+  {% endfor %}
+
+</div>
