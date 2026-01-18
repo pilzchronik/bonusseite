@@ -4,23 +4,13 @@ title: Aktuelles & Themen
 permalink: /werkstatt/
 ---
 
-<div id="top"></div>
-<h1 style="color: #111; margin-bottom: 15px;">Werkstatt &amp; Analysen</h1>
-
 <style>
   .post-header { display: none !important; }
   
-  .page-content { 
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
-    color: #333; 
-    line-height: 1.5; 
-  }
-
   .intro-text {
     max-width: 800px;
     margin-bottom: 25px;
     color: #666;
-    font-size: 1em;
   }
 
   .topic-cloud {
@@ -30,115 +20,93 @@ permalink: /werkstatt/
     border-radius: 4px;
   }
 
-  .topic-label {
-    display: inline-block;
-    font-size: 0.85em;
-    font-weight: bold;
-    color: #333;
-    margin-right: 10px;
-  }
-
   .topic-btn {
     display: inline-block;
     background: #fff;
     border: 1px solid #ccc; 
     color: #2a5d8f;
-    padding: 3px 10px; 
-    margin: 2px;
+    padding: 5px 12px; 
+    margin: 4px;
     border-radius: 3px; 
     text-decoration: none;
-    font-size: 0.85em;
-    transition: all 0.2s ease;
+    font-size: 0.9em;
   }
 
   .topic-btn:hover {
     background: #2a5d8f;
     color: white;
-    border-color: #2a5d8f;
   }
 
-  .topic-count {
-    color: #888;
-    font-size: 0.8em;
-    margin-left: 4px;
+  .category-section { 
+    margin-bottom: 40px; 
   }
-
-  .category-section { margin-bottom: 40px; }
 
   .cat-header {
-    font-size: 1.4em;
+    font-size: 1.5em;
     color: #111;
     margin-bottom: 15px;
-    font-weight: bold;
     padding-bottom: 5px;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 2px solid #2a5d8f;
   }
 
-  .post-list { list-style: none; padding: 0; margin: 0; }
+  .post-list { 
+    list-style: none; 
+    padding: 0; 
+  }
 
   .post-item {
-    margin-bottom: 15px; 
+    margin-bottom: 20px; 
     padding-bottom: 15px;
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px solid #eee;
   }
-  .post-item:last-child { border-bottom: none; }
 
   .post-meta {
-    font-size: 0.8em;
     color: #777;
-    margin-right: 8px;
-    display: inline-block;
-    min-width: 80px;
+    margin-right: 10px;
+    font-size: 0.9em;
   }
 
   .post-title {
-    display: inline-block; 
-    font-size: 1.15em;     
-    color: #2a5d8f !important;
+    color: #2a5d8f;
     font-weight: bold;
     text-decoration: none;
+    font-size: 1.1em;
   }
-  .post-title:hover { text-decoration: underline; }
+  
+  .post-title:hover { 
+    text-decoration: underline; 
+  }
 
   .post-excerpt { 
-    color: #444;
-    line-height: 1.4; 
-    font-size: 0.95em; 
-    margin-top: 3px;
+    color: #555;
+    margin-top: 8px;
     display: block;
   }
-
-  .top-link {
-    font-size: 0.75em;
-    color: #999;
-    text-decoration: none;
-  }
-  .top-link:hover { color: #333; }
 </style>
+
+<h1 style="color: #111; margin-bottom: 15px;">Werkstatt &amp; Analysen</h1>
 
 <div class="intro-text">
   Forschungsberichte sortiert nach Themengebieten. 
   Beiträge mit mehreren Schwerpunkten erscheinen in den entsprechenden Kategorien mehrfach.
 </div>
 
-<!-- VEREINFACHTE THEMENWOLKE -->
 <div class="topic-cloud">
-  <span class="topic-label">Themen:</span>
-  {% assign all_cats = site.categories | sort %}
-  {% for cat in all_cats %}
-    <a href="#cat-{{ cat[0] | slugify }}" class="topic-btn">
-      {{ cat[0] }}<span class="topic-count">({{ cat[1].size }})</span>
+  <strong>Themen:</strong>
+  {% assign alle_kategorien = site.categories | sort %}
+  {% for kat in alle_kategorien %}
+    <a href="#{{ kat[0] | slugify }}" class="topic-btn">
+      {{ kat[0] }} ({{ kat[1].size }})
     </a>
   {% endfor %}
 </div>
 
-<!-- KATEGORIE-SEKTIONEN -->
-{% for cat in all_cats %}
-<div class="category-section" id="cat-{{ cat[0] | slugify }}">
-  <h2 class="cat-header">{{ cat[0] }}</h2>
+{% for kat in alle_kategorien %}
+<div class="category-section" id="{{ kat[0] | slugify }}">
+  <h2 class="cat-header">{{ kat[0] }}</h2>
   
   <ul class="post-list">
-    {% for post in cat[1] %}
+    {% for post in kat[1] %}
       <li class="post-item">
         <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
         <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -151,9 +119,5 @@ permalink: /werkstatt/
       </li>
     {% endfor %}
   </ul>
-  
-  <div style="text-align: right; margin-top: 5px;">
-    <a href="#top" class="top-link">▲ nach oben</a>
-  </div>
 </div>
 {% endfor %}
