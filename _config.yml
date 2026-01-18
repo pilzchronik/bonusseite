@@ -21,7 +21,6 @@ header_pages:
   - quellen.md
 
 # Register als Collection (damit Jekyll register/_gen wirklich rendert)
-collections_dir: register
 
 collections:
   gen:
