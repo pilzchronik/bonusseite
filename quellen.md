@@ -16,10 +16,11 @@ permalink: /quellen/
   li { margin-bottom: 6px; }
 </style>
 
-## Downloads & Langzeitsicherung
 
-- [Gesamtregister Band 1 & 2 (PDF)](/buchindex.pdf)
-- [Langzeitsicherung der Forschungsdaten (Zenodo)](https://doi.org/10.5281/zenodo.15828594)# Quellen & Forschungswerkzeuge zur Pilz-Chronik
+## Inhalt & Index
+- [Inhalt & Index](/bonusseite/inhalt-index/)
+
+## Quellen & Forschungswerkzeuge zur Pilz-Chronik
 
 Digitale Ergänzungen zur gedruckten *Pilz-Chronik*.  
 Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur räumlichen und historischen Einordnung.

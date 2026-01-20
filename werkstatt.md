@@ -7,176 +7,171 @@ permalink: /werkstatt/
 <h1 style="color: #111; margin-bottom: 15px;">Werkstatt & Analysen</h1>
 
 <style>
-  /* --- FIX: Automatische Überschrift ausblenden --- */
   .post-header { display: none !important; }
-
-  /* --- TYPOGRAFIE & BASIS --- */
+  
   .page-content { 
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
     color: #333; 
     line-height: 1.5; 
   }
 
-  /* Intro-Bereich: Kompakt */
   .intro-text {
     max-width: 800px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     color: #666;
     font-size: 1em;
   }
 
-  /* --- THEMEN-REGISTER (TOC) --- */
-  .topic-cloud {
-    background-color: #f9f9f9; 
-    padding: 15px;
+  /* Suchfeld */
+  .search-container {
     margin-bottom: 30px;
+    max-width: 600px;
+  }
+  
+  .search-box {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1em;
+    border: 2px solid #ddd;
     border-radius: 4px;
-    text-align: left;
-  }
-
-  .topic-label {
-    display: inline-block;
-    font-size: 0.85em;
-    font-weight: bold;
-    color: #333; /* Schwarz */
-    margin-right: 10px;
-  }
-
-  .topic-btn {
-    display: inline-block;
-    background: #fff;
-    border: 1px solid #ccc; 
-    color: #2a5d8f; /* Blau */
-    padding: 3px 10px; 
-    margin: 2px;
-    border-radius: 3px; 
-    text-decoration: none;
-    font-size: 0.85em;
-    transition: all 0.2s ease;
+    transition: border-color 0.2s;
   }
   
-  .topic-btn:hover {
-    background: #2a5d8f;
-    color: white;
+  .search-box:focus {
+    outline: none;
     border-color: #2a5d8f;
-    text-decoration: none;
   }
   
-  .topic-count {
+  .search-info {
+    font-size: 0.85em;
     color: #888;
-    font-size: 0.8em;
-    margin-left: 4px;
-  }
-  .topic-btn:hover .topic-count { color: #ddd; }
-
-  /* --- KATEGORIE-SEKTIONEN --- */
-  .category-section {
-    margin-bottom: 40px; 
+    margin-top: 8px;
   }
 
-  .cat-header {
-    font-size: 1.4em;
-    color: #111; /* SCHWARZ (wie gewünscht) */
-    margin-bottom: 15px;
-    font-weight: bold;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #eaeaea; 
-    padding-left: 0;
+  /* Beitragsliste */
+  .post-list { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
   }
-
-  /* --- BEITRAGSLISTE --- */
-  .post-list { list-style: none; padding: 0; margin: 0; }
 
   .post-item {
-    margin-bottom: 15px; 
-    padding-bottom: 15px;
-    border-bottom: 1px dotted #ccc; /* Etwas deutlicher als vorher */
+    margin-bottom: 20px; 
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: opacity 0.2s;
   }
   
-  .post-item:last-child { border-bottom: none; }
+  .post-item.hidden {
+    display: none;
+  }
+  
+  .post-item:last-child { 
+    border-bottom: none; 
+  }
 
   .post-meta {
-    font-size: 0.8em;
-    color: #777; /* Dunkleres Grau für bessere Lesbarkeit */
-    margin-right: 8px;
-    display: inline-block;
-    min-width: 80px; /* Damit die Titel bündig anfangen, wenn möglich */
+    font-size: 0.85em;
+    color: #777;
+    margin-bottom: 5px;
+    display: block;
   }
 
   .post-title {
-    display: inline-block; 
-    font-size: 1.15em;     
-    color: #2a5d8f !important; /* EINHEITLICH BLAU (Zwingend) */
-    font-weight: bold;
+    font-size: 1.2em;     
+    color: #2a5d8f;
+    font-weight: 600;
     text-decoration: none;
-    margin-bottom: 2px;
+    display: block;
+    margin-bottom: 8px;
   }
-  /* Auch bereits besuchte Links bleiben blau */
-  .post-title:visited { color: #2a5d8f !important; }
   
-  .post-title:hover { text-decoration: underline; color: #1a3d5c !important; }
+  .post-title:visited { 
+    color: #2a5d8f; 
+  }
+  
+  .post-title:hover { 
+    text-decoration: underline; 
+    color: #1a3d5c;
+  }
   
   .post-excerpt { 
-    color: #444; /* Etwas dunkler für besseren Kontrast */
-    line-height: 1.4; 
-    font-size: 0.95em; 
-    margin-top: 3px;
-    display: block; /* Sicherstellen, dass es unter dem Titel steht */
+    color: #555;
+    line-height: 1.5; 
+    font-size: 0.95em;
   }
 
-  .top-link {
-    font-size: 0.75em;
+  .no-results {
+    text-align: center;
+    padding: 40px 20px;
     color: #999;
-    text-decoration: none;
+    font-style: italic;
   }
-  .top-link:hover { color: #333; }
-
 </style>
 
 <div class="intro-text">
-  Forschungsberichte sortiert nach Themengebieten. 
-  Beiträge mit mehreren Schwerpunkten erscheinen in den entsprechenden Kategorien mehrfach.
+  Forschungsberichte und Analysen in chronologischer Reihenfolge.
+  Nutzen Sie das Suchfeld, um gezielt nach Themen oder Begriffen zu suchen.
 </div>
 
-<div class="topic-cloud">
-  <span class="topic-label">Themen:</span>
-  {% assign sorted_categories = site.categories | sort %}
-  {% for category in sorted_categories %}
-    <a href="#cat-{{ category[0] | slugify }}" class="topic-btn">
-      {{ category[0] | capitalize }}<span class="topic-count">{{ category[1].size }}</span>
-    </a>
-  {% endfor %}
+<div class="search-container">
+  <input type="text" 
+         id="searchBox" 
+         class="search-box" 
+         placeholder="Suche nach Themen, Namen, Orten..."
+         autocomplete="off">
+  <div class="search-info" id="searchInfo">
+    <span id="resultCount">{{ site.posts | size }}</span> Beiträge
+  </div>
 </div>
 
-<div class="content-area">
-  
-  {% for category in sorted_categories %}
-    {% assign cat_name = category[0] %}
-    {% assign cat_posts = category[1] %}
-    
-    <div class="category-section" id="cat-{{ cat_name | slugify }}">
-      <h2 class="cat-header">{{ cat_name | capitalize }}</h2>
-      
-      <ul class="post-list">
-        {% for post in cat_posts %}
-          <li class="post-item">
-            <div style="margin-bottom: 2px;">
-               <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
-               <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </div>
-            
-            <div class="post-excerpt">
-              {{ post.excerpt | strip_html | truncatewords: 30 }}
-            </div>
-          </li>
-        {% endfor %}
-      </ul>
-      
-      <div style="text-align: right; margin-top: 5px;">
-        <a href="#top" class="top-link">▲ nach oben</a>
+<ul class="post-list" id="postList">
+  {% assign posts_by_date = site.posts | sort: 'date' | reverse %}
+  {% for post in posts_by_date %}
+    <li class="post-item" data-searchable="{{ post.title | downcase }} {{ post.excerpt | strip_html | downcase }}">
+      <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
+      <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 30 }}
       </div>
-    </div>
-    
+    </li>
   {% endfor %}
+</ul>
 
+<div class="no-results" id="noResults" style="display: none;">
+  Keine Beiträge gefunden. Versuchen Sie andere Suchbegriffe.
 </div>
+
+<script>
+  const searchBox = document.getElementById('searchBox');
+  const postList = document.getElementById('postList');
+  const posts = postList.getElementsByClassName('post-item');
+  const resultCount = document.getElementById('resultCount');
+  const noResults = document.getElementById('noResults');
+  const totalPosts = posts.length;
+
+  searchBox.addEventListener('input', function() {
+    const searchTerm = this.value.toLowerCase().trim();
+    let visibleCount = 0;
+
+    for (let post of posts) {
+      const searchableText = post.getAttribute('data-searchable');
+      
+      if (searchTerm === '' || searchableText.includes(searchTerm)) {
+        post.classList.remove('hidden');
+        visibleCount++;
+      } else {
+        post.classList.add('hidden');
+      }
+    }
+
+    // Ergebnis-Anzeige aktualisieren
+    if (searchTerm === '') {
+      resultCount.textContent = totalPosts;
+      noResults.style.display = 'none';
+    } else {
+      resultCount.textContent = visibleCount;
+      noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+    }
+  });
+</script>

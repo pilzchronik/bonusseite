@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/bonusseite/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/bonusseite/" rel="alternate" type="text/html" /><updated>2026-01-19T22:12:41+01:00</updated><id>http://localhost:4000/bonusseite/feed.xml</id><title type="html">Pilz-Chronik Bonusseite</title><subtitle>Digitale Ergänzung und Werkstatt zur gedruckten Pilz-Chronik (Band 1 &amp; 2).</subtitle><entry><title type="html">Zeitleiste</title><link href="http://localhost:4000/bonusseite/forschung/2025/12/29/zeitleiste.html" rel="alternate" type="text/html" title="Zeitleiste" /><published>2025-12-29T00:00:00+01:00</published><updated>2025-12-29T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/forschung/2025/12/29/zeitleiste</id><content type="html" xml:base="http://localhost:4000/bonusseite/forschung/2025/12/29/zeitleiste.html"><![CDATA[<style>
+  /* Design-Philosophie: Richterlicher Stil */
+  /* Schlicht, seriös, weißer Hintergrund, Akzentfarbe Dunkelblau */
+
+  .timeline-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    color: #555;
+    line-height: 1.6;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+
+  .timeline-section-title {
+    color: #333;
+    font-size: 1.4em;
+    margin: 40px 0 20px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-left: 5px solid #2a5d8f;
+    padding-left: 15px;
+  }
+
+  /* Die Linie */
+  .timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left: 30px;
+    border-left: 3px solid #e0e0e0;
+  }
+
+  /* Der einzelne Eintrag */
+  .container {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 30px;
+  }
+
+  /* Der Punkt auf der Linie */
+  .container::before {
+    content: '';
+    position: absolute;
+    left: -39px; /* Exakt auf der Linie positioniert */
+    top: 6px;
+    width: 14px;
+    height: 14px;
+    background: white;
+    border: 3px solid #2a5d8f; /* Pilz-Blau */
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  /* Jahreszahl */
+  .year {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #2a5d8f;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  /* Titel des Ereignisses */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #222;
+  }
+
+  /* Fließtext */
+  p {
+    margin: 0;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  /* Kleines Tag für die Kategorie */
+  .meta-tag {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 2px 8px;
+    background: #f0f4f8;
+    color: #444;
+    font-size: 0.8em;
+    border-radius: 4px;
+    font-style: italic;
+  }
+</style>
+
+<div class="timeline-intro">
+  <h2>Geschichte im Zeitraffer</h2>
+  <p>Eine chronologische Reise durch die Familiengeschichte – von den genetischen Ursprüngen bis zur Gegenwart.</p>
+</div>
+
+<div class="timeline-section-title">Prähistorische Wurzeln (DNA-Analyse)</div>
+
+<div class="timeline">
+
+  <div class="container">
+    <span class="year">ca. 25.000 v. Chr.</span>
+    <h3>Väterliche Linie (J2-M172)</h3>
+    <p>Entstehung im Nahen Osten/Kaukasus. Die Vorfahren waren Jäger und Sammler vor dem Höhepunkt der letzten Eiszeit.</p>
+    <span class="meta-tag">DNA-Analyse</span>
+  </div>
+
+  <div class="container">
+    <span class="year">ca. 20.000 v. Chr.</span>
+    <h3>Mütterliche Linie (H)</h3>
+    <p>Entstehung in Westasien. Diese Linie erreichte Europa vermutlich vor dem Höhepunkt der Eiszeit und ist heute die häufigste in Europa.</p>
+    <span class="meta-tag">DNA-Analyse</span>
+  </div>
+
+  <div class="container">
+    <span class="year">ca. 6.500 v. Chr.</span>
+    <h3>Neolithische Expansion</h3>
+    <p>Frühe Ackerbauern bringen die J2-Linien über den Balkan nach Mitteleuropa.</p>
+    <span class="meta-tag">DNA-Analyse</span>
+  </div>
+
+  <div class="container">
+    <span class="year">Mittelalter</span>
+    <h3>Entstehung H41a9</h3>
+    <p>Der spezifische mütterliche Zweig H41a9 bildet sich im Alpen-Balkan-Raum heraus.</p>
+    <span class="meta-tag">DNA-Analyse</span>
+  </div>
+
+</div>
+
+<div class="timeline-section-title">Historische Zeitleiste</div>
+
+<div class="timeline">
+
+  <div class="container">
+    <span class="year">ca. 1290</span>
+    <h3>Lienhard Tschurtschenthaler</h3>
+    <p>Frühester dokumentierter Vorfahre; bäuerliche Familie in Sexten (Südtirol). Ein erster fester Ankerpunkt in den Quellen.</p>
+    <span class="meta-tag">Spitzenahn</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1335</span>
+    <h3>Erste Erwähnung von Preßnitz</h3>
+    <p>Der Ort im böhmischen Erzgebirge wird erstmals urkundlich genannt. Er wird später ein zentraler Schauplatz der Familiengeschichte.</p>
+    <span class="meta-tag">Erzgebirge</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1539–1619</span>
+    <h3>Jobst Pültz, Richter in Dörnthal</h3>
+    <p>Frühester namentlich belegter Pilz in Dörnthal (Sachsen). Die Zuordnung zur direkten Stammreihe ist sehr wahrscheinlich, aber nicht lückenlos beweisbar.</p>
+    <span class="meta-tag">Forschung</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1562</span>
+    <h3>Michael Pültz in Dörnthal</h3>
+    <p>Erste urkundliche Nennung im Gerichtsbuch: Michael Pültz besiegelt als Schöppe einen Grundstücksverkauf an Caspar von Schönberg. Der belegte Beginn der Familiengeschichte im Erzgebirge.</p>
+    <span class="meta-tag">Ursprung</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1591</span>
+    <h3>Geburt von Abraham Piltz</h3>
+    <p>Stammvater in Dörnthal. Ab hier lassen sich die Primärquellen der direkten Linie lückenlos nachweisen.</p>
+    <span class="meta-tag">Stammreihe</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1618–1648</span>
+    <h3>Dreißigjähriger Krieg</h3>
+    <p>Verwüstung in Sachsen und Böhmen. Rahmenbedingung für erste Migrationen. Erwähnung eines Niclas Reichl in Kallich.</p>
+    <span class="meta-tag">Zeitgeschichte</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1621</span>
+    <h3>Blutgericht am Altstädter Ring</h3>
+    <p>Hinrichtung von 27 böhmischen Anführern in Prag. Ein dramatischer Wendepunkt für den protestantischen Adel, der den historischen Hintergrund für das "Bechinie-Rätsel" bildet.</p>
+    <span class="meta-tag">Kontext</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1672</span>
+    <h3>Tod von Wolf Eberstaller</h3>
+    <p>Das „Verlassenschaftsprotokoll“ am Reichhof (Krenglbach) gibt seltene Einblicke in Besitz und Erbfolge jener Zeit.</p>
+    <span class="meta-tag">Eberstaller-Linie</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1756–1763</span>
+    <h3>Siebenjähriger Krieg / Migration</h3>
+    <p>Wahrscheinlicher Auslöser der Migration der Familie Pilz von Sachsen ins böhmische Erzgebirge.</p>
+    <span class="meta-tag">Migration</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1761</span>
+    <h3>Geburt Friedrich August Pilz</h3>
+    <p>In Rothenthal (Sachsen). Er wird später Lehrer in Kallich und festigt die Familie in Böhmen.</p>
+    <span class="meta-tag">Stammvater Böhmen</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1768</span>
+    <h3>Die Radetzky-Verbindung</h3>
+    <p>Taufe der Theresia (Apollonia Jablotzki). Ihr Taufpate ist Graf Peter Eusebius Radetzky – Beginn der sogenannten „Radetzky-Klammer“.</p>
+    <span class="meta-tag">Adelsforschung</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1811</span>
+    <h3>Geburt Vinzenz Wenzel Pilz</h3>
+    <p>Vater der unehelichen Söhne Vinzenz &amp; Alois Vjekoslav. Begründer der Förstertradition in der Familie.</p>
+    <span class="meta-tag">Förster</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1834</span>
+    <h3>Alois Vjekoslav Pilz</h3>
+    <p>Geburt des späteren Oberförsters, der nach Slawonien (heute Kroatien) auswandert und sich dort kulturell assimiliert.</p>
+    <span class="meta-tag">Slawonien-Linie</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1851</span>
+    <h3>Testament von Peter Kofler</h3>
+    <p>Erstellt in Rovereto. Es dokumentiert den großen Wohlstand und klärt die Verwandtschaftsverhältnisse zwischen Tirol und Italien.</p>
+    <span class="meta-tag">Kofler-Linie</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1858</span>
+    <h3>Radetzky in Italien</h3>
+    <p>Begegnung des Feldmarschalls mit Maria Antonietta Gioppi (geb. Cofler). Ein weiterer Berührungspunkt der Familie mit der Geschichte.</p>
+    <span class="meta-tag">Historie</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1881</span>
+    <h3>Geburt Emma Hofmann</h3>
+    <p>Großmutter des Autors (Kekulé 5). Durch sie verbinden sich die Handwerker-Traditionen aus Schmiedeberg mit der Familie.</p>
+    <span class="meta-tag">Kekulé 5</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1945/1946</span>
+    <h3>Vertreibung aus Böhmen</h3>
+    <p>Verlust der Heimat für den Großteil der deutschsprachigen Verwandtschaft. Die direkte Linie lebte bereits in Österreich.</p>
+    <span class="meta-tag">Zäsur</span>
+  </div>
+
+  <div class="container">
+    <span class="year">2025</span>
+    <h3>Abschluss der Chronik</h3>
+    <p>Veröffentlichung von Band 1 und 2 sowie Start dieses digitalen Archivs zur langfristigen Sicherung der Daten.</p>
+    <span class="meta-tag">Gegenwart</span>
+  </div>
+
+</div>]]></content><author><name></name></author><category term="forschung" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern</title><link href="http://localhost:4000/bonusseite/forschung/2025/12/29/dna-analyse.html" rel="alternate" type="text/html" title="DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern" /><published>2025-12-29T00:00:00+01:00</published><updated>2025-12-29T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/forschung/2025/12/29/dna-analyse</id><content type="html" xml:base="http://localhost:4000/bonusseite/forschung/2025/12/29/dna-analyse.html"><![CDATA[<style>
+  /* Kleines lokales Styling für die Fakten-Boxen */
+  .fact-box {
+    background: #f0f4f8;
+    border-left: 4px solid #2a5d8f;
+    padding: 15px;
+    margin: 20px 0;
+  }
+  .fact-title {
+    font-weight: bold;
+    color: #2a5d8f;
+    display: block;
+    margin-bottom: 5px;
+  }
+</style>
+
+<p>Die klassische Ahnenforschung endet meist im 16. oder 17. Jahrhundert. Mittels moderner DNA-Analyse konnten wir jedoch zwei Linien bis weit in die Vorzeit zurückverfolgen.</p>
+
+<h2 id="väterliche-linie-y-dna">Väterliche Linie (Y-DNA)</h2>
+
+<p>Diese Linie vererbt sich vom Vater auf den Sohn. Sie definiert den Stammbaum der Familie Pilz im biologischen Sinne.</p>
+
+<div class="fact-box">
+  <span class="fact-title">Haplogruppe: R-M269</span>
+  Herkunft: Westeuropa / Indogermanisch<br />
+  Alter: ca. 4.000 bis 10.000 Jahre
+</div>
+
+<p>Die Haplogruppe R-M269 ist die dominierende Linie in Westeuropa. Sie wird oft mit der Ausbreitung der Indogermanen und später der Kelten und Germanen in Verbindung gebracht. Unsere Vorfahren gehörten zu jenen Stämmen, die nach der Eiszeit Mitteleuropa wiederbesiedelten.</p>
+
+<h2 id="mütterliche-linie-mtdna">Mütterliche Linie (mtDNA)</h2>
+
+<p>Diese Linie folgt der reinen Mutterfolge (Mutter der Mutter der Mutter…).</p>
+
+<div class="fact-box">
+  <span class="fact-title">Haplogruppe: H41a9</span>
+  Herkunft: Alpen / Balkan / Osteuropa<br />
+  Besonderheit: Sehr selten
+</div>
+
+<p>H41a9 ist eine sehr seltene Unterlinie mit östlicher Herkunft. Im Gegensatz zu den westeuropäischen Linien stammt sie von Vorfahren ab, die die Eiszeit im Kaukasus/Ukraine überlebten (Verbindung zur Yamnaya-Kultur). Der spezifische Zweig entstand erst im Mittelalter.</p>]]></content><author><name></name></author><category term="forschung" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Die stille Reserve: Warum Kaiser Karl IV. in meiner Datenbank wartet</title><link href="http://localhost:4000/bonusseite/hinter%20den%20kulissen/2025/12/28/stille-reserve.html" rel="alternate" type="text/html" title="Die stille Reserve: Warum Kaiser Karl IV. in meiner Datenbank wartet" /><published>2025-12-28T00:00:00+01:00</published><updated>2025-12-28T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/hinter%20den%20kulissen/2025/12/28/stille-reserve</id><content type="html" xml:base="http://localhost:4000/bonusseite/hinter%20den%20kulissen/2025/12/28/stille-reserve.html"><![CDATA[<p>Wer tief in meinen digitalen Ahnendaten gräbt, stößt plötzlich auf Namen, die in der gedruckten Chronik fehlen: <strong>Anna von Schweidnitz</strong> oder sogar <strong>Kaiser Karl IV.</strong></p>
+
+<p>Ist hier der Größenwahn ausgebrochen? Nein. Diese Einträge sind eine bewusste <strong>„stille Reserve“</strong>.</p>
+
+<h3 id="der-unterschied-zwischen-buch-und-datenbank">Der Unterschied zwischen Buch und Datenbank</h3>
+
+<p>Die gedruckten Bände der Pilz-Chronik unterliegen der strengen Beweislast. Was hier steht, muss belegt sein. Die digitale Datenbank hingegen ist meine Werkstatt.</p>
+
+<p>Ich habe diese historischen Adelslinien selbst eingefügt – als Vorbereitung. Sollte eines Tages der „Missing Link“ bei den Bechinies doch noch zweifelsfrei gefunden werden, sind die Anschlüsse an die Historie bereits gelegt.</p>
+
+<p>Es ist eine <strong>Vorratsdatenspeicherung für den Erfolgsfall</strong>.</p>
+
+<p>Und solange dieser Beweis fehlt? Dann bleiben diese Einträge ein Denkanstoß. Sie zeigen die <em>Möglichkeit</em> einer Geschichte, die vielleicht wahr ist – oder vielleicht für immer eine faszinierende Legende bleibt.</p>]]></content><author><name></name></author><category term="Hinter den Kulissen" /><summary type="html"><![CDATA[Ein Blick in die digitale Werkstatt: Warum die Datenbank mehr enthält, als das gedruckte Buch zeigt.]]></summary></entry><entry><title type="html">Militärische Stationen meines Vaters 1940–1945: Eine Recherche</title><link href="http://localhost:4000/bonusseite/ahnenforschung/zweiter%20weltkrieg/2025/12/16/wehrmacht-einheiten.html" rel="alternate" type="text/html" title="Militärische Stationen meines Vaters 1940–1945: Eine Recherche" /><published>2025-12-16T00:00:00+01:00</published><updated>2025-12-16T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/ahnenforschung/zweiter%20weltkrieg/2025/12/16/wehrmacht-einheiten</id><content type="html" xml:base="http://localhost:4000/bonusseite/ahnenforschung/zweiter%20weltkrieg/2025/12/16/wehrmacht-einheiten.html"><![CDATA[<h1 id="militärische-stationen-meines-vaters-19401945-eine-recherche">Militärische Stationen meines Vaters 1940–1945: Eine Recherche</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td>**16. Dezember 2025</td>
+      <td>Wolfgang Pilz**</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="ausgangspunkt-die-archivauskunft">Ausgangspunkt: Die Archivauskunft</h2>
+
+<p>Im März 2025 wandte ich mich an das Bundesarchiv mit der Bitte um Auskunft über die militärische Verwendung meines Vaters Alois Pilz (*25.08.1909, †26.07.1968).</p>
+
+<p>Die Antwort erreichte mich am 1. Dezember 2025 (Aktenzeichen DR 22025/G-7171). Sie bestätigte, was für Mannschaftsdienstgrade bzw. Unteroffiziere der Wehrmacht typisch ist: Es existiert keine Personalakte, sondern lediglich eine Karteikarte und Einträge in Erkennungsmarkenverzeichnissen.</p>
+
+<p>Die Auskunft dokumentiert fünf Einheiten:</p>
+
+<ol>
+  <li><strong>3. Kompanie Bau-Bataillon 158</strong> (1940)</li>
+  <li><strong>2. Kompanie Landesschützen-Ersatz-Bataillon 18</strong> (1942)</li>
+  <li><strong>14. Kompanie Gebirgsjäger-Ersatz-Regiment III/136</strong> (1942)</li>
+  <li><strong>2. Kompanie Gebirgsjäger-Regiment 99</strong> (1942)</li>
+  <li><strong>Stamm-Kompanie Grenadier-Ersatz-Bataillon 107</strong> (1944)</li>
+</ol>
+
+<p>Das Bundesarchiv weist in seinem Schreiben darauf hin, dass nähere Informationen zu Einsatzräumen von Wehrmacht-Einheiten in der Publikation von Georg Tessin (<em>Verbände und Truppen der deutschen Wehrmacht und Waffen-SS im Zweiten Weltkrieg 1939–1945</em>) sowie im <em>Lexikon der Wehrmacht</em> zu finden sind.</p>
+
+<hr />
+
+<h2 id="die-recherche-einheiten-und-ihre-kontexte">Die Recherche: Einheiten und ihre Kontexte</h2>
+
+<p>Was folgte, war eine systematische Recherche zu jeder dieser Einheiten. Die Frage lautete nicht, was mein Vater persönlich tat – das lässt sich ohne weitere Dokumente nicht klären. Die Frage lautete: <strong>In welchen historischen Kontexten operierten diese Einheiten?</strong></p>
+
+<p>Dabei stellte sich heraus, dass die bloße Zugehörigkeit zu einer Einheit noch nichts über die individuelle Beteiligung an spezifischen Ereignissen aussagt. Entscheidend sind:</p>
+<ul>
+  <li><strong>Zeitliche Überschneidung:</strong> War die Person zum Zeitpunkt eines Verbrechens nachweislich bei der Einheit?</li>
+  <li><strong>Geografische Präsenz:</strong> Befand sich die Einheit am Tatort?</li>
+  <li><strong>Funktionale Zuordnung:</strong> Gehörte die Person zur operativen Truppe oder zu Ersatz-/Ausbildungseinheiten?</li>
+</ul>
+
+<hr />
+
+<h2 id="die-einheiten-im-einzelnen">Die Einheiten im Einzelnen</h2>
+
+<h3 id="1-bau-bataillon-158-1940-frankreich">1. Bau-Bataillon 158 (1940, Frankreich)</h3>
+
+<p><strong>Einheitstyp:</strong> Logistik- und Baueinheit (keine Kampftruppe)<br />
+<strong>Herkunft:</strong> Rekrutierung aus dem Reichsarbeitsdienst (RAD)<br />
+<strong>Aufgabe:</strong> Infrastrukturwiederherstellung (Straßen, Brücken)<br />
+<strong>Einsatzraum:</strong> Heeresgruppe C, Raum Lothringen/Saar</p>
+
+<p><strong>Historischer Kontext:</strong><br />
+Im Westfeldzug 1940 wurden Kriegsverbrechen begangen, insbesondere Massaker an französischen Kolonialtruppen (Tirailleurs Sénégalais) durch Elite-Kampfverbände im Raum Lyon/Chasselay.</p>
+
+<p><strong>Bewertung:</strong><br />
+Das Bau-Bataillon 158 operierte im rückwärtigen Gebiet der Heeresgruppe C (Lothringen), weit entfernt von den Tatorten der Massaker (&gt;300 km). Die Einheit war funktional und geografisch von den dokumentierten Verbrechen getrennt.</p>
+
+<hr />
+
+<h3 id="2-landesschützen-ersatz-bataillon-18-1942-lienz">2. Landesschützen-Ersatz-Bataillon 18 (1942, Lienz)</h3>
+
+<p><strong>Einheitstyp:</strong> Ausbildungs- und Verwaltungseinheit des Ersatzheeres<br />
+<strong>Standort:</strong> Lienz (Osttirol)<br />
+<strong>Funktion:</strong> Rekrutierung, Ausbildung, Administration</p>
+
+<p><strong>Historischer Kontext:</strong><br />
+Im Wehrkreis XVIII (Salzburg) befanden sich große Kriegsgefangenenlager, insbesondere das Stalag XVIII C in Markt Pongau, wo 1941/42 tausende sowjetische Kriegsgefangene durch systematische Unterversorgung starben. Die Bewachung oblag aktiven Landesschützen-Bataillonen der 900er-Serie.</p>
+
+<p><strong>Die Zollbeamten-Frage:</strong><br />
+Mein Vater war Zollbeamter (Dienstherr: Reichsfinanzverwaltung). Das Landesschützen-Ersatz-Bataillon 18 in Lienz war als Ausbildungsstätte für Zollanwärter ausgewiesen. Die Reichsfinanzverwaltung nutzte Wehrmacht-Kapazitäten zur militärischen Ausbildung ihrer Beamten für den späteren Einsatz im Zollgrenzschutz.</p>
+
+<p><strong>Bewertung:</strong><br />
+Ein Ersatz-Bataillon ist institutionell vom Feldheer getrennt. Die geografische Distanz zwischen Lienz und Markt Pongau (&gt;100 km, durch die Hohen Tauern getrennt, damals ohne direkte Verkehrsverbindung) macht einen operativen Einsatz als Lagerwache unwahrscheinlich. Die Zollbeamten-Ausbildung bietet eine plausible alternative Erklärung für die Stationierung.</p>
+
+<hr />
+
+<h3 id="3-gebirgsjäger-ersatz-regiment-iii136-1942">3. Gebirgsjäger-Ersatz-Regiment III/136 (1942)</h3>
+
+<p><strong>Einheitstyp:</strong> Ausbildungseinheit der Gebirgstruppe<br />
+<strong>Funktion:</strong> Vorbereitung auf Fronteinsatz</p>
+
+<p><strong>Historischer Kontext:</strong><br />
+Die Gebirgstruppe verstand sich als Elitekorps. Die Ausbildung 1942 beinhaltete auch Schulungen in der “Bandenbekämpfung”. Gegen Angehörige des Gebirgsjäger-Ersatz-Regiments 136 wurden nach dem Krieg Ermittlungen geführt.</p>
+
+<p><strong>Bewertung:</strong><br />
+Als Ausbildungseinheit war das Regiment nicht unmittelbar an Frontverbrechen beteiligt. Die Versetzung hierher deutet auf die Vorbereitung für den Einsatz beim Gebirgsjäger-Regiment 99 hin.</p>
+
+<hr />
+
+<h3 id="4-gebirgsjäger-regiment-99-1942-kaukasus">4. Gebirgsjäger-Regiment 99 (1942, Kaukasus)</h3>
+
+<p><strong>Einheitstyp:</strong> Kampfeinheit (Teil der 1. Gebirgs-Division)<br />
+<strong>Zeitraum:</strong> 1942<br />
+<strong>Einsatzraum:</strong> Kaukasus (“Operation Edelweiß”)</p>
+
+<p><strong>Historischer Kontext:</strong><br />
+Das GJR 99 war Teil der Heeresgruppe A und führte die Offensive in den Kaukasus. Die Einheit war nachweislich in folgende Verbrechenskomplexe involviert:</p>
+<ul>
+  <li>“Bandenbekämpfung”: Geiselerschießungen, “Sühnemaßnahmen” an der Zivilbevölkerung</li>
+  <li>“Kommissarbefehl”: Erschießung von Politkommissaren der Roten Armee</li>
+  <li>“Verbrannte Erde”: Niederbrennen von Dörfern, Wegnahme von Vieh und Nahrungsmitteln</li>
+  <li>Holocaust im Kaukasus: Beteiligung an der Aufspürung und Ermordung von Juden (besonders “Bergjuden” bei Naltschik)</li>
+</ul>
+
+<p><strong>Die medizinische Zäsur – und ihre Grenzen:</strong><br />
+Im Winter 1942/43 erkrankte mein Vater am Wolhynischen Sumpffieber. Die Karteikarte des Bundesarchivs verzeichnet zudem ein Krampfadernleiden. Diese gesundheitlichen Probleme führten zur Einstufung als “nicht mehr frontverwendungsfähig” – eine Einstufung, die 1944 ignoriert werden sollte.</p>
+
+<p><strong>Bewertung:</strong><br />
+Dies ist der einzige Zeitraum, in dem eine Schnittmenge zwischen biografischer Präsenz und Verbrechensraum besteht. Mein Vater war 1942 Teil einer Einheit, die nachweislich Kriegsverbrechen beging.</p>
+
+<p>Was ich nicht weiß: Ob und in welcher Form er persönlich beteiligt war. Individuelle Schuld ist ohne konkrete Zeugenaussagen oder Dokumente nicht nachweisbar.</p>
+
+<p>Was ich weiß: Seine Erkrankung und das Krampfadernleiden bewahrten ihn – unfreiwillig – vor der Beteiligung an den späteren, noch schwereren Verbrechen der Einheit in Griechenland (Kommeno, Kefalonia, 1943/44). Doch die Wehrmacht respektierte seine Frontuntauglichkeit nicht dauerhaft.</p>
+
+<hr />
+
+<h3 id="5-grenadier-ersatz-bataillon-107-1944-westwall">5. Grenadier-Ersatz-Bataillon 107 (1944, Westwall)</h3>
+
+<p><strong>Einheitstyp:</strong> Ersatzeinheit im Wehrkreis XII<br />
+<strong>Standort:</strong> Idar-Oberstein / Westwall-Bereich<br />
+<strong>Zugehörigkeit:</strong> Stamm-Kompanie</p>
+
+<p><strong>Historischer Kontext:</strong><br />
+Im Herbst 1944 befand sich die Wehrmacht im “letzten Aufgebot”. Aus Ersatzeinheiten wurden Kampfgruppen gebildet und gegen die anrückenden US-Truppen eingesetzt. Auch frontuntaugliche Soldaten wurden erneut an die Front geschickt.</p>
+
+<p><strong>Der erneute Fronteinsatz:</strong><br />
+Trotz seiner Einstufung als “nicht mehr frontverwendungsfähig” aufgrund des Krampfadernleidens und der Folgen des Wolhynischen Sumpffiebers wurde mein Vater im Herbst 1944 erneut an die Front geworfen. Aus dem Grenadier-Ersatz-Bataillon 107 wurde eine Kampfgruppe gebildet, die gegen US-Truppen am Westwall eingesetzt wurde.</p>
+
+<p>Dort erlitt er eine <strong>schwere Schussverletzung am Bein</strong>. Diese Verwundung war so gravierend, dass sie seine militärische Verwendungsfähigkeit endgültig beendete.</p>
+
+<p><strong>Bewertung:</strong><br />
+Die Versetzung zur Stamm-Kompanie eines Ersatz-Bataillons hätte normalerweise Innendienst bedeutet. Doch 1944 wurde diese Einheit operativ eingesetzt. Die schwere Verwundung am Westwall markiert das Ende seiner Kriegszeit. Während die 1. Gebirgs-Division 1943/44 in Griechenland Massaker beging, befand sich mein Vater zunächst im Ersatzheer – wurde dann aber 1944 noch einmal an die Front geschickt, wo er schwer verwundet wurde.</p>
+
+<hr />
+
+<h2 id="zusammenfassende-bewertung">Zusammenfassende Bewertung</h2>
+
+<p>Von den fünf dokumentierten Einheiten besteht nur für <strong>eine</strong> eine nachweisbare Schnittmenge zwischen biografischer Präsenz und Verbrechensraum: das Gebirgsjäger-Regiment 99 im Kaukasus 1942.</p>
+
+<p>Für die anderen vier Fälle (Frankreich 1940, Pongau 1941/42, Griechenland-Zeitraum 1943/44, Westwall 1944) ergeben sich unterschiedliche Kontexte:</p>
+<ul>
+  <li><strong>Frankreich:</strong> Geografische und funktionale Trennung (Bautruppe im Tross ≠ Kampftruppe an der Spitze)</li>
+  <li><strong>Pongau:</strong> Institutionelle Trennung (Ersatzheer ≠ Feldheer), Zollbeamten-Ausbildung, geografische Distanz</li>
+  <li><strong>Griechenland 1943/44:</strong> Medizinische Invalidität verhinderte Teilnahme an den Massakern der 1. Gebirgs-Division (Kommeno, Kefalonia)</li>
+  <li><strong>Westwall 1944:</strong> Erneuter Fronteinsatz trotz Invalidität, schwere Schussverletzung beendete endgültig den Kriegsdienst</li>
+</ul>
+
+<hr />
+
+<h2 id="methodische-reflexion">Methodische Reflexion</h2>
+
+<p>Diese Recherche zeigt die Notwendigkeit einer differenzierten Betrachtung militärischer Biografien:</p>
+
+<ol>
+  <li>
+    <p><strong>Die Wehrmacht war eine verbrecherische Organisation.</strong> Das steht außer Frage. Die Verbrechen waren systematisch, nicht Einzelfälle.</p>
+  </li>
+  <li>
+    <p><strong>Einheitszugehörigkeit ≠ Täterschaft.</strong> Die bloße Zugehörigkeit zu einer Einheit, die Verbrechen beging, beweist keine individuelle Beteiligung an spezifischen Taten.</p>
+  </li>
+  <li>
+    <p><strong>Biografische Details sind Fakten, keine Alibis.</strong> Hochzeiten, Krankheiten, Verwundungen, Versetzungen sind dokumentierbare Ausschlusskriterien für bestimmte Tatorte und Zeitpunkte.</p>
+  </li>
+  <li>
+    <p><strong>Ersatzheer ≠ Feldheer.</strong> Die institutionelle Unterscheidung zwischen Ausbildungs-/Verwaltungseinheiten und operativen Kampfeinheiten ist militärhistorisch fundamental.</p>
+  </li>
+</ol>
+
+<p>Diese Differenzierungen vorzunehmen bedeutet nicht, die Verbrechen der Wehrmacht zu relativieren. Es bedeutet, die Wahrheit über ein einzelnes Leben zu respektieren.</p>
+
+<hr />
+
+<h2 id="transparenz-über-den-rechercheprozess">Transparenz über den Rechercheprozess</h2>
+
+<p>Bei dieser Recherche habe ich auch Künstliche Intelligenz als Werkzeug eingesetzt – mit gemischten Erfahrungen.</p>
+
+<p>Zunächst ließ ich die Einheitsnamen von einer KI analysieren. Das Ergebnis war eine detaillierte Auflistung von Kriegsverbrechen, die meinen Vater mit vier schweren Vorwürfen in Verbindung brachte. Es klang fundiert und überzeugend.</p>
+
+<p>Bei der systematischen Überprüfung stellte sich heraus, dass drei dieser Vorwürfe faktisch unhaltbar waren. Die KI hatte:</p>
+<ul>
+  <li>Zeitliche Abläufe ignoriert (Versetzung erst 1942, aber Pogrom 1941)</li>
+  <li>Geografische Distanzen unterschätzt (&gt;300 km zwischen Einsatzort und Tatort)</li>
+  <li>Institutionelle Unterscheidungen nicht erkannt (Ersatzheer vs. Feldheer)</li>
+</ul>
+
+<p>Das ist eine Warnung: KI-Systeme können große Datenmengen verarbeiten, aber sie verstehen biografische Kontexte nicht. Sie behandeln die Wehrmacht als homogene Masse und übersehen die Details, die über Wahrheit oder Unwahrheit entscheiden.</p>
+
+<p>Die endgültige Bewertung erforderte klassische historische Methode: Quellenabgleich, zeitliche Rekonstruktion, geografische Prüfung.</p>
+
+<hr />
+
+<h2 id="was-ich-über-meinen-vater-weiß--und-was-nicht">Was ich über meinen Vater weiß – und was nicht</h2>
+
+<p>Mein Vater hat nie über den Krieg gesprochen. Nicht ein Wort.</p>
+
+<p>Ich kenne seine Kriegserfahrung nur aus Archivdokumenten. Ich weiß, wo er war – aber nicht, was er tat, wie er dachte, was er empfand.</p>
+
+<p>Die Karteikarte des Bundesarchivs verzeichnet nüchtern:</p>
+<ul>
+  <li>Erkennungsmarke: 4545-33A</li>
+  <li>Geburtsort: Waldhäuser/Mühlviertel</li>
+  <li>Dienstgrad: Feldwebel</li>
+  <li>Einheiten: siehe oben</li>
+  <li>Medizinische Einträge: Krampfadern, weitere unleserliche Vermerke</li>
+</ul>
+
+<p>Das steife Bein, das Resultat der schweren Schussverletzung am Westwall 1944, begleitete ihn sein Leben lang. Das Schweigen auch.</p>
+
+<p>Diese Recherche kann die Lücke nicht füllen. Sie kann aber verhindern, dass Unwahrheiten an die Stelle treten, wo Wahrheit fehlt.</p>
+
+<hr />
+
+<h2 id="anhang-und-quellen">Anhang und Quellen</h2>
+
+<p><strong>→ <a href="/bonusseite/assets/mds/forensischer_anhang.md">Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung</a></strong></p>
+
+<p><strong>Bundesarchiv-Dokumentation:</strong></p>
+<ul>
+  <li>Auskunftsschreiben vom 01.12.2025 (DR 22025/G-7171)</li>
+  <li>Karteikarte B 563-1 KARTEI/P-442/343</li>
+  <li>Erkennungsmarkenverzeichnisse (Bundesarchivsignaturen siehe Auskunft)</li>
+</ul>
+
+<p><strong>Verwendete Fachliteratur:</strong></p>
+<ul>
+  <li>Georg Tessin: <em>Verbände und Truppen der deutschen Wehrmacht und Waffen-SS im Zweiten Weltkrieg 1939–1945</em></li>
+  <li>Lexikon der Wehrmacht (Online-Datenbank)</li>
+  <li>Ahlfen/Moll: <em>Blutiges Edelweiß – Die 1. Gebirgs-Division im Zweiten Weltkrieg</em></li>
+  <li>Institut für Zeitgeschichte: Wehrmacht und Kriegsverbrechen</li>
+</ul>
+
+<hr />
+
+<p><strong>Wolfgang Pilz</strong><br />
+<em>Innsbruck, Dezember 2025</em></p>]]></content><author><name>Wolfgang Pilz</name></author><category term="Ahnenforschung" /><category term="Zweiter Weltkrieg" /><summary type="html"><![CDATA[Die Dokumentation der militärischen Einheiten, denen Alois Pilz 1940–1945 angehörte, und die systematische Überprüfung der historischen Kontexte.]]></summary></entry><entry><title type="html">Der Name Pilz im Salzkammergut: Geschichte einer Familie zwischen Sachsen und den Alpen</title><link href="http://localhost:4000/bonusseite/2025/12/12/pilz-im-salzkammergut.html" rel="alternate" type="text/html" title="Der Name Pilz im Salzkammergut: Geschichte einer Familie zwischen Sachsen und den Alpen" /><published>2025-12-12T00:00:00+01:00</published><updated>2025-12-12T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/2025/12/12/pilz-im-salzkammergut</id><content type="html" xml:base="http://localhost:4000/bonusseite/2025/12/12/pilz-im-salzkammergut.html"><![CDATA[<style>
+  .status-box {
+    background-color: #f9f9f9;
+    border-left: 4px solid #999;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 0.95em;
+  }
+  .status-label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+  }
+</style>
+
+<div class="status-box">
+  <span class="status-label">STATUS: ENTWURF / KI-UNTERSTÜTZT</span>
+  Dieser Beitrag dient als interne Gedankenstütze und Arbeitsgrundlage. 
+  Inhalte und Daten sind noch nicht final quellenkritisch gesichert.
+</div>
+<p>eingearbeitet werden.</p>
+
+<hr />
+<p><em>Eine Analyse der Wanderungsbewegungen der Frühen Neuzeit und der sächsischen Wurzeln.</em></p>
+
+<h2 id="1-einleitung-das-salzkammergut-als-besondere-region">1. Einleitung: Das Salzkammergut als besondere Region</h2>
+
+<p>Das Salzkammergut war über Jahrhunderte ein besonderes Gebiet im Herzen der österreichischen Alpen. Als direkter Besitz der Habsburgerkrone funktionierte es fast wie ein “Staat im Staate”. Durch den sogenannten “Gegendhahn” war die Region nach außen hin abgeschottet und wurde vom mächtigen Salzamt in Gmunden kontrolliert. Aber diese Abschottung war nicht absolut. Während der Export von Salz und Holz streng überwacht wurde, war die Region auf Importe angewiesen: Nahrungsmittel (das „Gmach”) und vor allem Fachkräfte mit technischem Wissen.</p>
+
+<p>In diesem Spannungsfeld zwischen Abschottung und notwendiger Zuwanderung beginnt die Geschichte des Familiennamens Pilz. Dieser Name ist heute fest mit der lokalen Identität von Bad Goisern, Hallstatt und Gosau verbunden. Er gibt uns wichtige Einblicke in die Wanderungsbewegungen der Frühen Neuzeit. Die vorliegende Untersuchung beschäftigt sich mit der Vermutung, dass dieser Name aus Sachsen stammt – eine These, die besonders der Goiserer Heimatforscher Karl Pilz vertreten hat und die durch genealogische Forschungen gestützt wird.</p>
+
+<p>Diese Analyse ist über die lokale Familienforschung hinaus interessant. Am Beispiel der Familie Pilz können wir nachvollziehen, wie weiträumig der frühneuzeitliche Bergbau vernetzt war: der Technologietransfer vom sächsischen Erzgebirge in die Alpen, die Verbreitung der Reformation durch wandernde Bergleute und die tragische Zuspitzung in der Zwangsaussiedlung des 18. Jahrhunderts.</p>
+
+<p>Die Untersuchung beginnt mit der Herkunft des Namens, analysiert dann die sächsischen Einwanderungswellen und ihre Gründe, behandelt die konfessionelle Dimension des „Geheimprotestantismus” und würdigt schließlich die Forschungsarbeit von Karl Pilz, der selbst Teil dieser historischen Kontinuität war.</p>
+
+<hr />
+
+<h2 id="2-die-herkunft-des-namens-pilz">2. Die Herkunft des Namens Pilz</h2>
+
+<p>Um zu verstehen, woher der Name Pilz im Salzkammergut kommt, müssen wir uns zunächst die sprachliche und genealogische Entwicklung anschauen. Namen waren in der vorindustriellen Zeit nicht starr; sie verrieten etwas über Herkunft, Beruf und soziale Stellung.</p>
+
+<h3 id="21-die-sprachliche-herkunft">2.1. Die sprachliche Herkunft</h3>
+
+<p>Der Name Pilz (in alten Dokumenten oft auch Piltz, Bilz, Biltz) lässt sich sprachwissenschaftlich vor allem als Berufsname erklären.</p>
+
+<ul>
+  <li><strong>Der Kürschner-Zusammenhang:</strong> Die vorherrschende Meinung der Namensforschung sieht in „Pilz” eine lautliche Abwandlung des Wortes „Pelz”. Im mittelhochdeutschen und frühneuhochdeutschen Sprachraum, besonders in den mitteldeutschen Dialekten (zu denen auch das Sächsische gehört), war der Vokalwechsel von „e” zu „i” vor bestimmten Konsonanten häufig. Ein „Pilz” war demnach ursprünglich jemand, der Pelze herstellte oder verkaufte – ein Kürschner. Diese berufliche Bedeutung ist wichtig, denn sie weist auf ein spezialisiertes Handwerk hin, das in den städtischen Zentren des Erzgebirges (Freiberg, Annaberg) stark vertreten war.</li>
+  <li><strong>Abgrenzung zu Ortsnamen:</strong> Eine Ableitung vom schlesischen Ortsnamen „Pilz” (heute Pilce) ist für die Bevölkerung im Alpenraum unwahrscheinlich, da Wanderungsbewegungen aus Schlesien ins Salzkammergut vor dem 18. Jahrhundert kaum vorkamen.</li>
+  <li><strong>Der Spitzname:</strong> Die Deutung als Spitzname (für jemanden mit pilzartiger Statur oder Kleidung) ist zwar möglich, erklärt aber nicht, warum der Name so gehäuft in bestimmten Berufsgruppen (Forst- und Bergbauwesen) auftritt.</li>
+</ul>
+
+<h3 id="22-genealogische-beweise-die-sächsische-spur">2.2. Genealogische Beweise: Die sächsische Spur</h3>
+
+<p>Einen wichtigen Beweis für die sächsische Herkunft liefert die detaillierte Familiengeschichte bestimmter Pilz-Zweige, wie sie in Familienchroniken dokumentiert ist. Die Analyse der Vorfahren von Alois Pilz (geboren in Waldhäuser bei Helfenberg, Oberösterreich) zeigt eine klare Wanderungsroute:</p>
+
+<ul>
+  <li><strong>Ursprung in Sachsen:</strong> Der älteste nachweisbare Vorfahre, Jobst Piltz, wurde um 1539 in Dörnthal (Sachsen) geboren. Dörnthal liegt im Herzen des Erzgebirges, in unmittelbarer Nähe zu den großen Silberbergbaugebieten um Freiberg.</li>
+  <li><strong>Zwischenstation Böhmen:</strong> Die Familie wanderte über das böhmische Erzgebirge (Weipert/Vejprty, Joachimsthal). Dies entspricht der historischen Realität des 16. Jahrhunderts, als der sächsische und böhmische Teil des Erzgebirges einen zusammenhängenden Wirtschaftsraum bildeten. Bergleute und Forstleute wechselten flexibel die Seiten, je nachdem, wo die Gruben ertragreicher waren.</li>
+  <li><strong>Ankunft in Österreich:</strong> Von Böhmen aus erfolgte die Wanderung nach Oberösterreich und Tirol. Die Familie Pilz wird hier ausdrücklich im Zusammenhang mit dem Forstwesen genannt. Dies ist sehr wichtig, denn der Salzbergbau im Salzkammergut verbrauchte enorme Mengen an Holz (für den Ausbau der Gruben und vor allem für die Befeuerung der Sudpfannen). Sächsische Forstexperten waren ebenso gefragt wie Bergleute.</li>
+</ul>
+
+<h3 id="23-verbreitung-des-namens-heute">2.3. Verbreitung des Namens heute</h3>
+
+<p>Die heutige Verbreitung des Namens Pilz zeigt zwei deutliche Schwerpunkte: das sächsisch-thüringische Kernland und das oberösterreichische Salzkammergut (Bezirk Gmunden). Diese Zweiteilung – eine hohe Dichte im Norden, eine hohe Dichte in einer bestimmten alpinen Region, aber weniger Vorkommen in den Gebieten dazwischen – ist ein typisches Zeichen für gezielte Fernwanderung. Es handelt sich nicht um eine langsame, allmähliche Ausbreitung, sondern um den gezielten Transfer von Personengruppen entlang wirtschaftlicher Netzwerke.</p>
+
+<hr />
+
+<h2 id="3-der-technologietransfer-aus-sachsen-warum-kamen-sie-1617-jahrhundert">3. Der Technologietransfer aus Sachsen: Warum kamen sie? (16.–17. Jahrhundert)</h2>
+
+<p>Warum kamen Sachsen ins Salzkammergut? Die Antwort liegt in der Geologie und der Technologiegeschichte. Das Salzkammergut verfügt über enorme Salzreserven (Haselgebirge), deren Abbau jedoch technische Herausforderungen stellte, die sich von denen des Tiroler oder Salzburger Bergbaus unterschieden.</p>
+
+<h3 id="31-die-technologische-herausforderung-und-die-sächsische-lösung">3.1. Die technologische Herausforderung und die sächsische Lösung</h3>
+
+<p>Im 16. Jahrhundert erreichte der sächsische Bergbau (Silber) einen technologischen Höhepunkt. Georgius Agricola, der Vater der Mineralogie, wirkte in diesem Umfeld (Chemnitz/Joachimsthal). Die Sachsen entwickelten revolutionäre Methoden:</p>
+
+<ul>
+  <li><strong>Die Kunstgezeuge:</strong> Komplexe Pumpensysteme (Wasserkünste), mit denen man Grubenwasser aus großen Tiefen heben konnte.</li>
+  <li><strong>Markscheidekunst:</strong> Präzise Vermessung unter Tage.</li>
+  <li><strong>Aufbereitung:</strong> Effizientere Methoden der Erz- und Salztrennung.</li>
+</ul>
+
+<p>Im Gegensatz dazu stagnierte der alpine Bergbau teilweise mit veralteten Methoden. Die Habsburger Verwaltung, die ständig unter Finanzdruck stand, erkannte die Notwendigkeit der Modernisierung. Das Salzamt warb gezielt „Kunstmeister” aus Sachsen an. Diese Experten brachten nicht nur ihre Werkzeuge mit, sondern ihre gesamte Lebensweise.</p>
+
+<h3 id="32-kulturimport-tracht-und-sprache">3.2. Kulturimport: Tracht und Sprache</h3>
+
+<p>Ein oft übersehener Aspekt dieser Einwanderung ist die kulturelle Prägung durch die Bergleute. Die Forschung deutet darauf hin, dass die sächsische Tradition die Bergmannskultur im Salzkammergut entscheidend prägte.</p>
+
+<ul>
+  <li><strong>Die Farbe Schwarz:</strong> Während in älteren alpinen Traditionen (z.B. Berchtesgaden) weiße Arbeitskleidung vorherrschte, setzte sich im sächsischen Revier und später im Salzkammergut (Ischl, Hallstatt) die schwarze Paradeuniform durch. Diese Symbolik – Schwarz für die Dunkelheit des Stollens und die Trauer um verunglückte Kameraden – ist ein direkter Import aus den sächsischen Knappschaften.</li>
+  <li><strong>Sozialstruktur:</strong> Die Einführung von „Bruderladen” (Sozialkassen) im Salzkammergut folgt dem Vorbild der sächsischen Büchsenkassen. Es ist anzunehmen, dass Familien wie die Pilz, die aus dieser Tradition kamen, diese sozialen Innovationen mitbrachten.</li>
+</ul>
+
+<hr />
+
+<h2 id="4-karl-pilz-der-chronist-des-inneren-salzkammergutes">4. Karl Pilz: Der Chronist des inneren Salzkammergutes</h2>
+
+<p>Die Verbindung zwischen dem Namen, der Region und der Geschichte wurde im 20. Jahrhundert durch eine wichtige Person verkörpert: Karl Pilz. Seine Rolle als Heimatforscher ist für das Verständnis der Pilz-Geschichte zentral, denn er trug nicht nur den Namen, sondern rekonstruierte die Geschichte aktiv.</p>
+
+<h3 id="41-leben-und-wirken">4.1. Leben und Wirken</h3>
+
+<p>Karl Pilz war langjähriger Kurdirektor von Bad Goisern und ein produktiver Kulturjournalist. In einer Zeit, in der „Heimatforschung” oft als Hobby betrieben wurde, zeichnete sich Pilz durch eine methodische Herangehensweise und eine enge Zusammenarbeit mit akademischen Institutionen aus (Landesmuseum Oberösterreich, Naturkundliche Station Linz).</p>
+
+<p>Sein Einfluss auf das kulturelle Gedächtnis der Region zeigt sich auf mehreren Ebenen:</p>
+
+<ul>
+  <li><strong>Publizistik:</strong> Seine regelmäßigen Beiträge in der „Goiserer Kurzeitung” (z.B. Juli 1984) und den „Oberösterreichischen Heimatblättern” machten komplexe historische Vorgänge, insbesondere die Zwangsaussiedlung, einem breiteren Publikum zugänglich.</li>
+  <li><strong>Museumswesen:</strong> Er war maßgeblich an der Konzeption und Pflege der Museen im Goiserer Tal beteiligt (Heimat- und Landlermuseum). Unter seiner Leitung (erwähnt 1973/74) wurden wichtige Entscheidungen zur Erhaltung bäuerlicher und bergmännischer Architektur getroffen, wie etwa die Diskussion um den Standort der Holzknechthütte.</li>
+</ul>
+
+<h3 id="42-die-karl-pilz-halle-eine-ehrung">4.2. Die „Karl-Pilz-Halle”: Eine Ehrung</h3>
+
+<p>Die tiefe Verbundenheit von Karl Pilz mit der Geographie des Salzkammergutes wird durch die Benennung der Karl-Pilz-Halle in der Hirlatzhöhle deutlich. Die Hirlatzhöhle bei Hallstatt ist eines der größten Höhlensysteme der Alpen. Dass ein bedeutender Teil dieses unterirdischen Labyrinths nach ihm benannt wurde, würdigt seine Verdienste um die Erforschung der Region.</p>
+
+<p>Diese Ehrung ist auch symbolisch bedeutsam: Die Höhlen des Dachsteins (wie die „Verborgene Höhle” oder „Schwarzmooskogel-Eishöhle”) waren historische Zufluchtsorte der Geheimprotestanten. Dass ein Forscher, der die Geschichte dieser Protestanten dokumentierte, hier verewigt ist, schließt einen historischen Kreis.</p>
+
+<h3 id="43-karl-pilz-und-die-forschung-zur-zwangsaussiedlung">4.3. Karl Pilz und die Forschung zur Zwangsaussiedlung</h3>
+
+<p>Karl Pilz legte einen besonderen Schwerpunkt auf das Jahr 1734. In seinen Schriften analysierte er die demographischen Auswirkungen der Zwangsaussiedlung. Er stellte fest, dass die Vertreibung zwar kurzfristig die Bevölkerung dezimierte, aber langfristig zu einer ideellen Stärkung der verbliebenen Protestanten führte.</p>
+
+<p>Er betonte, dass ein beträchtlicher Teil der deutschsprachigen Bevölkerung in Siebenbürgen (die Landler) aus dem Salzkammergut stammte und dort wesentlich zur Gründung neuer evangelischer Gemeinden beitrug. Gleichzeitig hob er die Widerstandskraft derer hervor, die blieben – zu denen auch seine eigenen Vorfahren zählten. Für Karl Pilz war der Name „Pilz” in Goisern ein Beweis für das Überleben und die Anpassungsfähigkeit der sächsischen Einwandererfamilien.</p>
+
+<hr />
+
+<h2 id="5-die-religiöse-dimension-geheimprotestantismus-und-zwangsaussiedlung">5. Die religiöse Dimension: Geheimprotestantismus und Zwangsaussiedlung</h2>
+
+<p>Die Geschichte des Namens Pilz ist eng mit der Religionsgeschichte verbunden. Die sächsischen Bergleute des 16. Jahrhunderts kamen aus dem Kernland der Reformation. Sie waren Lutheraner. Als sie ins katholische Salzkammergut kamen, brachten sie ihre Bibeln und Gesangbücher mit.</p>
+
+<h3 id="51-der-widerstand-gegen-die-gegenreformation">5.1. Der Widerstand gegen die Gegenreformation</h3>
+
+<p>Trotz der strengen Gegenreformation hielt sich der Protestantismus im Salzkammergut hartnäckig. Dies wird oft auf die geschlossene Sozialstruktur der Bergleute und Holzknechte zurückgeführt. In den tiefen Wäldern und Stollen entzog man sich der Kontrolle der Priester.</p>
+
+<p>Familien wie die Pilz lebten über Generationen als „Kryptoprotestanten”. Nach außen hin katholisch (Taufe, Eheschließung in der katholischen Kirche), praktizierten sie zu Hause den lutherischen Glauben. Sächsische Einwanderer spielten dabei eine wichtige Rolle als „Vermittler” reformatorischen Gedankengutes. Ihre Verbindung zu den alten Heimatgebieten (Sachsen/Böhmen) ermöglichte den Schmuggel von religiöser Literatur.</p>
+
+<h3 id="52-das-trauma-von-1734-die-zwangsaussiedlung">5.2. Das Trauma von 1734: Die Zwangsaussiedlung</h3>
+
+<p>Im Jahr 1734 eskalierte die Situation. Der Salzamtmann Graf Seeau und Kaiser Karl VI. initiierten die Transmigration.</p>
+
+<ul>
+  <li><strong>Der Ablauf:</strong> Rund 4.000 Protestanten wurden aus dem Salzkammergut ausgewiesen. Sie wurden auf Zillen (Plätten) die Traun und Donau hinab transportiert und in Siebenbürgen (damals am Rande des Habsburgerreiches, heute Rumänien) angesiedelt.</li>
+  <li><strong>Die Pilz-Verbindung:</strong> Obwohl die vorliegenden Listen den Namen Pilz nicht als den häufigsten Namen unter den Vertriebenen führen (im Gegensatz zu Namen wie Engel, Leitner, Reisenauer), ist die Betroffenheit einzelner Zweige der Familie historisch belegt. Es war oft Zufall oder die Unentbehrlichkeit als Fachkraft, die entschied, wer gehen musste und wer bleiben durfte.</li>
+  <li><strong>Selektive Deportation:</strong> Die Behörden standen vor einem Dilemma. Sie wollten die „Ketzer” loswerden, aber sie brauchten die Facharbeiter für den Salzbergbau. Viele hochspezialisierte Familien (oft sächsischer Herkunft) wurden daher „übersehen” oder konnten sich durch scheinbare Konversion schützen. Dies erklärt, warum der Name Pilz in Bad Goisern erhalten blieb, während andere Familien fast vollständig verschwanden.</li>
+</ul>
+
+<h3 id="53-die-landler-in-siebenbürgen">5.3. Die Landler in Siebenbürgen</h3>
+
+<p>Die deportierten Salzkammergutler bildeten in Siebenbürgen (Neppendorf, Großau, Großpold) eine eigene ethnische Gruppe, die „Landler”. Sie bewahrten ihren Dialekt (das alte Salzkammergut-Bairisch), ihre Tracht und ihre Namen.</p>
+
+<p>Forschungen, auf die sich auch Karl Pilz bezog, zeigen, dass die Sterblichkeit unter den Vertriebenen anfangs hoch war, aber die hohe Kinderzahl das Überleben der Gruppe sicherte. Die Ironie der Geschichte: Die Pilz-Vorfahren wanderten einst aus dem sächsischen Erzgebirge nach Österreich aus, und ihre entfernten Verwandten oder Nachbarn wurden Jahrhunderte später in ein Gebiet deportiert, das von „Siebenbürger Sachsen” dominiert war.</p>
+
+<hr />
+
+<h2 id="6-die-soziale-und-wirtschaftliche-stellung-der-familie-pilz">6. Die soziale und wirtschaftliche Stellung der Familie Pilz</h2>
+
+<p>Die Analyse lokaler Quellen (Ortsfamilienbücher, Vereinschroniken) ermöglicht eine Rekonstruktion der sozialen Stellung der Familie Pilz im Salzkammergut.</p>
+
+<h3 id="61-im-dienst-des-salzes-bergleute-und-salinenarbeiter">6.1. Im Dienst des Salzes: Bergleute und Salinenarbeiter</h3>
+
+<p>Die Pilz waren keine klassischen Bauern, sondern Arbeiterbauern oder reine Industriearbeiter.</p>
+
+<ul>
+  <li><strong>Hans Pilz:</strong> Ein bekanntes Beispiel aus dem 20. Jahrhundert ist der Bergführer Hans Pilz, der Expeditionen in den Hindukusch leitete. Dies zeigt die Kontinuität der alpinen Kompetenz.</li>
+  <li><strong>Franz Pilz:</strong> Ein Landwirt in Reitern (Goisern), dessen Nachlass 1982/83 dem Heimatmuseum übergeben wurde. Dies belegt, dass Zweige der Familie sesshaft wurden und Landwirtschaft betrieben – oft als Nebenerwerb zur Arbeit im Forst oder Bergwerk („Sacherl”).</li>
+  <li><strong>Johann Pilz:</strong> In den genealogischen Datenbanken taucht ein Johann Pilz (1744–1792) auf. Seine Lebensdaten fallen in die Zeit kurz nach der Zwangsaussiedlung. Dass er in Goisern blieb und starb, bestätigt die These, dass ein Stamm der Familie die Deportationen überstand.</li>
+</ul>
+
+<h3 id="62-sozialer-aufstieg-und-anpassung">6.2. Sozialer Aufstieg und Anpassung</h3>
+
+<p>Die Familie Pilz zeigt eine bemerkenswerte soziale Beweglichkeit. Von den sächsischen Wurzeln im 16. Jahrhundert über den Status als Facharbeiter im Salzbergbau bis hin zu bürgerlichen Positionen im 19. und 20. Jahrhundert (Kurdirektor Karl Pilz).</p>
+
+<p>Der Name Pilz ist im Salzkammergut nicht nur ein Name, er steht für „Eingesessensein”, obwohl er ursprünglich fremd war. Dies ist typisch für Bergbauregionen: Der Fremde (der Sachse) wird durch seine technische Kompetenz zum festen Bestandteil der lokalen Elite.</p>
+
+<hr />
+
+<h2 id="7-übersicht-migrationsphasen-und-namensentwicklung">7. Übersicht: Migrationsphasen und Namensentwicklung</h2>
+
+<p>Um die komplexen Bewegungen zu veranschaulichen, hier eine schematische Darstellung:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Zeitperiode</th>
+      <th>Ereignis / Prozess</th>
+      <th>Rolle der Familie Pilz / Namensentwicklung</th>
+      <th>Geographischer Fokus</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>1530–1600</strong></td>
+      <td>Blüte des sächsischen Bergbaus; Technologietransfer</td>
+      <td><strong>Ur-Migration:</strong> Jobst Piltz (Dörnthal) und Nachkommen wandern als Fachkräfte (Förster/Bergleute) ab.</td>
+      <td>Sachsen → Böhmen → Oberösterreich</td>
+    </tr>
+    <tr>
+      <td><strong>1600–1730</strong></td>
+      <td>Festigung im Salzkammergut; Geheimprotestantismus</td>
+      <td><strong>Etablierung:</strong> Der Name (Piltz/Pilz) setzt sich in Goisern/Hallstatt fest. Integration in den Salinenbetrieb; Bewahrung des lutherischen Glaubens im Verborgenen.</td>
+      <td>Hallstatt, Bad Goisern, Gosau</td>
+    </tr>
+    <tr>
+      <td><strong>1734–1737</strong></td>
+      <td>Transmigration: Zwangsaussiedlung durch Karl VI.</td>
+      <td><strong>Spaltung:</strong> Teile der protestantischen Bevölkerung werden deportiert (Landler). Andere Pilz-Zweige bleiben (als Unentbehrliche oder Schein-Katholiken).</td>
+      <td>Salzkammergut → Siebenbürgen (Hermannstadt)</td>
+    </tr>
+    <tr>
+      <td><strong>1781</strong></td>
+      <td>Toleranzpatent Josephs II.</td>
+      <td><strong>Bekenntnis:</strong> Hunderte Familien in Goisern bekennen sich zum evangelischen Glauben. Die Familie Pilz wird Teil der offiziellen evangelischen Gemeinde.</td>
+      <td>Bad Goisern</td>
+    </tr>
+    <tr>
+      <td><strong>19. Jh.</strong></td>
+      <td>Industrialisierung; Fremdenverkehr</td>
+      <td><strong>Aufstieg:</strong> Wandel von reinen Arbeitern zu Bürgern, Landwirten und Dienstleistern (Tourismus).</td>
+      <td>Bad Ischl, Bad Goisern</td>
+    </tr>
+    <tr>
+      <td><strong>20. Jh.</strong></td>
+      <td>Historische Aufarbeitung</td>
+      <td><strong>Reflexion:</strong> Karl Pilz (Kurdirektor) erforscht und veröffentlicht die Geschichte seiner Heimat und seines Namens.</td>
+      <td>Bad Goisern (Museum, Publizistik)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="8-die-wissenschaftliche-einordnung">8. Die wissenschaftliche Einordnung</h2>
+
+<p>Die von Karl Pilz und anderen Heimatforschern (wie Michael Kurz oder Siegfried Pramesberger) vertretene Theorie der sächsischen Herkunft ist wissenschaftlich gut begründet. Sie stützt sich auf das Zusammentreffen von drei Faktoren:</p>
+
+<ol>
+  <li><strong>Namensforschung:</strong> Der Name ist im Zielgebiet (Salzkammergut) häufig, im Umland selten, aber im Herkunftsgebiet (Sachsen) sehr häufig.</li>
+  <li><strong>Technologiegeschichte:</strong> Der massive Import sächsischer Bergbautechnologie ist historisch belegt. Es ist unwahrscheinlich, dass diese Technologie ohne die dazugehörigen Menschen kam.</li>
+  <li><strong>Konfessionssoziologie:</strong> Der Zusammenhang zwischen sächsischer Herkunft und protestantischem Widerstand ist im gesamten Alpenraum (z.B. auch bei den Zillertaler Inklinanten oder Defereggern) ein wiederkehrendes Muster.</li>
+</ol>
+
+<p>Die Forschungen von Karl Pilz haben gezeigt, dass die Identität des Salzkammergutes gemischt ist. Sie ist bayerisch-österreichisch in der Sprache, aber sächsisch-protestantisch in der Mentalität und Arbeitsethik. Der Name Pilz ist der lebende Beweis für diese Mischung.</p>
+
+<h2 id="9-fazit">9. Fazit</h2>
+
+<p>Die Untersuchung der Herkunft des Namens Pilz im Salzkammergut führt zu einem klaren Ergebnis: Es handelt sich um einen Migrationsnamen, der im Zuge des sächsischen Technologietransfers im 16. und 17. Jahrhundert in die Region kam. Die Träger des Namens waren Pioniere des modernen Bergbaus und des Forstwesens, die vom Salzamt gezielt angeworben wurden, um die Produktivität der Salinen zu sichern.</p>
+
+<p>Karl Pilz, der Goiserer Heimatforscher, hat durch seine Lebensarbeit nicht nur die Fakten dieser Geschichte zusammengetragen, sondern auch deren emotionale und kulturelle Dimension erschlossen. Seine Auseinandersetzung mit der Zwangsaussiedlung zeigt, wie eng der Name Pilz mit dem Schicksal des Protestantismus in Österreich verknüpft ist. Ob als „Landler” in Siebenbürgen oder als „Geheimprotestant” in Goisern – die Familie Pilz steht für den Typus des widerstandsfähigen, qualifizierten Arbeiters, der sich weder durch schwierige Arbeitsbedingungen noch durch obrigkeitlichen Druck brechen ließ.</p>
+
+<p>Die „Sachsen” im Salzkammergut sind keine Legende. Sie sind in den Kirchenbüchern, in den technischen Denkmälern (Soleleitungen, Stollen) und vor allem in den Namen der Menschen, die heute dort leben, präsent. Der Name Pilz ist eines der dauerhaftesten Zeugnisse dieser sächsischen Einwanderung.</p>
+
+<hr />
+
+<blockquote>
+  <p><strong>Anmerkung zur Quellenlage:</strong>
+Diese Ausarbeitung basiert auf der Analyse historischer Dokumente, genealogischer Datenbanken und der Publikationen des Heimatvereins Bad Goisern sowie des OÖ. Musealvereins. Besonderes Augenmerk wurde auf die Übereinstimmung der lokalen mündlichen Überlieferung (repräsentiert durch Karl Pilz) mit den größeren historischen Daten der Bergbaugeschichte gelegt. Alle spezifischen Angaben sind durch die entsprechenden Quellen verifiziert.</p>
+</blockquote>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">DNA-Auswertungen (externe Darstellung)</title><link href="http://localhost:4000/bonusseite/analysen/dna/2025/11/04/dna-auswertung.html" rel="alternate" type="text/html" title="DNA-Auswertungen (externe Darstellung)" /><published>2025-11-04T00:00:00+01:00</published><updated>2025-11-04T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/analysen/dna/2025/11/04/dna-auswertung</id><content type="html" xml:base="http://localhost:4000/bonusseite/analysen/dna/2025/11/04/dna-auswertung.html"><![CDATA[<p>In Ergänzung zur <strong>Pilz-Chronik</strong> dokumentiere ich hier die Ergebnisse meiner genetischen Genealogie (FamilyTreeDNA, Kit 330595). Die Auswertung hilft, die in den Quellen sichtbaren Wanderungen und Herkunftsräume genetisch abzusichern – sie ersetzt die archivalischen Belege aber nicht.</p>
+
+<p><strong>Was wurde untersucht?</strong></p>
+
+<ol>
+  <li><strong>Y-DNA (väterliche Linie)</strong>
+    <ul>
+      <li>terminale Haplogruppe: <strong>J-FT159612</strong></li>
+      <li>gehört zum seltenen Balkan/Mittel­europa-Zweig von J2 (ursprünglich Naher Osten)</li>
+      <li>die Linie setzt spätestens in der europäischen Eisenzeit ein (ca. 1. Jahrtausend v. Chr.)</li>
+    </ul>
+  </li>
+  <li><strong>mtDNA (mütterliche Linie)</strong>
+    <ul>
+      <li>Haplogruppe: <strong>H41a9</strong></li>
+      <li>sehr seltener Zweig der in Europa häufigen H-Gruppe</li>
+      <li>entstanden vermutlich um <strong>1000 n. Chr.</strong> im mittel-/südosteuropäischen Raum</li>
+    </ul>
+  </li>
+  <li><strong>Autosomale DNA (Family Finder)</strong>
+    <ul>
+      <li>Schwerpunkt der Verwandtschaft in <strong>Mitteleuropa</strong></li>
+      <li>deutliche Anteile einer <strong>aschkenasisch-mitteleuropäischen</strong> Bevölkerungsgruppe (Böhmen – Deutschland – Österreich)</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Diese drei Ergebnisse zusammen ergeben ein stimmiges Bild: alte Linien aus dem Nahen Osten und der Bronzezeit gelangen über den Balkan nach Mitteleuropa und sind in historischer Zeit in den mitteleuropäischen, teils jüdischen Populationen wiederzufinden.</p>
+
+<p>👉 Die <strong>vollständige, ausführliche Fassung</strong> mit Stammbäumen, Zeitlinien, Erwähnung des Fundes <em>Ravna 15546</em> (römisches Serbien) und der mtDNA-Vergleiche ist hier zu lesen:</p>
+
+<p><strong><a href="/bonusseite/dna-analyse.html">Zur ausführlichen DNA-Auswertung</a></strong></p>
+
+<p><em>Hinweis:</em> Die genetischen Ergebnisse sind eine Ergänzung zur Chronik. Jede genealogische Aussage bleibt durch die schriftlichen Quellen der Bände 1 und 2 abzusichern.</p>]]></content><author><name></name></author><category term="analysen" /><category term="dna" /><summary type="html"><![CDATA[In Ergänzung zur Pilz-Chronik dokumentiere ich hier die Ergebnisse meiner genetischen Genealogie (FamilyTreeDNA, Kit 330595). Die Auswertung hilft, die in den Quellen sichtbaren Wanderungen und Herkunftsräume genetisch abzusichern – sie ersetzt die archivalischen Belege aber nicht.]]></summary></entry><entry><title type="html">Zur Verwendung von KI-generierten Texten auf dieser Website</title><link href="http://localhost:4000/bonusseite/analysen/2025/11/03/verwendung-von-ki-unterstuetzung.html" rel="alternate" type="text/html" title="Zur Verwendung von KI-generierten Texten auf dieser Website" /><published>2025-11-03T00:00:00+01:00</published><updated>2025-11-03T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/analysen/2025/11/03/verwendung-von-ki-unterstuetzung</id><content type="html" xml:base="http://localhost:4000/bonusseite/analysen/2025/11/03/verwendung-von-ki-unterstuetzung.html"><![CDATA[<style>
+  .status-box {
+    background-color: #f9f9f9;
+    border-left: 4px solid #999;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 0.95em;
+  }
+  .status-label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+  }
+</style>
+
+<div class="status-box">
+  <span class="status-label">STATUS: ENTWURF / KI-UNTERSTÜTZT</span>
+  Dieser Beitrag dient als interne Gedankenstütze und Arbeitsgrundlage. 
+  Inhalte und Daten sind noch nicht final quellenkritisch gesichert.
+</div>
+<p>zu verbinden.<br />
+Artikel, bei denen KI geholfen hat, sind auf dieser Website entsprechend <strong>gekennzeichnet</strong>.</p>
+
+<hr />
+
+<h4 id="vorsicht-bei-ki-sprache">Vorsicht bei „KI-Sprache“</h4>
+
+<p>Allerdings gibt es dabei ein weiteres Problem, vor dem ich <strong>warnen möchte</strong>:<br />
+Gerade bei Texten, die von <em>Gemini</em> stammen, ist die Sprache oft <strong>unnötig aufgeblasen</strong>.<br />
+Sie täuscht eine Gründlichkeit und Tiefe vor, die der tatsächliche Inhalt nicht immer hat.<br />
+Die Formulierungen klingen wichtig, aber bei genauerer Prüfung zeigt sich oft:<br />
+Der Inhalt trägt weniger, als die Wortwahl vermuten lässt.</p>
+
+<p>Dieser Unterschied zwischen <strong>Worten und Inhalt</strong> verlangt, dass man <strong>genau hinschaut</strong>.<br />
+Jede Angabe muss im <strong>Original</strong> überprüft werden.<br />
+KI-Analysen können nützliche Hinweise liefern – aber sie sind <strong>keine fertige Wahrheit</strong>.<br />
+Sie sind höchstens eine <strong>Arbeitsgrundlage</strong>, die sorgfältig geprüft werden sollte.</p>
+
+<blockquote>
+  <p><strong>Hinweis:</strong> Wo Sie den Vermerk <em>„KI-generiert“</em> finden, lesen Sie bitte besonders kritisch.</p>
+</blockquote>
+
+<hr />
+
+<h4 id="warum-ich-solche-texte-trotzdem-veröffentliche">Warum ich solche Texte trotzdem veröffentliche</h4>
+
+<p>Vielleicht fragt sich mancher, warum ich solche Beiträge <strong>trotz dieser Mängel</strong> manchmal ungefiltert hochlade.<br />
+Das tue ich nicht nur für meine eigenen Notizen, sondern auch <strong>für interessierte Leserinnen und Leser</strong>.<br />
+Sie finden darin vielleicht neue Ansätze oder Funde – doch eben darum gilt die Warnung am Anfang.</p>
+
+<p>Der Hauptgrund für dieses Vorgehen ist <strong>Zeitmangel</strong>.<br />
+Mit meinen <strong>77 Jahren</strong> habe ich die Sorge, dass wertvolle Ansätze verloren gehen,<br />
+wenn ich sie nicht sofort festhalte – auch wenn sie noch ungeprüft sind.</p>
+
+<p>Ich lade sie hoch, weil ich glaube,<br />
+dass manche dieser Funde es <strong>wert sind, erhalten zu bleiben</strong>,<br />
+und dass man ihnen <strong>weiter nachgehen sollte</strong>.</p>
+
+<p>Die Rohfassung ist für mich daher eine Art</p>
+<blockquote>
+  <p><strong>öffentliches Notizbuch</strong>,<br />
+das den Stand der Suche sichert, bevor die Zeit dafür abläuft.</p>
+</blockquote>]]></content><author><name></name></author><category term="Analysen" /><summary type="html"><![CDATA[Hinweis: Verwendung KI unterstützt erstellter Beiträge; Beweissicherung; Warnhinweise beachten;]]></summary></entry><entry><title type="html">Analyse der Stammlinie Piltz/Pültz (Dörnthal – Olbernhau)</title><link href="http://localhost:4000/bonusseite/ahnenforschung/sachsen/2025/11/01/piltz-pueltz-analyse.html" rel="alternate" type="text/html" title="Analyse der Stammlinie Piltz/Pültz (Dörnthal – Olbernhau)" /><published>2025-11-01T00:00:00+01:00</published><updated>2025-11-01T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/ahnenforschung/sachsen/2025/11/01/piltz-pueltz-analyse</id><content type="html" xml:base="http://localhost:4000/bonusseite/ahnenforschung/sachsen/2025/11/01/piltz-pueltz-analyse.html"><![CDATA[<style>
+  .status-box {
+    background-color: #f9f9f9;
+    border-left: 4px solid #999;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 0.95em;
+  }
+  .status-label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+  }
+</style>
+
+<div class="status-box">
+  <span class="status-label">STATUS: ENTWURF / KI-UNTERSTÜTZT</span>
+  Dieser Beitrag dient als interne Gedankenstütze und Arbeitsgrundlage. 
+  Inhalte und Daten sind noch nicht final quellenkritisch gesichert.
+</div>
+<hr />
+
+<p>Die Auswertung des PDFs <strong>„Piltz_Pueltz-Genealogie_Analyse-und-Forschung.pdf“</strong> fasst die sächsische Stammlinie über acht Generationen zusammen – von <strong>Michael Piltz (†1565, mutmaßlich Frauenstein)</strong> über <strong>Jobst Piltz (Richter/Erbrichter in Dörnthal)</strong> bis zu <strong>Carl Gottlob Pilz (1738, Niederneuschönberg)</strong>.<br />
+Auffällig ist der soziale Wandel: vom dörflichen Erbgericht hin zu spezialisierten Handwerks- und Musikberufen im Umfeld von Olbernhau und der Saigerhütte.</p>
+
+<p>Wesentliche Punkte:</p>
+
+<ol>
+  <li>
+    <p><strong>Namensvarianten</strong><br />
+Die Formen <em>Bueltz</em> – <em>Pültz</em> – <em>Piltz</em> sind als <strong>eine</strong> Familie zu lesen. Für frühe Archivrecherchen (vor 1600) muss daher auch nach „Bueltz“ gesucht werden.</p>
+  </li>
+  <li>
+    <p><strong>Witwe-Pilzin-Fall (1575)</strong><br />
+Die im Gutachten rekonstruierte Auseinandersetzung passt zeitlich exakt zu einem Erb-/Altteil-Konflikt nach dem Tod von Michael Piltz (1565). Die Quelle ist im <strong>Gerichtsbuch Dörnthal</strong> bzw. im <strong>Amt Lauterstein</strong> zu erwarten.</p>
+  </li>
+  <li>
+    <p><strong>Böhmischer Bezug</strong><br />
+Der Böhmen-Kontakt kommt über eine <strong>eingeheiratete</strong> Familie (Brandau → Olbernhau), nicht über die Piltz-Linie selbst.</p>
+  </li>
+  <li>
+    <p><strong>Tirol-Hypothese</strong><br />
+In den vorliegenden Unterlagen <strong>nicht belegt</strong>; bis zum Archivnachweis als Arbeitshypothese zu behandeln.</p>
+  </li>
+</ol>]]></content><author><name>Wolfgang Pilz</name></author><category term="Ahnenforschung" /><category term="Sachsen" /><summary type="html"><![CDATA[Konsolidierter Forschungsstand zur sächsischen Linie Piltz/Pültz (Dörnthal → Olbernhau → Niederneuschönberg) und Deutung des Witwe-Pilzin-Falls von 1575 auf Basis des PDF-Gutachtens.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bonusseite/assets/images/doernthal-karte.jpg" /><media:content medium="image" url="http://localhost:4000/bonusseite/assets/images/doernthal-karte.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Die Herkunft des deutschen Familiennamens Pilz (Bueltz – Pültz – Piltz)</title><link href="http://localhost:4000/bonusseite/namenskunde/erg%C3%A4nzungen/2025/11/01/Namensherkunft-Pilz.html" rel="alternate" type="text/html" title="Die Herkunft des deutschen Familiennamens Pilz (Bueltz – Pültz – Piltz)" /><published>2025-11-01T00:00:00+01:00</published><updated>2025-11-01T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/namenskunde/erg%C3%A4nzungen/2025/11/01/Namensherkunft-Pilz</id><content type="html" xml:base="http://localhost:4000/bonusseite/namenskunde/erg%C3%A4nzungen/2025/11/01/Namensherkunft-Pilz.html"><![CDATA[<style>
+  .status-box {
+    background-color: #f9f9f9;
+    border-left: 4px solid #999;
+    padding: 15px;
+    margin-bottom: 30px;
+    color: #444;
+    font-size: 0.95em;
+  }
+  .status-label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 6px;
+    letter-spacing: 0.5px;
+  }
+</style>
+
+<div class="status-box">
+  <span class="status-label">Status: Entwurf / KI-unterstützt</span>
+  Dieser Beitrag dient als Arbeitsgrundlage. Inhalte und Deutungen sind noch nicht
+  vollständig quellenkritisch abgesichert und können sich mit neuen Archivfunden ändern.
+</div>
+
+<h1 id="die-herkunft-des-deutschen-familiennamens-pilz-und-seiner-varianten">Die Herkunft des deutschen Familiennamens Pilz und seiner Varianten</h1>
+
+<p>Der deutsche Familienname <strong>Pilz</strong> gehört zu einer alten Gruppe mitteleuropäischer Berufs- und Übernamen.<br />
+Er ist sprachhistorisch gut erklärbar und lässt sich über mehrere Jahrhunderte hinweg in unterschiedlichen Schreibvarianten nachweisen. Die Formen <strong>Bueltz</strong>, <strong>Pültz</strong>, <strong>Piltz</strong> und <strong>Pilz</strong> sind keine voneinander unabhängigen Namen, sondern Ergebnisse regionaler Aussprache, dialektaler Lautentwicklung und fehlender orthographischer Standardisierung.</p>
+
+<hr />
+
+<h2 id="1-sprachliche-wurzeln">1. Sprachliche Wurzeln</h2>
+
+<p>Der Name geht auf das mittelhochdeutsche Wort <strong>bülz / bülez</strong> zurück, das „Pilz“ bedeutet.<br />
+Dieses wiederum ist aus dem lateinischen <em>boletus</em> (Steinpilz) entlehnt, dessen Übernahme in den germanischen Sprachraum bereits in frühmittelalterlicher Zeit erfolgte.</p>
+
+<p>Die Entwicklung lässt sich vereinfacht wie folgt darstellen:</p>
+
+<ul>
+  <li>Lateinisch: <em>boletus</em></li>
+  <li>Althochdeutsch: <em>buliz</em></li>
+  <li>Mittelhochdeutsch: <em>bülez</em> / <em>bülz</em></li>
+  <li>Neuhochdeutsch: <em>Pilz</em></li>
+</ul>
+
+<p>Der Übergang von <em>u</em> zu <em>ü</em> ist Folge des <strong>i-Umlauts</strong>, der im Frühmittelalter wirksam wurde.<br />
+Die spätere Entrundung von <em>ü</em> zu <em>i</em> ist ein regionaler dialektaler Prozess, insbesondere in ober- und mitteldeutschen Gebieten.</p>
+
+<hr />
+
+<h2 id="2-bedeutungsgehalt-des-namens">2. Bedeutungsgehalt des Namens</h2>
+
+<p>Der Familienname Pilz ist in erster Linie als <strong>Berufsname</strong> zu verstehen.<br />
+Er bezeichnete ursprünglich Personen, die Pilze sammelten oder handelten – ein durchaus relevantes Tätigkeitsfeld in vorindustriellen Gesellschaften.</p>
+
+<p>Daneben sind sekundäre Deutungen möglich:</p>
+<ul>
+  <li>Übername für Personen mit bestimmten äußeren Merkmalen</li>
+  <li>Bezeichnung für Bewohner pilzreicher Waldgebiete</li>
+</ul>
+
+<p>Diese Nebenbedeutungen sind jedoch deutlich schwächer belegt als die berufliche Herkunft.</p>
+
+<hr />
+
+<h2 id="3-entwicklung-der-schreibweisen">3. Entwicklung der Schreibweisen</h2>
+
+<h3 id="31-bueltz--bültz--pültz">3.1 Bueltz / Bültz / Pültz</h3>
+
+<p>Die Schreibweise <strong>Bueltz</strong> ist eine ältere Form vor der Einführung der heutigen Umlautzeichen.<br />
+Das „ue“ steht hier für ein umgelautetes <em>ü</em>. Varianten wie <strong>Bültz</strong> oder <strong>Pültz</strong> sind phonetisch gleichwertig.</p>
+
+<h3 id="32-b---p-wechsel">3.2 B- / P-Wechsel</h3>
+
+<p>Der Wechsel zwischen <strong>B</strong> und <strong>P</strong> am Wortanfang ist typisch für deutsche Dialekte und beruht auf der sogenannten <strong>Fortis-/Lenis-Variation</strong>.<br />
+In einigen Regionen wurde der Laut eher weich (b), in anderen härter (p) gesprochen. Beide Schreibweisen konnten nebeneinander bestehen.</p>
+
+<h3 id="33-piltz--pilz">3.3 Piltz / Pilz</h3>
+
+<p>Die Endungen <strong>-tz</strong> und <strong>-z</strong> geben denselben Laut wieder (/ts/).<br />
+Ihre Verwendung war vor der Rechtschreibstandardisierung uneinheitlich. Familiennamen konservierten diese Unterschiede dauerhaft.</p>
+
+<hr />
+
+<h2 id="4-zeitliche-einordnung">4. Zeitliche Einordnung</h2>
+
+<ul>
+  <li><strong>12.–15. Jahrhundert:</strong> Entstehung des Namens als Berufsname</li>
+  <li><strong>16. Jahrhundert:</strong> Erste archivalische Belege der Formen Bueltz / Bültz</li>
+  <li><strong>17.–19. Jahrhundert:</strong> zunehmende Vereinheitlichung zu Piltz und Pilz</li>
+  <li><strong>Neuzeit:</strong> Koexistenz mehrerer Schreibweisen als eigenständige Familiennamen</li>
+</ul>
+
+<p>Für Forschungen <strong>vor 1600</strong> ist es daher unerlässlich, auch nach den Varianten <strong>Bueltz</strong>, <strong>Bültz</strong> und <strong>Pültz</strong> zu suchen.</p>
+
+<hr />
+
+<h2 id="5-geografische-verteilung">5. Geografische Verteilung</h2>
+
+<p>Historische und moderne Namensverteilungen zeigen Schwerpunkte in:</p>
+<ul>
+  <li>Sachsen und Schlesien</li>
+  <li>Bayern und Österreich</li>
+</ul>
+
+<p>Diese Verteilung passt gut zu bekannten Wanderungsbewegungen zwischen dem Erzgebirge, Böhmen und dem Alpenraum.</p>
+
+<hr />
+
+<h2 id="6-kritische-hinweise-zur-quellenlage">6. Kritische Hinweise zur Quellenlage</h2>
+
+<p>Einzelne im Internet kursierende Behauptungen zu sehr frühen Nennungen (z. B. vor dem 12. Jahrhundert) sind derzeit <strong>nicht quellenmäßig abgesichert</strong>.<br />
+Solche Angaben sollten erst dann übernommen werden, wenn eine konkrete Primärquelle (Ort, Archiv, Signatur) benannt werden kann.</p>
+
+<hr />
+
+<h2 id="7-zusammenfassung">7. Zusammenfassung</h2>
+
+<p>Der Familienname <strong>Pilz</strong> ist ein sprachlich gut erklärbarer, mittelalterlicher Berufsname.<br />
+Die Varianten <strong>Bueltz</strong>, <strong>Pültz</strong>, <strong>Piltz</strong> und <strong>Pilz</strong> dokumentieren unterschiedliche Stadien der deutschen Laut- und Schriftentwicklung. Sie sind genealogisch zusammengehörig, auch wenn sie heute als eigenständige Familiennamen erscheinen.</p>
+
+<p>Für die historische Familienforschung ist entscheidend, diese Varianten stets gemeinsam zu berücksichtigen und ihre regionale Einbettung mitzudenken.</p>]]></content><author><name>Wolfgang Pilz</name></author><category term="Namenskunde" /><category term="Ergänzungen" /><summary type="html"><![CDATA[Der Familienname Pilz geht auf mittelhochdeutsch bülz/bülez zurück und bezeichnet ursprünglich einen Sammler oder Händler von Speisepilzen. Die Varianten Bueltz, Pültz, Piltz und Pilz spiegeln dialektale und orthographische Entwicklungen zwischen dem 12. und 19. Jahrhundert.]]></summary></entry><entry><title type="html">Identifizierung bestätigt: Vinzenz und Franziska Pilz</title><link href="http://localhost:4000/bonusseite/ahnenforschung/forensik/2025/10/30/identifizierung-vinzenz-und-franziska-pilz.html" rel="alternate" type="text/html" title="Identifizierung bestätigt: Vinzenz und Franziska Pilz" /><published>2025-10-30T00:00:00+01:00</published><updated>2025-10-30T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/ahnenforschung/forensik/2025/10/30/identifizierung-vinzenz-und-franziska-pilz</id><content type="html" xml:base="http://localhost:4000/bonusseite/ahnenforschung/forensik/2025/10/30/identifizierung-vinzenz-und-franziska-pilz.html"><![CDATA[<style>
+  .status-box {
+    background-color: #f9f9f9;
+    border-left: 4px solid #999;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 0.95em;
+  }
+  .status-label {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #666;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+  }
+</style>
+
+<div class="status-box">
+  <span class="status-label">STATUS: ENTWURF / KI-UNTERSTÜTZT</span>
+  Dieser Beitrag dient als interne Gedankenstütze und Arbeitsgrundlage. 
+  Inhalte und Daten sind noch nicht final quellenkritisch gesichert.
+</div>
+<hr />
+
+<h3 id="-forensische-identitätsbestätigung-unserer-urgroßeltern">🧬 Forensische Identitätsbestätigung unserer Urgroßeltern</h3>
+
+<p>Nach mehreren unabhängigen KI-Analysen konnte ein anfänglicher Verdacht nun mit hoher Wahrscheinlichkeit bestätigt werden:<br />
+Das auf einer alten Atelieraufnahme abgebildete Ehepaar zeigt tatsächlich <strong>Vinzenz Pilz (1830–1883)</strong> und <strong>Franziska Maria Anna Pilz, geb. Gahler (1844–1921)</strong> – die Urgroßeltern unserer Familie.</p>
+
+<p>Die drei Analysen (<em>Gemini</em>, <em>Manus AI</em> und <em>ChatGPT</em>) führten übereinstimmend zu folgenden Ergebnissen:</p>
+
+<ul>
+  <li>Das <strong>Alter</strong> der abgebildeten Personen passt exakt zu Vinzenz’ und Franziskas Lebensdaten (Aufnahmezeit ca. 1875–1880).</li>
+  <li>Das Foto stammt aus dem Atelier <strong>G. Greiner, Komotau/Weipert</strong>, wo Vinzenz nachweislich als Förster tätig war.</li>
+  <li>Die <strong>morphologischen Merkmale</strong> der Frau (Gesichtsform, Nasenprofil, Augenabstand) stimmen mit einer späteren Aufnahme überein, die sie um 1913 mit ihren Enkeln zeigt.</li>
+  <li>Die Frau auf beiden Fotos ist somit mit über <strong>90 % Wahrscheinlichkeit identisch</strong> – sie ist Franziska Pilz.</li>
+  <li>Der Mann auf dem Atelierfoto entspricht in Alter, Statur und regionalem Kontext <strong>Vinzenz Pilz</strong>, verstorben 1883.</li>
+</ul>
+
+<p>Diese unabhängigen Befunde ergeben eine geschlossene Argumentationskette.<br />
+Das Foto darf daher mit hoher Sicherheit als authentisches Porträt der Urgroßeltern gelten.</p>
+
+<hr />
+
+<h3 id="-bestätigtes-foto-vinzenz-und-franziska-pilz-geb-gahler">📸 Bestätigtes Foto: Vinzenz und Franziska Pilz (geb. Gahler)</h3>
+<p><em>(Atelier G. Greiner, Komotau/Weipert, ca. 1875–1880)</em></p>
+
+<p><img src="/bonusseite/assets/images/vinzenz-und-franziska-pilz.jpg" alt="Vinzenz und Franziska Pilz" /></p>
+
+<hr />
+
+<p><strong>Quellen:</strong></p>
+<ul>
+  <li>Familienbericht <em>Vinzenz Pilz – Franziska Gahler</em></li>
+  <li>Forensische Gutachten <em>Gemini (2025)</em>, <em>Manus AI (2025)</em>, <em>ChatGPT Analyse (2025)</em></li>
+  <li><em>Pilz-Chronik</em>, Band 1 (S. 82–90) und Band 2 (S. 23–25)</li>
+</ul>
+
+<hr />
+
+<p>💡 <em>Hinweis:</em><br />
+Das Originalfoto stammt aus dem privaten Familienalbum (ohne Beschriftung).<br />
+Durch die neuen Analysen konnte es nun erstmals eindeutig zugeordnet werden.</p>]]></content><author><name>Wolfgang Pilz</name></author><category term="Ahnenforschung" /><category term="Forensik" /><summary type="html"><![CDATA[Forensische Analysen bestätigen: Das bisher unbeschriftete Atelierfoto zeigt mit hoher Wahrscheinlichkeit Vinzenz Pilz (1830–1883) und Franziska Pilz, geb. Gahler (1844–1921) – die Urgroßeltern unserer Familie.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/bonusseite/assets/images/Vinzenz-und-Franziska-Pilz.jpg" /><media:content medium="image" url="http://localhost:4000/bonusseite/assets/images/Vinzenz-und-Franziska-Pilz.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

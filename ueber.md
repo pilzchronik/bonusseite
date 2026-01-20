@@ -25,3 +25,10 @@ permalink: /ueber/
 <p>
   Sie ersetzt nicht die Chronik, sondern erweitert sie punktuell dort, wo neue Erkenntnisse sinnvoll sind.
 </p>
+
+<hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+
+<p>
+  <strong>Hinweis zur Chat-Assistenz:</strong><br>
+  Diese Seite bietet versuchsweise eine KI-gestützte Suchassistenz (Chatling) an. Der Dienst läuft in einer kostenlosen Testversion mit dem GPT-4o mini Modell, das aufgrund niedrigerer Kosten pro Anfrage (0,5 Token statt 2,5 bei leistungsfähigeren Modellen) gewählt wurde. Dies kann zu Qualitätseinschränkungen in der Antwortgenauigkeit führen. Die Gratisversion unterliegt zudem Kapazitätsgrenzen. Der Chat-Assistent ist als experimentelles Hilfsmittel gedacht und ersetzt nicht die direkte Nutzung der Website-Inhalte.
+</p>
