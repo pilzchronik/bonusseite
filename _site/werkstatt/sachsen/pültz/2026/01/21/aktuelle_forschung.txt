@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Daran arbeite ich aktuell | Pilz-Chronik Bonusseite</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Daran arbeite ich aktuell" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Status quo &amp; Roadmap: Daran arbeite ich aktuell" />
+<meta property="og:description" content="Status quo &amp; Roadmap: Daran arbeite ich aktuell" />
+<link rel="canonical" href="http://localhost:4000/bonusseite/werkstatt/sachsen/p%C3%BCltz/2026/01/21/aktuelle_forschung.txt" />
+<meta property="og:url" content="http://localhost:4000/bonusseite/werkstatt/sachsen/p%C3%BCltz/2026/01/21/aktuelle_forschung.txt" />
+<meta property="og:site_name" content="Pilz-Chronik Bonusseite" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-21T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Daran arbeite ich aktuell" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-01-21T00:00:00+01:00","datePublished":"2026-01-21T00:00:00+01:00","description":"Status quo &amp; Roadmap: Daran arbeite ich aktuell","headline":"Daran arbeite ich aktuell","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/bonusseite/werkstatt/sachsen/p%C3%BCltz/2026/01/21/aktuelle_forschung.txt"},"url":"http://localhost:4000/bonusseite/werkstatt/sachsen/p%C3%BCltz/2026/01/21/aktuelle_forschung.txt"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/bonusseite/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/bonusseite/feed.xml" title="Pilz-Chronik Bonusseite" /></head>
+<body><header class="site-header" role="banner">
+  <div class="wrapper">
+    <!-- Titel ganz oben, zentriert -->
+    <div style="text-align: center; padding: 12px 0 8px 0; border-bottom: 1px solid #e8e8e8;">
+      <a style="font-size: 1.8em; font-weight: 500; color: #2a5d8f; text-decoration: none;" 
+         rel="author" href="/bonusseite/">Pilz-Chronik Bonusseite</a>
+    </div>
+    
+    <!-- Logo und Navigation -->
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 0 5px 0;">
+      <!-- Logo links -->
+      <a href="/bonusseite/" style="flex: 0 0 auto;">
+        <img src="/bonusseite/assets/images/pilz_logo.svg" 
+             alt="Pilz-Chronik Logo" 
+             style="width: 65px; height: 65px; display: block;">
+      </a>
+      
+      <!-- Navigation rechts -->
+      <nav class="site-nav" style="flex: 0 0 auto;">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/bonusseite/">Startseite</a><a class="page-link" href="/bonusseite/stammbaum/">Stammbaum</a><a class="page-link" href="/bonusseite/werkstatt/">Aktuelles &amp; Themen</a><a class="page-link" href="/bonusseite/orte/">Orte</a><a class="page-link" href="/bonusseite/zeitleiste/">Zeitleiste</a><a class="page-link" href="/bonusseite/quellen/">Quellen</a></div>
+      </nav>
+    </div>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Daran arbeite ich aktuell</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2026-01-21T00:00:00+01:00" itemprop="datePublished">Jan 21, 2026
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    ## Status quo & Roadmap: Daran arbeite ich aktuell
+
+Nach der aktuellen Quellenanalyse und der Bereinigung früherer Fehler schließe ich jetzt die letzten entscheidenden Lücken der Chronik **ausschließlich über Primärquellen**. Spekulationen fliegen raus, belastbare Fakten haben Vorrang.
+
+## 1. Sofortmaßnahme: „Quick Win“ in Innsbruck
+
+**Grund:** Aus dem Schreiben vom **12.01.2026** ergibt sich eine neue, konkrete Spur. Der Akt ist vor Ort frei einsehbar.
+
+1. **Ziel:** Einsicht in den Personalakt von **Anton Alois Pilz** (*25.08.1909).
+2. **Warum:** Das Landesarchiv hat bestätigt, dass **keine Entnazifizierungsakte** vorliegt, aber ein **umfangreicher Personalakt der Finanzlandesdirektion** existiert, der die Prüfung einer möglichen Belastung im Nationalsozialismus dokumentiert.
+3. **Ort:** Tiroler Landesarchiv, Michael-Gaismair-Straße 1, Innsbruck.
+4. **Aktion:** Keine Anmeldung nötig. Ich fordere den Akt unter der Signatur **TLA, Finanzlandesdirektion, Personal 4415 Pilz Alois** an.
+
+## 2. Die Causa „Bechinie“ (Priorität 1)
+
+Das ist der wichtigste offene Punkt: **Kann die „Jäger-Linie“ zum Uradel bewiesen werden – oder muss sie endgültig verworfen werden?** Dafür stehen drei konkrete Arbeitsschritte an:
+
+### 2.1 Verifikation in Zvěstov
+Ich prüfe im **SOA Praha** (Buch **Šlapánov 02**) den **Original-Taufeintrag von Mai 1735**.  
+Wenn der Sohn *Philippus* des Jägers *Carolus* dort tatsächlich eingetragen ist, wird die direkte Linie erstmals sauber greifbar.
+
+### 2.2 Verlassenschaftsakte 1819
+Ich fordere im Archiv **Třeboň** die Akten zum Nachlass von **Philipp Bechinie** (Herrschaft **Schlüsselburg**) an.  
+Das ist derzeit die **einzige** Quelle, die seinen **Geburtsort ausdrücklich** nennen könnte – ohne Umwege über Namensähnlichkeiten.
+
+### 2.3 „Australien-Beweis“
+Ich warte auf die Transkription des **Geburtsregisters von 1857**. Sie soll klären, ob der **Adelstitel** bereits **vor der Auswanderung in Preußen** geführt wurde oder ob er erst später **reaktiviert** wurde.
+
+## 3. Die sächsische Stammlinie (Pilz/Pültz)
+
+Die Linie **vor 1712** ist plausibel, aber noch nicht lückenlos belegt. Um den Anschluss an das **16. Jahrhundert** belastbar zu sichern, werte ich aus:
+
+1. die **Kirchenbücher von Dörnthal** und  
+2. die **Gerichtsbücher von Sayda**.
+
+Nur so lässt sich beweisen, dass **Abraham Piltz** zweifelsfrei der Sohn von **Jobst Piltz** ist.
+
+## 4. Offene Fragen der Nebenlinien
+
+### 4.1 Jüdische Abstammung
+Ich suche im **Diözesanarchiv Prag** nach der **bischöflichen Heiratsbewilligung** für **Philipp** und **Theresia (Pessel)**. Ziel: belastbare Angaben zu Herkunft und zur amtlichen Klärung der Scheidung der ersten Ehe (Stichwort „Get“).
+
+### 4.2 Alois Vjekoslav Pilz
+Sein **Geburtsort** (nicht Komotau) und sein **Sterbeort in Kroatien** müssen noch durch **Matrikeneinträge** verifiziert werden.
+
+---
+
+**Zurückgestellt** sind derzeit Hypothesen wie die älteste **Eberstaller-Verbindung** oder mittelalterliche Theorien (z. B. *Jan z Krakovce*).  
+Mein Fokus liegt jetzt ausschließlich auf **harten Belegen**, um den Status der Familiengeschichte Schritt für Schritt von **„rekonstruiert“** zu **„bewiesen“** zu heben.
+  </div><a class="u-url" href="/bonusseite/werkstatt/sachsen/p%C3%BCltz/2026/01/21/aktuelle_forschung.txt" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <div class="wrapper" style="padding: 40px 0; text-align: center; border-top: 1px solid #e8e8e8; margin-top: 60px;">
+    
+    <div style="margin-bottom: 20px;">
+      <a href="/bonusseite/ueber/" style="color: #666; text-decoration: none; margin: 0 15px;">Über diese Seite</a>
+      <span style="color: #ccc;">|</span>
+      <a href="/bonusseite/impressum/" style="color: #666; text-decoration: none; margin: 0 15px;">Impressum</a>
+    </div>
+
+    <div style="font-size: 0.85em; color: #999;">
+      &copy; 2026 Pilz-Chronik Bonusseite
+      <span style="margin: 0 5px;">•</span> 
+      
+      <span id="kontakt-placeholder">Wird geladen...</span>
+
+      <script>
+        // Wir zerlegen die Adresse, damit Bots sie nicht finden
+        var teil1 = "pilz";
+        var teil2 = "gmx.at";
+        var linkText = teil1 + "@" + teil2;
+        
+        // Das Skript baut den Link erst im Browser zusammen
+        document.getElementById("kontakt-placeholder").innerHTML = 
+          '<a href="mailto:' + linkText + '" style="color: #999; text-decoration: none;">' + linkText + '</a>';
+      </script>
+      
+      <noscript>
+        pilz (at) gmx.at
+      </noscript>
+
+    </div>
+
+  </div>
+<script> window.chtlConfig = { chatbotId: "1593533597" } </script>
+<script async data-id="1593533597" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+</footer>
+</body>
+
+</html>
