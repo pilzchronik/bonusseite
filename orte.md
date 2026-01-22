@@ -123,6 +123,41 @@ permalink: /orte/
     margin-bottom: 10px; 
     color: #333; 
   }
+  
+  /* Tabellenstil für Ortsübersicht */
+  .orte-tabelle {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+  }
+  .orte-tabelle th {
+    background: #2a5d8f;
+    color: white;
+    padding: 12px 10px;
+    text-align: left;
+    font-weight: 600;
+  }
+  .orte-tabelle td {
+    padding: 10px;
+    border-bottom: 1px solid #e9ecef;
+    vertical-align: top;
+  }
+  .orte-tabelle tr:hover {
+    background: #f8f9fa;
+  }
+  .orte-tabelle .ort-name {
+    font-weight: 600;
+    color: #333;
+  }
+  .orte-tabelle .ort-beschreibung {
+    color: #666;
+    font-size: 0.9em;
+  }
+  .linie-pilz { border-left: 4px solid #e74c3c; }
+  .linie-eberstaller { border-left: 4px solid #3498db; }
+  .linie-tirol { border-left: 4px solid #2ecc71; }
+  .linie-zusammen { border-left: 4px solid #f39c12; }
 </style>
 
 <h1 style="color: #333; margin-bottom: 20px;">Orte & Herkunft</h1>
@@ -134,13 +169,12 @@ permalink: /orte/
   </p>
 </div>
 
-<h2 class="section-title">📍 Lebensorte (Karte)</h2>
+<h2 class="section-title">Lebensorte (Karte)</h2>
 
 <div class="sustainability-note">
-  <strong>ℹ️ Hinweis zur Nachhaltigkeit:</strong> Diese Karte verwendet OpenStreetMap – 
+  <strong>Hinweis zur Nachhaltigkeit:</strong> Diese Karte verwendet OpenStreetMap – 
   eine freie, community-betriebene Kartenlösung, die ohne kommerzielle API-Schlüssel 
-  funktioniert und langfristig verfügbar bleiben sollte. Die Karte funktioniert 
-  unabhängig von Google-Diensten.
+  funktioniert und langfristig verfügbar bleiben sollte.
 </div>
 
 <div id="map"></div>
@@ -179,34 +213,201 @@ permalink: /orte/
   </div>
 </div>
 
+<h2 class="section-title">Wichtige Orte der Familiengeschichte</h2>
+
+<h3 style="color: #e74c3c; margin-top: 30px;">Pilz-Linie (Sachsen/Böhmen)</h3>
+
+<table class="orte-tabelle">
+  <thead>
+    <tr>
+      <th>Ort</th>
+      <th>Koordinaten</th>
+      <th>Bedeutung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="linie-pilz">
+      <td class="ort-name">Dörnthal</td>
+      <td>50.7346° N, 13.3353° E</td>
+      <td class="ort-beschreibung">Ältester nachgewiesener Ursprung der Pilz-Linie. Pültz/Pilz (Jobst) als Richter und Gerichtsschöppe.</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Olbernhau</td>
+      <td>50.6564° N, 13.3441° E</td>
+      <td class="ort-beschreibung">Zentrum des Handwerks (Leinweber, Musiker). Siedlung böhmischer Exulanten in Niederneuschönberg.</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Rothenthal</td>
+      <td>50.6363° N, 13.3734° E</td>
+      <td class="ort-beschreibung">Geburtsort von Friedrich August Pilz. Ausgangspunkt der Migration nach Böhmen.</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Kallich (Kalek)</td>
+      <td>50.5782° N, 13.3224° E</td>
+      <td class="ort-beschreibung">Ankunftsort nach Migration. Tod von Johanna Sophia während Hungersnot (1772). Heirat Pilz/Reichl (1788).</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Schmiedeberg (Kovářská)</td>
+      <td>50.4382° N, 13.0538° E</td>
+      <td class="ort-beschreibung">Herkunftsort der Familie Hofmann (Schuhmacher, Drogist, Bildhauer). Wichtiger Ort für Bergbau.</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Weipert (Vejprty)</td>
+      <td>50.4922° N, 13.0315° E</td>
+      <td class="ort-beschreibung">Geburt des Großvaters Alois Johann (1876). Wichtige königliche Bergstadt an der sächsischen Grenze.</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Stolzenhain</td>
+      <td>50.4111° N, 12.9937° E</td>
+      <td class="ort-beschreibung">Zentraler Ort für die Förster-Generationen. Tod von Vinzenz Pilz (1883).</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Preßnitz (Přísečnice)</td>
+      <td>50.4778° N, 13.1251° E</td>
+      <td class="ort-beschreibung">Königliche Bergstadt, im 20. Jh. für Stausee überflutet. Ort des Grubenunglücks 1698.</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Kupferberg (Měděnec)</td>
+      <td>50.4213° N, 13.1169° E</td>
+      <td class="ort-beschreibung">Politische Tätigkeit von Vinzenz Wenzel Pilz im „katholisch-politischen Casino".</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Libeschitz</td>
+      <td>50.2937° N, 13.6216° E</td>
+      <td class="ort-beschreibung">Friedrich August Pilz wirkte hier als Lehrer bis zu seinem Tod. Zentrum des Saazer Hopfenanbaus.</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Amschelberg</td>
+      <td>49.6542° N, 14.4720° E</td>
+      <td class="ort-beschreibung">Taufe der jüdischen Vorfahrin Apollonia Jablotzki. Zentraler Ort der „Radetzky-Klammer".</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Helfenberg</td>
+      <td>48.5423° N, 14.1422° E</td>
+      <td class="ort-beschreibung">Dienstort als Oberförster. Ortsteil Waldshäuser ist Geburtsort des Vaters Alois Anton Pilz.</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Salzburg-Aigen</td>
+      <td>47.7861° N, 13.0877° E</td>
+      <td class="ort-beschreibung">Wohnort der Großeltern im Ruhestand auf dem Gut des Schlosses Aigen.</td>
+    </tr>
+    <tr class="linie-pilz">
+      <td class="ort-name">Kainisch</td>
+      <td>47.5704° N, 13.8432° E</td>
+      <td class="ort-beschreibung">Sterbeort von Großmutter Emma Pilz. Dienstort von Onkel Erhard Pilz als Oberförster.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 style="color: #3498db; margin-top: 40px;">Eberstaller-Linie (Oberösterreich)</h3>
+
+<table class="orte-tabelle">
+  <thead>
+    <tr>
+      <th>Ort</th>
+      <th>Koordinaten</th>
+      <th>Bedeutung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="linie-eberstaller">
+      <td class="ort-name">Wallern an der Trattnach</td>
+      <td>48.2139° N, 13.9351° E</td>
+      <td class="ort-beschreibung">Standort des Reichhofs. Ältester Ort der Eberstaller-Linie; außergewöhnliche Sesshaftigkeit (fast 300 Jahre).</td>
+    </tr>
+    <tr class="linie-eberstaller">
+      <td class="ort-name">Radstadt</td>
+      <td>47.3847° N, 13.4629° E</td>
+      <td class="ort-beschreibung">Gründung und späterer Niedergang der Eberstaller-Bäckerei.</td>
+    </tr>
+    <tr class="linie-eberstaller">
+      <td class="ort-name">Rott bei Salzburg</td>
+      <td>47.8303° N, 12.9956° E</td>
+      <td class="ort-beschreibung">Geburtsort des Großvaters Johann Eberstaller.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 style="color: #2ecc71; margin-top: 40px;">Tiroler Linie (Osttirol/Südtirol)</h3>
+
+<table class="orte-tabelle">
+  <thead>
+    <tr>
+      <th>Ort</th>
+      <th>Koordinaten</th>
+      <th>Bedeutung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="linie-tirol">
+      <td class="ort-name">Kartitsch (Petererhof)</td>
+      <td>46.7375° N, 12.4781° E</td>
+      <td class="ort-beschreibung">Standort des Petererhofs. Zentrum der Tiroler Linie. Geburtsort der Mutter- und Großmuttergeneration.</td>
+    </tr>
+    <tr class="linie-tirol">
+      <td class="ort-name">Sexten</td>
+      <td>46.7018° N, 12.3509° E</td>
+      <td class="ort-beschreibung">Ursprungsort der Familie Reider (Reidhof) und der ältesten nachweisbaren Vorfahren (Tschurtschenthaler).</td>
+    </tr>
+    <tr class="linie-tirol">
+      <td class="ort-name">Rovereto</td>
+      <td>45.8885° N, 11.0413° E</td>
+      <td class="ort-beschreibung">Kofler/Cofler (Anton, Peter). Gründung einer Unternehmerdynastie.</td>
+    </tr>
+    <tr class="linie-tirol">
+      <td class="ort-name">Mailand</td>
+      <td>45.4642° N, 9.1900° E</td>
+      <td class="ort-beschreibung">Wirkungsstätte des Finanziers Peter Kofler.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 style="color: #f39c12; margin-top: 40px;">Zusammenführung</h3>
+
+<table class="orte-tabelle">
+  <thead>
+    <tr>
+      <th>Ort</th>
+      <th>Koordinaten</th>
+      <th>Bedeutung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="linie-zusammen">
+      <td class="ort-name">Innsbruck</td>
+      <td>47.2692° N, 11.4041° E</td>
+      <td class="ort-beschreibung">Zentraler Wohnort der Familie ab 1953. Arbeitsort von Alois Anton Pilz (Zoll) und Johann Eberstaller (Bank). Sterbeort mehrerer Generationen.</td>
+    </tr>
+  </tbody>
+</table>
+
 <details>
-  <summary>📍 Vollständige Koordinatenliste (Fallback für eigene Kartenanwendungen)</summary>
+  <summary>Vollständige Koordinatenliste (Fallback für eigene Kartenanwendungen)</summary>
   <div class="coordinates-list">
     <p><em>Diese Liste kann für eigene Kartenprojekte oder bei Ausfall der Online-Karte verwendet werden.</em></p>
     
     <h4>Pilz-Linie</h4>
     <ul>
-      <li><strong>Dörnthal:</strong> 50.733965° N, 13.333618° E</li>
-      <li><strong>Olbernhau:</strong> 50.65886° N, 13.33831° E</li>
-      <li><strong>Rothenthal:</strong> 50.63861° N, 13.38139° E</li>
-      <li><strong>Kallich (Kalek):</strong> 50.59013° N, 13.33231° E</li>
-      <li><strong>Schmiedeberg (Kovářská):</strong> 50.4899° N, 13.0336° E</li>
-      <li><strong>Weipert (Vejprty):</strong> 50.49232° N, 13.03213° E</li>
-      <li><strong>Stolzenhain:</strong> 50.46583° N, 13.05694° E</li>
-      <li><strong>Preßnitz (Přísečnice):</strong> 50.473611° N, 13.131389° E</li>
-      <li><strong>Kupferberg (Měděnec):</strong> 50.42541° N, 13.13373° E</li>
-      <li><strong>Hlawatschow:</strong> 49.91261° N, 14.7663° E</li>
-      <li><strong>Libeschitz:</strong> 50.31232° N, 13.61361° E</li>
-      <li><strong>Amschelberg:</strong> 49.65861° N, 14.47139° E</li>
-      <li><strong>Helfenberg:</strong> 48.55867° N, 14.14762° E</li>
+      <li><strong>Dörnthal:</strong> 50.734608° N, 13.335342° E</li>
+      <li><strong>Olbernhau:</strong> 50.656426° N, 13.344097° E</li>
+      <li><strong>Rothenthal:</strong> 50.636343° N, 13.373365° E</li>
+      <li><strong>Kallich (Kalek):</strong> 50.578222° N, 13.322382° E</li>
+      <li><strong>Schmiedeberg (Kovářská):</strong> 50.438156° N, 13.053818° E</li>
+      <li><strong>Weipert (Vejprty):</strong> 50.492245° N, 13.031502° E</li>
+      <li><strong>Stolzenhain:</strong> 50.411143° N, 12.993736° E</li>
+      <li><strong>Preßnitz (Přísečnice):</strong> 50.477827° N, 13.125143° E</li>
+      <li><strong>Kupferberg (Měděnec):</strong> 50.421261° N, 13.116903° E</li>
+      <li><strong>Ondrejov:</strong> 49.904503° N, 14.78322° E</li>
+      <li><strong>Libeschitz:</strong> 50.293671° N, 13.621588° E</li>
+      <li><strong>Amschelberg:</strong> 49.65421° N, 14.471998° E</li>
+      <li><strong>Helfenberg:</strong> 48.542296° N, 14.142194° E</li>
       <li><strong>Schloss Rothenhaus:</strong> 50.51226° N, 13.45189° E</li>
-      <li><strong>Salzburg-Aigen:</strong> 47.78607° N, 13.08811° E</li>
-      <li><strong>Kainisch:</strong> 47.57005° N, 13.84073° E</li>
+      <li><strong>Salzburg-Aigen:</strong> 47.786114° N, 13.087678° E</li>
+      <li><strong>Kainisch:</strong> 47.570388° N, 13.84316° E</li>
       <li><strong>Bad Aussee:</strong> 47.6114° N, 13.7844° E</li>
-      <li><strong>Blumenau (Květnov):</strong> 50.5594° N, 13.3833° E</li>
+      <li><strong>Blumenau:</strong> 50.668° N, 13.352° E</li>
       <li><strong>Dresden:</strong> 51.0504° N, 13.7372° E</li>
       <li><strong>Eger (Cheb):</strong> 50.0796° N, 12.3739° E</li>
-      <li><strong>Erzgebirge (Region):</strong> 50.6° N, 13.2° E</li>
       <li><strong>Freiberg:</strong> 50.9167° N, 13.3333° E</li>
       <li><strong>Gottesgab (Boží Dar):</strong> 50.4111° N, 12.9222° E</li>
       <li><strong>Graz:</strong> 47.0707° N, 15.4395° E</li>
@@ -215,7 +416,6 @@ permalink: /orte/
       <li><strong>Leipzig:</strong> 51.3397° N, 12.3731° E</li>
       <li><strong>Mantua:</strong> 45.1564° N, 10.7914° E</li>
       <li><strong>Negoslavci:</strong> 45.3° N, 19.0° E</li>
-      <li><strong>Ondrejow:</strong> 49.9042° N, 14.7817° E</li>
       <li><strong>Prag:</strong> 50.0755° N, 14.4378° E</li>
       <li><strong>Sayda:</strong> 50.6789° N, 13.4214° E</li>
       <li><strong>Sebastiansberg:</strong> 50.5333° N, 13.25° E</li>
@@ -224,24 +424,22 @@ permalink: /orte/
     
     <h4>Eberstaller-Linie</h4>
     <ul>
-      <li><strong>Krenglbach:</strong> 48.21391° N, 13.93519° E</li>
-      <li><strong>Radstadt:</strong> 47.38333° N, 13.46667° E</li>
-      <li><strong>Rott bei Salzburg:</strong> 47.7875° N, 12.975° E</li>
+      <li><strong>Wallern an der Trattnach:</strong> 48.21385° N, 13.935106° E</li>
+      <li><strong>Radstadt:</strong> 47.384665° N, 13.462865° E</li>
+      <li><strong>Rott bei Salzburg:</strong> 47.830256° N, 12.99556° E</li>
       <li><strong>Linz:</strong> 48.3069° N, 14.2858° E</li>
       <li><strong>Rannariedl:</strong> 48.4833° N, 13.7667° E</li>
-      <li><strong>Wallern an der Trattnach:</strong> 48.2306° N, 13.9464° E</li>
     </ul>
     
     <h4>Tiroler Linie</h4>
     <ul>
-      <li><strong>Kartitsch:</strong> 46.7382° N, 12.4784° E</li>
-      <li><strong>Sexten:</strong> 46.6994° N, 12.3522° E</li>
+      <li><strong>Kartitsch (Petererhof):</strong> 46.737519° N, 12.47813° E</li>
+      <li><strong>Sexten:</strong> 46.701849° N, 12.350907° E</li>
       <li><strong>Rovereto:</strong> 45.8885° N, 11.0413° E</li>
       <li><strong>Mailand:</strong> 45.4642° N, 9.19° E</li>
       <li><strong>Anras:</strong> 46.7725° N, 12.5564° E</li>
       <li><strong>Heinfels:</strong> 46.75° N, 12.4333° E</li>
       <li><strong>Padua:</strong> 45.4064° N, 11.8768° E</li>
-      <li><strong>Petererhof (St. Oswald):</strong> 46.7382° N, 12.4784° E</li>
       <li><strong>Triest:</strong> 45.6495° N, 13.7768° E</li>
     </ul>
     
@@ -267,7 +465,7 @@ permalink: /orte/
   </div>
 </div>
 
-<h2 class="section-title">🧬 Genetische Herkunft</h2>
+<h2 class="section-title">Genetische Herkunft</h2>
 <p style="margin-bottom: 30px; color: #555;">
   Noch vor den schriftlichen Quellen liefern genetische Analysen Hinweise auf frühe Herkunftslinien (Stand: FamilyTreeDNA, Kit 330595).
 </p>
