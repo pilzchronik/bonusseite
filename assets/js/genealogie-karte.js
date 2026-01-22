@@ -3,7 +3,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     
-    // Prüfe ob map-Element existiert
     var mapElement = document.getElementById('map');
     if (!mapElement) {
         console.error('Map-Element nicht gefunden!');
@@ -12,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     console.log('Initialisiere Karte...');
     
-    // Karte initialisieren (Zentrum: Erzgebirge/Böhmen)
-    var map = L.map('map').setView([50.0, 13.0], 6);
+    // Karte initialisieren ohne feste Zentrierung
+    var map = L.map('map');
     
     // OpenStreetMap Tiles hinzufügen
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -114,21 +113,87 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Kainisch", lat: 47.57005, lon: 13.84073, kategorie: "Pilz-Linie",
          beschreibung: "Pilz (Emma, Erhard). Sterbeort von Großmutter Emma Pilz."},
         
+        {name: "Anras", lat: 46.7725, lon: 12.5564, kategorie: "Tiroler Linie",
+         beschreibung: "Pfarrer Bodner/Kofler"},
+        
+        {name: "Bad Aussee", lat: 47.6114, lon: 13.7844, kategorie: "Pilz-Linie",
+         beschreibung: "Familie Pilz"},
+        
+        {name: "Blumenau (Květnov)", lat: 50.5594, lon: 13.3833, kategorie: "Pilz-Linie",
+         beschreibung: "Wichtiger Ort der böhmischen Pilz-Linie"},
+        
         {name: "Dresden", lat: 51.0504, lon: 13.7372, kategorie: "Pilz-Linie",
          beschreibung: "Kulturelles Zentrum Sachsens"},
         
-        {name: "Prag", lat: 50.0755, lon: 14.4378, kategorie: "Pilz-Linie",
-         beschreibung: "Hauptstadt Böhmens"},
+        {name: "Eger (Cheb)", lat: 50.0796, lon: 12.3739, kategorie: "Pilz-Linie",
+         beschreibung: "Westböhmische Handelsstadt"},
+        
+        {name: "Erzgebirge (Region)", lat: 50.6, lon: 13.2, kategorie: "Pilz-Linie",
+         beschreibung: "Bergbauregion, Kerngebiet der Pilz-Linie"},
+        
+        {name: "Freiberg", lat: 50.9167, lon: 13.3333, kategorie: "Pilz-Linie",
+         beschreibung: "Zinngießer Pilz"},
+        
+        {name: "Gottesgab (Boží Dar)", lat: 50.4111, lon: 12.9222, kategorie: "Pilz-Linie",
+         beschreibung: "Gahler-Familie"},
+        
+        {name: "Graz", lat: 47.0707, lon: 15.4395, kategorie: "Pilz-Linie",
+         beschreibung: "Cousine Helga"},
+        
+        {name: "Heinfels", lat: 46.75, lon: 12.4333, kategorie: "Tiroler Linie",
+         beschreibung: "Bezirk Lienz"},
+        
+        {name: "Karlsbad", lat: 50.2319, lon: 12.872, kategorie: "Pilz-Linie",
+         beschreibung: "Böhmisches Kurbad"},
+        
+        {name: "Komotau (Chomutov)", lat: 50.4605, lon: 13.4178, kategorie: "Pilz-Linie",
+         beschreibung: "Wichtige böhmische Stadt"},
+        
+        {name: "Leipzig", lat: 51.3397, lon: 12.3731, kategorie: "Pilz-Linie",
+         beschreibung: "Handels- und Messestadt"},
         
         {name: "Linz", lat: 48.3069, lon: 14.2858, kategorie: "Eberstaller-Linie",
          beschreibung: "Oberösterreichische Landeshauptstadt"},
         
+        {name: "Mantua", lat: 45.1564, lon: 10.7914, kategorie: "Pilz-Linie",
+         beschreibung: "Radetzky-Bezug"},
+        
+        {name: "Negoslavci", lat: 45.3, lon: 19.0, kategorie: "Pilz-Linie",
+         beschreibung: "Alois Vjekoslav"},
+        
+        {name: "Ondrejow", lat: 49.9042, lon: 14.7817, kategorie: "Pilz-Linie",
+         beschreibung: "Bechinie/Pilz"},
+        
         {name: "Padua", lat: 45.4064, lon: 11.8768, kategorie: "Tiroler Linie",
          beschreibung: "Italienische Universitätsstadt"},
         
+        {name: "Petererhof (St. Oswald)", lat: 46.7382, lon: 12.4784, kategorie: "Tiroler Linie",
+         beschreibung: "Kofler/Reider. Stammsitz Petererhof"},
+        
+        {name: "Prag", lat: 50.0755, lon: 14.4378, kategorie: "Pilz-Linie",
+         beschreibung: "Hauptstadt Böhmens"},
+        
+        {name: "Rannariedl", lat: 48.4833, lon: 13.7667, kategorie: "Eberstaller-Linie",
+         beschreibung: "Gefangenenausbruch"},
+        
+        {name: "Sayda", lat: 50.6789, lon: 13.4214, kategorie: "Pilz-Linie",
+         beschreibung: "Gerichtsbücher"},
+        
+        {name: "Sebastiansberg", lat: 50.5333, lon: 13.25, kategorie: "Pilz-Linie",
+         beschreibung: "Bergstadt im Erzgebirge"},
+        
+        {name: "Sillian", lat: 46.7486, lon: 12.4139, kategorie: "Pilz-Linie",
+         beschreibung: "Alois A. Pilz (Zollamt)"},
+        
         {name: "Triest", lat: 45.6495, lon: 13.7768, kategorie: "Tiroler Linie",
-         beschreibung: "Cofler-Ärzte"}
+         beschreibung: "Cofler-Ärzte"},
+        
+        {name: "Wallern an der Trattnach", lat: 48.2306, lon: 13.9464, kategorie: "Eberstaller-Linie",
+         beschreibung: "Oberösterreich"}
     ];
+    
+    // Array für alle Marker
+    var markers = [];
     
     // Marker zur Karte hinzufügen
     orte.forEach(function(ort) {
@@ -141,25 +206,13 @@ document.addEventListener('DOMContentLoaded', function() {
             '<em style="color: ' + lineColors[ort.kategorie] + ';">' + ort.kategorie + '</em><br>' +
             '<small style="color: #555;">' + ort.beschreibung + '</small>'
         );
+        
+        markers.push(marker);
     });
     
-    // Legende hinzufügen
-    var legend = L.control({position: 'bottomright'});
-    legend.onAdd = function(map) {
-        var div = L.DomUtil.create('div', 'legend');
-        div.innerHTML = '<h4>Familienlinien</h4>';
-        
-        for (var kategorie in lineColors) {
-            div.innerHTML += 
-                '<div class="legend-item">' +
-                '<span class="legend-color" style="background:' + lineColors[kategorie] + '"></span>' +
-                '<span>' + kategorie + '</span>' +
-                '</div>';
-        }
-        
-        return div;
-    };
-    legend.addTo(map);
+    // Automatisch auf alle Marker zoomen mit etwas Padding
+    var group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.1));
     
-    console.log('Karte erfolgreich geladen!');
+    console.log('Karte erfolgreich geladen mit ' + orte.length + ' Orten!');
 });
