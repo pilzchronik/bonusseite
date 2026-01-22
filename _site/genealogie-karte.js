@@ -119,8 +119,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Bad Aussee", lat: 47.6114, lon: 13.7844, kategorie: "Pilz-Linie",
          beschreibung: "Familie Pilz"},
         
-        {name: "Blumenau (Květnov)", lat: 50.5594, lon: 13.3833, kategorie: "Pilz-Linie",
-         beschreibung: "Wichtiger Ort der böhmischen Pilz-Linie"},
+        {name: "Blumenau", lat: 50.668, lon: 13.352, kategorie: "Pilz-Linie",
+         beschreibung: "Ortsteil von Olbernhau im sächsischen Erzgebirge"},
         
         {name: "Dresden", lat: 51.0504, lon: 13.7372, kategorie: "Pilz-Linie",
          beschreibung: "Kulturelles Zentrum Sachsens"},
