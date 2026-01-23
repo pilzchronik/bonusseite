@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Leipzig", lat: 51.3397, lon: 12.3731, kategorie: "Pilz-Linie",
          beschreibung: "Handels- und Messestadt."},
         
-        {name: "Mantua", lat: 45.1564, lon: 10.7914, kategorie: "Pilz-Linie",
+        {name: "Mantua", lat: 45.1564, lon: 10.7914, kategorie: "Tiroler Linie",
          beschreibung: "Radetzky-Bezug."},
         
         {name: "Negoslavci", lat: 45.3, lon: 19.0, kategorie: "Pilz-Linie",
