@@ -506,7 +506,7 @@ permalink: /orte/
   </div>
   <div class="place-card">
     <h3>Tirol (Gegenwart)</h3>
-    <p>Verlagerung nach Lienz und Innsbruck durch berufliche Versetzungen und die Zäsuren des 20. Jahrhunderts.</p>
+    <p>Verlagerung nach Innsbruck durch berufliche Versetzungen und die Zäsuren des 20. Jahrhunderts.</p>
   </div>
 </div>
 
