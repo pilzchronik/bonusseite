@@ -144,6 +144,20 @@ permalink: /orte/
   .linie-eberstaller { border-left: 4px solid #3498db; }
   .linie-tirol { border-left: 4px solid #2ecc71; }
   .linie-zusammen { border-left: 4px solid #f39c12; }
+
+  /* Tooltip-Styling für Karten-Marker */
+  .ort-tooltip {
+    background: #2a5d8f;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 8px;
+    font-size: 0.85em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  .ort-tooltip::before {
+    border-top-color: #2a5d8f !important;
+  }
 </style>
 
 <h1 style="color: #333; margin-bottom: 20px;">Orte & Herkunft</h1>

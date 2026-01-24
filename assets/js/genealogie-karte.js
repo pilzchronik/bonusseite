@@ -1,5 +1,6 @@
 // Genealogie-Karte für pilzchronik.github.io
 // Verwendet OpenStreetMap via Leaflet.js
+// Version 2.1 - Mit selbstgebautem Vollbild, Tooltips und Übersicht-Button
 // Koordinaten korrigiert nach händischer Recherche (Januar 2026)
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -12,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     console.log('Initialisiere Karte...');
     
-    // Karte initialisieren ohne feste Zentrierung
+    // Karte initialisieren
     var map = L.map('map');
     
     // OpenStreetMap Tiles hinzufügen
@@ -197,6 +198,15 @@ document.addEventListener('DOMContentLoaded', function() {
             icon: createCustomIcon(ort.kategorie)
         }).addTo(map);
         
+        // Tooltip beim Hover (nur Ortsname)
+        marker.bindTooltip(ort.name, {
+            permanent: false,
+            direction: 'top',
+            offset: [0, -10],
+            className: 'ort-tooltip'
+        });
+        
+        // Popup beim Klick (vollständige Info)
         marker.bindPopup(
             '<strong>' + ort.name + '</strong><br>' +
             '<em style="color: ' + lineColors[ort.kategorie] + ';">' + ort.kategorie + '</em><br>' +
@@ -208,7 +218,93 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Automatisch auf alle Marker zoomen mit etwas Padding
     var group = L.featureGroup(markers);
-    map.fitBounds(group.getBounds().pad(0.1));
+    var initialBounds = group.getBounds().pad(0.1);
+    map.fitBounds(initialBounds);
+    
+    // === ÜBERSICHT-BUTTON (Zurück zur Gesamtansicht) ===
+    var OverviewControl = L.Control.extend({
+        options: {
+            position: 'topleft'
+        },
+        onAdd: function(map) {
+            var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+            var button = L.DomUtil.create('a', '', container);
+            button.href = '#';
+            button.title = 'Zur Übersicht';
+            button.innerHTML = '⟲';
+            button.style.cssText = 'display: block; width: 30px; height: 30px; font-size: 18px; font-weight: bold; line-height: 30px; text-align: center; text-decoration: none; color: #333; background: white;';
+            
+            L.DomEvent.on(button, 'click', function(e) {
+                L.DomEvent.preventDefault(e);
+                L.DomEvent.stopPropagation(e);
+                map.fitBounds(initialBounds);
+            });
+            
+            return container;
+        }
+    });
+    
+    map.addControl(new OverviewControl());
+    
+    // === VOLLBILD-BUTTON (selbstgebaut, ohne Plugin) ===
+    var isFullscreen = false;
+    
+    var FullscreenControl = L.Control.extend({
+        options: {
+            position: 'topleft'
+        },
+        onAdd: function(map) {
+            var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+            var button = L.DomUtil.create('a', '', container);
+            button.href = '#';
+            button.title = 'Vollbild';
+            button.innerHTML = '⛶';
+            button.style.cssText = 'display: block; width: 30px; height: 30px; font-size: 16px; font-weight: bold; line-height: 30px; text-align: center; text-decoration: none; color: #333; background: white;';
+            
+            L.DomEvent.on(button, 'click', function(e) {
+                L.DomEvent.preventDefault(e);
+                L.DomEvent.stopPropagation(e);
+                
+                if (!isFullscreen) {
+                    // Vollbild aktivieren
+                    if (mapElement.requestFullscreen) {
+                        mapElement.requestFullscreen();
+                    } else if (mapElement.webkitRequestFullscreen) {
+                        mapElement.webkitRequestFullscreen();
+                    } else if (mapElement.msRequestFullscreen) {
+                        mapElement.msRequestFullscreen();
+                    }
+                } else {
+                    // Vollbild beenden
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    } else if (document.webkitExitFullscreen) {
+                        document.webkitExitFullscreen();
+                    } else if (document.msExitFullscreen) {
+                        document.msExitFullscreen();
+                    }
+                }
+            });
+            
+            return container;
+        }
+    });
+    
+    map.addControl(new FullscreenControl());
+    
+    // Fullscreen-Status überwachen und Karte neu zeichnen
+    function onFullscreenChange() {
+        isFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement);
+        
+        // Kurze Verzögerung, dann Karte aktualisieren
+        setTimeout(function() {
+            map.invalidateSize();
+        }, 100);
+    }
+    
+    document.addEventListener('fullscreenchange', onFullscreenChange);
+    document.addEventListener('webkitfullscreenchange', onFullscreenChange);
+    document.addEventListener('msfullscreenchange', onFullscreenChange);
     
     console.log('Karte erfolgreich geladen mit ' + orte.length + ' Orten!');
 });
