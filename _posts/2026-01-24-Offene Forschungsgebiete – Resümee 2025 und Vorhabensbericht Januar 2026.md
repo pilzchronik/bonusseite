@@ -44,27 +44,30 @@ Weitere Ansätze:
 
 In älteren Familienunterlagen und einigen öffentlichen Datenbanken finden sich Hinweise auf eine angeblich adelige Herkunft Philipps. Diese gehen im Wesentlichen auf einen Pfarrer-Brief von 1939 zurück, der im Kontext der damaligen Ahnenpass-Beschaffung entstand und nachweislich fehlerhafte Angaben enthält. Die Bezeichnungen im Heiratseintrag (*honestus*, *D.*) entsprechen dem gehobenen Bürgertum oder herrschaftlichen Bediensteten, nicht dem Adel.
 
-## 2. Die Australien-Berlin-Verbindung – Abgeschlossen
-
+### 2. Die Australien-Berlin-Verbindung – Abgeschlossen
 Ein Durchbruch der letzten Wochen: Die Verknüpfung zweier Kontinente ist dokumentarisch gesichert.
+- **Worum es geht:**
+Gustav Theodor Bechinie (1820–1870) war ein direkter Nachfahre von Philipp Bechinie – aus der Linie, die nach Pechau bei Magdeburg gelangte. Er wanderte Mitte des 19. Jahrhunderts nach Südaustralien aus. Seine Nachkommen sind damit entfernte Verwandte unserer Familie.
+Interessant ist, dass Gustav Theodor in Australien den Adelstitel „von Lazan" führte – offenbar war die (unbelegte) Abstammung von den Bechinie von Lazan auch in dieser Linie ein Familienthema.
+- **Die Belege:**
+Australien 1857: Geburtseintrag in Gawler (Barossa District)
 
-### Die Belege
+Kind: Christian Friederick Gustav Bechinie von Lazan
+Vater: Gustav Theador Bechinie von Lazan, Storekeeper
+Der Name wird amtlich, konsistent und ohne Einschränkung geführt
 
-**Australien 1857:** Geburtseintrag in Gawler (Barossa District)
-- Kind: Christian Friederick Gustav Bechinie von Lazan
-- Vater: Gustav Theador Bechinie von Lazan, Storekeeper
-- Der Name wird amtlich, konsistent und ohne Einschränkung geführt
+Berlin 1931: Sterbeeintrag
 
-**Berlin 1931:** Sterbeeintrag
-- Verstorbener: Christian Friedrich Gustav Bechinie (ohne *von Lazan*)
-- Geburtsort: Gawler in Süd-Australien
-- Alter: 73 Jahre – passt exakt
+Verstorbener: Christian Friedrich Gustav Bechinie (ohne von Lazan)
+Geburtsort: Gawler in Süd-Australien
+Alter: 73 Jahre – passt exakt
 
 ### Erkenntnis
+Die Identität von Christian Friedrich Gustav ist zweifelsfrei geklärt – es handelt sich um dieselbe Person.
+Die Titelführung zeigt ein aufschlussreiches Muster: Im fernen Australien wurde der Adelsname „von Lazan" amtlich geführt – vermutlich war die Überprüfung dort weniger streng. Nach der Rückkehr nach Deutschland (Preußen) wurde davon wieder Abstand genommen. Der Grund dürfte in den rigoroseren deutschen Namensregeln liegen, die eine unbelegte Adelsführung nicht duldeten.
+Die Episode bestätigt, dass die Frage der adeligen Abstammung auch in der Pechauer Linie präsent war – und dass man zumindest versuchte, diesen Anspruch geltend zu machen, wo es möglich schien.
 
-Die Identität ist zweifelsfrei geklärt. Die Titelführung war quellenabhängig unterschiedlich: In Australien amtlich geführt, in Berlin nicht mehr. Die Gründe dafür (preußische Verwaltungspraxis? Eigenentscheidung?) bleiben ein interessantes rechtshistorisches Detail, ändern aber nichts an der Abstammungslinie.
-
-## 3. Die sächsische Stammlinie Pilz/Pültz
+### 3. Die sächsische Stammlinie Pilz/Pültz
 
 Hier liegt der zweite große Fokus. Die Linie vor 1712 (Christian Gottlob Pilz) gilt als plausibel rekonstruiert, aber nicht durch Primärquellen gesichert.
 
@@ -108,6 +111,3 @@ Die Chronik ist gedruckt, aber nicht abgeschlossen. Jedes Dokument, das eine Hyp
 3. **Dörnthal/Sayda:** Abwarten auf Digitalisierung, ggf. Archivreise
 
 Wir jagen keinen Titeln nach, sondern der historischen Wahrheit.
-
----
-
