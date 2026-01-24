@@ -111,5 +111,3 @@ Wir jagen keinen Titeln nach, sondern der historischen Wahrheit.
 
 ---
 
-*Über diese Seite | Impressum*  
-*© 2026 Pilz-Chronik Bonusseite • pilz@gmx.at*
