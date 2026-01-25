@@ -1,6 +1,6 @@
 // Genealogie-Karte für pilzchronik.github.io
 // Verwendet OpenStreetMap via Leaflet.js
-// Version 2.1 - Mit selbstgebautem Vollbild, Tooltips und Übersicht-Button
+// Version 2.2 - Mit selbstgebautem Vollbild, Tooltips und Übersicht-Button
 // Koordinaten korrigiert nach händischer Recherche (Januar 2026)
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -60,13 +60,13 @@ document.addEventListener('DOMContentLoaded', function() {
          beschreibung: "Hofmann (Franz, Emma). Herkunftsort der Familie Hofmann (Schuhmacher, Drogist, Bildhauer). Wichtiger Ort für Bergbau und Industrialisierung."},
         
         {name: "Weipert (Vejprty)", lat: 50.492245, lon: 13.031502, kategorie: "Pilz-Linie",
-         beschreibung: "Pilz (Alois Johann). Geburt des Großvaters (1876). Wichtige königliche Bergstadt an der sächsischen Grenze."},
+         beschreibung: "Pilz (Alois Johann). Geburt des Großvaters (1876). Wichtige königliche Bergstadt an der sächsischen Grenze. Jetziger Standort des Kriegerdenkmals von Oswald Hofmann."},
         
         {name: "Stolzenhain", lat: 50.411143, lon: 12.993736, kategorie: "Pilz-Linie",
          beschreibung: "Pilz (Vinzenz), Gahler (Franziska). Zentraler Ort für die Förster-Generationen. Tod von Vinzenz Pilz (1883)."},
         
         {name: "Preßnitz (Přísečnice)", lat: 50.477827, lon: 13.125143, kategorie: "Pilz-Linie",
-         beschreibung: "Kreissl (Johann), Pilz (Vinzenz). Königliche Bergstadt, im 20. Jh. für Stausee überflutet. Ort des Grubenunglücks 1698."},
+         beschreibung: "Kreissl (Johann), Pilz (Vinzenz). Königliche Bergstadt, im 20. Jh. für Stausee überflutet. Ort des Grubenunglücks 1698. Tod von Johann Kreissl."},
         
         {name: "Kupferberg (Měděnec)", lat: 50.421261, lon: 13.116903, kategorie: "Pilz-Linie",
          beschreibung: "Pilz (Vinzenz Wenzel). Politische Tätigkeit im 'katholisch-politischen Casino'."},
@@ -92,8 +92,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Kainisch", lat: 47.570388, lon: 13.84316, kategorie: "Pilz-Linie",
          beschreibung: "Pilz (Emma, Erhard). Sterbeort von Großmutter Emma Pilz. Dienstort von Onkel Erhard Pilz als Oberförster."},
         
-        {name: "Bad Aussee", lat: 47.6114, lon: 13.7844, kategorie: "Pilz-Linie",
-         beschreibung: "Familie Pilz. Verbindung zur Steiermark."},
+        {name: "Unterkainisch/Bad Aussee", lat: 47.599797, lon: 13.78561, kategorie: "Eberstaller-Linie",
+         beschreibung: "Eberstaller (Johann B., Klara). Beruf und Heirat Johann B. Eberstaller mit Klara Mittermaier, Urgroßeltern, 1895."},
         
         {name: "Blumenau", lat: 50.668, lon: 13.352, kategorie: "Pilz-Linie",
          beschreibung: "Ortsteil von Olbernhau im sächsischen Erzgebirge."},
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
          beschreibung: "Kulturelles Zentrum Sachsens."},
         
         {name: "Eger (Cheb)", lat: 50.0796, lon: 12.3739, kategorie: "Pilz-Linie",
-         beschreibung: "Westböhmische Handelsstadt."},
+         beschreibung: "Westböhmische Handelsstadt. Standort des Mägdebrunnens von Oswald Hofmann."},
         
         {name: "Erzgebirge (Region)", lat: 50.6, lon: 13.2, kategorie: "Pilz-Linie",
          beschreibung: "Bergbauregion, Kerngebiet der Pilz-Linie."},
@@ -110,8 +110,14 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Freiberg", lat: 50.9167, lon: 13.3333, kategorie: "Pilz-Linie",
          beschreibung: "Zinngießer Pilz."},
         
-        {name: "Gottesgab (Boží Dar)", lat: 50.4111, lon: 12.9222, kategorie: "Pilz-Linie",
-         beschreibung: "Gahler-Familie."},
+        {name: "Gottesgab (Boží Dar)", lat: 50.409885, lon: 12.924471, kategorie: "Pilz-Linie",
+         beschreibung: "Familien Glaser, Gahler."},
+        
+        {name: "Joachimsthal (Jáchymov)", lat: 50.362492, lon: 12.930994, kategorie: "Pilz-Linie",
+         beschreibung: "Ausbildung von Alois Johann Pilz (Urgroßvater)."},
+        
+        {name: "Böhmisch Wiesenthal (Loučná)", lat: 50.418034, lon: 12.981291, kategorie: "Pilz-Linie",
+         beschreibung: "Heirat der Urgroßeltern Vinzenz Pilz und Franziska Gahler. Sterbeort von Franziska Gahler."},
         
         {name: "Graz", lat: 47.0707, lon: 15.4395, kategorie: "Pilz-Linie",
          beschreibung: "Cousine Helga."},
@@ -128,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Mantua", lat: 45.1564, lon: 10.7914, kategorie: "Tiroler Linie",
          beschreibung: "Radetzky-Bezug."},
         
-        {name: "Negoslavci", lat: 45.3, lon: 19.0, kategorie: "Pilz-Linie",
+        {name: "Negoslavci", lat: 45.278269, lon: 18.997507, kategorie: "Pilz-Linie",
          beschreibung: "Alois Vjekoslav."},
         
         {name: "Prag", lat: 50.0755, lon: 14.4378, kategorie: "Pilz-Linie",
@@ -137,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Sayda", lat: 50.6789, lon: 13.4214, kategorie: "Pilz-Linie",
          beschreibung: "Gerichtsbücher."},
         
-        {name: "Sebastiansberg", lat: 50.5333, lon: 13.25, kategorie: "Pilz-Linie",
+        {name: "Sebastiansberg (Hora Sv. Šebestiána)", lat: 50.510097, lon: 13.252001, kategorie: "Pilz-Linie",
          beschreibung: "Bergstadt im Erzgebirge."},
         
         {name: "Sillian", lat: 46.7486, lon: 12.4139, kategorie: "Pilz-Linie",
@@ -157,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
          beschreibung: "Oberösterreichische Landeshauptstadt."},
         
         {name: "Rannariedl", lat: 48.4833, lon: 13.7667, kategorie: "Eberstaller-Linie",
-         beschreibung: "Gefangenenausbruch."},
+         beschreibung: "Gerichtsdiener Strixner."},
         
         // === TIROLER LINIE (Osttirol/Südtirol) ===
         {name: "Kartitsch (Petererhof)", lat: 46.737519, lon: 12.47813, kategorie: "Tiroler Linie",
