@@ -55,7 +55,6 @@ title: Startseite
     border-color: #2a5d8f;
   }
   
-  /* Dachzeile (Eyebrow) statt Icon */
   .eyebrow {
     font-size: 0.75em;
     text-transform: uppercase;
@@ -81,12 +80,11 @@ title: Startseite
 </style>
 
 <div class="intro-section">
-  <h1>Willkommen im digitalen Teil der Pilz-Chronik</h1>
+  <h1>Willkommen im digitalen Pilz-Archiv</h1>
   <p style="font-size: 1.15em; color: #555; max-width: 750px; margin: 0 auto 20px auto; line-height: 1.6;">
     Dies ist die offizielle Ergänzung zur gedruckten Familienchronik (Band 1 & 2).<br>
     Diese Seite dient als digitale Werkstatt für Inhalte, <strong>die im Buch keinen Platz fanden</strong>:
-    Karten, Datensätze, Korrekturen und laufende Aktualisierungen. 
-    Derzeit unterstützt ein experimenteller KI-Assistent bei Fragen (Antworten bitte kritisch prüfen).
+    Karten, Datensätze, Korrekturen und laufende Aktualisierungen.
   </p>
   <div class="intro-links">
     <a href="{{ '/zeitleiste/' | relative_url }}">Zur historischen Zeitleiste</a>
@@ -95,28 +93,28 @@ title: Startseite
 
 <div class="nav-grid">
   
-  <a href="stammbaum/" class="nav-card">
-    <span class="eyebrow">GENEALOGIE</span>
-    <h3>Stammbaum & Webseiten</h3>
-    <p>Interaktive Stammbäume, thematische Forschungsseiten und externe Projekt-Webseiten.</p>
-  </a>
-
-  <a href="werkstatt/" class="nav-card">
-    <span class="eyebrow">FORSCHUNG</span>
-    <h3>Aktuelles</h3>
-    <p>Neue Funde, Ergänzungen und Hintergrundartikel zur Familienchronik nach der Drucklegung.</p>
-  </a>
-
   <a href="orte/" class="nav-card">
     <span class="eyebrow">GEOGRAFIE</span>
-    <h3>Orte & Herkunft</h3>
-    <p>Karte der Lebensorte sowie geografische und genetische Herkunft in der Übersicht.</p>
+    <h3>Geografie & Wanderung</h3>
+    <p>Vom Erzgebirge nach Tirol: Folgen Sie den Spuren der Familie auf der interaktiven Karte der Lebensstationen. Räumliche und genetische Herkunft im Überblick.</p>
   </a>
 
   <a href="quellen/" class="nav-card">
     <span class="eyebrow">DOKUMENTATION</span>
     <h3>Korrekturen & Quellen</h3>
-    <p>Errata, Ergänzungen, Register-Downloads sowie das Verzeichnis aller Archive und Belege.</p>
+    <p>Das zentrale Errata-Protokoll zu Band 1 & 2. Verzeichnis der tschechischen und österreichischen Archive sowie digitaler Belege.</p>
+  </a>
+
+  <a href="werkstatt/" class="nav-card">
+    <span class="eyebrow">FORSCHUNG</span>
+    <h3>Werkstatt & Aktuelles</h3>
+    <p>Neue Archivfunde (z. B. Dörnthal 1562) und laufende Analysen nach der Drucklegung. Hier schlägt das Herz der aktuellen Forschung.</p>
+  </a>
+
+  <a href="stammbaum/" class="nav-card">
+    <span class="eyebrow">GENEALOGIE</span>
+    <h3>Stammbaum & Archiv</h3>
+    <p>Direkter Zugriff zum interaktiven MacFamilyTree-Archiv mit allen Personenblättern, Ahnentafeln und Querverweisen.</p>
   </a>
 
 </div>
