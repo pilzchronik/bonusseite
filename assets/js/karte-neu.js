@@ -1,5 +1,5 @@
 // Genealogie-Karte für pilzchronik.github.io
-// Version 3.0 - Konsolidierte Daten (CSV + Manuell) und dynamische Tabelle
+// Version 3.1 - Konsolidierte Daten + Tabelle + Vollbild (wiederhergestellt)
 // Stand: Januar 2026
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var mapElement = document.getElementById('map');
     if (!mapElement) return;
     
-    console.log('Initialisiere Karte v3...');
+    console.log('Initialisiere Karte v3.1...');
     
     var map = L.map('map');
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -110,14 +110,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Marker zur Karte hinzufügen
     orte.forEach(function(ort, index) {
-        // ID für Verknüpfung erzeugen
         ort.id = 'ort-' + index;
 
         var marker = L.marker([ort.lat, ort.lon], {
             icon: createCustomIcon(ort.kategorie)
         }).addTo(map);
         
-        // Popup Content
         var popupContent = '<strong>' + ort.name + '</strong><br>' +
                            '<span style="font-size:0.8em; color:#666; text-transform:uppercase;">' + ort.region + '</span><br>' +
                            '<em style="color: ' + lineColors[ort.kategorie] + ';">' + ort.kategorie + '</em>';
@@ -131,7 +129,6 @@ document.addEventListener('DOMContentLoaded', function() {
         markers[ort.id] = marker;
     });
 
-    // Karte auf Inhalt zoomen
     var group = L.featureGroup(Object.values(markers));
     map.fitBounds(group.getBounds().pad(0.1));
 
@@ -140,8 +137,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (tbody) {
         orte.forEach(function(ort) {
             var tr = document.createElement('tr');
-            
-            // CSS Klasse für die farbige Linie links
             var rowClass = 'row-sonstige';
             if(ort.kategorie === 'Pilz-Linie') rowClass = 'row-pilz';
             if(ort.kategorie === 'Eberstaller-Linie') rowClass = 'row-eberstaller';
@@ -153,13 +148,11 @@ document.addEventListener('DOMContentLoaded', function() {
                            '<td>' + (ort.region || '-') + '</td>' +
                            '<td><span class="ort-beschreibung">' + (ort.beschreibung !== "-" ? ort.beschreibung : "") + '</span></td>';
             
-            // Klick-Event: Zoom zur Karte
             tr.addEventListener('click', function() {
                 var m = markers[ort.id];
                 if (m) {
                     map.flyTo(m.getLatLng(), 13, { duration: 1.5 });
                     m.openPopup();
-                    // Scroll to map if needed
                     mapElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
                 }
             });
@@ -184,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // --- CONTROLS (Vollbild / Reset) ---
+    // --- CONTROLS: RESET-ZOOM ---
     var OverviewControl = L.Control.extend({
         options: { position: 'topleft' },
         onAdd: function(map) {
@@ -200,4 +193,43 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     map.addControl(new OverviewControl());
+
+    // --- CONTROLS: VOLLBILD (Wiederhergestellt) ---
+    var isFullscreen = false;
+    
+    var FullscreenControl = L.Control.extend({
+        options: { position: 'topleft' },
+        onAdd: function(map) {
+            var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+            var button = L.DomUtil.create('a', '', container);
+            button.href = '#'; button.title = 'Vollbild'; button.innerHTML = '⛶';
+            button.style.cssText = 'display:block; width:30px; height:30px; font-size:16px; font-weight:bold; line-height:30px; text-align:center; text-decoration:none; color:#333; background:white;';
+            
+            L.DomEvent.on(button, 'click', function(e) {
+                L.DomEvent.preventDefault(e);
+                L.DomEvent.stopPropagation(e);
+                
+                if (!isFullscreen) {
+                    if (mapElement.requestFullscreen) { mapElement.requestFullscreen(); } 
+                    else if (mapElement.webkitRequestFullscreen) { mapElement.webkitRequestFullscreen(); } 
+                    else if (mapElement.msRequestFullscreen) { mapElement.msRequestFullscreen(); }
+                } else {
+                    if (document.exitFullscreen) { document.exitFullscreen(); } 
+                    else if (document.webkitExitFullscreen) { document.webkitExitFullscreen(); } 
+                    else if (document.msExitFullscreen) { document.msExitFullscreen(); }
+                }
+            });
+            return container;
+        }
+    });
+    map.addControl(new FullscreenControl());
+    
+    function onFullscreenChange() {
+        isFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement);
+        setTimeout(function() { map.invalidateSize(); }, 100);
+    }
+    
+    document.addEventListener('fullscreenchange', onFullscreenChange);
+    document.addEventListener('webkitfullscreenchange', onFullscreenChange);
+    document.addEventListener('msfullscreenchange', onFullscreenChange);
 });
