@@ -1,5 +1,5 @@
 // Genealogie-Karte für pilzchronik.github.io
-// Version 3.1 - Konsolidierte Daten + Tabelle + Vollbild (wiederhergestellt)
+// Version 3.8 - Ergänzung Pechau (Tod Philipp Bechinie)
 // Stand: Januar 2026
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var mapElement = document.getElementById('map');
     if (!mapElement) return;
     
-    console.log('Initialisiere Karte v3.1...');
+    console.log('Initialisiere Karte v3.8...');
     
     var map = L.map('map');
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -33,82 +33,81 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Konsolidierte Daten: Mischung aus Master-CSV und bekannten Beschreibungen
+    // Datenbasis
     var orte = [
-        // === PILZ-LINIE (Sachsen/Böhmen) ===
-        {name: "Dörnthal", lat: 50.7339, lon: 13.3486, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Pültz/Pilz (Jobst). Ältester nachgewiesener Ursprung. Richter und Gerichtsschöppe."},
-        {name: "Olbernhau", lat: 50.6661, lon: 13.3381, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Zentrum des Handwerks. Siedlung böhmischer Exulanten (Niederneuschönberg)."},
-        {name: "Rothenthal", lat: 50.6342, lon: 13.3733, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Geburtsort von Friedrich August Pilz. Ausgangspunkt der Migration nach Böhmen."},
-        {name: "Kallich (Kalek)", lat: 50.5775, lon: 13.3219, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Ankunftsort nach Migration. Hungersnot 1772. Heirat Pilz/Reichl."},
-        {name: "Schmiedeberg (Kovářská)", lat: 50.4381, lon: 13.0536, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Herkunft Familie Hofmann. Bergbau und Industrialisierung."},
-        {name: "Weipert (Vejprty)", lat: 50.4922, lon: 13.0319, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Geburt des Großvaters (1876). Königliche Bergstadt."},
-        {name: "Stolzenhain", lat: 50.4128, lon: 12.9789, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Zentraler Ort für die Förster-Generationen. Tod von Vinzenz Pilz (1883)."},
-        {name: "Preßnitz (Přísečnice)", lat: 50.4667, lon: 13.1333, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Versunkene Stadt (Stausee). Ort des Grubenunglücks 1698."},
-        {name: "Kupferberg (Měděnec)", lat: 50.4214, lon: 13.1153, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Vinzenz Wenzel Pilz: 'katholisch-politisches Casino'."},
-        {name: "Ondrejov", lat: 49.912, lon: 14.766, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Hlawatschow/Ondrejov. Bechinie/Pilz Verbindung."},
-        {name: "Libeschitz", lat: 50.2939, lon: 13.6233, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Friedrich August Pilz (Lehrer). Saazer Hopfenland."},
-        {name: "Amschelberg (Kosova Hora)", lat: 49.6558, lon: 14.4744, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Taufe der jüdischen Vorfahrin Apollonia Jablotzki. Radetzky-Bezug."},
-        {name: "Schloss Rothenhaus", lat: 50.5123, lon: 13.4519, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Dienstsitz der Förstergenerationen."},
-        {name: "Gottesgab (Boží Dar)", lat: 50.4097, lon: 12.9244, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Familien Glaser, Gahler."},
-        {name: "Böhmisch Wiesenthal", lat: 50.4394, lon: 13.0156, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Heirat der Urgroßeltern Vinzenz Pilz & Franziska Gahler."},
-        {name: "Sebastiansberg", lat: 50.51, lon: 13.2511, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bergstadt im Erzgebirge."},
-        {name: "Eger (Cheb)", lat: 50.0796, lon: 12.3739, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Mägdebrunnen von Oswald Hofmann."},
-        
-        // === EBERSTALLER-LINIE (Oberösterreich/Salzburg) ===
-        {name: "Wallern an der Trattnach", lat: 48.2336, lon: 13.945, kategorie: "Eberstaller-Linie", region: "Oberösterreich", beschreibung: "Reichhof. Fast 300 Jahre Sesshaftigkeit der Eberstaller."},
-        {name: "Radstadt", lat: 47.3833, lon: 13.45, kategorie: "Eberstaller-Linie", region: "Salzburg", beschreibung: "Gründung und Niedergang der Eberstaller-Bäckerei."},
-        {name: "Rott bei Salzburg", lat: 47.8333, lon: 12.9833, kategorie: "Eberstaller-Linie", region: "Salzburg", beschreibung: "Geburtsort des Großvaters Johann Eberstaller."},
-        {name: "Bad Aussee / Unterkainisch", lat: 47.6097, lon: 13.7822, kategorie: "Eberstaller-Linie", region: "Steiermark", beschreibung: "Heirat Johann B. Eberstaller & Klara Mittermaier (1895)."},
-        {name: "Helfenberg", lat: 48.5442, lon: 14.1419, kategorie: "Eberstaller-Linie", region: "Oberösterreich", beschreibung: "Dienstort Alois Pilz als Oberförster. Geburtsort des Vaters."},
-        {name: "Linz", lat: 48.3064, lon: 14.2861, kategorie: "Eberstaller-Linie", region: "Oberösterreich", beschreibung: "Landeshauptstadt."},
-        {name: "Rannariedl", lat: 48.4831, lon: 13.7833, kategorie: "Eberstaller-Linie", region: "Oberösterreich", beschreibung: "Gerichtsdiener Strixner."},
-        {name: "Krenglbach", lat: 48.2053, lon: 13.9558, kategorie: "Eberstaller-Linie", region: "Oberösterreich", beschreibung: "Orte Breitwiesen, Göldnig."},
-        {name: "Steinerkirchen a.d. Traun", lat: 48.0789, lon: 13.9578, kategorie: "Eberstaller-Linie", region: "Oberösterreich", beschreibung: "Orte Almegg, Atzmannsdorf."},
-        
-        // === TIROLER LINIE ===
-        {name: "Kartitsch", lat: 46.7231, lon: 12.5008, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Petererhof. Zentrum der Tiroler Linie."},
-        {name: "Sexten", lat: 46.7019, lon: 12.3586, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Reider (Reidhof), Tschurtschenthaler."},
-        {name: "Rovereto", lat: 45.8885, lon: 11.0413, kategorie: "Tiroler Linie", region: "Welschtirol", beschreibung: "Kofler/Cofler Dynastie."},
-        {name: "Mailand", lat: 45.4642, lon: 9.19, kategorie: "Tiroler Linie", region: "Lombardei", beschreibung: "Finanzier Peter Kofler."},
-        {name: "Anras", lat: 46.7739, lon: 12.5608, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Pfarrer Bodner/Kofler."},
-        {name: "Lienz", lat: 46.8289, lon: 12.7686, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Bezirkshauptstadt."},
-        {name: "Sillian", lat: 46.7528, lon: 12.4211, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Zollamt Alois A. Pilz."},
-        {name: "Padua", lat: 45.4064, lon: 11.8768, kategorie: "Tiroler Linie", region: "Venetien", beschreibung: "Universität (Cofler)."},
-        {name: "Triest", lat: 45.6495, lon: 13.7768, kategorie: "Tiroler Linie", region: "Adria", beschreibung: "Cofler-Ärzte."},
-
-        // === ZUSAMMENFÜHRUNG / LEBEN ===
-        {name: "Innsbruck", lat: 47.2692, lon: 11.3933, kategorie: "Zusammenführung", region: "Tirol", beschreibung: "Zentraler Wohnort ab 1953."},
-        {name: "Salzburg-Aigen", lat: 47.7833, lon: 13.0831, kategorie: "Zusammenführung", region: "Salzburg", beschreibung: "Ruhestand der Großeltern."},
-        
-        // === WEITERE ORTE (Aus Master-Liste ergänzt) ===
+        // === PILZ-LINIE ===
+        {name: "Dörnthal", lat: 50.7339, lon: 13.3486, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Ältester Ursprung (Pültz/Pilz), Richteramt."},
+        {name: "Olbernhau", lat: 50.6661, lon: 13.3381, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Handwerkszentrum, Exulantensiedlung."},
+        {name: "Rothenthal", lat: 50.6342, lon: 13.3733, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Geburt F.A. Pilz; Startpunkt Migration Böhmen."},
+        {name: "Kallich (Kalek)", lat: 50.5775, lon: 13.3219, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Erster Ankunftsort in Böhmen; Hungersnot 1772."},
+        {name: "Schmiedeberg", lat: 50.4381, lon: 13.0536, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Familie Hofmann; Bergbau & Industrie."},
+        {name: "Weipert", lat: 50.4922, lon: 13.0319, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bergstadt; Geburt des Großvaters (1876)."},
+        {name: "Stolzenhain", lat: 50.4128, lon: 12.9789, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Hauptort der Förster-Generationen."},
+        {name: "Preßnitz", lat: 50.4667, lon: 13.1333, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Versunkene Stadt; Grubenunglück 1698."},
+        {name: "Kupferberg", lat: 50.4214, lon: 13.1153, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Katholisch-politisches Casino (V.W. Pilz)."},
+        {name: "Hlawatschow", lat: 49.9120, lon: 14.7660, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Geburt Vinzenz Pilz 1830."},
+        {name: "Helfenberg", lat: 48.5442, lon: 14.1419, kategorie: "Pilz-Linie", region: "OÖ", beschreibung: "Wirkungsort Alois Pilz; Waldhäuser: Geburt d. Vaters."},
+        {name: "Libeschitz", lat: 50.2939, lon: 13.6233, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Wirkungsstätte Lehrer F.A. Pilz."},
+        {name: "Amschelberg", lat: 49.6558, lon: 14.4744, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Taufe Apollonia Jablotzki; Radetzky-Bezug."},
+        {name: "Schloss Rothenhaus", lat: 50.5123, lon: 13.4519, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Dienstsitz der herrschaftlichen Förster."},
+        {name: "Gottesgab", lat: 50.4097, lon: 12.9244, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Familien Glaser und Gahler."},
+        {name: "B. Wiesenthal", lat: 50.4394, lon: 13.0156, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Heirat V. Pilz & F. Gahler."},
+        {name: "Sebastiansberg", lat: 50.5100, lon: 13.2511, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bergstadt im Erzgebirge. Tod Franziska Pilz 1921."},
+        {name: "Eger (Cheb)", lat: 50.0796, lon: 12.3739, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Mägdebrunnen (Oswald Hofmann)."},
         {name: "Bechyně", lat: 49.2972, lon: 14.4708, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bezirk Tabor."},
-        {name: "Brandau", lat: 50.6319, lon: 13.3906, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bezirk Komotau."},
-        {name: "Brüx (Most)", lat: 50.5028, lon: 13.6361, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bezirk Brüx."},
-        {name: "Duppau (Doupov)", lat: 50.2592, lon: 13.1411, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Abgekommener Ort."},
-        {name: "Joachimsthal", lat: 50.3583, lon: 12.9344, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Ausbildung Alois Johann Pilz."},
+        {name: "Joachimsthal", lat: 50.3583, lon: 12.9344, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Ausbildung von Alois Johann Pilz."},
         {name: "Komotau", lat: 50.4605, lon: 13.4178, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Chomutov."},
         {name: "Saaz", lat: 50.3269, lon: 13.5456, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Hopfenstadt Žatec."},
-        {name: "Prag", lat: 50.0875, lon: 14.4214, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Landeshauptstadt."},
-        {name: "Teplitz-Schönau", lat: 50.6403, lon: 13.8244, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Kurbad."},
+        {name: "Prag", lat: 50.0875, lon: 14.4214, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Böhmische Landeshauptstadt."},
+        {name: "Teplitz-Schönau", lat: 50.6403, lon: 13.8244, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bedeutendes Kurbad."},
+        {name: "Salzburg-Aigen", lat: 47.7833, lon: 13.0831, kategorie: "Pilz-Linie", region: "Salzburg", beschreibung: "Ruhestandsort der Großeltern."},
+        {name: "München", lat: 48.1372, lon: 11.5755, kategorie: "Pilz-Linie", region: "Bayern", beschreibung: "Wohnort Oswald Hofmann."},
+        {name: "Pechau (bei Magdeburg)", lat: 52.0919, lon: 11.7303, kategorie: "Pilz-Linie", region: "Sachsen-Anhalt", beschreibung: "Tod von Philipp Bechinie (1819)."}, // NEU
+
+        // === EBERSTALLER-LINIE ===
+        {name: "Wallern/Trattnach", lat: 48.2336, lon: 13.9450, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Reichhof; 300 Jahre Stammsitz. ehemals Krenglbach."},
+        {name: "Radstadt", lat: 47.3833, lon: 13.4500, kategorie: "Eberstaller-Linie", region: "Salzburg", beschreibung: "Eberstaller-Bäckerei."},
+        {name: "Rott bei Salzburg", lat: 47.8333, lon: 12.9833, kategorie: "Eberstaller-Linie", region: "Salzburg", beschreibung: "Geburt Großvater Johann Eberstaller."},
+        {name: "Bad Aussee", lat: 47.6097, lon: 13.7822, kategorie: "Eberstaller-Linie", region: "Steiermark", beschreibung: "Heirat Eberstaller/Mittermaier (1895)."},
+        {name: "Linz", lat: 48.3064, lon: 14.2861, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Oberösterreichische Landeshauptstadt."},
+        {name: "Rannariedl", lat: 48.4831, lon: 13.7833, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Gerichtsdiener Strixner."},
+        {name: "Steyr", lat: 48.0425, lon: 14.4211, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Industriestadt."},
+        {name: "Wels", lat: 48.1656, lon: 14.0353, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Tod von Johann B. Eberstaller, Urgroßvater, 1905."},
+
+        // === TIROLER LINIE ===
+        {name: "Kartitsch", lat: 46.7231, lon: 12.5008, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Petererhof; Zentrum der Linie."},
+        {name: "Sexten", lat: 46.7019, lon: 12.3586, kategorie: "Tiroler Linie", region: "Südtirol", beschreibung: "Reider/Tschurtschenthaler."},
+        {name: "Rovereto", lat: 45.8885, lon: 11.0413, kategorie: "Tiroler Linie", region: "Trentino", beschreibung: "Kofler/Cofler Dynastie."},
+        {name: "Mailand", lat: 45.4642, lon: 9.1900, kategorie: "Tiroler Linie", region: "Lombardei", beschreibung: "Finanzier Peter Kofler."},
+        {name: "Anras", lat: 46.7739, lon: 12.5608, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Pfarrer Bodner/Kofler."},
+        {name: "Lienz", lat: 46.8289, lon: 12.7686, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Bezirkshauptstadt Osttirol."},
+        {name: "Padua", lat: 45.4064, lon: 11.8768, kategorie: "Tiroler Linie", region: "Venetien", beschreibung: "Universität (Cofler-Studium)."},
+        {name: "Triest", lat: 45.6495, lon: 13.7768, kategorie: "Tiroler Linie", region: "Friaul-Jul. V.", beschreibung: "Cofler-Ärzte."},
+
+        // === ZUSAMMENFÜHRUNG ===
+        {name: "Innsbruck", lat: 47.2692, lon: 11.3933, kategorie: "Zusammenführung", region: "Tirol", beschreibung: "Zentraler Wohnort ab 1953."},
+        {name: "Sillian", lat: 46.7528, lon: 12.4211, kategorie: "Zusammenführung", region: "Tirol", beschreibung: "Zollamt Alois A. Pilz."},
+
+        // === SLAWONIEN (Alois Vjekoslav Pilz) ===
+        {name: "Badljevina", lat: 45.5135, lon: 17.1924, kategorie: "Pilz-Linie", region: "Slawonien", beschreibung: "Wohnort Alois Vjekoslav Pilz (19.02.1858)."},
+        {name: "Ivanovo Polje", lat: 45.5900, lon: 17.1500, kategorie: "Pilz-Linie", region: "Slawonien", beschreibung: "Johannisfeld. Wohnort u. Oberförster Alois Vjekoslav Pilz (1870-1880)."},
+        {name: "Negoslavci", lat: 45.2783, lon: 18.9975, kategorie: "Pilz-Linie", region: "Slawonien", beschreibung: "Herrschaftlicher Förster (1876) und Sterbeort von Alois Vjekoslav Pilz (21.09.1894)."},
+
+        // === SONSTIGE ===
         {name: "Wien", lat: 48.2092, lon: 16.3728, kategorie: "Sonstige", region: "Wien", beschreibung: "Reichshauptstadt."},
-        {name: "Budapest", lat: 47.4979, lon: 19.0402, kategorie: "Sonstige", region: "Ungarn", beschreibung: "Ofen/Pest."},
-        {name: "Cseszte", lat: 48.4, lon: 17.3667, kategorie: "Sonstige", region: "Ungarn", beschreibung: "Schattmannsdorf. Komitat Pressburg."},
-        {name: "Steyr", lat: 48.0425, lon: 14.4211, kategorie: "Eberstaller-Linie", region: "Oberösterreich", beschreibung: "-"},
-        {name: "Wels", lat: 48.1656, lon: 14.0353, kategorie: "Eberstaller-Linie", region: "Oberösterreich", beschreibung: "-"},
-        {name: "Blumenau (Ostpreußen)", lat: 54.0747, lon: 20.6613, kategorie: "Sonstige", region: "Ostpreußen", beschreibung: "Heilsberg."},
-        {name: "München", lat: 48.1372, lon: 11.5755, kategorie: "Sonstige", region: "Bayern", beschreibung: "-"}
+        {name: "Budapest", lat: 47.4979, lon: 19.0402, kategorie: "Sonstige", region: "Ungarn", beschreibung: "Metropole an der Donau."}
     ];
     
-    // Sortieren für die Tabelle (nach Region, dann Name)
+    // Sortieren: Kategorie -> Name
     orte.sort(function(a, b) {
         if (a.kategorie < b.kategorie) return -1;
         if (a.kategorie > b.kategorie) return 1;
         return a.name.localeCompare(b.name);
     });
 
-    var markers = {}; // Store markers by ID or Name to access them later
+    var markers = {};
     
-    // Marker zur Karte hinzufügen
+    // Marker setzen
     orte.forEach(function(ort, index) {
         ort.id = 'ort-' + index;
 
@@ -135,6 +134,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- TABELLE GENERIEREN ---
     var tbody = document.getElementById('orte-tbody');
     if (tbody) {
+        // Tabelle leeren
+        tbody.innerHTML = '';
+
         orte.forEach(function(ort) {
             var tr = document.createElement('tr');
             var rowClass = 'row-sonstige';
@@ -194,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     map.addControl(new OverviewControl());
 
-    // --- CONTROLS: VOLLBILD (Wiederhergestellt) ---
+    // --- CONTROLS: VOLLBILD ---
     var isFullscreen = false;
     
     var FullscreenControl = L.Control.extend({
