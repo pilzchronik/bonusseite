@@ -139,6 +139,18 @@ Josef Bechinie (Sohn des Philipp) setzte die Tradition fort und diente als Revie
 
 Im Sterbeeintrag wird Josef als „pensionierter Revierförster des Fürsten Khevenhüller" bezeichnet – ein Hinweis auf jahrzehntelangen Dienst.
 
+### Geklärt: Bernau (Zákoutí) – Herrschaft Hagensdorf
+
+Der Herkunftsort von **Anna Handl** (Ehefrau des Josef Bechinie) konnte präzisiert werden. Eine Matrikel von 1841 nennt „Herrschaft H..., Kreis Žatecký". Die Ortsgeschichtsforschung bestätigt:
+
+| Zeitraum | Herrschaft |
+|----------|------------|
+| Ursprünglich | Burg Neuseeberg (Nový Žeberk) |
+| ab 1454 | Rothenhaus (Červený Hrádek) |
+| **ab 1680** | **Herrschaft Hagensdorf (Ahníkov)** + Gut Göttersdorf |
+
+Für den relevanten Zeitraum (1803) gehörte Bernau zur **Herrschaft Hagensdorf** im Saazer Kreis – nicht zu Blatno oder Rothenhaus.
+
 ---
 
 ## Datenlücken – Was noch zu klären ist
@@ -149,7 +161,6 @@ Nicht alle Herrschaftszuordnungen konnten eindeutig ermittelt werden:
 |-----|---------|------------------|
 | Blumenau | Zuordnung zu Pfaffroda/Dörnthal oder Amt Lauterstein unklar | Archivrecherche Amt Lauterstein |
 | Radmierschitz | Besitzer 1776: Graf Chotek oder Kořenský v. Terešov? | Urbare / Kirchenbücher prüfen |
-| Bernau (Zákoutí) | Zugehörigkeit zu Blatno oder Rothenhaus unklar | Katastralgemeinde-Zuordnung |
 | Rakonitz | Als Herkunft Philipp Bechinie genannt, kein Taufeintrag | Matrikensuche erweitern |
 | Miskowitz | Möglicher Herkunftsort Theresia („Pessel") | Jüdische Matriken prüfen |
 
