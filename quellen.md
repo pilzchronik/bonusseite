@@ -27,11 +27,21 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 
 ---
 
-## Korrekturen
-*Hinweis: Dies sind Platzhalter zur Demonstration.*
+## Druckfehler & Errata
 
-- **Band 1, Seite 145:** Geburtsdatum ist 12. Mai 1880 (nicht 1881).
-- **Band 2, Seite 98:** Ortsname lautet korrekt „Schmiedeberg“.
+Diese Liste dokumentiert bekannte Druck- und Satzfehler der gedruckten
+**Pilz-Chronik**.  
+Die Angaben dienen der Transparenz und werden bei künftigen Auflagen
+berücksichtigt.
+
+**Stand: 31.01.2026**
+
+- **Band 1, Seite 56:**  
+  Im Abschnitt zur Kriegsverletzung ist der Satz  
+  *„Erst als über eine Bekannte unserer Tante Mina …“*  
+  irrtümlich **doppelt abgedruckt**.  
+  Es handelt sich um einen redaktionellen Fehler ohne inhaltliche Auswirkung.
+  Der Hinweis auf diesen Satzfehler stammt von meiner Cousine – danke für die aufmerksame Lektüre.
 
 ---
 
