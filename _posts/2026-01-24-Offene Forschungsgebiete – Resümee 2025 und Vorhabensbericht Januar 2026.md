@@ -4,6 +4,7 @@ date: 2026-01-24
 author: Wolfgang Pilz
 ---
 
+# Offene Forschungsgebiete – Resümee 2025 und Pläne 2026
 
 Nach Abschluss der Pilz-Chronik (Band 1 & 2) könnte man meinen, die Arbeit sei getan. Ist sie nicht. Die Drucklegung hat vielmehr offengelegt, wo die Fundamente noch wackeln – und wo ich in den kommenden Monaten nachlegen muss. Dieser Beitrag dokumentiert den aktuellen Stand und die nächsten Schritte.
 
