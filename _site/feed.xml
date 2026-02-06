@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/bonusseite/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/bonusseite/" rel="alternate" type="text/html" /><updated>2026-02-04T23:15:40+01:00</updated><id>http://localhost:4000/bonusseite/feed.xml</id><title type="html">Pilz-Chronik Bonusseite</title><subtitle>Digitale Ergänzung und Werkstatt zur gedruckten Pilz-Chronik (Band 1 &amp; 2).</subtitle><entry><title type="html">Forschungsstand – Familie Bechinie / Běchyně (Ondřejov und Chlum)</title><link href="http://localhost:4000/bonusseite/forschung/2026/01/30/forschungsstand-bechinie.html" rel="alternate" type="text/html" title="Forschungsstand – Familie Bechinie / Běchyně (Ondřejov und Chlum)" /><published>2026-01-30T00:00:00+01:00</published><updated>2026-01-30T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/forschung/2026/01/30/forschungsstand-bechinie</id><content type="html" xml:base="http://localhost:4000/bonusseite/forschung/2026/01/30/forschungsstand-bechinie.html"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/bonusseite/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/bonusseite/" rel="alternate" type="text/html" /><updated>2026-02-06T15:40:24+01:00</updated><id>http://localhost:4000/bonusseite/feed.xml</id><title type="html">Pilz-Chronik Bonusseite</title><subtitle>Digitale Ergänzung und Werkstatt zur gedruckten Pilz-Chronik (Band 1 &amp; 2).</subtitle><entry><title type="html">Eberstaller: Prüfung der Identität von „Wolf“ gestartet</title><link href="http://localhost:4000/bonusseite/forschung/2026/02/06/pru-fung-identia-t-wolf-eberstaller.html" rel="alternate" type="text/html" title="Eberstaller: Prüfung der Identität von „Wolf“ gestartet" /><published>2026-02-06T00:00:00+01:00</published><updated>2026-02-06T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/forschung/2026/02/06/pr%C3%BCfung-identi%C3%A4t-wolf-eberstaller</id><content type="html" xml:base="http://localhost:4000/bonusseite/forschung/2026/02/06/pru-fung-identia-t-wolf-eberstaller.html"><![CDATA[<h2 id="ausgangspunkt">Ausgangspunkt</h2>
+
+<p>Im Rahmen der laufenden Ergänzungen zur Pilz-Chronik habe ich die <strong>Identitätsfrage rund um „Wolf Eberstaller“</strong> erneut aufgegriffen. Anlass war, dass im 17. Jahrhundert im Raum <strong>Kremsmünster – Krenglbach – Windischgarsten</strong> mehrere Personen gleichen (oder sehr ähnlichen) Namens auftreten und dadurch Zuordnungen leicht vermischt werden können.</p>
+
+<p>Ziel ist <strong>keine Neuerzählung</strong> dessen, was im Buch bereits dargestellt ist, sondern eine <strong>quellenkritische Prüfung</strong> einzelner Knotenpunkte.</p>
+
+<h2 id="was-derzeit-als-gesichert-gilt">Was derzeit als gesichert gilt</h2>
+
+<ol>
+  <li><strong>Wolf Eberstaller (Krenglbach, † 1672)</strong> ist durch einen <strong>Sterbeeintrag</strong> im Pfarrbuch Krenglbach als Person sicher fassbar (Primäranker).</li>
+  <li>Daneben existiert ein <strong>zweiter Namensträger</strong>:
+ein <strong>Wolf Eberstaller in Seepach (Windischgarsten)</strong>, der in Trauungseinträgen als <strong>Urbaramtsverwalter des Stiftes Kremsmünster</strong> erscheint und <strong>vor 08.07.1681</strong> verstorben sein muss (Primäranker über „weiland/selig“ im Trauungseintrag der Tochter).</li>
+  <li>Diese beiden Personen sind <strong>nicht identisch</strong> (Zeitfenster, Ehefrau/Umfeld, soziale Stellung).</li>
+</ol>
+
+<h2 id="was-vorerst-offen-bleibt">Was vorerst offen bleibt</h2>
+
+<ol>
+  <li>Ein <strong>Wolf Eberstaller in Kremsmünster</strong> (Taufe 1616; Heirat 1636 als „Leinweber“) ist als Person belegbar, sein weiterer Lebensweg ist aber noch nicht sauber nachgezogen.</li>
+  <li>Ob dieser Kremsmünsterer Wolf mit dem späteren <strong>Seepacher Urbaramtsverwalter</strong> identisch sein könnte oder ob es sich um eine <strong>eigene Linie</strong> handelt, bleibt derzeit <strong>offen</strong> und wird nur dann entscheidbar, wenn zusätzliche Belege gefunden werden (Kinder-Taufen, Sterbeeintrag, Amtsnennungen, Stiftsakten).</li>
+</ol>
+
+<h2 id="übersichtliche-darstellung-extern">Übersichtliche Darstellung (extern)</h2>
+
+<p>Eine strukturierte Übersicht samt Quellenhinweisen und Abgrenzungen ist hier dokumentiert:</p>
+
+<ul>
+  <li><a href="https://eberstaller-b7xxf3uc.manus.space">Manus-Übersicht: Eberstaller / Wolf-Frage</a></li>
+</ul>
+
+<h2 id="nächste-arbeitsschritte">Nächste Arbeitsschritte</h2>
+
+<ol>
+  <li><strong>Kremsmünster</strong>: Taufen/Einträge nach 1636 zu Wolf + Barbara (und ggf. Folgeheirat) systematisch prüfen.</li>
+  <li><strong>Stift Kremsmünster</strong>: Hinweise zum Urbaramt/Seepach (Amtsführung, Personal, Übergaben) suchen.</li>
+  <li><strong>Krenglbach/Wels/Umfeld</strong>: Heiraten/Taufen der Kinder (insb. Wels) als Primärbelege nachziehen.</li>
+</ol>
+
+<p><em>Stand: 06.02.2026</em></p>]]></content><author><name></name></author><category term="Forschung" /><summary type="html"><![CDATA[Mehrere gleichnamige Wolf/Wolfgang Eberstaller im 17. Jh.: Die quellenkritische Prüfung wurde begonnen. Erste Abgrenzungen sind möglich, zentrale Zuordnungen bleiben vorerst offen.]]></summary></entry><entry><title type="html">Forschungsstand – Familie Bechinie / Běchyně (Ondřejov und Chlum)</title><link href="http://localhost:4000/bonusseite/forschung/2026/01/30/forschungsstand-bechinie.html" rel="alternate" type="text/html" title="Forschungsstand – Familie Bechinie / Běchyně (Ondřejov und Chlum)" /><published>2026-01-30T00:00:00+01:00</published><updated>2026-01-30T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/forschung/2026/01/30/forschungsstand-bechinie</id><content type="html" xml:base="http://localhost:4000/bonusseite/forschung/2026/01/30/forschungsstand-bechinie.html"><![CDATA[<style>
   .status-box {
     background-color: #f9f9f9;
     border-left: 4px solid #999;
@@ -602,47 +640,7 @@ Die Episode bestätigt, dass die Frage der adeligen Abstammung auch in der Pecha
   <li><strong>Anschluss:</strong> Dieser Beleg stützt die Hypothese, dass die Vorfahren des 1591 getauften Abraham Pilz bereits im Ort verwurzelt waren.</li>
 </ol>
 
-<p>Dieser Fund gilt als das derzeit älteste gesicherte Zeugnis der Familie in Dörnthal.</p>]]></content><author><name></name></author><category term="werkstatt" /><category term="Sachsen" /><category term="Pültz" /><category term="Dörnthal" /><category term="Gerichtsbuch" /><category term="16. Jahrhundert" /><summary type="html"><![CDATA[Dokumentation eines neu erschlossenen Primärbelegs zur Familie Pilz (Pültz) im Erzgebirge.]]></summary></entry><entry><title type="html">DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern</title><link href="http://localhost:4000/bonusseite/forschung/2025/12/29/dna-analyse.html" rel="alternate" type="text/html" title="DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern" /><published>2025-12-29T00:00:00+01:00</published><updated>2025-12-29T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/forschung/2025/12/29/dna-analyse</id><content type="html" xml:base="http://localhost:4000/bonusseite/forschung/2025/12/29/dna-analyse.html"><![CDATA[<style>
-  /* Kleines lokales Styling für die Fakten-Boxen */
-  .fact-box {
-    background: #f0f4f8;
-    border-left: 4px solid #2a5d8f;
-    padding: 15px;
-    margin: 20px 0;
-  }
-  .fact-title {
-    font-weight: bold;
-    color: #2a5d8f;
-    display: block;
-    margin-bottom: 5px;
-  }
-</style>
-
-<p>Die klassische Ahnenforschung endet meist im 16. oder 17. Jahrhundert. Mittels moderner DNA-Analyse konnten wir jedoch zwei Linien bis weit in die Vorzeit zurückverfolgen.</p>
-
-<h2 id="väterliche-linie-y-dna">Väterliche Linie (Y-DNA)</h2>
-
-<p>Diese Linie vererbt sich vom Vater auf den Sohn. Sie definiert den Stammbaum der Familie Pilz im biologischen Sinne.</p>
-
-<div class="fact-box">
-  <span class="fact-title">Haplogruppe: R-M269</span>
-  Herkunft: Westeuropa / Indogermanisch<br />
-  Alter: ca. 4.000 bis 10.000 Jahre
-</div>
-
-<p>Die Haplogruppe R-M269 ist die dominierende Linie in Westeuropa. Sie wird oft mit der Ausbreitung der Indogermanen und später der Kelten und Germanen in Verbindung gebracht. Unsere Vorfahren gehörten zu jenen Stämmen, die nach der Eiszeit Mitteleuropa wiederbesiedelten.</p>
-
-<h2 id="mütterliche-linie-mtdna">Mütterliche Linie (mtDNA)</h2>
-
-<p>Diese Linie folgt der reinen Mutterfolge (Mutter der Mutter der Mutter…).</p>
-
-<div class="fact-box">
-  <span class="fact-title">Haplogruppe: H41a9</span>
-  Herkunft: Alpen / Balkan / Osteuropa<br />
-  Besonderheit: Sehr selten
-</div>
-
-<p>H41a9 ist eine sehr seltene Unterlinie mit östlicher Herkunft. Im Gegensatz zu den westeuropäischen Linien stammt sie von Vorfahren ab, die die Eiszeit im Kaukasus/Ukraine überlebten (Verbindung zur Yamnaya-Kultur). Der spezifische Zweig entstand erst im Mittelalter.</p>]]></content><author><name></name></author><category term="forschung" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Zeitleiste</title><link href="http://localhost:4000/bonusseite/forschung/2025/12/29/zeitleiste.html" rel="alternate" type="text/html" title="Zeitleiste" /><published>2025-12-29T00:00:00+01:00</published><updated>2025-12-29T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/forschung/2025/12/29/zeitleiste</id><content type="html" xml:base="http://localhost:4000/bonusseite/forschung/2025/12/29/zeitleiste.html"><![CDATA[<style>
+<p>Dieser Fund gilt als das derzeit älteste gesicherte Zeugnis der Familie in Dörnthal.</p>]]></content><author><name></name></author><category term="werkstatt" /><category term="Sachsen" /><category term="Pültz" /><category term="Dörnthal" /><category term="Gerichtsbuch" /><category term="16. Jahrhundert" /><summary type="html"><![CDATA[Dokumentation eines neu erschlossenen Primärbelegs zur Familie Pilz (Pültz) im Erzgebirge.]]></summary></entry><entry><title type="html">Zeitleiste</title><link href="http://localhost:4000/bonusseite/forschung/2025/12/29/zeitleiste.html" rel="alternate" type="text/html" title="Zeitleiste" /><published>2025-12-29T00:00:00+01:00</published><updated>2025-12-29T00:00:00+01:00</updated><id>http://localhost:4000/bonusseite/forschung/2025/12/29/zeitleiste</id><content type="html" xml:base="http://localhost:4000/bonusseite/forschung/2025/12/29/zeitleiste.html"><![CDATA[<style>
   /* Design-Philosophie: Richterlicher Stil */
   /* Schlicht, seriös, weißer Hintergrund, Akzentfarbe Dunkelblau */
 
