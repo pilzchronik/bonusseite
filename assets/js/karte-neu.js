@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Initialisiere Karte v3.8...');
     
     var map = L.map('map');
+    window.karteMap = map; // Global für Ortsnamen-Tool
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors',
         maxZoom: 19
