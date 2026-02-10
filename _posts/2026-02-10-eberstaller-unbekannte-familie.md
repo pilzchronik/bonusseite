@@ -34,7 +34,7 @@ excerpt: "Unsere Mutter war eine Eberstaller, doch die Familie ihres früh verst
 
 ---
 
-Zu Beginn der Ahnenforschung war uns die Familie Eberstaller – die Familie unserer Mutter – so gut wie kein Begriff. Unser Großvater mütterlicherseits starb bereits zu Beginn des 20. Jahrhunderts in jungen Jahren. Unsere Mutter wuchs ohne Vater auf, und zur Familie Eberstaller bestand danach kaum noch Kontakt. Der Name war uns Geschwistern fremd.
+Zu Beginn der Ahnenforschung war uns die Familie Eberstaller – die Familie unserer Mutter – so gut wie kein Begriff. Unser Großvater mütterlicherseits starb bereits 1929 in jungen Jahren. Unsere Mutter wuchs ohne Vater auf, und zur Familie Eberstaller bestand danach kaum noch Kontakt. Der Name war uns Geschwistern fremd.
 
 ### Die Tante in Brasilien
 

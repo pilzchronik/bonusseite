@@ -3,7 +3,7 @@ layout: post
 title: "Die Eberstaller-Linie nach Langenlois – Verwandtschaft mit Dr. Richard Eberstaller"
 date: 2026-02-10
 categories: [Ergänzungen]
-excerpt: "Wie hängt Dr. Richard Eberstaller, der NS-Vizepräsident des Landesgerichtes für Strafsache Wien und Schwager Alma Mahlers, mit unserer Familie zusammen? Die Spurensuche führt von Krenglbach über Grieskirchen und Enns bis nach Wiener Neustadt und Langenlois."
+excerpt: "Wie hängt Dr. Richard Eberstaller, der NS-Vizepräsident des Landgerichtes für Strafsache Wien und Schwager Alma Mahlers, mit unserer Familie zusammen? Die Spurensuche führt von Krenglbach über Grieskirchen und Enns bis nach Wiener Neustadt und Langenlois."
 ---
 <style>
   .status-box {
@@ -61,9 +61,9 @@ excerpt: "Wie hängt Dr. Richard Eberstaller, der NS-Vizepräsident des Landesge
 
 ---
 
-In Band 2 der Pilz-Chronik wird **Dr. Richard Eberstaller** (1887–1945) behandelt: Jurist, ab 1938 (NS-)Vizepräsident des Landesgerichtes für Strafsachen in Wien, Präsident des Österreichischen Fußball-Bundes, und durch seine Ehe mit Maria Moll Schwager von Alma Mahler-Werfel. Am 13. April 1945, als die Sowjets Wien erreichten, starb er zusammen mit seiner Frau und seinen Schwiegereltern Carl und Anna Moll durch Suizid.
+In Band 2 der Pilz-Chronik wird **Dr. Richard Eberstaller** (1887–1945) behandelt: Jurist, ab 1938 (NS-)Vizepräsident des Landgerichtes für Strafsachen in Wien, Präsident des Österreichischen Fußball-Bundes, und durch seine Ehe mit Maria Moll Schwager von Alma Mahler-Werfel. Am 13. April 1945, als die Sowjets Wien erreichten, starb er zusammen mit seiner Frau und seinem Schwiegervater Carl Moll durch Suizid.
 
-Dass Richard Eberstaller ein sehr entfernter Verwandter ist, war bekannt. **Wie genau** die Verwandtschaftslinie verläuft, konnte nun durch die systematische Auswertung von Kirchenbüchern und Sekundärquellen rekonstruiert werden. Die Verbindung führt über neun Generationen zurück zum gemeinsamen Stammvater **Wolf Eberstaller** am Reichhof in Krenglbach.
+Ob Richard Eberstaller ein sehr entfernter Verwandter ist, war unbekannt. **Wie genau** die Verwandtschaftslinie verläuft, konnte nun durch die systematische Auswertung von Kirchenbüchern und Sekundärquellen rekonstruiert werden. Die Verbindung führt über neun Generationen zurück zum gemeinsamen Stammvater **Wolf Eberstaller** am Reichhof in Krenglbach.
 
 ## Der gemeinsame Stammvater
 
