@@ -116,10 +116,10 @@ Und neun Monate später wurde in Langenlois **Richard Josef Julius Eberstaller**
 
 <div class="stammtafel">
 <pre>
-Wolf Eberstaller (*ca. 1604, †1672 Krenglbach)
+Wolf Eberstaller vulgo alter Reymayr (*ca. 1604, †1672 Krenglbach)
 ∞ Catharina (†1674)
 │
-├── STEPHAN Reymayr (Hoferbe) ──── PILZ-LINIE
+├── STEPHAN Eberstaller vulgo Reymayr (Hoferbe) ──── PILZ-LINIE
 │
 └── JOHANN Eberstaller (*1627, †1681 Wels)
     ∞ Maria Sophia Edlbeck (*1652 Enns)
