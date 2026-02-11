@@ -60,7 +60,7 @@ Diese Frage ließ mir keine Ruhe. Um sie zu beantworten, waren langwierige und z
 
 Das Ergebnis: **Ja, es besteht eine Verwandtschaft** – allerdings eine sehr entfernte. Die Verbindung führt neun Generationen zurück zu einem gemeinsamen Stammvater, der 1672 auf einem Bauernhof in Krenglbach bei Wels starb. Dessen Söhne – unser Vorfahre Stephan und dessen Bruder Johann – begründeten getrennte Linien, die sich über die Jahrhunderte in ganz unterschiedliche Richtungen entwickelten.
 
-Wie genau diese Verwandtschaftslinie verläuft und auf welchen Quellen sie beruht, ist im Beitrag **[Die Eberstaller-Linie nach Langenlois]({{ site.baseurl }}{% post_url 2026-02-10-eberstaller-langenlois-linie %})** dokumentiert.
+Wie genau diese Verwandtschaftslinie verläuft und auf welchen Quellen sie beruht, ist im Beitrag **[Die Eberstaller-Linie nach Langenlois]({{ site.baseurl }}{% post_url 2026-02-11-eberstaller-langenlois-linie %})** dokumentiert.
 
 ---
 
