@@ -150,6 +150,7 @@ Wolf Eberstaller (*ca. 1604, †1672, Reichhof Krenglbach)
 </pre>
 </div>
 
+
 ## Quellenlage
 
 Die Rekonstruktion stützt sich auf folgende Primär- und Sekundärquellen:
@@ -180,7 +181,7 @@ Der Vater von Karl Leopold war „Karl, bürgl. Hausbesitzer und Nadlermeister h
 Vom Bezirksrichter in Langenlois fehlen exakte Geburts- und Sterbedaten. Zu suchen wäre sein <strong>Taufeintrag</strong> – vermutlich in Wiener Neustadt (ca. 1850–1860) – sowie die <strong>Taufe seines Sohnes Richard</strong> im Taufbuch Langenlois (12. April 1887, Pfarre St. Laurenz, Diözesanarchiv St. Pölten, digitalisiert auf Matricula Online).</p>
 
 <p><strong>4. Oskar Richard Maria Eberstaller – Familienzusammenhang</strong><br>
-Der Cousin von Richard (*1886 Wr. Neustadt) wurde Oberlandesgerichtsrat und Orgelsachverständiger. Sein postum erschienenes Werk „Orgeln und Orgelbauer in Österreich" (1955) deutet auf Familientradition in der Justiz. Eine <strong>Sterbeurkunde</strong> (†14.2.1939 Wien) und allfällige <strong>Personalakten</strong> im Österreichischen Staatsarchiv (Justizministerium) könnten weitere Familiendaten liefern.</p>
+Der Cousin von Richard (*1886 Wr. Neustadt) wurde Oberlandesgerichtsrat und Orgelsachverständiger. Sein postum erschienenes Werk „Orgeln und Orgelbauer in Österreich" (1955) gilt als Stamdardwerk. Eine <strong>Sterbeurkunde</strong> (†14.2.1939 Wien) und allfällige <strong>Personalakten</strong> im Österreichischen Staatsarchiv (Justizministerium) könnten weitere Familiendaten liefern.</p>
 </div>
 
 ---
