@@ -112,7 +112,7 @@ Und dann, nur neun Monate später, wurde in Langenlois **Richard Josef Julius Eb
 Wolf Eberstaller (*ca. 1604, †1672, Reichhof Krenglbach)
 ∞ Catharina (†1674)
 │
-├── STEPHAN Reymayr (Hoferbe) ────────────────── PILZ-LINIE
+├── STEPHAN Eberstaller (Hoferbe) ────────────────── PILZ-LINIE
 │       └── ... → Hilda Eberstaller ∞ Alois Pilz
 │
 └── JOHANN Eberstaller (*1627, †1681 Wels)
