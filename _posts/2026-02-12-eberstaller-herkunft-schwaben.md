@@ -59,7 +59,7 @@ excerpt: "Eine Wiener Publikation von 1902 verortet die Herkunft der Eberstaller
 
 ---
 
-Im Buch ist die Familie Eberstaller ab dem Reichhof in Krenglbach greifbar – mit Wolf Eberstaller, der dort 1672 starb. In der Chronik wurde noch vermutet, dass sein Vater der Kremsmünsterer Kaufmann Peter Eberstaller gewesen sei. Diese These hat sich bei der späteren Forschung nicht bestätigt (siehe den Beitrag zur **[Prüfung der Identität]({{ site.baseurl }}{% post_url 2026-02-06-pruefung-identitaet-wolf-eberstaller %})**). Gesichert ist aber, dass Wolf aus der Kremsmünsterer Eberstaller-Familie stammte – nur die direkte Vater-Sohn-Zuordnung zu Peter ist nicht haltbar. Woher die Eberstaller nach Kremsmünster kamen, war bei Abfassung der Chronik nicht bekannt. Zwei Quellen weisen unabhängig voneinander in dieselbe Richtung: nach Schwaben.
+In der Pilz-Chronik ist die Familie Eberstaller ab dem Reichhof in Krenglbach greifbar – mit Wolf Eberstaller, der dort 1672 starb. Die Chronik vermutete noch, dass sein Vater der Kremsmünsterer Kaufmann Peter Eberstaller gewesen sei. Diese These hat sich bei der späteren Forschung nicht bestätigt (siehe den Beitrag zur **[Prüfung der Identität]({{ site.baseurl }}{% post_url 2026-02-06-pruefung-identitaet-wolf-eberstaller %})**). Woher genau der Krenglbacher Wolf stammte, ist derzeit offen. Sicher ist nur, dass es in Kremsmünster eine Familie Eberstaller gab, die dort seit dem späten 16. Jahrhundert nachweisbar ist. Woher diese Kremsmünsterer Eberstaller kamen, war bei Abfassung der Chronik nicht bekannt. Zwei Quellen weisen unabhängig voneinander in dieselbe Richtung: nach Schwaben.
 
 ### Die Quellen
 
@@ -122,7 +122,7 @@ Eine interessante Beobachtung: Moderne Namenverbreitungskarten (Geogen) zeigen, 
 
 ### Was das für die Chronik bedeutet
 
-Hätte ich das bei der Abfassung des Buchs schon gewusst, wäre im Kapitel über die mütterlichen Vorfahren sicher ein Absatz wie dieser gestanden:
+Hätte ich das bei der Abfassung der Pilz-Chronik schon gewusst, wäre im Kapitel über die mütterlichen Vorfahren sicher ein Absatz wie dieser gestanden:
 
 *„Die Familie Eberstaller trägt einen Herkunftsnamen, der sich vom Ort Eberstall in der schwäbischen Markgrafschaft Burgau (heute Landkreis Günzburg, Bayern) ableitet. Im 14. und 15. Jahrhundert lassen sich bürgerliche Eberstaller im Umfeld der Augsburger Weberzunft nachweisen – nicht zu verwechseln mit dem gleichnamigen Adelsgeschlecht der Edelfreien von Eberstall, das bereits um 1330 erloschen war. Ab dem späten 16. Jahrhundert ist die Familie in Kremsmünster in Oberösterreich greifbar, wo Peter Eberstaller 1632 einen Wappenbrief erhielt."*
 
