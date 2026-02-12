@@ -1,121 +1,266 @@
----
-layout: page
-title: Geografie & Herkunft
-permalink: /karte/
----
+// Genealogie-Karte für pilzchronik.github.io
+// Version 4.0 - Große Erweiterung: 23 neue Orte aus Band 1 & 2
+// Stand: Februar 2026
 
-<style>
-  .intro-text {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 40px auto;
-    color: #555;
-    line-height: 1.6;
-  }
+document.addEventListener('DOMContentLoaded', function() {
+    
+    var mapElement = document.getElementById('map');
+    if (!mapElement) return;
+    
+    console.log('Initialisiere Karte v4.0...');
+    
+    var map = L.map('map');
+    window.karteMap = map;
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors',
+        maxZoom: 19
+    }).addTo(map);
 
-  /* Karte - Responsive Container (4:3 Format) */
-  .map-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 75%; 
-    height: 0;
-    overflow: hidden;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    background: #f9f9f9;
-    margin-bottom: 50px;
-  }
-  
-  /* Damit die Karte den Container voll ausfüllt */
-  .map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-    border: 0;
-  }
+    var lineColors = {
+        'Pilz-Linie': '#e74c3c',
+        'Eberstaller-Linie': '#3498db',
+        'Tiroler Linie': '#2ecc71',
+        'Zusammenführung': '#f39c12',
+        'Sonstige': '#95a5a6'
+    };
 
-  /* Text-Bereiche */
-  .regions-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
-    margin-top: 40px;
-    border-top: 1px solid #eee;
-    padding-top: 40px;
-  }
+    function createCustomIcon(kategorie, isHof) {
+        var color = lineColors[kategorie] || '#95a5a6';
+        if (isHof) {
+            return L.divIcon({
+                className: 'custom-div-icon',
+                html: '<div style="background-color: ' + color + '; width: 12px; height: 12px; border: 2px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.5); transform: rotate(45deg);"></div>',
+                iconSize: [12, 12],
+                iconAnchor: [6, 6]
+            });
+        }
+        return L.divIcon({
+            className: 'custom-div-icon',
+            html: '<div style="background-color: ' + color + '; width: 14px; height: 14px; border-radius: 50%; border: 2px solid white; box-shadow: 0 0 4px rgba(0,0,0,0.5);"></div>',
+            iconSize: [14, 14],
+            iconAnchor: [7, 7]
+        });
+    }
 
-  h3 { color: #2a5d8f; margin-top: 0; }
-  
-  .dna-box {
-    background-color: #f4f6f8;
-    padding: 20px;
-    border-left: 4px solid #2a5d8f;
-    margin-top: 40px;
-    border-radius: 4px;
-  }
-</style>
+    var orte = [
+        // === PILZ-LINIE ===
+        // --- Sachsen ---
+        {name: "Dörnthal", lat: 50.7339, lon: 13.3486, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Ältester Ursprung (Pültz/Pilz), Richteramt.", ref: "Bd. 1, S. 29"},
+        {name: "Olbernhau", lat: 50.6661, lon: 13.3381, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Handwerkszentrum, Exulantensiedlung.", ref: "Bd. 1, S. 28"},
+        {name: "Blumenau", lat: 50.6900, lon: 13.3000, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Waldhufendorf bei Olbernhau; Flößerei und Holzkohle für Freiberger Erzgruben.", ref: "Bd. 1, S. 28"},
+        {name: "Niederneuschönberg", lat: 50.6750, lon: 13.3500, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "1655 gegründete Exulantensiedlung; evtl. Michel Piltz unter den ersten Siedlern.", ref: "Bd. 1, S. 28"},
+        {name: "Grünthal", lat: 50.6580, lon: 13.2700, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Saigerhütte, UNESCO-Welterbe Montanregion Erzgebirge. Heirat Joh. Georg Pilz, um 1733.", ref: "Bd. 1, S. 29"},
+        {name: "Rothenthal", lat: 50.6342, lon: 13.3733, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Geburt Friedrich August Pilz 1761 (Kekulé 64).", ref: "Bd. 1, S. 29"},
+        {name: "Pockau", lat: 50.7100, lon: 13.2400, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Geburtsort Maria Elisabeth Schreiber (Kekulé 257), um 1712.", ref: "Bd. 2, S. 51"},
 
-<div class="intro-text">
-  <p>
-    Diese Karte visualisiert die Wanderungsbewegungen der Familie über die Jahrhunderte.
-    Sie verbindet die drei historischen Schwerpunkte: Sachsen, Böhmen und Tirol.
-  </p>
-</div>
+        // --- Böhmen / Erzgebirge ---
+        {name: "Kallich (Kalek)", lat: 50.5775, lon: 13.3219, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Erster Ankunftsort in Böhmen; Hungersnot 1772.", ref: "Bd. 1, S. 32"},
+        {name: "Schmiedeberg", lat: 50.4381, lon: 13.0536, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Familie Hofmann; Bergbau & Industrie.", ref: "Bd. 1, S. 33"},
+        {name: "Weipert", lat: 50.4922, lon: 13.0319, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bergstadt; Geburt des Großvaters Alois Johann Pilz (1876).", ref: "Bd. 1, S. 34"},
+        {name: "B. Wiesenthal", lat: 50.4394, lon: 13.0156, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Heirat Vinzenz Pilz & Franziska Gahler; beider Begräbnisort.", ref: "Bd. 1, S. 36"},
+        {name: "Gottesgab", lat: 50.4097, lon: 12.9244, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Höchstgelegene Stadt Mitteleuropas. Familien Glaser und Gahler.", ref: "Bd. 1, S. 36"},
+        {name: "Stolzenhain", lat: 50.4128, lon: 12.9789, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Hauptort der Förster-Generationen. Tod Vinzenz Pilz 1883 (Kekulé 8).", ref: "Bd. 1, S. 36"},
+        {name: "Kupferberg", lat: 50.4214, lon: 13.1153, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Katholisch-politisches Casino (V.W. Pilz).", ref: "Bd. 1, S. 36"},
+        {name: "Köstelwald", lat: 50.4350, lon: 13.1200, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Kotlina. NÖ von Kupferberg. Tod Vinzenz Pilz 15.4.1879 (Kekulé 16).", ref: "Bd. 1, S. 36"},
+        {name: "Preßnitz", lat: 50.4667, lon: 13.1333, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Versunkene Stadt; Heirat Vinzenz Pilz (Kekulé 16) und Johanna Wolf, 1850.", ref: "Bd. 1, S. 37"},
+        {name: "Sebastiansberg", lat: 50.5100, lon: 13.2511, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bergstadt. Tod Franziska Pilz 1921 (Kekulé 9).", ref: "Bd. 1, S. 35"},
+        {name: "Platten", lat: 50.3960, lon: 13.0680, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Blatno. Vinzenz Wenzel Pilz (Kekulé 16) war hier Revierjäger.", ref: "Bd. 2, S. 18"},
+        {name: "Eidlitz", lat: 50.4406, lon: 13.4574, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Údlice bei Chomutov. V.W. Pilz (Kekulé 16), Förster, gest. 29.3.1863.", ref: "Bd. 2, S. 18"},
+        {name: "Schloss Rothenhaus", lat: 50.5123, lon: 13.4519, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Dienstsitz der herrschaftlichen Förster (Grafen Buquoy).", ref: "Bd. 1, S. 32"},
+        {name: "Libeschitz", lat: 50.2939, lon: 13.6233, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Wirkungsstätte Lehrer Friedrich August Pilz (Kekulé 64), gest. 1812.", ref: "Bd. 1, S. 39"},
+        {name: "Joachimsthal", lat: 50.3583, lon: 12.9344, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Ausbildung von Alois Johann Pilz.", ref: "Bd. 1"},
+        {name: "Komotau", lat: 50.4605, lon: 13.4178, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Chomutov. Bezirkshauptstadt.", ref: "Bd. 1"},
+        {name: "Saaz", lat: 50.3269, lon: 13.5456, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Hopfenstadt Žatec.", ref: "Bd. 1"},
+        {name: "Eger (Cheb)", lat: 50.0796, lon: 12.3739, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Mägdebrunnen (Oswald Hofmann).", ref: "Bd. 1"},
+        {name: "Teplitz-Schönau", lat: 50.6403, lon: 13.8244, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bedeutendes Kurbad.", ref: "Bd. 1"},
 
-<div class="map-container">
-  <iframe 
-    src="https://www.google.com/maps/d/embed?mid=1bYaowjZM7T8_kZl9k-z6_Aebnz7-iIg&z=6" 
-    width="640" 
-    height="480">
-  </iframe>
-</div>
+        // --- Mittelböhmen (Bechinie-Gebiet) ---
+        {name: "Rakonitz", lat: 50.1031, lon: 13.7335, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Rakovník. Bezirksstadt der Bechinie-Herkunftsorte.", ref: "Bd. 1, S. 24"},
+        {name: "Hlawatschow", lat: 49.9120, lon: 14.7660, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Geburt Vinzenz Pilz 1830 (Kekulé 8). Gehört zu Ondrejow.", ref: "Bd. 1, S. 38"},
+        {name: "Ondrejow", lat: 49.9061, lon: 14.7806, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Ondřejov. 25 km südöstlich von Prag; Sternwarte seit 1898.", ref: "Bd. 1, S. 38"},
+        {name: "Samechov", lat: 49.8700, lon: 14.7450, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Dorf bei Chocerady. Geburtsort Marie Bechinie, 1813.", ref: "Bd. 2, S. 21"},
+        {name: "Silberskalitz", lat: 49.8800, lon: 14.7250, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Stříbrná Skalice. Tod Josef Bechinie (Kekulé 34), 1865.", ref: "Bd. 2, S. 22"},
+        {name: "Konojed", lat: 49.8530, lon: 14.7100, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Konojedy. Tod Marianna Handl (Kekulé 35), 1866.", ref: "Bd. 2, S. 22"},
+        {name: "Bernau", lat: 49.8600, lon: 14.7300, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Zákouti. Geburtsort Marianna Handl (Kekulé 35), 1777.", ref: "Bd. 2, S. 22"},
+        {name: "Radmierschitz", lat: 49.6880, lon: 14.7560, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Ratměřice. Geburtsort Josef Bechinie (Kekulé 34), 1776.", ref: "Bd. 2, S. 22"},
+        {name: "Chlum", lat: 49.8000, lon: 14.7500, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Heirat Philipp Bechinie (Kekulé 68), 22.10.1769.", ref: "Bd. 2, S. 22"},
+        {name: "Bielschitz", lat: 49.4860, lon: 13.9670, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Bělčice. Philipp Bechinie arbeitete hier als 83-jähriger Jäger.", ref: "Bd. 2, S. 22"},
+        {name: "Amschelberg", lat: 49.6558, lon: 14.4744, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Kosova Hora. Taufe Theresia/Apollonia; jüdische Gemeinde.", ref: "Bd. 1, S. 39"},
+        {name: "Bechyně", lat: 49.2972, lon: 14.4708, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Bezirk Tabor. Namensgeber der Familie Bechinie?", ref: "Bd. 1"},
+        {name: "Prag", lat: 50.0875, lon: 14.4214, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Böhmische Landeshauptstadt.", ref: "Bd. 1"},
 
-<div class="regions-grid">
-  
-  <div class="region">
-    <h3>Sachsen (Ursprung)</h3>
-    <p>
-      Im Erzgebirge (Dörnthal, Rothenthal) liegen die ältesten dokumentierten Wurzeln der direkten Linie im 16. und 17. Jahrhundert. Hier begann die Familiengeschichte in den Kirchenbüchern.
-    </p>
-  </div>
+        // --- Österreich (Pilz) ---
+        {name: "Helfenberg", lat: 48.5442, lon: 14.1419, kategorie: "Pilz-Linie", region: "OÖ", beschreibung: "Waldhäuser: Wirkungsort Alois J. Pilz; Geburt des Vaters.", ref: "Bd. 1, S. 40"},
+        {name: "Salzburg-Aigen", lat: 47.7833, lon: 13.0831, kategorie: "Pilz-Linie", region: "Salzburg", beschreibung: "Schloss Aigen; Ruhestandsort der Großeltern ab 1936.", ref: "Bd. 1, S. 41"},
+        {name: "Kainisch", lat: 47.6167, lon: 13.8333, kategorie: "Pilz-Linie", region: "Steiermark", beschreibung: "Pichl-Kainisch. Erhard Pilz war hier Oberförster.", ref: "Bd. 1, S. 42"},
+        {name: "Bad Ischl", lat: 47.7117, lon: 13.6194, kategorie: "Pilz-Linie", region: "OÖ", beschreibung: "Kurstadt im Salzkammergut. Wohnort Erhard Pilz in der Pension.", ref: "Bd. 1, S. 42"},
+        {name: "München", lat: 48.1372, lon: 11.5755, kategorie: "Pilz-Linie", region: "Bayern", beschreibung: "Wohnort Oswald Hofmann.", ref: "Bd. 1"},
+        {name: "Pechau (bei Magdeburg)", lat: 52.0919, lon: 11.7303, kategorie: "Pilz-Linie", region: "Sachsen-Anhalt", beschreibung: "Tod von Philipp Bechinie 9.1.1819 (Kekulé 68), Besuch bei seinem Sohn.", ref: "Bd. 2, S. 22"},
 
-  <div class="region">
-    <h3>Böhmen (Heimat)</h3>
-    <p>
-      Über fast zwei Jahrhunderte war das böhmische Erzgebirge (Kallich, Schmiedeberg, Görkau) der Lebensmittelpunkt, geprägt durch Forstwesen und Handwerk. Nach dem Siebenjährigen Krieg erfolgte hier die Festigung der Familie.
-    </p>
-  </div>
+        // --- Slawonien ---
+        {name: "Badljevina", lat: 45.5135, lon: 17.1924, kategorie: "Pilz-Linie", region: "Slawonien", beschreibung: "Wohnort Alois Vjekoslav Pilz (19.02.1858).", ref: "Bd. 1"},
+        {name: "Ivanovo Polje", lat: 45.5900, lon: 17.1500, kategorie: "Pilz-Linie", region: "Slawonien", beschreibung: "Johannisfeld. Oberförster Alois Vjekoslav Pilz (1870–1880).", ref: "Bd. 1"},
+        {name: "Negoslavci", lat: 45.2783, lon: 18.9975, kategorie: "Pilz-Linie", region: "Slawonien", beschreibung: "Herrschaftl. Förster (1876) und Sterbeort A.V. Pilz (21.09.1894).", ref: "Bd. 1"},
 
-  <div class="region">
-    <h3>Tirol (Gegenwart)</h3>
-    <p>
-      Durch berufliche Versetzungen (Zollwache) und die Ereignisse des 20. Jahrhunderts verlagerte sich der Schwerpunkt nach Lienz und Innsbruck.
-    </p>
-  </div>
+        // === EBERSTALLER-LINIE ===
+        {name: "Wallern/Trattnach", lat: 48.2336, lon: 13.9450, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Ehemals Krenglbach; 300 Jahre Stammsitz der Familie.", ref: "Bd. 1, S. 43"},
+        {name: "Reichhof am Hungersberg", lat: 48.21369194799892, lon: 13.935277169816231, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Bauernhof in Wallern/Trattnach (früher Krenglbach); Herkunft der Familie Eberstaller.", ref: "Bd. 1, S. 43", hof: true},
+        {name: "Krenglbach", lat: 48.1930, lon: 13.9450, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Ursprüngliche Herkunft der Familie Eberstaller.", ref: "Bd. 1, S. 43"},
+        {name: "Radstadt", lat: 47.3833, lon: 13.4500, kategorie: "Eberstaller-Linie", region: "Salzburg", beschreibung: "Matthias Eberstaller (Kekulé 24) siedelte hier, Bäckerei.", ref: "Bd. 1, S. 43"},
+        {name: "Rott bei Salzburg", lat: 47.8333, lon: 12.9833, kategorie: "Eberstaller-Linie", region: "Salzburg", beschreibung: "Geburt Großvater Johann Eberstaller, 21.8.1893.", ref: "Bd. 1, S. 43"},
+        {name: "Bad Aussee", lat: 47.6097, lon: 13.7822, kategorie: "Eberstaller-Linie", region: "Steiermark", beschreibung: "Heirat Eberstaller/Mittermaier (1895).", ref: "Bd. 1, S. 43"},
+        {name: "Feldkirchen", lat: 48.3490, lon: 14.2470, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Geburtsort Klara Mittermaier (Kekulé 13), 30.5.1865.", ref: "Bd. 2, S. 30"},
+        {name: "Linz", lat: 48.3064, lon: 14.2861, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Oberösterreichische Landeshauptstadt.", ref: "Bd. 1"},
+        {name: "Rannariedl", lat: 48.4831, lon: 13.7833, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Gerichtsdiener Strixner.", ref: "Bd. 1"},
+        {name: "Steyr", lat: 48.0425, lon: 14.4211, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Industriestadt.", ref: "Bd. 1"},
+        {name: "Wels", lat: 48.1656, lon: 14.0353, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Tod von Joh. Baptist Eberstaller (Kekulé 12), 1905.", ref: "Bd. 1, S. 43"},
 
-</div>
+        // === TIROLER LINIE ===
+        {name: "Kartitsch", lat: 46.7231, lon: 12.5008, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Zentrum der Tiroler Linie; Geburtsort der Mutter.", ref: "Bd. 1, S. 44"},
+        {name: "Petererhof, St. Oswald", lat: 46.73755519924009, lon: 12.478147527197969, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Bauernhof in St. Oswald bei Kartitsch; Herkunft der Familien Kofler und Reider.", ref: "Bd. 1, S. 44", hof: true},
+        {name: "Sexten", lat: 46.7019, lon: 12.3586, kategorie: "Tiroler Linie", region: "Südtirol", beschreibung: "Herkunftsort der Familie Reider.", ref: "Bd. 1, S. 43"},
+        {name: "Obertilliach", lat: 46.7125, lon: 12.5961, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Geburtsort Maria Ebner (Kekulé 115), 1746.", ref: "Bd. 2, S. 42"},
+        {name: "Rovereto", lat: 45.8885, lon: 11.0413, kategorie: "Tiroler Linie", region: "Trentino", beschreibung: "Kofler/Cofler Dynastie.", ref: "Bd. 1"},
+        {name: "Mailand", lat: 45.4642, lon: 9.1900, kategorie: "Tiroler Linie", region: "Lombardei", beschreibung: "Finanzier Peter Kofler.", ref: "Bd. 1"},
+        {name: "Anras", lat: 46.7739, lon: 12.5608, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Pfarrer Bodner/Kofler.", ref: "Bd. 1"},
+        {name: "Lienz", lat: 46.8289, lon: 12.7686, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Bezirkshauptstadt Osttirol.", ref: "Bd. 1"},
+        {name: "Padua", lat: 45.4064, lon: 11.8768, kategorie: "Tiroler Linie", region: "Venetien", beschreibung: "Universität (Cofler-Studium).", ref: "Bd. 1"},
+        {name: "Triest", lat: 45.6495, lon: 13.7768, kategorie: "Tiroler Linie", region: "Friaul-Jul. V.", beschreibung: "Cofler-Ärzte.", ref: "Bd. 1"},
 
-<div class="dna-box">
-  <h3>🧬 Tiefe Wurzeln: Die DNA-Herkunft</h3>
-  <p>
-    Noch vor den schriftlichen Aufzeichnungen zeigen genetische Analysen den Weg der Vorfahren:
-  </p>
-  <ul>
-    <li>
-      <strong>Väterliche Linie (J2-M172):</strong> Ursprung im Nahen Osten/Kaukasus vor ca. 25.000 Jahren. Diese Linie kam vermutlich mit frühen Ackerbauern über den Balkan nach Mitteleuropa.
-    </li>
-    <li>
-      <strong>Mütterliche Linie (H41a9):</strong> Ein seltener Zweig, der sich im Alpen-Balkan-Raum herausbildete. Die Vorfahren überlebten die Eiszeit vermutlich in refugialen Gebieten Osteuropas.
-    </li>
-  </ul>
-  <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
-    <em>Details zur DNA-Analyse finden Sie in Band 2 der Chronik.</em>
-  </p>
-</div>
+        // === ZUSAMMENFÜHRUNG ===
+        {name: "Innsbruck", lat: 47.2692, lon: 11.3933, kategorie: "Zusammenführung", region: "Tirol", beschreibung: "Zentraler Wohnort ab 1953.", ref: "Bd. 1"},
+        {name: "Sillian", lat: 46.7528, lon: 12.4211, kategorie: "Zusammenführung", region: "Tirol", beschreibung: "Zollamt Alois A. Pilz.", ref: "Bd. 1"},
 
-<p style="text-align: center; margin-top: 60px;">
-  <a href="/bonusseite/" style="text-decoration: none; color: #555;">← Zurück zur Startseite</a>
-</p>
+        // === SONSTIGE ===
+        {name: "Wien", lat: 48.2092, lon: 16.3728, kategorie: "Sonstige", region: "Wien", beschreibung: "Reichshauptstadt.", ref: ""},
+        {name: "Budapest", lat: 47.4979, lon: 19.0402, kategorie: "Sonstige", region: "Ungarn", beschreibung: "Metropole an der Donau.", ref: ""}
+    ];
+    
+    orte.sort(function(a, b) {
+        if (a.kategorie < b.kategorie) return -1;
+        if (a.kategorie > b.kategorie) return 1;
+        return a.name.localeCompare(b.name);
+    });
+
+    var markers = {};
+    
+    orte.forEach(function(ort, index) {
+        ort.id = 'ort-' + index;
+
+        var marker = L.marker([ort.lat, ort.lon], {
+            icon: createCustomIcon(ort.kategorie, ort.hof)
+        }).addTo(map);
+        
+        var popupContent = '<strong>' + ort.name + '</strong><br>' +
+                           '<span style="font-size:0.8em; color:#666; text-transform:uppercase;">' + ort.region + '</span><br>' +
+                           '<em style="color: ' + lineColors[ort.kategorie] + ';">' + ort.kategorie + '</em>';
+        if(ort.beschreibung && ort.beschreibung !== "-") {
+            popupContent += '<br><small style="color: #333; display:block; margin-top:4px;">' + ort.beschreibung + '</small>';
+        }
+
+
+        marker.bindPopup(popupContent);
+        marker.bindTooltip(ort.name, { direction: 'top', offset: [0, -10], className: 'ort-tooltip' });
+        
+        markers[ort.id] = marker;
+    });
+
+    var group = L.featureGroup(Object.values(markers));
+    map.fitBounds(group.getBounds().pad(0.1));
+
+    // --- TABELLE ---
+    var tbody = document.getElementById('orte-tbody');
+    if (tbody) {
+        tbody.innerHTML = '';
+
+        orte.forEach(function(ort) {
+            var tr = document.createElement('tr');
+            var rowClass = 'row-sonstige';
+            if(ort.kategorie === 'Pilz-Linie') rowClass = 'row-pilz';
+            if(ort.kategorie === 'Eberstaller-Linie') rowClass = 'row-eberstaller';
+            if(ort.kategorie === 'Tiroler Linie') rowClass = 'row-tirol';
+            if(ort.kategorie === 'Zusammenführung') rowClass = 'row-zusammen';
+            tr.className = rowClass;
+
+            var nameDisplay = ort.name;
+            if (ort.hof) nameDisplay = '⬦ ' + nameDisplay;
+
+            tr.innerHTML = '<td><span class="ort-name">' + nameDisplay + '</span></td>' +
+                           '<td>' + (ort.region || '-') + '</td>' +
+                           '<td><span class="ort-beschreibung">' + (ort.beschreibung !== "-" ? ort.beschreibung : "") + '</span></td>';
+            
+            tr.addEventListener('click', function() {
+                var m = markers[ort.id];
+                if (m) {
+                    map.flyTo(m.getLatLng(), 13, { duration: 1.5 });
+                    m.openPopup();
+                    mapElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            });
+
+            tbody.appendChild(tr);
+        });
+    }
+
+    // --- SUCHFUNKTION ---
+    window.filterTable = function() {
+        var input = document.getElementById('ort-suche');
+        var filter = input.value.toUpperCase();
+        var rows = tbody.getElementsByTagName('tr');
+        for (var i = 0; i < rows.length; i++) {
+            var txtValue = rows[i].textContent || rows[i].innerText;
+            rows[i].style.display = txtValue.toUpperCase().indexOf(filter) > -1 ? "" : "none";
+        }
+    }
+
+    // --- CONTROLS ---
+    var OverviewControl = L.Control.extend({
+        options: { position: 'topleft' },
+        onAdd: function(map) {
+            var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+            var button = L.DomUtil.create('a', '', container);
+            button.href = '#'; button.title = 'Reset Zoom'; button.innerHTML = '⟲';
+            button.style.cssText = 'display:block; width:30px; height:30px; line-height:30px; text-align:center; text-decoration:none; background:white; font-weight:bold; color:#333;';
+            L.DomEvent.on(button, 'click', function(e) {
+                L.DomEvent.preventDefault(e);
+                map.fitBounds(group.getBounds().pad(0.1));
+            });
+            return container;
+        }
+    });
+    map.addControl(new OverviewControl());
+
+    var isFullscreen = false;
+    var FullscreenControl = L.Control.extend({
+        options: { position: 'topleft' },
+        onAdd: function(map) {
+            var container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+            var button = L.DomUtil.create('a', '', container);
+            button.href = '#'; button.title = 'Vollbild'; button.innerHTML = '⛶';
+            button.style.cssText = 'display:block; width:30px; height:30px; font-size:16px; font-weight:bold; line-height:30px; text-align:center; text-decoration:none; color:#333; background:white;';
+            L.DomEvent.on(button, 'click', function(e) {
+                L.DomEvent.preventDefault(e);
+                L.DomEvent.stopPropagation(e);
+                if (!isFullscreen) {
+                    if (mapElement.requestFullscreen) mapElement.requestFullscreen();
+                    else if (mapElement.webkitRequestFullscreen) mapElement.webkitRequestFullscreen();
+                    else if (mapElement.msRequestFullscreen) mapElement.msRequestFullscreen();
+                } else {
+                    if (document.exitFullscreen) document.exitFullscreen();
+                    else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+                    else if (document.msExitFullscreen) document.msExitFullscreen();
+                }
+            });
+            return container;
+        }
+    });
+    map.addControl(new FullscreenControl());
+    
+    function onFullscreenChange() {
+        isFullscreen = !!(document.fullscreenElement || document.webkitFullscreenElement || document.msFullscreenElement);
+        setTimeout(function() { map.invalidateSize(); }, 100);
+    }
+    document.addEventListener('fullscreenchange', onFullscreenChange);
+    document.addEventListener('webkitfullscreenchange', onFullscreenChange);
+    document.addEventListener('msfullscreenchange', onFullscreenChange);
+});

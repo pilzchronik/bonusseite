@@ -58,7 +58,7 @@ permalink: /orte/
     border-collapse: collapse;
     font-size: 0.9em;
   }
-
+  
   .orte-tabelle th {
     background: #2a5d8f;
     color: white;
@@ -85,7 +85,7 @@ permalink: /orte/
     font-weight: 600;
     color: #333;
   }
-
+  
   .orte-tabelle .ort-meta {
     font-size: 0.85em;
     color: #888;
@@ -132,7 +132,8 @@ permalink: /orte/
 
 <div class="intro-block">
   <p>
-   Woher kommen wir? Diese Seite zeigt die Lebensorte der Familie über die Jahrhunderte, bietet ein Nachschlagewerk für deutsche und tschechische Ortsnamen und ordnet die Familiengeschichte auch genetisch ein.
+    Räumliche und genetische Perspektiven ergänzen die schriftlichen Quellen der Pilz-Chronik.<br>
+    Diese Seite verbindet die dokumentierten Lebensorte mit den tiefen genetischen Wurzeln.
   </p>
 </div>
 
@@ -198,7 +199,7 @@ permalink: /orte/
 
 <div style="font-size: 0.85em; color: #888; margin-bottom: 15px;">
   <span id="ortsnamen-count">0</span> Ortsnamen in der Datenbank · 
-  <em>Quelle: <a href="https://de.wikipedia.org/wiki/Liste_deutscher_Namen_tschechischer_Orte" target="_blank" rel="noopener noreferrer" style="color:#2a5d8f;">Wikipedia</a></em>
+  <em>Quelle: <a href="https://de.wikipedia.org/wiki/Liste_deutscher_Namen_tschechischer_Orte" target="_blank" style="color:#2a5d8f;">Wikipedia</a></em>
 </div>
 
 <div id="ortsnamen-hint" style="text-align: center; padding: 25px 15px; color: #999; font-style: italic; background: #f8f9fa; border-radius: 4px; margin-bottom: 15px;">
@@ -307,11 +308,11 @@ permalink: /orte/
 
 </div><!-- /section-ortsnamen -->
 
-<h2 class="section-title collapsible" data-target="section-genetik">
-  Genetische Herkunft <span class="collapse-icon">▶</span>
+<h2 class="section-title">
+  Genetische Herkunft
 </h2>
 
-<div id="section-genetik" class="collapsible-content" style="display: none;">
+<div id="section-genetik">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
   <div style="background: #f8f9fa; padding: 25px; border-left: 4px solid #2a5d8f; border-radius: 4px;">
     <h3 style="margin-top: 0; color: #2a5d8f;">Väterliche Linie (Y-DNA)</h3>
@@ -347,7 +348,7 @@ document.querySelectorAll('.collapsible').forEach(function(header) {
     content.style.display = isOpen ? 'none' : 'block';
     icon.textContent = isOpen ? '▶' : '▼';
     this.classList.toggle('active', !isOpen);
-    
+
     // Karte neu rendern wenn Karten-Sektion geöffnet wird
     if (targetId === 'section-karte' && !isOpen && window.karteMap) {
       setTimeout(function() { window.karteMap.invalidateSize(); }, 100);
@@ -433,35 +434,35 @@ document.querySelectorAll('.collapsible').forEach(function(header) {
     if (mapEl) {
       mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
-    
+
     setTimeout(function() {
       var map = window.karteMap;
       if (!map) { alert('Karte nicht verfügbar'); return; }
       map.invalidateSize();
-    
+
       // Alten temporären Marker entfernen
       if (tempMarker) {
         map.removeLayer(tempMarker);
         tempMarker = null;
       }
-    
+
       var label = deName + (czName ? ' / ' + czName : '');
-    
+
       // 1. Versuch: Feste Koordinaten
       var key = deName.toLowerCase();
       var keyCz = czName ? czName.toLowerCase() : '';
       var coords = chronikKoords[key] || chronikKoords[keyCz];
-    
+
       if (coords) {
         placeMarker(map, coords[0], coords[1], label);
         return;
       }
-    
+
       // 2. Versuch: Nominatim-Geocoding mit tschechischem Namen
       var searchName = czName || deName;
       var url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&q=' +
                 encodeURIComponent(searchName);
-    
+
       fetch(url)
         .then(function(r) { return r.json(); })
         .then(function(results) {
