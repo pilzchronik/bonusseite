@@ -14,6 +14,7 @@ permalink: /quellen/
   h3 { margin-top: 30px; margin-bottom: 10px; color: #444; }
   ul { margin-bottom: 20px; }
   li { margin-bottom: 6px; }
+  .hinweis { background: #fff8e1; border-left: 4px solid #f0c040; padding: 12px 16px; margin: 15px 0; font-size: 0.92em; border-radius: 2px; }
 </style>
 
 
@@ -38,14 +39,27 @@ Die laufend aktualisierte Liste der Druck- und Satzfehler finden Sie im Bereich
 *Institutionelle Herkunft der ausgewerteten Quellen*
 
 ### Tschechische Staatsarchive
+
+<div class="hinweis">
+<strong>Hinweis:</strong> Das SOA Litoměřice (Archiv Leitmeritz) hat 2025 seine digitale Infrastruktur umgestellt. Die frühere Anwendung <em>Vademecum</em> wurde abgeschaltet und durch eine neue <em>Digitální badatelna</em> ersetzt. Einige der unten verlinkten Quellenfunde verweisen noch auf die alte Adresse und müssen in der neuen Badatelna neu ermittelt werden.
+</div>
+
 - [Archiv Prag – ebadatelna](https://ebadatelna.soapraha.cz)
-- [Archiv Leitmeritz – Vademecum](http://matriky.soalitomerice.cz)
+- [Archiv Leitmeritz – Digitální badatelna](https://digi.soalitomerice.cz/digitalnibadatelna/) *(neue Adresse seit 2025; ersetzt das frühere Vademecum)*
 - [Archiv Pilsen – Porta Fontium](http://www.portafontium.eu)
 - [Archiv Wittingau](http://digi.ceskearchivy.cz)
 - [Archiv Königgrätz](https://aron.vychodoceskearchivy.cz)
 - [Archiv Zamrsk](http://vychodoceskearchivy.cz/zamrsk/matriky)
 - [Nationalarchiv Tschechien](https://www.nacr.cz/verejnost/badatelna/digitalni-badatelna)
 - [Kramerius (Tschechische Nationalbibliothek)](https://kramerius.nkp.cz)
+
+### Sächsisches Staatsarchiv
+
+- [Sächsisches Staatsarchiv](https://www.archiv.sachsen.de) *(Hauptstaatsarchiv Dresden)*
+- [Sächsische Gerichtsbücher – Rechercheportal (ISGV)](https://www.isgv.de/projekte/saechsische-geschichte/saechsische-gerichtsbuecher) — Ortssuche nach Gerichtsstellen und digitalisierten Gerichtsbüchern (15.–19. Jh.)
+- [Bestand 12613 Gerichtsbücher – Übersicht](https://www.archiv.sachsen.de/archiv/bestand.jsp?oid=01.05.02&bestandid=12613)
+
+Die Gerichtshandelsbücher des **Amts Sayda** sind eine Schlüsselquelle für die ältesten Pültz/Pilz-Nachweise in Dörnthal. Hier erscheinen die Schöppen Jobst und Michael Pültz — die früheste urkundliche Erwähnung der Familie. Die Bücher sind großteils digitalisiert und über das ISGV-Portal recherchierbar.
 
 ### Österreichische Matrikenportale
 - [Matriken Tirol](https://matriken.tirol.gv.at)
@@ -55,8 +69,8 @@ Die laufend aktualisierte Liste der Druck- und Satzfehler finden Sie im Bereich
 - [Kirchenbücher Südtirol](https://data.matricula-online.eu/de/italien/bozen-brixen/)
 
 ### Zeitungs- und Dokumentenportale
-- [ANNO – Historische Zeitungen](https://anno.onb.ac.at)
-- [Teßmann digital (Landesbibliothek Südtirol)](https://www.tessmann.it/de/home.html)
+- [ANNO – Historische Zeitungen (Österreichische Nationalbibliothek)](https://anno.onb.ac.at)
+- [Teßmann digital – Landesbibliothek Dr. Friedrich Teßmann, Bozen (Südtirol)](https://www.tessmann.it/de/home.html)
 - [Internet Archive](https://archive.org)
 
 ### Genealogische Datenbanken
@@ -70,6 +84,18 @@ Die laufend aktualisierte Liste der Druck- und Satzfehler finden Sie im Bereich
 - [JewishGen](https://www.jewishgen.org)
 - [Geni – Jewish Families from Prague](https://www.geni.com/projects/Jewish-Families-from-Prague/7995)
 
+### DNA-Genealogie
+
+Die in der Chronik und auf der [Orte-Seite]({{ '/orte/' | relative_url }}) dargestellten genetischen Herkunftsanalysen basieren auf einem Test bei [FamilyTreeDNA](https://www.familytreedna.com) (Kit-Nr. auf Anfrage beim Autor: <span id="dna-mail"></span><noscript>pilz (at) gmx.at</noscript>). Detaillierte Ergebnisse finden Sie in Band 2 der Chronik.
+
+<script>
+(function() {
+  var t1 = "pilz", t2 = "gmx.at", addr = t1 + "@" + t2;
+  var el = document.getElementById("dna-mail");
+  if (el) el.innerHTML = '<a href="mailto:' + addr + '">' + addr + '</a>';
+})();
+</script>
+
 ---
 
 ## Konkrete Quellenfunde
@@ -77,11 +103,11 @@ Die laufend aktualisierte Liste der Druck- und Satzfehler finden Sie im Bereich
 
 ### Urkunden & Kirchenbucheinträge
 - [Verlassenschaft Wolf Eberstaller (1672)](https://familysearch.org/ark:/61903/3:1:33S7-L1X7-HX1)
-- [Tod Johann Kreissl (1698)](http://vademecum.soalitomerice.cz/)
+- Tod Johann Kreissl (1698) — *Link nach Umstellung des Archivs Leitmeritz nachzutragen*
 - [Taufe / Konversion Apollonia Jablotzki (1768, Amschelberg)](https://ebadatelna.soapraha.cz/d/6850/60)
 - [Heirat Philipp Bechinie & Rudolphiana (1769)](https://ebadatelna.soapraha.cz/d/5876/167)
-- [Tod Johanna Sophia Pilz, geb. Schuberth (1772)](https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:7718&scan=d23789c7c2aa4e75b0bfdf9ef4c6593b)
-- [Kirchenbuch Pfarre Kallich – Unterschrift F. A. Pilz](https://vademecum.soalitomerice.cz/vademecum/permalink?xid=09ddd7cea03b9b8d:4e496e4e:12216bae987:747e&scan=4efc5f91034a44d1ac50afc8e8eed735)
+- Tod Johanna Sophia Pilz, geb. Schuberth (1772) — *Link nach Umstellung des Archivs Leitmeritz nachzutragen*
+- Kirchenbuch Pfarre Kallich – Unterschrift F. A. Pilz — *Link nach Umstellung des Archivs Leitmeritz nachzutragen*
 - [Kriegstrauung Johann Eberstaller & Karoline Reider (1916)](https://matriken.tirol.gv.at/portal/main.php?todo=showObjData&objid=301360)
 
 ### Zeitungsartikel
@@ -91,17 +117,17 @@ Die laufend aktualisierte Liste der Druck- und Satzfehler finden Sie im Bereich
 - [Mühlviertler Nachrichten (06.03.1925): Unglücksfall Helfenberg](https://anno.onb.ac.at/cgi-content/anno?aid=mvn&datum=19250306&seite=3)
 - [Salzburger Chronik (06.03.1925): Unglücklicher Zufall](https://anno.onb.ac.at/cgi-content/anno?aid=sch&datum=19250306&seite=3)
 - [Lienzer Nachrichten (09.11.1928): Nachruf Leonhard Reider](http://digital.tessmann.it/tessmannDigital/Zeitungsarchiv/Seite/Zeitung/63023/1/09.11.1928/386414/9)
-- [Zeitungsannonce „Dackel entlaufen“ (1913)](https://anno.onb.ac.at/cgi-content/anno?aid=mvn&datum=19130426&seite=8)
+- [Zeitungsannonce „Dackel entlaufen" (1913)](https://anno.onb.ac.at/cgi-content/anno?aid=mvn&datum=19130426&seite=8)
 - [Mühlviertler Nachrichten (1913): Jagdglück Helfenberg](https://anno.onb.ac.at/cgi-content/anno?aid=mvn&datum=19130726&seite=4)
 - [Prager Abendblatt (1893): Ebermanns Mundwasser](https://anno.onb.ac.at/cgi-content/anno?aid=pab&datum=18930103&seite=6)
-- [Tagblatt Linz (1898): „Radfahrerwildling“ Alois Pilz](https://anno.onb.ac.at/anno-suche/simple?query=%22mit%20einem%20Fahrrade%20in%20sausendem%20Tempo%22)
+- [Tagblatt Linz (1898): „Radfahrerwildling" Alois Pilz](https://anno.onb.ac.at/anno-suche/simple?query=%22mit%20einem%20Fahrrade%20in%20sausendem%20Tempo%22)
 - [Petition der Abdecker](https://wasbishergeschah.at/artikel/Artikel_Arbeit/Abdecker.html)
 
 ### Nachlässe, Sonderdokumente & Audio
 - [Digitalisat Tagebuch Johann Eberstaller](https://sites.google.com/d/14h2Dj-fE3gkh_mwjM2cQyf2UWrhRLQSf/p/1ubsocuUXl5fEKcMf_BgaJlbEG2SL955V/edit)
 - [Ahnenliste Eberstaller (Adler 1953)](https://drive.google.com/file/d/10M1CXZaet3WLb7xonSvEdDJWKH6mBN7-/view?usp=sharing)
-- 🎵 [Schubert: „Der Vollmond strahlt“ (E. Schwarzkopf)](https://www.youtube.com/watch?v=Y-o_qrazKQQ)
-- 🎵 [Schubert: „Lied der Anne Lyle“ (G. Janowitz)](https://www.youtube.com/watch?v=Ma59U6k926M)
+- 🎵 [Schubert: „Der Vollmond strahlt" (E. Schwarzkopf)](https://www.youtube.com/watch?v=Y-o_qrazKQQ)
+- 🎵 [Schubert: „Lied der Anne Lyle" (G. Janowitz)](https://www.youtube.com/watch?v=Ma59U6k926M)
 
 ---
 

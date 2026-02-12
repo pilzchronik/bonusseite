@@ -37,7 +37,8 @@ pinned: true
 </style>
 
 <div class="errata-hinweis">
-  Diese Seite wird laufend aktualisiert. Wenn Sie einen weiteren Fehler finden, freue ich mich über eine Nachricht an <strong>pilz@gmx.at</strong>.
+  Diese Seite wird laufend aktualisiert. Wenn Sie einen weiteren Fehler finden, freue ich mich über eine Nachricht an <strong><span id="errata-mail"></span><noscript>pilz (at) gmx.at</noscript></strong>.
+  <script>(function(){var a="pilz",b="gmx.at",e=document.getElementById("errata-mail");if(e)e.innerHTML='<a href="mailto:'+a+"@"+b+'">'+a+"@"+b+"</a>";})()</script>
 </div>
 
 <p class="errata-stand">Stand: 31. Januar 2026</p>

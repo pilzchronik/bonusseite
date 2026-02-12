@@ -14,7 +14,8 @@ permalink: /impressum/
   <p>
     Wolfgang Pilz<br>
     Österreich<br>
-    Kontakt: pilz@gmx.at
+    Kontakt: <span id="impressum-mail"></span><noscript>pilz (at) gmx.at</noscript>
+    <script>(function(){var a="pilz",b="gmx.at",e=document.getElementById("impressum-mail");if(e)e.innerHTML='<a href="mailto:'+a+"@"+b+'">'+a+"@"+b+"</a>";})()</script>
   </p>
 </div>
 
