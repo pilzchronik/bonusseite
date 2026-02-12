@@ -1,0 +1,29 @@
+{%- comment -%}
+  Deutsche Datumsformatierung.
+  Nutzung: {% include datum.html date=post.date format="kurz" %}
+  Formate: kurz (12.02.2026), monat (Februar 2026), lang (12. Februar 2026)
+{%- endcomment -%}
+{%- assign d = include.date -%}
+{%- assign fmt = include.format | default: "kurz" -%}
+{%- assign monat_nr = d | date: "%-m" -%}
+{%- case monat_nr -%}
+  {%- when '1' -%}{%- assign monat_de = "Januar" -%}
+  {%- when '2' -%}{%- assign monat_de = "Februar" -%}
+  {%- when '3' -%}{%- assign monat_de = "März" -%}
+  {%- when '4' -%}{%- assign monat_de = "April" -%}
+  {%- when '5' -%}{%- assign monat_de = "Mai" -%}
+  {%- when '6' -%}{%- assign monat_de = "Juni" -%}
+  {%- when '7' -%}{%- assign monat_de = "Juli" -%}
+  {%- when '8' -%}{%- assign monat_de = "August" -%}
+  {%- when '9' -%}{%- assign monat_de = "September" -%}
+  {%- when '10' -%}{%- assign monat_de = "Oktober" -%}
+  {%- when '11' -%}{%- assign monat_de = "November" -%}
+  {%- when '12' -%}{%- assign monat_de = "Dezember" -%}
+{%- endcase -%}
+{%- if fmt == "kurz" -%}
+  {{- d | date: "%d.%m.%Y" -}}
+{%- elsif fmt == "monat" -%}
+  {{- monat_de }} {{ d | date: "%Y" -}}
+{%- elsif fmt == "lang" -%}
+  {{- d | date: "%-d" -}}. {{ monat_de }} {{ d | date: "%Y" -}}
+{%- endif -%}

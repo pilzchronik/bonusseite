@@ -3,7 +3,7 @@ layout: post
 title: "Archivfund Dörnthal: Gerichtsbuch 1562"
 date: 2026-01-05
 categories: [werkstatt, Sachsen, Pültz]
-tags: [Dörnthal, Gerichtsbuch, 16. Jahrhundert]
+tags: [Neue Funde]
 ---
 
 **Dokumentation eines neu erschlossenen Primärbelegs zur Familie Pilz (Pültz) im Erzgebirge.**

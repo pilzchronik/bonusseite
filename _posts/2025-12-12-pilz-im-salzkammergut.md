@@ -2,6 +2,7 @@
 layout: post
 title: "Der Name Pilz im Salzkammergut: Geschichte einer Familie zwischen Sachsen und den Alpen"
 date: 2025-12-12
+tags: [Ergänzungen]
 ---
 
 <style>

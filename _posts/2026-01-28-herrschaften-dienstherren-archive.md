@@ -2,6 +2,7 @@
 layout: post
 title: "Herrschaften als Schlüssel zur Familiengeschichte – Eine Übersicht der Dienstherren und Archive"
 date: 2026-01-28
+tags: [Ergänzungen]
 categories: [Analysen]
 excerpt: "Wer waren die Grundherren unserer Vorfahren? Eine systematische Aufstellung der Herrschaftsverhältnisse in Sachsen und Böhmen – und warum Herrschaftsarchive die nächste große Quellengruppe sind."
 ---

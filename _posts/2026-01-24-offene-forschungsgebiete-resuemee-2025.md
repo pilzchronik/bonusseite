@@ -1,6 +1,7 @@
 ---
 title: Offene Forschungsgebiete – Resümee 2025 und Vorhabensbericht Januar 2026
 date: 2026-01-24
+tags: [Hintergrund]
 author: Wolfgang Pilz
 ---
 

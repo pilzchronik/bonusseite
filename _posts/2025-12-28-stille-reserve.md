@@ -2,6 +2,7 @@
 layout: post
 title: "Die stille Reserve: Warum Kaiser Karl IV. in meiner Datenbank wartet"
 date: 2025-12-28
+tags: [Hintergrund]
 categories: [Hinter den Kulissen]
 description: "Ein Blick in die digitale Werkstatt: Warum die Datenbank mehr enthält, als das gedruckte Buch zeigt."
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "DNA-Auswertungen (externe Darstellung)"
 date: 2025-11-04
+tags: [Hintergrund]
 categories: [analysen, dna]
 ---
 

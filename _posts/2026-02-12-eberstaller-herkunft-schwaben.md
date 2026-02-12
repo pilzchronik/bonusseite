@@ -3,6 +3,7 @@ layout: post
 title: >-
   Woher kamen die Eberstaller? Schwaben, Oberösterreich -- oder beides?
 date: 2026-02-12
+tags: [Ergänzungen]
 categories:
   - Ergänzungen
 excerpt: >-

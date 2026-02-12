@@ -101,14 +101,14 @@ title: Startseite
 
   <a href="quellen/" class="nav-card">
     <span class="eyebrow">DOKUMENTATION</span>
-    <h3>Korrekturen & Quellen</h3>
-    <p>Das zentrale Errata-Protokoll zu Band 1 & 2. Verzeichnis der tschechischen und österreichischen Archive sowie digitaler Belege.</p>
+    <h3>Quellen & Archive</h3>
+    <p>Verzeichnis der tschechischen und österreichischen Archive, genealogischen Datenbanken und digitalen Belege zur Pilz-Chronik.</p>
   </a>
 
   <a href="werkstatt/" class="nav-card">
-    <span class="eyebrow">FORSCHUNG</span>
-    <h3>Werkstatt & Aktuelles</h3>
-    <p>Neue Archivfunde (z. B. Dörnthal 1562) und laufende Analysen nach der Drucklegung. Hier schlägt das Herz der aktuellen Forschung.</p>
+    <span class="eyebrow">AKTUELLES</span>
+    <h3>Aktuelles seit Drucklegung</h3>
+    <p>Neue Archivfunde, Ergänzungen und Druckfehler-Korrekturen zu Band 1 & 2. Filtern Sie nach Thema: Korrekturen, Neue Funde, Ergänzungen oder Hintergrund.</p>
   </a>
 
   <a href="stammbaum/" class="nav-card">

@@ -58,7 +58,7 @@ permalink: /orte/
     border-collapse: collapse;
     font-size: 0.9em;
   }
-  
+
   .orte-tabelle th {
     background: #2a5d8f;
     color: white;
@@ -85,7 +85,7 @@ permalink: /orte/
     font-weight: 600;
     color: #333;
   }
-  
+
   .orte-tabelle .ort-meta {
     font-size: 0.85em;
     color: #888;
@@ -132,8 +132,7 @@ permalink: /orte/
 
 <div class="intro-block">
   <p>
-    Räumliche und genetische Perspektiven ergänzen die schriftlichen Quellen der Pilz-Chronik.<br>
-    Diese Seite verbindet die dokumentierten Lebensorte mit den tiefen genetischen Wurzeln.
+   Woher kommen wir? Diese Seite zeigt die Lebensorte der Familie über die Jahrhunderte, bietet ein Nachschlagewerk für deutsche und tschechische Ortsnamen und ordnet die Familiengeschichte auch genetisch ein.
   </p>
 </div>
 
@@ -348,7 +347,7 @@ document.querySelectorAll('.collapsible').forEach(function(header) {
     content.style.display = isOpen ? 'none' : 'block';
     icon.textContent = isOpen ? '▶' : '▼';
     this.classList.toggle('active', !isOpen);
-
+    
     // Karte neu rendern wenn Karten-Sektion geöffnet wird
     if (targetId === 'section-karte' && !isOpen && window.karteMap) {
       setTimeout(function() { window.karteMap.invalidateSize(); }, 100);
@@ -434,35 +433,35 @@ document.querySelectorAll('.collapsible').forEach(function(header) {
     if (mapEl) {
       mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
-
+    
     setTimeout(function() {
       var map = window.karteMap;
       if (!map) { alert('Karte nicht verfügbar'); return; }
       map.invalidateSize();
-
+    
       // Alten temporären Marker entfernen
       if (tempMarker) {
         map.removeLayer(tempMarker);
         tempMarker = null;
       }
-
+    
       var label = deName + (czName ? ' / ' + czName : '');
-
+    
       // 1. Versuch: Feste Koordinaten
       var key = deName.toLowerCase();
       var keyCz = czName ? czName.toLowerCase() : '';
       var coords = chronikKoords[key] || chronikKoords[keyCz];
-
+    
       if (coords) {
         placeMarker(map, coords[0], coords[1], label);
         return;
       }
-
+    
       // 2. Versuch: Nominatim-Geocoding mit tschechischem Namen
       var searchName = czName || deName;
       var url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&q=' +
                 encodeURIComponent(searchName);
-
+    
       fetch(url)
         .then(function(r) { return r.json(); })
         .then(function(results) {

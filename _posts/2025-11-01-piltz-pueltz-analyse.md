@@ -2,6 +2,7 @@
 layout: post
 title: "Analyse der Stammlinie Piltz/Pültz (Dörnthal – Olbernhau)"
 date: 2025-11-01
+tags: [Ergänzungen]
 author: Wolfgang Pilz
 categories: [Ahnenforschung, Sachsen]
 image: /assets/images/doernthal-karte.jpg

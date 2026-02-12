@@ -2,6 +2,7 @@
 layout: post
 title: "Vorläufige Befunde zu Dörnthal..."
 date: 2025-10-30
+tags: [Neue Funde]
 categories: [Analysen]
 excerpt: "..."
 ---

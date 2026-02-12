@@ -2,6 +2,7 @@
 layout: post
 title: "Die Herkunft des deutschen Familiennamens Pilz (Bueltz – Pültz – Piltz)"
 date: 2025-11-01
+tags: [Ergänzungen]
 author: "Wolfgang Pilz"
 categories: ["Namenskunde", "Ergänzungen"]
 excerpt: >

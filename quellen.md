@@ -18,7 +18,7 @@ permalink: /quellen/
 
 
 ## Inhalt & Index
-- [Inhalt & Index]({{ '/inhalt-index/' | relative_url }})
+- [Inhalt & Index](/bonusseite/inhalt-index/)
 
 ## Quellen & Forschungswerkzeuge zur Pilz-Chronik
 
@@ -29,19 +29,8 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 
 ## Druckfehler & Errata
 
-Diese Liste dokumentiert bekannte Druck- und Satzfehler der gedruckten
-**Pilz-Chronik**.  
-Die Angaben dienen der Transparenz und werden bei künftigen Auflagen
-berücksichtigt.
-
-**Stand: 31.01.2026**
-
-- **Band 1, Seite 56:**  
-  Im Abschnitt zur Kriegsverletzung ist der Satz  
-  *„Erst als über eine Bekannte unserer Tante Mina …“*  
-  irrtümlich **doppelt abgedruckt**.  
-  Es handelt sich um einen redaktionellen Fehler ohne inhaltliche Auswirkung.
-  Der Hinweis auf diesen Satzfehler stammt von meiner Cousine – danke für die aufmerksame Lektüre.
+Die laufend aktualisierte Liste der Druck- und Satzfehler finden Sie im Bereich
+[Aktuelles seit Drucklegung]({{ '/werkstatt/' | relative_url }}) — dort unter dem Filter **Korrekturen**.
 
 ---
 

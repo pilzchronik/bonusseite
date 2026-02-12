@@ -2,6 +2,7 @@
 layout: post
 title: "Eberstaller: Prüfung der Identität von „Wolf“ gestartet"
 date: 2026-02-06
+tags: [Neue Funde]
 categories: [Forschung]
 excerpt: "Mehrere gleichnamige Wolf/Wolfgang Eberstaller im 17. Jh.: Die quellenkritische Prüfung wurde begonnen. Erste Abgrenzungen sind möglich, zentrale Zuordnungen bleiben vorerst offen."
 ---

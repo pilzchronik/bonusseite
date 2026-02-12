@@ -2,6 +2,7 @@
 layout: post
 title: "Identifizierung bestätigt: Vinzenz und Franziska Pilz"
 date: 2025-10-30
+tags: [Neue Funde]
 author: "Wolfgang Pilz"
 categories: [Ahnenforschung, Forensik]
 image: /assets/images/Vinzenz-und-Franziska-Pilz.jpg
