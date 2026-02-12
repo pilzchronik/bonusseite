@@ -107,29 +107,25 @@ Die Rottenhans und Buquoys waren nicht nur Grundherren, sondern **Arbeitgeber**:
 
 ---
 
-## Teil III: Die Bechinie-Linie – Hochadelige Protektoren in Mittelböhmen
+### Teil III: Die Bechinie-Linie – **Adelige Taufpaten und Zeugen (1768–1771)**
 
-Die mittelböhmische Bechinie-Linie zeigt ein anderes Muster: Hier waren unsere Vorfahren nicht nur Angestellte, sondern standen unter dem **aktiven Schutz adeliger Patrone**. Die Matrikeleinträge dokumentieren eine ungewöhnlich dichte Beteiligung des Hochadels:
+Die mittelböhmische Bechinie-Linie zeigt ein anderes Muster: Hier standen unsere Vorfahren offenbar in einem Umfeld, in dem **Angehörige des Adels (Freiherren- und Grafenstand)** als Taufpaten bzw. Zeugen auftreten. Die Matrikeleinträge belegen eine auffällig dichte Beteiligung über mehrere Jahre.
 
-### Dokumentierte Adelskontakte (1768–1771)
+**Dokumentierte Adelskontakte (1768–1771)**
 
-| Datum | Ereignis | Adelspersonen |
-|-------|----------|---------------|
-| 30.10.1768 | Taufe/Konversion Theresia in Kosova Hora | **Patin:** Theresia Frfr. v. Malowetz; **Zeugen:** Marie Venantia Bechinie v. Lazan, Graf Radetzky v. Radetz, Graf Khuen v. Belasi |
-| 22.10.1769 | Hochzeit Philipp & Theresia in Chlum | Zeugen: Beamter und Kammerfrau des Gutes Kňovice (= Personal der Malowetz) |
-| 01.09.1770/71 | Taufe Franz Adam in Krchleby | **Pate:** Graf Franz Adam v. Duhalski-Bozek (Dienstherr!); **Zeuge:** Anton v. Lipovský (Sohn der Theresia v. Malowetz) |
+| Datum         | Ereignis                                 | Adelspersonen                                                |
+| ------------- | ---------------------------------------- | ------------------------------------------------------------ |
+| 30.10.1768    | Taufe/Konversion Theresia in Kosova Hora | Patin: Theresia **Freifrau** v. Malowetz; Zeugen: Marie Venantia Bechinie v. Lazan, **Graf** Radetzky v. Radetz, **Graf** Khuen v. Belasi |
+| 22.10.1769    | Hochzeit Philipp & Theresia in Chlum     | Zeugen: Beamter und Kammerfrau des Gutes Kňovice (= Personal der Malowetz) |
+| 01.09.1770/71 | Taufe Franz Adam in Krchleby             | Pate: **Graf** Franz Adam v. Duhalski-Bozek (Dienstherr!); Zeuge: Anton v. Lipovský (Sohn der Theresia v. Malowetz) |
 
-Die **Familie Malowetz** (Theresia Freifrau v. Malowetz, geb. Lipovský, Herrin auf Kňovice) erscheint als konstante Schutzherrin: 1768 persönlich als Taufpatin, 1769 durch ihr Personal vertreten, 1770/71 durch ihren Sohn Anton. Diese Kontinuität über drei Jahre und mehrere Orte hinweg ist bemerkenswert.
+Die Familie Malowetz (Theresia Freifrau v. Malowetz, geb. Lipovský, Herrin auf Kňovice) erscheint als konstante Schutzherrin: 1768 persönlich als Taufpatin, 1769 durch ihr Personal vertreten, 1770/71 durch ihren Sohn Anton. Diese Kontinuität über drei Jahre und mehrere Orte hinweg ist bemerkenswert.
 
-<div class="luecke-box">
-<strong>Offene Frage:</strong> Die Anwesenheit von <strong>Marie Venantia Bechinie von Lazan</strong> (Tochter des Generals Ignaz Ladislaus Bechinie v. Lazan) bei der Konversion 1768 ist das stärkste Indiz für eine mögliche Verwandtschaft zum Adelsgeschlecht. <strong>Ein Beweis liegt jedoch nicht vor.</strong> Die Verwandtschaftshypothese bleibt bis zum Nachweis in Primärquellen unbewiesen.
-</div>
+**Offene Frage:** Die Anwesenheit von Marie Venantia Bechinie von Lazan (Tochter des Generals Ignaz Ladislaus Bechinie v. Lazan) bei der Konversion 1768 ist das stärkste Indiz für eine mögliche Verwandtschaft zum Adelsgeschlecht. Ein Beweis liegt jedoch nicht vor. Die Verwandtschaftshypothese bleibt bis zum Nachweis in Primärquellen unbewiesen.
 
-<div class="quelle-box">
-<strong>Archivhinweis – Vielversprechendster Ansatz:</strong> Die Archive der <strong>Familie Malowetz</strong> bzw. des <strong>Gutes Kňovice</strong> könnten persönliche Akten über Philipp und Theresia Bechinie enthalten. Die konstante Protektion lässt auf ein besonderes Verhältnis schließen, das möglicherweise dokumentiert wurde.
-</div>
+**Archivhinweis – vielversprechendster Ansatz:** Die Archive der Familie Malowetz bzw. des Gutes Kňovice könnten persönliche Akten über Philipp und Theresia Bechinie enthalten. Die über mehrere Jahre wiederkehrende Patronage lässt auf ein besonderes Verhältnis schließen, das möglicherweise dokumentiert wurde.
 
-### Spätere Dienstherren der Bechinie-Linie
+**Spätere Dienstherren der Bechinie-Linie**
 
 Josef Bechinie (Sohn des Philipp) setzte die Tradition fort und diente als Revierförster:
 
