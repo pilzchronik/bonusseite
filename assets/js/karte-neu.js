@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Silberskalitz", lat: 49.897778, lon: 14.846111, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Stříbrná Skalice. Tod Josef Bechinie (Kekulé 34), 1865.", ref: "Bd. 2, S. 22"},
         {name: "Konojed", lat: 49.948333, lon: 14.851111, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Konojedy. Tod Marianna Handl (Kekulé 35), 1866.", ref: "Bd. 2, S. 22"},
         {name: "Bernau", lat: 50.546667, lon: 13.351944, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Zákouti. Geburtsort Marianna Handl (Kekulé 35), 1777.", ref: "Bd. 2, S. 22"},
-        {name: "Radmierschitz", lat: 49.6880, lon: 14.7560, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Ratměřice. Geburtsort Josef Bechinie (Kekulé 34), 1776.", ref: "Bd. 2, S. 22"},
+        {name: "Radmierschitz", lat: 49.64580, lon: 14.75772, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Ratměřice. Geburtsort Josef Bechinie (Kekulé 34), 1776.", ref: "Bd. 2, S. 22"},
         {name: "Chlum", lat: 49.701667, lon: 14.378333, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Heirat Philipp Bechinie (Kekulé 68), 22.10.1769.", ref: "Bd. 2, S. 22"},
         {name: "Bielschitz", lat: 49.843333, lon: 14.808333, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Bělčice. Philipp Bechinie arbeitete hier als 83-jähriger Jäger.", ref: "Bd. 2, S. 22"},
         {name: "Amschelberg", lat: 49.6558, lon: 14.4744, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Kosova Hora. Taufe Theresia/Apollonia; jüdische Gemeinde.", ref: "Bd. 1, S. 39"},
