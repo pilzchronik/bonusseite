@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Stammbaum & Archiv
+permalink: /stammbaum/
 ---
 
 ## Das genealogische Herzstück
