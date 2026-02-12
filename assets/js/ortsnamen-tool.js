@@ -200,8 +200,6 @@
         renderResults(val);
       }, 150);
     });
-
-    console.log('Ortsnamen-Tool initialisiert: ' + ortsnamenData.length + ' Einträge');
   }
 
   // Global verfügbar machen

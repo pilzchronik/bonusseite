@@ -3,7 +3,8 @@ email: pilz@gmx.at
 description: >-
   Digitale Ergänzung und Werkstatt zur gedruckten Pilz-Chronik (Band 1 & 2).
 baseurl: "/bonusseite"
-url: ""
+url: "https://pilzchronik.github.io"
+lang: de
 
 # Build settings
 theme: minima

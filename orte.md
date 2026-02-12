@@ -199,7 +199,7 @@ permalink: /orte/
 
 <div style="font-size: 0.85em; color: #888; margin-bottom: 15px;">
   <span id="ortsnamen-count">0</span> Ortsnamen in der Datenbank · 
-  <em>Quelle: <a href="https://de.wikipedia.org/wiki/Liste_deutscher_Namen_tschechischer_Orte" target="_blank" style="color:#2a5d8f;">Wikipedia</a></em>
+  <em>Quelle: <a href="https://de.wikipedia.org/wiki/Liste_deutscher_Namen_tschechischer_Orte" target="_blank" rel="noopener noreferrer" style="color:#2a5d8f;">Wikipedia</a></em>
 </div>
 
 <div id="ortsnamen-hint" style="text-align: center; padding: 25px 15px; color: #999; font-style: italic; background: #f8f9fa; border-radius: 4px; margin-bottom: 15px;">
