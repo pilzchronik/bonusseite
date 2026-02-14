@@ -17,7 +17,7 @@ Im Gerichtsbuch von Dörnthal, Band 01, finden sich zwei Einträge zur Familie P
 
 ## I. Der Nachlass des Michel Pültzen (1558)
 
-**Folio 15l–17r** · [Digitalisat](https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=83fd4fae-b046-43d6-b074-58f0f3b1e1c8#digitalisat) **Digitalseiten 16 ff.**
+**Folio 15r–17r** · [Digitalisat](https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=83fd4fae-b046-43d6-b074-58f0f3b1e1c8#digitalisat)
 
 ### Überschrift
 
@@ -64,7 +64,7 @@ Der Name erscheint im Akt an mindestens fünf Stellen sicher als **Pültz / Pül
 
 ## II. Der Vergleich des Michael Pültzen mit Caspar von Schönberg (1562)
 
-**Folio 155** · [Digitalisat](https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=83fd4fae-b046-43d6-b074-58f0f3b1e1c8#digitalisat)  **Digitalseite 160**
+**Folio [?]** · [Digitalisat](https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=83fd4fae-b046-43d6-b074-58f0f3b1e1c8#digitalisat)
 
 ### Wörtliche Transkription
 
@@ -88,6 +88,10 @@ Michael Pültzen erklärt ausdrücklich und unwiderruflich, dass er und seine Er
 
 Geschehen zu Risenegg am 1. Jänner 1562, im Beisein der Zeugen Höfflicher Aufseher, Lorenz Richter, Michael Pülczer, Bartel Weinpreb, Andreß Franckh und weiterer geschworener Zeugen.
 
+### Anmerkung zur Datierung
+
+Der Akt enthält zwei Datumsangaben, die auf den ersten Blick widersprüchlich erscheinen: Der Vergleich wird „am tage Quirinij" des Jahres 1562 geschlossen (Quirinus-Tag = 30. März), die Beurkundung ist aber auf den „1. Jänner 1562" datiert — also *vor* dem Vertragsschluss. Die einfachste Erklärung ist ein gewöhnlicher Jahreswechsel-Verschreiber: Die Beurkundung fand tatsächlich am **1. Jänner 1563** statt, aber der Gerichtsschreiber schrieb gewohnheitsmäßig noch „1562" — derselbe Fehler, der auch heute jedem im Januar passiert. Der Vertragsabschluss am Quirinus-Tag (30. März 1562) und die Beurkundung neun Monate später (1. Januar 1563) ergeben dann eine schlüssige Reihenfolge.
+
 ---
 
 ## III. Die Identitätsfrage: Mitchel (1558) und Michael Pültzen (1562)
@@ -102,7 +106,17 @@ Bemerkenswert ist, dass in beiden Akten derselbe Grundherr erscheint: **Caspar v
 
 ---
 
-## IV. Was gesichert ist — und was nicht
+## IV. Konfessioneller Kontext
+
+Beide Akten verwenden liturgische Datumsangaben: „Mittwoch nach der Auferstehung Christi" (1558) und „am Tage Quirinij" (1562). Das könnte auf den ersten Blick katholisch wirken, ist aber kein Indiz für die Konfession: Heiligennamen als Kalenderbezeichnungen blieben auch in protestantischen Gebieten noch Jahrhunderte in Gebrauch. Es war schlicht der gebräuchliche Kalender, keine konfessionelle Aussage.
+
+Dörnthal gehörte zum albertinischen Sachsen (Herzogtum), das unter Herzog Georg dem Bärtigen zunächst katholisch geblieben war. Erst nach dessen Tod 1539 führte sein Nachfolger Heinrich der Fromme die Reformation praktisch über Nacht ein: Ab Pfingsten 1539 wurde in den albertinischen Städten und Dörfern evangelisch-lutherisch gepredigt. Das Erzgebirge war dabei sogar besonders früh reformatorisch geprägt — die Bergstädte Freiberg (wo der im Nachlassakt genannte Cristoff Pültz saß), Annaberg und Schneeberg waren Zentren der lutherischen Bewegung.
+
+**1558 und 1562 war Dörnthal bereits seit knapp 20 Jahren evangelisch-lutherisch.** Der Grundherr Caspar von Schönberg gehörte zu einer der einflussreichsten sächsischen Adelsfamilien, die die Reformation mittrugen.
+
+---
+
+## V. Was gesichert ist — und was nicht
 
 ### Gesichert
 
