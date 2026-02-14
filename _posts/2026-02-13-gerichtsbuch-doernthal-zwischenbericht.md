@@ -7,7 +7,7 @@ tags: [Neue Funde, Ergänzungen]
 excerpt: "Was die systematische Auswertung von drei Gerichtsbüchern (1550–1701) über die Familie Pilz/Pültz in Dörnthal ergeben hat – und warum jetzt eine Reise nach Dresden ansteht."
 ---
 
-Seit dem [Archivfund vom Januar](/bonusseite/werkstatt/sachsen/pültz/2026/01/05/archivfund-doernthal.html) hat sich einiges getan. Drei KI-gestützte Suchdurchläufe durch die digitalisierten Gerichtsbücher von Dörnthal haben das Bild der Familie Pültz im 16. und 17. Jahrhundert erheblich verdichtet. Hier der Zwischenstand.
+Seit dem [Archivfund vom Jänner](/bonusseite/werkstatt/sachsen/pültz/2026/01/05/archivfund-doernthal.html) hat sich einiges getan. Drei KI-gestützte Suchdurchläufe durch die digitalisierten Gerichtsbücher von Dörnthal haben das Bild der Familie Pültz im 16. und 17. Jahrhundert erheblich verdichtet. Hier der Zwischenstand.
 
 ### Die Quellen
 
@@ -23,7 +23,7 @@ Die Digitalisate sind als Bilder ohne Volltextsuche zugänglich. Die Durchsuchun
 
 ### Der Ankerpunkt: Michael Pültzen, 1562
 
-Der wichtigste Einzelfund bleibt der bereits im Januar dokumentierte Eintrag auf Blatt 160b–161 in Band 01: Am 1. Januar 1562 übergibt **Michael Pültzen** ein Gut an den Grundherrn Caspar von Schönberg auf Purschenstein. Michael wird dabei als **„geschworener Schöppe des Gerichts zu Dörnthal"** ausgewiesen.
+Der wichtigste Einzelfund bleibt der bereits im Jänner dokumentierte Eintrag auf Urkundenseite 155 in Band 01 ( https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=83fd4fae-b046-43d6-b074-58f0f3b1e1c8#digitalisat und folgende): Am 1. Januar 1562 übergibt **Michael Pültzen** ein Gut an den Grundherrn Caspar von Schönberg auf Purschenstein. Michael wird dabei als **„geschworener Schöppe des Gerichts zu Dörnthal"** ausgewiesen.
 
 Das ist weiterhin der **älteste gesicherte Beleg** der Familie in Dörnthal – ein Jahrzehnt vor dem Beginn der Kirchenbücher (1563/64).
 
