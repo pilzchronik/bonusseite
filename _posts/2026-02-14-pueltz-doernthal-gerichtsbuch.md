@@ -17,7 +17,7 @@ Im Gerichtsbuch von Dörnthal, Band 01, finden sich zwei Einträge zur Familie P
 
 ## I. Der Nachlass des Michel Pültzen (1558)
 
-**Folio 15r–17r** · [Digitalisat](https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=83fd4fae-b046-43d6-b074-58f0f3b1e1c8#digitalisat)
+**Folio 15r–17r** · [Digitalisat](https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=83fd4fae-b046-43d6-b074-58f0f3b1e1c8#digitalisat) **Digitalseiten 16 ff**
 
 ### Überschrift
 
@@ -64,7 +64,7 @@ Der Name erscheint im Akt an mindestens fünf Stellen sicher als **Pültz / Pül
 
 ## II. Der Vergleich des Michael Pültzen mit Caspar von Schönberg (1562)
 
-**Folio [?]** · [Digitalisat](https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=83fd4fae-b046-43d6-b074-58f0f3b1e1c8#digitalisat)
+**Folio 155 f** · [Digitalisat](https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=83fd4fae-b046-43d6-b074-58f0f3b1e1c8#digitalisat) **Digitalseitee 160 f**
 
 ### Wörtliche Transkription
 
