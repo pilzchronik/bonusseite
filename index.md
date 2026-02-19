@@ -13,14 +13,14 @@ title: Startseite
     border-bottom: 1px solid #e9ecef;
     border-radius: 4px;
   }
-  
+
   .intro-section h1 {
     margin-top: 0;
     font-size: 2em;
     color: #333;
     margin-bottom: 15px;
   }
-  
+
   .intro-links a {
     color: #2a5d8f;
     font-weight: bold;
@@ -37,7 +37,7 @@ title: Startseite
     gap: 30px;
     margin-bottom: 60px;
   }
-  
+
   /* Die Kacheln */
   .nav-card {
     display: flex;
@@ -54,7 +54,7 @@ title: Startseite
     box-shadow: 0 4px 10px rgba(0,0,0,0.06);
     border-color: #2a5d8f;
   }
-  
+
   .eyebrow {
     font-size: 0.75em;
     text-transform: uppercase;
@@ -71,7 +71,7 @@ title: Startseite
     font-size: 1.4em;
     margin-bottom: 15px;
   }
-  
+
   .nav-card p {
     color: #555;
     line-height: 1.6;
@@ -80,19 +80,19 @@ title: Startseite
 </style>
 
 <div class="intro-section">
-  <h1>Willkommen im digitalen Pilz-Archiv</h1>
+  <h1>Digitale Ergänzungen</h1>
   <p style="font-size: 1.15em; color: #555; max-width: 750px; margin: 0 auto 20px auto; line-height: 1.6;">
-    Dies ist die offizielle Ergänzung zur gedruckten Familienchronik (Band 1 & 2).<br>
-    Diese Seite dient als digitale Werkstatt für Inhalte, <strong>die im Buch keinen Platz fanden</strong>:
-    Karten, Datensätze, Korrekturen und laufende Aktualisierungen.
+    Diese Webseite ergänzt die gedruckte Familienchronik (Band 1 & 2).<br>
+    Sie dokumentiert Karten, Datensätze, Korrekturen und neue Erkenntnisse seit der ersten Drucklegung.
   </p>
   <div class="intro-links">
     <a href="{{ '/zeitleiste/' | relative_url }}">Zur historischen Zeitleiste</a>
   </div>
 </div>
 
+
 <div class="nav-grid">
-  
+
   <a href="orte/" class="nav-card">
     <span class="eyebrow">GEOGRAFIE</span>
     <h3>Geografie & Wanderung</h3>
