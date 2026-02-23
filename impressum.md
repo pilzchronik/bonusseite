@@ -22,30 +22,32 @@ permalink: /impressum/
 <div class="legal-block">
   <h2>Grundlegende Richtung</h2>
   <p>
-    Private, nicht-kommerzielle Informations- und Dokumentationsseite zur Ergänzung der gedruckten Pilz-Chronik (Band 1 & 2). Sie dient der Darstellung genealogischer Forschungsergebnisse.
+    Private, nicht-kommerzielle Informations- und Dokumentationsseite zur Ergänzung der gedruckten Pilz-Chronik (Band&nbsp;1 &amp; 2). Sie dient der Darstellung genealogischer Forschungsergebnisse.
   </p>
 </div>
 
 <div class="legal-block">
-  <h2>Haftung & Urheberrecht</h2>
+  <h2>Haftung &amp; Urheberrecht</h2>
   <p>
-    Sämtliche Inhalte wurden sorgfältig geprüft. Dennoch kann keine Garantie für die Richtigkeit, Vollständigkeit und Aktualität der Angaben übernommen werden.<br>
-    Die Inhalte unterliegen dem Urheberrecht. Eine Weiterverwendung außerhalb des privaten Gebrauchs ist ohne Zustimmung nicht gestattet.
+    Sämtliche Inhalte wurden sorgfältig geprüft. Dennoch kann keine Garantie für die Richtigkeit, Vollständigkeit und Aktualität der Angaben übernommen werden.
+  </p>
+  <p>
+    Die Inhalte dieser Website unterliegen dem Urheberrecht. Eine Weiterverwendung außerhalb des privaten Gebrauchs ist ohne Zustimmung nicht gestattet.
   </p>
 </div>
 
 <div class="legal-block">
-  <h2>Datenschutz</h2>
+  <h2>Datenschutz (Kurzinfo)</h2>
   <p>
-    Diese Website wird über <strong>GitHub Pages</strong> gehostet. Dabei können von GitHub Zugriffsdaten (z.&nbsp;B. IP-Adresse, Zeitpunkt, aufgerufene Seiten) erfasst werden. Näheres regelt die <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von GitHub</a>.
+    Diese Website wird über <strong>GitHub Pages</strong> gehostet. Dabei können durch GitHub technische Zugriffsdaten verarbeitet werden (z.&nbsp;B. IP-Adresse, Zeitpunkt, aufgerufene Seite), insbesondere zur Sicherheit und zum Betrieb des Dienstes.
   </p>
   <p>
-    Auf dieser Seite wird ein <strong>Chat-Widget</strong> des Anbieters <em>Chatling</em> (chatling.ai) eingesetzt. Dabei wird ein externes JavaScript geladen, das technische Daten (z.&nbsp;B. IP-Adresse) an die Server von Chatling übermitteln kann. Weitere Informationen finden Sie in der <a href="https://chatling.ai/privacy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von Chatling</a>.
+    Zusätzlich werden externe Dienste eingebunden (z.&nbsp;B. <strong>Chatling</strong> als Chat-Widget und <strong>OpenStreetMap</strong> für Karten). Dabei werden zur technischen Auslieferung ebenfalls Verbindungsdaten an die jeweiligen Anbieter übertragen.
   </p>
   <p>
-    Für die Kartendarstellung wird <strong>OpenStreetMap</strong> verwendet. Beim Laden der Kartenkacheln werden Daten an die Server der OpenStreetMap Foundation übertragen. Näheres regelt die <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von OpenStreetMap</a>.
+    Diese Website setzt durch den Betreiber <strong>keine Cookies</strong>, kein Besuchs-Tracking und kein Analytics ein.
   </p>
   <p>
-    Diese Website verwendet <strong>keine Cookies</strong> und kein Tracking. Es werden keine personenbezogenen Daten erhoben oder gespeichert.
+    Details (inkl. Drittland-Übermittlungen und Links zu den jeweiligen Anbieter-Erklärungen) findest du in der <a href="{{ '/datenschutz/' | relative_url }}">Datenschutzerklärung</a>.
   </p>
 </div>
