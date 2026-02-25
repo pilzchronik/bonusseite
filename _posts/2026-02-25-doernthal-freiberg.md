@@ -25,11 +25,11 @@ excerpt: >
 
 Die Grundlage dieser Rekonstruktion bilden drei Gerichtshandelsbücher des Gerichts Dörnthal, die im Sächsischen Hauptstaatsarchiv Dresden als Digitalisate vorliegen (Bestand 12613 Gerichtsbücher, GB AG Sayda):
 
-| Band   | Signatur | Zeitraum  | Register           |
-| ------ | -------- | --------- | ------------------ |
-| Bd. 01 | Nr. 239  | 1550–1596 | Nein               |
-| Bd. 02 | Nr. 020  | 1595–1636 | Ja (nach Vornamen) |
-| Bd. 03 | Nr. 021  | 1622–1701 | —                  |
+| Band | Signatur | Zeitraum | Register |
+|------|----------|----------|---------|
+| Bd. 01 | Nr. 239 | 1550–1596 | Nein |
+| Bd. 02 | Nr. 020 | 1595–1636 | Ja (nach Vornamen) |
+| Bd. 03 | Nr. 021 | 1622–1701 | — |
 
 Ergänzend wurde das Freiberger Bürgerbuch (1486–1605) über eine Anfrage beim Stadtarchiv Freiberg erschlossen. Nicht online verfügbar und bisher nicht eingesehen sind die Kirchenbücher der Parochien Dörnthal, Olbernhau, Oberneuschönberg und Lengefeld (Kirchenbezirk Marienberg; Lesesaal Landeskirchliches Archiv Dresden).
 
@@ -51,16 +51,16 @@ Der Eintrag dokumentiert eine Erbschafts- und Abfindungsregelung nach dem Tod ei
 
 ### Die Kinder des Michel Pültzen
 
-| Name                 | Vormund                                       | Abfindung                | Alter (1558)  |
-| -------------------- | --------------------------------------------- | ------------------------ | ------------- |
-| Jacob Pültzen        | —                                             | Gutsübernahme            | erwachsen     |
-| Elias Pültz          | —                                             | Erbteil                  | erwachsen     |
-| Caspar (der Jüngste) | **Cristoff Pültz von Freiberg** + Jacob Pültz | 25 Gulden (Sonderbetrag) | ~2 Jahre      |
-| Jorgen (Georg)       | [?] Müller                                    | 8 Gulden                 | ~18 Jahre     |
-| Sibillen (Sibylla)   | Antoni Flate                                  | 8 Gulden                 | ~9 Jahre      |
-| Hansen (Hans)        | Caspar Kaden                                  | 8 Gulden                 | unsicher      |
-| **Mitchel (Michel)** | Jorge Kaden                                   | 8 Gulden                 | **~11 Jahre** |
-| Matthessen (Matthes) | Merten Schwob                                 | 8 Gulden                 | unsicher      |
+| Name | Vormund | Abfindung | Alter (1558) |
+|------|---------|-----------|-------------|
+| Jacob Pültzen | — | Gutsübernahme | erwachsen |
+| Elias Pültz | — | Erbteil | erwachsen |
+| Caspar (der Jüngste) | **Cristoff Pültz von Freiberg** + Jacob Pültz | 25 Gulden (Sonderbetrag) | ~2 Jahre |
+| Jorgen (Georg) | [?] Müller | 8 Gulden | ~18 Jahre |
+| Sibillen (Sibylla) | Antoni Flate | 8 Gulden | ~9 Jahre |
+| Hansen (Hans) | Caspar Kaden | 8 Gulden | unsicher |
+| **Mitchel (Michel)** | Jorge Kaden | 8 Gulden | **~11 Jahre** |
+| Matthessen (Matthes) | Merten Schwob | 8 Gulden | unsicher |
 
 Gesamtsumme der Kindsteile laut Text: 65 Gulden.
 
@@ -125,9 +125,23 @@ Das **Pültz-Wappen** im Freiberger Dom ist damit mit hoher Wahrscheinlichkeit *
 
 ---
 
-## 4. Das Pültz-Wappen im Freiberger Dom
+## 4. Das Pültz-Wappen im Kreuzgang des Freiberger Doms
 
-Im Kreuzgang des Freiberger Doms ist ein Wappen überliefert, das der Familie Pültz zugeschrieben wird. Die heraldische Beschreibung lautet: auf schwarzem Grund ein silberner Sparren, flankiert von zwei schreitenden goldenen Löwen im Oberteil und einem grünen Pflanzenzweig mit roten Beeren im unteren Feld; Helmzier: zwei Büffelhörner.
+Die Grabinschrift und das Familienwappen der Pültz sind durch Grübler (Bd. 1, S. 354) im Abschnitt **„Vom Kreuzgange"** des Freiberger Doms nachgewiesen — Grabstätte, Wappen und Inschrift sind damit ein und derselbe Befund. Ihre Vermutung, dass dies zusammengehört, ist durch die Primärquelle vollständig bestätigt.
+
+Es handelt sich um zwei nebeneinanderliegende Grabsteine. Grübler beschreibt sie wie folgt (in normalisierter Wiedergabe des stark abgekürzten OCR-Textes):
+
+**Stein 1 — Christoph Pültz:**
+
+> *Anno 1621, [27. Juli] ist verschieden Christoph Bultz, des Armen[kastens] Vorsteher [allhier], dessen [Seel in] Gottes Hand; der Leib aber [erwar]tet an diesem Ort [der fröhlichen] Auferstehung und Eingangs zum ewigen Leben. Die Zeit [seiner Wallfahrt w]ar 71 Jahr [7] Monat.*
+
+Grübler vermerkt danach ausdrücklich: *„So denn ist ein Wappen."*
+
+**Stein 2 — Sibylla Pültzin:**
+
+> *Unter diesem Steine ruhet sanft … Sibylla, Christoff Pültzin* [= Ehefrau des Christoff Pültz], *Michael Wolffs Tochter …*
+
+Die heraldische Beschreibung des Wappens lautet: auf schwarzem Grund ein silberner Sparren, flankiert von zwei schreitenden goldenen Löwen im Oberteil und einem grünen Pflanzenzweig mit roten Beeren im unteren Feld; Helmzier: zwei Büffelhörner.
 
 <img src="{{ '/assets/images/pueltz_wappen_rekonstruktion.png' | relative_url }}"
      alt="Rekonstruktionsversuch des Pültz-Wappens"
@@ -135,7 +149,7 @@ Im Kreuzgang des Freiberger Doms ist ein Wappen überliefert, das der Familie P�
 
 *Rekonstruktionsversuch nach KI-gestützter Beschreibung. Kein Anspruch auf heraldische Genauigkeit.*
 
-Nach Auswertung der Grabinschrift (Grübler S. 354) ist das Wappen mit großer Wahrscheinlichkeit dem **Christoph Pültz (†1621) und seiner Frau Sibylla Wolff** zuzuordnen — dem Freiberger Bürger und Vorsteher des Armen Kastens (→ Abschnitt 3, Generation II). Eine physische Überprüfung am Original im Dom und die Einsicht ins Freiberger Bürgerbuch vor Ort bleiben wünschenswert.
+**Anmerkung zur Datierung:** Die formelle Einrichtung von Erbbegräbnisstätten im Kreuzgang wird auf 1622 datiert — Christoph Pültz starb bereits am 27. Juli 1621. Sein nachgewiesenes Grab im Kreuzgang zeigt, dass die Nutzung de facto unmittelbar vor dem offiziellen Datum einsetzte; er dürfte zu den allerersten dort Bestatteten gehören.
 
 ---
 
@@ -294,8 +308,8 @@ Michel-Komplex Folio 155r–158r (Bilder 0160–0163): Nachname in vorliegender 
 - E-Mail Annett Brodauf (Stadtarchiv Freiberg) an Wolfgang Pilz, 24. Februar 2026
 
 **Gedruckte Quellen**
-- Grübler, Johann Samuel: *Ehre Der Freybergischen Todten-Grüffte* \[…\]. Bd. 1. Freiberg 1731, S. 354. [BSB-Digitalisat](https://www.digitale-sammlungen.de/de/view/bsb10576228?page=2,3) — **Ausgewertet:** Grabinschrift Christoph Pültz (†27.7.1621) und Sibylla Wolff (†27.11.1643)
-- Grübler, Johann Samuel: *Ehre Der Freybergischen Todten-Grüffte* \[…\]. Bd. 2. Freiberg 1737. [BSB-Digitalisat](https://www.digitale-sammlungen.de/de/view/bsb10621396?page=1) — **Kein Fund**
+- Grübler, Johann Samuel: *Ehre Der Freybergischen Todten-Grüffte* \[…\]. Bd. 1. Freiberg 1731, S. 354. [BSB-Digitalisat](https://www.digitale-sammlungen.de/de/view/bsb10576228?page=2,3) — **Ausgewertet:** Zwei Grabsteine im Kreuzgang des Freiberger Doms: Christoph Pültz (†27.7.1621, 71 J. 7 M., Vorsteher des Armenkastens) mit Wappen; Sibylla Pültzin, geb. Wolff (†27.11.1643)
+- Grübler, Johann Samuel: *Ehre Der Freybergischen Todten-Grüffte* \[…\]. Bd. 2. Freiberg 1737. [BSB-Digitalisat](https://www.digitale-sammlungen.de/de/view/bsb10621396?page=1) — **Gelesen, kein Fund**
 
 ---
 
