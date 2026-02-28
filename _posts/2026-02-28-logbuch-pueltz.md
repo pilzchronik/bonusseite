@@ -21,7 +21,7 @@ eigens Versorgung und Erbteile zu je 20 Gulden.
 
 **Neuer Fund:** Ein weiterer Sohn, Michael/Wicheel Pultz, verließ Dörnthal
 ca. 1607 und blieb 22 Jahre verschwunden. 1629 teilten seine Geschwister
-und Schwager seine Verlassenschaft auf — er wurde für tot erklärt.
+und Schwager seine Verlassenschaft auf — er wurde de facto für tot erklärt.
 Sein Erbteil hatte der Schöffe Michael Teuffel als Vormund verwaltet.
 
 **Offene Fragen:** Identität des „Josepf Pültz Der Schöffe" (Seiten 133/136)

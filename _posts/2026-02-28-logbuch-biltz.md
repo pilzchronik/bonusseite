@@ -12,8 +12,8 @@ excerpt: >
 
 **Carl Gottlob Biltz** war Kupferhammerschmied in der Saigerhütte Grünthal
 bei Olbernhau — ein qualifizierter Fachmann in einem der bedeutendsten
-Industriebetriebe Sachsens. 1772 verließ er das Werk und wanderte nach
-Böhmen aus, wo er nur noch als einfacher Hilfsarbeiter Fuß fassen konnte.
+Industriebetriebe Sachsens. Vor 1772 verließ er das Werk und wanderte nach
+Böhmen aus, wo er als Taglöhner Fuß fassen konnte.
 
 **Der Hintergrund:** Eine Doppelkatastrophe machte die Saigerhütte zur
 Armenfalle. Missernten 1769–72 trieben den Kornpreis von 2 auf 24 Taler
