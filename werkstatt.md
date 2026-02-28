@@ -203,7 +203,8 @@ permalink: /werkstatt/
 </style>
 
 <div class="intro-text">
-  Neue Funde, Ergänzungen und Korrekturen zur gedruckten Pilz-Chronik (Band&nbsp;1&nbsp;&&nbsp;2).
+  Neue Funde, Ergänzungen und Korrekturen zur gedruckten Pilz-Chronik (Band&nbsp;1&nbsp;&amp;&nbsp;2).
+  Kurze Logbuch-Einträge dokumentieren laufende Forschungsschritte.
 </div>
 
 <!-- Angepinnter Errata-Post -->
@@ -223,6 +224,7 @@ permalink: /werkstatt/
   <button class="tag-btn" data-tag="Neue Funde">Neue Funde</button>
   <button class="tag-btn" data-tag="Ergänzungen">Ergänzungen</button>
   <button class="tag-btn" data-tag="Hintergrund">Hintergrund</button>
+  <button class="tag-btn" data-tag="Logbuch">Logbuch</button>
   <input type="text" id="searchBox" class="search-box" placeholder="Suchen …" autocomplete="off">
 </div>
 
