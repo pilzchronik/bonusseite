@@ -37,12 +37,15 @@ Sohn des Joseph Pültz, in sechs eigenständigen Rechtsakten zwischen
 geborene **Drechsel** — Tochter des Lorenz Drechsel. Belegt durch
 ihre Nennung als Erbin in der Nicol-Ebert-Quittung (S. 46/61).
 
-**Geschlossene Erbgemeinschaft:** Die vier Erben aus L772 (1620) —
-Hans, Abraham, Michael Rader und Christoph Gleser — sind nun als
-vollständige Gruppe identifizierbar: Hans und Abraham als Söhne,
-Gleser als Schwiegersohn (∞ Katharina Pültz), Rader vermutlich als
-weiterer Schwiegersohn Josephs. Die Erbschaft des Joseph Pültz
-wurde damit unter seinen Kindern und angeheirateten Söhnen aufgeteilt.
+**Die Erbengemeinschaft in L772 (1620):** Die vier Erben des Joseph
+Pültz — Hans, Abraham, Michael Rades und Christoph Gleser — sind
+als Gruppe identifizierbar: Hans und Abraham als Söhne, Gleser als
+Schwiegersohn (∞ Katharina Pültz). **Michael Rades** ist paläographisch
+als **Michael Kaden** zu lesen (systematische R/K-Verwechslung in
+Kurrentschrift). Er war ein Verwandter der Familie Kaden, die mit
+den Pültz vielfach verbunden war. Seine genaue Beziehung zu Joseph
+— ob Schwager, Schwiegersohn oder anderer Verwandter — ist noch
+nicht abschließend geklärt.
 
 **HTR-Korrekturen:** „Hans Butten" und „Alrchem Pulz" in der
 automatischen Transkription sind Fehllesungen von „Hans Pulzen"
