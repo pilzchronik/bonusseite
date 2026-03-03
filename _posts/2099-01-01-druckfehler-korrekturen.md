@@ -1,140 +1,109 @@
 ---
 layout: post
-title: "Druckfehler & Korrekturen zur Pilz-Chronik (Band 1 & 2)"
+title: "Korrekturen & Ergänzungen zur Pilz-Chronik (Band 1 & 2)"
 date: 2099-01-01
 tags: [Korrekturen]
-excerpt: "Laufend aktualisierte Liste der bekannten Druck- und Satzfehler. Zuletzt aktualisiert am 01.03.2026."
+excerpt: "Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte."
 pinned: true
 ---
 
 <style>
   .errata-hinweis {
-    background: #fff3cd;
-    border-left: 4px solid #ffc107;
-    padding: 15px 20px;
+    background: #f5f3f0;
+    border-left: 3px solid #999;
+    padding: 12px 18px;
     margin-bottom: 30px;
-    border-radius: 4px;
-    font-size: 0.95em;
-    color: #664d03;
-  }
-  .errata-eintrag {
-    margin-bottom: 25px;
-    padding: 15px 20px;
-    background: #f8f9fa;
-    border-left: 4px solid #2a5d8f;
-    border-radius: 4px;
-  }
-  .errata-eintrag h3 {
-    margin-top: 0;
-    color: #2a5d8f;
-    font-size: 1.05em;
-  }
-  .errata-eintrag--inhaltlich {
-    background: #fff0f0;
-    border-left: 4px solid #c0392b;
-  }
-  .errata-eintrag--inhaltlich h3 {
-    color: #c0392b;
-  }
-  .errata-badge {
-    display: inline-block;
-    background: #c0392b;
-    color: white;
-    font-size: 0.75em;
-    font-weight: bold;
-    padding: 2px 8px;
     border-radius: 3px;
-    margin-bottom: 8px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    font-size: 0.93em;
+    color: #555;
   }
   .errata-stand {
     font-size: 0.85em;
-    color: #888;
+    color: #999;
+    margin-bottom: 24px;
+  }
+  .errata-eintrag {
     margin-bottom: 20px;
+    padding: 12px 18px;
+    background: #fafafa;
+    border-left: 3px solid #bbb;
+    border-radius: 3px;
+  }
+  .errata-eintrag h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: #444;
+    font-size: 1em;
+  }
+  .errata-eintrag p {
+    margin: 4px 0;
+    font-size: 0.93em;
+    color: #333;
+  }
+  .errata-eintrag--erkenntnis {
+    border-left-color: #a0522d;
+  }
+  .errata-eintrag--erkenntnis h3 {
+    color: #6b3a1f;
   }
 </style>
 
 <div class="errata-hinweis">
-  Diese Seite wird laufend aktualisiert. Wenn Sie einen weiteren Fehler finden, freue ich mich über eine Nachricht an <strong><span id="errata-mail"></span><noscript>pilz (at) gmx.at</noscript></strong>.
+  Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte.
+  Hinweise gerne an <strong><span id="errata-mail"></span><noscript>pilz (at) gmx.at</noscript></strong>.
   <script>(function(){var a="pilz",b="gmx.at",e=document.getElementById("errata-mail");if(e)e.innerHTML='<a href="mailto:'+a+"@"+b+'">'+a+"@"+b+"</a>";})()</script>
 </div>
 
 <p class="errata-stand">Stand: 3. März 2026</p>
 
-<div class="errata-eintrag errata-eintrag--inhaltlich">
-  <div class="errata-badge">Inhaltliche Korrektur</div>
-  <h3>Band 1, Seiten 74–75 — Falscher Vater für Abraham Pilz (Kekulé 4.096)</h3>
-  <p>
-    Im Abschnitt zur sächsischen Ahnenreihe heißt es:
-    <em>„Abrahams Vater war Jobst Pilz (ca. 1539–1619) […] Aus seiner dritten Ehe mit Margaretha Teuffel (Hochzeit 8.5.1589) stammt Abraham."</em>
-  </p>
-  <p>
-    <strong>Richtigstellung:</strong> Abrahams Vater ist nicht Jobst, sondern <strong>Joseph Pültz der Familienvater</strong> (ca. 1555–1650). Die Vaterschaft ist durch einen zeitgenössischen Primärbeleg gesichert: Im Gerichtsbuch AG Sayda Nr. 020, Blatt 772 (1620) erscheint <em>„Abrahe Pitz zu Blunman"</em> gemeinsam mit Hans Pulz, Michael Rader und Christoph Gleser als Erbe des Joseph Pültz.
-  </p>
-  <p>
-    Jobst und Joseph Pültz sind zwei verschiedene Personen, die in genealogischen Sekundärdatenbanken (insbesondere FamilySearch) irrtümlich gleichgesetzt wurden. Die Formulierung im Drucktext war bereits als Hypothese markiert — sie erweist sich nun als falsch. Eine ausführliche Erläuterung des Fehlers und seiner Entstehung findet sich im Beitrag
-    <a href="{{ '/jobst-joseph-verwechslung.html' | relative_url }}">„Jobst und Joseph – eine folgenreiche Verwechslung"</a>.
-  </p>
+## Neue Erkenntnisse
+
+<div class="errata-eintrag errata-eintrag--erkenntnis">
+  <h3>Band 1, S. 74–75 — Vater von Abraham Pilz (Kekulé 4.096)</h3>
+  <p>Gedruckt: Jobst Pilz sei Abrahams Vater gewesen.</p>
+  <p><strong>Korrektur:</strong> Der Vater ist <strong>Joseph Pültz der Familienvater</strong> (ca. 1555–1650), belegt durch das Gerichtsbuch AG Sayda Nr. 020, Blatt 772 (1620). Jobst und Joseph wurden in Sekundärquellen irrtümlich gleichgesetzt.
+  → <a href="{{ '/jobst-joseph-verwechslung.html' | relative_url }}">Näheres dazu</a></p>
 </div>
 
-<div class="errata-eintrag errata-eintrag--inhaltlich">
-  <div class="errata-badge">Inhaltliche Korrektur</div>
-  <h3>Band 2, Kekulé 8.192 — Jobst Pilz als Vorfahre zu streichen</h3>
-  <p>
-    Jobst PILZ ist als direkter Vorfahre (Vater von Abraham, Kekulé 4.096) <strong>zu streichen</strong>.
-    An seiner Stelle steht Joseph Pültz der Familienvater (siehe oben).
-    Jobst Pilz ist für die Dörnthaler Sozialgeschichte weiterhin relevant, gehört aber nicht in die direkte Ahnenreihe.
-  </p>
+<div class="errata-eintrag errata-eintrag--erkenntnis">
+  <h3>Band 2, S. 59–60 — Kekulé 8.192 und 8.193: Jobst Pilz und Margaretha Teuffel</h3>
+  <p>Jobst Pilz und seine Ehefrau Margaretha Teuffel sind als direkte Vorfahren <strong>zu streichen</strong>. An die Stelle von Jobst tritt Joseph Pültz (siehe oben). Jobst bleibt für die Dörnthaler Ortsgeschichte relevant, gehört aber nicht in die Ahnenreihe.</p>
 </div>
 
-<div class="errata-eintrag errata-eintrag--inhaltlich">
-  <div class="errata-badge">Inhaltliche Korrektur</div>
-  <h3>Band 2, Kekulé 4.096 — Geburtsort und Geburtsdatum von Abraham Pilz</h3>
-  <p>
-    Gedruckt: <em>„wurde um 1590 in Olbernhau, Sachsen, Deutschland geboren"</em>
-  </p>
-  <p>
-    <strong>Richtigstellung:</strong> Abraham Pilz wurde am <strong>27. August 1591 in Dörnthal</strong> (heute Ortsteil von Olbernhau) geboren, wie aus dem Taufeintrag im Kirchenbuch Dörnthal hervorgeht.
-  </p>
+<div class="errata-eintrag errata-eintrag--erkenntnis">
+  <h3>Band 2, S. 59 und S. 64 — Geburtsdaten Abraham Pilz (Kekulé 4.096)</h3>
+  <p>Gedruckt: „um 1590 in Olbernhau". Auch die Spitzenahnen-Tabelle (S. 64) nennt diese Angabe.</p>
+  <p><strong>Korrektur:</strong> Abraham Pilz wurde am <strong>27. August 1591 in Dörnthal</strong> geboren (Taufeintrag Kirchenbuch Dörnthal).</p>
+</div>
+
+<div class="errata-eintrag errata-eintrag--erkenntnis">
+  <h3>Band 2, S. 64, Fußnote 4 — Verweis auf Jobst Pilz als möglichen Vater</h3>
+  <p>Die Fußnote ist durch die Korrektur (Joseph Pültz statt Jobst) <strong>inhaltlich überholt</strong> und muss gestrichen oder angepasst werden.</p>
+</div>
+
+## Redaktionelles
+
+<div class="errata-eintrag">
+  <h3>Band 2, Gesamtindex (S. 171) und Band 1 (S. 191) — Todesdatum Pietro Cofler</h3>
+  <p>Im Fließtext (Band 2, S. 81) steht korrekt <strong>1925</strong>. Im Gesamtindex beider Bände steht irrtümlich 1923. Zu berichtigen auf <strong>1925</strong>.</p>
 </div>
 
 <div class="errata-eintrag">
-  <h3>Band 1, Seite 179 — Fehlende Zwischenüberschrift</h3>
-  <p>
-    Zwischen dem Abschnitt <em>„Rübenkraut – Vergessene Winterkost"</em> und dem
-    folgenden Abschnitt über das Pustertaler Brot fehlt die Zwischenüberschrift
-    <strong>„Breatln – Das Pustertaler Traditionsbrot"</strong>.
-    Die beiden Abschnitte fließen dadurch ohne Trennung ineinander.
-  </p>
+  <h3>Band 1, S. 138 — Seitenverweis auf das Testament Peter Kofler</h3>
+  <p>Gedruckt: „Peters Testament (Band 2, S. 167 ff.)". Richtig: <strong>S. 136 ff.</strong></p>
 </div>
 
 <div class="errata-eintrag">
-  <h3>Band 1, Seite 37 — Bildunterschrift zu Bild 13 nicht als solche gekennzeichnet</h3>
-  <p>
-    Der erklärende Text zu Bild 13:
-    Auf der Karte steht -hügel, auf der Bildunterschrift steht -hübel, beides stimmmt, ist kein Fehler, soll aber erklärt werden.
-  </p>
+  <h3>Band 1, S. 179 — Fehlende Zwischenüberschrift</h3>
+  <p>Zwischen „Rübenkraut – Vergessene Winterkost" und dem folgenden Abschnitt fehlt die Überschrift <strong>„Breatln – Das Pustertaler Traditionsbrot"</strong>. Die Abschnitte fließen ohne Trennung ineinander.</p>
 </div>
 
 <div class="errata-eintrag">
-  <h3>Band 1, Seite 56 — Doppelter Satz</h3>
-  <p>
-    Im Abschnitt zur Kriegsverletzung ist der Satz
-    <em>„Erst als über eine Bekannte unserer Tante Mina …"</em>
-    irrtümlich <strong>doppelt abgedruckt</strong>.
-  </p>
-  <p>
-    Es handelt sich um einen redaktionellen Fehler ohne inhaltliche Auswirkung.
-    Der Hinweis auf diesen Satzfehler stammt von meiner Cousine – danke für die aufmerksame Lektüre.
-  </p>
+  <h3>Band 1, S. 37 — Bildunterschrift zu Bild 13</h3>
+  <p>Der Text zu Bild 13 ist typographisch nicht klar als Bildunterschrift erkennbar. Hinweis: Auf der Karte steht „-hügel", in der Unterschrift „-hübel" — beides ist korrekt, sollte aber erläutert werden.</p>
 </div>
-
-<!-- Neue Einträge hier einfügen, z.B.:
 
 <div class="errata-eintrag">
-  <h3>Band X, Seite Y — Beschreibung</h3>
-  <p>Erläuterung des Fehlers und der Korrektur.</p>
+  <h3>Band 1, S. 56 — Doppelter Satz</h3>
+  <p>Der Satz „Erst als über eine Bekannte unserer Tante Mina …" ist irrtümlich doppelt abgedruckt. Kein inhaltlicher Fehler.</p>
 </div>
-
--->
