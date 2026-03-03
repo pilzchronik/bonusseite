@@ -100,7 +100,7 @@ pinned: true
 
 <div class="errata-eintrag">
   <h3>Band 1, S. 37 — Bildunterschrift zu Bild 13</h3>
-  <p>Der Text zu Bild 13 ist typographisch nicht klar als Bildunterschrift erkennbar. Hinweis: Auf der Karte steht „-hügel", in der Unterschrift „-hübel" — beides ist korrekt, sollte aber erläutert werden.</p>
+  <p> Hinweis: Auf der Karte steht „-hügel", in der Unterschrift „-hübel" — beides ist korrekt, sollte aber erläutert werden.</p>
 </div>
 
 <div class="errata-eintrag">
