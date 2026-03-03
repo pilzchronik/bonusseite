@@ -60,7 +60,7 @@ pinned: true
   <script>(function(){var a="pilz",b="gmx.at",e=document.getElementById("errata-mail");if(e)e.innerHTML='<a href="mailto:'+a+"@"+b+'">'+a+"@"+b+"</a>";})()</script>
 </div>
 
-<p class="errata-stand">Stand: 1. März 2026</p>
+<p class="errata-stand">Stand: 3. März 2026</p>
 
 <div class="errata-eintrag errata-eintrag--inhaltlich">
   <div class="errata-badge">Inhaltliche Korrektur</div>
@@ -96,6 +96,24 @@ pinned: true
   </p>
   <p>
     <strong>Richtigstellung:</strong> Abraham Pilz wurde am <strong>27. August 1591 in Dörnthal</strong> (heute Ortsteil von Olbernhau) geboren, wie aus dem Taufeintrag im Kirchenbuch Dörnthal hervorgeht.
+  </p>
+</div>
+
+<div class="errata-eintrag">
+  <h3>Band 1, Seite 179 — Fehlende Zwischenüberschrift</h3>
+  <p>
+    Zwischen dem Abschnitt <em>„Rübenkraut – Vergessene Winterkost"</em> und dem
+    folgenden Abschnitt über das Pustertaler Brot fehlt die Zwischenüberschrift
+    <strong>„Breatln – Das Pustertaler Traditionsbrot"</strong>.
+    Die beiden Abschnitte fließen dadurch ohne Trennung ineinander.
+  </p>
+</div>
+
+<div class="errata-eintrag">
+  <h3>Band 1, Seite 37 — Bildunterschrift zu Bild 13 nicht als solche gekennzeichnet</h3>
+  <p>
+    Der erklärende Text zu Bild 13:
+    Auf der Karte steht -hügel, auf der Bildunterschrift steht -hübel, beides stimmmt, ist kein Fehler, soll aber erklärt werden.
   </p>
 </div>
 
