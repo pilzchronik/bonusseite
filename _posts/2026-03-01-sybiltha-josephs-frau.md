@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Sybiltha — Josephs Frau und Abrahams Mutter?"
+title: "Sybiltha — Josephs erste Frau, Mutter der älteren Geschwister Abrahams"
 date: 2026-03-01
 tags: [Neue Funde, Hintergrund]
 permalink: /sybiltha-josephs-frau.html
 excerpt: >
-  GB AG Sayda Nr. 020, S. 201 (02.02.1617): Ein Pültz erscheint vor Gericht
-  wegen seiner verstorbenen Frau Sybiltha. Ist das Joseph — und damit
-  Abrahams Mutter endlich greifbar?
+  GB AG Sayda Nr. 020, S. 201 (02.02.1617): Joseph Pültz erscheint vor Gericht
+  wegen seiner verstorbenen Frau Sybiltha. Ihre Lesungen wurden von einer
+  Paläographie-Expertin bestätigt. Abrahams Mutter bleibt vorerst unbekannt.
 ---
 
 ## Der Fund
@@ -21,35 +21,24 @@ Digitalisat-Seite 216, rechte Seite, findet sich unter dem Datum
 > Christoff Jencken in […] Vormundtschafft seines Weibes Ursüla Vnd
 > **den Joße pültz Wegen seines Verstorbenen Vnd selig[en] Weibes / Sybiltha**"
 
-Die drei Männer — Georg Klein, Christoff Jencken und der Pültz — erscheinen
+Die Lesungen **„Joße" (= Joseph)** und **„Sybiltha"** wurden von der
+Moderatorin des Ahnenforschungsforums paläographisch bestätigt.
+
+Die drei Männer — Georg Klein, Christoff Jencken und Joseph Pültz — erscheinen
 als Erben des **Christoff Zimmermann** und verzichten auf weitere Ansprüche.
+Sybiltha war also mit der Familie **Zimmermann** in Dörnthal verwandt
+oder verschwägert.
 
 ---
 
-## Was das bedeutet
-
-**„Joße pültz"** ist eine in sächsischen Quellen des frühen 17. Jahrhunderts
-gebräuchliche Kurzform von **Joseph**. Der Mann vertritt die Erbschaftsansprüche
-seiner verstorbenen Frau aus dem Nachlass des Christoff Zimmermann — sie war
-also mit der Familie **Zimmermann** verwandt oder verschwägert.
-
-Der Vorname der Frau ist im Original eindeutig als **„Sybiltha"** zu lesen —
-eine zeitgenössische Schreibvariante von Sybilla/Sibylla.
-
-Wenn „Joße" tatsächlich **Joseph Pültz der Familienvater** (GEDCOM 14889100)
-ist, dann wäre dies der erste urkundliche Beleg für seine Ehefrau:
-
-- Name: **Sybiltha (Sybilla)**
-- Herkunft: verwandt mit der Dörnthaler Familie **Zimmermann**
-- Tod: **vor dem 2. Februar 1617**
-
----
-
-## Einordnung in die bekannte Chronologie
+## Einordnung: Erste oder zweite Frau?
 
 Josephs Datensatz enthält zwei Heiratsdaten: **09.05.1574** und **08.05.1589**.
-Sybiltha wäre demnach wahrscheinlich die **erste Frau** (∞ 1574) — Mutter
-der Kinder, die ab 1575 in Dörnthal getauft wurden:
+Sybiltha war die **erste Frau** (∞ 09.05.1574) und starb **vor dem 2. Februar 1617**,
+wahrscheinlich bereits um 1588/89 — denn nach dem Kind von 1588 folgt eine
+Lücke, und Joseph heiratete am 08.05.1589 ein zweites Mal.
+
+### Kinder Sybilthas (∞ 1574)
 
 | Kind | Taufe |
 |------|-------|
@@ -61,34 +50,34 @@ der Kinder, die ab 1575 in Dörnthal getauft wurden:
 | PILZ (unbekannt) | 03.03.1585 |
 | Hans | 06.01.1587 |
 | PILZ (unbekannt) | 1588 |
+
+### Kind der zweiten Frau (∞ 08.05.1589, unbekannt)
+
+| Kind | Taufe |
+|------|-------|
 | **Abraham** | **27.08.1591** |
 
-Nach dem letzten belegten Kind (1588 oder 1591) dürfte Sybiltha gestorben
-sein — woraufhin Joseph **1589 ein zweites Mal heiratete**. Abraham (geb. 1591)
-könnte demnach bereits das Kind der zweiten Ehe sein, oder Sybiltha lebte
-noch bis nach 1591.
+Abraham wurde zwei Jahre nach der zweiten Heirat geboren — er ist daher
+mit großer Wahrscheinlichkeit **nicht** Sybilthas Kind, sondern das Kind
+der unbekannten zweiten Frau. **Abrahams Mutter bleibt vorerst unbekannt.**
 
 ---
 
 ## Offene Fragen
 
-Die Lesung **„Joße" = Joseph** ist paläographisch plausibel, aber nicht
-gesichert — theoretisch käme auch ein anderer Pültz in Frage. Folgende
-Schritte sind zur Bestätigung notwendig:
-
-1. **Kirchenbuch Dörnthal** (LKA Dresden, Bestand 23/24): Sterbeeintrag
-   „Sybilla Pültζin" zwischen ca. 1588 und 1617 suchen
-2. **Familie Zimmermann in Dörnthal**: Über welche Linie war Sybiltha
-   mit Christoff Zimmermann verwandt?
-3. **Originaldigitalisat** nochmals prüfen: Der erste Buchstabe des
-   Vornamens vor „pültz" ist der entscheidende Unsicherheitsfaktor
+1. **Wer war die zweite Frau** (∞ 08.05.1589) — Abrahams Mutter?
+   Kirchenbuch Dörnthal (LKA Dresden, Bestand 23/24) prüfen.
+2. **Familie Zimmermann**: Über welche Linie war Sybiltha mit
+   Christoff Zimmermann verwandt?
+3. **Sterbeeintrag Sybiltha**: Im Kirchenbuch Dörnthal zwischen
+   ca. 1585 und 1589 suchen.
 
 ---
 
 ## Status
 
-⚠️ **Arbeitshypothese** — paläographisch plausibel, nicht durch weitere
-Quellen bestätigt. In MacFamilyTree vorläufig eingetragen als:
+✅ **Paläographisch gesichert** (Forumbestätigung), genealogisch
+noch nicht durch Kirchenbuch bestätigt. In MacFamilyTree eingetragen als:
 *Sybiltha [Zimmermann?], ∞ Joseph Pültz 09.05.1574, † vor 02.02.1617,
 Quelle: GB AG Sayda Nr. 020, S. 201.*
 
@@ -96,4 +85,5 @@ Quelle: GB AG Sayda Nr. 020, S. 201.*
 
 *Primärquelle: GB AG Sayda Nr. 020, S. 201, Digitalisat-Seite 216
 ([Sächsisches Staatsarchiv](https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=ee5900fa-b35c-4ebd-ac48-4478cf36788e#digitalisat)).
+Paläographische Bestätigung: Moderatorin Ahnenforschungsforum, März 2026.
 Bearbeitet: März 2026.*
