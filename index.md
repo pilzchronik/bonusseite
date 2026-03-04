@@ -142,9 +142,11 @@ title: Startseite
   <p>
     Sie haben Band 1 oder Band 2 der Pilz-Chronik in Händen und suchen nach Korrekturen, 
     neuen Erkenntnissen oder digitalem Zusatzmaterial? Hier finden Sie alles, 
-    was seit der Drucklegung dazugekommen ist.
+    was seit der Drucklegung dazugekommen ist. 
+  <p>
+    Stellen Sie dem Assistenten unten rechts jede Frage zur Pilz-Chronik. Er kennt beide Bände, die wichtigsten Quellen und den aktuellen Forschungsstand – und antwortet sofort.
   </p>
-</div>
+
 
 <div class="primary-actions">
 
@@ -194,4 +196,3 @@ title: Startseite
     <p>Haplogruppen, Verwandtschaftskreise und was die Genetik über die Familienherkunft sagt.</p>
   </a>
 
-</div>
