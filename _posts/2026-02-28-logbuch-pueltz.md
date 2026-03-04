@@ -8,6 +8,7 @@ excerpt: >
   Originalseiten des Gerichtshandelsbuchs Dörnthal (1610–1629) klären
   den Familienverband um Joseph Pültz. Sieben Kinder belegt, darunter
   zwei taubstumme. Ein Sohn für verschollen erklärt. Archivreise 2026 geplant.
+published: false
 ---
 
 Originalseiten des Gerichtshandelsbuchs Dörnthal (GB AG Sayda Nr. 020,

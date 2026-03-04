@@ -4,6 +4,7 @@ title: "DNA-Auswertungen (externe Darstellung)"
 date: 2025-11-04
 tags: [Hintergrund]
 categories: [analysen, dna]
+published: false
 ---
 
 In Ergänzung zur **Pilz-Chronik** dokumentiere ich hier die Ergebnisse meiner genetischen Genealogie (FamilyTreeDNA, Kit 330595). Die Auswertung hilft, die in den Quellen sichtbaren Wanderungen und Herkunftsräume genetisch abzusichern – sie ersetzt die archivalischen Belege aber nicht.

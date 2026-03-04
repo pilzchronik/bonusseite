@@ -1,207 +1,99 @@
 ---
 layout: post
-title: "Der Name Pilz im Salzkammergut: Geschichte einer Familie zwischen Sachsen und den Alpen"
+title: "Der Name Pilz in Österreich — Sachsen als gemeinsamer Ausgangspunkt?"
 date: 2025-12-12
-tags: [Ergänzungen]
+last_updated: 2026-03-03
+tags:
+  - Hintergrund
+published: false
 ---
 
-<style>
-  .status-box {
-    background-color: #f9f9f9;
-    border-left: 4px solid #999;
-    padding: 15px;
-    margin-bottom: 25px;
-    color: #444;
-    font-size: 0.95em;
-  }
-  .status-label {
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    color: #666;
-    margin-bottom: 5px;
-    letter-spacing: 0.5px;
-  }
-</style>
+> **Transparenzhinweis:** Dieser Text wurde von **Claude (Anthropic)** auf Grundlage von Daten, Quellen und Vorgaben von Wolfgang Pilz erstellt. Er fasst den aktuellen Forschungsstand zusammen, ersetzt aber keine wissenschaftliche Publikation. Eine frühere Version (Dezember 2025) enthielt Ungenauigkeiten, die hier korrigiert sind — insbesondere wurde die eigene Familienlinie fälschlich mit dem Salzkammergut verknüpft.
+>
+> **Bewertungen im Text:** ✅ GESICHERT = durch Primärquellen belegt · ⚠️ PLAUSIBEL = gut begründet, ohne direkten Quellennachweis · ❓ HYPOTHETISCH = denkbar, aber spekulativ
 
-<div class="status-box">
-  <span class="status-label">STATUS: ENTWURF / KI-UNTERSTÜTZT</span>
-  Dieser Beitrag dient als interne Gedankenstütze und Arbeitsgrundlage. 
-  Inhalte und Daten sind noch nicht final quellenkritisch gesichert.
-</div> eingearbeitet werden.
+## Worum es geht
 
----
-*Eine Analyse der Wanderungsbewegungen der Frühen Neuzeit und der sächsischen Wurzeln.*
+Der Familienname Pilz (auch Piltz, Bilz, Biltz, Pültz) tritt in Österreich auffällig gehäuft in zwei Regionen auf: im Salzkammergut (Bezirk Gmunden — Bad Goisern, Hallstatt, Gosau) und im oberösterreichischen Mühlviertel (Raum Rohrbach/Helfenberg). In beiden Fällen weisen die Spuren zurück ins sächsische Erzgebirge, speziell in die Gegend um Dörnthal, Zöblitz und Freiberg.
 
-## 1. Einleitung: Das Salzkammergut als besondere Region
-
-Das Salzkammergut war über Jahrhunderte ein besonderes Gebiet im Herzen der österreichischen Alpen. Als direkter Besitz der Habsburgerkrone funktionierte es fast wie ein "Staat im Staate". Durch den sogenannten "Gegendhahn" war die Region nach außen hin abgeschottet und wurde vom mächtigen Salzamt in Gmunden kontrolliert. Aber diese Abschottung war nicht absolut. Während der Export von Salz und Holz streng überwacht wurde, war die Region auf Importe angewiesen: Nahrungsmittel (das „Gmach") und vor allem Fachkräfte mit technischem Wissen.
-
-In diesem Spannungsfeld zwischen Abschottung und notwendiger Zuwanderung beginnt die Geschichte des Familiennamens Pilz. Dieser Name ist heute fest mit der lokalen Identität von Bad Goisern, Hallstatt und Gosau verbunden. Er gibt uns wichtige Einblicke in die Wanderungsbewegungen der Frühen Neuzeit. Die vorliegende Untersuchung beschäftigt sich mit der Vermutung, dass dieser Name aus Sachsen stammt – eine These, die besonders der Goiserer Heimatforscher Karl Pilz vertreten hat und die durch genealogische Forschungen gestützt wird.
-
-Diese Analyse ist über die lokale Familienforschung hinaus interessant. Am Beispiel der Familie Pilz können wir nachvollziehen, wie weiträumig der frühneuzeitliche Bergbau vernetzt war: der Technologietransfer vom sächsischen Erzgebirge in die Alpen, die Verbreitung der Reformation durch wandernde Bergleute und die tragische Zuspitzung in der Zwangsaussiedlung des 18. Jahrhunderts.
-
-Die Untersuchung beginnt mit der Herkunft des Namens, analysiert dann die sächsischen Einwanderungswellen und ihre Gründe, behandelt die konfessionelle Dimension des „Geheimprotestantismus" und würdigt schließlich die Forschungsarbeit von Karl Pilz, der selbst Teil dieser historischen Kontinuität war.
+Aber — und das ist die zentrale Korrektur gegenüber der Erstfassung — es handelt sich höchstwahrscheinlich um **zwei getrennte Migrationsbewegungen**, die zu unterschiedlichen Zeiten und aus unterschiedlichen Gründen stattfanden.
 
 ---
 
-## 2. Die Herkunft des Namens Pilz
+## Zwei Wege, ein Ausgangspunkt
 
-Um zu verstehen, woher der Name Pilz im Salzkammergut kommt, müssen wir uns zunächst die sprachliche und genealogische Entwicklung anschauen. Namen waren in der vorindustriellen Zeit nicht starr; sie verrieten etwas über Herkunft, Beruf und soziale Stellung.
+### 1. Der Salzkammergut-Strom (16./17. Jh.) — ⚠️ PLAUSIBEL
 
-### 2.1. Die sprachliche Herkunft
+Im 16. Jahrhundert erreichte der sächsische Silberbergbau seinen technologischen Höhepunkt. Die Sachsen beherrschten Pumpensysteme (Wasserkünste), Vermessungstechnik und effiziente Aufbereitungsmethoden. Das Salzamt der Habsburger warb gezielt solche Fachleute an — „Kunstmeister", Bergleute und Forstexperten —, um die Produktion der Salinen in Hallstatt und Bad Ischl zu modernisieren. Der Salzbergbau verschlang enorme Holzmengen, und sächsische Forstwirtschaftler waren ebenso gefragt wie Bergleute.
 
-Der Name Pilz (in alten Dokumenten oft auch Piltz, Bilz, Biltz) lässt sich sprachwissenschaftlich vor allem als Berufsname erklären.
+Diese Einwanderer brachten nicht nur ihre Technologie mit, sondern auch ihren lutherischen Glauben. Im katholischen Salzkammergut lebten sie über Generationen als Kryptoprotestanten — nach außen katholisch, zu Hause lutherisch. Die abgelegene Lage in den Wäldern und Stollen erleichterte dieses Doppelleben.
 
-* **Der Kürschner-Zusammenhang:** Die vorherrschende Meinung der Namensforschung sieht in „Pilz" eine lautliche Abwandlung des Wortes „Pelz". Im mittelhochdeutschen und frühneuhochdeutschen Sprachraum, besonders in den mitteldeutschen Dialekten (zu denen auch das Sächsische gehört), war der Vokalwechsel von „e" zu „i" vor bestimmten Konsonanten häufig. Ein „Pilz" war demnach ursprünglich jemand, der Pelze herstellte oder verkaufte – ein Kürschner. Diese berufliche Bedeutung ist wichtig, denn sie weist auf ein spezialisiertes Handwerk hin, das in den städtischen Zentren des Erzgebirges (Freiberg, Annaberg) stark vertreten war.
-* **Abgrenzung zu Ortsnamen:** Eine Ableitung vom schlesischen Ortsnamen „Pilz" (heute Pilce) ist für die Bevölkerung im Alpenraum unwahrscheinlich, da Wanderungsbewegungen aus Schlesien ins Salzkammergut vor dem 18. Jahrhundert kaum vorkamen.
-* **Der Spitzname:** Die Deutung als Spitzname (für jemanden mit pilzartiger Statur oder Kleidung) ist zwar möglich, erklärt aber nicht, warum der Name so gehäuft in bestimmten Berufsgruppen (Forst- und Bergbauwesen) auftritt.
+Der Goiserer Heimatforscher **Karl Pilz** (langjähriger Kurdirektor von Bad Goisern) hat diese sächsische Herkunftsthese für die Salzkammergut-Pilz intensiv vertreten. Er dokumentierte den Zusammenhang zwischen sächsischer Einwanderung, Bergbautechnik und Geheimprotestantismus in der *Goiserer Kurzeitung* und anderen regionalen Publikationen. Die nach ihm benannte **Karl-Pilz-Halle** in der Hirlatzhöhle bei Hallstatt ehrt seine Verdienste.
 
-### 2.2. Genealogische Beweise: Die sächsische Spur
+**Quellenlage:** Die allgemeine sächsische Bergbau-Migration ins Salzkammergut ist historisch gut belegt. Dass konkret Familien namens Pilz auf diesem Weg kamen, ist plausibel (der Name ist im Salzkammergut häufig, im Umland selten, in Sachsen sehr häufig), aber nicht durch eine lückenlose Stammreihe bewiesen.
 
-Einen wichtigen Beweis für die sächsische Herkunft liefert die detaillierte Familiengeschichte bestimmter Pilz-Zweige, wie sie in Familienchroniken dokumentiert ist. Die Analyse der Vorfahren von Alois Pilz (geboren in Waldhäuser bei Helfenberg, Oberösterreich) zeigt eine klare Wanderungsroute:
+### 2. Die Mühlviertel-Linie (18. Jh.) — ✅ GESICHERT
 
-* **Ursprung in Sachsen:** Der älteste nachweisbare Vorfahre, Jobst Piltz, wurde um 1539 in Dörnthal (Sachsen) geboren. Dörnthal liegt im Herzen des Erzgebirges, in unmittelbarer Nähe zu den großen Silberbergbaugebieten um Freiberg.
-* **Zwischenstation Böhmen:** Die Familie wanderte über das böhmische Erzgebirge (Weipert/Vejprty, Joachimsthal). Dies entspricht der historischen Realität des 16. Jahrhunderts, als der sächsische und böhmische Teil des Erzgebirges einen zusammenhängenden Wirtschaftsraum bildeten. Bergleute und Forstleute wechselten flexibel die Seiten, je nachdem, wo die Gruben ertragreicher waren.
-* **Ankunft in Österreich:** Von Böhmen aus erfolgte die Wanderung nach Oberösterreich und Tirol. Die Familie Pilz wird hier ausdrücklich im Zusammenhang mit dem Forstwesen genannt. Dies ist sehr wichtig, denn der Salzbergbau im Salzkammergut verbrauchte enorme Mengen an Holz (für den Ausbau der Gruben und vor allem für die Befeuerung der Sudpfannen). Sächsische Forstexperten waren ebenso gefragt wie Bergleute.
+Die eigene Familienlinie des Autors dieser Bonusseite nahm einen ganz anderen Weg. Belegt durch Kirchenbücher und Gerichtsbücher:
 
-### 2.3. Verbreitung des Namens heute
+- **Joseph PÜLTZ** (aktiv ca. 1578–1620), Richter und Schöffe in Dörnthal (Sachsen), ist der älteste gesicherte Stammvater.
+- Die Linie verläuft über Abraham PILZ (\*1591) → Samuel PILZ (\*1654) → Samuel PILTZ (\*1683) → Christian Gottlieb PILZ (\*1712) → **Carl Gottlob PILZ (\*18.09.1738**, Niederneuschönberg).
+- Carl Gottlob wanderte um **1770** nach **Kallich** (Böhmen) aus — in einer Zeit wirtschaftlicher Krisen im Erzgebirge, als Taglöhner, nicht als angeworbener Fachmann.
+- Von Kallich führt die Linie über Generationen ins Mühlviertel: Vinzenz PILZ → Alois Johann PILZ → Alois Anton PILZ (\*1909, Waldhäuser bei Helfenberg).
 
-Die heutige Verbreitung des Namens Pilz zeigt zwei deutliche Schwerpunkte: das sächsisch-thüringische Kernland und das oberösterreichische Salzkammergut (Bezirk Gmunden). Diese Zweiteilung – eine hohe Dichte im Norden, eine hohe Dichte in einer bestimmten alpinen Region, aber weniger Vorkommen in den Gebieten dazwischen – ist ein typisches Zeichen für gezielte Fernwanderung. Es handelt sich nicht um eine langsame, allmähliche Ausbreitung, sondern um den gezielten Transfer von Personengruppen entlang wirtschaftlicher Netzwerke.
-
----
-
-## 3. Der Technologietransfer aus Sachsen: Warum kamen sie? (16.–17. Jahrhundert)
-
-Warum kamen Sachsen ins Salzkammergut? Die Antwort liegt in der Geologie und der Technologiegeschichte. Das Salzkammergut verfügt über enorme Salzreserven (Haselgebirge), deren Abbau jedoch technische Herausforderungen stellte, die sich von denen des Tiroler oder Salzburger Bergbaus unterschieden.
-
-### 3.1. Die technologische Herausforderung und die sächsische Lösung
-
-Im 16. Jahrhundert erreichte der sächsische Bergbau (Silber) einen technologischen Höhepunkt. Georgius Agricola, der Vater der Mineralogie, wirkte in diesem Umfeld (Chemnitz/Joachimsthal). Die Sachsen entwickelten revolutionäre Methoden:
-
-* **Die Kunstgezeuge:** Komplexe Pumpensysteme (Wasserkünste), mit denen man Grubenwasser aus großen Tiefen heben konnte.
-* **Markscheidekunst:** Präzise Vermessung unter Tage.
-* **Aufbereitung:** Effizientere Methoden der Erz- und Salztrennung.
-
-Im Gegensatz dazu stagnierte der alpine Bergbau teilweise mit veralteten Methoden. Die Habsburger Verwaltung, die ständig unter Finanzdruck stand, erkannte die Notwendigkeit der Modernisierung. Das Salzamt warb gezielt „Kunstmeister" aus Sachsen an. Diese Experten brachten nicht nur ihre Werkzeuge mit, sondern ihre gesamte Lebensweise.
-
-### 3.2. Kulturimport: Tracht und Sprache
-
-Ein oft übersehener Aspekt dieser Einwanderung ist die kulturelle Prägung durch die Bergleute. Die Forschung deutet darauf hin, dass die sächsische Tradition die Bergmannskultur im Salzkammergut entscheidend prägte.
-
-* **Die Farbe Schwarz:** Während in älteren alpinen Traditionen (z.B. Berchtesgaden) weiße Arbeitskleidung vorherrschte, setzte sich im sächsischen Revier und später im Salzkammergut (Ischl, Hallstatt) die schwarze Paradeuniform durch. Diese Symbolik – Schwarz für die Dunkelheit des Stollens und die Trauer um verunglückte Kameraden – ist ein direkter Import aus den sächsischen Knappschaften.
-* **Sozialstruktur:** Die Einführung von „Bruderladen" (Sozialkassen) im Salzkammergut folgt dem Vorbild der sächsischen Büchsenkassen. Es ist anzunehmen, dass Familien wie die Pilz, die aus dieser Tradition kamen, diese sozialen Innovationen mitbrachten.
+**Was die Erstfassung falsch darstellte:** Der frühere Text nannte „Jobst Piltz (\*ca. 1539, Dörnthal)" als Stammvater und verknüpfte die Linie direkt mit dem Salzkammergut. Das war doppelt fehlerhaft. Erstens ist der Stammvater **Joseph PÜLTZ**, nicht Jobst Bueltz (eine andere Person). Zweitens führt die belegte Route Dörnthal → Kallich → Mühlviertel, also rund 150 km am Salzkammergut vorbei.
 
 ---
 
-## 4. Karl Pilz: Der Chronist des inneren Salzkammergutes
+## Was die beiden Ströme verbindet — und was nicht
 
-Die Verbindung zwischen dem Namen, der Region und der Geschichte wurde im 20. Jahrhundert durch eine wichtige Person verkörpert: Karl Pilz. Seine Rolle als Heimatforscher ist für das Verständnis der Pilz-Geschichte zentral, denn er trug nicht nur den Namen, sondern rekonstruierte die Geschichte aktiv.
+| | Salzkammergut-Pilz | Mühlviertel-Pilz |
+|---|---|---|
+| **Zeitraum** | 16./17. Jahrhundert | 18./19. Jahrhundert |
+| **Herkunft** | Erzgebirge (genauer Ort unbekannt) | Dörnthal / Niederneuschönberg |
+| **Motiv** | Gezielte Anwerbung als Fachkräfte | Wirtschaftliche Not, Abwanderung |
+| **Route** | Sachsen → (Böhmen?) → Salzkammergut | Sachsen → Kallich (Böhmen) → Mühlviertel |
+| **Religion** | Lutheraner → Geheimprotestanten | Nicht belegt |
+| **Beleglage** | Plausibel, keine Stammreihe | Stammreihe über 10 Generationen gesichert |
 
-### 4.1. Leben und Wirken
-
-Karl Pilz war langjähriger Kurdirektor von Bad Goisern und ein produktiver Kulturjournalist. In einer Zeit, in der „Heimatforschung" oft als Hobby betrieben wurde, zeichnete sich Pilz durch eine methodische Herangehensweise und eine enge Zusammenarbeit mit akademischen Institutionen aus (Landesmuseum Oberösterreich, Naturkundliche Station Linz).
-
-Sein Einfluss auf das kulturelle Gedächtnis der Region zeigt sich auf mehreren Ebenen:
-
-* **Publizistik:** Seine regelmäßigen Beiträge in der „Goiserer Kurzeitung" (z.B. Juli 1984) und den „Oberösterreichischen Heimatblättern" machten komplexe historische Vorgänge, insbesondere die Zwangsaussiedlung, einem breiteren Publikum zugänglich.
-* **Museumswesen:** Er war maßgeblich an der Konzeption und Pflege der Museen im Goiserer Tal beteiligt (Heimat- und Landlermuseum). Unter seiner Leitung (erwähnt 1973/74) wurden wichtige Entscheidungen zur Erhaltung bäuerlicher und bergmännischer Architektur getroffen, wie etwa die Diskussion um den Standort der Holzknechthütte.
-
-### 4.2. Die „Karl-Pilz-Halle": Eine Ehrung
-
-Die tiefe Verbundenheit von Karl Pilz mit der Geographie des Salzkammergutes wird durch die Benennung der Karl-Pilz-Halle in der Hirlatzhöhle deutlich. Die Hirlatzhöhle bei Hallstatt ist eines der größten Höhlensysteme der Alpen. Dass ein bedeutender Teil dieses unterirdischen Labyrinths nach ihm benannt wurde, würdigt seine Verdienste um die Erforschung der Region.
-
-Diese Ehrung ist auch symbolisch bedeutsam: Die Höhlen des Dachsteins (wie die „Verborgene Höhle" oder „Schwarzmooskogel-Eishöhle") waren historische Zufluchtsorte der Geheimprotestanten. Dass ein Forscher, der die Geschichte dieser Protestanten dokumentierte, hier verewigt ist, schließt einen historischen Kreis.
-
-### 4.3. Karl Pilz und die Forschung zur Zwangsaussiedlung
-
-Karl Pilz legte einen besonderen Schwerpunkt auf das Jahr 1734. In seinen Schriften analysierte er die demographischen Auswirkungen der Zwangsaussiedlung. Er stellte fest, dass die Vertreibung zwar kurzfristig die Bevölkerung dezimierte, aber langfristig zu einer ideellen Stärkung der verbliebenen Protestanten führte.
-
-Er betonte, dass ein beträchtlicher Teil der deutschsprachigen Bevölkerung in Siebenbürgen (die Landler) aus dem Salzkammergut stammte und dort wesentlich zur Gründung neuer evangelischer Gemeinden beitrug. Gleichzeitig hob er die Widerstandskraft derer hervor, die blieben – zu denen auch seine eigenen Vorfahren zählten. Für Karl Pilz war der Name „Pilz" in Goisern ein Beweis für das Überleben und die Anpassungsfähigkeit der sächsischen Einwandererfamilien.
+Ob beide Linien weit oben (16. Jh.) eine gemeinsame Wurzel in der Dörnthal-Zöblitzer Region teilen, ist ❓ **hypothetisch** — denkbar, aber ohne Primärquellenbeleg.
 
 ---
 
-## 5. Die religiöse Dimension: Geheimprotestantismus und Zwangsaussiedlung
+## Das Dreieck der Pilz-Wanderungen
 
-Die Geschichte des Namens Pilz ist eng mit der Religionsgeschichte verbunden. Die sächsischen Bergleute des 16. Jahrhunderts kamen aus dem Kernland der Reformation. Sie waren Lutheraner. Als sie ins katholische Salzkammergut kamen, brachten sie ihre Bibeln und Gesangbücher mit.
+Im Erzgebirge des 16.–18. Jahrhunderts lassen sich mindestens **drei** getrennte Pilz/Bilz-Linien fassen:
 
-### 5.1. Der Widerstand gegen die Gegenreformation
+**1. Die Dörnthal-Linie** (Joseph PÜLTZ, ab ca. 1574 belegt) → führt über Carl Gottlob nach Böhmen und ins Mühlviertel. Das ist unsere Linie.
 
-Trotz der strengen Gegenreformation hielt sich der Protestantismus im Salzkammergut hartnäckig. Dies wird oft auf die geschlossene Sozialstruktur der Bergleute und Holzknechte zurückgeführt. In den tiefen Wäldern und Stollen entzog man sich der Kontrolle der Priester.
+**2. Die Pobershau-Linie** (Christoph Pülz, \*1547, zog ca. 1565 nach Pobershau) → dort Erbrichter-Familie → Teilzweig zieht nach Oberneuschönberg/Oberseiffenbach → Nachkommen tragen den Namen **Bilz** (durch den erzgebirgischen B/P-Wechsel). Gut dokumentiert in der [Chronik der Spielzeugmacher-Familie Bilz](https://www.seiffener-weihnachtsland.de/chronik/karl_heinz_bilz).
 
-Familien wie die Pilz lebten über Generationen als „Kryptoprotestanten". Nach außen hin katholisch (Taufe, Eheschließung in der katholischen Kirche), praktizierten sie zu Hause den lutherischen Glauben. Sächsische Einwanderer spielten dabei eine wichtige Rolle als „Vermittler" reformatorischen Gedankengutes. Ihre Verbindung zu den alten Heimatgebieten (Sachsen/Böhmen) ermöglichte den Schmuggel von religiöser Literatur.
+**3. Die Salzkammergut-Linie(n)** — sächsische Bergleute und Forstleute, die im 16./17. Jahrhundert ins Salzkammergut kamen. Herkunftsorte im Einzelnen unbekannt.
 
-### 5.2. Das Trauma von 1734: Die Zwangsaussiedlung
-
-Im Jahr 1734 eskalierte die Situation. Der Salzamtmann Graf Seeau und Kaiser Karl VI. initiierten die Transmigration.
-
-* **Der Ablauf:** Rund 4.000 Protestanten wurden aus dem Salzkammergut ausgewiesen. Sie wurden auf Zillen (Plätten) die Traun und Donau hinab transportiert und in Siebenbürgen (damals am Rande des Habsburgerreiches, heute Rumänien) angesiedelt.
-* **Die Pilz-Verbindung:** Obwohl die vorliegenden Listen den Namen Pilz nicht als den häufigsten Namen unter den Vertriebenen führen (im Gegensatz zu Namen wie Engel, Leitner, Reisenauer), ist die Betroffenheit einzelner Zweige der Familie historisch belegt. Es war oft Zufall oder die Unentbehrlichkeit als Fachkraft, die entschied, wer gehen musste und wer bleiben durfte.
-* **Selektive Deportation:** Die Behörden standen vor einem Dilemma. Sie wollten die „Ketzer" loswerden, aber sie brauchten die Facharbeiter für den Salzbergbau. Viele hochspezialisierte Familien (oft sächsischer Herkunft) wurden daher „übersehen" oder konnten sich durch scheinbare Konversion schützen. Dies erklärt, warum der Name Pilz in Bad Goisern erhalten blieb, während andere Familien fast vollständig verschwanden.
-
-### 5.3. Die Landler in Siebenbürgen
-
-Die deportierten Salzkammergutler bildeten in Siebenbürgen (Neppendorf, Großau, Großpold) eine eigene ethnische Gruppe, die „Landler". Sie bewahrten ihren Dialekt (das alte Salzkammergut-Bairisch), ihre Tracht und ihre Namen.
-
-Forschungen, auf die sich auch Karl Pilz bezog, zeigen, dass die Sterblichkeit unter den Vertriebenen anfangs hoch war, aber die hohe Kinderzahl das Überleben der Gruppe sicherte. Die Ironie der Geschichte: Die Pilz-Vorfahren wanderten einst aus dem sächsischen Erzgebirge nach Österreich aus, und ihre entfernten Verwandten oder Nachbarn wurden Jahrhunderte später in ein Gebiet deportiert, das von „Siebenbürger Sachsen" dominiert war.
+Allein im Gerichtsbuch AG Zöblitz Nr. 67 (1768–1775) finden sich mindestens sechs verschiedene Pilz/Biltz-Haushalte in Pobershau, Zöblitz, Niederlauterstein und an der Saigerhütte Grünthal. Namensgleichheit ist in dieser Region kein Verwandtschaftsbeweis.
 
 ---
 
-## 6. Die soziale und wirtschaftliche Stellung der Familie Pilz
+## Die Transmigration 1734
 
-Die Analyse lokaler Quellen (Ortsfamilienbücher, Vereinschroniken) ermöglicht eine Rekonstruktion der sozialen Stellung der Familie Pilz im Salzkammergut.
+Ein historisch gesichertes Ereignis, das die Salzkammergut-Pilz betroffen haben muss, ist die Zwangsaussiedlung von 1734. Kaiser Karl VI. ließ rund 4.000 Protestanten aus dem Salzkammergut nach Siebenbürgen deportieren (die späteren „Landler" in Neppendorf, Großau, Großpold).
 
-### 6.1. Im Dienst des Salzes: Bergleute und Salinenarbeiter
+Ob Familien namens Pilz unter den Deportierten waren, ist aus den bekannten Listen nicht eindeutig belegt. Dass der Name in Bad Goisern bis heute häufig ist, deutet darauf hin, dass zumindest ein Teil der Pilz-Familien die Deportation überstand — sei es durch Unentbehrlichkeit als Fachkräfte, durch Scheinkonversion oder schlicht durch Zufall.
 
-Die Pilz waren keine klassischen Bauern, sondern Arbeiterbauern oder reine Industriearbeiter.
-
-* **Hans Pilz:** Ein bekanntes Beispiel aus dem 20. Jahrhundert ist der Bergführer Hans Pilz, der Expeditionen in den Hindukusch leitete. Dies zeigt die Kontinuität der alpinen Kompetenz.
-* **Franz Pilz:** Ein Landwirt in Reitern (Goisern), dessen Nachlass 1982/83 dem Heimatmuseum übergeben wurde. Dies belegt, dass Zweige der Familie sesshaft wurden und Landwirtschaft betrieben – oft als Nebenerwerb zur Arbeit im Forst oder Bergwerk („Sacherl").
-* **Johann Pilz:** In den genealogischen Datenbanken taucht ein Johann Pilz (1744–1792) auf. Seine Lebensdaten fallen in die Zeit kurz nach der Zwangsaussiedlung. Dass er in Goisern blieb und starb, bestätigt die These, dass ein Stamm der Familie die Deportationen überstand.
-
-### 6.2. Sozialer Aufstieg und Anpassung
-
-Die Familie Pilz zeigt eine bemerkenswerte soziale Beweglichkeit. Von den sächsischen Wurzeln im 16. Jahrhundert über den Status als Facharbeiter im Salzbergbau bis hin zu bürgerlichen Positionen im 19. und 20. Jahrhundert (Kurdirektor Karl Pilz).
-
-Der Name Pilz ist im Salzkammergut nicht nur ein Name, er steht für „Eingesessensein", obwohl er ursprünglich fremd war. Dies ist typisch für Bergbauregionen: Der Fremde (der Sachse) wird durch seine technische Kompetenz zum festen Bestandteil der lokalen Elite.
+Karl Pilz selbst sah sich als Nachkomme jener, die blieben.
 
 ---
 
-## 7. Übersicht: Migrationsphasen und Namensentwicklung
+## Was bleibt
 
-Um die komplexen Bewegungen zu veranschaulichen, hier eine schematische Darstellung:
+Die Häufung des Namens Pilz in Österreich lässt sich am besten durch **mehrere, voneinander unabhängige Migrationswellen** aus dem Erzgebirge erklären — nicht durch eine einzige Familie, die sich über ganz Österreich verbreitet hat. Das Erzgebirge war der gemeinsame Ausgangspunkt, aber die Wege trennten sich früh.
 
-| Zeitperiode | Ereignis / Prozess | Rolle der Familie Pilz / Namensentwicklung | Geographischer Fokus |
-|---|---|---|---|
-| **1530–1600** | Blüte des sächsischen Bergbaus; Technologietransfer | **Ur-Migration:** Jobst Piltz (Dörnthal) und Nachkommen wandern als Fachkräfte (Förster/Bergleute) ab. | Sachsen → Böhmen → Oberösterreich |
-| **1600–1730** | Festigung im Salzkammergut; Geheimprotestantismus | **Etablierung:** Der Name (Piltz/Pilz) setzt sich in Goisern/Hallstatt fest. Integration in den Salinenbetrieb; Bewahrung des lutherischen Glaubens im Verborgenen. | Hallstatt, Bad Goisern, Gosau |
-| **1734–1737** | Transmigration: Zwangsaussiedlung durch Karl VI. | **Spaltung:** Teile der protestantischen Bevölkerung werden deportiert (Landler). Andere Pilz-Zweige bleiben (als Unentbehrliche oder Schein-Katholiken). | Salzkammergut → Siebenbürgen (Hermannstadt) |
-| **1781** | Toleranzpatent Josephs II. | **Bekenntnis:** Hunderte Familien in Goisern bekennen sich zum evangelischen Glauben. Die Familie Pilz wird Teil der offiziellen evangelischen Gemeinde. | Bad Goisern |
-| **19. Jh.** | Industrialisierung; Fremdenverkehr | **Aufstieg:** Wandel von reinen Arbeitern zu Bürgern, Landwirten und Dienstleistern (Tourismus). | Bad Ischl, Bad Goisern |
-| **20. Jh.** | Historische Aufarbeitung | **Reflexion:** Karl Pilz (Kurdirektor) erforscht und veröffentlicht die Geschichte seiner Heimat und seines Namens. | Bad Goisern (Museum, Publizistik) |
+Für unsere eigene Familienforschung bedeutet das: Die Salzkammergut-Pilz sind faszinierend und die Arbeit von Karl Pilz verdient Respekt, aber eine direkte Verbindung zu unserer Dörnthal-Linie ist **nicht nachgewiesen**. Die Suche nach den eigenen Wurzeln führt nicht nach Hallstatt, sondern nach Kallich, Niederneuschönberg und Dörnthal.
 
 ---
 
-## 8. Die wissenschaftliche Einordnung
-
-Die von Karl Pilz und anderen Heimatforschern (wie Michael Kurz oder Siegfried Pramesberger) vertretene Theorie der sächsischen Herkunft ist wissenschaftlich gut begründet. Sie stützt sich auf das Zusammentreffen von drei Faktoren:
-
-1.  **Namensforschung:** Der Name ist im Zielgebiet (Salzkammergut) häufig, im Umland selten, aber im Herkunftsgebiet (Sachsen) sehr häufig.
-2.  **Technologiegeschichte:** Der massive Import sächsischer Bergbautechnologie ist historisch belegt. Es ist unwahrscheinlich, dass diese Technologie ohne die dazugehörigen Menschen kam.
-3.  **Konfessionssoziologie:** Der Zusammenhang zwischen sächsischer Herkunft und protestantischem Widerstand ist im gesamten Alpenraum (z.B. auch bei den Zillertaler Inklinanten oder Defereggern) ein wiederkehrendes Muster.
-
-Die Forschungen von Karl Pilz haben gezeigt, dass die Identität des Salzkammergutes gemischt ist. Sie ist bayerisch-österreichisch in der Sprache, aber sächsisch-protestantisch in der Mentalität und Arbeitsethik. Der Name Pilz ist der lebende Beweis für diese Mischung.
-
-## 9. Fazit
-
-Die Untersuchung der Herkunft des Namens Pilz im Salzkammergut führt zu einem klaren Ergebnis: Es handelt sich um einen Migrationsnamen, der im Zuge des sächsischen Technologietransfers im 16. und 17. Jahrhundert in die Region kam. Die Träger des Namens waren Pioniere des modernen Bergbaus und des Forstwesens, die vom Salzamt gezielt angeworben wurden, um die Produktivität der Salinen zu sichern.
-
-Karl Pilz, der Goiserer Heimatforscher, hat durch seine Lebensarbeit nicht nur die Fakten dieser Geschichte zusammengetragen, sondern auch deren emotionale und kulturelle Dimension erschlossen. Seine Auseinandersetzung mit der Zwangsaussiedlung zeigt, wie eng der Name Pilz mit dem Schicksal des Protestantismus in Österreich verknüpft ist. Ob als „Landler" in Siebenbürgen oder als „Geheimprotestant" in Goisern – die Familie Pilz steht für den Typus des widerstandsfähigen, qualifizierten Arbeiters, der sich weder durch schwierige Arbeitsbedingungen noch durch obrigkeitlichen Druck brechen ließ.
-
-Die „Sachsen" im Salzkammergut sind keine Legende. Sie sind in den Kirchenbüchern, in den technischen Denkmälern (Soleleitungen, Stollen) und vor allem in den Namen der Menschen, die heute dort leben, präsent. Der Name Pilz ist eines der dauerhaftesten Zeugnisse dieser sächsischen Einwanderung.
-
-***
-
-> **Anmerkung zur Quellenlage:**
-> Diese Ausarbeitung basiert auf der Analyse historischer Dokumente, genealogischer Datenbanken und der Publikationen des Heimatvereins Bad Goisern sowie des OÖ. Musealvereins. Besonderes Augenmerk wurde auf die Übereinstimmung der lokalen mündlichen Überlieferung (repräsentiert durch Karl Pilz) mit den größeren historischen Daten der Bergbaugeschichte gelegt. Alle spezifischen Angaben sind durch die entsprechenden Quellen verifiziert.
+> **Versionsgeschichte:**
+>
+> *Dezember 2025* — Erstfassung, KI-generiert (Claude/Anthropic) auf Basis von Familienforschungsdaten und dem mündlichen Hinweis eines Familienmitglieds auf den Heimatforscher Karl Pilz (Bad Goisern). Diese Version verknüpfte die eigene Familienlinie fälschlich mit dem Salzkammergut und nannte „Jobst Piltz" statt Joseph PÜLTZ als Stammvater.
+>
+> *März 2026* — Grundlegende Überarbeitung nach Auswertung der Gerichtsbücher AG Sayda und AG Zöblitz. Trennung der Salzkammergut-These von der eigenen (Mühlviertel-)Linie. Korrektur Stammvater. KI-generiert (Claude/Anthropic) auf Basis aktualisierter Forschungsdaten von Wolfgang Pilz.

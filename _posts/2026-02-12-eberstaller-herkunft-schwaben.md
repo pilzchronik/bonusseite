@@ -10,6 +10,7 @@ excerpt: >-
   Eine Wiener Publikation von 1902 verortet die Herkunft der Eberstaller
   im schwäbischen Kreis Burgau. Doch ein Blick auf die Landkarte zeigt --
   es gibt einen viel näherliegenden Kandidaten, im wörtlichen Sinn.
+published: false
 ---
 
 <style>

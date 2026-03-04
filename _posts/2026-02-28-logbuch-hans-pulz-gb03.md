@@ -8,6 +8,7 @@ excerpt: >
   Gerichtsbuch Bd. 03 (1622–1701) belegt Hans Pulz, Sohn des Joseph,
   als aktiven Grundbesitzer und Rechtsperson in Dörnthal 1621–1635.
   Wichtigster Fund: seine Ehefrau Maria, geborene Drechsel.
+published: false
 ---
 
 Gerichtsbuch Bd. 03 (AG Sayda Nr. 021, 1622–1701) belegt **Hans Pulz**,

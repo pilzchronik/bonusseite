@@ -8,6 +8,7 @@ excerpt: >
   Doppelkatastrophe aus Hungersnot und Hochwasser erklärt den sozialen
   Abstieg des Kupferhammerschmieds Carl Gottlob Biltz. Abwanderung nach
   Böhmen 1772. Archivrecherche im Bergarchiv Freiberg steht aus.
+published: false
 ---
 
 **Carl Gottlob Biltz** war Kupferhammerschmied in der Saigerhütte Grünthal

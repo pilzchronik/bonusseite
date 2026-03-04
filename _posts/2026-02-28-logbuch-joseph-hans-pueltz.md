@@ -8,6 +8,7 @@ excerpt: >
   GB Bd. 02 und Bd. 03 klären den Familienverband Joseph Pültz vollständig.
   Neuf Kinder belegt, Ehefrau Sybiltha identifiziert, Hans' Frau Maria
   Drechsel gesichert. Abrahams Mutter bleibt offen.
+published: false
 ---
 
 Auswertung von GB AG Sayda Nr. 020 (Bd. 02) und Nr. 021 (Bd. 03) klärt

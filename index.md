@@ -4,7 +4,6 @@ title: Startseite
 ---
 
 <style>
-  /* Intro-Bereich */
   .intro-section {
     text-align: center;
     margin-bottom: 50px;
@@ -21,100 +20,178 @@ title: Startseite
     margin-bottom: 15px;
   }
 
-  .intro-links a {
-    color: #2a5d8f;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 0.95em;
+  .intro-section p {
+    font-size: 1.1em;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
   }
-  .intro-links a:hover { text-decoration: underline; }
 
-  /* Grid für die Navigation (2x2) */
+  /* Drei Hauptknöpfe oben */
+  .primary-actions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  .action-card {
+    display: flex;
+    flex-direction: column;
+    padding: 28px 24px;
+    border-radius: 6px;
+    text-decoration: none !important;
+    color: inherit;
+    transition: box-shadow 0.15s;
+  }
+
+  .action-card:hover {
+    box-shadow: 0 4px 14px rgba(0,0,0,0.10);
+    text-decoration: none !important;
+  }
+
+  .action-card.korrekturen {
+    background-color: #fff5f5;
+    border: 1px solid #e8b4b4;
+  }
+
+  .action-card.neues {
+    background-color: #f0f7ff;
+    border: 1px solid #a8c8e8;
+  }
+
+  .action-card.ergaenzungen {
+    background-color: #f4f9f1;
+    border: 1px solid #a8cfa0;
+  }
+
+  .action-card .label {
+    font-size: 0.72em;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .action-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.25em;
+    color: #222;
+  }
+
+  .action-card p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.55;
+  }
+
+  /* Sekundäre Navigation */
   .nav-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    margin-bottom: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    margin-bottom: 50px;
   }
 
-  /* Die Kacheln */
   .nav-card {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 24px;
     border: 1px solid #dee2e6;
     border-radius: 6px;
     text-decoration: none !important;
     background: white;
-    height: 100%;
   }
 
   .nav-card:hover {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.07);
     border-color: #2a5d8f;
   }
 
   .eyebrow {
-    font-size: 0.75em;
+    font-size: 0.72em;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #888;
+    color: #999;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     display: block;
   }
 
   .nav-card h3 {
     margin-top: 0;
     color: #2a5d8f;
-    font-size: 1.4em;
-    margin-bottom: 15px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
   }
 
   .nav-card p {
-    color: #555;
-    line-height: 1.6;
+    color: #666;
+    line-height: 1.55;
     margin-bottom: 0;
+    font-size: 0.9em;
   }
 </style>
 
 <div class="intro-section">
-  <h1>Digitale Ergänzungen</h1>
-  <p style="font-size: 1.15em; color: #555; max-width: 750px; margin: 0 auto 20px auto; line-height: 1.6;">
-    Diese Webseite ergänzt die gedruckte Familienchronik (Band 1 & 2).<br>
-    Sie dokumentiert Karten, Datensätze, Korrekturen und neue Erkenntnisse seit der ersten Drucklegung.
+  <h1>Digitale Ergänzungen zur Pilz-Chronik</h1>
+  <p>
+    Sie haben Band 1 oder Band 2 der Pilz-Chronik in Händen und suchen nach Korrekturen, 
+    neuen Erkenntnissen oder digitalem Zusatzmaterial? Hier finden Sie alles, 
+    was seit der Drucklegung dazugekommen ist.
   </p>
-  <div class="intro-links">
-    <a href="{{ '/zeitleiste/' | relative_url }}">Zur historischen Zeitleiste</a>
-  </div>
 </div>
 
+<div class="primary-actions">
+
+  <a href="{{ '/2099/01/01/druckfehler-korrekturen/' | relative_url }}" class="action-card korrekturen">
+    <span class="label">Druckfehler &amp; Berichtigungen</span>
+    <h3>Korrekturen</h3>
+    <p>Was im gedruckten Buch falsch steht – und wie es richtig lautet.</p>
+  </a>
+
+  <a href="{{ '/werkstatt/' | relative_url }}" class="action-card neues">
+    <span class="label">Seit Drucklegung</span>
+    <h3>Neue Funde</h3>
+    <p>Archivfunde und Erkenntnisse, die nach Abschluss des Manuskripts hinzugekommen sind.</p>
+  </a>
+
+  <a href="{{ '/orte/' | relative_url }}" class="action-card ergaenzungen">
+    <span class="label">Digitales Mehr</span>
+    <h3>Karte &amp; Stammbaum</h3>
+    <p>Was das gedruckte Buch nicht kann: interaktive Karten, Zeitleiste, Stammbaum-Archiv.</p>
+  </a>
+
+</div>
 
 <div class="nav-grid">
 
-  <a href="orte/" class="nav-card">
-    <span class="eyebrow">GEOGRAFIE</span>
-    <h3>Geografie & Wanderung</h3>
-    <p>Vom Erzgebirge nach Tirol: Folgen Sie den Spuren der Familie auf der interaktiven Karte der Lebensstationen. Räumliche und genetische Herkunft im Überblick.</p>
+  <a href="{{ '/zeitleiste/' | relative_url }}" class="nav-card">
+    <span class="eyebrow">CHRONOLOGIE</span>
+    <h3>Historische Zeitleiste</h3>
+    <p>500 Jahre Familiengeschichte im Zeitstrahl – von Dörnthal bis Innsbruck.</p>
   </a>
 
-  <a href="quellen/" class="nav-card">
-    <span class="eyebrow">DOKUMENTATION</span>
-    <h3>Quellen & Archive</h3>
-    <p>Verzeichnis der tschechischen und österreichischen Archive, genealogischen Datenbanken und digitalen Belege zur Pilz-Chronik.</p>
-  </a>
-
-  <a href="werkstatt/" class="nav-card">
-    <span class="eyebrow">AKTUELLES</span>
-    <h3>Aktuelles seit Drucklegung</h3>
-    <p>Neue Archivfunde, Ergänzungen und Druckfehler-Korrekturen zu Band 1 & 2. Filtern Sie nach Thema: Korrekturen, Neue Funde, Ergänzungen oder Hintergrund.</p>
-  </a>
-
-  <a href="stammbaum/" class="nav-card">
+  <a href="{{ '/stammbaum/' | relative_url }}" class="nav-card">
     <span class="eyebrow">GENEALOGIE</span>
     <h3>Stammbaum & Archiv</h3>
-    <p>Direkter Zugriff zum interaktiven MacFamilyTree-Archiv mit allen Personenblättern, Ahnentafeln und Querverweisen.</p>
+    <p>Direkter Zugriff auf das MacFamilyTree-Archiv mit Personenblättern und Ahnentafeln.</p>
+  </a>
+
+  <a href="{{ '/quellen/' | relative_url }}" class="nav-card">
+    <span class="eyebrow">DOKUMENTATION</span>
+    <h3>Quellen & Archive</h3>
+    <p>Verzeichnis der Archive, Datenbanken und digitalen Belege zur Pilz-Chronik.</p>
+  </a>
+
+  <a href="{{ '/dna-analyse/' | relative_url }}" class="nav-card">
+    <span class="eyebrow">GENETIK</span>
+    <h3>DNA-Analyse</h3>
+    <p>Haplogruppen, Verwandtschaftskreise und was die Genetik über die Familienherkunft sagt.</p>
   </a>
 
 </div>

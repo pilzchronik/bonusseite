@@ -5,6 +5,7 @@ date: 2026-02-10
 tags: [Ergänzungen]
 categories: [Ergänzungen]
 excerpt: "Unsere Mutter war eine Eberstaller, doch die Familie ihres früh verstorbenen Vaters war uns fremd. Erst die Ahnenforschung brachte überraschende Verbindungen ans Licht – von reichen Eisenhändlern über Schuberts letzte Freundin bis zu einem NS-Juristen, der in Brasilien als Fußballpräsident bekannt war."
+published: false
 ---
 <style>
   .status-box {

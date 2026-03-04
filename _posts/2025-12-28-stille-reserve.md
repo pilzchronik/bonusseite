@@ -5,6 +5,7 @@ date: 2025-12-28
 tags: [Hintergrund]
 categories: [Hinter den Kulissen]
 description: "Ein Blick in die digitale Werkstatt: Warum die Datenbank mehr enthält, als das gedruckte Buch zeigt."
+published: false
 ---
 
 Wer tief in meinen digitalen Ahnendaten gräbt, stößt plötzlich auf Namen, die in der gedruckten Chronik fehlen: **Anna von Schweidnitz** oder sogar **Kaiser Karl IV.**
