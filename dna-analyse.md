@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern"
-permalink: /dna-analyse.html
+permalink: /dna-analyse/
 ---
 
 <style>

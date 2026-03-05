@@ -3,7 +3,7 @@ layout: post
 title: "Sybiltha — Josephs erste Frau, Mutter der älteren Geschwister Abrahams"
 date: 2026-03-01
 tags: [Neue Funde, Hintergrund]
-permalink: /sybiltha-josephs-frau.html
+permalink: /sybiltha-josephs-frau/
 excerpt: >
   GB AG Sayda Nr. 020, S. 201 (02.02.1617): Joseph Pültz erscheint vor Gericht
   wegen seiner verstorbenen Frau Sybiltha. Ihre Lesungen wurden von einer

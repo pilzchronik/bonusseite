@@ -150,7 +150,7 @@ title: Startseite
 
 <div class="primary-actions">
 
-  <a href="{{ '/2099/01/01/druckfehler-korrekturen/' | relative_url }}" class="action-card korrekturen">
+  <a href="{{ '/korrekturen/' | relative_url }}" class="action-card korrekturen">
     <span class="label">Druckfehler &amp; Berichtigungen</span>
     <h3>Korrekturen</h3>
     <p>Was im gedruckten Buch falsch steht – und wie es richtig lautet.</p>

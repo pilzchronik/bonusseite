@@ -2,6 +2,7 @@
 layout: post
 title: "Korrekturen & Ergänzungen zur Pilz-Chronik (Band 1 & 2)"
 date: 2099-01-01
+permalink: /korrekturen/
 tags: [Korrekturen]
 excerpt: "Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte."
 pinned: true
@@ -64,7 +65,7 @@ stand_vom: 2099-01-01
   <h3>Band 1, S. 74–75 — Vater von Abraham Pilz (Kekulé 4.096)</h3>
   <p>Gedruckt: Jobst Pilz sei Abrahams Vater gewesen.</p>
   <p><strong>Korrektur:</strong> Der Vater ist <strong>Joseph Pültz der Familienvater</strong> (ca. 1555–1650), belegt durch das Gerichtsbuch AG Sayda Nr. 020, Blatt 772 (1620). Jobst und Joseph wurden in Sekundärquellen irrtümlich gleichgesetzt.
-  → <a href="{{ '/jobst-joseph-verwechslung.html' | relative_url }}">Näheres dazu</a></p>
+  → <a href="{{ '/jobst-joseph-verwechslung/' | relative_url }}">Näheres dazu</a></p>
 </div>
 
 <div class="errata-eintrag errata-eintrag--erkenntnis">

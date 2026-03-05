@@ -3,7 +3,7 @@ layout: post
 title: "Joseph Pültz und seine Kinder: Familienverband aus Gerichtsbüchern rekonstruiert"
 date: 2026-02-28
 tags: [Neue Funde, Hintergrund]
-permalink: /joseph-pueltz-familienverband.html
+permalink: /joseph-pueltz-familienverband/
 excerpt: >
   Gerichtsbücher AG Sayda Bd. 02 und Bd. 03 belegen den Familienverband
   um Joseph Pültz vollständig: sieben namentlich gesicherte Kinder,
@@ -107,7 +107,7 @@ Am 2. Februar 1617 erscheint Joseph wegen seiner verstorbenen Frau
 mit der Familie Zimmermann verwandt, und starb wahrscheinlich um 1588/89.
 **Abraham (1591)** ist das Kind der zweiten, unbekannten Frau (∞ 08.05.1589).
 
-→ Ausführlich: [Sybiltha — Josephs erste Frau]({{ '/sybiltha-josephs-frau.html' | relative_url }})
+→ Ausführlich: [Sybiltha — Josephs erste Frau]({{ '/sybiltha-josephs-frau/' | relative_url }})
 
 ---
 
