@@ -1,16 +1,13 @@
 ---
-
-​---
 layout: post
 title: "Die Pültz in den Gerichtsbüchern von Dörnthal – ein Zwischenbericht"
 date: 2026-02-13
 categories: [werkstatt, Sachsen, Pültz]
 tags: [Neue Funde, Ergänzungen]
 excerpt: "Was die systematische Auswertung von drei Gerichtsbüchern (1550–1701) über die Familie Pilz/Pültz in Dörnthal ergeben hat – und warum jetzt eine Reise nach Dresden ansteht."
+---
 
-​---
-
-Seit dem [Archivfund vom Jänner](/bonusseite/werkstatt/sachsen/pültz/2026/01/05/archivfund-doernthal.html) hat sich einiges getan. Drei KI-gestützte Suchdurchläufe durch die digitalisierten Gerichtsbücher von Dörnthal haben das Bild der Familie Pültz im 16. und 17. Jahrhundert erheblich verdichtet. Hier der Zwischenstand.
+Seit dem [Archivfund vom Jänner]({{ '/werkstatt/sachsen/pültz/2026/01/05/archivfund-doernthal.html' | relative_url }}) hat sich einiges getan. Drei KI-gestützte Suchdurchläufe durch die digitalisierten Gerichtsbücher von Dörnthal haben das Bild der Familie Pültz im 16. und 17. Jahrhundert erheblich verdichtet. Hier der Zwischenstand.
 
 ### Die Quellen
 

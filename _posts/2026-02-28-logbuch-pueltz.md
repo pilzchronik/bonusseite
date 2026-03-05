@@ -9,6 +9,8 @@ excerpt: >
   den Familienverband um Joseph Pültz. Sieben Kinder belegt, darunter
   zwei taubstumme. Ein Sohn für verschollen erklärt. Archivreise 2026 geplant.
 published: false
+status: prüfen
+stand_vom: 2026-02-28
 ---
 
 Originalseiten des Gerichtshandelsbuchs Dörnthal (GB AG Sayda Nr. 020,

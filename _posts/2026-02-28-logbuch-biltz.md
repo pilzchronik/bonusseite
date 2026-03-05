@@ -9,6 +9,8 @@ excerpt: >
   Abstieg des Kupferhammerschmieds Carl Gottlob Biltz. Abwanderung nach
   Böhmen 1772. Archivrecherche im Bergarchiv Freiberg steht aus.
 published: false
+status: prüfen
+stand_vom: 2026-02-28
 ---
 
 **Carl Gottlob Biltz** war Kupferhammerschmied in der Saigerhütte Grünthal

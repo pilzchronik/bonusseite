@@ -6,6 +6,8 @@ tags: [Ergänzungen]
 categories: [Ergänzungen]
 excerpt: "Wie hängt Dr. Richard Eberstaller, der spätere Vizepräsident des Landgerichts Wien und Schwager Alma Mahlers, mit unserer Familie zusammen? Die Spurensuche führt von Krenglbach über Grieskirchen und Enns bis nach Wiener Neustadt und Langenlois."
 published: false
+status: prüfen
+stand_vom: 2026-02-11
 ---
 <style>
   .status-box {

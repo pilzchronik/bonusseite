@@ -5,6 +5,8 @@ date: 2099-01-01
 tags: [Korrekturen]
 excerpt: "Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte."
 pinned: true
+status: prüfen
+stand_vom: 2099-01-01
 ---
 
 <style>

@@ -4,7 +4,13 @@ title: "Archivfund Dörnthal: Gerichtsbuch 1562"
 date: 2026-01-05
 categories: [werkstatt, Sachsen, Pültz]
 tags: [Neue Funde]
+status: integriert
+stand_vom: 2026-01-04
 ---
+
+<div class="status-box" style="background-color: #f9f9f9; border-left: 4px solid #999; padding: 15px; margin-bottom: 30px; color: #444; font-size: 0.95em;">
+  <strong>Stand geändert.</strong> Dieser Beitrag ist durch den Gesamtüberblick vom Februar 2026 überholt. Aktuelle Fassung: <a href="{{ '/doernthal-freiberg/' | relative_url }}">Die Familie Pültz/Pilz in Dörnthal und Freiberg – Gesamtstand Februar 2026</a>.
+</div>
 
 **Dokumentation eines neu erschlossenen Primärbelegs zur Familie Pilz (Pültz) im Erzgebirge.**
 
@@ -18,19 +24,22 @@ Im Sächsischen Staatsarchiv (Hauptstaatsarchiv Dresden) wurde ein Eintrag im Ge
 * **Blatt:** 160b–161 sowie S. 204
 
 ### Inhalt des Eintrags
+
 Der Eintrag datiert auf den 1. Januar 1562. Er dokumentiert eine Transaktion zwischen dem Grundherrn Caspar von Schönberg auf Purschenstein und Michael Pültzen.
 
 **Transkription (Auszug):**
-> „Item vor edeln ehrnvesten und gestrengen Herrn Caspar von Schönberg auff Borschenstein, schickt mit Michel Pültzen umb sein Gutt. [...] Absonderlich nach dem, dass Herr Michael Pültzen ein Gut für eine fünfte Not gehabt und dasselbe aufgibt und überantwortet dem Herrn Caspar von Schönberg [...]“
+> „Item vor edeln ehrnvesten und gestrengen Herrn Caspar von Schönberg auff Borschenstein, schickt mit Michel Pültzen umb sein Gutt. [...] Absonderlich nach dem, dass Herr Michael Pültzen ein Gut für eine fünfte Not gehabt und dasselbe aufgibt und überantwortet dem Herrn Caspar von Schönberg [...]"
 
-Der historische Rechtsbegriff „fünfte Not“ verweist in diesem Kontext auf ein Reservegut oder eine Veräußerung, die möglicherweise aus einer wirtschaftlichen Notwendigkeit heraus erfolgte.
+Der historische Rechtsbegriff „fünfte Not" verweist in diesem Kontext auf ein Reservegut oder eine Veräußerung, die möglicherweise aus einer wirtschaftlichen Notwendigkeit heraus erfolgte.
 
 ### Genealogische Einordnung
-Michael Pültz wird im Dokument (Kopfvermerk und S. 204) als **„geschworener Schöppe des Gerichts zu Dörnthal“** ausgewiesen.
+
+Michael Pültz wird im Dokument (Kopfvermerk und S. 204) als **„geschworener Schöppe des Gerichts zu Dörnthal"** ausgewiesen.
 
 Daraus ergeben sich folgende Erkenntnisse für die Familienchronik:
-1.  **Zeitliche Tiefe:** Die Familie Pilz (historische Schreibweise Pültz/Pülcz) ist bereits Mitte des 16. Jahrhunderts in Dörnthal urkundlich greifbar.
-2.  **Sozialer Status:** Michael Pültz übte als Gerichtsschöppe ein lokales Ehrenamt in der Rechtspflege aus.
-3.  **Anschluss:** Dieser Beleg stützt die Hypothese, dass die Vorfahren des 1591 getauften Abraham Pilz bereits im Ort verwurzelt waren.
+
+1. **Zeitliche Tiefe:** Die Familie Pilz (historische Schreibweise Pültz/Pülcz) ist bereits Mitte des 16. Jahrhunderts in Dörnthal urkundlich greifbar.
+2. **Sozialer Status:** Michael Pültz übte als Gerichtsschöppe ein lokales Ehrenamt in der Rechtspflege aus.
+3. **Anschluss:** Dieser Beleg stützt die Hypothese, dass die Vorfahren des 1591 getauften Abraham Pilz bereits im Ort verwurzelt waren.
 
 Dieser Fund gilt als das derzeit älteste gesicherte Zeugnis der Familie in Dörnthal.

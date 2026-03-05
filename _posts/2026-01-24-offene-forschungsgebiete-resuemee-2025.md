@@ -4,6 +4,8 @@ date: 2026-01-24
 tags: [Hintergrund]
 author: Wolfgang Pilz
 published: false
+status: prüfen
+stand_vom: 2026-01-24
 ---
 
 # Offene Forschungsgebiete – Resümee 2025 und Pläne 2026

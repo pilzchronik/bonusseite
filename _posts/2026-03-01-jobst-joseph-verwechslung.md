@@ -4,6 +4,8 @@ title: "Jobst und Joseph – eine folgenreiche Verwechslung"
 date: 2026-03-01
 tags: [Korrekturen, Hintergrund]
 permalink: /jobst-joseph-verwechslung.html
+status: prüfen
+stand_vom: 2026-03-01
 ---
 
 ## Wie eine Namensähnlichkeit eine ganze Ahnenreihe verschob
@@ -56,7 +58,7 @@ Die direkte Ahnenreihe lautet korrekt:
 
 Jobst Pültz (der Richter) gehört **nicht** in die direkte Ahnenreihe. Er war ein Zeitgenosse, lebte am gleichen Ort und ist für das Verständnis der Dörnthaler Sozialstruktur weiterhin interessant – aber nicht Abrahams Vater.
 
-Die korrigierten Daten sind in der MacFamilyTree-Datenbank und auf der Begleitwebsite nachgeführt. Eine Zusammenfassung der Korrekturen findet sich unter [Errata](/2026/03/01/errata-jobst-joseph).
+Die korrigierten Daten sind in der MacFamilyTree-Datenbank und auf der Begleitwebsite nachgeführt. Eine Zusammenfassung der Korrekturen findet sich unter [Errata]({{ '/2026/03/01/errata-jobst-joseph' | relative_url }}).
 
 ---
 

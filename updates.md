@@ -136,7 +136,7 @@ permalink: /updates/
     </ul>
     
     <div style="margin-top:1.5rem; text-align: right;">
-      <a href="/downloads/" class="btn-small">Alle als PDF &rarr;</a>
+      <a href="{{ '/downloads/' | relative_url }}" class="btn-small">Alle als PDF &rarr;</a>
     </div>
   </div>
 

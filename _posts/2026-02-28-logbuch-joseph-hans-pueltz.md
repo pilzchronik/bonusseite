@@ -9,6 +9,8 @@ excerpt: >
   Neuf Kinder belegt, Ehefrau Sybiltha identifiziert, Hans' Frau Maria
   Drechsel gesichert. Abrahams Mutter bleibt offen.
 published: false
+status: prüfen
+stand_vom: 2026-02-28
 ---
 
 Auswertung von GB AG Sayda Nr. 020 (Bd. 02) und Nr. 021 (Bd. 03) klärt

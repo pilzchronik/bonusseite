@@ -9,6 +9,8 @@ excerpt: >
   als aktiven Grundbesitzer und Rechtsperson in Dörnthal 1621–1635.
   Wichtigster Fund: seine Ehefrau Maria, geborene Drechsel.
 published: false
+status: prüfen
+stand_vom: 2026-02-28
 ---
 
 Gerichtsbuch Bd. 03 (AG Sayda Nr. 021, 1622–1701) belegt **Hans Pulz**,

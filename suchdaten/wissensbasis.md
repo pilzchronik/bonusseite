@@ -6396,7 +6396,7 @@ Orte & Herkunft
 ## Quellen
 
 ## Downloads & Langzeitsicherung
-- [Gesamtregister Band 1 & 2 (PDF)](/buchindex.pdf)
+- [Gesamtregister Band 1 & 2 (PDF)]({{ '/buchindex.pdf' | relative_url }})
 - [Langzeitsicherung der Forschungsdaten (Zenodo)](https://doi.org/10.5281/zenodo.15828594)# Quellen & Forschungswerkzeuge zur Pilz-Chronik
 Digitale Ergänzungen zur gedruckten *Pilz-Chronik*.  
 Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur räumlichen und historischen Einordnung.
@@ -6897,7 +6897,7 @@ Das steife Bein, das Resultat der schweren Schussverletzung am Westwall 1944, be
 Diese Recherche kann die Lücke nicht füllen. Sie kann aber verhindern, dass Unwahrheiten an die Stelle treten, wo Wahrheit fehlt.
 ---
 ## Anhang und Quellen
-**→ [Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung](/assets/mds/forensischer_anhang.md)**
+**→ [Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung]({{ '/assets/mds/forensischer_anhang.md' | relative_url }})**
 **Bundesarchiv-Dokumentation:**
 - Auskunftsschreiben vom 01.12.2025 (DR 22025/G-7171)
 - Karteikarte B 563-1 KARTEI/P-442/343
@@ -6955,7 +6955,7 @@ In Ergänzung zur **Pilz-Chronik** dokumentiere ich hier die Ergebnisse meiner g
    - deutliche Anteile einer **aschkenasisch-mitteleuropäischen** Bevölkerungsgruppe (Böhmen – Deutschland – Österreich)
 Diese drei Ergebnisse zusammen ergeben ein stimmiges Bild: alte Linien aus dem Nahen Osten und der Bronzezeit gelangen über den Balkan nach Mitteleuropa und sind in historischer Zeit in den mitteleuropäischen, teils jüdischen Populationen wiederzufinden.
 👉 Die **vollständige, ausführliche Fassung** mit Stammbäumen, Zeitlinien, Erwähnung des Fundes *Ravna 15546* (römisches Serbien) und der mtDNA-Vergleiche ist hier zu lesen:
-**[Zur ausführlichen DNA-Auswertung](/bonusseite/dna-analyse.html)**
+**[Zur ausführlichen DNA-Auswertung]({{ '/dna-analyse.html' | relative_url }})**
 *Hinweis:* Die genetischen Ergebnisse sind eine Ergänzung zur Chronik. Jede genealogische Aussage bleibt durch die schriftlichen Quellen der Bände 1 und 2 abzusichern.
 
 ---

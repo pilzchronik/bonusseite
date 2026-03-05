@@ -14,6 +14,10 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+collections:
+  intern:
+    output: true
+
 # Navigation
 # WICHTIG: header_pages muss ganz links stehen (keine Leerzeichen davor!)
 header_pages:

@@ -9,6 +9,8 @@ excerpt: >
   um Joseph Pültz vollständig: sieben namentlich gesicherte Kinder,
   ein für tot erklärter Sohn, Hans' Ehefrau Maria Drechsel, und die
   geschlossene Erbgemeinschaft von 1620.
+status: prüfen
+stand_vom: 2026-02-28
 ---
 
 ## Quellenlage

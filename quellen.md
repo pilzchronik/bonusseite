@@ -19,7 +19,7 @@ permalink: /quellen/
 
 
 ## Inhalt & Index
-- [Inhalt & Index](/bonusseite/inhalt-index/)
+- [Inhalt & Index]({{ '/inhalt-index/' | relative_url }})
 
 ## Quellen & Forschungswerkzeuge zur Pilz-Chronik
 

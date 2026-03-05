@@ -5,6 +5,8 @@ date: 2026-01-30
 tags: [Neue Funde]
 categories: [Forschung]
 excerpt: "Eine kirchliche Auskunft klärt den institutionellen Verbleib älterer Pfarrunterlagen. Daraus ergeben sich gezielte Anfragen an staatliche Archive zu Ondřejov und Chlum."
+status: prüfen
+stand_vom: 2026-01-30
 ---
 
 <style>
