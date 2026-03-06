@@ -164,8 +164,8 @@ title: Startseite
 
   <a href="{{ '/orte/' | relative_url }}" class="action-card ergaenzungen">
     <span class="label">Digitales Mehr</span>
-    <h3>Karte &amp; Stammbaum</h3>
-    <p>Was das gedruckte Buch nicht kann: interaktive Karten, Zeitleiste, Stammbaum-Archiv.</p>
+    <h3>Karte, Orte &amp; DNA</h3>
+    <p>Lebensorte auf der interaktiven Karte, zweisprachiges Ortsverzeichnis (DE↔CZ) und DNA-Analyse zur tiefen genetischen Herkunft.</p>
   </a>
 
 </div>
@@ -179,9 +179,9 @@ title: Startseite
   </a>
 
   <a href="{{ '/stammbaum/' | relative_url }}" class="nav-card">
-    <span class="eyebrow">GENEALOGIE</span>
-    <h3>Stammbaum & Archiv</h3>
-    <p>Direkter Zugriff auf das MacFamilyTree-Archiv mit Personenblättern und Ahnentafeln.</p>
+    <span class="eyebrow">ARCHIV</span>
+    <h3>Genealogisches Archiv</h3>
+    <p>Alle Personenblätter, Familien, Ahnentafeln und Querverweise der Pilz-Chronik – gespeichert im MacFamilyTree-Archiv.</p>
   </a>
 
   <a href="{{ '/quellen/' | relative_url }}" class="nav-card">

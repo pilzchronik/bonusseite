@@ -6,9 +6,9 @@ permalink: /stammbaum/
 
 ## Das genealogische Herzstück
 
-Die vollständige, interaktive Auswertung aller Familiendaten erfolgt über die Plattform **MacFamilyTree**. Hier sind sämtliche Personenblätter, Querverweise und die grafische Darstellung der Ahnentafel zentral zusammengefasst.
+Die vollständige Auswertung aller Familiendaten erfolgt über die Plattform **MacFamilyTree**. Hier sind sämtliche Personenblätter, Querverweise und die grafische Darstellung der Ahnentafel zentral zusammengefasst.
 
-### [➤ Interaktiven Stammbaum öffnen](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html)
+### [➤ MacFamilyTree-Archiv öffnen](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html)
 
 **Direktzugriff auf einzelne Archivbereiche:**
 
@@ -20,12 +20,14 @@ Die vollständige, interaktive Auswertung aller Familiendaten erfolgt über die 
 
 ---
 
-## Laufende Forschung
+## Weiterführende Google-Sites
 
-Während das obige Archiv den gesicherten Datenbestand abbildet, dient das folgende Dossier der Dokumentation der noch offenen Forschungsfrage zum Balkan-Zweig:
+Zu einzelnen Forschungsthemen existieren ergänzende Webseiten auf Google Sites. Diese werden nicht aktiv gepflegt und können jederzeit ohne Vorankündigung entfernt werden – sie sind als Lektüre gedacht, nicht als verlässliche Langzeitquellen.
 
-* **Der "Vjekoslav-Aufruf" (Slawonien)** Forschung zu Alois Vjekoslav Pilz und der Auswanderung in den Balkanraum. Diese Seite dient weiterhin als aktiver Aufruf zur Mithilfe bei der Klärung dieser Linie.  
-  [Zum Forschungsstand & Hilfeaufruf]({{ site.baseurl }}/_posts/2025-10-30-identifizierung-vinzenz-und-franziska-pilz.html)
+* **[Rätsel in Slawonien](https://sites.google.com/view/raetsel-in-slawonien/startseite)** – Forschung zu Alois Vjekoslav Pilz und der Auswanderung in den Balkanraum.
+* **[Bechinie-Rätsel](https://sites.google.com/view/raetselphilippbechinie/startseite)** – Offene Forschungsfrage zur böhmischen Bechinie-Linie.
+* **[Pilz-Chronik: DNA](https://sites.google.com/view/pilzdna/startseite)** – Genetische Herkunft und Haplogruppen-Auswertung.
+* **[Von Kofler zu Cofler](https://sites.google.com/view/koflerzucofler/startseite)** – Zur Schreibweise und Geschichte des Familiennamens Kofler/Cofler.
 
 ---
 *Hinweis: Zur Rückkehr zur Bonusseite nutzen Sie bitte den Link im Kopfbereich der Stammbaum-Seite oder schließen Sie das Browser-Tab.*
