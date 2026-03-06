@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Hans Pulz in Gerichtsbuch Bd. 03 — Quellenanalyse"
+permalink: /intern/hans-pulz-gb03-analyse/
+---
+
 # Hans Pulz in Gerichtsbuch Bd. 03 — Quellenanalyse
 **Erstellt:** 28. Februar 2026  
 **Aktualisiert:** 1. März 2026 — Vaterschaft Abrahams korrigiert (Joseph statt Jobst), Erbgemeinschaft L772 eingearbeitet  
