@@ -17,6 +17,7 @@ plugins:
 collections:
   intern:
     output: true
+    permalink: /intern/:name/
 
 # Navigation
 # WICHTIG: header_pages muss ganz links stehen (keine Leerzeichen davor!)
