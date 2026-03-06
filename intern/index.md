@@ -8,9 +8,7 @@ permalink: /intern/
 
 ---
 
-{% assign intern_pages = site.pages | where_exp: "p", "p.url contains '/intern/'" | sort: "title" %}
-{% for p in intern_pages %}
-{% unless p.url == "/bonusseite/intern/" %}
-- [{{ p.title }}]({{ p.url | relative_url }}){% if p.stand_vom %} — Stand: {{ p.stand_vom }}{% endif %}{% if p.status %} *({{ p.status }})*{% endif %}
-{% endunless %}
+{% assign intern_seiten = site.intern | sort: "title" %}
+{% for seite in intern_seiten %}
+- [{{ seite.title }}]({{ seite.url | relative_url }})
 {% endfor %}
