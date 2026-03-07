@@ -3,7 +3,7 @@ layout: page
 title: "Gesamtübersicht Suchergebnisse — Gerichtsbücher Pültz/Pilz"
 date: 2026-03-05
 status: vorläufig
-stand_vom: 2026-03-05
+stand_vom: 2026-03-07
 permalink: /intern/gerichtsbuch-suche/
 ---
 
@@ -151,11 +151,27 @@ Bekannte Berufsangaben: 1761 Zwillig-Würcker/Musicus/Leinweber (Rothenthal), 17
 
 ---
 
+### E. Michael Pulz ~1695 Niederneuschönberg
+
+**🔶 PLAUSIBEL — kein Primärbeleg, Kirchenbuch steht aus**
+
+Quelle: GB AG Olbernhau Nr. 68, Zeile ~15070
+
+Michael Pulz erscheint als Vormund seiner Frau Dorothea geb. Bohm beim Erbkauf Böhmscher Güter. Ort: Niederneuschönberg — exakt der Geburtsort Carl Gottlobs (∗1738).
+
+**Chronologie-Problem:** Michael PILZ (GEDCOM 53145461), ∗1617, †18.05.1673 NNS. Wenn er 1673 starb, kann er 1695 nicht mehr aktiv sein. Die handelnde Person ist daher wahrscheinlich ein Sohn oder Enkel, ca. ∗1645–1660.
+
+**Verbindung zur Hauptlinie:** plausibel, nicht gesichert.
+
+**Nächster Schritt:** Kirchenbuch Niederneuschönberg (LKA Dresden, Band 429 oder 430) auswerten.
+
+---
+
 ## IV. Poberschau/Zöblitz — eigenständige Linie
 
 Diese Personen gehören zur eigenständigen Poberschau/Zöblitz-Linie (abstammend von Christoph Pülz ∗1547 laut Seiffen-Chronik). **Kein MFT-Eintrag empfohlen** solange kein Verbindungsnachweis zur Hauptlinie.
 
-Belegte Personen u. a.: Gottfried Pielz (General-Accis-Einnehmer, Gerichtsschöppe, 13+ Einträge 1719–1729), Christian Pilz jun. (Poberschau 1738), Samuel Pielz (Haus Poberschau/Ansprung ~1741), Jeremias Piltz, Johann Gottlob Pilz (Niederlauterstein 1774), Johann Adam Pilz (Zimmermann Zöblitz 1770).
+Belegte Personen u. a.: Gottfried Pielz (General-Accis-Einnehmer, Gerichtsschöppe, 13+ Einträge 1719–1729), Christian Pilz jun. (Poberschau, 29.09.1738, Curator) — **Widerspruch:** bisher bekannte Ehefrau „Maria Elisabeth Schreiber aus Pockau"; GB AG Zöblitz Nr. 62 belegt jedoch „Barbara Elisabeth geb. Breunigin" — Klärung durch Primärquelle erforderlich., Samuel Pielz (Haus Poberschau/Ansprung ~1741), Jeremias Piltz, Johann Gottlob Pilz (Niederlauterstein 1774), Johann Adam Pilz (Zimmermann Zöblitz 1770).
 
 ---
 
