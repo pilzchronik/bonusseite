@@ -20,7 +20,7 @@ Im Dörnthal des späten 16. Jahrhunderts lebten zur selben Zeit zwei männliche
 
 **Jobst Pültz** (auch: Jobes, Bueltz; ca. 1539–1619) war ein angesehener Mann mit öffentlichem Amt. Er erscheint zwischen 1594 und 1607 mehrfach als **Richter** in den Gerichtsbüchern Sayda. Er war mehrfach verheiratet; seine dritte Ehefrau war Margaretha Teuffel (Heirat 8. Mai 1589). Zu seinen Kindern zählen Katharina Pültz (∞ Christoph Gleser) sowie weitere belegte Nachkommen – aber **nicht Abraham**.
 
-**Joseph Pültz der Familienvater** (ca. 1555–1650) ist eine davon verschiedene Person. Er taucht in den Gerichtsbüchern häufig ohne Amtsbezeichnung auf, gelegentlich auch als *Schöffe*. Aus seiner Familie stammen **elf namentlich belegte Kinder**, darunter Taubstumme (Christoff, Anna) und viele weitere, deren Geburten zwischen 1575 und 1591 dokumentiert sind.
+**Joseph Pültz der Familienvater** (ca. 1545–nach 1620) ist eine davon verschiedene Person. Die Lebensdaten des Joseph beruhen auf Sekundärquellen und gelten als Arbeitshypothese; das Geburtsjahr ca. 1555 an dieser Stelle war irrtümlich – es bezeichnet das Geburtsjahr seiner Zeitgenossin Margaretha Teuffel. Er taucht in den Gerichtsbüchern häufig ohne Amtsbezeichnung auf, gelegentlich auch als *Schöffe*. Aus seiner Familie stammen **elf namentlich belegte Kinder**, darunter Taubstumme (Christoff, Anna) und viele weitere, deren Geburten zwischen 1575 und 1591 dokumentiert sind.
 
 ---
 
@@ -71,3 +71,14 @@ Die Vaterschaft des Joseph zu Abraham gilt nun als **durch Primärquelle gesiche
 - Wer waren **Josephs eigene Eltern**? Die Linie vor 1555 ist durch Primärquellen noch nicht belegt.
 
 *Primärquelle: GB AG Sayda Nr. 020, L772 (1620). Bearbeitet: März 2026.*
+
+---
+
+### Offener Widerspruch: Michael PILZ (*03.09.1570)
+
+Ein verwandter, noch ungelöster Fall betrifft **Michael PILZ, geboren 03.09.1570 in Dörnthal**. Im aktuellen Forschungsbaum erscheint er an zwei Stellen widersprüchlich:
+
+- **Stelle A**: Michael PILTZ (~1510) hat als Kinder sowohl Jobst BUELTZ (~1539) *als auch* Michael PILZ (1570) – Michael (1570) also als direkter Sohn des Michael (~1510).
+- **Stelle B**: Michael PILZ (1570) hat als Eltern Jobst BUELTZ und Magdalena FROSS – ein direkter Widerspruch zu Stelle A.
+
+Beide Zuweisungen können nicht gleichzeitig stimmen. Für eine Klärung wäre ein Kirchenbucheintrag (Dörnthal, Taufbuch) oder ein weiterer Gerichtsbucheintrag erforderlich. Die Frage bleibt vorerst offen.
