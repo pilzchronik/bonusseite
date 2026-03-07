@@ -22,12 +22,14 @@ status: aktuell
 | Was suche ich? | Wann ca. | Wo im Buch |
 |----------------|----------|------------|
 | **Taufe Abraham Pilz** | August 1591 | Taufen, ca. Mitte des Buches |
-| **Tod Jobst Piltz** | 03.04.1619 | Bestattungen, einer der letzten Einträge! |
+| **Tod Jobst BUELTZ/PILTZ** | 03.04.1619 | Bestattungen — ⚠️ NICHT identisch mit Joseph! Separate Person. |
+| **Tod Sybilla [Zimmermann?]** | ca. 1610–1616 | Bestattungen — erste Frau Josephs, †vor 02.02.1617 |
+| **Heirat Joseph PÜLTZ (2. Ehe)** | 08.05.1589 | Trauungen — Mutter Abrahams, Name unbekannt |
 | **Tod Michael Pültz** | ca. 1562–1575? | Bestattungen, frühes Drittel |
 | **„Witwe Pilzin"** | 21.02.1575 | Bestattungen? (evtl. auch in Pfaffroda!) |
 | Taufen weiterer Kinder des Michael | 1560er–1580er | Taufen durchblättern |
 | Trauung Michael Pültz | vor 1560? | Trauungen, ganz am Anfang |
-| Trauung Jobst Piltz | ca. 1585–1590 | Trauungen |
+| Trauung Jobst BUELTZ | ca. 1565–1575 | Trauungen — Mutter des Michael Pilz ∗1570 |
 | Alle Pilz/Pültz-Einträge systematisch | 1563–1622 | Gesamtes Buch |
 
 ### Register Nr. 34
@@ -79,6 +81,7 @@ Suchbegriffe: Pilz, Piltz, Pültz, Pülcz, Pültzend, Bültz
 | **Taufe Samuel Pilz (jun.)** | 13.01.1683 | Erstes Drittel des Buches |
 | **Tod Michael Pilz** | 18.05.1673 | Bestattungen, früher Eintrag |
 | **Tod Christian Gottlob Pilz** | 1771 | Bestattungen |
+| **Michael Pulz (Vormund) ~1695** | ca. 1690–1700 | ⚠️ Optional — plausibel, kein Primärbeleg. Verbindung zur Hauptlinie ungeklärt. |
 
 ### Kirchenbuch Nr. 430
 **Inhalt:** Taufbuch 1708–1799  
@@ -150,7 +153,8 @@ Im Register und Kirchenbuch nach diesen Schreibweisen Ausschau halten:
 | Person | Gerichtsbuch-Beleg | Im Kirchenbuch suchen |
 |--------|-------------------|----------------------|
 | Michael Pültzen, Schöppe | 01.01.1562 (GB Bd. 01, Bl. 160b) | Taufe? Trauung? Tod? |
-| Josepf/Jost Pültzend | ab 1595 (GB Bd. 02) | Tod 03.04.1619 bestätigen |
+| **Joseph PÜLTZ** (Stammvater) | aktiv 1574–1625 (GB Bd. 02) | Heirat 09.05.1574, Heirat 08.05.1589, Tod ca. 1620–1625? |
+| **Jobst BUELTZ/PILTZ** | †03.04.1619 (GB Bd. 02) | Bestattung bestätigen — separate Person, NICHT Joseph! |
 | Abraham Pilz | — | Taufe Aug. 1591 bestätigen |
 | Marten Piltz | ab 1595 (GB Bd. 02) | Taufe? Trauung? |
 | Hanß Pültzn | GB Bd. 02 + Bd. 03 | Taufe? Trauung? |
