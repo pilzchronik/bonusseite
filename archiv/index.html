@@ -642,7 +642,6 @@ function esc(s){if(!s)return"";return String(s).replace(/&/g,"&amp;").replace(/<
 function toast(msg){var el=document.getElementById("toast");el.textContent=msg;el.style.display="block";setTimeout(function(){el.style.display="none";},2500);}
 
 render();
-</script>
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
@@ -651,6 +650,18 @@ if ('serviceWorker' in navigator) {
       .catch(function(e){ console.log('SW Fehler:', e); });
   });
 }
+</script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      // Absoluter Pfad erzwingt den korrekten Scope
+      navigator.serviceWorker.register('/bonusseite/archiv/sw.js').then(function(registration) {
+        console.log('SW registriert mit Scope:', registration.scope);
+      }).catch(function(err) {
+        console.log('SW Fehler:', err);
+      });
+    });
+  }
 </script>
 </body>
 </html>
