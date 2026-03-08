@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="manifest" href="/bonusseite/archiv/manifest.json">
+<link rel="manifest" href="manifest.json">
 <title>Archivaufgaben – Dresden &amp; Freiberg</title>
 <style>
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
@@ -787,8 +787,8 @@ if (!_lsOk) {
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/bonusseite/archiv/sw.js').then(function(registration) {
-        console.log('SW registriert mit Scope:', registration.scope);
+      navigator.serviceWorker.register('sw.js').then(function(registration) {
+        console.log('SW registriert');
       }).catch(function(err) {
         console.log('SW Fehler:', err);
       });
