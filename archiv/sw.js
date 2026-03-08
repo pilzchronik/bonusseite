@@ -1,23 +1,11 @@
-var CACHE_NAME = 'archiv-cache-v3';
-var urlsToCache = [
-  '/bonusseite/archiv/',
-  '/bonusseite/archiv/index.html',
-  '/bonusseite/archiv/manifest.json'
-];
+var CACHE_NAME = 'archiv-cache-v4';
 
 self.addEventListener('install', function(event) {
   self.skipWaiting();
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        return cache.addAll(urlsToCache);
-      })
-  );
 });
 
 self.addEventListener('activate', function(event) {
   event.waitUntil(self.clients.claim());
-  // Löscht alte Caches, damit die neue Version greift
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
       return Promise.all(
@@ -32,14 +20,17 @@ self.addEventListener('activate', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
+  if (event.request.method !== 'GET') return;
+  
   event.respondWith(
-    caches.match(event.request)
-      .then(function(response) {
-        // Gibt die gecachte Version zurück oder lädt sie aus dem Netz
-        if (response) {
-          return response;
-        }
-        return fetch(event.request);
-      })
+    fetch(event.request).then(function(networkResponse) {
+      var responseClone = networkResponse.clone();
+      caches.open(CACHE_NAME).then(function(cache) {
+        cache.put(event.request, responseClone);
+      });
+      return networkResponse;
+    }).catch(function() {
+      return caches.match(event.request);
+    })
   );
 });
