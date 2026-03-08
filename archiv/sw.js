@@ -1,7 +1,17 @@
-var CACHE_NAME = 'archiv-cache-v4';
+var CACHE_NAME = 'archiv-cache-v5';
+var urlsToCache = [
+  '/bonusseite/archiv/',
+  '/bonusseite/archiv/index.html',
+  '/bonusseite/archiv/manifest.json'
+];
 
 self.addEventListener('install', function(event) {
   self.skipWaiting();
+  event.waitUntil(
+    caches.open(CACHE_NAME).then(function(cache) {
+      return cache.addAll(urlsToCache);
+    })
+  );
 });
 
 self.addEventListener('activate', function(event) {
@@ -20,17 +30,9 @@ self.addEventListener('activate', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-  if (event.request.method !== 'GET') return;
-  
   event.respondWith(
-    fetch(event.request).then(function(networkResponse) {
-      var responseClone = networkResponse.clone();
-      caches.open(CACHE_NAME).then(function(cache) {
-        cache.put(event.request, responseClone);
-      });
-      return networkResponse;
-    }).catch(function() {
-      return caches.match(event.request);
+    caches.match(event.request).then(function(response) {
+      return response || fetch(event.request);
     })
   );
 });
