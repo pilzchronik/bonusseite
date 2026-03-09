@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<title>Archivaufgaben – Dresden &amp; Freiberg</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;background:#f1f5f9;font-size:15px;color:#1e293b;}
+#header{background:#1e293b;color:#fff;padding:14px 16px 12px;padding-top:calc(14px + env(safe-area-inset-top));position:sticky;top:0;z-index:100;}
+#header h1{margin:0;font-size:18px;font-weight:700;letter-spacing:-0.3px;}
+#header p{margin:4px 0 0;font-size:12px;color:#94a3b8;}
+.stats{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
+.stat{background:rgba(255,255,255,0.12);padding:4px 10px;border-radius:20px;font-size:12px;font-weight:600;}
+.stat.green{background:#166534;}
+.stat.orange{background:#92400e;}
+.stat.purple{background:#5b21b6;}
+.progress{height:4px;background:rgba(255,255,255,0.2);border-radius:2px;margin-top:8px;overflow:hidden;}
+.progress-bar{height:100%;background:#22c55e;border-radius:2px;transition:width 0.4s;}
+
+#filterbar{background:#fff;border-bottom:1px solid #e2e8f0;padding:10px 14px;position:sticky;top:92px;z-index:99;display:flex;gap:8px;flex-wrap:wrap;align-items:center;box-shadow:0 1px 4px rgba(0,0,0,0.06);}
+#filterbar label{font-size:12px;color:#64748b;font-weight:600;}
+#filterbar select{font-size:13px;border:1px solid #cbd5e1;border-radius:8px;padding:6px 10px;background:#fff;color:#1e293b;min-width:130px;}
+.expbtns{margin-left:auto;display:flex;gap:8px;}
+.expbtn{border:none;border-radius:8px;padding:8px 14px;font-size:13px;font-weight:600;cursor:pointer;}
+.expbtn.dark{background:#1e293b;color:#fff;}
+.expbtn.teal{background:#0f766e;color:#fff;}
+.expbtn.green{background:#166534;color:#fff;}
+.expbtn:active{opacity:0.75;}
+/* Neuer-Fund-Modal */
+.neu-form{display:grid;gap:10px;margin-top:10px;}
+.neu-row{display:flex;flex-direction:column;gap:4px;}
+.neu-label{font-size:12px;font-weight:700;color:#334155;}
+.neu-input{border:1.5px solid #cbd5e1;border-radius:8px;padding:9px 12px;font-size:14px;font-family:inherit;background:#fff;color:#1e293b;width:100%;}
+.neu-input:focus{outline:none;border-color:#0d9488;box-shadow:0 0 0 3px rgba(13,148,136,0.15);}
+.neu-select{border:1.5px solid #cbd5e1;border-radius:8px;padding:9px 12px;font-size:14px;font-family:inherit;background:#fff;color:#1e293b;width:100%;}
+.neufund-header{background:#7c3aed;color:#fff;}
+.del-btn{font-size:11px;color:#991b1b;background:none;border:1px solid #fca5a5;border-radius:6px;padding:2px 8px;cursor:pointer;margin-top:4px;}
+
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#166534;color:#fff;padding:10px 20px;border-radius:20px;font-size:13px;font-weight:600;display:none;z-index:999;box-shadow:0 4px 16px rgba(0,0,0,0.2);}
+
+/* Modals allgemein */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:200;overflow-y:auto;padding:16px;}
+.modal-box{background:#fff;border-radius:14px;max-width:820px;margin:0 auto;padding:20px;}
+.modal-box h2{margin:0 0 4px;font-size:17px;}
+.modal-box>p{margin:0 0 12px;font-size:12px;color:#64748b;}
+#anf-table{width:100%;border-collapse:collapse;font-size:13px;}
+#anf-table th{background:#1e293b;color:#fff;padding:8px 10px;text-align:left;font-size:12px;}
+#anf-table td{padding:8px 10px;border-bottom:1px solid #e2e8f0;vertical-align:top;}
+#anf-table tr:nth-child(even) td{background:#f8fafc;}
+.modal-btns{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;}
+.modal-btn{border:none;border-radius:8px;padding:10px 18px;font-size:14px;font-weight:600;cursor:pointer;}
+.modal-btn.print{background:#0f766e;color:#fff;}
+.modal-btn.copy{background:#1e293b;color:#fff;}
+.modal-btn.close{background:#e2e8f0;color:#334155;}
+.modal-btn:active{opacity:0.75;}
+.anf-empty{text-align:center;padding:32px;color:#94a3b8;font-size:14px;}
+/* Textexport-Box */
+#exp-out{width:100%;height:260px;font-family:'Courier New',monospace;font-size:12px;border:1.5px solid #cbd5e1;border-radius:8px;padding:10px;resize:vertical;margin-top:8px;color:#1e293b;}
+.copy-hint{font-size:12px;color:#0f766e;margin-top:6px;}
+
+@media print{
+  body{background:#fff;font-size:11pt;}
+  #header,#filterbar,#backup-bar,#content,#toast{display:none!important;}
+  #anf-modal{display:block!important;position:static;background:none;padding:0;}
+  #anf-inner{border-radius:0;padding:0;max-width:100%;}
+  #anf-inner h2{font-size:14pt;margin-bottom:2px;}
+  #anf-inner>p{display:none;}
+  .anf-btns{display:none!important;}
+  #print-head{display:block!important;}
+  #anf-table{font-size:10pt; page-break-inside: auto;}
+  thead { display: table-header-group; }
+  #anf-table tr { page-break-inside: avoid; break-inside: avoid; }
+  #anf-table th{background:#334155!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  #anf-table td{padding:5px 8px;}
+  #anf-table tr:nth-child(even) td{background:#f5f5f5!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  .modal-overlay, .modal-box { overflow: visible !important; height: auto !important; max-height: none !important; }
+}
+#print-head{display:none;margin-bottom:16px;border-bottom:2px solid #1e293b;padding-bottom:10px;}
+#print-head h3{margin:0;font-size:13pt;}
+#print-head p{margin:2px 0 0;font-size:9pt;color:#555;}
+
+#content{padding:12px 12px 40px;max-width:900px;margin:0 auto;}
+.section-header{background:#334155;color:#e2e8f0;font-size:11px;font-weight:700;letter-spacing:0.8px;text-transform:uppercase;padding:8px 14px;border-radius:8px 8px 0 0;margin-top:16px;border:1px solid #475569;}
+.task-group{border:1px solid #cbd5e1;border-top:none;border-radius:0 0 8px 8px;overflow:hidden;background:#fff;}
+.task-row{border-bottom:1px solid #f1f5f9;cursor:pointer;}
+.task-row:last-child{border-bottom:none;}
+.task-row:active .task-top{background:#f8fafc;}
+.task-top{display:flex;align-items:flex-start;gap:10px;padding:12px 14px;transition:background 0.1s;}
+.prio-badge{font-size:11px;font-weight:800;border:1.5px solid;padding:2px 7px;border-radius:6px;white-space:nowrap;flex-shrink:0;margin-top:2px;}
+.prio-HH{background:#fee2e2;color:#991b1b;border-color:#fca5a5;}
+.prio-MI{background:#fef3c7;color:#92400e;border-color:#fcd34d;}
+.prio-NI{background:#f1f5f9;color:#64748b;border-color:#cbd5e1;}
+.prio-OPT{background:#dbeafe;color:#1d4ed8;border-color:#93c5fd;}
+.prio-dash{background:#f8fafc;color:#94a3b8;border-color:#e2e8f0;}
+.task-info{flex:1;min-width:0;}
+.task-name{font-weight:600;font-size:14px;color:#0f172a;}
+.task-datum{font-size:12px;color:#94a3b8;margin-left:6px;}
+.task-sig{font-size:12px;color:#94a3b8;}
+.task-aufgabe{font-size:12px;color:#64748b;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.task-preview{font-size:12px;color:#0f766e;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.status-badge{font-size:11px;font-weight:700;border:1.5px solid;padding:3px 9px;border-radius:20px;white-space:nowrap;flex-shrink:0;}
+.s-Offen{background:#f8fafc;color:#94a3b8;border-color:#cbd5e1;}
+.s-Gefunden{background:#dcfce7;color:#166534;border-color:#86efac;}
+.s-NichtGefunden{background:#fef2f2;color:#991b1b;border-color:#fca5a5;}
+.s-AusdruckBeantragt{background:#f3e8ff;color:#6b21a8;border-color:#c4b5fd;}
+.s-Teilbefund{background:#fff7ed;color:#c2410c;border-color:#fdba74;}
+.chevron{font-size:12px;color:#94a3b8;flex-shrink:0;margin-top:4px;transition:transform 0.2s;}
+.chevron.open{transform:rotate(180deg);}
+
+.task-detail{display:none;padding:14px 16px 16px;background:#f8fafc;border-top:1px solid #e2e8f0;}
+.task-detail.open{display:block;}
+.aufgabe-box{font-size:13px;color:#334155;margin-bottom:14px;line-height:1.5;background:#fff;padding:10px 12px;border-radius:8px;border:1px solid #e2e8f0;}
+.status-label{font-size:12px;font-weight:700;color:#64748b;margin-bottom:8px;}
+.status-btns{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+.status-btn{padding:8px 14px;border-radius:20px;font-size:13px;font-weight:600;border:2px solid;background:#fff;cursor:pointer;transition:all 0.15s;}
+.status-btn:active{opacity:0.7;}
+
+.field-block{margin-bottom:12px;}
+.field-label{font-size:12px;font-weight:700;color:#0f766e;margin-bottom:5px;display:flex;align-items:center;gap:5px;}
+.field-label.gray{color:#64748b;}
+.field-input{width:100%;border:1.5px solid #cbd5e1;border-radius:10px;padding:10px 12px;font-size:14px;font-family:inherit;line-height:1.5;background:#fff;color:#1e293b;resize:vertical;}
+.field-input:focus{outline:none;border-color:#0d9488;box-shadow:0 0 0 3px rgba(13,148,136,0.15);}
+.field-input.tall{min-height:90px;}
+.save-hint{font-size:11px;color:#94a3b8;margin-top:4px;}
+.save-ok{font-size:12px;font-weight:700;color:#166534;margin-top:4px;display:none;}
+.save-ok.visible{display:block;}
+@keyframes fadeout{0%{opacity:1;}70%{opacity:1;}100%{opacity:0;}}
+#backup-bar{background:#fef9c3;border-bottom:2px solid #fde047;padding:8px 14px;display:flex;align-items:center;gap:10px;font-size:12px;color:#713f12;font-weight:600;flex-wrap:wrap;}
+#backup-bar span{flex:1;}
+.bk-btn{border:none;border-radius:8px;padding:7px 14px;font-size:12px;font-weight:700;cursor:pointer;}
+.bk-btn.save{background:#166534;color:#fff;}
+.bk-btn.load{background:#1e293b;color:#fff;}
+#last-saved{font-size:11px;color:#64748b;font-weight:400;margin-left:6px;}
+.divider{border:none;border-top:1px dashed #e2e8f0;margin:14px 0;}
+
+.legend{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:12px 14px;font-size:12px;color:#64748b;margin-top:16px;line-height:1.8;}
+.empty{text-align:center;padding:48px 16px;color:#94a3b8;font-size:14px;}
+</style>
+</head>
+<body>
+<div id="err-box" style="display:none;background:#fee2e2;color:#991b1b;padding:16px;font-size:14px;font-weight:bold;position:fixed;top:0;left:0;right:0;z-index:9999;">JS-Fehler</div>
+
+<div id="header">
+  <h1>📋 Archivaufgaben – Dresden &amp; Freiberg</h1>
+  <p>Sächsischer Forschungsbaum Pilz/Pültz | März 2026</p>
+  <div class="stats">
+    <div class="stat" id="st-tot"></div>
+    <div class="stat green" id="st-gef"></div>
+    <div class="stat orange" id="st-teil"></div>
+    <div class="stat purple" id="st-anf"></div>
+    <div class="stat" id="st-off"></div>
+  </div>
+  <div class="progress"><div class="progress-bar" id="pbar"></div></div>
+</div>
+
+<div id="filterbar">
+  <label>Archiv:</label>
+  <select id="fSec" onchange="render()">
+    <option>Alle</option>
+    <option>LKA Dresden</option>
+    <option>StA Freiberg</option>
+    <option>Gegenprüfliste</option>
+    <option>Seitenlinien</option>
+    <option>Neufunde</option>
+  </select>
+  <label>Prio:</label>
+  <select id="fPrio" onchange="render()">
+    <option>Alle</option>
+    <option>HH</option><option>MI</option><option>NI</option><option>OPT</option>
+  </select>
+  <label>Status:</label>
+  <select id="fStat" onchange="render()">
+    <option>Alle</option>
+    <option>Offen</option><option>Gefunden</option><option>Nicht gefunden</option>
+    <option>Ausdruck beantragt</option><option>Teilbefund</option>
+  </select>
+  <div class="expbtns">
+    <button class="expbtn green" onclick="showNeuModal()">+ Neuer Fund</button>
+    <button class="expbtn teal" onclick="showAnforderung()">🖨 Anforderungsliste</button>
+    <button class="expbtn dark" onclick="exportMd()">⬇ Markdown</button>
+  </div>
+</div>
+
+<div id="backup-bar">
+  💾 <span>Sicherung: <span id="last-saved">noch nicht gesichert</span></span>
+  <button class="bk-btn save" onclick="exportJSON()">⬇ Backup speichern</button>
+  <button class="bk-btn load" onclick="document.getElementById('import-input').click()">⬆ Backup laden</button>
+  <input type="file" id="import-input" accept=".json" style="display:none" onchange="importJSON(event)">
+</div>
+<div id="content"></div>
+<div id="toast"></div>
+
+<div id="anf-modal" class="modal-overlay" onclick="closeModalIfBg(event,'anf-modal')">
+  <div class="modal-box">
+    <div id="print-head">
+      <h3>Bestellliste – Archivausdrucke</h3>
+      <p id="print-meta"></p>
+    </div>
+    <h2>🖨 Anforderungsliste – Ausdrucke</h2>
+    <p>Alle Einträge mit erfasster Fundstelle / Folio. Zur Vorlage beim Archivpersonal.<br>
+    <small style="color:#0f766e">📱 iPad: <strong>Drucken → zwei Finger spreizen → als PDF sichern → Mail/iCloud</strong></small></p>
+    <div id="anf-body"></div>
+    <div class="modal-btns">
+      <button class="modal-btn print" onclick="printAnf()">🖨 Drucken / Als PDF</button>
+      <button class="modal-btn copy" onclick="copyAnf()">Als Text kopieren</button>
+      <button class="modal-btn close" onclick="document.getElementById('anf-modal').style.display='none'">Schließen</button>
+    </div>
+  </div>
+</div>
+
+<div id="neu-modal" class="modal-overlay" onclick="closeModalIfBg(event,'neu-modal')">
+  <div class="modal-box">
+    <h2>+ Neuer Fund / Unerwarteter Beleg</h2>
+    <p>Wird als eigene Aufgabe in der Kategorie <strong>Neufunde</strong> gespeichert.</p>
+    <div class="neu-form">
+      <div class="neu-row">
+        <label class="neu-label">Signatur / Bestand *</label>
+        <input class="neu-input" id="neu-sig" placeholder="z.B. KB Dörnthal 23, Reg. 34, GB Bd. 02 …">
+      </div>
+      <div class="neu-row">
+        <label class="neu-label">Person / Beschreibung *</label>
+        <input class="neu-input" id="neu-person" placeholder="z.B. Hans PÜLTZ, unbekannte Heirat …">
+      </div>
+      <div class="neu-row">
+        <label class="neu-label">Datum / Zeitraum</label>
+        <input class="neu-input" id="neu-datum" placeholder="z.B. ca. 1610, 14.03.1587 …">
+      </div>
+      <div class="neu-row">
+        <label class="neu-label">Priorität</label>
+        <select class="neu-select" id="neu-prio">
+          <option value="HH">HH – Hoch</option>
+          <option value="MI" selected>MI – Mittel</option>
+          <option value="NI">NI – Niedrig</option>
+          <option value="OPT">OPT – Optional</option>
+        </select>
+      </div>
+      <div class="neu-row">
+        <label class="neu-label">Aufgabe / Bemerkung</label>
+        <input class="neu-input" id="neu-aufgabe" placeholder="Was ist zu tun oder was wurde gefunden?">
+      </div>
+    </div>
+    <div class="modal-btns" style="margin-top:16px;">
+      <button class="modal-btn print" onclick="saveNeu()">+ Speichern</button>
+      <button class="modal-btn close" onclick="document.getElementById('neu-modal').style.display='none'">Abbrechen</button>
+    </div>
+  </div>
+</div>
+
+<div id="exp-modal" class="modal-overlay" onclick="closeModalIfBg(event,'exp-modal')">
+  <div class="modal-box">
+    <h2 id="exp-modal-title">⬇ Markdown-Export</h2>
+    <p>Alles markieren (Ctrl+A / Cmd+A) und kopieren (Ctrl+C / Cmd+C), dann in ein Dokument einfügen.</p>
+    <textarea id="exp-out" readonly></textarea>
+    <div class="copy-hint" id="exp-hint"></div>
+    <div class="modal-btns">
+      <button class="modal-btn copy" onclick="selectAll()">Alles markieren</button>
+      <button class="modal-btn close" onclick="document.getElementById('exp-modal').style.display='none'">Schließen</button>
+    </div>
+  </div>
+</div>
+
+<script>
+window.onerror = function(msg, src, line, col, err) {
+  var box = document.getElementById('err-box');
+  if (box) { box.style.display = 'block'; box.textContent = 'JS-Fehler: ' + msg + ' (Z.' + line + ')'; }
+  return false;
+};
+
+var TASKS = [
+{id:1,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 34 (Taufregister 1564–1840)",sig:"Reg. 34",person:"Abraham PILZ",datum:"Aug. 1591",prio:"HH",aufgabe:"Taufe suchen (Register S. 34 zuerst, dann KB 23 öffnen); Eltern + Paten vollständig erfassen"},
+{id:2,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 34 (Taufregister 1564–1840)",sig:"Reg. 34",person:"Michael PILZ",datum:"03.09.1570",prio:"HH",aufgabe:"Taufe suchen; Elternschaft klären: Jobst BÜLTZ oder Michael PILTZ ~1510?"},
+{id:3,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 34 (Taufregister 1564–1840)",sig:"Reg. 34",person:"Kinder Joseph PÜLTZ / Sibylla Zimmermann",datum:"1575–1591",prio:"HH",aufgabe:"Taufen suchen: Christoff 1575, Anna 1576, Margareta 1578, Katharina 1580, Matthes 1583, [unben.] 1585, Hans 1587, [unben.] 1588"},
+{id:4,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 34 (Taufregister 1564–1840)",sig:"Reg. 34",person:"Alle Pilz/Pültz-Träger",datum:"1563–1622",prio:"MI",aufgabe:"ALLE Pilz/Pültz-Taufen systematisch notieren (alle Namensvarianten)"},
+{id:5,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 36 (Trauregister, Alteinträge zugänglich)",sig:"Reg. 36",person:"Joseph PÜLTZ + Sibylla Zimmermann",datum:"09.05.1574",prio:"HH",aufgabe:"Heirat 1. Ehe suchen; Zeugen und Schreibweise vollständig notieren"},
+{id:6,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 36 (Trauregister, Alteinträge zugänglich)",sig:"Reg. 36",person:"Joseph PÜLTZ + [N.N.]",datum:"08.05.1589",prio:"HH",aufgabe:"Heirat 2. Ehe suchen; NAME DER MUTTER ABRAHAMS UNBEKANNT – hier ermitteln!"},
+{id:7,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 36 (Trauregister, Alteinträge zugänglich)",sig:"Reg. 36",person:"Jobst BÜLTZ + Magdalena FROSS",datum:"ca. 17.05.1569",prio:"HH",aufgabe:"Heirat 1. Ehe suchen; Mutter des Michael Pilz *1570 klären"},
+{id:8,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 36 (Trauregister, Alteinträge zugänglich)",sig:"Reg. 36",person:"Jobst BÜLTZ + Sibilla KLEMM",datum:"07.11.1594",prio:"MI",aufgabe:"Heirat 2. Ehe suchen"},
+{id:9,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 36 (Trauregister, Alteinträge zugänglich)",sig:"Reg. 36",person:"[Michael Pültz, ältere Generation]",datum:"vor 1560?",prio:"NI",aufgabe:"Trauung suchen (ganz am Anfang des Registers)"},
+{id:10,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 37 (Bestattungsregister, Alteinträge zugänglich)",sig:"Reg. 37",person:'Jobst BÜLTZ/PILTZ (Der "Richter")',datum:"03.04.1619",prio:"HH",aufgabe:"Bestattung suchen; ACHTUNG: NICHT identisch mit Joseph PÜLTZ – separate Person!"},
+{id:11,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 37 (Bestattungsregister, Alteinträge zugänglich)",sig:"Reg. 37",person:"Sibylla Zimmermann (PÜLTZ)",datum:"ca. 1610–1616",prio:"HH",aufgabe:"Bestattung suchen; 1. Frau Josephs, gestorben vor 02.02.1617 (laut GB-Beleg)"},
+{id:12,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 37 (Bestattungsregister, Alteinträge zugänglich)",sig:"Reg. 37",person:"Michel PÜLTZ I.",datum:"ca. 1558–1575?",prio:"MI",aufgabe:"Bestattung suchen; ältester Beleg der Familie in Dörnthal (Nachlassregelung 13.04.1558)"},
+{id:13,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 37 (Bestattungsregister, Alteinträge zugänglich)",sig:"Reg. 37",person:'"Witwe Pilzin"',datum:"21.02.1575",prio:"MI",aufgabe:"Suchen; falls NICHT hier: Fallback Pfaffroda KB 461 / Reg. 480 / 483"},
+{id:14,sec:"LKA Dresden",sub:"1.1 Dörnthal – KB Nr. 23 (1563–1622)",sig:"KB 23",person:"Abraham PILZ",datum:"27.08.1591",prio:"HH",aufgabe:"Taufe im Volltext; Eltern + Paten vollständig; Ausdruck anfordern"},
+{id:15,sec:"LKA Dresden",sub:"1.1 Dörnthal – KB Nr. 23 (1563–1622)",sig:"KB 23",person:"Michael PILZ",datum:"03.09.1570",prio:"HH",aufgabe:"Taufe im Volltext; Elternschaft klären (Jobst BÜLTZ oder Michael PILTZ ~1510?); Ausdruck anfordern"},
+{id:16,sec:"LKA Dresden",sub:"1.1 Dörnthal – KB Nr. 23 (1563–1622)",sig:"KB 23",person:"Kinder Joseph PÜLTZ (1. Ehe)",datum:"1575–1591",prio:"HH",aufgabe:"Taufen im Volltext; Mutter Sibylla bestätigen; Paten erfassen; Ausdruck anfordern"},
+{id:17,sec:"LKA Dresden",sub:"1.1 Dörnthal – KB Nr. 23 (1563–1622)",sig:"KB 23",person:"Joseph PÜLTZ + Sibylla Zimmermann",datum:"09.05.1574",prio:"HH",aufgabe:"Heirat 1. Ehe im Volltext; Zeugen, Schreibweise, Herkunftsangaben; Ausdruck anfordern"},
+{id:18,sec:"LKA Dresden",sub:"1.1 Dörnthal – KB Nr. 23 (1563–1622)",sig:"KB 23",person:"Joseph PÜLTZ + [N.N.]",datum:"08.05.1589",prio:"HH",aufgabe:"Heirat 2. Ehe im Volltext; Namen der Mutter Abrahams ermitteln; Ausdruck anfordern"},
+{id:19,sec:"LKA Dresden",sub:"1.1 Dörnthal – KB Nr. 23 (1563–1622)",sig:"KB 23",person:'Jobst BÜLTZ (Der "Richter")',datum:"03.04.1619",prio:"HH",aufgabe:"Bestattung im Volltext; Alter, Stand, Bezugspersonen; Ausdruck anfordern"},
+{id:20,sec:"LKA Dresden",sub:"1.2 Olbernhau – KB 437 (Taufbuch 1579–1631, KEIN Register)",sig:"KB 437",person:"Michael PILZ",datum:"13.07.1617 (±2 Wo.)",prio:"HH",aufgabe:"Taufe suchen; chronologisch blättern (kein Register!); Namensvarianten beachten; Eltern + Paten; Ausdruck anfordern"},
+{id:21,sec:"LKA Dresden",sub:"1.2 Olbernhau – KB 437 (Taufbuch 1579–1631, KEIN Register)",sig:"KB 437",person:"Alle Pilz/Pültz-Träger",datum:"1579–1631",prio:"MI",aufgabe:"Alle weiteren Pilz/Pültz-Taufen notieren"},
+{id:22,sec:"LKA Dresden",sub:"1.2 Olbernhau – Heiratsbuch (ab 1614)",sig:"Heiratsbuch",person:"Abraham PILZ + Maria HENGST",datum:"14.11.1614",prio:"HH",aufgabe:"Heirat suchen; Zeugen erfassen; Herkunft Maria HENGST prüfen; Ausdruck anfordern"},
+{id:23,sec:"LKA Dresden",sub:"1.2 Olbernhau – Register 458 (zu KB 438) → ZUERST!",sig:"Reg. 458",person:"Samuel PILZ (sen.)",datum:"02.03.1654",prio:"HH",aufgabe:"Name Pilz im Register suchen, Seitenverweis notieren"},
+{id:24,sec:"LKA Dresden",sub:"1.2 Olbernhau – KB 438 (Taufbuch 1633–1665)",sig:"KB 438",person:"Samuel PILZ (sen.)",datum:"02.03.1654",prio:"HH",aufgabe:"Taufe im Volltext; Eltern + Paten vollständig; Ausdruck anfordern"},
+{id:25,sec:"LKA Dresden",sub:"1.3 Ober-/Niederneunschönberg – KB 429 (1661–1799)",sig:"KB 429",person:"Samuel PILTZ (jun.)",datum:"13.01.1683",prio:"HH",aufgabe:"Taufe suchen; Mutter bislang UNBEKANNT! Eltern + Paten vollständig; Ausdruck anfordern"},
+{id:26,sec:"LKA Dresden",sub:"1.3 Ober-/Niederneunschönberg – KB 429 (1661–1799)",sig:"KB 429",person:"Michael PILZ",datum:"18.05.1673",prio:"HH",aufgabe:"Bestattung bestätigen; Sterbedatum aus KB bestätigen; Ausdruck anfordern"},
+{id:27,sec:"LKA Dresden",sub:"1.3 Ober-/Niederneunschönberg – KB 429 (1661–1799)",sig:"KB 429",person:"Samuel PILTZ (jun.)",datum:"nach 1706, unbekannt",prio:"MI",aufgabe:"Sterbedatum suchen; bislang kein Sterbedatum im Baum erfasst"},
+{id:28,sec:"LKA Dresden",sub:"1.3 Ober-/Niederneunschönberg – KB 429 (1661–1799)",sig:"KB 429",person:"Christian Gottlob PILZ",datum:"ca. 1771",prio:"MI",aufgabe:"Tod suchen"},
+{id:29,sec:"LKA Dresden",sub:"1.3 Ober-/Niederneunschönberg – KB 429 (1661–1799)",sig:"KB 429",person:"[Michael Pulz, Vormund]",datum:"ca. 1690–1700",prio:"OPT",aufgabe:"OPTIONAL – kein Primärbeleg; Verbindung zur Hauptlinie ungeklärt"},
+{id:30,sec:"LKA Dresden",sub:"1.3 Ober-/Niederneunschönberg – KB 430 (Taufbuch 1708–1799) → NICHT KB 429!",sig:"KB 430",person:"Christian Gottlieb PILZ",datum:"28.03.1712",prio:"HH",aufgabe:"Taufe suchen; Eltern + Paten vollständig; Ausdruck anfordern"},
+{id:31,sec:"LKA Dresden",sub:"1.4 Lengefeld (Pockau) – Register 219 (zu KB 188) → ZUERST!",sig:"Reg. 219",person:"Maria Elisabeth Schreiber",datum:"ca. 1712",prio:"HH",aufgabe:"Name Schreiber im Register suchen, Seitenverweis notieren"},
+{id:32,sec:"LKA Dresden",sub:"1.4 Lengefeld (Pockau) – KB 188 (Taufbuch 1706–1720)",sig:"KB 188",person:"Maria Elisabeth Schreiber",datum:"ca. 1712",prio:"HH",aufgabe:"Taufe suchen; Ehefrau des Christian Gottlieb PILZ; Eltern + Paten + Herkunftsangaben; Ausdruck anfordern"},
+{id:33,sec:"LKA Dresden",sub:"1.5 Optional: Pfaffroda (nur falls Witwe Pilzin nicht in Dörnthal)",sig:"KB 461",person:'"Witwe Pilzin"',datum:"21.02.1575",prio:"OPT",aufgabe:"Nur falls Bestattungseintrag NICHT in Dörnthal KB 23/Reg. 37 gefunden"},
+{id:34,sec:"LKA Dresden",sub:"1.5 Optional: Pfaffroda (nur falls Witwe Pilzin nicht in Dörnthal)",sig:"Reg. 480",person:"Pilz/Pültz-Träger",datum:"1573–1840",prio:"OPT",aufgabe:"Pilz/Pültz im Taufregister suchen"},
+{id:35,sec:"LKA Dresden",sub:"1.5 Optional: Pfaffroda (nur falls Witwe Pilzin nicht in Dörnthal)",sig:"Reg. 483",person:'"Witwe Pilzin"',datum:"1573–(gesperrt)",prio:"OPT",aufgabe:"Im Bestattungsregister suchen (Alteinträge bearbeitbar)"},
+{id:36,sec:"StA Freiberg",sub:"GB Dörnthal Bd. 01 – Früheste Belege (13.04.1558)",sig:"GB Bd. 01, Fol. 15r–17r",person:"Michel PÜLTZ I.",datum:"13.04.1558",prio:"HH",aufgabe:"Nachlassregelung einsehen; klären: Ist Michel II. (~1547) identisch/verwandt zu Joseph PÜLTZ (*ca. 1545)? Kinder: Hansen, Jacob, Elias, Jorgen, Michel II., Matthossen, Sibilla, Caspar"},
+{id:37,sec:"StA Freiberg",sub:"GB Dörnthal Bd. 01 – Früheste Belege (13.04.1558)",sig:"GB Bd. 01, L538/1558ff.",person:"Christoff PÜLTZ (Vormund Caspar)",datum:"ab 1558",prio:"MI",aufgabe:"Folio 538 einsehen; Verwandtschaftsverhältnis klären"},
+{id:38,sec:"StA Freiberg",sub:"GB Dörnthal Bd. 01+02 – S. 133/136/277/287 (Generationenfrage)",sig:"Bd. 01: S.133,136 / Bd. 02: S.277,287",person:"Josepf/Joseph PÜLTZ",datum:"aktiv ca. 1575–1629",prio:"HH",aufgabe:"Seiten im Original vergleichen VOR jeder Zusammenführung; EINE oder ZWEI Generationen? GEDCOM 90950414/14889100 zusammenführen oder trennen?"},
+{id:39,sec:"StA Freiberg",sub:"GB Dörnthal Bd. 01+02 – S. 133/136/277/287 (Generationenfrage)",sig:"Bd. 01/02",person:"Jobst BÜLTZ + Josef Pültz Schöffe",datum:"–",prio:"MI",aufgabe:"Gemeinsame Einträge suchen; Josef-Junior-Hypothese (Vater-Sohn) belegen oder widerlegen"},
+{id:40,sec:"StA Freiberg",sub:"GB Dörnthal Bd. 02+03 – Michael PULTZ der Ausländische",sig:"GB Bd. 03, L701",person:"Michael PULTZ (der Ausländische)",datum:"16.11.1629 (Erbsache)",prio:"MI",aufgabe:"Weitere Einträge suchen; 22 Jahre abwesend; Zielort klären; kein Quellenbeleg für Nachkommen"},
+{id:41,sec:"Gegenprüfliste",sub:"GB-Belege im Kirchenbuch bestätigen",sig:"KB Dörnthal 23",person:"Michael Pueltzen, Schoppe",datum:"01.01.1562 (GB Bd. 01, Bl. 160b)",prio:"–",aufgabe:"Taufe? Trauung? Tod? im KB nachweisen"},
+{id:42,sec:"Gegenprüfliste",sub:"GB-Belege im Kirchenbuch bestätigen",sig:"KB Dörnthal 23",person:"Joseph PÜLTZ (Stammvater)",datum:"aktiv 1574–1625 (GB Bd. 02)",prio:"–",aufgabe:"Heirat 09.05.1574 + 08.05.1589 bestätigen; Tod ca. 1620–1625?"},
+{id:43,sec:"Gegenprüfliste",sub:"GB-Belege im Kirchenbuch bestätigen",sig:"KB Dörnthal 23",person:"Jobst BÜLTZ/PILTZ",datum:"03.04.1619 (GB Bd. 02)",prio:"–",aufgabe:"Bestattung bestätigen (NICHT = Joseph!)"},
+{id:44,sec:"Gegenprüfliste",sub:"GB-Belege im Kirchenbuch bestätigen",sig:"KB Dörnthal 23",person:"Abraham PILZ",datum:"Erbvergleich 1620, GB Bd. 02, L772",prio:"–",aufgabe:"Taufe Aug. 1591 bestätigen"},
+{id:45,sec:"Gegenprüfliste",sub:"GB-Belege im Kirchenbuch bestätigen",sig:"KB Dörnthal 23",person:"Marten PILTZ",datum:"ab 1595 (GB Bd. 02)",prio:"–",aufgabe:"Taufe? Trauung? im KB nachweisen"},
+{id:46,sec:"Gegenprüfliste",sub:"GB-Belege im Kirchenbuch bestätigen",sig:"KB Dörnthal 23",person:"Hans PUELTZN",datum:"GB Bd. 02 + Bd. 03",prio:"–",aufgabe:"Taufe? Trauung? im KB nachweisen"},
+{id:47,sec:"Gegenprüfliste",sub:"GB-Belege im Kirchenbuch bestätigen",sig:"KB Dörnthal 23 / Pfaffroda 461/483",person:'"Witwe Pilzin"',datum:"21.02.1575",prio:"–",aufgabe:"Wo genau? KB-Band ermitteln"},
+{id:48,sec:"Seitenlinien",sub:"Teil III – Nur wenn Zeit bleibt",sig:"KB Dörnthal / GB Sayda",person:"Kinder Michel PÜLTZ I. (†1558)",datum:"1550–1600",prio:"NI",aufgabe:"Anschluss an Joseph PÜLTZ klären?"},
+{id:49,sec:"Seitenlinien",sub:"Teil III – Nur wenn Zeit bleibt",sig:"KB Pobershau, Taufbuch",person:"Pobershau-Cluster (Samuel Pielz u.a.)",datum:"17.–18. Jh.",prio:"NI",aufgabe:"Eigenständige Linie oder Verwandtschaft zur Hauptlinie?"},
+{id:50,sec:"Seitenlinien",sub:"Teil III – Nur wenn Zeit bleibt",sig:"KB Olbernhau / Grünthal",person:"Michael PILZ *1686 (Kupferhammer)",datum:"ca. 1686",prio:"NI",aufgabe:"Eltern? Verbindung zur Hauptlinie?"}
+];
+
+var PRIO_CLS = {HH:"prio-HH",MI:"prio-MI",NI:"prio-NI",OPT:"prio-OPT","–":"prio-dash"};
+var STAT_CLS = {"Offen":"s-Offen","Gefunden":"s-Gefunden","Nicht gefunden":"s-NichtGefunden","Ausdruck beantragt":"s-AusdruckBeantragt","Teilbefund":"s-Teilbefund"};
+var STAT_LIST = ["Offen","Gefunden","Nicht gefunden","Ausdruck beantragt","Teilbefund"];
+
+var state = {};
+var dynTasks = [];
+var _storageReady = false;
+var _useIDB = false;
+var _lsOk = false;
+var _db = null;
+var DB_NAME = 'archiv2026db';
+var DB_VERSION = 1;
+var STORE_NAME = 'kv';
+
+// --- IndexedDB Wrapper ---
+function idbOpen() {
+  return new Promise(function(resolve, reject) {
+    try {
+      var req = indexedDB.open(DB_NAME, DB_VERSION);
+      req.onupgradeneeded = function(e) {
+        var db = e.target.result;
+        if (!db.objectStoreNames.contains(STORE_NAME)) {
+          db.createObjectStore(STORE_NAME);
+        }
+      };
+      req.onsuccess = function(e) { resolve(e.target.result); };
+      req.onerror = function(e) { reject(e.target.error); };
+    } catch(e) { reject(e); }
+  });
+}
+
+function idbGet(db, key) {
+  return new Promise(function(resolve, reject) {
+    try {
+      var tx = db.transaction(STORE_NAME, 'readonly');
+      var store = tx.objectStore(STORE_NAME);
+      var req = store.get(key);
+      req.onsuccess = function() { resolve(req.result); };
+      req.onerror = function() { reject(req.error); };
+    } catch(e) { reject(e); }
+  });
+}
+
+function idbPut(db, key, val) {
+  return new Promise(function(resolve, reject) {
+    try {
+      var tx = db.transaction(STORE_NAME, 'readwrite');
+      var store = tx.objectStore(STORE_NAME);
+      var req = store.put(val, key);
+      req.onsuccess = function() { resolve(); };
+      req.onerror = function() { reject(req.error); };
+    } catch(e) { reject(e); }
+  });
+}
+
+// --- localStorage Fallback ---
+try {
+  localStorage.setItem("__lsTest", "1");
+  localStorage.removeItem("__lsTest");
+  _lsOk = true;
+} catch(e) { _lsOk = false; }
+
+// Load from localStorage first (synchronous, instant display)
+try { var _s = localStorage.getItem("archiv2026v3"); if (_s) state = JSON.parse(_s); } catch(e) {}
+try { var _d = localStorage.getItem("archiv2026dyn"); if (_d) dynTasks = JSON.parse(_d); } catch(e) {}
+
+// Then try to upgrade to IndexedDB (async)
+function initStorage() {
+  // Request persistent storage (reduces Safari cache eviction)
+  if (navigator.storage && navigator.storage.persist) {
+    navigator.storage.persist().then(function(granted) {
+      if (granted) {
+        console.log('[Archiv] Persistenter Speicher gewährt');
+      } else {
+        console.log('[Archiv] Persistenter Speicher abgelehnt – Backups wichtig!');
+      }
+    });
+  }
+
+  idbOpen().then(function(db) {
+    _db = db;
+    _useIDB = true;
+    console.log('[Archiv] IndexedDB bereit');
+
+    // Load from IDB – if data exists there, it takes priority
+    return Promise.all([idbGet(db, 'state'), idbGet(db, 'dynTasks')]);
+  }).then(function(results) {
+    var idbState = results[0];
+    var idbDyn = results[1];
+
+    // Merge: IDB data wins if it exists and has content
+    if (idbState && Object.keys(idbState).length > 0) {
+      // Merge IDB state with any localStorage state (IDB wins on conflicts)
+      var merged = {};
+      var k;
+      for (k in state) { if (state.hasOwnProperty(k)) merged[k] = state[k]; }
+      for (k in idbState) { if (idbState.hasOwnProperty(k)) merged[k] = idbState[k]; }
+      state = merged;
+    }
+    if (idbDyn && idbDyn.length > 0) {
+      // Merge dynamic tasks by id
+      var existingIds = {};
+      for (var i = 0; i < dynTasks.length; i++) existingIds[dynTasks[i].id] = true;
+      for (var j = 0; j < idbDyn.length; j++) {
+        if (!existingIds[idbDyn[j].id]) dynTasks.push(idbDyn[j]);
+      }
+      // If IDB has more, use IDB version
+      if (idbDyn.length >= dynTasks.length) dynTasks = idbDyn;
+    }
+
+    _storageReady = true;
+    // Re-render with full data
+    render();
+    // Write merged data back to both stores
+    save();
+    saveDyn();
+    console.log('[Archiv] Daten aus IndexedDB geladen');
+  }).catch(function(err) {
+    console.warn('[Archiv] IndexedDB nicht verfügbar, nutze localStorage:', err);
+    _storageReady = true;
+  });
+}
+
+function saveDyn() {
+  // Always try localStorage as backup
+  if (_lsOk) {
+    try { localStorage.setItem("archiv2026dyn", JSON.stringify(dynTasks)); }
+    catch(e) {
+      if (e.name==="QuotaExceededError"||e.name==="QUOTA_EXCEEDED_ERR"||(e.code&&e.code===22)){
+        alert("⚠️ SPEICHER VOLL!\n\nBitte sofort ein JSON-Backup erstellen (gelbe Leiste → ⬇ Backup speichern).");
+      }
+    }
+  }
+  // Also write to IndexedDB (primary, more durable)
+  if (_useIDB && _db) {
+    idbPut(_db, 'dynTasks', dynTasks).catch(function(e) {
+      console.warn('[Archiv] IDB saveDyn fehlgeschlagen:', e);
+    });
+  }
+}
+
+function save() {
+  // Always try localStorage as backup
+  if (_lsOk) {
+    try { localStorage.setItem("archiv2026v3", JSON.stringify(state)); }
+    catch(e) {
+      if (e.name==="QuotaExceededError"||e.name==="QUOTA_EXCEEDED_ERR"||(e.code&&e.code===22)){
+        alert("⚠️ SPEICHER VOLL!\n\nBitte sofort ein JSON-Backup erstellen (gelbe Leiste → ⬇ Backup speichern).");
+      }
+    }
+  }
+  // Also write to IndexedDB (primary, more durable)
+  if (_useIDB && _db) {
+    idbPut(_db, 'state', state).catch(function(e) {
+      console.warn('[Archiv] IDB save fehlgeschlagen:', e);
+    });
+  }
+}
+function getS(id) { return state[id] || {status:"Offen",fundstelle:"",transkription:"",open:false}; }
+function setS(id, field, val) {
+  if (!state[id]) state[id] = {status:"Offen",fundstelle:"",transkription:"",open:false};
+  state[id][field] = val;
+  save();
+}
+
+function updateStats() {
+  var allT = TASKS.concat(dynTasks);
+  var tot = allT.length;
+  var gef = 0, teil = 0, anf = 0, off = 0;
+  for (var i = 0; i < allT.length; i++) {
+    var st = getS(allT[i].id).status;
+    if (st === "Gefunden") gef++;
+    else if (st === "Teilbefund") teil++;
+    else if (st === "Ausdruck beantragt") anf++;
+    else off++;
+  }
+  var pct = Math.round((gef + teil + anf) * 100 / tot);
+  document.getElementById("st-tot").textContent = "Gesamt: " + tot;
+  document.getElementById("st-gef").textContent = "Gefunden: " + gef;
+  document.getElementById("st-teil").textContent = "Teilbefund: " + teil;
+  document.getElementById("st-anf").textContent = "Ausdruck beantragt: " + anf;
+  document.getElementById("st-off").textContent = "Offen: " + off;
+  document.getElementById("pbar").style.width = pct + "%";
+}
+
+function render() {
+  var fSec = document.getElementById("fSec").value;
+  var fPrio = document.getElementById("fPrio").value;
+  var fStat = document.getElementById("fStat").value;
+  var allTasks = TASKS.concat(dynTasks);
+  var filtered = [];
+  for (var i = 0; i < allTasks.length; i++) {
+    var t = allTasks[i];
+    if ((fSec === "Alle" || t.sec === fSec) &&
+        (fPrio === "Alle" || t.prio === fPrio) &&
+        (fStat === "Alle" || getS(t.id).status === fStat)) {
+      filtered.push(t);
+    }
+  }
+  var subs = [];
+  var grouped = {};
+  for (var i = 0; i < filtered.length; i++) {
+    var t = filtered[i];
+    if (!grouped[t.sub]) { grouped[t.sub] = []; subs.push(t.sub); }
+    grouped[t.sub].push(t);
+  }
+
+  var html = "";
+  if (!filtered.length) {
+    html = '<div class="empty">Keine Aufgaben f&uuml;r diese Filterauswahl.</div>';
+  }
+  for (var si = 0; si < subs.length; si++) {
+    var sub = subs[si];
+    var isNeu = (grouped[sub][0].sec === "Neufunde");
+    html += '<div class="section-header' + (isNeu ? ' neufund-header' : '') + '">' + esc(sub) + '</div>';
+    html += '<div class="task-group">';
+    var grp = grouped[sub];
+    for (var gi = 0; gi < grp.length; gi++) {
+      var t = grp[gi];
+      var s = getS(t.id);
+      var isDyn = (typeof t.id === "string" && t.id.indexOf("dyn") === 0);
+      var openCls = s.open ? " open" : "";
+      html += '<div class="task-row" id="row-' + t.id + '">';
+      html += '<div class="task-top" onclick="toggle(' + "'" + t.id + "'" + ')">';
+      html += '<span class="prio-badge ' + (PRIO_CLS[t.prio] || 'prio-dash') + '">' + t.prio + '</span>';
+      html += '<div class="task-info">';
+      html += '<div><span class="task-name">' + esc(t.person) + '</span><span class="task-datum">' + esc(t.datum) + '</span></div>';
+      html += '<div class="task-sig">' + esc(t.sig) + '</div>';
+      html += '<div class="task-aufgabe">' + esc(t.aufgabe) + '</div>';
+      if (s.fundstelle) html += '<div class="task-preview">' + '&#128205; ' + esc(s.fundstelle) + '</div>';
+      html += '</div>';
+      html += '<span class="status-badge ' + (STAT_CLS[s.status] || 's-Offen') + '" id="sbadge-' + t.id + '">' + esc(s.status) + '</span>';
+      html += '<span class="chevron' + openCls + '" id="chev-' + t.id + '">&#9660;</span>';
+      html += '</div>';
+      html += '<div class="task-detail' + openCls + '" id="det-' + t.id + '">';
+      html += '<div class="aufgabe-box"><strong>Aufgabe:</strong> ' + esc(t.aufgabe) + '</div>';
+      html += '<div class="status-label">Status:</div>';
+      html += '<div class="status-btns">';
+      for (var sti = 0; sti < STAT_LIST.length; sti++) {
+        var st2 = STAT_LIST[sti];
+        var activeStyle = (s.status === st2) ? 'box-shadow:0 0 0 2px #6366f1;transform:scale(1.04)' : '';
+        html += '<button class="status-btn ' + (STAT_CLS[st2] || '') + '" style="' + activeStyle + '" onclick="setStatus(' + "'" + t.id + "','" + st2 + "'" + ',event)">' + esc(st2) + '</button>';
+      }
+      html += '</div>';
+      html += '<hr class="divider">';
+      html += '<div class="field-block">';
+      html += '<div class="field-label">&#128205; Fundstelle / Folio / Seitenangabe</div>';
+      html += '<input type="text" class="field-input" id="fs-' + t.id + '" value="' + esc(s.fundstelle) + '" placeholder="z.B. Bl. 47v, S. 133, Fol. 15r ..." oninput="saveField(' + "'" + t.id + "','fundstelle'" + ',this.value)">';
+      html += '</div>';
+      html += '<div class="field-block">';
+      html += '<div class="field-label gray">&#128221; Transkription / Bemerkungen / Paten / Zeugen</div>';
+      html += '<textarea class="field-input tall" id="tr-' + t.id + '" placeholder="Volltext, Namen, Paten, Zeugen ..." oninput="saveField(' + "'" + t.id + "','transkription'" + ',this.value)">' + esc(s.transkription) + '</textarea>';
+      html += '</div>';
+      html += '<div class="save-ok" id="saveok-' + t.id + '">&#10003; Gespeichert</div>';
+      html += '<div class="save-hint">Backup t&auml;glich empfohlen (gelbe Leiste oben)</div>';
+      if (isDyn) html += '<button class="del-btn" onclick="deleteNeu(' + "'" + t.id + "'" + ')">&#128465; Neufund l&ouml;schen</button>';
+      html += '</div>';
+      html += '</div>';
+    }
+    html += '</div>';
+  }
+  html += '<div class="legend"><strong>Namensvarianten:</strong> Pilz &middot; Piltz &middot; P&uuml;ltz &middot; P&uuml;lcz &middot; Pultz &middot; P&uuml;ltzend &middot; P&uuml;ltzin &middot; Piltzin &middot; Biltz &middot; B&uuml;ltz &middot; B&uuml;ltzin &nbsp;|&nbsp; <strong>Prio:</strong> HH = Hoch &middot; MI = Mittel &middot; NI = Niedrig &middot; OPT = Optional</div>';
+  document.getElementById("content").innerHTML = html;
+  updateStats();
+}
+
+function toggle(id) {
+  var s = getS(id);
+  var o = !s.open;
+  setS(id, "open", o);
+  var det = document.getElementById("det-" + id);
+  var chev = document.getElementById("chev-" + id);
+  if (det) { if (o) { det.className = "task-detail open"; } else { det.className = "task-detail"; } }
+  if (chev) { if (o) { chev.className = "chevron open"; } else { chev.className = "chevron"; } }
+}
+
+function setStatus(id, st, e) {
+  if (e && e.stopPropagation) e.stopPropagation();
+  setS(id, "status", st);
+  var badge = document.getElementById("sbadge-" + id);
+  if (badge) { badge.className = "status-badge " + (STAT_CLS[st] || "s-Offen"); badge.textContent = st; }
+  var row = document.getElementById("row-" + id);
+  if (row) {
+    var btns = row.getElementsByClassName("status-btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].style.boxShadow = (STAT_LIST[i] === st) ? "0 0 0 2px #6366f1" : "";
+      btns[i].style.transform = (STAT_LIST[i] === st) ? "scale(1.04)" : "";
+    }
+  }
+  showSaveOk(id);
+  updateStats();
+  updateLastSaved();
+}
+
+function saveField(id, field, val) {
+  setS(id, field, val);
+  showSaveOk(id);
+  updateLastSaved();
+  if (field === "fundstelle") {
+    var row = document.getElementById("row-" + id);
+    if (!row) return;
+    var info = row.getElementsByClassName("task-info")[0];
+    var prev = row.getElementsByClassName("task-preview")[0] || null;
+    if (val) {
+      if (!prev) {
+        prev = document.createElement("div");
+        prev.className = "task-preview";
+        if (info) info.appendChild(prev);
+      }
+      prev.textContent = "\u{1F4CD} " + val.substring(0, 80);
+    } else if (prev && prev.parentNode) {
+      prev.parentNode.removeChild(prev);
+    }
+  }
+}
+
+function showNeuModal() {
+  document.getElementById("neu-sig").value = "";
+  document.getElementById("neu-person").value = "";
+  document.getElementById("neu-datum").value = "";
+  document.getElementById("neu-prio").value = "MI";
+  document.getElementById("neu-aufgabe").value = "";
+  document.getElementById("neu-modal").style.display = "block";
+  setTimeout(function() { var el = document.getElementById("neu-sig"); if (el) el.focus(); }, 100);
+}
+
+function saveNeu() {
+  var sig = document.getElementById("neu-sig").value;
+  if (sig) sig = sig.replace(/^\s+|\s+$/g, '');
+  var person = document.getElementById("neu-person").value;
+  if (person) person = person.replace(/^\s+|\s+$/g, '');
+  if (!sig || !person) { alert("Bitte mindestens Signatur und Person ausfüllen."); return; }
+  var datum = document.getElementById("neu-datum").value;
+  if (datum) datum = datum.replace(/^\s+|\s+$/g, '');
+  if (!datum) datum = "–";
+  var prio = document.getElementById("neu-prio").value;
+  var aufgabe = document.getElementById("neu-aufgabe").value;
+  if (aufgabe) aufgabe = aufgabe.replace(/^\s+|\s+$/g, '');
+  if (!aufgabe) aufgabe = "Neufund dokumentieren";
+  var id = "dyn" + (new Date()).getTime();
+  var task = {id:id, sec:"Neufunde", sub:"Neufunde – Im Archiv entdeckt", sig:sig, person:person, datum:datum, prio:prio, aufgabe:aufgabe};
+  dynTasks.push(task);
+  saveDyn();
+  document.getElementById("neu-modal").style.display = "none";
+  setS(id, "status", "Offen");
+  render();
+  toast("Neuer Fund gespeichert: " + person);
+  updateLastSaved();
+}
+
+function deleteNeu(id) {
+  if (!confirm("Neufund löschen?")) return;
+  var newDyn = [];
+  for (var i = 0; i < dynTasks.length; i++) {
+    if (dynTasks[i].id !== id) newDyn.push(dynTasks[i]);
+  }
+  dynTasks = newDyn;
+  saveDyn();
+  if (state[id]) { delete state[id]; save(); }
+  render();
+  toast("Neufund gelöscht.");
+}
+
+function showSaveOk(id) {
+  var ok = document.getElementById("saveok-" + id);
+  if (!ok) return;
+  ok.className = "save-ok visible";
+  setTimeout(function() { var el = document.getElementById("saveok-" + id); if (el) el.className = "save-ok"; }, 2000);
+}
+
+function updateLastSaved() {
+  var now = new Date();
+  var h = now.getHours(); var m = now.getMinutes();
+  var t = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m;
+  var el = document.getElementById("last-saved");
+  if (el) el.textContent = "zuletzt " + t + " (lokal)";
+}
+
+function exportJSON() {
+  var d = new Date();
+  var ds = d.getFullYear() + "-" + (d.getMonth()<9?"0":"") + (d.getMonth()+1) + "-" + (d.getDate()<10?"0":"") + d.getDate();
+  var data = {version:"archiv2026v3", exported:d.toISOString(), state:state, dynTasks:dynTasks};
+  var json = JSON.stringify(data, null, 2);
+  var isiOS = /ipad|iphone|ipod/i.test(navigator.userAgent) || (navigator.platform==="MacIntel" && navigator.maxTouchPoints>1);
+  try {
+    var blob = new Blob([json], {type:"application/json"});
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url; a.download = "archiv-backup-" + ds + ".json";
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(function() { URL.revokeObjectURL(url); }, 1000);
+    if (isiOS) {
+      toast("📂 iPad: Teilen-Symbol antippen → \"In Dateien sichern\"");
+    } else {
+      toast("✓ Backup wird heruntergeladen");
+    }
+  } catch(e) {
+    var ta = document.getElementById("exp-out");
+    if (ta) { ta.value = json; }
+    document.getElementById("exp-modal").style.display = "block";
+    var titleEl = document.getElementById("exp-modal-title");
+    if (titleEl) titleEl.textContent = "Backup – manuell sichern";
+    var hintEl = document.getElementById("exp-hint");
+    if (hintEl) hintEl.textContent = "⚠️ Download nicht möglich. Text oben komplett markieren, kopieren und in Notizen-App oder Mail einfügen.";
+    toast("⚠️ Download fehlgeschlagen – Text manuell kopieren");
+  }
+  var el = document.getElementById("last-saved");
+  if (el) el.textContent = "Backup " + ds + " erstellt";
+}
+
+function importJSON(ev) {
+  var file = ev.target.files[0]; if (!file) return;
+  var reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      var data = JSON.parse(e.target.result);
+      if (!data.state) throw new Error("Ungültiges Format");
+      if (confirm("Backup laden?\nAktuelle Einträge werden überschrieben.\n\nQuelle: " + file.name)) {
+        state = data.state;
+        dynTasks = data.dynTasks || [];
+        save(); saveDyn(); render();
+        toast("Backup geladen: " + file.name);
+        var el = document.getElementById("last-saved");
+        if (el) el.textContent = "Backup geladen";
+      }
+    } catch(err) { alert("Fehler: " + err.message); }
+    ev.target.value = "";
+  };
+  reader.readAsText(file);
+}
+
+function showAnforderung() {
+  var allT = TASKS.concat(dynTasks);
+  var items = [];
+  for (var i = 0; i < allT.length; i++) {
+    var f = getS(allT[i].id).fundstelle;
+    if (f && f.replace(/^\s+|\s+$/g,'')) items.push(allT[i]);
+  }
+  var html = "";
+  if (!items.length) {
+    html = '<div class="anf-empty">Noch keine Fundstellen eingetragen.<br>Tragen Sie bei gefundenen Eintr&auml;gen die Fundstelle / Folio ein.</div>';
+  } else {
+    var rows = "";
+    for (var i = 0; i < items.length; i++) {
+      var t = items[i]; var s = getS(t.id);
+      var bem = s.transkription ? s.transkription.substring(0,60) + (s.transkription.length > 60 ? "…" : "") : s.status;
+      rows += '<tr><td>' + (i+1) + '</td><td><strong>' + esc(t.sig) + '</strong></td><td>' + esc(t.person) + '</td><td>' + esc(t.datum) + '</td><td><strong>' + esc(s.fundstelle) + '</strong></td><td>' + esc(bem) + '</td></tr>';
+    }
+    html = '<table id="anf-table"><thead><tr><th>#</th><th>Bestand / Signatur</th><th>Person</th><th>Zeitraum</th><th>Fundstelle / Folio</th><th>Bemerkung / Status</th></tr></thead><tbody>' + rows + '</tbody></table>';
+  }
+  document.getElementById("anf-body").innerHTML = html;
+  document.getElementById("anf-modal").style.display = "block";
+}
+
+function closeAnf() { document.getElementById("anf-modal").style.display = "none"; }
+function closeAnfIfBg(e) { if (e.target === document.getElementById("anf-modal")) closeAnf(); }
+
+function printAnf() {
+  var d = new Date();
+  var ds = d.getDate() + "." + (d.getMonth()+1) + "." + d.getFullYear();
+  var cnt = 0;
+  for (var i = 0; i < TASKS.length; i++) {
+    var f = getS(TASKS[i].id).fundstelle;
+    if (f && f.replace(/^\s+|\s+$/g,'')) cnt++;
+  }
+  var el = document.getElementById("print-meta");
+  if (el) el.textContent = "Archivbesuch LKA Dresden / StA Freiberg | Erstellt: " + ds + " | " + cnt + " Bestellungen";
+  setTimeout(function() { window.print(); }, 80);
+}
+
+function copyAnf() {
+  var allT = TASKS.concat(dynTasks);
+  var items = [];
+  for (var i = 0; i < allT.length; i++) {
+    var f = getS(allT[i].id).fundstelle;
+    if (f && f.replace(/^\s+|\s+$/g,'')) items.push(allT[i]);
+  }
+  if (!items.length) { toast("Keine Fundstellen eingetragen."); return; }
+  var d = new Date();
+  var ds = d.getDate() + "." + (d.getMonth()+1) + "." + d.getFullYear();
+  var txt = "ANFORDERUNGSLISTE – AUSDRUCKE\nArchivbesuch LKA Dresden / StA Freiberg | " + ds + "\n============================================================\n\n";
+  for (var i = 0; i < items.length; i++) {
+    var t = items[i]; var s = getS(t.id);
+    txt += (i+1) + ". " + t.sig + "\n   Person: " + t.person + " (" + t.datum + ")\n   Fundstelle: " + s.fundstelle + "\n   Status: " + s.status + "\n\n";
+  }
+  doCopy(txt);
+}
+
+function exportMd() {
+  var d = new Date();
+  var ds = d.getDate() + "." + (d.getMonth()+1) + "." + d.getFullYear();
+  var allT = TASKS.concat(dynTasks);
+  var tot = allT.length; var gef = 0; var teil = 0;
+  for (var i = 0; i < allT.length; i++) {
+    var st = getS(allT[i].id).status;
+    if (st === "Gefunden") gef++;
+    else if (st === "Teilbefund") teil++;
+  }
+  var md = "# Gesamtliste Archivaufgaben – Dresden & Freiberg\n\nStand: " + ds + " | Gesamt: " + tot + " | Gefunden: " + gef + " | Teilbefund: " + teil + "\n\n";
+  var secs = []; var seenSec = {};
+  for (var i = 0; i < allT.length; i++) { if (!seenSec[allT[i].sec]) { seenSec[allT[i].sec] = true; secs.push(allT[i].sec); } }
+  for (var si = 0; si < secs.length; si++) {
+    var sec = secs[si];
+    md += "## " + sec + "\n\n";
+    var subs2 = []; var seenSub = {};
+    for (var i = 0; i < allT.length; i++) { if (allT[i].sec === sec && !seenSub[allT[i].sub]) { seenSub[allT[i].sub] = true; subs2.push(allT[i].sub); } }
+    for (var sbi = 0; sbi < subs2.length; sbi++) {
+      var sub2 = subs2[sbi];
+      md += "### " + sub2 + "\n\n";
+      for (var i = 0; i < allT.length; i++) {
+        var t = allT[i];
+        if (t.sub !== sub2) continue;
+        var s = getS(t.id);
+        md += "**[" + s.status + "]** " + t.person + " (" + t.datum + ") · " + t.sig + " · Prio: " + t.prio + "\n";
+        md += "Aufgabe: " + t.aufgabe + "\n";
+        if (s.fundstelle) md += "Fundstelle/Folio: " + s.fundstelle + "\n";
+        if (s.transkription) md += "Transkription/Bemerkungen: " + s.transkription + "\n";
+        md += "\n";
+      }
+    }
+  }
+  var ta = document.getElementById("exp-out");
+  if (ta) ta.value = md;
+  var titleEl = document.getElementById("exp-modal-title");
+  if (titleEl) titleEl.textContent = "⬇ Markdown-Export";
+  var hintEl = document.getElementById("exp-hint");
+  if (hintEl) hintEl.textContent = "";
+  document.getElementById("exp-modal").style.display = "block";
+}
+
+function doCopy(txt) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(txt).then(function() { toast("In Zwischenablage kopiert"); }, function() { fbCopy(txt); });
+  } else { fbCopy(txt); }
+}
+
+function fbCopy(txt) {
+  var ta = document.createElement("textarea");
+  ta.value = txt;
+  ta.style.position = "absolute";
+  ta.style.left = "-9999px";
+  ta.style.top = (window.pageYOffset || document.documentElement.scrollTop) + "px";
+  ta.setAttribute("readonly", "");
+  document.body.appendChild(ta);
+  ta.select();
+  if (navigator.userAgent.match(/ipad|iphone/i)) {
+    var range = document.createRange();
+    range.selectNodeContents(ta);
+    var sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+    ta.setSelectionRange(0, 999999);
+  }
+  try { document.execCommand("copy"); toast("Kopiert!"); } catch(e) { toast("Clipboard nicht verfügbar – bitte manuell kopieren"); }
+  document.body.removeChild(ta);
+}
+
+function closeModalIfBg(e, id) { if (e.target === document.getElementById(id)) document.getElementById(id).style.display = "none"; }
+function selectAll() { var ta = document.getElementById("exp-out"); if (ta) { ta.focus(); ta.select(); } }
+
+function esc(s) {
+  if (!s) return "";
+  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+function toast(msg) {
+  var el = document.getElementById("toast");
+  if (!el) return;
+  el.textContent = msg;
+  el.style.display = "block";
+  setTimeout(function() { var e2 = document.getElementById("toast"); if (e2) e2.style.display = "none"; }, 2500);
+}
+
+// Initial render with localStorage data (fast)
+render();
+
+// Then init IndexedDB (async, will re-render when ready)
+initStorage();
+
+if (!_lsOk && !_useIDB) {
+  setTimeout(function() {
+    // Only warn if BOTH storage methods failed
+    if (!_useIDB) {
+      toast("⚠️ Privater Modus – Daten werden nur temporär gespeichert!");
+      var bar = document.getElementById("backup-bar");
+      if (bar) { bar.style.background = "#fee2e2"; bar.style.borderColor = "#fca5a5"; bar.style.color = "#991b1b"; }
+      var el = document.getElementById("last-saved");
+      if (el) el.textContent = "⚠️ Eingeschränkter Speicher (privater Modus)";
+    }
+  }, 1500);
+}
+</script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('./sw.js').then(function(registration) {
+        console.log('[Archiv] SW registriert, Scope:', registration.scope);
+        // Check for updates
+        registration.addEventListener('updatefound', function() {
+          console.log('[Archiv] SW Update gefunden');
+        });
+      }).catch(function(err) {
+        console.warn('[Archiv] SW Fehler:', err);
+      });
+    });
+  }
+</script>
+</body>
+</html>
