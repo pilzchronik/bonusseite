@@ -1,8 +1,0 @@
-{
-  "name": "Archivaufgaben",
-  "short_name": "Archiv",
-  "start_url": "/bonusseite/archiv/index.html",
-  "display": "standalone",
-  "background_color": "#1e293b",
-  "theme_color": "#1e293b"
-}
