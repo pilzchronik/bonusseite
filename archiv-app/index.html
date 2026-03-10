@@ -2,15 +2,14 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="manifest" href="manifest.json">
 <title>Archivaufgaben – Dresden &amp; Freiberg</title>
 <style>
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;background:#f1f5f9;font-size:15px;color:#1e293b;}
-#header{background:#1e293b;color:#fff;padding:14px 16px 12px;padding-top:calc(14px + env(safe-area-inset-top));position:sticky;top:0;z-index:100;}
+#header{background:#1e293b;color:#fff;padding:14px 16px 12px;position:sticky;top:0;z-index:100;}
 #header h1{margin:0;font-size:18px;font-weight:700;letter-spacing:-0.3px;}
 #header p{margin:4px 0 0;font-size:12px;color:#94a3b8;}
 .stats{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
@@ -71,13 +70,16 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans
   #anf-inner>p{display:none;}
   .anf-btns{display:none!important;}
   #print-head{display:block!important;}
-  #anf-table{font-size:10pt; page-break-inside: auto;}
-  thead { display: table-header-group; }
-  #anf-table tr { page-break-inside: avoid; break-inside: avoid; }
+  #anf-table{font-size:10pt;}
   #anf-table th{background:#334155!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
   #anf-table td{padding:5px 8px;}
   #anf-table tr:nth-child(even) td{background:#f5f5f5!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
-  .modal-overlay, .modal-box { overflow: visible !important; height: auto !important; max-height: none !important; }
+  #ges-modal{display:block!important;position:static;background:none;padding:0;}
+  #ges-modal h2{font-size:14pt;margin-bottom:2px;}
+  #ges-modal>p{display:none;}
+  .modal-btns{display:none!important;}
+  #ges-print-head{display:block!important;}
+  #ges-stats{flex-wrap:wrap;}
 }
 #print-head{display:none;margin-bottom:16px;border-bottom:2px solid #1e293b;padding-bottom:10px;}
 #print-head h3{margin:0;font-size:13pt;}
@@ -142,7 +144,6 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans
 </style>
 </head>
 <body>
-<div id="err-box" style="display:none;background:#fee2e2;color:#991b1b;padding:16px;font-size:14px;font-weight:bold;position:fixed;top:0;left:0;right:0;z-index:9999;">JS-Fehler</div>
 
 <div id="header">
   <h1>📋 Archivaufgaben – Dresden &amp; Freiberg</h1>
@@ -181,6 +182,7 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans
   <div class="expbtns">
     <button class="expbtn green" onclick="showNeuModal()">+ Neuer Fund</button>
     <button class="expbtn teal" onclick="showAnforderung()">🖨 Anforderungsliste</button>
+    <button class="expbtn dark" onclick="showGesamtbericht()">📊 Gesamtbericht</button>
     <button class="expbtn dark" onclick="exportMd()">⬇ Markdown</button>
   </div>
 </div>
@@ -194,6 +196,7 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans
 <div id="content"></div>
 <div id="toast"></div>
 
+<!-- Anforderungsliste Modal -->
 <div id="anf-modal" class="modal-overlay" onclick="closeModalIfBg(event,'anf-modal')">
   <div class="modal-box">
     <div id="print-head">
@@ -212,6 +215,27 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans
   </div>
 </div>
 
+<!-- Gesamtbericht Modal -->
+<div id="ges-modal" class="modal-overlay" onclick="closeModalIfBg(event,'ges-modal')">
+  <div class="modal-box" style="max-width:900px;">
+    <div id="ges-print-head" style="display:none;margin-bottom:14px;border-bottom:2px solid #1e293b;padding-bottom:10px;">
+      <h3 style="margin:0;font-size:13pt;">Gesamtbericht – Archivbesuch LKA Dresden / StA Freiberg</h3>
+      <p id="ges-print-meta" style="margin:2px 0 0;font-size:9pt;color:#555;"></p>
+    </div>
+    <h2>📊 Gesamtbericht – alle Eintragungen</h2>
+    <p>Alle Aufgaben mit Status-Änderung, Fundstelle oder Bemerkung. Zeigt den Stand des gesamten Archivbesuchs.<br>
+    <small style="color:#0f766e">📱 iPad: <strong>Drucken → zwei Finger spreizen → als PDF sichern</strong></small></p>
+    <div id="ges-stats" style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px;font-size:13px;"></div>
+    <div id="ges-body"></div>
+    <div class="modal-btns">
+      <button class="modal-btn print" onclick="printGesamtbericht()">🖨 Drucken / Als PDF</button>
+      <button class="modal-btn copy" onclick="copyGesamtbericht()">Als Text kopieren</button>
+      <button class="modal-btn close" onclick="document.getElementById('ges-modal').style.display='none'">Schließen</button>
+    </div>
+  </div>
+</div>
+
+<!-- Neuer Fund Modal -->
 <div id="neu-modal" class="modal-overlay" onclick="closeModalIfBg(event,'neu-modal')">
   <div class="modal-box">
     <h2>+ Neuer Fund / Unerwarteter Beleg</h2>
@@ -250,9 +274,10 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans
   </div>
 </div>
 
+<!-- Markdown-Export Modal -->
 <div id="exp-modal" class="modal-overlay" onclick="closeModalIfBg(event,'exp-modal')">
   <div class="modal-box">
-    <h2 id="exp-modal-title">⬇ Markdown-Export</h2>
+    <h2>⬇ Markdown-Export</h2>
     <p>Alles markieren (Ctrl+A / Cmd+A) und kopieren (Ctrl+C / Cmd+C), dann in ein Dokument einfügen.</p>
     <textarea id="exp-out" readonly></textarea>
     <div class="copy-hint" id="exp-hint"></div>
@@ -264,13 +289,7 @@ body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans
 </div>
 
 <script>
-window.onerror = function(msg, src, line, col, err) {
-  var box = document.getElementById('err-box');
-  if (box) { box.style.display = 'block'; box.textContent = 'JS-Fehler: ' + msg + ' (Z.' + line + ')'; }
-  return false;
-};
-
-var TASKS = [
+const TASKS=[
 {id:1,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 34 (Taufregister 1564–1840)",sig:"Reg. 34",person:"Abraham PILZ",datum:"Aug. 1591",prio:"HH",aufgabe:"Taufe suchen (Register S. 34 zuerst, dann KB 23 öffnen); Eltern + Paten vollständig erfassen"},
 {id:2,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 34 (Taufregister 1564–1840)",sig:"Reg. 34",person:"Michael PILZ",datum:"03.09.1570",prio:"HH",aufgabe:"Taufe suchen; Elternschaft klären: Jobst BÜLTZ oder Michael PILTZ ~1510?"},
 {id:3,sec:"LKA Dresden",sub:"1.1 Dörnthal – Reg. 34 (Taufregister 1564–1840)",sig:"Reg. 34",person:"Kinder Joseph PÜLTZ / Sibylla Zimmermann",datum:"1575–1591",prio:"HH",aufgabe:"Taufen suchen: Christoff 1575, Anna 1576, Margareta 1578, Katharina 1580, Matthes 1583, [unben.] 1585, Hans 1587, [unben.] 1588"},
@@ -323,613 +342,434 @@ var TASKS = [
 {id:50,sec:"Seitenlinien",sub:"Teil III – Nur wenn Zeit bleibt",sig:"KB Olbernhau / Grünthal",person:"Michael PILZ *1686 (Kupferhammer)",datum:"ca. 1686",prio:"NI",aufgabe:"Eltern? Verbindung zur Hauptlinie?"}
 ];
 
-var PRIO_CLS = {HH:"prio-HH",MI:"prio-MI",NI:"prio-NI",OPT:"prio-OPT","–":"prio-dash"};
-var STAT_CLS = {"Offen":"s-Offen","Gefunden":"s-Gefunden","Nicht gefunden":"s-NichtGefunden","Ausdruck beantragt":"s-AusdruckBeantragt","Teilbefund":"s-Teilbefund"};
-var STAT_LIST = ["Offen","Gefunden","Nicht gefunden","Ausdruck beantragt","Teilbefund"];
+const PRIO_CLS={HH:"prio-HH",MI:"prio-MI",NI:"prio-NI",OPT:"prio-OPT","–":"prio-dash"};
+const STAT_CLS={"Offen":"s-Offen","Gefunden":"s-Gefunden","Nicht gefunden":"s-NichtGefunden","Ausdruck beantragt":"s-AusdruckBeantragt","Teilbefund":"s-Teilbefund"};
+const STAT_LIST=["Offen","Gefunden","Nicht gefunden","Ausdruck beantragt","Teilbefund"];
 
-var state = {};
-var dynTasks = [];
-var _storageReady = false;
-var _useIDB = false;
-var _lsOk = false;
-var _db = null;
-var DB_NAME = 'archiv2026db';
-var DB_VERSION = 1;
-var STORE_NAME = 'kv';
+let state={};
+let dynTasks=[];  // Neufunde
+try{const s=localStorage.getItem("archiv2026v3");if(s)state=JSON.parse(s);}catch(e){}
+try{const d=localStorage.getItem("archiv2026dyn");if(d)dynTasks=JSON.parse(d);}catch(e){}
 
-// --- IndexedDB Wrapper ---
-function idbOpen() {
-  return new Promise(function(resolve, reject) {
-    try {
-      var req = indexedDB.open(DB_NAME, DB_VERSION);
-      req.onupgradeneeded = function(e) {
-        var db = e.target.result;
-        if (!db.objectStoreNames.contains(STORE_NAME)) {
-          db.createObjectStore(STORE_NAME);
-        }
-      };
-      req.onsuccess = function(e) { resolve(e.target.result); };
-      req.onerror = function(e) { reject(e.target.error); };
-    } catch(e) { reject(e); }
+function saveDyn(){try{localStorage.setItem("archiv2026dyn",JSON.stringify(dynTasks));}catch(e){}}
+
+function save(){try{localStorage.setItem("archiv2026v2",JSON.stringify(state));}catch{}}
+function getS(id){return state[id]||{status:"Offen",fundstelle:"",transkription:"",open:false};}
+function setS(id,field,val){if(!state[id])state[id]={status:"Offen",fundstelle:"",transkription:"",open:false};state[id][field]=val;save();}
+
+function updateStats(){
+  var allT=TASKS.concat(dynTasks);
+  var tot=allT.length;
+  var counts={Gefunden:0,Teilbefund:0,AusdruckBeantragt:0,Offen:0};
+  allT.forEach(function(t){
+    var st=getS(t.id).status;
+    if(st==="Gefunden") counts.Gefunden++;
+    else if(st==="Teilbefund") counts.Teilbefund++;
+    else if(st==="Ausdruck beantragt") counts.AusdruckBeantragt++;
+    else counts.Offen++;
   });
+  var pct=Math.round((counts.Gefunden+counts.Teilbefund+counts.AusdruckBeantragt)*100/tot);
+  document.getElementById("st-tot").textContent="Gesamt: "+tot;
+  document.getElementById("st-gef").textContent="Gefunden: "+counts.Gefunden;
+  document.getElementById("st-teil").textContent="Teilbefund: "+counts.Teilbefund;
+  document.getElementById("st-anf").textContent="Ausdruck beantragt: "+counts.AusdruckBeantragt;
+  document.getElementById("st-off").textContent="Offen: "+counts.Offen;
+  document.getElementById("pbar").style.width=pct+"%";
 }
 
-function idbGet(db, key) {
-  return new Promise(function(resolve, reject) {
-    try {
-      var tx = db.transaction(STORE_NAME, 'readonly');
-      var store = tx.objectStore(STORE_NAME);
-      var req = store.get(key);
-      req.onsuccess = function() { resolve(req.result); };
-      req.onerror = function() { reject(req.error); };
-    } catch(e) { reject(e); }
+function render(){
+  const fSec=document.getElementById("fSec").value;
+  const fPrio=document.getElementById("fPrio").value;
+  const fStat=document.getElementById("fStat").value;
+  // Combine fixed + dynamic tasks
+  const allTasks=TASKS.concat(dynTasks);
+  const filtered=allTasks.filter(function(t){
+    return (fSec==="Alle"||t.sec===fSec)&&
+           (fPrio==="Alle"||t.prio===fPrio)&&
+           (fStat==="Alle"||getS(t.id).status===fStat);
   });
-}
+  const subs=[];const grouped={};
+  filtered.forEach(function(t){if(!grouped[t.sub]){grouped[t.sub]=[];subs.push(t.sub);}grouped[t.sub].push(t);});
 
-function idbPut(db, key, val) {
-  return new Promise(function(resolve, reject) {
-    try {
-      var tx = db.transaction(STORE_NAME, 'readwrite');
-      var store = tx.objectStore(STORE_NAME);
-      var req = store.put(val, key);
-      req.onsuccess = function() { resolve(); };
-      req.onerror = function() { reject(req.error); };
-    } catch(e) { reject(e); }
-  });
-}
-
-// --- localStorage Fallback ---
-try {
-  localStorage.setItem("__lsTest", "1");
-  localStorage.removeItem("__lsTest");
-  _lsOk = true;
-} catch(e) { _lsOk = false; }
-
-// Load from localStorage first (synchronous, instant display)
-try { var _s = localStorage.getItem("archiv2026v3"); if (_s) state = JSON.parse(_s); } catch(e) {}
-try { var _d = localStorage.getItem("archiv2026dyn"); if (_d) dynTasks = JSON.parse(_d); } catch(e) {}
-
-// Then try to upgrade to IndexedDB (async)
-function initStorage() {
-  // Request persistent storage (reduces Safari cache eviction)
-  if (navigator.storage && navigator.storage.persist) {
-    navigator.storage.persist().then(function(granted) {
-      if (granted) {
-        console.log('[Archiv] Persistenter Speicher gewährt');
-      } else {
-        console.log('[Archiv] Persistenter Speicher abgelehnt – Backups wichtig!');
-      }
+  let html="";
+  if(!filtered.length){html='<div class="empty">Keine Aufgaben für diese Filterauswahl.</div>';}
+  subs.forEach(function(sub){
+    const isNeu=filtered.filter(function(t){return t.sub===sub;})[0].sec==="Neufunde";
+    html+='<div class="section-header'+(isNeu?' neufund-header':'')+'">'+esc(sub)+'</div><div class="task-group">';
+    grouped[sub].forEach(function(t){
+      const s=getS(t.id);
+      const isDyn=typeof t.id==="string"&&t.id.startsWith("dyn");
+      html+='<div class="task-row" id="row-'+t.id+'">'
+        +'<div class="task-top" onclick="toggle(\''+t.id+'\')">'
+        +'<span class="prio-badge '+(PRIO_CLS[t.prio]||'prio-dash')+'">'+t.prio+'</span>'
+        +'<div class="task-info">'
+        +'<div><span class="task-name">'+esc(t.person)+'</span><span class="task-datum">'+esc(t.datum)+'</span></div>'
+        +'<div class="task-sig">'+esc(t.sig)+'</div>'
+        +'<div class="task-aufgabe">'+esc(t.aufgabe)+'</div>'
+        +(s.fundstelle?'<div class="task-preview">📍 '+esc(s.fundstelle)+'</div>':"")
+        +'</div>'
+        +'<span class="status-badge '+(STAT_CLS[s.status]||'s-Offen')+'" id="sbadge-'+t.id+'">'+esc(s.status)+'</span>'
+        +'<span class="chevron'+(s.open?" open":"")+'\" id="chev-'+t.id+'">▼</span>'
+        +'</div>'
+        +'<div class="task-detail'+(s.open?" open":"")+'" id="det-'+t.id+'">'
+        +'<div class="aufgabe-box"><strong>Aufgabe:</strong> '+esc(t.aufgabe)+'</div>'
+        +'<div class="status-label">Status:</div>'
+        +'<div class="status-btns">'
+        +STAT_LIST.map(function(st){return '<button class="status-btn '+(STAT_CLS[st]||'')+'" style="'+(s.status===st?'box-shadow:0 0 0 2px #6366f1;transform:scale(1.04)':'')+'" onclick="setStatus(\''+t.id+'\',\''+st+'\',event)">'+esc(st)+'</button>';}).join("")
+        +'</div>'
+        +'<hr class="divider">'
+        +'<div class="field-block">'
+        +'<div class="field-label">📍 Fundstelle / Folio / Seitenangabe</div>'
+        +'<input type="text" class="field-input" id="fs-'+t.id+'" value="'+esc(s.fundstelle)+'" placeholder="z.B. Bl. 47v, S. 133, Fol. 15r …" oninput="saveField(\''+t.id+'\',\'fundstelle\',this.value)">'
+        +'</div>'
+        +'<div class="field-block">'
+        +'<div class="field-label gray">📝 Transkription / Bemerkungen / Paten / Zeugen</div>'
+        +'<textarea class="field-input tall" id="tr-'+t.id+'" placeholder="Volltext, Namen, Paten, Zeugen …" oninput="saveField(\''+t.id+'\',\'transkription\',this.value)">'+esc(s.transkription)+'</textarea>'
+        +'</div>'
+        +'<div class="save-ok" id="saveok-'+t.id+'">✓ Gespeichert</div>'
+        +'<div class="save-hint">Backup täglich empfohlen (gelbe Leiste oben)</div>'
+        +(isDyn?'<button class="del-btn" onclick="deleteNeu(\''+t.id+'\')">🗑 Neufund löschen</button>':"")
+        +'</div>'
+        +'</div>';
     });
-  }
-
-  idbOpen().then(function(db) {
-    _db = db;
-    _useIDB = true;
-    console.log('[Archiv] IndexedDB bereit');
-
-    // Load from IDB – if data exists there, it takes priority
-    return Promise.all([idbGet(db, 'state'), idbGet(db, 'dynTasks')]);
-  }).then(function(results) {
-    var idbState = results[0];
-    var idbDyn = results[1];
-
-    // Merge: IDB data wins if it exists and has content
-    if (idbState && Object.keys(idbState).length > 0) {
-      // Merge IDB state with any localStorage state (IDB wins on conflicts)
-      var merged = {};
-      var k;
-      for (k in state) { if (state.hasOwnProperty(k)) merged[k] = state[k]; }
-      for (k in idbState) { if (idbState.hasOwnProperty(k)) merged[k] = idbState[k]; }
-      state = merged;
-    }
-    if (idbDyn && idbDyn.length > 0) {
-      // Merge dynamic tasks by id
-      var existingIds = {};
-      for (var i = 0; i < dynTasks.length; i++) existingIds[dynTasks[i].id] = true;
-      for (var j = 0; j < idbDyn.length; j++) {
-        if (!existingIds[idbDyn[j].id]) dynTasks.push(idbDyn[j]);
-      }
-      // If IDB has more, use IDB version
-      if (idbDyn.length >= dynTasks.length) dynTasks = idbDyn;
-    }
-
-    _storageReady = true;
-    // Re-render with full data
-    render();
-    // Write merged data back to both stores
-    save();
-    saveDyn();
-    console.log('[Archiv] Daten aus IndexedDB geladen');
-  }).catch(function(err) {
-    console.warn('[Archiv] IndexedDB nicht verfügbar, nutze localStorage:', err);
-    _storageReady = true;
+    html+="</div>";
   });
-}
 
-function saveDyn() {
-  // Always try localStorage as backup
-  if (_lsOk) {
-    try { localStorage.setItem("archiv2026dyn", JSON.stringify(dynTasks)); }
-    catch(e) {
-      if (e.name==="QuotaExceededError"||e.name==="QUOTA_EXCEEDED_ERR"||(e.code&&e.code===22)){
-        alert("⚠️ SPEICHER VOLL!\n\nBitte sofort ein JSON-Backup erstellen (gelbe Leiste → ⬇ Backup speichern).");
-      }
-    }
-  }
-  // Also write to IndexedDB (primary, more durable)
-  if (_useIDB && _db) {
-    idbPut(_db, 'dynTasks', dynTasks).catch(function(e) {
-      console.warn('[Archiv] IDB saveDyn fehlgeschlagen:', e);
-    });
-  }
-}
-
-function save() {
-  // Always try localStorage as backup
-  if (_lsOk) {
-    try { localStorage.setItem("archiv2026v3", JSON.stringify(state)); }
-    catch(e) {
-      if (e.name==="QuotaExceededError"||e.name==="QUOTA_EXCEEDED_ERR"||(e.code&&e.code===22)){
-        alert("⚠️ SPEICHER VOLL!\n\nBitte sofort ein JSON-Backup erstellen (gelbe Leiste → ⬇ Backup speichern).");
-      }
-    }
-  }
-  // Also write to IndexedDB (primary, more durable)
-  if (_useIDB && _db) {
-    idbPut(_db, 'state', state).catch(function(e) {
-      console.warn('[Archiv] IDB save fehlgeschlagen:', e);
-    });
-  }
-}
-function getS(id) { return state[id] || {status:"Offen",fundstelle:"",transkription:"",open:false}; }
-function setS(id, field, val) {
-  if (!state[id]) state[id] = {status:"Offen",fundstelle:"",transkription:"",open:false};
-  state[id][field] = val;
-  save();
-}
-
-function updateStats() {
-  var allT = TASKS.concat(dynTasks);
-  var tot = allT.length;
-  var gef = 0, teil = 0, anf = 0, off = 0;
-  for (var i = 0; i < allT.length; i++) {
-    var st = getS(allT[i].id).status;
-    if (st === "Gefunden") gef++;
-    else if (st === "Teilbefund") teil++;
-    else if (st === "Ausdruck beantragt") anf++;
-    else off++;
-  }
-  var pct = Math.round((gef + teil + anf) * 100 / tot);
-  document.getElementById("st-tot").textContent = "Gesamt: " + tot;
-  document.getElementById("st-gef").textContent = "Gefunden: " + gef;
-  document.getElementById("st-teil").textContent = "Teilbefund: " + teil;
-  document.getElementById("st-anf").textContent = "Ausdruck beantragt: " + anf;
-  document.getElementById("st-off").textContent = "Offen: " + off;
-  document.getElementById("pbar").style.width = pct + "%";
-}
-
-function render() {
-  var fSec = document.getElementById("fSec").value;
-  var fPrio = document.getElementById("fPrio").value;
-  var fStat = document.getElementById("fStat").value;
-  var allTasks = TASKS.concat(dynTasks);
-  var filtered = [];
-  for (var i = 0; i < allTasks.length; i++) {
-    var t = allTasks[i];
-    if ((fSec === "Alle" || t.sec === fSec) &&
-        (fPrio === "Alle" || t.prio === fPrio) &&
-        (fStat === "Alle" || getS(t.id).status === fStat)) {
-      filtered.push(t);
-    }
-  }
-  var subs = [];
-  var grouped = {};
-  for (var i = 0; i < filtered.length; i++) {
-    var t = filtered[i];
-    if (!grouped[t.sub]) { grouped[t.sub] = []; subs.push(t.sub); }
-    grouped[t.sub].push(t);
-  }
-
-  var html = "";
-  if (!filtered.length) {
-    html = '<div class="empty">Keine Aufgaben f&uuml;r diese Filterauswahl.</div>';
-  }
-  for (var si = 0; si < subs.length; si++) {
-    var sub = subs[si];
-    var isNeu = (grouped[sub][0].sec === "Neufunde");
-    html += '<div class="section-header' + (isNeu ? ' neufund-header' : '') + '">' + esc(sub) + '</div>';
-    html += '<div class="task-group">';
-    var grp = grouped[sub];
-    for (var gi = 0; gi < grp.length; gi++) {
-      var t = grp[gi];
-      var s = getS(t.id);
-      var isDyn = (typeof t.id === "string" && t.id.indexOf("dyn") === 0);
-      var openCls = s.open ? " open" : "";
-      html += '<div class="task-row" id="row-' + t.id + '">';
-      html += '<div class="task-top" onclick="toggle(' + "'" + t.id + "'" + ')">';
-      html += '<span class="prio-badge ' + (PRIO_CLS[t.prio] || 'prio-dash') + '">' + t.prio + '</span>';
-      html += '<div class="task-info">';
-      html += '<div><span class="task-name">' + esc(t.person) + '</span><span class="task-datum">' + esc(t.datum) + '</span></div>';
-      html += '<div class="task-sig">' + esc(t.sig) + '</div>';
-      html += '<div class="task-aufgabe">' + esc(t.aufgabe) + '</div>';
-      if (s.fundstelle) html += '<div class="task-preview">' + '&#128205; ' + esc(s.fundstelle) + '</div>';
-      html += '</div>';
-      html += '<span class="status-badge ' + (STAT_CLS[s.status] || 's-Offen') + '" id="sbadge-' + t.id + '">' + esc(s.status) + '</span>';
-      html += '<span class="chevron' + openCls + '" id="chev-' + t.id + '">&#9660;</span>';
-      html += '</div>';
-      html += '<div class="task-detail' + openCls + '" id="det-' + t.id + '">';
-      html += '<div class="aufgabe-box"><strong>Aufgabe:</strong> ' + esc(t.aufgabe) + '</div>';
-      html += '<div class="status-label">Status:</div>';
-      html += '<div class="status-btns">';
-      for (var sti = 0; sti < STAT_LIST.length; sti++) {
-        var st2 = STAT_LIST[sti];
-        var activeStyle = (s.status === st2) ? 'box-shadow:0 0 0 2px #6366f1;transform:scale(1.04)' : '';
-        html += '<button class="status-btn ' + (STAT_CLS[st2] || '') + '" style="' + activeStyle + '" onclick="setStatus(' + "'" + t.id + "','" + st2 + "'" + ',event)">' + esc(st2) + '</button>';
-      }
-      html += '</div>';
-      html += '<hr class="divider">';
-      html += '<div class="field-block">';
-      html += '<div class="field-label">&#128205; Fundstelle / Folio / Seitenangabe</div>';
-      html += '<input type="text" class="field-input" id="fs-' + t.id + '" value="' + esc(s.fundstelle) + '" placeholder="z.B. Bl. 47v, S. 133, Fol. 15r ..." oninput="saveField(' + "'" + t.id + "','fundstelle'" + ',this.value)">';
-      html += '</div>';
-      html += '<div class="field-block">';
-      html += '<div class="field-label gray">&#128221; Transkription / Bemerkungen / Paten / Zeugen</div>';
-      html += '<textarea class="field-input tall" id="tr-' + t.id + '" placeholder="Volltext, Namen, Paten, Zeugen ..." oninput="saveField(' + "'" + t.id + "','transkription'" + ',this.value)">' + esc(s.transkription) + '</textarea>';
-      html += '</div>';
-      html += '<div class="save-ok" id="saveok-' + t.id + '">&#10003; Gespeichert</div>';
-      html += '<div class="save-hint">Backup t&auml;glich empfohlen (gelbe Leiste oben)</div>';
-      if (isDyn) html += '<button class="del-btn" onclick="deleteNeu(' + "'" + t.id + "'" + ')">&#128465; Neufund l&ouml;schen</button>';
-      html += '</div>';
-      html += '</div>';
-    }
-    html += '</div>';
-  }
-  html += '<div class="legend"><strong>Namensvarianten:</strong> Pilz &middot; Piltz &middot; P&uuml;ltz &middot; P&uuml;lcz &middot; Pultz &middot; P&uuml;ltzend &middot; P&uuml;ltzin &middot; Piltzin &middot; Biltz &middot; B&uuml;ltz &middot; B&uuml;ltzin &nbsp;|&nbsp; <strong>Prio:</strong> HH = Hoch &middot; MI = Mittel &middot; NI = Niedrig &middot; OPT = Optional</div>';
-  document.getElementById("content").innerHTML = html;
+  html+=`<div class="legend"><strong>Namensvarianten:</strong> Pilz · Piltz · Pültz · Pülcz · Pultz · Pültzend · Pültzin · Piltzin · Biltz · Bültz · Bültzin &nbsp;|&nbsp; <strong>Prio:</strong> HH = Hoch · MI = Mittel · NI = Niedrig · OPT = Optional</div>`;
+  document.getElementById("content").innerHTML=html;
   updateStats();
 }
 
-function toggle(id) {
-  var s = getS(id);
-  var o = !s.open;
-  setS(id, "open", o);
-  var det = document.getElementById("det-" + id);
-  var chev = document.getElementById("chev-" + id);
-  if (det) { if (o) { det.className = "task-detail open"; } else { det.className = "task-detail"; } }
-  if (chev) { if (o) { chev.className = "chevron open"; } else { chev.className = "chevron"; } }
+function toggle(id){
+  const s=getS(id);const o=!s.open;
+  setS(id,"open",o);
+  document.getElementById("det-"+id).classList.toggle("open",o);
+  document.getElementById("chev-"+id).classList.toggle("open",o);
 }
 
-function setStatus(id, st, e) {
-  if (e && e.stopPropagation) e.stopPropagation();
-  setS(id, "status", st);
-  var badge = document.getElementById("sbadge-" + id);
-  if (badge) { badge.className = "status-badge " + (STAT_CLS[st] || "s-Offen"); badge.textContent = st; }
-  var row = document.getElementById("row-" + id);
-  if (row) {
-    var btns = row.getElementsByClassName("status-btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].style.boxShadow = (STAT_LIST[i] === st) ? "0 0 0 2px #6366f1" : "";
-      btns[i].style.transform = (STAT_LIST[i] === st) ? "scale(1.04)" : "";
-    }
-  }
+function setStatus(id,st,e){
+  e.stopPropagation();setS(id,"status",st);
+  const badge=document.getElementById("sbadge-"+id);
+  if(badge){badge.className="status-badge "+(STAT_CLS[st]||"s-Offen");badge.textContent=st;}
+  const row=document.getElementById("row-"+id);
+  if(row){row.querySelectorAll(".status-btn").forEach((b,i)=>{b.style.boxShadow=STAT_LIST[i]===st?"0 0 0 2px #6366f1":"";b.style.transform=STAT_LIST[i]===st?"scale(1.04)":"";}); }
   showSaveOk(id);
-  updateStats();
-  updateLastSaved();
+  updateStats();updateLastSaved();
 }
 
-function saveField(id, field, val) {
-  setS(id, field, val);
+function saveField(id,field,val){
+  setS(id,field,val);
   showSaveOk(id);
   updateLastSaved();
-  if (field === "fundstelle") {
-    var row = document.getElementById("row-" + id);
-    if (!row) return;
-    var info = row.getElementsByClassName("task-info")[0];
-    var prev = row.getElementsByClassName("task-preview")[0] || null;
-    if (val) {
-      if (!prev) {
-        prev = document.createElement("div");
-        prev.className = "task-preview";
-        if (info) info.appendChild(prev);
-      }
-      prev.textContent = "\u{1F4CD} " + val.substring(0, 80);
-    } else if (prev && prev.parentNode) {
-      prev.parentNode.removeChild(prev);
-    }
+  if(field==="fundstelle"){
+    const row=document.getElementById("row-"+id);if(!row)return;
+    const info=row.querySelector(".task-info");
+    let prev=row.querySelector(".task-preview");
+    if(val){if(!prev){prev=document.createElement("div");prev.className="task-preview";info.appendChild(prev);}prev.textContent="📍 "+val.substring(0,80);}
+    else if(prev) prev.remove();
   }
 }
 
-function showNeuModal() {
-  document.getElementById("neu-sig").value = "";
-  document.getElementById("neu-person").value = "";
-  document.getElementById("neu-datum").value = "";
-  document.getElementById("neu-prio").value = "MI";
-  document.getElementById("neu-aufgabe").value = "";
-  document.getElementById("neu-modal").style.display = "block";
-  setTimeout(function() { var el = document.getElementById("neu-sig"); if (el) el.focus(); }, 100);
+function showNeuModal(){
+  document.getElementById("neu-sig").value="";
+  document.getElementById("neu-person").value="";
+  document.getElementById("neu-datum").value="";
+  document.getElementById("neu-prio").value="MI";
+  document.getElementById("neu-aufgabe").value="";
+  document.getElementById("neu-modal").style.display="block";
+  setTimeout(function(){document.getElementById("neu-sig").focus();},100);
 }
 
-function saveNeu() {
-  var sig = document.getElementById("neu-sig").value;
-  if (sig) sig = sig.replace(/^\s+|\s+$/g, '');
-  var person = document.getElementById("neu-person").value;
-  if (person) person = person.replace(/^\s+|\s+$/g, '');
-  if (!sig || !person) { alert("Bitte mindestens Signatur und Person ausfüllen."); return; }
-  var datum = document.getElementById("neu-datum").value;
-  if (datum) datum = datum.replace(/^\s+|\s+$/g, '');
-  if (!datum) datum = "–";
-  var prio = document.getElementById("neu-prio").value;
-  var aufgabe = document.getElementById("neu-aufgabe").value;
-  if (aufgabe) aufgabe = aufgabe.replace(/^\s+|\s+$/g, '');
-  if (!aufgabe) aufgabe = "Neufund dokumentieren";
-  var id = "dyn" + (new Date()).getTime();
-  var task = {id:id, sec:"Neufunde", sub:"Neufunde – Im Archiv entdeckt", sig:sig, person:person, datum:datum, prio:prio, aufgabe:aufgabe};
+function saveNeu(){
+  var sig=document.getElementById("neu-sig").value.trim();
+  var person=document.getElementById("neu-person").value.trim();
+  if(!sig||!person){alert("Bitte mindestens Signatur und Person ausfüllen.");return;}
+  var datum=document.getElementById("neu-datum").value.trim()||"–";
+  var prio=document.getElementById("neu-prio").value;
+  var aufgabe=document.getElementById("neu-aufgabe").value.trim()||"Neufund dokumentieren";
+  var id="dyn"+Date.now();
+  var task={id:id,sec:"Neufunde",sub:"Neufunde – Im Archiv entdeckt",sig:sig,person:person,datum:datum,prio:prio,aufgabe:aufgabe};
   dynTasks.push(task);
   saveDyn();
-  document.getElementById("neu-modal").style.display = "none";
-  setS(id, "status", "Offen");
+  document.getElementById("neu-modal").style.display="none";
+  // Set status to Offen in state
+  setS(id,"status","Offen");
   render();
-  toast("Neuer Fund gespeichert: " + person);
+  toast("Neuer Fund gespeichert: "+person);
   updateLastSaved();
 }
 
-function deleteNeu(id) {
-  if (!confirm("Neufund löschen?")) return;
-  var newDyn = [];
-  for (var i = 0; i < dynTasks.length; i++) {
-    if (dynTasks[i].id !== id) newDyn.push(dynTasks[i]);
-  }
-  dynTasks = newDyn;
+function deleteNeu(id){
+  if(!confirm("Neufund löschen?")) return;
+  dynTasks=dynTasks.filter(function(t){return t.id!==id;});
   saveDyn();
-  if (state[id]) { delete state[id]; save(); }
+  if(state[id]) delete state[id];
+  save();
   render();
   toast("Neufund gelöscht.");
 }
 
-function showSaveOk(id) {
-  var ok = document.getElementById("saveok-" + id);
-  if (!ok) return;
-  ok.className = "save-ok visible";
-  setTimeout(function() { var el = document.getElementById("saveok-" + id); if (el) el.className = "save-ok"; }, 2000);
+function showSaveOk(id){
+  const ok=document.getElementById("saveok-"+id);
+  if(!ok)return;
+  ok.classList.add("visible");
+  ok.style.animation="none";
+  void ok.offsetWidth;
+  ok.style.animation="fadeout 2s forwards";
+  setTimeout(function(){ok.classList.remove("visible");ok.style.animation="none";},2100);
 }
 
-function updateLastSaved() {
-  var now = new Date();
-  var h = now.getHours(); var m = now.getMinutes();
-  var t = (h < 10 ? "0" : "") + h + ":" + (m < 10 ? "0" : "") + m;
-  var el = document.getElementById("last-saved");
-  if (el) el.textContent = "zuletzt " + t + " (lokal)";
+function updateLastSaved(){
+  const now=new Date();
+  const t=now.toLocaleTimeString("de-AT",{hour:"2-digit",minute:"2-digit"});
+  const el=document.getElementById("last-saved");
+  if(el) el.textContent="zuletzt "+t+" (lokal)";
 }
 
-function exportJSON() {
-  var d = new Date();
-  var ds = d.getFullYear() + "-" + (d.getMonth()<9?"0":"") + (d.getMonth()+1) + "-" + (d.getDate()<10?"0":"") + d.getDate();
-  var data = {version:"archiv2026v3", exported:d.toISOString(), state:state, dynTasks:dynTasks};
-  var json = JSON.stringify(data, null, 2);
-  var isiOS = /ipad|iphone|ipod/i.test(navigator.userAgent) || (navigator.platform==="MacIntel" && navigator.maxTouchPoints>1);
-  try {
-    var blob = new Blob([json], {type:"application/json"});
-    var url = URL.createObjectURL(blob);
-    var a = document.createElement("a");
-    a.href = url; a.download = "archiv-backup-" + ds + ".json";
-    document.body.appendChild(a); a.click(); document.body.removeChild(a);
-    setTimeout(function() { URL.revokeObjectURL(url); }, 1000);
-    if (isiOS) {
-      toast("📂 iPad: Teilen-Symbol antippen → \"In Dateien sichern\"");
-    } else {
-      toast("✓ Backup wird heruntergeladen");
-    }
-  } catch(e) {
-    var ta = document.getElementById("exp-out");
-    if (ta) { ta.value = json; }
-    document.getElementById("exp-modal").style.display = "block";
-    var titleEl = document.getElementById("exp-modal-title");
-    if (titleEl) titleEl.textContent = "Backup – manuell sichern";
-    var hintEl = document.getElementById("exp-hint");
-    if (hintEl) hintEl.textContent = "⚠️ Download nicht möglich. Text oben komplett markieren, kopieren und in Notizen-App oder Mail einfügen.";
-    toast("⚠️ Download fehlgeschlagen – Text manuell kopieren");
+function exportJSON(){
+  const d=new Date().toISOString().slice(0,10);
+  const data={version:"archiv2026v3",exported:new Date().toISOString(),state:state,dynTasks:dynTasks};
+  const json=JSON.stringify(data,null,2);
+  try{
+    const blob=new Blob([json],{type:"application/json"});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement("a");a.href=url;a.download="archiv-backup-"+d+".json";
+    document.body.appendChild(a);a.click();document.body.removeChild(a);
+    setTimeout(function(){URL.revokeObjectURL(url);},1000);
+    toast("Backup – falls Dialog: In Dateien sichern");
+  }catch(e){
+    const uri="data:application/json;charset=utf-8,"+encodeURIComponent(json);
+    window.open(uri,"_blank");
+    toast("Seite teilen → In Dateien sichern");
   }
-  var el = document.getElementById("last-saved");
-  if (el) el.textContent = "Backup " + ds + " erstellt";
+  const el=document.getElementById("last-saved");
+  if(el) el.textContent="Backup "+d+" gesichert";
 }
 
-function importJSON(ev) {
-  var file = ev.target.files[0]; if (!file) return;
-  var reader = new FileReader();
-  reader.onload = function(e) {
-    try {
-      var data = JSON.parse(e.target.result);
-      if (!data.state) throw new Error("Ungültiges Format");
-      if (confirm("Backup laden?\nAktuelle Einträge werden überschrieben.\n\nQuelle: " + file.name)) {
-        state = data.state;
-        dynTasks = data.dynTasks || [];
-        save(); saveDyn(); render();
-        toast("Backup geladen: " + file.name);
-        var el = document.getElementById("last-saved");
-        if (el) el.textContent = "Backup geladen";
+function importJSON(ev){
+  const file=ev.target.files[0];if(!file)return;
+  const reader=new FileReader();
+  reader.onload=function(e){
+    try{
+      const data=JSON.parse(e.target.result);
+      if(!data.state)throw new Error("Ungültiges Format");
+      if(confirm("Backup laden?\nAktuelle Einträge werden überschrieben.\n\nQuelle: "+file.name)){
+        state=data.state;
+        dynTasks=data.dynTasks||[];
+        save();saveDyn();render();
+        toast("Backup geladen: "+file.name);
+        const el=document.getElementById("last-saved");
+        if(el) el.textContent="Backup geladen";
       }
-    } catch(err) { alert("Fehler: " + err.message); }
-    ev.target.value = "";
+    }catch(err){alert("Fehler: "+err.message);}
+    ev.target.value="";
   };
   reader.readAsText(file);
 }
 
-function showAnforderung() {
-  var allT = TASKS.concat(dynTasks);
-  var items = [];
-  for (var i = 0; i < allT.length; i++) {
-    var f = getS(allT[i].id).fundstelle;
-    if (f && f.replace(/^\s+|\s+$/g,'')) items.push(allT[i]);
-  }
-  var html = "";
-  if (!items.length) {
-    html = '<div class="anf-empty">Noch keine Fundstellen eingetragen.<br>Tragen Sie bei gefundenen Eintr&auml;gen die Fundstelle / Folio ein.</div>';
+// Anforderungsliste
+function showAnforderung(){
+  const items=TASKS.concat(dynTasks).filter(t=>getS(t.id).fundstelle&&getS(t.id).fundstelle.trim());
+  let html="";
+  if(!items.length){
+    html='<div class="anf-empty">Noch keine Fundstellen eingetragen.<br>Tragen Sie bei gefundenen Einträgen die Fundstelle / Folio ein.</div>';
   } else {
-    var rows = "";
-    for (var i = 0; i < items.length; i++) {
-      var t = items[i]; var s = getS(t.id);
-      var bem = s.transkription ? s.transkription.substring(0,60) + (s.transkription.length > 60 ? "…" : "") : s.status;
-      rows += '<tr><td>' + (i+1) + '</td><td><strong>' + esc(t.sig) + '</strong></td><td>' + esc(t.person) + '</td><td>' + esc(t.datum) + '</td><td><strong>' + esc(s.fundstelle) + '</strong></td><td>' + esc(bem) + '</td></tr>';
-    }
-    html = '<table id="anf-table"><thead><tr><th>#</th><th>Bestand / Signatur</th><th>Person</th><th>Zeitraum</th><th>Fundstelle / Folio</th><th>Bemerkung / Status</th></tr></thead><tbody>' + rows + '</tbody></table>';
+    // group by sig/Archiv
+    let rows="";
+    items.forEach((t,i)=>{
+      const s=getS(t.id);
+      rows+=`<tr>
+        <td>${i+1}</td>
+        <td><strong>${esc(t.sig)}</strong></td>
+        <td>${esc(t.person)}</td>
+        <td>${esc(t.datum)}</td>
+        <td><strong>${esc(s.fundstelle)}</strong></td>
+        <td>${esc(s.transkription?s.transkription.substring(0,60)+(s.transkription.length>60?"…":""):s.status)}</td>
+      </tr>`;
+    });
+    html=`<table id="anf-table">
+      <tr><th>#</th><th>Bestand / Signatur</th><th>Person</th><th>Zeitraum</th><th>Fundstelle / Folio</th><th>Bemerkung / Status</th></tr>
+      ${rows}
+    </table>`;
   }
-  document.getElementById("anf-body").innerHTML = html;
-  document.getElementById("anf-modal").style.display = "block";
+  document.getElementById("anf-body").innerHTML=html;
+  document.getElementById("anf-modal").style.display="block";
 }
 
-function closeAnf() { document.getElementById("anf-modal").style.display = "none"; }
-function closeAnfIfBg(e) { if (e.target === document.getElementById("anf-modal")) closeAnf(); }
+function closeAnf(){document.getElementById("anf-modal").style.display="none";}
+function closeAnfIfBg(e){if(e.target===document.getElementById("anf-modal"))closeAnf();}
 
-function printAnf() {
-  var d = new Date();
-  var ds = d.getDate() + "." + (d.getMonth()+1) + "." + d.getFullYear();
-  var cnt = 0;
-  for (var i = 0; i < TASKS.length; i++) {
-    var f = getS(TASKS[i].id).fundstelle;
-    if (f && f.replace(/^\s+|\s+$/g,'')) cnt++;
-  }
-  var el = document.getElementById("print-meta");
-  if (el) el.textContent = "Archivbesuch LKA Dresden / StA Freiberg | Erstellt: " + ds + " | " + cnt + " Bestellungen";
-  setTimeout(function() { window.print(); }, 80);
+function printAnf(){
+  const d=new Date().toLocaleDateString("de-AT");
+  const cnt=TASKS.filter(t=>getS(t.id).fundstelle&&getS(t.id).fundstelle.trim()).length;
+  const el=document.getElementById("print-meta");
+  if(el) el.textContent=`Archivbesuch LKA Dresden / StA Freiberg | Erstellt: ${d} | ${cnt} Bestellungen`;
+  setTimeout(()=>window.print(),80);
 }
 
-function copyAnf() {
-  var allT = TASKS.concat(dynTasks);
-  var items = [];
-  for (var i = 0; i < allT.length; i++) {
-    var f = getS(allT[i].id).fundstelle;
-    if (f && f.replace(/^\s+|\s+$/g,'')) items.push(allT[i]);
-  }
-  if (!items.length) { toast("Keine Fundstellen eingetragen."); return; }
-  var d = new Date();
-  var ds = d.getDate() + "." + (d.getMonth()+1) + "." + d.getFullYear();
-  var txt = "ANFORDERUNGSLISTE – AUSDRUCKE\nArchivbesuch LKA Dresden / StA Freiberg | " + ds + "\n============================================================\n\n";
-  for (var i = 0; i < items.length; i++) {
-    var t = items[i]; var s = getS(t.id);
-    txt += (i+1) + ". " + t.sig + "\n   Person: " + t.person + " (" + t.datum + ")\n   Fundstelle: " + s.fundstelle + "\n   Status: " + s.status + "\n\n";
-  }
+function copyAnf(){
+  const items=TASKS.concat(dynTasks).filter(t=>getS(t.id).fundstelle&&getS(t.id).fundstelle.trim());
+  if(!items.length){toast("Keine Fundstellen eingetragen.");return;}
+  const d=new Date().toLocaleDateString("de-AT");
+  let txt="ANFORDERUNGSLISTE – AUSDRUCKE\nArchivbesuch LKA Dresden / StA Freiberg | "+d+"\n"+"=".repeat(60)+"\n\n";
+  items.forEach(function(t,i){
+    const s=getS(t.id);
+    txt+=(i+1)+". "+t.sig+"\n   Person: "+t.person+" ("+t.datum+")\n   Fundstelle: "+s.fundstelle+"\n   Status: "+s.status+"\n\n";
+  });
   doCopy(txt);
 }
 
-function exportMd() {
-  var d = new Date();
-  var ds = d.getDate() + "." + (d.getMonth()+1) + "." + d.getFullYear();
-  var allT = TASKS.concat(dynTasks);
-  var tot = allT.length; var gef = 0; var teil = 0;
-  for (var i = 0; i < allT.length; i++) {
-    var st = getS(allT[i].id).status;
-    if (st === "Gefunden") gef++;
-    else if (st === "Teilbefund") teil++;
-  }
-  var md = "# Gesamtliste Archivaufgaben – Dresden & Freiberg\n\nStand: " + ds + " | Gesamt: " + tot + " | Gefunden: " + gef + " | Teilbefund: " + teil + "\n\n";
-  var secs = []; var seenSec = {};
-  for (var i = 0; i < allT.length; i++) { if (!seenSec[allT[i].sec]) { seenSec[allT[i].sec] = true; secs.push(allT[i].sec); } }
-  for (var si = 0; si < secs.length; si++) {
-    var sec = secs[si];
-    md += "## " + sec + "\n\n";
-    var subs2 = []; var seenSub = {};
-    for (var i = 0; i < allT.length; i++) { if (allT[i].sec === sec && !seenSub[allT[i].sub]) { seenSub[allT[i].sub] = true; subs2.push(allT[i].sub); } }
-    for (var sbi = 0; sbi < subs2.length; sbi++) {
-      var sub2 = subs2[sbi];
-      md += "### " + sub2 + "\n\n";
-      for (var i = 0; i < allT.length; i++) {
-        var t = allT[i];
-        if (t.sub !== sub2) continue;
-        var s = getS(t.id);
-        md += "**[" + s.status + "]** " + t.person + " (" + t.datum + ") · " + t.sig + " · Prio: " + t.prio + "\n";
-        md += "Aufgabe: " + t.aufgabe + "\n";
-        if (s.fundstelle) md += "Fundstelle/Folio: " + s.fundstelle + "\n";
-        if (s.transkription) md += "Transkription/Bemerkungen: " + s.transkription + "\n";
-        md += "\n";
-      }
-    }
-  }
-  var ta = document.getElementById("exp-out");
-  if (ta) ta.value = md;
-  var titleEl = document.getElementById("exp-modal-title");
-  if (titleEl) titleEl.textContent = "⬇ Markdown-Export";
-  var hintEl = document.getElementById("exp-hint");
-  if (hintEl) hintEl.textContent = "";
-  document.getElementById("exp-modal").style.display = "block";
+function exportMd(){
+  const d=new Date().toLocaleDateString("de-AT");
+  const allT=TASKS.concat(dynTasks);
+  const tot=allT.length;
+  const gef=allT.filter(t=>getS(t.id).status==="Gefunden").length;
+  const teil=allT.filter(t=>getS(t.id).status==="Teilbefund").length;
+  let md="# Gesamtliste Archivaufgaben – Dresden & Freiberg\n\nStand: "+d+" | Gesamt: "+tot+" | Gefunden: "+gef+" | Teilbefund: "+teil+"\n\n";
+  const secs=[...new Set(allT.map(t=>t.sec))];
+  secs.forEach(function(sec){
+    md+="## "+sec+"\n\n";
+    [...new Set(allT.filter(t=>t.sec===sec).map(t=>t.sub))].forEach(function(sub){
+      md+="### "+sub+"\n\n";
+      allT.filter(t=>t.sub===sub).forEach(function(t){
+        const s=getS(t.id);
+        md+="**["+s.status+"]** "+t.person+" ("+t.datum+") · "+t.sig+" · Prio: "+t.prio+"\n";
+        md+="Aufgabe: "+t.aufgabe+"\n";
+        if(s.fundstelle) md+="Fundstelle/Folio: "+s.fundstelle+"\n";
+        if(s.transkription) md+="Transkription/Bemerkungen: "+s.transkription+"\n";
+        md+="\n";
+      });
+    });
+  });
+  const ta=document.getElementById("exp-out");
+  if(ta) ta.value=md;
+  document.getElementById("exp-modal").style.display="block";
 }
 
-function doCopy(txt) {
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(txt).then(function() { toast("In Zwischenablage kopiert"); }, function() { fbCopy(txt); });
-  } else { fbCopy(txt); }
+function doCopy(txt){
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(function(){toast("In Zwischenablage kopiert");}).catch(function(){fbCopy(txt);});
+  } else fbCopy(txt);
 }
 
-function fbCopy(txt) {
-  var ta = document.createElement("textarea");
-  ta.value = txt;
-  ta.style.position = "absolute";
-  ta.style.left = "-9999px";
-  ta.style.top = (window.pageYOffset || document.documentElement.scrollTop) + "px";
-  ta.setAttribute("readonly", "");
-  document.body.appendChild(ta);
-  ta.select();
-  if (navigator.userAgent.match(/ipad|iphone/i)) {
-    var range = document.createRange();
-    range.selectNodeContents(ta);
-    var sel = window.getSelection();
-    sel.removeAllRanges();
-    sel.addRange(range);
-    ta.setSelectionRange(0, 999999);
-  }
-  try { document.execCommand("copy"); toast("Kopiert!"); } catch(e) { toast("Clipboard nicht verfügbar – bitte manuell kopieren"); }
+function fbCopy(txt){
+  const ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";
+  document.body.appendChild(ta);ta.select();
+  try{document.execCommand("copy");toast("Kopiert!");}catch(e){toast("Clipboard nicht verfügbar");}
   document.body.removeChild(ta);
 }
 
-function closeModalIfBg(e, id) { if (e.target === document.getElementById(id)) document.getElementById(id).style.display = "none"; }
-function selectAll() { var ta = document.getElementById("exp-out"); if (ta) { ta.focus(); ta.select(); } }
+function closeModalIfBg(e,id){if(e.target===document.getElementById(id))document.getElementById(id).style.display="none";}
 
-function esc(s) {
-  if (!s) return "";
-  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
-}
+function selectAll(){var ta=document.getElementById("exp-out");if(ta){ta.focus();ta.select();}}
 
-function toast(msg) {
-  var el = document.getElementById("toast");
-  if (!el) return;
-  el.textContent = msg;
-  el.style.display = "block";
-  setTimeout(function() { var e2 = document.getElementById("toast"); if (e2) e2.style.display = "none"; }, 2500);
-}
+function esc(s){if(!s)return"";return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
 
-// Initial render with localStorage data (fast)
-render();
+function toast(msg){var el=document.getElementById("toast");el.textContent=msg;el.style.display="block";setTimeout(function(){el.style.display="none";},2500);}
 
-// Then init IndexedDB (async, will re-render when ready)
-initStorage();
+// Gesamtbericht
+function showGesamtbericht(){
+  const allT=TASKS.concat(dynTasks);
+  const touched=allT.filter(t=>{
+    const s=getS(t.id);
+    return s.status!=="Offen"||(s.fundstelle&&s.fundstelle.trim())||(s.transkription&&s.transkription.trim());
+  });
 
-if (!_lsOk && !_useIDB) {
-  setTimeout(function() {
-    // Only warn if BOTH storage methods failed
-    if (!_useIDB) {
-      toast("⚠️ Privater Modus – Daten werden nur temporär gespeichert!");
-      var bar = document.getElementById("backup-bar");
-      if (bar) { bar.style.background = "#fee2e2"; bar.style.borderColor = "#fca5a5"; bar.style.color = "#991b1b"; }
-      var el = document.getElementById("last-saved");
-      if (el) el.textContent = "⚠️ Eingeschränkter Speicher (privater Modus)";
-    }
-  }, 1500);
-}
-</script>
+  const tot=allT.length;
+  const gef=allT.filter(t=>getS(t.id).status==="Gefunden").length;
+  const teil=allT.filter(t=>getS(t.id).status==="Teilbefund").length;
+  const nichtgef=allT.filter(t=>getS(t.id).status==="Nicht gefunden").length;
+  const ausdruck=allT.filter(t=>getS(t.id).status==="Ausdruck beantragt").length;
+  const offen=allT.filter(t=>getS(t.id).status==="Offen").length;
+  const mitEintrag=allT.filter(t=>{const s=getS(t.id);return(s.fundstelle&&s.fundstelle.trim())||(s.transkription&&s.transkription.trim());}).length;
 
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('./sw.js').then(function(registration) {
-        console.log('[Archiv] SW registriert, Scope:', registration.scope);
-        // Check for updates
-        registration.addEventListener('updatefound', function() {
-          console.log('[Archiv] SW Update gefunden');
-        });
-      }).catch(function(err) {
-        console.warn('[Archiv] SW Fehler:', err);
-      });
-    });
+  let statsHtml=`<span style="background:#1e293b;color:#fff;padding:3px 10px;border-radius:12px;">Gesamt: ${tot}</span>`;
+  statsHtml+=`<span style="background:#166534;color:#fff;padding:3px 10px;border-radius:12px;">✓ Gefunden: ${gef}</span>`;
+  if(teil) statsHtml+=`<span style="background:#92400e;color:#fff;padding:3px 10px;border-radius:12px;">≈ Teilbefund: ${teil}</span>`;
+  if(ausdruck) statsHtml+=`<span style="background:#5b21b6;color:#fff;padding:3px 10px;border-radius:12px;">🖨 Ausdruck: ${ausdruck}</span>`;
+  if(nichtgef) statsHtml+=`<span style="background:#991b1b;color:#fff;padding:3px 10px;border-radius:12px;">✗ Nicht gef.: ${nichtgef}</span>`;
+  statsHtml+=`<span style="background:#64748b;color:#fff;padding:3px 10px;border-radius:12px;">○ Offen: ${offen}</span>`;
+  if(mitEintrag) statsHtml+=`<span style="background:#0f766e;color:#fff;padding:3px 10px;border-radius:12px;">📝 Mit Eintrag: ${mitEintrag}</span>`;
+  document.getElementById("ges-stats").innerHTML=statsHtml;
+
+  if(!touched.length){
+    document.getElementById("ges-body").innerHTML='<div class="anf-empty">Noch keine Eintragungen vorhanden.<br>Sobald Status, Fundstelle oder Bemerkung erfasst werden, erscheinen sie hier.</div>';
+    document.getElementById("ges-modal").style.display="block";
+    return;
   }
+
+  const secs=[...new Set(touched.map(t=>t.sec))];
+  let html="";
+  secs.forEach(function(sec){
+    const secTasks=touched.filter(t=>t.sec===sec);
+    html+=`<div style="margin-bottom:18px;">
+      <div style="background:#1e293b;color:#fff;padding:7px 12px;border-radius:8px 8px 0 0;font-size:13px;font-weight:700;">${esc(sec)} <span style="font-weight:400;opacity:0.7;">(${secTasks.length} Einträge)</span></div>
+      <table style="width:100%;border-collapse:collapse;font-size:12.5px;">
+        <tr style="background:#f1f5f9;">
+          <th style="padding:6px 8px;text-align:left;font-size:11px;color:#64748b;border-bottom:1px solid #e2e8f0;width:22%">Signatur / Person</th>
+          <th style="padding:6px 8px;text-align:left;font-size:11px;color:#64748b;border-bottom:1px solid #e2e8f0;width:10%">Datum</th>
+          <th style="padding:6px 8px;text-align:left;font-size:11px;color:#64748b;border-bottom:1px solid #e2e8f0;width:10%">Status</th>
+          <th style="padding:6px 8px;text-align:left;font-size:11px;color:#64748b;border-bottom:1px solid #e2e8f0;width:20%">Fundstelle / Folio</th>
+          <th style="padding:6px 8px;text-align:left;font-size:11px;color:#64748b;border-bottom:1px solid #e2e8f0;">Bemerkungen / Transkription</th>
+        </tr>`;
+    secTasks.forEach(function(t,i){
+      const s=getS(t.id);
+      const bg=i%2===0?"#fff":"#f8fafc";
+      const stCol={"Gefunden":"#166534","Teilbefund":"#92400e","Ausdruck beantragt":"#5b21b6","Nicht gefunden":"#991b1b","Offen":"#64748b"}[s.status]||"#64748b";
+      html+=`<tr style="background:${bg};border-bottom:1px solid #e2e8f0;">
+        <td style="padding:7px 8px;vertical-align:top;"><strong>${esc(t.sig)}</strong><br><span style="color:#334155;">${esc(t.person)}</span></td>
+        <td style="padding:7px 8px;vertical-align:top;color:#64748b;">${esc(t.datum)}</td>
+        <td style="padding:7px 8px;vertical-align:top;"><span style="color:${stCol};font-weight:700;font-size:11px;">${esc(s.status)}</span></td>
+        <td style="padding:7px 8px;vertical-align:top;color:#0f766e;font-weight:600;">${esc(s.fundstelle||"–")}</td>
+        <td style="padding:7px 8px;vertical-align:top;color:#334155;">${esc(s.transkription||"–")}</td>
+      </tr>`;
+    });
+    html+=`</table></div>`;
+  });
+  document.getElementById("ges-body").innerHTML=html;
+  document.getElementById("ges-modal").style.display="block";
+}
+
+function printGesamtbericht(){
+  const d=new Date().toLocaleDateString("de-AT");
+  const allT=TASKS.concat(dynTasks);
+  const gef=allT.filter(t=>getS(t.id).status==="Gefunden").length;
+  const teil=allT.filter(t=>getS(t.id).status==="Teilbefund").length;
+  const el=document.getElementById("ges-print-meta");
+  if(el) el.textContent=`LKA Dresden / StA Freiberg | Stand: ${d} | Gefunden: ${gef} | Teilbefund: ${teil}`;
+  document.getElementById("ges-print-head").style.display="block";
+  setTimeout(()=>{window.print();document.getElementById("ges-print-head").style.display="none";},80);
+}
+
+function copyGesamtbericht(){
+  const allT=TASKS.concat(dynTasks);
+  const touched=allT.filter(t=>{
+    const s=getS(t.id);
+    return s.status!=="Offen"||(s.fundstelle&&s.fundstelle.trim())||(s.transkription&&s.transkription.trim());
+  });
+  if(!touched.length){toast("Noch keine Eintragungen.");return;}
+  const d=new Date().toLocaleDateString("de-AT");
+  const gef=allT.filter(t=>getS(t.id).status==="Gefunden").length;
+  const teil=allT.filter(t=>getS(t.id).status==="Teilbefund").length;
+  const offen=allT.filter(t=>getS(t.id).status==="Offen").length;
+  let txt="GESAMTBERICHT – ARCHIVBESUCH\nLKA Dresden / StA Freiberg | "+d+"\n";
+  txt+="Gefunden: "+gef+" | Teilbefund: "+teil+" | Offen: "+offen+"\n"+"=".repeat(60)+"\n\n";
+  const secs=[...new Set(touched.map(t=>t.sec))];
+  secs.forEach(function(sec){
+    txt+="== "+sec+" ==\n\n";
+    touched.filter(t=>t.sec===sec).forEach(function(t,i){
+      const s=getS(t.id);
+      txt+=(i+1)+". "+t.sig+" | "+t.person+" ("+t.datum+")\n";
+      txt+="   Status: "+s.status+"\n";
+      if(s.fundstelle) txt+="   Fundstelle: "+s.fundstelle+"\n";
+      if(s.transkription) txt+="   Bemerkung: "+s.transkription+"\n";
+      txt+="\n";
+    });
+  });
+  doCopy(txt);
+}
+
+render();
 </script>
 </body>
 </html>
