@@ -103,11 +103,11 @@ Die in der Chronik und auf der [Orte-Seite]({{ '/orte/' | relative_url }}) darge
 
 ### Urkunden & Kirchenbucheinträge
 - [Verlassenschaft Wolf Eberstaller (1672)](https://familysearch.org/ark:/61903/3:1:33S7-L1X7-HX1)
-- Tod Johann Kreissl (1698) — *Link nach Umstellung des Archivs Leitmeritz nachzutragen*
+- Tod Johann Kreissl (1698) — *Link derzeit nicht verfügbar (Archiv Leitmeritz in Umstellung)*
 - [Taufe / Konversion Apollonia Jablotzki (1768, Amschelberg)](https://ebadatelna.soapraha.cz/d/6850/60)
 - [Heirat Philipp Bechinie & Rudolphiana (1769)](https://ebadatelna.soapraha.cz/d/5876/167)
-- Tod Johanna Sophia Pilz, geb. Schuberth (1772) — *Link nach Umstellung des Archivs Leitmeritz nachzutragen*
-- Kirchenbuch Pfarre Kallich – Unterschrift F. A. Pilz — *Link nach Umstellung des Archivs Leitmeritz nachzutragen*
+- Tod Johanna Sophia Pilz, geb. Schuberth (1772) — *Link derzeit nicht verfügbar (Archiv Leitmeritz in Umstellung)*
+- Kirchenbuch Pfarre Kallich – Unterschrift F. A. Pilz — *Link derzeit nicht verfügbar (Archiv Leitmeritz in Umstellung)*
 - [Kriegstrauung Johann Eberstaller & Karoline Reider (1916)](https://matriken.tirol.gv.at/portal/main.php?todo=showObjData&objid=301360)
 
 ### Zeitungsartikel
@@ -124,7 +124,7 @@ Die in der Chronik und auf der [Orte-Seite]({{ '/orte/' | relative_url }}) darge
 - [Petition der Abdecker](https://wasbishergeschah.at/artikel/Artikel_Arbeit/Abdecker.html)
 
 ### Nachlässe, Sonderdokumente & Audio
-- [Digitalisat Tagebuch Johann Eberstaller](https://sites.google.com/d/14h2Dj-fE3gkh_mwjM2cQyf2UWrhRLQSf/p/1ubsocuUXl5fEKcMf_BgaJlbEG2SL955V/edit)
+- [Digitalisat Tagebuch Johann Eberstaller](https://sites.google.com/view/pilzchronik/mehr/tagebuch-aus-italienischer-kriegsgefangenschaft-1918)
 - [Ahnenliste Eberstaller (Adler 1953)](https://drive.google.com/file/d/10M1CXZaet3WLb7xonSvEdDJWKH6mBN7-/view?usp=sharing)
 - 🎵 [Schubert: „Der Vollmond strahlt" (E. Schwarzkopf)](https://www.youtube.com/watch?v=Y-o_qrazKQQ)
 - 🎵 [Schubert: „Lied der Anne Lyle" (G. Janowitz)](https://www.youtube.com/watch?v=Ma59U6k926M)

@@ -9,9 +9,15 @@ excerpt: >
   Neuf Kinder belegt, Ehefrau Sybiltha identifiziert, Hans' Frau Maria
   Drechsel gesichert. Abrahams Mutter bleibt offen.
 published: false
-status: prüfen
+status: vorläufig
 stand_vom: 2026-02-28
 ---
+
+<div style="background:#fff8e1; border-left:4px solid #f0c040; padding:12px 16px; margin-bottom:24px; font-size:0.93em;">
+<strong>Arbeitsnotiz</strong> — Dieser Eintrag dokumentiert einen Zwischenstand der Forschung.
+Den aktuellen Hauptartikel finden Sie unter
+<a href="{{ '/jobst-joseph-verwechslung.html' | relative_url }}">Jobst und Joseph – eine folgenreiche Verwechslung</a>.
+</div>
 
 Auswertung von GB AG Sayda Nr. 020 (Bd. 02) und Nr. 021 (Bd. 03) klärt
 den Familienverband um **Joseph Pültz**, Stammvater in Dörnthal.

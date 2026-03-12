@@ -4,7 +4,7 @@ title: "Jobst und Joseph – eine folgenreiche Verwechslung"
 date: 2026-03-01
 tags: [Korrekturen, Hintergrund]
 permalink: /jobst-joseph-verwechslung/
-status: prüfen
+status: aktuell
 stand_vom: 2026-03-01
 ---
 
@@ -58,7 +58,7 @@ Die direkte Ahnenreihe lautet korrekt:
 
 Jobst Pültz (der Richter) gehört **nicht** in die direkte Ahnenreihe. Er war ein Zeitgenosse, lebte am gleichen Ort und ist für das Verständnis der Dörnthaler Sozialstruktur weiterhin interessant – aber nicht Abrahams Vater.
 
-Die korrigierten Daten sind in der MacFamilyTree-Datenbank und auf der Begleitwebsite nachgeführt. Eine Zusammenfassung der Korrekturen findet sich unter [Errata]({{ '/2026/03/01/errata-jobst-joseph' | relative_url }}).
+Die korrigierten Daten sind in der MacFamilyTree-Datenbank und auf der Begleitwebsite nachgeführt. Eine Zusammenfassung der Korrekturen findet sich unter [Korrekturen & Ergänzungen]({{ '/korrekturen/' | relative_url }}).
 
 ---
 
@@ -71,6 +71,10 @@ Die Vaterschaft des Joseph zu Abraham gilt nun als **durch Primärquelle gesiche
 - Wer waren **Josephs eigene Eltern**? Die Linie vor 1555 ist durch Primärquellen noch nicht belegt.
 
 *Primärquelle: GB AG Sayda Nr. 020, L772 (1620). Bearbeitet: März 2026.*
+
+---
+
+**Vertiefung:** Die vollständige Rekonstruktion des Familienverbands (alle Kinder, Quellennachweise) findet sich im Beitrag [Joseph Pültz und seine Kinder]({{ '/joseph-pueltz-familienverband/' | relative_url }}).
 
 ---
 

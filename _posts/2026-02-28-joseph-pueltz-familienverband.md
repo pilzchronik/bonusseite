@@ -9,9 +9,14 @@ excerpt: >
   um Joseph Pültz vollständig: sieben namentlich gesicherte Kinder,
   ein für tot erklärter Sohn, Hans' Ehefrau Maria Drechsel, und die
   geschlossene Erbgemeinschaft von 1620.
-status: prüfen
+status: aktuell
 stand_vom: 2026-02-28
 ---
+
+<div style="background:#f0f4f8; border-left:4px solid #2a5d8f; padding:12px 16px; margin-bottom:24px; font-size:0.93em;">
+Dieser Beitrag ist die Quellengrundlage zum Hauptartikel
+<a href="{{ '/jobst-joseph-verwechslung.html' | relative_url }}">Jobst und Joseph – eine folgenreiche Verwechslung</a>.
+</div>
 
 ## Quellenlage
 
@@ -123,3 +128,9 @@ mit der Familie Zimmermann verwandt, und starb wahrscheinlich um 1588/89.
 
 *Primärquellen: GB AG Sayda Nr. 020, Z. 4364–4420, L772 (1620), S. 201 (1617);
 GB AG Sayda Nr. 021, S. 17/18/22/23/46/59/61/81. Bearbeitet: Februar/März 2026.*
+
+---
+
+**Arbeitsnotizen:** Die zugehörigen Logbucheinträge dokumentieren den Forschungsweg:
+[Logbuch Joseph & Hans Pültz]({{ '/2026/02/28/logbuch-joseph-hans-pueltz.html' | relative_url }}) ·
+[Logbuch Hans Pulz GB03]({{ '/2026/02/28/logbuch-hans-pulz-gb03.html' | relative_url }})

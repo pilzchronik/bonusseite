@@ -118,7 +118,7 @@ permalink: /updates/
     <h2 class="sec-title" style="color: #8f2a2a;">⚠ Berichtigungen</h2>
     
     <ul class="update-list">
-      {% assign corrections = site.categories.berichtigung %}
+      {% assign corrections = site.tags.Korrekturen %}
       {% if corrections.size > 0 %}
         {% for post in corrections limit:10 %}
         <li class="update-item">
@@ -135,16 +135,13 @@ permalink: /updates/
       {% endif %}
     </ul>
     
-    <div style="margin-top:1.5rem; text-align: right;">
-      <a href="{{ '/downloads/' | relative_url }}" class="btn-small">Alle als PDF &rarr;</a>
-    </div>
   </div>
 
   <div class="col-additions">
     <h2 class="sec-title" style="color: #2a5d8f;">✚ Neue Funde</h2>
     
     <ul class="update-list">
-      {% assign additions = site.categories.ergaenzung %}
+      {% assign additions = site.tags["Neue Funde"] %}
       {% if additions.size > 0 %}
         {% for post in additions limit:10 %}
         <li class="update-item">

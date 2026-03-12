@@ -9,9 +9,15 @@ excerpt: >
   als aktiven Grundbesitzer und Rechtsperson in Dörnthal 1621–1635.
   Wichtigster Fund: seine Ehefrau Maria, geborene Drechsel.
 published: false
-status: prüfen
+status: vorläufig
 stand_vom: 2026-02-28
 ---
+
+<div style="background:#fff8e1; border-left:4px solid #f0c040; padding:12px 16px; margin-bottom:24px; font-size:0.93em;">
+<strong>Arbeitsnotiz</strong> — Dieser Eintrag dokumentiert einen Zwischenstand der Forschung.
+Den aktuellen Hauptartikel finden Sie unter
+<a href="{{ '/jobst-joseph-verwechslung.html' | relative_url }}">Jobst und Joseph – eine folgenreiche Verwechslung</a>.
+</div>
 
 Gerichtsbuch Bd. 03 (AG Sayda Nr. 021, 1622–1701) belegt **Hans Pulz**,
 Sohn des Joseph Pültz, in sechs eigenständigen Rechtsakten zwischen
