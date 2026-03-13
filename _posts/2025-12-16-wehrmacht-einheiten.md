@@ -3,6 +3,8 @@ layout: post
 title: "Militärische Stationen meines Vaters 1940–1945: Eine Recherche"
 date: 2025-12-16
 tags: [Ergänzungen]
+status: aktuell
+stand_vom: 2025-12-16
 author: Wolfgang Pilz
 categories: [Ahnenforschung, Zweiter Weltkrieg]
 excerpt: "Die Dokumentation der militärischen Einheiten, denen Alois Pilz 1940–1945 angehörte, und die systematische Überprüfung der historischen Kontexte."

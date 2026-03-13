@@ -11,7 +11,7 @@ excerpt: >-
   im schwäbischen Kreis Burgau. Doch ein Blick auf die Landkarte zeigt --
   es gibt einen viel näherliegenden Kandidaten, im wörtlichen Sinn.
 published: false
-status: prüfen
+status: aktuell
 stand_vom: 2026-02-12
 ---
 

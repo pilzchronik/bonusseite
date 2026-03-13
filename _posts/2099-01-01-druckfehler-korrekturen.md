@@ -6,8 +6,8 @@ permalink: /korrekturen/
 tags: [Korrekturen]
 excerpt: "Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte."
 pinned: true
-status: prüfen
-stand_vom: 2099-01-01
+status: aktuell
+stand_vom: 2026-03-01
 ---
 
 <style>

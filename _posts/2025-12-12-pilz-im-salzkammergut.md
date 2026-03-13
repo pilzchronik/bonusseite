@@ -3,8 +3,9 @@ layout: post
 title: "Der Name Pilz in Österreich — Sachsen als gemeinsamer Ausgangspunkt?"
 date: 2025-12-12
 last_updated: 2026-03-03
-tags:
-  - Hintergrund
+tags: [Neue Funde]
+status: vorläufig
+stand_vom: 2025-12-12
 published: false
 ---
 

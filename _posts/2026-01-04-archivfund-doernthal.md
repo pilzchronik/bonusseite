@@ -4,8 +4,8 @@ title: "Archivfund Dörnthal: Gerichtsbuch 1562"
 date: 2026-01-05
 categories: [werkstatt, Sachsen, Pültz]
 tags: [Neue Funde]
-status: integriert
-stand_vom: 2026-01-04
+status: vorläufig
+stand_vom: 2026-01-05
 ---
 
 <div class="status-box" style="background-color: #f9f9f9; border-left: 4px solid #999; padding: 15px; margin-bottom: 30px; color: #444; font-size: 0.95em;">

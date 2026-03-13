@@ -3,6 +3,8 @@ layout: post
 title: "DNA-Auswertungen (externe Darstellung)"
 date: 2025-11-04
 tags: [Hintergrund]
+status: aktuell
+stand_vom: 2025-11-04
 categories: [analysen, dna]
 published: false
 ---

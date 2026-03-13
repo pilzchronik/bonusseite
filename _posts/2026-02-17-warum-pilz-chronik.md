@@ -6,7 +6,7 @@ categories: [Hintergrund, Erinnerungen]
 tags: [Hintergrund, Ergänzungen]
 excerpt: "Warum ich den Namen Pilz-Chronik für zutreffend halte"
 published: false
-status: prüfen
+status: aktuell
 stand_vom: 2026-02-17
 ---
 

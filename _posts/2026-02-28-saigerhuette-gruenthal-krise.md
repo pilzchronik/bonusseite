@@ -5,7 +5,7 @@ date: 2026-02-28
 categories: [werkstatt, Sachsen, Grünthal]
 tags: [Saigerhütte, Biltz, Erzgebirge, 18. Jahrhundert, Migration]
 published: false
-status: prüfen
+status: vorläufig
 stand_vom: 2026-02-28
 ---
 
