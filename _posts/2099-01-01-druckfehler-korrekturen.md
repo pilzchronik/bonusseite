@@ -64,7 +64,7 @@ stand_vom: 2026-03-01
 <div class="errata-eintrag errata-eintrag--erkenntnis">
   <h3>Band 1, S. 74–75 — Vater von Abraham Pilz (Kekulé 4.096)</h3>
   <p>Gedruckt: Jobst Pilz sei Abrahams Vater gewesen.</p>
-  <p><strong>Korrektur:</strong> Der Vater ist <strong>Joseph Pültz der Familienvater</strong> (ca. 1555–1650), belegt durch das Gerichtsbuch AG Sayda Nr. 020, Blatt 772 (1620). Jobst und Joseph wurden in Sekundärquellen irrtümlich gleichgesetzt.
+  <p><strong>Korrektur:</strong> Der Vater ist <strong>Joseph Pültz der Familienvater</strong> (ca. 1545–nach 1620), belegt durch das Gerichtsbuch AG Sayda Nr. 020, Blatt 772 (1620). Jobst und Joseph wurden in Sekundärquellen irrtümlich gleichgesetzt.
   → <a href="{{ '/jobst-joseph-verwechslung/' | relative_url }}">Näheres dazu</a></p>
 </div>
 

@@ -126,7 +126,7 @@ permalink: /updates/
             <span class="meta-tag tag-vol">Band {{ post.buch_band }} / S. {{ post.buch_seite }}</span>
           {% endif %}
           
-          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
           <span class="tag-date">Aktualisiert am {{ post.date | date: "%d.%m.%Y" }}</span>
         </li>
         {% endfor %}
@@ -145,7 +145,7 @@ permalink: /updates/
       {% if additions.size > 0 %}
         {% for post in additions limit:10 %}
         <li class="update-item">
-          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
           <span class="tag-date">{{ post.date | date: "%d.%m.%Y" }}</span>
           <p style="font-size: 0.9rem; margin: 0.4rem 0 0 0; color: #555;">
             {{ post.excerpt | strip_html | truncatewords: 15 }}

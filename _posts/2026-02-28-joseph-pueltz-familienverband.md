@@ -15,7 +15,7 @@ stand_vom: 2026-02-28
 
 <div style="background:#f0f4f8; border-left:4px solid #2a5d8f; padding:12px 16px; margin-bottom:24px; font-size:0.93em;">
 Dieser Beitrag ist die Quellengrundlage zum Hauptartikel
-<a href="{{ '/jobst-joseph-verwechslung.html' | relative_url }}">Jobst und Joseph – eine folgenreiche Verwechslung</a>.
+<a href="{{ '/jobst-joseph-verwechslung/' | relative_url }}">Jobst und Joseph – eine folgenreiche Verwechslung</a>.
 </div>
 
 ## Quellenlage
