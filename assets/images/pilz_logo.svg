@@ -9,8 +9,8 @@
     text-anchor="middle" dominant-baseline="central"
     font-family="Arial, Helvetica, sans-serif"
     font-size="110" font-weight="700">P</text>
-  <!-- Ring 1: 6 Speichen, r 76→96, kräftig -->
-  <g class="ls" stroke-width="3">
+  <!-- Ring 1: 6 Speichen, stark — Generation 1 -->
+  <g class="ls" stroke-width="3.5">
     <line x1="276" y1="200" x2="296" y2="200"/>
     <line x1="238" y1="266" x2="250" y2="287"/>
     <line x1="162" y1="266" x2="150" y2="287"/>
@@ -19,15 +19,15 @@
     <line x1="238" y1="134" x2="250" y2="113"/>
   </g>
   <g class="lo">
-    <circle cx="296" cy="200" r="5"/>
-    <circle cx="250" cy="287" r="5"/>
-    <circle cx="150" cy="287" r="5"/>
-    <circle cx="104" cy="200" r="5"/>
-    <circle cx="150" cy="113" r="5"/>
-    <circle cx="250" cy="113" r="5"/>
+    <circle cx="296" cy="200" r="5.5"/>
+    <circle cx="250" cy="287" r="5.5"/>
+    <circle cx="150" cy="287" r="5.5"/>
+    <circle cx="104" cy="200" r="5.5"/>
+    <circle cx="150" cy="113" r="5.5"/>
+    <circle cx="250" cy="113" r="5.5"/>
   </g>
-  <!-- Ring 2: 6 Speichen, r 118→146, zart -->
-  <g class="ls" stroke-width="1.5" opacity="0.38">
+  <!-- Ring 2: 6 Speichen, schlanker — Generation 2, volle Farbe -->
+  <g class="ls" stroke-width="2">
     <line x1="318" y1="200" x2="346" y2="200"/>
     <line x1="259" y1="300" x2="273" y2="325"/>
     <line x1="141" y1="300" x2="127" y2="325"/>
@@ -35,7 +35,7 @@
     <line x1="141" y1="100" x2="127" y2="75"/>
     <line x1="259" y1="100" x2="273" y2="75"/>
   </g>
-  <g class="lo" opacity="0.38">
+  <g class="lo">
     <circle cx="346" cy="200" r="3.5"/>
     <circle cx="273" cy="325" r="3.5"/>
     <circle cx="127" cy="325" r="3.5"/>
