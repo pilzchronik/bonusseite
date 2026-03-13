@@ -1,17 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
-  <!-- Hintergrund -->
-  <rect width="400" height="400" fill="#FFFFFF"/>
-  
-  <!-- Konzentrische Kreise (von außen nach innen) -->
-  <circle cx="200" cy="200" r="160" fill="none" stroke="#2a5d8f" stroke-width="2.5"/>
-  <circle cx="200" cy="200" r="115" fill="none" stroke="#2a5d8f" stroke-width="2.5"/>
-  <circle cx="200" cy="200" r="70" fill="none" stroke="#2a5d8f" stroke-width="2.5"/>
-  
-  <!-- P-Buchstabe (optisch zentriert - leicht nach rechts verschoben) -->
-  <text x="207" y="245" 
-        font-family="Arial, Helvetica, sans-serif" 
-        font-size="110" 
-        font-weight="700"
-        fill="#2a5d8f" 
-        text-anchor="middle">P</text>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .ls { stroke: #2469a0; fill: none; stroke-linecap: round; }
+    .lo { stroke: #2469a0; fill: #2469a0; }
+    .lt { fill: #2469a0; }
+  </style>
+  <!-- Zentrales P -->
+  <text class="lt" x="200" y="200"
+    text-anchor="middle" dominant-baseline="central"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="60" font-weight="700">P</text>
+  <!-- Ring 1: Generation 1 — 6 Speichen, r1=48 r2=66, stark -->
+  <g class="ls" stroke-width="2.8">
+    <line x1="248" y1="200" x2="266" y2="200"/>
+    <line x1="224" y1="242" x2="233" y2="257"/>
+    <line x1="176" y1="242" x2="167" y2="257"/>
+    <line x1="152" y1="200" x2="134" y2="200"/>
+    <line x1="176" y1="158" x2="167" y2="143"/>
+    <line x1="224" y1="158" x2="233" y2="143"/>
+  </g>
+  <!-- Knoten Ring 1 -->
+  <g class="lo">
+    <circle cx="266" cy="200" r="4.5"/>
+    <circle cx="233" cy="257" r="4.5"/>
+    <circle cx="167" cy="257" r="4.5"/>
+    <circle cx="134" cy="200" r="4.5"/>
+    <circle cx="167" cy="143" r="4.5"/>
+    <circle cx="233" cy="143" r="4.5"/>
+  </g>
+  <!-- Ring 2: Generation 2 — 9 Speichen, r1=84 r2=108, mittel -->
+  <g class="ls" stroke-width="2.0" opacity="0.75">
+    <line x1="284" y1="200" x2="308" y2="200"/>
+    <line x1="264" y1="254" x2="283" y2="269"/>
+    <line x1="215" y1="283" x2="218" y2="307"/>
+    <line x1="158" y1="273" x2="146" y2="294"/>
+    <line x1="116" y1="229" x2="95"  y2="237"/>
+    <line x1="116" y1="171" x2="95"  y2="163"/>
+    <line x1="158" y1="127" x2="146" y2="106"/>
+    <line x1="215" y1="117" x2="218" y2="93"/>
+    <line x1="264" y1="146" x2="283" y2="131"/>
+  </g>
+  <!-- Knoten Ring 2 -->
+  <g class="lo" opacity="0.75">
+    <circle cx="308" cy="200" r="3.5"/>
+    <circle cx="283" cy="269" r="3.5"/>
+    <circle cx="218" cy="307" r="3.5"/>
+    <circle cx="146" cy="294" r="3.5"/>
+    <circle cx="95"  cy="237" r="3.5"/>
+    <circle cx="95"  cy="163" r="3.5"/>
+    <circle cx="146" cy="106" r="3.5"/>
+    <circle cx="218" cy="93"  r="3.5"/>
+    <circle cx="283" cy="131" r="3.5"/>
+  </g>
+  <!-- Ring 3: Generation 3 — 12 Speichen, r1=124 r2=152, zart -->
+  <g class="ls" stroke-width="1.3" opacity="0.45">
+    <line x1="324" y1="200" x2="352" y2="200"/>
+    <line x1="308" y1="262" x2="332" y2="276"/>
+    <line x1="262" y1="308" x2="276" y2="332"/>
+    <line x1="200" y1="324" x2="200" y2="352"/>
+    <line x1="138" y1="308" x2="124" y2="332"/>
+    <line x1="92"  y1="262" x2="68"  y2="276"/>
+    <line x1="76"  y1="200" x2="48"  y2="200"/>
+    <line x1="92"  y1="138" x2="68"  y2="124"/>
+    <line x1="138" y1="92"  x2="124" y2="68"/>
+    <line x1="200" y1="76"  x2="200" y2="48"/>
+    <line x1="262" y1="92"  x2="276" y2="68"/>
+    <line x1="308" y1="138" x2="332" y2="124"/>
+  </g>
+  <!-- Knoten Ring 3 -->
+  <g class="lo" opacity="0.45">
+    <circle cx="352" cy="200" r="2.5"/>
+    <circle cx="332" cy="276" r="2.5"/>
+    <circle cx="276" cy="332" r="2.5"/>
+    <circle cx="200" cy="352" r="2.5"/>
+    <circle cx="124" cy="332" r="2.5"/>
+    <circle cx="68"  cy="276" r="2.5"/>
+    <circle cx="48"  cy="200" r="2.5"/>
+    <circle cx="68"  cy="124" r="2.5"/>
+    <circle cx="124" cy="68"  r="2.5"/>
+    <circle cx="200" cy="48"  r="2.5"/>
+    <circle cx="276" cy="68"  r="2.5"/>
+    <circle cx="332" cy="124" r="2.5"/>
+  </g>
 </svg>
