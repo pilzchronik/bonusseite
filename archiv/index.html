@@ -80,11 +80,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;ba
 .rstat.A{background:#ede9fe;color:#4c1d95;}.rstat.N{background:#fee2e2;color:#991b1b;}
 .rstat.O{background:#f1f5f9;color:#64748b;border:1px solid #cbd5e1;}
 @media print{
-  #hdr,#toolbar,#list,#toast,.mactions,.mclose,#mBericht,#mAnf{display:none!important;}
-  #printarea{display:block!important;}
-  .mbox{margin:0;border-radius:0;}
-  .mhdr{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  body > *:not(#printoverlay){display:none!important;}
+  #printoverlay{display:block!important;position:static!important;background:#fff!important;}
+  #printoverlay .po-toolbar{display:none!important;}
 }
+#printoverlay{
+  display:none;position:fixed;inset:0;z-index:2000;background:#fff;overflow-y:auto;padding:20px;
+  font-family:Arial,sans-serif;font-size:12px;
+}
+#printoverlay .po-toolbar{
+  position:sticky;top:0;background:#1e293b;color:#fff;padding:10px 14px;
+  display:flex;justify-content:space-between;align-items:center;margin:-20px -20px 16px;
+}
+#printoverlay .po-toolbar h3{font-size:14px;font-weight:700;margin:0;}
+#printoverlay .po-toolbar .po-hint{font-size:11px;color:#94a3b8;}
+#printoverlay .po-toolbar button{background:#3b82f6;border:none;color:#fff;padding:6px 14px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;}
+#printoverlay table{width:100%;border-collapse:collapse;}
+#printoverlay th{background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+#printoverlay td{padding:5px 8px;border-bottom:1px solid #eee;vertical-align:top;}
+#printoverlay .sec-row td{background:#e2e8f0;font-weight:700;font-size:11px;color:#334155;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+#printoverlay .arc-row td{background:#1e293b;color:#fff;font-weight:700;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
 </style>
 </head>
 <body>
@@ -126,6 +141,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;ba
 <div id="list"></div>
 <div id="toast"></div>
 <div id="printarea" style="display:none"></div>
+<div id="printoverlay">
+  <div class="po-toolbar">
+    <div>
+      <h3 id="po-title">Druckansicht</h3>
+      <div class="po-hint">iOS: Teilen-Symbol &#8594; Drucken &nbsp;|&nbsp; Mac: Cmd+P</div>
+    </div>
+    <button onclick="closePrintOverlay()">&#10005; Schliessen</button>
+  </div>
+  <div id="po-content"></div>
+</div>
 
 <div class="modal" id="mBericht">
   <div class="mbox">
@@ -405,7 +430,7 @@ function druckB(leer){
   var rows='';
   for(var ai=0;ai<archs.length;ai++){
     var arc=archs[ai];
-    rows+='<tr><td colspan="5" style="background:#1e293b;color:#fff;font-weight:700;padding:6px 8px;-webkit-print-color-adjust:exact;print-color-adjust:exact">'+esc(arc)+'</td></tr>';
+    rows+='<tr class="arc-row"><td colspan="5">'+esc(arc)+'</td></tr>';
     var subs=[],seenS={};
     for(var i=0;i<TASKS.length;i++){
       if(TASKS[i].ar!==arc)continue;
@@ -413,41 +438,33 @@ function druckB(leer){
     }
     for(var si=0;si<subs.length;si++){
       var sub=subs[si];
-      rows+='<tr><td colspan="5" style="background:#e2e8f0;font-size:11px;color:#334155;font-weight:600;padding:4px 8px;-webkit-print-color-adjust:exact;print-color-adjust:exact">'+esc(sub)+'</td></tr>';
+      rows+='<tr class="sec-row"><td colspan="5">'+esc(sub)+'</td></tr>';
       for(var i=0;i<TASKS.length;i++){
         var t=TASKS[i];
         if(t.ar!==arc||t.sub!==sub)continue;
         var s=getS(t.id);
         if(!leer && s.st==='Offen' && !s.fs && !s.tr) continue;
-        var stL=leer?'offen':s.st==='NichtGefunden'?'Nicht gef.':s.st==='Ausdruck'?'Ausdruck':s.st;
-        rows+='<tr style="border-bottom:1px solid #eee">';
-        rows+='<td style="font-family:monospace;font-size:11px;white-space:nowrap;padding:5px 8px">'+esc(t.sig)+'</td>';
-        rows+='<td style="padding:5px 8px"><strong>'+esc(t.pe)+'</strong><br><span style="font-size:10px;color:#666">'+esc(t.da)+'</span></td>';
-        rows+='<td style="padding:5px 8px;font-size:11px;font-weight:700">'+esc(stL)+'</td>';
-        rows+='<td style="padding:5px 8px;color:#166534">'+(leer?'':esc(s.fs))+'</td>';
-        rows+='<td style="padding:5px 8px;font-size:11px">'+(leer?'':esc(s.tr?s.tr.substring(0,100):''))+'</td>';
+        var stL=leer?'':s.st==='NichtGefunden'?'Nicht gef.':s.st==='Ausdruck'?'Ausdruck':s.st;
+        rows+='<tr>';
+        rows+='<td style="font-family:monospace;font-size:11px;white-space:nowrap">'+esc(t.sig)+'</td>';
+        rows+='<td><strong>'+esc(t.pe)+'</strong><br><span style="font-size:10px;color:#666">'+esc(t.da)+'</span></td>';
+        rows+='<td style="font-size:11px;font-weight:700">'+esc(stL)+'</td>';
+        rows+='<td style="color:#166534">'+(leer?'':esc(s.fs))+'</td>';
+        rows+='<td style="font-size:11px">'+(leer?'':esc(s.tr?s.tr.substring(0,100):''))+'</td>';
         rows+='</tr>';
       }
     }
   }
 
-  // Inline drucken – kein Popup nötig
-  var pa = document.getElementById('printarea');
-  pa.innerHTML =
-    '<h1 style="font-size:16px;margin-bottom:4px;font-family:Arial,sans-serif">'+esc(titel)+'</h1>'+
-    '<p style="font-size:11px;color:#666;margin-bottom:12px;font-family:Arial,sans-serif">Wolfgang Pilz &middot; '+datum+'</p>'+
-    '<table style="width:100%;border-collapse:collapse;font-family:Arial,sans-serif;font-size:12px">'+
-    '<thead><tr>'+
-    '<th style="background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact">Signatur</th>'+
-    '<th style="background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact">Person / Datum</th>'+
-    '<th style="background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact">Status</th>'+
-    '<th style="background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact">Fundstelle</th>'+
-    '<th style="background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact">Transkription</th>'+
+  document.getElementById('po-title').textContent = titel;
+  document.getElementById('po-content').innerHTML =
+    '<p style="font-size:11px;color:#666;margin-bottom:12px">Wolfgang Pilz &middot; '+datum+'</p>'+
+    '<table><thead><tr>'+
+    '<th>Signatur</th><th>Person / Datum</th><th>Status</th><th>Fundstelle / Folio</th><th>Transkription</th>'+
     '</tr></thead><tbody>'+rows+'</tbody></table>';
-  pa.style.display = 'block';
-  window.print();
-  pa.style.display = 'none';
-  pa.innerHTML = '';
+  document.getElementById('printoverlay').style.display='block';
+  document.getElementById('printoverlay').scrollTop=0;
+  closeModal('mBericht');
 }
 
 function kopiereText(){
@@ -493,37 +510,35 @@ function showAnford(){
   document.getElementById('mAnf').style.display='block';
 }
 
+function closePrintOverlay(){
+  document.getElementById('printoverlay').style.display='none';
+  document.getElementById('po-content').innerHTML='';
+}
+
 function druckAnf(){
   var wf=[],d=new Date().toLocaleDateString('de-AT');
   for(var i=0;i<TASKS.length;i++){if(getS(TASKS[i].id).fs)wf.push(TASKS[i]);}
   var rows='';
   for(var i=0;i<wf.length;i++){
     var t=wf[i],s=getS(t.id);
-    rows+='<tr><td style="padding:5px 8px">'+(i+1)+'</td>';
-    rows+='<td style="font-family:monospace;font-weight:700;padding:5px 8px">'+esc(t.sig)+'</td>';
-    rows+='<td style="padding:5px 8px">'+esc(t.pe)+'</td>';
-    rows+='<td style="padding:5px 8px">'+esc(t.da)+'</td>';
-    rows+='<td style="color:#166534;font-weight:600;padding:5px 8px">'+esc(s.fs)+'</td>';
-    rows+='<td style="font-size:11px;padding:5px 8px">'+esc(s.tr?s.tr.substring(0,60):'')+'</td></tr>';
+    rows+='<tr>';
+    rows+='<td>'+(i+1)+'</td>';
+    rows+='<td style="font-family:monospace;font-weight:700">'+esc(t.sig)+'</td>';
+    rows+='<td>'+esc(t.pe)+'</td>';
+    rows+='<td>'+esc(t.da)+'</td>';
+    rows+='<td style="color:#166534;font-weight:600">'+esc(s.fs)+'</td>';
+    rows+='<td style="font-size:11px">'+esc(s.tr?s.tr.substring(0,60):'')+'</td>';
+    rows+='</tr>';
   }
-  var th='background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact';
-  var pa=document.getElementById('printarea');
-  pa.innerHTML=
-    '<h1 style="font-size:15px;margin-bottom:4px;font-family:Arial,sans-serif">Anforderungsliste - Ausdrucke</h1>'+
-    '<p style="font-size:11px;color:#666;margin-bottom:12px;font-family:Arial,sans-serif">Wolfgang Pilz &middot; '+d+'</p>'+
-    '<table style="width:100%;border-collapse:collapse;font-family:Arial,sans-serif;font-size:12px">'+
-    '<thead><tr>'+
-    '<th style="'+th+'">#</th>'+
-    '<th style="'+th+'">Signatur</th>'+
-    '<th style="'+th+'">Person</th>'+
-    '<th style="'+th+'">Datum</th>'+
-    '<th style="'+th+'">Fundstelle / Folio</th>'+
-    '<th style="'+th+'">Bemerkung</th>'+
+  document.getElementById('po-title').textContent = 'Anforderungsliste - Ausdrucke';
+  document.getElementById('po-content').innerHTML =
+    '<p style="font-size:11px;color:#666;margin-bottom:12px">Wolfgang Pilz &middot; '+d+'</p>'+
+    '<table><thead><tr>'+
+    '<th>#</th><th>Signatur</th><th>Person</th><th>Datum</th><th>Fundstelle / Folio</th><th>Bemerkung</th>'+
     '</tr></thead><tbody>'+rows+'</tbody></table>';
-  pa.style.display='block';
-  window.print();
-  pa.style.display='none';
-  pa.innerHTML='';
+  document.getElementById('printoverlay').style.display='block';
+  document.getElementById('printoverlay').scrollTop=0;
+  closeModal('mAnf');
 }
 
 // ── MARKDOWN ──────────────────────────────────────────────────────
