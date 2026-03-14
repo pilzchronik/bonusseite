@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<title>Archivaufgaben - Dresden und Freiberg</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;margin:0;padding:0;}
+body{font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;background:#f1f5f9;font-size:15px;color:#1e293b;}
+#hdr{background:#1e293b;color:#fff;padding:14px 16px 12px;position:sticky;top:0;z-index:100;}
+#hdr h1{font-size:17px;font-weight:700;}
+#hdr p{margin:3px 0 0;font-size:11px;color:#94a3b8;}
+.stats{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap;}
+.stat{padding:3px 9px;border-radius:20px;font-size:11px;font-weight:700;background:rgba(255,255,255,.13);}
+.stat.g{background:#166534;}.stat.t{background:#92400e;}.stat.a{background:#4c1d95;}
+.prog{height:4px;background:rgba(255,255,255,.2);border-radius:2px;margin-top:8px;overflow:hidden;}
+.prog-b{height:100%;background:#22c55e;border-radius:2px;transition:width .4s;}
+#toolbar{background:#fff;border-bottom:1px solid #e2e8f0;padding:8px 12px;position:sticky;top:72px;z-index:99;display:flex;gap:6px;flex-wrap:wrap;align-items:center;}
+#toolbar select{font-size:12px;padding:5px 8px;border:1px solid #cbd5e1;border-radius:8px;background:#f8fafc;}
+.tbtn{font-size:12px;padding:5px 10px;border:none;border-radius:8px;font-weight:600;cursor:pointer;white-space:nowrap;}
+.tbtn.blue{background:#3b82f6;color:#fff;}
+.tbtn.green{background:#16a34a;color:#fff;}
+.tbtn.indigo{background:#4f46e5;color:#fff;}
+.tbtn.amber{background:#d97706;color:#fff;}
+#list{padding:10px 12px 40px;}
+.sec-hdr{font-size:11px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.8px;margin:18px 0 6px;}
+.sub-hdr{font-size:12px;font-weight:600;color:#475569;margin:10px 0 4px;padding:4px 8px;background:#e2e8f0;border-radius:6px;}
+.card{background:#fff;border-radius:12px;margin-bottom:6px;box-shadow:0 1px 3px rgba(0,0,0,.07);overflow:hidden;border-left:4px solid #cbd5e1;}
+.card.HH{border-left-color:#dc2626;}.card.MI{border-left-color:#f59e0b;}.card.OPT{border-left-color:#94a3b8;}
+.card-hd{display:flex;align-items:flex-start;padding:10px 12px;cursor:pointer;gap:8px;}
+.card-hd-left{flex:1;min-width:0;}
+.card-sig{font-size:11px;font-weight:700;color:#64748b;font-family:monospace;}
+.card-person{font-size:14px;font-weight:600;color:#0f172a;margin:2px 0;}
+.card-datum{font-size:11px;color:#94a3b8;}
+.card-right{display:flex;flex-direction:column;align-items:flex-end;gap:4px;flex-shrink:0;}
+.pbadge{font-size:10px;font-weight:700;padding:2px 6px;border-radius:10px;color:#fff;}
+.pbadge.HH{background:#dc2626;}.pbadge.MI{background:#f59e0b;}.pbadge.OPT{background:#94a3b8;}
+.spill{font-size:10px;font-weight:700;padding:2px 7px;border-radius:10px;white-space:nowrap;}
+.spill.Offen{background:#f1f5f9;color:#64748b;border:1px solid #cbd5e1;}
+.spill.Gefunden{background:#dcfce7;color:#166534;}
+.spill.Teilbefund{background:#fef3c7;color:#92400e;}
+.spill.Ausdruck{background:#ede9fe;color:#4c1d95;}
+.spill.NichtGefunden{background:#fee2e2;color:#991b1b;}
+.preview{font-size:11px;color:#64748b;font-style:italic;margin-top:3px;}
+.card-body{display:none;padding:0 12px 12px;border-top:1px solid #f1f5f9;}
+.aufgabe{background:#f8fafc;border-radius:8px;padding:8px 10px;font-size:13px;color:#334155;margin:10px 0 8px;line-height:1.5;}
+.statrow{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px;}
+.sbtn{padding:6px 11px;border:2px solid #e2e8f0;border-radius:20px;font-size:12px;font-weight:600;background:#fff;cursor:pointer;color:#475569;}
+.sbtn.selG{border-color:#16a34a;background:#dcfce7;color:#166534;}
+.sbtn.selT{border-color:#d97706;background:#fef3c7;color:#92400e;}
+.sbtn.selA{border-color:#7c3aed;background:#ede9fe;color:#4c1d95;}
+.sbtn.selN{border-color:#dc2626;background:#fee2e2;color:#991b1b;}
+.sbtn.selO{border-color:#94a3b8;background:#f1f5f9;color:#64748b;}
+.field-lbl{font-size:11px;font-weight:700;color:#64748b;margin-bottom:4px;text-transform:uppercase;}
+.ffs{width:100%;padding:8px 10px;border:2px solid #16a34a;border-radius:8px;font-size:14px;background:#f0fdf4;font-family:inherit;resize:vertical;min-height:40px;}
+.ftr{width:100%;padding:8px 10px;border:2px solid #cbd5e1;border-radius:8px;font-size:13px;background:#f8fafc;font-family:inherit;resize:vertical;min-height:60px;margin-top:8px;}
+.ffs:focus,.ftr:focus{outline:none;border-color:#3b82f6;}
+#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#1e293b;color:#fff;padding:8px 18px;border-radius:20px;font-size:13px;font-weight:600;display:none;z-index:9999;}
+.modal{display:none;position:fixed;inset:0;z-index:1000;background:rgba(0,0,0,.5);overflow-y:auto;}
+.mbox{background:#fff;margin:20px auto;border-radius:16px;max-width:800px;overflow:hidden;}
+.mhdr{background:#1e293b;color:#fff;padding:14px 18px;display:flex;justify-content:space-between;align-items:center;}
+.mhdr h2{font-size:16px;font-weight:700;}
+.mclose{background:none;border:none;color:#fff;font-size:22px;cursor:pointer;}
+.mbody{padding:16px;}
+.mstats{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;}
+.mst{padding:5px 12px;border-radius:20px;font-size:12px;font-weight:700;}
+.mst.g{background:#dcfce7;color:#166534;}.mst.t{background:#fef3c7;color:#92400e;}
+.mst.a{background:#ede9fe;color:#4c1d95;}.mst.n{background:#fee2e2;color:#991b1b;}
+.mst.o{background:#f1f5f9;color:#64748b;}.mst.tot{background:#1e293b;color:#fff;}
+.mactions{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;}
+.rtable{width:100%;border-collapse:collapse;font-size:12px;}
+.rtable th{background:#f1f5f9;padding:7px 8px;text-align:left;font-weight:700;color:#475569;font-size:11px;}
+.rtable td{padding:7px 8px;border-bottom:1px solid #f1f5f9;vertical-align:top;}
+.rsec{background:#e2e8f0;font-weight:700;font-size:11px;color:#334155;padding:5px 8px;}
+.rstat{font-size:10px;font-weight:700;padding:2px 6px;border-radius:8px;}
+.rstat.G{background:#dcfce7;color:#166534;}.rstat.T{background:#fef3c7;color:#92400e;}
+.rstat.A{background:#ede9fe;color:#4c1d95;}.rstat.N{background:#fee2e2;color:#991b1b;}
+.rstat.O{background:#f1f5f9;color:#64748b;border:1px solid #cbd5e1;}
+@media print{
+  #hdr,#toolbar,#list,#toast,.mactions,.mclose,#mBericht,#mAnf{display:none!important;}
+  #printarea{display:block!important;}
+  .mbox{margin:0;border-radius:0;}
+  .mhdr{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+}
+</style>
+</head>
+<body>
+<div id="hdr">
+  <h1>Archivaufgaben &#8211; Dresden &amp; Freiberg</h1>
+  <p>März 2026 &#183; Wolfgang Pilz &#183; Sächsischer Forschungsbaum Pilz/Pültz</p>
+  <div class="stats" id="stats"></div>
+  <div class="prog"><div class="prog-b" id="progbar"></div></div>
+</div>
+
+<div id="toolbar">
+  <select id="fA" onchange="render()">
+    <option value="">Alle Archive</option>
+    <option value="LKAZ Dresden">LKAZ Dresden</option>
+    <option value="StA Freiberg">StA Freiberg</option>
+    <option value="Gegenpruefe">Gegenprüfung</option>
+  </select>
+  <select id="fP" onchange="render()">
+    <option value="">Alle Prio</option>
+    <option value="HH">HH</option>
+    <option value="MI">MI</option>
+    <option value="OPT">OPT</option>
+  </select>
+  <select id="fS" onchange="render()">
+    <option value="">Alle Status</option>
+    <option value="Offen">Offen</option>
+    <option value="Gefunden">Gefunden</option>
+    <option value="Teilbefund">Teilbefund</option>
+    <option value="Ausdruck">Ausdruck</option>
+    <option value="NichtGefunden">Nicht gefunden</option>
+  </select>
+  <button class="tbtn indigo" onclick="showBericht()">Gesamtbericht</button>
+  <button class="tbtn green" onclick="showAnford()">Anforderungsliste</button>
+  <button class="tbtn amber" onclick="exportMd()">Markdown</button>
+  <button class="tbtn blue" onclick="doBackup()">Backup</button>
+  <label class="tbtn blue" style="cursor:pointer;">Laden<input type="file" accept=".json" style="display:none" onchange="doLoad(event)"></label>
+</div>
+
+<div id="list"></div>
+<div id="toast"></div>
+<div id="printarea" style="display:none"></div>
+
+<div class="modal" id="mBericht">
+  <div class="mbox">
+    <div class="mhdr">
+      <h2>Gesamtbericht &#8211; Archivaufgaben Dresden &amp; Freiberg</h2>
+      <button class="mclose" onclick="closeM('mBericht')">&#10005;</button>
+    </div>
+    <div class="mbody" id="bBody"></div>
+  </div>
+</div>
+
+<div class="modal" id="mAnf">
+  <div class="mbox">
+    <div class="mhdr">
+      <h2>Anforderungsliste &#8211; Ausdrucke</h2>
+      <button class="mclose" onclick="closeM('mAnf')">&#10005;</button>
+    </div>
+    <div class="mbody" id="aBody"></div>
+  </div>
+</div>
+
+<script>
+var TASKS = [
+  // ── LKAZ DRESDEN: von jung nach alt, direkte Linie zuerst ─────────
+
+  // 1. Oberneuschönberg KB 430 – Christian Gottlieb *1712 (jüngste gesicherte Generation)
+  {id:"n05",ar:"LKAZ Dresden",sub:"1. Oberneuschoenberg - KB Nr. 430 (Taufen 1708-1799)",sig:"KB 430",pr:"HH",pe:"Taufe Christian Gottlieb Pilz",au:"NICHT KB 429 verwenden - Taufen enden dort 1708! Hier suchen und vollständig abschreiben. Vater von Carl Gottlob *1738.",da:"28.03.1712"},
+
+  // 2. Oberneuschönberg KB 429 – Samuel *1683, Michael †1673, ältere Einträge
+  {id:"n01",ar:"LKAZ Dresden",sub:"2. Oberneuschoenberg - KB Nr. 429 (1661-1799)",sig:"KB 429",pr:"HH",pe:"Taufe Samuel Pilz jun.",au:"Eintrag suchen, Eltern und Paten vollständig notieren. Erstes Drittel des Buches. Vater von Christian Gottlieb *1712.",da:"13.01.1683"},
+  {id:"n02",ar:"LKAZ Dresden",sub:"2. Oberneuschoenberg - KB Nr. 429 (1661-1799)",sig:"KB 429",pr:"HH",pe:"Tod Michael Pilz",au:"Bestattungseintrag suchen. Vater von Samuel *1683.",da:"18.05.1673"},
+  {id:"n03",ar:"LKAZ Dresden",sub:"2. Oberneuschoenberg - KB Nr. 429 (1661-1799)",sig:"KB 429",pr:"MI",pe:"Tod Christian Gottlieb Pilz",au:"Bestattungseintrag suchen. Vater von Carl Gottlob *1738.",da:"1771"},
+  {id:"n04",ar:"LKAZ Dresden",sub:"2. Oberneuschoenberg - KB Nr. 429 (1661-1799)",sig:"KB 429",pr:"OPT",pe:"Michael Pulz Vormund ca. 1695",au:"Optional - kein Primärbeleg, Verbindung zur Hauptlinie ungeklärt. Nur wenn Zeit.",da:"ca. 1690-1700"},
+
+  // 3. Lengefeld – Maria Elisabeth Schreiber (Ehefrau Christian Gottlieb)
+  {id:"l01",ar:"LKAZ Dresden",sub:"3. Lengefeld - Reg. 219 (Register zu KB 188) ZUERST",sig:"Reg. 219",pr:"MI",pe:"Schreiber - im Register suchen",au:"ZUERST hier nachschlagen, dann in KB 188 den genauen Eintrag aufsuchen.",da:"ca. 1712"},
+  {id:"l02",ar:"LKAZ Dresden",sub:"3. Lengefeld - KB Nr. 188 (Taufen 1706-1720)",sig:"KB 188",pr:"MI",pe:"Taufe Maria Elisabeth Schreiber",au:"Ehefrau von Christian Gottlieb Pilz. Eltern und Paten vollständig notieren.",da:"ca. 1712"},
+
+  // 4. Olbernhau – Samuel sen. *1654 (Reg. 458 zuerst, dann KB 438)
+  {id:"o01",ar:"LKAZ Dresden",sub:"4. Olbernhau - Reg. 458 (Register zu KB 438) ZUERST",sig:"Reg. 458",pr:"HH",pe:"Samuel Pilz sen. - im Register suchen",au:"ZUERST hier nachschlagen, dann in KB 438 den genauen Eintrag aufsuchen.",da:"02.03.1654"},
+  {id:"o04",ar:"LKAZ Dresden",sub:"4. Olbernhau - KB Nr. 438 (Taufen 1633-1665)",sig:"KB 438",pr:"HH",pe:"Taufe Samuel Pilz sen.",au:"Nach Reg. 458 hier den genauen Eintrag aufsuchen und vollständig abschreiben. Vater von Samuel jun. *1683.",da:"02.03.1654"},
+
+  // 5. Olbernhau – Michael Pilz *1617 (KB 437, kein Register)
+  {id:"o02",ar:"LKAZ Dresden",sub:"5. Olbernhau - KB Nr. 437 (Taufen 1579-1631, kein Register)",sig:"KB 437",pr:"HH",pe:"Taufe Michael Pilz",au:"KEIN Register - chronologisch blättern. Exaktes Datum bekannt, vollständig abschreiben. Vater von Samuel sen. *1654.",da:"13.07.1617"},
+  {id:"o03",ar:"LKAZ Dresden",sub:"5. Olbernhau - KB Nr. 437 (Taufen 1579-1631, kein Register)",sig:"KB 437",pr:"MI",pe:"Weitere Pilz-Taufen Olbernhau",au:"Gesamtes Buch nach allen Pilz/Pültz-Einträgen durchblättern. Geschwister von Michael notieren.",da:"1579-1631"},
+
+  // 6. Dörnthal Reg. 34 – Abraham *1591 (Register zuerst)
+  {id:"d01",ar:"LKAZ Dresden",sub:"6. Doernthal - Reg. 34 (Taufregister 1564-1840) ZUERST",sig:"Reg. 34",pr:"HH",pe:"Abraham PILZ - Taufe",au:"Im Taufregister suchen. Eltern und Paten vollständig notieren. Vater von Michael *1617.",da:"Aug. 1591"},
+  {id:"d02",ar:"LKAZ Dresden",sub:"6. Doernthal - Reg. 34 (Taufregister 1564-1840) ZUERST",sig:"Reg. 34",pr:"HH",pe:"Michael PILZ - Elternschaft klaeren",au:"Ist Michael Pilz *1570 Sohn von Jobst Bültz oder Michael Piltz? Eintrag vollständig abschreiben.",da:"03.09.1570"},
+  {id:"d03",ar:"LKAZ Dresden",sub:"6. Doernthal - Reg. 34 (Taufregister 1564-1840) ZUERST",sig:"Reg. 34",pr:"HH",pe:"Kinder Joseph Pültz - Taufen",au:"Taufen der Kinder suchen: Christoff, Anna, Margarela, Katharina, Matthes, Hans u.a. Alle Paten notieren.",da:"1575-1591"},
+  {id:"d04",ar:"LKAZ Dresden",sub:"6. Doernthal - Reg. 34 (Taufregister 1564-1840) ZUERST",sig:"Reg. 34",pr:"MI",pe:"ALLE Pilz/Pültz-Taufen systematisch",au:"Gesamtes Register: Pilz, Piltz, Pültz, Pülcz, Biltz, Bültz, Pültzend. Alle Einträge notieren.",da:"1563-1622"},
+
+  // 7. Dörnthal Reg. 37 + 36 – Bestattungen und Trauungen
+  {id:"d05",ar:"LKAZ Dresden",sub:"7. Doernthal - Reg. 37 (Bestattungsregister) + Reg. 36 (Trauregister)",sig:"Reg. 37",pr:"HH",pe:"Tod Jobst Piltz - Bestaetigung",au:"Im Bestattungsregister nachschlagen. Datum und genaue Schreibweise notieren.",da:"03.04.1619"},
+  {id:"d06",ar:"LKAZ Dresden",sub:"7. Doernthal - Reg. 37 (Bestattungsregister) + Reg. 36 (Trauregister)",sig:"Reg. 37",pr:"HH",pe:"Tod Michael Pültz (aeltester Stammvater)",au:"Im Bestattungsregister nachschlagen. Frühes Drittel des Registers.",da:"ca. 1562-1575"},
+  {id:"d07",ar:"LKAZ Dresden",sub:"7. Doernthal - Reg. 37 (Bestattungsregister) + Reg. 36 (Trauregister)",sig:"Reg. 37",pr:"MI",pe:"Witwe Pilzin - Bestattung",au:"Im Bestattungsregister nachschlagen.",da:"21.02.1575"},
+  {id:"d08",ar:"LKAZ Dresden",sub:"7. Doernthal - Reg. 37 (Bestattungsregister) + Reg. 36 (Trauregister)",sig:"Reg. 36",pr:"MI",pe:"Heirat Michael Pültz",au:"Im Trauregister nachschlagen. Ganz am Anfang.",da:"vor 1560?"},
+  {id:"d09",ar:"LKAZ Dresden",sub:"7. Doernthal - Reg. 37 (Bestattungsregister) + Reg. 36 (Trauregister)",sig:"Reg. 36",pr:"MI",pe:"Heirat Jobst Bueltz",au:"Im Trauregister nachschlagen. Jobst = Vater des Michael Pilz geb. 1570.",da:"ca. 1565-1575"},
+
+  // 8. Dörnthal KB 23 – älteste Generation, kein Register, chronologisch
+  {id:"d10",ar:"LKAZ Dresden",sub:"8. Doernthal - KB Nr. 23 (1563-1622, kein Register, chronologisch)",sig:"KB 23",pr:"HH",pe:"Tod Jobst BUELTZ/PILTZ",au:"Bestattungseintrag suchen. NICHT identisch mit Joseph Pültz! Vollständig abschreiben.",da:"03.04.1619"},
+  {id:"d11",ar:"LKAZ Dresden",sub:"8. Doernthal - KB Nr. 23 (1563-1622, kein Register, chronologisch)",sig:"KB 23",pr:"HH",pe:"Tod Sybilla - 1. Frau Josephs",au:"Bestattungseintrag suchen. Sybilla muss vor 02.02.1617 gestorben sein. Prüfen ob Familienname Zimmermann.",da:"ca. 1610-1616"},
+  {id:"d12",ar:"LKAZ Dresden",sub:"8. Doernthal - KB Nr. 23 (1563-1622, kein Register, chronologisch)",sig:"KB 23",pr:"HH",pe:"Heirat Joseph Pültz - 2. Ehe",au:"Trauungseintrag suchen. Name der Braut unbekannt - vollständig notieren.",da:"08.05.1589"},
+  {id:"d13",ar:"LKAZ Dresden",sub:"8. Doernthal - KB Nr. 23 (1563-1622, kein Register, chronologisch)",sig:"KB 23",pr:"MI",pe:"Tod Michael Pültz",au:"Bestattungseintrag suchen, frühes Drittel.",da:"ca. 1562-1575"},
+  {id:"d14",ar:"LKAZ Dresden",sub:"8. Doernthal - KB Nr. 23 (1563-1622, kein Register, chronologisch)",sig:"KB 23",pr:"MI",pe:"Witwe Pilzin - falls nicht in Reg. 37",au:"Bestattungseintrag suchen. Falls nicht hier: Pfaffroda prüfen.",da:"21.02.1575"},
+  {id:"d15",ar:"LKAZ Dresden",sub:"8. Doernthal - KB Nr. 23 (1563-1622, kein Register, chronologisch)",sig:"KB 23",pr:"MI",pe:"Trauung Jobst Bueltz",au:"Trauungseintrag suchen. Jobst = Vater des Michael Pilz geb. 1570.",da:"ca. 1565-1575"},
+  {id:"d16",ar:"LKAZ Dresden",sub:"8. Doernthal - KB Nr. 23 (1563-1622, kein Register, chronologisch)",sig:"KB 23",pr:"MI",pe:"ALLE Pilz-Eintraege systematisch",au:"Gesamtes Buch durchblättern, alle Namensvarianten notieren.",da:"1563-1622"},
+
+  // 9. Optional Pfaffroda
+  {id:"p01",ar:"LKAZ Dresden",sub:"9. Optional Pfaffroda (nur falls Witwe Pilzin nicht in Doernthal)",sig:"KB 461",pr:"OPT",pe:"Witwe Pilzin - Pfaffroda",au:"Nur prüfen falls kein Treffer in Dörnthal KB 23. Buch 1573-1653.",da:"21.02.1575"},
+  {id:"p02",ar:"LKAZ Dresden",sub:"9. Optional Pfaffroda (nur falls Witwe Pilzin nicht in Doernthal)",sig:"Reg. 480",pr:"OPT",pe:"Taufregister Pfaffroda",au:"Nur bei Bedarf: Register 1573-1840 nach Pilz-Einträgen.",da:"1573-1840"},
+
+  // ── STADTARCHIV FREIBERG ──────────────────────────────────────────
+  {id:"f02",ar:"StA Freiberg",sub:"Gerichtsbuecher AG Sayda - Hauptaufgaben",sig:"GB AG Sayda",pr:"HH",pe:"Carl Gottlob Pilz - letzte Erwaehnung",au:"Letzten Beleg vor ca. 1770 suchen. Verbindung zur Saigerhütte Grünthal klären. Emigration nach Böhmen ca. 1770.",da:"ca. 1765-1770"},
+  {id:"f01",ar:"StA Freiberg",sub:"Gerichtsbuecher AG Sayda - Hauptaufgaben",sig:"GB AG Sayda",pr:"HH",pe:"Abraham Pilz - Sohnschaft bestaetigen",au:"GB AG Sayda Nr. 020, Eintrag L772 (1620) im Original prüfen und vollständig abschreiben. Bestätigt Abraham als Sohn Josephs.",da:"1620"},
+  {id:"f05",ar:"StA Freiberg",sub:"Gerichtsbuecher AG Sayda - Ergaenzungen",sig:"GB AG Sayda",pr:"MI",pe:"Joseph Pültz - Todesjahr eingrenzen",au:"Letzter GB-Eintrag suchen, Sterbejahr eingrenzen.",da:"ca. 1620-1625"},
+  {id:"f04",ar:"StA Freiberg",sub:"Gerichtsbuecher AG Sayda - Ergaenzungen",sig:"GB AG Sayda",pr:"MI",pe:"Marten Piltz / Hans Pültzn",au:"Einträge aus GB Bd. 02 und 03 im Original prüfen. Verwandtschaftsverhältnis zu Joseph Pültz klären.",da:"ab 1595"},
+  {id:"f03",ar:"StA Freiberg",sub:"Gerichtsbuecher AG Sayda - Ergaenzungen",sig:"GB AG Sayda",pr:"MI",pe:"Michael Pültzen - Schoeppe-Eintrag",au:"GB Bd. 01, Bl. 160b (01.01.1562) im Original prüfen und vollständig abschreiben.",da:"01.01.1562"},
+
+  // ── GEGENPRÜFUNG ─────────────────────────────────────────────────
+  {id:"g01",ar:"Gegenpruefe",sub:"GB-KB Gegenpruefung und Namensvarianten",sig:"-",pr:"MI",pe:"Joseph Pültz - 1. Heirat",au:"Trauungseintrag im Kirchenbuch suchen und mit GB-Beleg abgleichen.",da:"09.05.1574"},
+  {id:"g02",ar:"Gegenpruefe",sub:"GB-KB Gegenpruefung und Namensvarianten",sig:"-",pr:"MI",pe:"Heirat Joseph Pültz - 3. Ehe",au:"Trauungseintrag suchen (3. Ehe nach Tod Sybillas, ab 02.02.1617).",da:"ca. 1617-1620"},
+  {id:"g03",ar:"Gegenpruefe",sub:"GB-KB Gegenpruefung und Namensvarianten",sig:"-",pr:"MI",pe:"Namensvarianten - Vollstaendige Kontrolle",au:"Pilz, Piltz, Pültz, Pülcz, Pultz, Pültzend, Pültzin, Piltzin, Biltz, Bültz, Bültzin - in allen bearbeiteten Registern kontrollieren.",da:"lfd."}
+];
+
+var SK = 'archiv2026v2';
+
+function getAll() {
+  try { return JSON.parse(localStorage.getItem(SK) || '{}'); }
+  catch(e) { return {}; }
+}
+function getS(id) {
+  var a = getAll(); return a[id] || {st:'Offen',fs:'',tr:''};
+}
+function setS(id, k, v) {
+  var a = getAll();
+  if (!a[id]) a[id] = {st:'Offen',fs:'',tr:''};
+  a[id][k] = v;
+  try { localStorage.setItem(SK, JSON.stringify(a)); } catch(e) {}
+  updateStats();
+}
+
+function updateStats() {
+  var a = getAll(), G=0,T=0,A=0,N=0, tot=TASKS.length;
+  for (var i=0; i<TASKS.length; i++) {
+    var s = (a[TASKS[i].id]||{}).st||'Offen';
+    if(s==='Gefunden')G++; else if(s==='Teilbefund')T++;
+    else if(s==='Ausdruck')A++; else if(s==='NichtGefunden')N++;
+  }
+  var done=G+T+A;
+  var h = '<span class="stat">Gesamt: '+tot+'</span>';
+  if(G) h += '<span class="stat g">Gefunden: '+G+'</span>';
+  if(T) h += '<span class="stat t">Teilbefund: '+T+'</span>';
+  if(A) h += '<span class="stat a">Ausdruck: '+A+'</span>';
+  if(N) h += '<span class="stat" style="background:#7f1d1d">Nicht gef.: '+N+'</span>';
+  h += '<span class="stat">Offen: '+(tot-done-N)+'</span>';
+  document.getElementById('stats').innerHTML = h;
+  document.getElementById('progbar').style.width = Math.round(done/tot*100)+'%';
+}
+
+function render() {
+  var fA=document.getElementById('fA').value;
+  var fP=document.getElementById('fP').value;
+  var fS=document.getElementById('fS').value;
+  var a=getAll();
+
+  var filtered=[];
+  for(var i=0;i<TASKS.length;i++){
+    var t=TASKS[i];
+    if(fA && t.ar!==fA) continue;
+    if(fP && t.pr!==fP) continue;
+    if(fS){ var cs=(a[t.id]||{}).st||'Offen'; if(cs!==fS) continue; }
+    filtered.push(t);
+  }
+
+  var archivs=[],seen={};
+  for(var i=0;i<filtered.length;i++){
+    if(!seen[filtered[i].ar]){seen[filtered[i].ar]=true;archivs.push(filtered[i].ar);}
+  }
+
+  var h='';
+  for(var ai=0;ai<archivs.length;ai++){
+    var arc=archivs[ai];
+    h+='<div class="sec-hdr">' + esc(arc) + '</div>';
+    var subs=[],seenS={};
+    for(var i=0;i<filtered.length;i++){
+      if(filtered[i].ar!==arc)continue;
+      if(!seenS[filtered[i].sub]){seenS[filtered[i].sub]=true;subs.push(filtered[i].sub);}
+    }
+    for(var si=0;si<subs.length;si++){
+      var sub=subs[si];
+      h+='<div class="sub-hdr">'+esc(sub)+'</div>';
+      for(var i=0;i<filtered.length;i++){
+        var t=filtered[i];
+        if(t.ar!==arc||t.sub!==sub) continue;
+        var s=getS(t.id);
+        var stL=s.st==='NichtGefunden'?'Nicht gefunden':s.st==='Ausdruck'?'Ausdruck beantragt':s.st;
+        var prev=s.fs?('<div class="preview">'+esc(s.fs.substring(0,60))+'</div>'):'';
+        var btns='';
+        var SL=['Gefunden','Teilbefund','Ausdruck','NichtGefunden','Offen'];
+        var SN={'Gefunden':'Gefunden','Teilbefund':'Teilbefund','Ausdruck':'Ausdruck beantragt','NichtGefunden':'Nicht gefunden','Offen':'Offen'};
+        var SC={'Gefunden':'selG','Teilbefund':'selT','Ausdruck':'selA','NichtGefunden':'selN','Offen':'selO'};
+        for(var k=0;k<SL.length;k++){
+          var st2=SL[k];
+          btns+='<button class="sbtn '+(s.st===st2?SC[st2]:'')+'" onclick="setSt(\''+t.id+'\',\''+st2+'\')">'+SN[st2]+'</button>';
+        }
+        h+='<div class="card '+t.pr+'" id="c-'+t.id+'">';
+        h+='<div class="card-hd" onclick="tog(\''+t.id+'\')">';
+        h+='<div class="card-hd-left">';
+        h+='<div class="card-sig">'+esc(t.sig)+'</div>';
+        h+='<div class="card-person">'+esc(t.pe)+'</div>';
+        h+='<div class="card-datum">'+esc(t.da)+'</div>';
+        h+=prev;
+        h+='</div><div class="card-right">';
+        h+='<span class="pbadge '+t.pr+'">'+t.pr+'</span>';
+        h+='<span class="spill '+s.st+'">'+esc(stL)+'</span>';
+        h+='</div></div>';
+        h+='<div class="card-body" id="b-'+t.id+'">';
+        h+='<div class="aufgabe">'+esc(t.au)+'</div>';
+        h+='<div class="statrow">'+btns+'</div>';
+        h+='<div class="field-lbl">Fundstelle / Folio</div>';
+        h+='<textarea class="ffs" id="fs-'+t.id+'" placeholder="z.B. Bl. 47v, S. 133, Fol. 15r" oninput="sv(\''+t.id+'\',\'fs\',this.value)">'+esc(s.fs||'')+'</textarea>';
+        h+='<div class="field-lbl" style="margin-top:10px">Transkription / Bemerkungen</div>';
+        h+='<textarea class="ftr" id="tr-'+t.id+'" placeholder="Volltext, Namen, Paten, Zeugen, offene Fragen..." oninput="sv(\''+t.id+'\',\'tr\',this.value)">'+esc(s.tr||'')+'</textarea>';
+        h+='</div></div>';
+      }
+    }
+  }
+  if(!h) h='<div style="padding:30px;text-align:center;color:#94a3b8">Keine Aufgaben für diese Filter.</div>';
+  document.getElementById('list').innerHTML=h;
+  updateStats();
+}
+
+function tog(id){
+  var b=document.getElementById('b-'+id);
+  b.style.display=b.style.display==='block'?'none':'block';
+}
+function setSt(id,st){
+  setS(id,'st',st); render();
+  setTimeout(function(){var b=document.getElementById('b-'+id);if(b)b.style.display='block';},20);
+}
+function sv(id,k,v){ setS(id,k,v); }
+
+// ── GESAMTBERICHT ──────────────────────────────────────────────────
+function showBericht(){
+  var a=getAll(),G=0,T=0,A=0,N=0,O=0;
+  for(var i=0;i<TASKS.length;i++){
+    var s=(a[TASKS[i].id]||{}).st||'Offen';
+    if(s==='Gefunden')G++; else if(s==='Teilbefund')T++;
+    else if(s==='Ausdruck')A++; else if(s==='NichtGefunden')N++; else O++;
+  }
+  var sh='<span class="mst tot">Gesamt: '+TASKS.length+'</span>';
+  sh+='<span class="mst g">Gefunden: '+G+'</span>';
+  sh+='<span class="mst t">Teilbefund: '+T+'</span>';
+  sh+='<span class="mst a">Ausdruck: '+A+'</span>';
+  sh+='<span class="mst n">Nicht gef.: '+N+'</span>';
+  sh+='<span class="mst o">Offen: '+O+'</span>';
+
+  var h='<div class="mstats">'+sh+'</div>';
+  h+='<div class="mactions">';
+  h+='<button class="tbtn indigo" onclick="druckB(false)">Ausgefüllt drucken / PDF</button>';
+  h+='<button class="tbtn blue" onclick="druckB(true)">Leer drucken (Notizblatt)</button>';
+  h+='<button class="tbtn amber" onclick="kopiereText()">Als Text kopieren</button>';
+  h+='</div>';
+  h+='<table class="rtable"><thead><tr>';
+  h+='<th>Signatur</th><th>Person / Datum</th><th>Status</th><th>Fundstelle</th><th>Transkription</th>';
+  h+='</tr></thead><tbody>'+buildRows(false)+'</tbody></table>';
+  document.getElementById('bBody').innerHTML=h;
+  document.getElementById('mBericht').style.display='block';
+}
+
+function buildRows(leer){
+  var archs=[],seen={};
+  for(var i=0;i<TASKS.length;i++){
+    if(!seen[TASKS[i].ar]){seen[TASKS[i].ar]=true;archs.push(TASKS[i].ar);}
+  }
+  var rows='';
+  for(var ai=0;ai<archs.length;ai++){
+    var arc=archs[ai];
+    rows+='<tr><td colspan="5" class="rsec">'+esc(arc)+'</td></tr>';
+    var subs=[],seenS={};
+    for(var i=0;i<TASKS.length;i++){
+      if(TASKS[i].ar!==arc)continue;
+      if(!seenS[TASKS[i].sub]){seenS[TASKS[i].sub]=true;subs.push(TASKS[i].sub);}
+    }
+    for(var si=0;si<subs.length;si++){
+      var sub=subs[si];
+      rows+='<tr><td colspan="5" style="padding:3px 8px;font-size:11px;color:#64748b;font-style:italic">'+esc(sub)+'</td></tr>';
+      for(var i=0;i<TASKS.length;i++){
+        var t=TASKS[i];
+        if(t.ar!==arc||t.sub!==sub)continue;
+        var s=getS(t.id);
+        if(!leer && s.st==='Offen' && !s.fs && !s.tr) continue;
+        var stL=s.st==='NichtGefunden'?'Nicht gef.':s.st==='Ausdruck'?'Ausdruck':s.st;
+        var sc=s.st==='Gefunden'?'G':s.st==='Teilbefund'?'T':s.st==='Ausdruck'?'A':s.st==='NichtGefunden'?'N':'O';
+        var trunc=s.tr?s.tr.substring(0,100)+(s.tr.length>100?'...':''):'';
+        rows+='<tr>';
+        rows+='<td style="font-family:monospace;font-size:11px">'+esc(t.sig)+'</td>';
+        rows+='<td><strong>'+esc(t.pe)+'</strong><br><span style="font-size:10px;color:#94a3b8">'+esc(t.da)+'</span></td>';
+        rows+='<td>'+(leer?'':'<span class="rstat '+sc+'">'+esc(stL)+'</span>')+'</td>';
+        rows+='<td style="color:#166534">'+(leer?'':esc(s.fs))+'</td>';
+        rows+='<td style="font-size:11px">'+(leer?'':esc(trunc))+'</td>';
+        rows+='</tr>';
+      }
+    }
+  }
+  return rows;
+}
+
+function druckB(leer){
+  var datum=new Date().toLocaleDateString('de-AT');
+  var titel=leer?'NOTIZBLATT - Archivaufgaben Dresden & Freiberg':'GESAMTBERICHT - Archivaufgaben Dresden & Freiberg';
+  var archs=[],seen={};
+  for(var i=0;i<TASKS.length;i++){
+    if(!seen[TASKS[i].ar]){seen[TASKS[i].ar]=true;archs.push(TASKS[i].ar);}
+  }
+  var rows='';
+  for(var ai=0;ai<archs.length;ai++){
+    var arc=archs[ai];
+    rows+='<tr><td colspan="5" style="background:#1e293b;color:#fff;font-weight:700;padding:6px 8px;-webkit-print-color-adjust:exact;print-color-adjust:exact">'+esc(arc)+'</td></tr>';
+    var subs=[],seenS={};
+    for(var i=0;i<TASKS.length;i++){
+      if(TASKS[i].ar!==arc)continue;
+      if(!seenS[TASKS[i].sub]){seenS[TASKS[i].sub]=true;subs.push(TASKS[i].sub);}
+    }
+    for(var si=0;si<subs.length;si++){
+      var sub=subs[si];
+      rows+='<tr><td colspan="5" style="background:#e2e8f0;font-size:11px;color:#334155;font-weight:600;padding:4px 8px;-webkit-print-color-adjust:exact;print-color-adjust:exact">'+esc(sub)+'</td></tr>';
+      for(var i=0;i<TASKS.length;i++){
+        var t=TASKS[i];
+        if(t.ar!==arc||t.sub!==sub)continue;
+        var s=getS(t.id);
+        if(!leer && s.st==='Offen' && !s.fs && !s.tr) continue;
+        var stL=leer?'offen':s.st==='NichtGefunden'?'Nicht gef.':s.st==='Ausdruck'?'Ausdruck':s.st;
+        rows+='<tr style="border-bottom:1px solid #eee">';
+        rows+='<td style="font-family:monospace;font-size:11px;white-space:nowrap;padding:5px 8px">'+esc(t.sig)+'</td>';
+        rows+='<td style="padding:5px 8px"><strong>'+esc(t.pe)+'</strong><br><span style="font-size:10px;color:#666">'+esc(t.da)+'</span></td>';
+        rows+='<td style="padding:5px 8px;font-size:11px;font-weight:700">'+esc(stL)+'</td>';
+        rows+='<td style="padding:5px 8px;color:#166534">'+(leer?'':esc(s.fs))+'</td>';
+        rows+='<td style="padding:5px 8px;font-size:11px">'+(leer?'':esc(s.tr?s.tr.substring(0,100):''))+'</td>';
+        rows+='</tr>';
+      }
+    }
+  }
+
+  // Inline drucken – kein Popup nötig
+  var pa = document.getElementById('printarea');
+  pa.innerHTML =
+    '<h1 style="font-size:16px;margin-bottom:4px;font-family:Arial,sans-serif">'+esc(titel)+'</h1>'+
+    '<p style="font-size:11px;color:#666;margin-bottom:12px;font-family:Arial,sans-serif">Wolfgang Pilz &middot; '+datum+'</p>'+
+    '<table style="width:100%;border-collapse:collapse;font-family:Arial,sans-serif;font-size:12px">'+
+    '<thead><tr>'+
+    '<th style="background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact">Signatur</th>'+
+    '<th style="background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact">Person / Datum</th>'+
+    '<th style="background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact">Status</th>'+
+    '<th style="background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact">Fundstelle</th>'+
+    '<th style="background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact">Transkription</th>'+
+    '</tr></thead><tbody>'+rows+'</tbody></table>';
+  pa.style.display = 'block';
+  window.print();
+  pa.style.display = 'none';
+  pa.innerHTML = '';
+}
+
+function kopiereText(){
+  var a=getAll(),G=0,T=0,A=0,N=0;
+  for(var i=0;i<TASKS.length;i++){
+    var s=(a[TASKS[i].id]||{}).st||'Offen';
+    if(s==='Gefunden')G++; else if(s==='Teilbefund')T++; else if(s==='Ausdruck')A++; else if(s==='NichtGefunden')N++;
+  }
+  var d=new Date().toLocaleDateString('de-AT');
+  var txt='GESAMTBERICHT Archivaufgaben Dresden & Freiberg\nStand: '+d+' | Gefunden: '+G+' | Teilbefund: '+T+' | Ausdruck: '+A+' | Nicht gef.: '+N+'\n\n';
+  var lastAr='';
+  for(var i=0;i<TASKS.length;i++){
+    var t=TASKS[i]; var s=getS(t.id);
+    if(s.st==='Offen'&&!s.fs&&!s.tr)continue;
+    if(t.ar!==lastAr){txt+='\n=== '+t.ar+' ===\n';lastAr=t.ar;}
+    txt+='\n['+s.st+'] '+t.pe+' ('+t.da+') - '+t.sig+'\n';
+    if(s.fs)txt+='  Fundstelle: '+s.fs+'\n';
+    if(s.tr)txt+='  Transkription: '+s.tr+'\n';
+  }
+  if(navigator.clipboard&&navigator.clipboard.writeText){
+    navigator.clipboard.writeText(txt).then(function(){toast('Text kopiert!');}).catch(function(){fbCopy(txt);});
+  } else { fbCopy(txt); }
+}
+
+// ── ANFORDERUNGSLISTE ─────────────────────────────────────────────
+function showAnford(){
+  var wf=[];
+  for(var i=0;i<TASKS.length;i++){if(getS(TASKS[i].id).fs)wf.push(TASKS[i]);}
+  if(!wf.length){toast('Noch keine Fundstellen eingetragen.');return;}
+  var rows='';
+  for(var i=0;i<wf.length;i++){
+    var t=wf[i],s=getS(t.id);
+    var bem=s.tr?s.tr.substring(0,60)+(s.tr.length>60?'...':''):'';
+    rows+='<tr><td>'+(i+1)+'</td><td style="font-family:monospace;font-weight:700">'+esc(t.sig)+'</td>';
+    rows+='<td>'+esc(t.pe)+'</td><td>'+esc(t.da)+'</td>';
+    rows+='<td style="color:#166534;font-weight:600">'+esc(s.fs)+'</td>';
+    rows+='<td style="font-size:11px">'+esc(bem)+'</td></tr>';
+  }
+  var h='<div class="mactions"><button class="tbtn green" onclick="druckAnf()">Drucken / Als PDF</button></div>';
+  h+='<p style="font-size:12px;color:#64748b;margin-bottom:10px">'+wf.length+' Einträge mit Fundstelle:</p>';
+  h+='<table class="rtable"><thead><tr><th>#</th><th>Signatur</th><th>Person</th><th>Datum</th><th>Fundstelle</th><th>Bemerkung</th></tr></thead><tbody>'+rows+'</tbody></table>';
+  document.getElementById('aBody').innerHTML=h;
+  document.getElementById('mAnf').style.display='block';
+}
+
+function druckAnf(){
+  var wf=[],d=new Date().toLocaleDateString('de-AT');
+  for(var i=0;i<TASKS.length;i++){if(getS(TASKS[i].id).fs)wf.push(TASKS[i]);}
+  var rows='';
+  for(var i=0;i<wf.length;i++){
+    var t=wf[i],s=getS(t.id);
+    rows+='<tr><td style="padding:5px 8px">'+(i+1)+'</td>';
+    rows+='<td style="font-family:monospace;font-weight:700;padding:5px 8px">'+esc(t.sig)+'</td>';
+    rows+='<td style="padding:5px 8px">'+esc(t.pe)+'</td>';
+    rows+='<td style="padding:5px 8px">'+esc(t.da)+'</td>';
+    rows+='<td style="color:#166534;font-weight:600;padding:5px 8px">'+esc(s.fs)+'</td>';
+    rows+='<td style="font-size:11px;padding:5px 8px">'+esc(s.tr?s.tr.substring(0,60):'')+'</td></tr>';
+  }
+  var th='background:#1e293b;color:#fff;padding:6px 8px;text-align:left;font-size:11px;-webkit-print-color-adjust:exact;print-color-adjust:exact';
+  var pa=document.getElementById('printarea');
+  pa.innerHTML=
+    '<h1 style="font-size:15px;margin-bottom:4px;font-family:Arial,sans-serif">Anforderungsliste - Ausdrucke</h1>'+
+    '<p style="font-size:11px;color:#666;margin-bottom:12px;font-family:Arial,sans-serif">Wolfgang Pilz &middot; '+d+'</p>'+
+    '<table style="width:100%;border-collapse:collapse;font-family:Arial,sans-serif;font-size:12px">'+
+    '<thead><tr>'+
+    '<th style="'+th+'">#</th>'+
+    '<th style="'+th+'">Signatur</th>'+
+    '<th style="'+th+'">Person</th>'+
+    '<th style="'+th+'">Datum</th>'+
+    '<th style="'+th+'">Fundstelle / Folio</th>'+
+    '<th style="'+th+'">Bemerkung</th>'+
+    '</tr></thead><tbody>'+rows+'</tbody></table>';
+  pa.style.display='block';
+  window.print();
+  pa.style.display='none';
+  pa.innerHTML='';
+}
+
+// ── MARKDOWN ──────────────────────────────────────────────────────
+function exportMd(){
+  var a=getAll(),G=0,T=0,d=new Date().toLocaleDateString('de-AT');
+  for(var i=0;i<TASKS.length;i++){
+    var s=(a[TASKS[i].id]||{}).st||'Offen';
+    if(s==='Gefunden')G++; else if(s==='Teilbefund')T++;
+  }
+  var md='# Archivaufgaben Dresden & Freiberg\nStand: '+d+' | Gefunden: '+G+' | Teilbefund: '+T+'\n\n';
+  var lastAr='';
+  for(var i=0;i<TASKS.length;i++){
+    var t=TASKS[i],s=getS(t.id);
+    if(s.st==='Offen'&&!s.fs&&!s.tr)continue;
+    if(t.ar!==lastAr){md+='\n## '+t.ar+'\n\n';lastAr=t.ar;}
+    md+='**['+s.st+']** '+t.pe+' ('+t.da+') - '+t.sig+' - Prio: '+t.pr+'\n';
+    if(s.fs)md+='Fundstelle: '+s.fs+'\n';
+    if(s.tr)md+='Transkription: '+s.tr+'\n';
+    md+='\n';
+  }
+  fbCopy(md);
+  toast('Markdown kopiert!');
+}
+
+// ── BACKUP ────────────────────────────────────────────────────────
+function doBackup(){
+  var data=localStorage.getItem(SK)||'{}';
+  try{
+    var b=new Blob([data],{type:'application/json'});
+    var u=URL.createObjectURL(b);
+    var a=document.createElement('a');
+    a.href=u; a.download='archiv_backup_'+new Date().toISOString().slice(0,10)+'.json';
+    a.click(); URL.revokeObjectURL(u);
+    toast('Backup gespeichert');
+  }catch(e){toast('Backup-Fehler: '+e.message);}
+}
+function doLoad(e){
+  var f=e.target.files[0]; if(!f)return;
+  var r=new FileReader();
+  r.onload=function(ev){
+    try{JSON.parse(ev.target.result);localStorage.setItem(SK,ev.target.result);render();toast('Backup geladen');}
+    catch(e){toast('Ungültige Datei');}
+  };
+  r.readAsText(f);
+}
+
+// ── HILFSFUNKTIONEN ───────────────────────────────────────────────
+function closeM(id){document.getElementById(id).style.display='none';}
+function toast(msg){
+  var el=document.getElementById('toast');
+  el.textContent=msg; el.style.display='block';
+  setTimeout(function(){el.style.display='none';},2500);
+}
+function esc(s){
+  if(!s)return'';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function fbCopy(txt){
+  var ta=document.createElement('textarea');
+  ta.value=txt; ta.style.position='fixed'; ta.style.opacity='0';
+  document.body.appendChild(ta); ta.select();
+  try{document.execCommand('copy');}catch(e){}
+  document.body.removeChild(ta);
+}
+
+document.addEventListener('click',function(e){
+  var ids=['mBericht','mAnf'];
+  for(var i=0;i<ids.length;i++){
+    var m=document.getElementById(ids[i]);
+    if(e.target===m)m.style.display='none';
+  }
+});
+
+window.addEventListener('load',function(){render();});
+</script>
+
+<script>
+if('serviceWorker' in navigator){
+  window.addEventListener('load',function(){
+    navigator.serviceWorker.register('/bonusseite/archiv/sw.js')
+      .then(function(r){console.log('SW OK:',r.scope);})
+      .catch(function(e){console.log('SW Fehler (lokal erwartet):',e.message);});
+  });
+}
+</script>
+</body>
+</html>
