@@ -25,6 +25,17 @@ permalink: /orte/
     padding-bottom: 10px;
     border-bottom: 2px solid #2a5d8f;
   }
+  h2.main-section-title {
+    color: white;
+    background-color: #2a5d8f;
+    font-size: 1.4em;
+    margin-top: 70px;
+    margin-bottom: 0;
+    padding: 12px 18px;
+    border-radius: 4px 4px 0 0;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
 
   #map {
     width: 100%;
@@ -128,8 +139,6 @@ permalink: /orte/
   }
 </style>
 
-<h1 style="color: #333; margin-bottom: 20px;">Orte & Herkunft</h1>
-
 <div class="intro-block">
   <p>
     Räumliche und genetische Perspektiven ergänzen die schriftlichen Quellen der Pilz-Chronik.<br>
@@ -137,9 +146,10 @@ permalink: /orte/
   </p>
 </div>
 
-<h2 class="section-title collapsible active" data-target="section-karte">
+<h2 class="main-section-title">Orte</h2>
+<h3 class="section-title collapsible active" data-target="section-karte" style="margin-top: 0; border-radius: 0 0 4px 4px;">
   Lebensorte (Karte) <span class="collapse-icon">▼</span>
-</h2>
+</h3>
 
 <div id="section-karte" class="collapsible-content" style="display: block;">
 
@@ -153,8 +163,10 @@ permalink: /orte/
   <div class="legende-item"><span class="legende-marker" style="background-color: #95a5a6;"></span>Weitere Orte</div>
 </div>
 
-<h3 class="collapsible" data-target="section-ortsverzeichnis" style="margin-top: 40px; cursor: pointer; user-select: none; padding-right: 30px; position: relative;">
-  Ortsverzeichnis <span class="collapse-icon" style="font-size: 0.85em; color: #2a5d8f;">▶</span>
+</div><!-- /section-karte -->
+
+<h3 class="section-title collapsible" data-target="section-ortsverzeichnis" style="margin-top: 0;">
+  Ortsverzeichnis <span class="collapse-icon">▶</span>
 </h3>
 
 <div id="section-ortsverzeichnis" class="collapsible-content" style="display: none;">
@@ -179,11 +191,9 @@ permalink: /orte/
 </div>
 </div><!-- /section-ortsverzeichnis -->
 
-</div><!-- /section-karte -->
-
-<h2 class="section-title collapsible" data-target="section-ortsnamen" id="ortsnamen">
-  Ortsnamen-Übersetzer (DE ↔ CZ) <span class="collapse-icon">▶</span>
-</h2>
+<h3 class="section-title collapsible" data-target="section-ortsnamen" id="ortsnamen" style="margin-top: 0;">
+  Zweisprachiges Ortsnamenlexikon Böhmen <span class="collapse-icon">▶</span>
+</h3>
 
 <div id="section-ortsnamen" class="collapsible-content" style="display: none;">
 
@@ -307,10 +317,7 @@ permalink: /orte/
 </script>
 
 </div><!-- /section-ortsnamen -->
-
-<h2 class="section-title">
-  Genetische Herkunft
-</h2>
+<h2 class="main-section-title" style="margin-top: 70px;">Genetische Herkunft</h2>
 
 <div id="section-genetik">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-top: 10px;">
