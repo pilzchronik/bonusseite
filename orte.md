@@ -313,21 +313,33 @@ permalink: /orte/
 </h2>
 
 <div id="section-genetik">
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-  <div style="background: #f8f9fa; padding: 25px; border-left: 4px solid #2a5d8f; border-radius: 4px;">
-    <h3 style="margin-top: 0; color: #2a5d8f;">Väterliche Linie (Y-DNA)</h3>
-    <span style="font-weight: bold; display: block; margin-bottom: 10px;">Haplogruppe: J-FT159612 (J2b)</span>
-    <p style="font-size: 0.95em; color: #555;">
-      Ursprung Nahost/Kaukasus vor ca. 25.000 Jahren. Ein sehr seltener Zweig, spezifiziert in der späten Eisenzeit.
-    </p>
-  </div>
-  <div style="background: #f8f9fa; padding: 25px; border-left: 4px solid #2a5d8f; border-radius: 4px;">
-    <h3 style="margin-top: 0; color: #2a5d8f;">Mütterliche Linie (mtDNA)</h3>
-    <span style="font-weight: bold; display: block; margin-bottom: 10px;">Haplogruppe: H41a9</span>
-    <p style="font-size: 0.95em; color: #555;">
-      Ursprung Alpen-Balkan-Raum. Vermutlich Überleben der Eiszeit in osteuropäischen Refugien.
-    </p>
-  </div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-top: 10px;">
+  <a href="{{ '/dna-migration/' | relative_url }}" style="text-decoration: none;">
+    <div style="background: #eef4fb; border-left: 4px solid #1a5f9e; border-radius: 4px; padding: 24px;">
+      <strong style="color: #1a5f9e; font-size: 1.1em;">Väterliche Linie · Y-DNA</strong>
+      <span style="display: block; font-size: 0.85em; color: #888; margin: 4px 0 12px 0;">Haplogruppe J-FT159612</span>
+      <p style="font-size: 0.92em; color: #444; margin: 0 0 10px 0; line-height: 1.6;">
+        Ursprung in Zentralafrika vor ca. 300.000 Jahren. Die Linie wanderte über den Nahen Osten und den Balkan nach Mitteleuropa. Während der Eiszeit Rückzug ins Mittelmeer-Refugium, danach Vorstoß über die Alpen ins Erzgebirge.
+      </p>
+      <p style="font-size: 0.92em; color: #444; margin: 0 0 14px 0; line-height: 1.6;">
+        Historische Verbindungen: Römerzeitliche Balkans · Goten · Mittelalterliches Kroatien. Erster dokumentierter Vorfahre: <strong>Abraham Pilz, geb. ca. 1590</strong>.
+      </p>
+      <span style="font-size: 0.85em; color: #1a5f9e;">→ Animierte Migrationskarte öffnen</span>
+    </div>
+  </a>
+  <a href="{{ '/dna-migration-muetterlich/' | relative_url }}" style="text-decoration: none;">
+    <div style="background: #f5eefb; border-left: 4px solid #7a3a8a; border-radius: 4px; padding: 24px;">
+      <strong style="color: #7a3a8a; font-size: 1.1em;">Mütterliche Linie · mtDNA</strong>
+      <span style="display: block; font-size: 0.85em; color: #888; margin: 4px 0 12px 0;">Haplogruppe H41a9</span>
+      <p style="font-size: 0.92em; color: #444; margin: 0 0 10px 0; line-height: 1.6;">
+        Ursprung ebenfalls in Ostafrika. Die Linie führte über den Nahen Osten und Anatolien auf den Balkan — und blieb dort: Österreich und Kroatien sind die frühesten bekannten Herkunftsländer der heute getesteten Nachkommen.
+      </p>
+      <p style="font-size: 0.92em; color: #444; margin: 0 0 14px 0; line-height: 1.6;">
+        Historische Verbindungen: Fatyanovo-Kultur · Eisenzeitliches Skandinavien · Römerzeitliche Balkans. Geschätzte Entstehung der Linie H41a9: <strong>ca. 450 n. Chr.</strong>
+      </p>
+      <span style="font-size: 0.85em; color: #7a3a8a;">→ Animierte Migrationskarte öffnen</span>
+    </div>
+  </a>
 </div>
 
 </div><!-- /section-genetik -->

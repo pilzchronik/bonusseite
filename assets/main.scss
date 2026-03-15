@@ -1,0 +1,52 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import "minima";
+
+// ================================================
+// Pilz-Chronik Bonusseite – eigene Stile
+// ================================================
+
+// --- Überschriften (h2) mit Linie darunter ------
+h2 {
+  border-bottom: 2px solid #c8a96e;
+  padding-bottom: 0.25rem;
+  margin-top: 2rem;
+}
+
+// --- Trennlinien (---) dezenter und breiter -----
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+
+// --- Tabellen: Zebra-Muster ---------------------
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+th {
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #c8a96e;
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+}
+td {
+  padding: 0.35rem 0.6rem;
+  border-bottom: 1px solid #eee;
+}
+tr:nth-child(even) td {
+  background-color: #f5f5f5;
+}
+
+// --- Blockquotes (Hinweisboxen) -----------------
+blockquote {
+  border-left: 4px solid #c8a96e;
+  background-color: #faf7f2;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem;
+  color: #555;
+  font-style: normal;
+}

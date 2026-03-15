@@ -6,6 +6,16 @@ permalink: /inhalt-index/
 
 <div id="top"></div>
 
+---
+
+### Weitere Navigationshilfen
+
+| Seite | Inhalt |
+|-------|--------|
+| [Abbildungsverzeichnis]({{ '/abbildungsverzeichnis/' | relative_url }}) | Alle 110 Abbildungen aus Band 1 und 15 aus Band 2 mit Bildunterschriften |
+
+---
+
 ## Zweck
 
 **Für Seitenbesucher ohne Buch:** Orientierung, *welche* Themen in Band 1 und Band 2 behandelt werden — ohne Volltext.
