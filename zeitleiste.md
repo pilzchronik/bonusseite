@@ -95,6 +95,29 @@ permalink: /zeitleiste/
     border-radius: 4px;
     font-style: italic;
   }
+
+  @media (max-width: 600px) {
+    .timeline-section-title {
+      font-size: 1.1em;
+      margin-left: 10px;
+      padding-left: 10px;
+    }
+    .timeline {
+      padding-left: 20px;
+    }
+    .container {
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    .container::before {
+      left: -29px;
+      width: 12px;
+      height: 12px;
+    }
+    .year { font-size: 1em; }
+    h3 { font-size: 1.05em; }
+    p { font-size: 0.9em; }
+  }
 </style>
 
 <div class="timeline-intro">
@@ -107,16 +130,23 @@ permalink: /zeitleiste/
 <div class="timeline">
 
   <div class="container">
-    <span class="year">ca. 25.000 v. Chr.</span>
-    <h3>Väterliche Linie (J2-M172)</h3>
-    <p>Entstehung im Nahen Osten/Kaukasus. Die Vorfahren waren Jäger und Sammler vor dem Höhepunkt der letzten Eiszeit.</p>
+    <span class="year">ca. 300.000 v. Chr.</span>
+    <h3>Gemeinsame Ursprünge in Afrika</h3>
+    <p>Sowohl die väterliche Linie (Y-Adam, Zentralafrika) als auch die mütterliche Linie (mt-Eva, Ostafrika) beginnen in Afrika. Von dort wandern beide Linien unabhängig über das Horn von Afrika und die Arabische Halbinsel nach Vorderasien.</p>
     <span class="meta-tag">DNA-Analyse</span>
   </div>
 
   <div class="container">
-    <span class="year">ca. 20.000 v. Chr.</span>
-    <h3>Mütterliche Linie (H)</h3>
-    <p>Entstehung in Westasien. Diese Linie erreichte Europa vermutlich vor dem Höhepunkt der Eiszeit und ist heute die häufigste in Europa.</p>
+    <span class="year">ca. 40.000 v. Chr.</span>
+    <h3>Väterliche Linie: Haplogruppe J</h3>
+    <p>Im Nahen Osten entsteht die J-Haplogruppe. Der Zweig J2 bildet sich ca. 25.000 v. Chr. in Anatolien während der letzten Eiszeit heraus.</p>
+    <span class="meta-tag">DNA-Analyse</span>
+  </div>
+
+  <div class="container">
+    <span class="year">ca. 25.000 v. Chr.</span>
+    <h3>Mütterliche Linie: Haplogruppe H</h3>
+    <p>In Westanatolien entsteht die H-Linie — heute die häufigste mütterliche Haplogruppe in Europa. Sie erreicht über den Balkan Mitteleuropa.</p>
     <span class="meta-tag">DNA-Analyse</span>
   </div>
 
@@ -128,9 +158,9 @@ permalink: /zeitleiste/
   </div>
 
   <div class="container">
-    <span class="year">Mittelalter</span>
+    <span class="year">ca. 450 n. Chr.</span>
     <h3>Entstehung H41a9</h3>
-    <p>Der spezifische mütterliche Zweig H41a9 bildet sich im Alpen-Balkan-Raum heraus.</p>
+    <p>Der spezifische mütterliche Zweig H41a9 entsteht im Alpen-Balkan-Raum. Früheste getestete Nachkommen stammen aus Österreich und Kroatien.</p>
     <span class="meta-tag">DNA-Analyse</span>
   </div>
 

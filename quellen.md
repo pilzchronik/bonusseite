@@ -18,9 +18,6 @@ permalink: /quellen/
 </style>
 
 
-## Inhalt & Index
-- [Inhalt & Index]({{ '/inhalt-index/' | relative_url }})
-
 ## Quellen & Forschungswerkzeuge zur Pilz-Chronik
 
 Digitale Ergänzungen zur gedruckten *Pilz-Chronik*.  
@@ -153,5 +150,6 @@ Die in der Chronik und auf der [Orte-Seite]({{ '/orte/' | relative_url }}) darge
 - [Tschechien-Online: Ortsnamen A–Z](https://www.tschechien-online.org/basisinfo/deutsche-ortsnamen-tschechien-a-bis-z)
 - [Ortslexikon Nord- und Nordwestböhmen (SOA Leitmeritz)](https://www.soalitomerice.cz/de/lexikon-obci/)
 
-
 ---
+
+Siehe auch: [Inhalt & Index zur Pilz-Chronik]({{ '/inhalt-index/' | relative_url }}) · [Orte & Herkunft]({{ '/orte/' | relative_url }})

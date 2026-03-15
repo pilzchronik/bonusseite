@@ -203,9 +203,9 @@ permalink: /werkstatt/
 </style>
 
 <div class="intro-text">
-  Neue Funde, Ergänzungen und Korrekturen zur gedruckten Pilz-Chronik (Band&nbsp;1&nbsp;&amp;&nbsp;2).
-  Kurze Logbuch-Einträge dokumentieren laufende Forschungsschritte.<br>
-  <span style="font-size:0.9em;">Nur Korrekturen und Neue Funde im Überblick? → <a href="{{ '/updates/' | relative_url }}">Zur kompakten Übersicht</a></span>
+  <strong>Forschungs-Logbuch:</strong> Alle Posts seit Drucklegung — Neue Funde, Ergänzungen, Korrekturen und laufende Arbeitsnotizen.
+  Über die Filter- und Suchfunktion lässt sich gezielt nach Themen suchen.<br>
+  <span style="font-size:0.9em;">Nur Korrekturen und Neue Funde für Buchbesitzer? → <a href="{{ '/updates/' | relative_url }}">Zur kompakten Übersicht</a></span>
 </div>
 
 <!-- Angepinnter Errata-Post -->

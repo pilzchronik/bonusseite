@@ -5,6 +5,7 @@ permalink: /dna-migration/
 status: vorläufig
 stand_vom: 2026-03-15
 ---
+<p style="margin-bottom: 1.5rem;"><a href="{{ '/orte/' | relative_url }}" style="color: #1a5f9e;">← Zurück zu Orte &amp; Herkunft</a></p>
 <p>Diese Karte zeigt die Wanderung der väterlichen Vorfahrenlinie (Y-DNA) über rund 300.000 Jahre – von den Ursprüngen in Zentralafrika bis zu <strong>Abraham Pilz, geboren ca. 1590</strong> im Erzgebirge. Jede Station entspricht einer genetischen Verzweigung (Haplogruppe). Quelle: FamilyTreeDNA, Haplogruppe J-FT159612.</p>
 <div id="dna-controls" style="margin: 1rem 0 0.75rem 0;">
   <button id="btn-play" onclick="startAnimation()">▶ Abspielen</button>

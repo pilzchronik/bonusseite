@@ -107,8 +107,8 @@ permalink: /updates/
 
 <div class="intro-text">
   <p>
-    Dieses digitale Register dient als offizielle, lebende Ergänzung zu den gedruckten Bänden 1 & 2. 
-    Hier finden Sie Korrekturen von Druckfehlern (links) sowie neue Forschungsergebnisse, die nach Drucklegung entdeckt wurden (rechts).
+    <strong>Für Buchbesitzer:</strong> Dieses Register zeigt Korrekturen von Druckfehlern (links) und neue Forschungsergebnisse nach Drucklegung (rechts) — kompakt und ohne Arbeitsnotizen.<br>
+    <span style="font-size:0.9em;">Alle Posts inkl. Logbuch und Hintergrund → <a href="{{ '/werkstatt/' | relative_url }}">Zum vollständigen Logbuch</a></span>
   </p>
 </div>
 

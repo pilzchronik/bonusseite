@@ -5,6 +5,7 @@ permalink: /dna-migration-muetterlich/
 status: vorläufig
 stand_vom: 2026-03-15
 ---
+<p style="margin-bottom: 1.5rem;"><a href="{{ '/orte/' | relative_url }}" style="color: #7a3a8a;">← Zurück zu Orte &amp; Herkunft</a></p>
 <p>Diese Karte zeigt die Wanderung der mütterlichen Vorfahrenlinie (mtDNA) über rund 300.000 Jahre – von den Ursprüngen in Ostafrika bis nach <strong>Österreich/Kroatien, ca. 450 n. Chr.</strong> Jede Station entspricht einer genetischen Verzweigung. Quelle: FamilyTreeDNA, Haplogruppe H41a9.</p>
 <p style="background:#f5f5f5; border-left:4px solid #888; padding:0.6rem 0.9rem; font-size:0.92rem; margin-bottom:1rem;">Bemerkenswert: Während die väterliche Linie über den Balkan und die Alpen nach Mitteleuropa gelangte, flüchtete die mütterliche Linie während der Eiszeit auf die Iberische Halbinsel — und fand ihren Weg über Westeuropa und Skandinavien zurück.</p>
 <div id="dna-controls" style="margin: 1rem 0 0.75rem 0;">

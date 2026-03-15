@@ -196,3 +196,9 @@ title: Startseite
     <p>Haplogruppen, Verwandtschaftskreise und was die Genetik über die Familienherkunft sagt.</p>
   </a>
 
+  <a href="{{ '/inhalt-index/' | relative_url }}" class="nav-card">
+    <span class="eyebrow">NACHSCHLAGEN</span>
+    <h3>Inhalt & Index</h3>
+    <p>Inhaltsverzeichnis und Gesamtindex zu Band 1 und Band 2 — zum schnellen Nachschlagen nach Personen, Orten und Themen.</p>
+  </a>
+
