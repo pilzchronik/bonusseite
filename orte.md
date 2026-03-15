@@ -25,17 +25,6 @@ permalink: /orte/
     padding-bottom: 10px;
     border-bottom: 2px solid #2a5d8f;
   }
-  h2.main-section-title {
-    color: white;
-    background-color: #2a5d8f;
-    font-size: 1.4em;
-    margin-top: 70px;
-    margin-bottom: 0;
-    padding: 12px 18px;
-    border-radius: 4px 4px 0 0;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
 
   #map {
     width: 100%;
@@ -141,17 +130,15 @@ permalink: /orte/
 
 <div class="intro-block">
   <p>
-    Räumliche und genetische Perspektiven ergänzen die schriftlichen Quellen der Pilz-Chronik.<br>
-    Diese Seite verbindet die dokumentierten Lebensorte mit den tiefen genetischen Wurzeln.
+    Die dokumentierten Lebensorte der Pilz-Chronik – auf einer interaktiven Karte, als durchsuchbares Verzeichnis und mit einem zweisprachigen Ortsnamenlexikon für Böhmen.
   </p>
 </div>
 
-<h2 class="main-section-title">Orte</h2>
-<h3 class="section-title collapsible active" data-target="section-karte" style="margin-top: 0; border-radius: 0 0 4px 4px;">
-  Lebensorte (Karte) <span class="collapse-icon">▼</span>
+<h3 class="section-title" style="margin-top: 30px;">
+  Lebensorte (Karte)
 </h3>
 
-<div id="section-karte" class="collapsible-content" style="display: block;">
+<div id="section-karte">
 
 <div id="map"></div>
 
@@ -165,11 +152,11 @@ permalink: /orte/
 
 </div><!-- /section-karte -->
 
-<h3 class="section-title collapsible" data-target="section-ortsverzeichnis" style="margin-top: 0;">
-  Ortsverzeichnis <span class="collapse-icon">▶</span>
+<h3 class="section-title" style="margin-top: 40px;">
+  Ortsverzeichnis
 </h3>
 
-<div id="section-ortsverzeichnis" class="collapsible-content" style="display: none;">
+<div id="section-ortsverzeichnis">
 <p style="font-size: 0.9em; color: #666; margin-bottom: 10px;">
   Klicken Sie auf einen Ort in der Liste, um ihn auf der Karte anzuzeigen.
 </p>
@@ -191,11 +178,11 @@ permalink: /orte/
 </div>
 </div><!-- /section-ortsverzeichnis -->
 
-<h3 class="section-title collapsible" data-target="section-ortsnamen" id="ortsnamen" style="margin-top: 0;">
-  Zweisprachiges Ortsnamenlexikon Böhmen <span class="collapse-icon">▶</span>
+<h3 class="section-title" id="ortsnamen" style="margin-top: 40px;">
+  Zweisprachiges Ortsnamenlexikon Böhmen
 </h3>
 
-<div id="section-ortsnamen" class="collapsible-content" style="display: none;">
+<div id="section-ortsnamen">
 
 <p style="color: #555; margin-bottom: 15px; line-height: 1.6;">
   Zweisprachiges Nachschlagewerk für deutsche und tschechische Ortsnamen – 
@@ -317,39 +304,13 @@ permalink: /orte/
 </script>
 
 </div><!-- /section-ortsnamen -->
-<h2 class="main-section-title" style="margin-top: 70px;">Genetische Herkunft</h2>
 
-<div id="section-genetik">
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-top: 10px;">
-  <a href="{{ '/dna-migration/' | relative_url }}" style="text-decoration: none;">
-    <div style="background: #eef4fb; border-left: 4px solid #1a5f9e; border-radius: 4px; padding: 24px; transition: background 0.2s;" onmouseover="this.style.background='#d8eaf7'" onmouseout="this.style.background='#eef4fb'">
-      <strong style="color: #1a5f9e; font-size: 1.1em;">Väterliche Linie · Y-DNA</strong>
-      <span style="display: block; font-size: 0.85em; color: #888; margin: 4px 0 12px 0;">Haplogruppe J-FT159612</span>
-      <p style="font-size: 0.92em; color: #444; margin: 0 0 10px 0; line-height: 1.6;">
-        Ursprung in Zentralafrika vor ca. 300.000 Jahren. Die Linie wanderte über den Nahen Osten und den Balkan nach Mitteleuropa. Während der Eiszeit Rückzug ins Mittelmeer-Refugium, danach Vorstoß über die Alpen ins Erzgebirge.
-      </p>
-      <p style="font-size: 0.92em; color: #444; margin: 0 0 14px 0; line-height: 1.6;">
-        Historische Verbindungen: Römerzeitliche Balkans · Goten · Mittelalterliches Kroatien. Erster dokumentierter Vorfahre: <strong>Abraham Pilz, geb. ca. 1590</strong>.
-      </p>
-      <span style="font-size: 0.85em; color: #1a5f9e;">→ Animierte Migrationskarte öffnen</span>
-    </div>
-  </a>
-  <a href="{{ '/dna-migration-muetterlich/' | relative_url }}" style="text-decoration: none;">
-    <div style="background: #f5eefb; border-left: 4px solid #7a3a8a; border-radius: 4px; padding: 24px; transition: background 0.2s;" onmouseover="this.style.background='#ead8f5'" onmouseout="this.style.background='#f5eefb'">
-      <strong style="color: #7a3a8a; font-size: 1.1em;">Mütterliche Linie · mtDNA</strong>
-      <span style="display: block; font-size: 0.85em; color: #888; margin: 4px 0 12px 0;">Haplogruppe H41a9</span>
-      <p style="font-size: 0.92em; color: #444; margin: 0 0 10px 0; line-height: 1.6;">
-        Ursprung ebenfalls in Ostafrika. Die Linie führte über den Nahen Osten und Anatolien auf den Balkan — und blieb dort: Österreich und Kroatien sind die frühesten bekannten Herkunftsländer der heute getesteten Nachkommen.
-      </p>
-      <p style="font-size: 0.92em; color: #444; margin: 0 0 14px 0; line-height: 1.6;">
-        Historische Verbindungen: Fatyanovo-Kultur · Eisenzeitliches Skandinavien · Römerzeitliche Balkans. Geschätzte Entstehung der Linie H41a9: <strong>ca. 450 n. Chr.</strong>
-      </p>
-      <span style="font-size: 0.85em; color: #7a3a8a;">→ Animierte Migrationskarte öffnen</span>
-    </div>
-  </a>
+<div style="margin-top: 50px; padding: 20px; background: #f8f9fa; border-radius: 4px; text-align: center;">
+  <p style="margin: 0 0 8px 0; color: #555;">
+    Die genetische Herkunft der Familie – Haplogruppen, Migrationsrouten und DNA-Analyse – finden Sie auf einer eigenen Seite:
+  </p>
+  <a href="{{ '/dna-analyse/' | relative_url }}" style="color: #2a5d8f; font-weight: 600; font-size: 1.05em;">→ Zur DNA-Analyse</a>
 </div>
-
-</div><!-- /section-genetik -->
 
 <div style="text-align: right; margin-top: 2rem;">
   <a href="#top">▲ nach oben</a>

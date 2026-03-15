@@ -5,15 +5,66 @@ permalink: /dna-migration/
 status: vorläufig
 stand_vom: 2026-03-15
 ---
-<p style="margin-bottom: 1.5rem;"><a href="{{ '/orte/' | relative_url }}" style="color: #1a5f9e;">← Zurück zu Orte &amp; Herkunft</a></p>
+<p style="margin-bottom: 1.5rem;"><a href="{{ '/dna-analyse/' | relative_url }}" style="color: #1a5f9e;">← Zurück zur DNA-Analyse</a></p>
 <p>Diese Karte zeigt die Wanderung der väterlichen Vorfahrenlinie (Y-DNA) über rund 300.000 Jahre – von den Ursprüngen in Zentralafrika bis zu <strong>Abraham Pilz, geboren ca. 1590</strong> im Erzgebirge. Jede Station entspricht einer genetischen Verzweigung (Haplogruppe). Quelle: FamilyTreeDNA, Haplogruppe J-FT159612.</p>
 <div id="dna-controls" style="margin: 1rem 0 0.75rem 0;">
   <button id="btn-play" onclick="startAnimation()">▶ Abspielen</button>
   <button id="btn-reset" onclick="resetAnimation()" style="margin-left:0.5rem;">↺ Zurücksetzen</button>
-  <span id="info-label" style="margin-left: 1.2rem; font-style: italic; color: #555; font-size:0.95rem;"></span>
 </div>
+<div id="station-panel" style="display: none; background: #f0f4f8; border-left: 4px solid #1a5f9e; border-radius: 4px; padding: 14px 18px; margin-bottom: 10px; transition: opacity 0.3s;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px;">
+    <span id="panel-group" style="font-size: 1.35em; font-weight: 700; color: #1a5f9e;"></span>
+    <span id="panel-step" style="font-size: 0.82em; color: #999;"></span>
+  </div>
+  <div id="panel-year" style="font-size: 1.05em; font-weight: 600; color: #555; margin-bottom: 4px;"></div>
+  <div id="panel-info" style="font-size: 0.92em; color: #444; line-height: 1.5;"></div>
+</div>
+<span id="info-label" style="display:none;"></span>
 <div id="map" style="height: 580px; border: 1px solid #ccc; border-radius: 4px;"></div>
 <p style="margin-top: 0.6rem; font-size: 0.82rem; color: #888;">Haplogruppen-Bezeichnungen nach FamilyTreeDNA. Zeitangaben sind wissenschaftliche Schätzwerte. Die blaue Fläche markiert die maximale Eisausdehnung während der letzten Eiszeit (ca. 20.000 v. Chr.).</p>
+
+<details style="margin-top: 2rem; background: #f0f4f8; border-left: 4px solid #1a5f9e; border-radius: 4px; padding: 0;">
+  <summary style="padding: 14px 18px; cursor: pointer; font-weight: 600; color: #1a5f9e; font-size: 1.05em; user-select: none;">Was bedeuten die Haplogruppen-Namen?</summary>
+  <div style="padding: 4px 18px 18px 18px; font-size: 0.92em; line-height: 1.7; color: #444;">
+    <p>Haplogruppen bezeichnen Äste im Stammbaum der Menschheit. Jeder Name steht für eine bestimmte <strong>Mutation</strong> (eine dauerhafte Veränderung im Erbgut), die sich einmal ereignet hat und seitdem an alle Nachkommen weitergegeben wird.</p>
+    <p style="margin-top: 8px;">Das Namensystem funktioniert wie eine Adresse – vom groben zum feinen:</p>
+    <table style="width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 0.9em;">
+      <tr style="border-bottom: 1px solid #d0d8e0;">
+        <td style="padding: 6px 10px; font-weight: 600; white-space: nowrap; color: #1a5f9e;">J</td>
+        <td style="padding: 6px 10px;">Hauptgruppe – entstand vor ca. 40.000 Jahren im Nahen Osten. Der Großbuchstabe bezeichnet den ältesten Ast.</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #d0d8e0;">
+        <td style="padding: 6px 10px; font-weight: 600; white-space: nowrap; color: #1a5f9e;">J2</td>
+        <td style="padding: 6px 10px;">Untergruppe – die Ziffer zeigt eine weitere Verzweigung. J2 bildete sich in Anatolien während der Eiszeit.</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #d0d8e0;">
+        <td style="padding: 6px 10px; font-weight: 600; white-space: nowrap; color: #1a5f9e;">J-M102</td>
+        <td style="padding: 6px 10px;">Die Buchstaben-Zahlen-Kombination nach dem Bindestrich (M102, L283, Z600 …) benennt die spezifische Mutation, die diesen Zweig definiert.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px 10px; font-weight: 600; white-space: nowrap; color: #1a5f9e;">J-FT159612</td>
+        <td style="padding: 6px 10px;">Unsere spezifische Endposition – ein sehr seltener, eng eingegrenzter Zweig. Je länger der Name, desto jünger und seltener die Mutation.</td>
+      </tr>
+    </table>
+    <p style="margin-top: 8px; font-size: 0.88em; color: #888;">Die frühen Bezeichnungen (Y-Adam, A0-T, BT, CT …) verwenden ein älteres Buchstabensystem für die tiefsten Verzweigungen des menschlichen Stammbaums.</p>
+  </div>
+</details>
+
+<h3 style="color: #333; margin-top: 2.5rem; margin-bottom: 0.5rem; font-size: 1.15em;">Stationen der Wanderung</h3>
+<p style="font-size: 0.88em; color: #888; margin-bottom: 12px;">24 genetische Verzweigungen über 300.000 Jahre. Die aktive Station wird während der Animation hervorgehoben.</p>
+<div style="max-height: 420px; overflow-y: auto; border: 1px solid #e0e4e8; border-radius: 4px;">
+  <table id="stations-table" style="width: 100%; border-collapse: collapse; font-size: 0.88em;">
+    <thead>
+      <tr style="background: #1a5f9e; color: white; position: sticky; top: 0; z-index: 2;">
+        <th style="padding: 10px 12px; text-align: left; width: 4%;">#</th>
+        <th style="padding: 10px 12px; text-align: left; width: 22%;">Haplogruppe</th>
+        <th style="padding: 10px 12px; text-align: left; width: 22%;">Zeit</th>
+        <th style="padding: 10px 12px; text-align: left;">Ort / Bedeutung</th>
+      </tr>
+    </thead>
+    <tbody id="stations-tbody"></tbody>
+  </table>
+</div>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
@@ -84,10 +135,24 @@ function startAnimation() {
   document.getElementById('btn-play').disabled = true;
   animateStep(currentStep);
 }
+function updatePanel(i) {
+  var panel = document.getElementById('station-panel');
+  if (i < 0 || i >= waypoints.length) return;
+  var wp = waypoints[i];
+  panel.style.display = 'block';
+  panel.style.borderLeftColor = wp.highlight ? '#cc2222' : '#1a5f9e';
+  panel.style.background = wp.highlight ? '#fef5f5' : '#f0f4f8';
+  document.getElementById('panel-group').textContent = 'Haplogruppe ' + wp.group;
+  document.getElementById('panel-group').style.color = wp.highlight ? '#cc2222' : '#1a5f9e';
+  document.getElementById('panel-step').textContent = 'Station ' + (i + 1) + ' von ' + waypoints.length;
+  document.getElementById('panel-year').textContent = wp.year;
+  document.getElementById('panel-info').innerHTML = wp.info;
+}
 function animateStep(i) {
   if (i >= waypoints.length) {
     isAnimating = false;
-    document.getElementById('info-label').textContent = '✓ Route vollständig – ' + waypoints[waypoints.length-1].year;
+    var lastWp = waypoints[waypoints.length - 1];
+    document.getElementById('panel-step').textContent = '✓ Route vollständig';
     return;
   }
   var wp = waypoints[i];
@@ -97,7 +162,8 @@ function animateStep(i) {
   } else {
     if (dnaMap.hasLayer(iceLayer)) dnaMap.removeLayer(iceLayer);
   }
-  document.getElementById('info-label').textContent = wp.group + '  ·  ' + wp.year;
+  updatePanel(i);
+  highlightStation(i);
   // Linie zum vorherigen Punkt
   if (i > 0) {
     var prev = waypoints[i - 1];
@@ -132,10 +198,47 @@ function resetAnimation() {
   currentStep = 0;
   markers = [];
   document.getElementById('btn-play').disabled = false;
-  document.getElementById('info-label').textContent = '';
+  document.getElementById('station-panel').style.display = 'none';
   routeGroup.clearLayers();
   if (dnaMap.hasLayer(iceLayer)) dnaMap.removeLayer(iceLayer);
   dnaMap.setView([20, 30], 3);
 }
-document.addEventListener('DOMContentLoaded', initDnaMap);
+function buildStationsTable() {
+  var tbody = document.getElementById('stations-tbody');
+  if (!tbody) return;
+  waypoints.forEach(function(wp, i) {
+    var tr = document.createElement('tr');
+    tr.id = 'station-row-' + i;
+    tr.style.borderBottom = '1px solid #e9ecef';
+    tr.style.transition = 'background-color 0.3s';
+    if (wp.highlight) tr.style.fontWeight = '600';
+    tr.innerHTML =
+      '<td style="padding:8px 12px; color:#999;">' + (i + 1) + '</td>' +
+      '<td style="padding:8px 12px; font-weight:600; color:' + (wp.highlight ? '#cc2222' : '#1a5f9e') + ';">' + wp.group + '</td>' +
+      '<td style="padding:8px 12px; white-space:nowrap;">' + wp.year + '</td>' +
+      '<td style="padding:8px 12px; color:#555;">' + wp.info.replace(/<[^>]*>/g, '') + '</td>';
+    tr.style.cursor = 'pointer';
+    tr.addEventListener('click', function() {
+      var m = markers[i];
+      if (m) { dnaMap.setView([wp.lat, wp.lng], 6); m.openPopup(); }
+    });
+    tbody.appendChild(tr);
+  });
+}
+function highlightStation(i) {
+  waypoints.forEach(function(_, j) {
+    var row = document.getElementById('station-row-' + j);
+    if (row) row.style.backgroundColor = (j === i) ? '#dce8f5' : '';
+  });
+  // Nur innerhalb des Tabellen-Containers scrollen, nicht die ganze Seite
+  var activeRow = document.getElementById('station-row-' + i);
+  if (activeRow) {
+    var container = activeRow.closest('div[style*="overflow-y"]');
+    if (container) container.scrollTop = activeRow.offsetTop - container.offsetTop - 40;
+  }
+}
+document.addEventListener('DOMContentLoaded', function() {
+  initDnaMap();
+  buildStationsTable();
+});
 </script>

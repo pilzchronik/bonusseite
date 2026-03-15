@@ -78,13 +78,4 @@ Diese drei Ergebnisse ergeben ein stimmiges Bild: alte Linien aus dem Nahen Oste
       <span style="font-size: 0.85em; color: #7a3a8a;">→ Karte öffnen</span>
     </div>
   </a>
-  <a href="{{ '/orte/' | relative_url }}" style="text-decoration: none;">
-    <div style="background: #f0f4f0; border-left: 4px solid #2a6e2a; border-radius: 4px; padding: 20px;" onmouseover="this.style.background='#dceadc'" onmouseout="this.style.background='#f0f4f0'">
-      <strong style="color: #2a6e2a;">Orte &amp; Herkunft · Übersichtskarte</strong>
-      <p style="margin: 8px 0 0 0; font-size: 0.9em; color: #555;">
-        Dokumentierte Lebensorte der Familie Pilz — interaktive Karte mit Familienlinien.
-      </p>
-      <span style="font-size: 0.85em; color: #2a6e2a;">→ Karte öffnen</span>
-    </div>
-  </a>
 </div>

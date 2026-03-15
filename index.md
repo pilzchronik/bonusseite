@@ -166,8 +166,8 @@ title: Startseite
 
   <a href="{{ '/orte/' | relative_url }}" class="action-card ergaenzungen">
     <span class="label">Digitales Mehr</span>
-    <h3>Karte, Orte &amp; DNA</h3>
-    <p>Lebensorte auf der interaktiven Karte, zweisprachiges Ortsverzeichnis (DE↔CZ) und DNA-Analyse zur tiefen genetischen Herkunft.</p>
+    <h3>Karte &amp; Orte</h3>
+    <p>Lebensorte auf der interaktiven Karte, Ortsverzeichnis und zweisprachiges Ortsnamenlexikon Böhmen (DE↔CZ).</p>
   </a>
 
 </div>
