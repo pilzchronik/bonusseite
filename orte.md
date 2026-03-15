@@ -154,7 +154,7 @@ permalink: /orte/
 </div>
 
 <h3 class="collapsible" data-target="section-ortsverzeichnis" style="margin-top: 40px; cursor: pointer; user-select: none; padding-right: 30px; position: relative;">
-  Ortsverzeichnis <span class="collapse-icon" style="font-size: 0.6em;">▶</span>
+  Ortsverzeichnis <span class="collapse-icon" style="font-size: 0.85em; color: #2a5d8f;">▶</span>
 </h3>
 
 <div id="section-ortsverzeichnis" class="collapsible-content" style="display: none;">
@@ -315,7 +315,7 @@ permalink: /orte/
 <div id="section-genetik">
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-top: 10px;">
   <a href="{{ '/dna-migration/' | relative_url }}" style="text-decoration: none;">
-    <div style="background: #eef4fb; border-left: 4px solid #1a5f9e; border-radius: 4px; padding: 24px;">
+    <div style="background: #eef4fb; border-left: 4px solid #1a5f9e; border-radius: 4px; padding: 24px; transition: background 0.2s;" onmouseover="this.style.background='#d8eaf7'" onmouseout="this.style.background='#eef4fb'">
       <strong style="color: #1a5f9e; font-size: 1.1em;">Väterliche Linie · Y-DNA</strong>
       <span style="display: block; font-size: 0.85em; color: #888; margin: 4px 0 12px 0;">Haplogruppe J-FT159612</span>
       <p style="font-size: 0.92em; color: #444; margin: 0 0 10px 0; line-height: 1.6;">
@@ -328,7 +328,7 @@ permalink: /orte/
     </div>
   </a>
   <a href="{{ '/dna-migration-muetterlich/' | relative_url }}" style="text-decoration: none;">
-    <div style="background: #f5eefb; border-left: 4px solid #7a3a8a; border-radius: 4px; padding: 24px;">
+    <div style="background: #f5eefb; border-left: 4px solid #7a3a8a; border-radius: 4px; padding: 24px; transition: background 0.2s;" onmouseover="this.style.background='#ead8f5'" onmouseout="this.style.background='#f5eefb'">
       <strong style="color: #7a3a8a; font-size: 1.1em;">Mütterliche Linie · mtDNA</strong>
       <span style="display: block; font-size: 0.85em; color: #888; margin: 4px 0 12px 0;">Haplogruppe H41a9</span>
       <p style="font-size: 0.92em; color: #444; margin: 0 0 10px 0; line-height: 1.6;">
@@ -343,6 +343,10 @@ permalink: /orte/
 </div>
 
 </div><!-- /section-genetik -->
+
+<div style="text-align: right; margin-top: 2rem;">
+  <a href="#top">▲ nach oben</a>
+</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="{{ '/assets/js/karte-neu.js' | relative_url }}"></script>
