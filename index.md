@@ -140,11 +140,13 @@ title: Startseite
 <div class="intro-section">
   <h1>Digitale Ergänzungen zur Pilz-Chronik</h1>
   <p>
-    Sie haben Band 1 oder Band 2 der Pilz-Chronik in Händen und suchen nach Korrekturen, 
-    neuen Erkenntnissen oder digitalem Zusatzmaterial? Hier finden Sie alles, 
-    was seit der Drucklegung dazugekommen ist. 
+    Sie haben Band 1 oder Band 2 der Pilz-Chronik in Händen? Diese Seite ist die offizielle digitale Ergänzung zum Buch.
+  </p>
   <p>
-    Stellen Sie dem Assistenten unten rechts jede Frage zur Pilz-Chronik. Er kennt beide Bände, die wichtigsten Quellen und den aktuellen Forschungsstand – und antwortet sofort.
+    Hier finden Sie Korrekturen zu den gedruckten Bänden, neue Archivfunde seit der Drucklegung – und digitale Materialien, die im Buch keinen Platz hatten: eine interaktive Karte aller Familien-Lebensorte, ein vollständiges genealogisches Archiv, eine Zeitleiste, die von der Urgeschichte bis ins 20. Jahrhundert reicht, und eine DNA-Analyse, die die Familienherkunft genetisch tief verankert.
+  </p>
+  <p>
+    Den Chat-Assistenten unten rechts können Sie jederzeit direkt befragen – er kennt beide Bände und antwortet sofort.
   </p>
 
 
