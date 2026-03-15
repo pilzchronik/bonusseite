@@ -185,24 +185,38 @@ permalink: /zeitleiste/
   </div>
 
   <div class="container">
-    <span class="year">1539–1619</span>
-    <h3>Jobst Pültz, Richter in Dörnthal</h3>
-    <p>Frühester namentlich belegter Pilz in Dörnthal (Sachsen). Die Zuordnung zur direkten Stammreihe ist sehr wahrscheinlich, aber nicht lückenlos beweisbar.</p>
-    <span class="meta-tag">Forschung</span>
+    <span class="year">† vor April 1558</span>
+    <h3>Michel Pültz I., Schöppe in Dörnthal</h3>
+    <p>Tatsächlicher Stammvater und frühester belegter Pültz in Dörnthal. Seine umfangreiche Nachlassregelung im April 1558 (Gerichtsbuch Dörnthal Bd. 01) ist der gesicherte Beginn der Familiengeschichte im Erzgebirge und belegt die Familie bereits als Teil der elitären Gerichtsschöppen.</p>
+    <span class="meta-tag">Stammvater</span>
   </div>
 
   <div class="container">
     <span class="year">1562</span>
-    <h3>Michael Pültz in Dörnthal</h3>
-    <p>Erste urkundliche Nennung im Gerichtsbuch: Michael Pültz besiegelt als Schöppe einen Grundstücksverkauf an Caspar von Schönberg. Der belegte Beginn der Familiengeschichte im Erzgebirge.</p>
-    <span class="meta-tag">Ursprung</span>
+    <h3>Michel Pültz in wirtschaftlicher Not</h3>
+    <p>Ein Michel Pültz (vermutlich Michel junior) muss in wirtschaftlicher Bedrängnis („fünfter Not") ein Gut an den Grundherrn Caspar von Schönberg abtreten. Ein eindrucksvoller Beleg für die Krisen der damaligen Zeit – aber nicht die erste urkundliche Nennung der Familie.</p>
+    <span class="meta-tag">Erzgebirge</span>
+  </div>
+
+  <div class="container">
+    <span class="year">† 1619</span>
+    <h3>Jobst Pültz, Richter in Dörnthal</h3>
+    <p>Richter und Amtsträger in Dörnthal. Die ältere Forschung hielt ihn fälschlich für den Vater von Abraham Piltz. Die Auswertung der Gerichtsbücher hat jedoch gezeigt: Jobst und der Familienvater Joseph Pültz sind zwei verschiedene Personen.</p>
+    <span class="meta-tag">Forschungskorrektur</span>
+  </div>
+
+  <div class="container">
+    <span class="year">ab 1610</span>
+    <h3>Joseph Pültz, der Familienvater</h3>
+    <p>Direkter Vorfahre der Auswanderungslinie. Er regelt in den 1610er Jahren mehrfach Land- und Erbverträge für seine Kinder. Darf nicht mit dem gleichzeitig lebenden Richter Jobst Pültz verwechselt werden.</p>
+    <span class="meta-tag">Stammreihe</span>
   </div>
 
   <div class="container">
     <span class="year">1591</span>
     <h3>Geburt von Abraham Piltz</h3>
-    <p>Stammvater in Dörnthal. Ab hier lassen sich die Primärquellen der direkten Linie lückenlos nachweisen.</p>
-    <span class="meta-tag">Stammreihe</span>
+    <p>Sohn von Joseph Pültz. Abraham ist das entscheidende Bindeglied in die Nachbarorte: Er heiratet 1614 Maria Hengst, zieht weg und verlegt den Lebensmittelpunkt der direkten Stammlinie nach Blumenau/Olbernhau (urkundlich belegt 1624 als „Abraham Pültz zu Blumenau"). Ab hier lassen sich die Primärquellen der direkten Linie lückenlos nachweisen.</p>
+    <span class="meta-tag">Auswanderer</span>
   </div>
 
   <div class="container">
