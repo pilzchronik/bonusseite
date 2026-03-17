@@ -395,7 +395,7 @@ document.querySelectorAll('.collapsible').forEach(function(header) {
     'gottesgab': [50.4097, 12.9244], 'boží dar': [50.4097, 12.9244],
     'b. wiesenthal': [50.4394, 13.0156], 'böhmisch wiesenthal': [50.4394, 13.0156], 'loučná pod klínovcem': [50.4394, 13.0156],
     'sebastiansberg': [50.5100, 13.2511], 'hora svatého šebestiána': [50.5100, 13.2511],
-    'eger': [50.0796, 12.3739], 'cheb': [50.0796, 12.3739],
+    'eger': [50.07795, 12.36658], 'cheb': [50.07795, 12.36658],
     'bechyně': [49.2972, 14.4708], 'bechinie': [49.2972, 14.4708],
     'joachimsthal': [50.3583, 12.9344], 'jáchymov': [50.3583, 12.9344],
     'komotau': [50.4605, 13.4178], 'chomutov': [50.4605, 13.4178],
