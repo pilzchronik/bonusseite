@@ -15,7 +15,7 @@ stand_vom: 2026-02-28
 
 <div style="background:#fff8e1; border-left:4px solid #f0c040; padding:12px 16px; margin-bottom:24px; font-size:0.93em;">
 <strong>Arbeitsnotiz</strong> — Dieser Eintrag ist ein Zwischenstand.
-Den ausgearbeiteten Hauptartikel finden Sie unter
+Den ausgearbeiteten Hauptartikel findest du unter
 <a href="{{ '/2026/02/28/saigerhuette-gruenthal-krise.html' | relative_url }}">Ein Leben aus den Fugen: Carl Gottlob Biltz und die Krise der Saigerhütte Grünthal</a>.
 </div>
 **Carl Gottlob Biltz** war Kupferhammerschmied in der Saigerhütte Grünthal

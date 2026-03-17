@@ -14,7 +14,7 @@ Die vollständige Auswertung aller Familiendaten erfolgt über die Plattform **M
 
 * **[Personen-Verzeichnis](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/persons)** – Alle gelisteten Familienmitglieder im Überblick.
 * **[Familien-Übersicht](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/families)** – Darstellung der Kernfamilien und Verbindungen.
-* **[Orte & Karte](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/places)** – Geografische Zuordnung der Lebensstationen. Ergänzend hierzu finden Sie auf der Bonusseite eine [OpenStreetMap-basierte Übersichtskarte]({{ site.baseurl }}/orte/) mit tabellarischer Auflistung der wichtigsten Wohnorte.
+* **[Orte & Karte](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/places)** – Geografische Zuordnung der Lebensstationen. Ergänzend hierzu findest du auf der Bonusseite eine [OpenStreetMap-basierte Übersichtskarte]({{ site.baseurl }}/orte/) mit tabellarischer Auflistung der wichtigsten Wohnorte.
 * **[Quellenverzeichnis](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/sources)** – Hinterlegte Belege, Urkunden und Archivverweise.
 * **[Diagramme & Tafeln](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts)** – Visuelle Darstellung der Verwandtschaftsverhältnisse.
 
@@ -30,4 +30,4 @@ Zu einzelnen Forschungsthemen existieren ergänzende Webseiten auf Google Sites.
 * **[Von Kofler zu Cofler](https://sites.google.com/view/koflerzucofler/startseite)** – Zur Schreibweise und Geschichte des Familiennamens Kofler/Cofler.
 
 ---
-*Hinweis: Zur Rückkehr zur Bonusseite nutzen Sie bitte den Link im Kopfbereich der Stammbaum-Seite oder schließen Sie das Browser-Tab.*
+*Hinweis: Zur Rückkehr zur Bonusseite nutze bitte den Link im Kopfbereich der Stammbaum-Seite oder schließe das Browser-Tab.*

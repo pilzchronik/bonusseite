@@ -23,7 +23,7 @@ permalink: /ueber/
 </p>
 
 <p>
-  Sie ersetzt nicht die Chronik, sondern erweitert sie punktuell dort, wo neue Erkenntnisse sinnvoll sind.
+  Die Bonusseite ersetzt nicht die Chronik, sondern erweitert sie punktuell dort, wo neue Erkenntnisse sinnvoll sind.
 </p>
 
 <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">

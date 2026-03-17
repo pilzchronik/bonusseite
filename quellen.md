@@ -27,7 +27,7 @@ Diese Seite versammelt Archive, ausgewählte Quellenfunde sowie Werkzeuge zur r�
 
 ## Druckfehler & Errata
 
-Die laufend aktualisierte Liste der Druck- und Satzfehler finden Sie im Bereich
+Die laufend aktualisierte Liste der Druck- und Satzfehler findest du im Bereich
 [Aktuelles seit Drucklegung]({{ '/werkstatt/' | relative_url }}) — dort unter dem Filter **Korrekturen**.
 
 ---
@@ -83,7 +83,7 @@ Die Gerichtshandelsbücher des **Amts Sayda** sind eine Schlüsselquelle für di
 
 ### DNA-Genealogie
 
-Die in der Chronik und auf der [Orte-Seite]({{ '/orte/' | relative_url }}) dargestellten genetischen Herkunftsanalysen basieren auf einem Test bei [FamilyTreeDNA](https://www.familytreedna.com) (Kit-Nr. auf Anfrage beim Autor: <span id="dna-mail"></span><noscript>pilz (at) gmx.at</noscript>). Detaillierte Ergebnisse finden Sie in Band 2 der Chronik.
+Die in der Chronik und auf der [Orte-Seite]({{ '/orte/' | relative_url }}) dargestellten genetischen Herkunftsanalysen basieren auf einem Test bei [FamilyTreeDNA](https://www.familytreedna.com) (Kit-Nr. auf Anfrage beim Autor: <span id="dna-mail"></span><noscript>pilz (at) gmx.at</noscript>). Detaillierte Ergebnisse findest du in Band 2 der Chronik.
 
 <script>
 (function() {

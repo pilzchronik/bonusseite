@@ -158,7 +158,7 @@ permalink: /orte/
 
 <div id="section-ortsverzeichnis">
 <p style="font-size: 0.9em; color: #666; margin-bottom: 10px;">
-  Klicken Sie auf einen Ort in der Liste, um ihn auf der Karte anzuzeigen.
+  Klick auf einen Ort in der Liste, um ihn auf der Karte anzuzeigen.
 </p>
 
 <input type="text" id="ort-suche" placeholder="Ort, Region oder Beschreibung suchen..." onkeyup="filterTable()">
@@ -187,7 +187,7 @@ permalink: /orte/
 <p style="color: #555; margin-bottom: 15px; line-height: 1.6;">
   Zweisprachiges Nachschlagewerk für deutsche und tschechische Ortsnamen – 
   zwei Sprachformen, die oft seit dem Mittelalter parallel existieren.
-  Die Suche funktioniert in <strong>beide Richtungen</strong> – geben Sie die deutsche <em>oder</em> tschechische Namensform ein.
+  Die Suche funktioniert in <strong>beide Richtungen</strong> – gib die deutsche <em>oder</em> tschechische Namensform ein.
   <span class="chronik-badge" style="font-size: 0.9em;">📖</span> markiert Orte, die in der Pilz-Chronik vorkommen.
 </p>
 
@@ -204,7 +204,7 @@ permalink: /orte/
 </div>
 
 <div id="ortsnamen-no-results" style="display: none; text-align: center; padding: 25px 15px; color: #999; font-style: italic; background: #f8f9fa; border-radius: 4px; margin-bottom: 15px;">
-  Kein Ortsname gefunden. Versuchen Sie eine andere Schreibweise.
+  Kein Ortsname gefunden. Versuch eine andere Schreibweise.
 </div>
 
 <div class="orte-liste-container" style="max-height: 400px; margin-bottom: 30px;">
@@ -307,7 +307,7 @@ permalink: /orte/
 
 <div style="margin-top: 50px; padding: 20px; background: #f8f9fa; border-radius: 4px; text-align: center;">
   <p style="margin: 0 0 8px 0; color: #555;">
-    Die genetische Herkunft der Familie – Haplogruppen, Migrationsrouten und DNA-Analyse – finden Sie auf einer eigenen Seite:
+    Die genetische Herkunft der Familie – Haplogruppen, Migrationsrouten und DNA-Analyse – findest du auf einer eigenen Seite:
   </p>
   <a href="{{ '/dna-analyse/' | relative_url }}" style="color: #2a5d8f; font-weight: 600; font-size: 1.05em;">→ Zur DNA-Analyse</a>
 </div>
@@ -468,7 +468,7 @@ document.querySelectorAll('.collapsible').forEach(function(header) {
           }
         })
         .catch(function() {
-          alert('Geocoding fehlgeschlagen. Bitte versuchen Sie es später erneut.');
+          alert('Geocoding fehlgeschlagen. Bitte versuch es später erneut.');
         });
     }, 300);
   }
