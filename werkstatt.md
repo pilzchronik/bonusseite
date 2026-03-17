@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Aktuelles
+title: Werkstatt
 permalink: /werkstatt/
 ---
 
-<h1 style="color: #111; margin-bottom: 10px;">Aktuelles seit Drucklegung</h1>
+<h1 style="color: #111; margin-bottom: 10px;">Werkstatt</h1>
 
 <style>
   .post-header { display: none !important; }
@@ -174,8 +174,8 @@ permalink: /werkstatt/
 </style>
 
 <div class="intro-text">
-  Neue Funde, Korrekturen und Ergänzungen zur Pilz-Chronik — alles seit Drucklegung.<br>
-  <span style="font-size:0.9em;">Kompakte Übersicht für Buchbesitzer → <a href="{{ '/updates/' | relative_url }}">Chronik-Updates</a></span>
+  Alle Beiträge seit Drucklegung — chronologisch, mit Suchfunktion.<br>
+  <span style="font-size:0.9em;">← <a href="{{ '/updates/' | relative_url }}">Zurück zur Übersicht (Aktuelles)</a></span>
 </div>
 
 <!-- Angepinnter Errata-Post -->

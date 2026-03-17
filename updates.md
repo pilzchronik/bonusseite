@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chronik-Updates
+title: Neues
 permalink: /updates/
 ---
 
@@ -107,8 +107,8 @@ permalink: /updates/
 
 <div class="intro-text">
   <p>
-    <strong>Für Buchbesitzer:</strong> Dieses Register zeigt Korrekturen von Druckfehlern (links) und neue Forschungsergebnisse nach Drucklegung (rechts) — kompakt und ohne Arbeitsnotizen.<br>
-    <span style="font-size:0.9em;">Alle Posts inkl. Logbuch und Hintergrund → <a href="{{ '/werkstatt/' | relative_url }}">Zum vollständigen Logbuch</a></span>
+    <strong>Für Buchbesitzer:</strong> Korrekturen zu den gedruckten Bänden (links) und neue Forschungsergebnisse seit Drucklegung (rechts).<br>
+    <span style="font-size:0.9em;">Alle Beiträge chronologisch → <a href="{{ '/werkstatt/' | relative_url }}">Werkstatt</a></span>
   </p>
 </div>
 

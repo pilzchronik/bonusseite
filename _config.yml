@@ -34,7 +34,7 @@ exclude:
 header_pages:
   - index.md
   - stammbaum.md
-  - werkstatt.md
+  - updates.md
   - orte.md
   - zeitleiste.md
   - quellen.md

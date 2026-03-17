@@ -158,7 +158,7 @@ title: Startseite
     <p>Was im gedruckten Buch falsch steht – und wie es richtig lautet.</p>
   </a>
 
-  <a href="{{ '/werkstatt/' | relative_url }}" class="action-card neues">
+  <a href="{{ '/updates/' | relative_url }}" class="action-card neues">
     <span class="label">Seit Drucklegung</span>
     <h3>Neue Funde</h3>
     <p>Archivfunde und Erkenntnisse, die nach Abschluss des Manuskripts hinzugekommen sind.</p>
