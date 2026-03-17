@@ -3,11 +3,11 @@ layout: page
 title: DNA-Migrationsroute – Mütterliche Linie
 permalink: /dna-migration-muetterlich/
 status: vorläufig
-stand_vom: 2026-03-15
+stand_vom: 2026-03-17
 ---
 <p style="margin-bottom: 1.5rem;"><a href="{{ '/dna-analyse/' | relative_url }}" style="color: #7a3a8a;">← Zurück zur DNA-Analyse</a></p>
-<p>Diese Karte zeigt die Wanderung der mütterlichen Vorfahrenlinie (mtDNA) über rund 300.000 Jahre – von den Ursprüngen in Ostafrika bis nach <strong>Österreich/Kroatien, ca. 450 n. Chr.</strong> Jede Station entspricht einer genetischen Verzweigung. Quelle: FamilyTreeDNA, Haplogruppe H41a9.</p>
-<p style="background:#f5f5f5; border-left:4px solid #888; padding:0.6rem 0.9rem; font-size:0.92rem; margin-bottom:1rem;">Bemerkenswert: Während die väterliche Linie über den Balkan und die Alpen nach Mitteleuropa gelangte, flüchtete die mütterliche Linie während der Eiszeit auf die Iberische Halbinsel — und fand ihren Weg über Westeuropa und Skandinavien zurück.</p>
+<p>Diese Karte zeigt die Wanderung der mütterlichen Vorfahrenlinie (mtDNA) über rund 300.000 Jahre – von den Ursprüngen im südlichen Ostafrika (Mitochondriale Eva) bis nach <strong>Österreich/Kroatien, ca. 1000 n. Chr.</strong> Jede Station entspricht einer genetischen Verzweigung oder einem archäogenetischen Beleg. Quellen: FamilyTreeDNA, archäogenetische Studien zu H41a. Haplogruppe H41a9.</p>
+<p style="background:#f5f5f5; border-left:4px solid #888; padding:0.6rem 0.9rem; font-size:0.92rem; margin-bottom:1rem;">Bemerkenswert: Beide Linien – die väterliche wie die mütterliche – führen über den Balkan und Südosteuropa nach Mitteleuropa. Die mütterliche Linie überstand die Eiszeit in einem südosteuropäischen Refugium und lässt sich über die eurasische Steppe (Fatjanowo-Kultur, Sarmaten/Alanen) und den Balkan (Medijana bei Niš) bis nach Österreich verfolgen. Ein iberisches Refugium (Spanien) ist für H41a/H41a9 archäogenetisch nicht belegt.</p>
 <div id="dna-controls" style="margin: 1rem 0 0.75rem 0;">
   <button id="btn-play" onclick="startAnimation()">▶ Abspielen</button>
   <button id="btn-reset" onclick="resetAnimation()" style="margin-left:0.5rem;">↺ Zurücksetzen</button>
@@ -51,7 +51,7 @@ stand_vom: 2026-03-15
 </details>
 
 <h3 style="color: #333; margin-top: 2.5rem; margin-bottom: 0.5rem; font-size: 1.15em;">Stationen der Wanderung</h3>
-<p style="font-size: 0.88em; color: #888; margin-bottom: 12px;">16 genetische Verzweigungen über 300.000 Jahre. Die aktive Station wird während der Animation hervorgehoben.</p>
+<p style="font-size: 0.88em; color: #888; margin-bottom: 12px;">15 genetische Verzweigungen – von der Mitochondrialen Eva bis nach Österreich. Die aktive Station wird während der Animation hervorgehoben.</p>
 <div style="max-height: 420px; overflow-y: auto; border: 1px solid #e0e4e8; border-radius: 4px;">
   <table id="stations-table" style="width: 100%; border-collapse: collapse; font-size: 0.88em;">
     <thead>
@@ -81,45 +81,45 @@ stand_vom: 2026-03-15
 #btn-play:disabled { background: #aaa; cursor: default; }
 </style>
 <script>
-var waypoints = [
-  { group: "mt-Eve",             year: "ca. 300.000 v. Chr.", lat:  8.0, lng: 40.0, info: "Mitochondriale Eva – gemeinsame Urmutter aller heute lebenden Menschen. Ostafrika/Äthiopien." },
-  { group: "L1'7",               year: "ca. 200.000 v. Chr.", lat:  7.0, lng: 38.0, info: "Frühe Aufspaltung in Ostafrika." },
-  { group: "L2'7",               year: "ca. 160.000 v. Chr.", lat:  9.0, lng: 36.0, info: "Ostafrika – weitere Differenzierung." },
-  { group: "L2'3'4'6",           year: "ca. 130.000 v. Chr.", lat: 11.0, lng: 35.0, info: "Ostafrika/Sudan." },
-  { group: "L3'4'6",             year: "ca. 100.000 v. Chr.", lat: 13.0, lng: 36.0, info: "Nordostafrika/Äthiopien." },
+// === HAUPTROUTE: lineare Wanderung EVE → Balkan → Österreich ===
+var mainRoute = [
+  { group: "mt-Eve",             year: "ca. 300.000 v. Chr.", lat: -6.0, lng: 35.0, info: "Mitochondriale Eva – gemeinsame Urmutter aller heute lebenden Menschen. Südliches Ostafrika (Region Tansania/Mosambik)." },
+  { group: "L1'7",               year: "ca. 200.000 v. Chr.", lat: -3.0, lng: 35.5, info: "Frühe Aufspaltung in Ostafrika (Ostafrikanischer Grabenbruch)." },
+  { group: "L2'7",               year: "ca. 160.000 v. Chr.", lat:  1.0, lng: 36.0, info: "Ostafrika – weitere Differenzierung (Region Kenia/Uganda)." },
+  { group: "L2'3'4'6",           year: "ca. 130.000 v. Chr.", lat:  5.0, lng: 36.0, info: "Ostafrika – Übergang Nordostafrika." },
+  { group: "L3'4'6",             year: "ca. 100.000 v. Chr.", lat:  9.0, lng: 38.0, info: "Nordostafrika/Äthiopien." },
   { group: "L3'4",               year: "ca. 85.000 v. Chr.",  lat: 11.5, lng: 42.0, info: "Horn von Afrika – Vorbereitung des Auszugs." },
-  { group: "L3",                 year: "ca. 70.000 v. Chr.",  lat: 13.0, lng: 43.5, info: "Nordostafrika – Ausgangspunkt des Auszugs aus Afrika." },
+  { group: "L3",                 year: "ca. 70.000 v. Chr.",  lat: 13.0, lng: 43.5, info: "Nordostafrika – Ausgangspunkt des Auszugs aus Afrika über Bab el-Mandeb (südliche Route)." },
   { group: "N",                  year: "ca. 60.000 v. Chr.",  lat: 22.0, lng: 56.0, info: "Arabische Halbinsel/Oman – erster Halt nach dem Auszug aus Afrika." },
   { group: "R",                  year: "ca. 55.000 v. Chr.",  lat: 28.0, lng: 56.0, info: "Persischer Golf/Iran – weitere Wanderung nordwärts." },
   { group: "R0",                 year: "ca. 45.000 v. Chr.",  lat: 33.0, lng: 44.0, info: "Levante/Irak – Vorläufer fast aller europäischen mütterlichen Linien." },
-  { group: "HV",                 year: "ca. 35.000 v. Chr.",  lat: 37.5, lng: 37.0, info: "Anatolien/Türkei – Verzweigung in H- und V-Linien. Eiszeit-Refugium im Nahen Osten.", highlight_ice: true },
-  { group: "H",                  year: "ca. 25.000 v. Chr.",  lat: 38.0, lng: 32.0, info: "Westanatolien – mit dem Rückzug des Eises beginnt die Wanderung westwärts.", highlight_ice: true },
-  { group: "H (Balkan)",         year: "ca. 15.000 v. Chr.",  lat: 41.5, lng: 22.0, info: "Griechenland/Balkan – Einzug in Europa über die Balkanhalbinsel. Historische Verbindung: Römerzeitliche Balkans." },
-  { group: "H (Mitteleuropa)",   year: "ca. 8.000 v. Chr.",   lat: 44.0, lng: 17.0, info: "Westbalkan/Adriaraum – H wird zur häufigsten mütterlichen Haplogruppe in Europa." },
-  { group: "H41a6'7'8'9'21",    year: "ca. 2.100 v. Chr.",   lat: 45.5, lng: 15.5, info: "Balkan/Kroatien-Slowenien-Raum – Vorläuferlinie. Historische Verbindungen: Fatyanovo-Kultur, Eisenzeitliches Skandinavien." },
-  { group: "H41a9",              year: "ca. 450 n. Chr.",      lat: 46.5, lng: 14.8, info: "<strong>Österreich / Kroatien, ca. 450 n. Chr.</strong> – direkter mütterlicher Ursprung in der Pilz-Chronik. 4 getestete Nachkommen aus Österreich und Kroatien.", highlight: true }
+  { group: "HV",                 year: "ca. 35.000 v. Chr.",  lat: 37.5, lng: 37.0, info: "Anatolien/Türkei – Verzweigung in H- und V-Linien.", highlight_ice: true },
+  { group: "H",                  year: "ca. 25.000 v. Chr.",  lat: 38.0, lng: 32.0, info: "Westanatolien – H entsteht. Mit dem Rückzug des Eises beginnt die Wanderung nach Europa.", highlight_ice: true },
+  { group: "H (Balkan-Refugium)", year: "ca. 20.000–15.000 v. Chr.", lat: 41.5, lng: 22.0, info: "Griechenland/Balkan – Eiszeit-Refugium. Die H-Linie überstand das Letzte Glaziale Maximum in Südosteuropa, <em>nicht</em> auf der Iberischen Halbinsel.", highlight_ice: true },
+  { group: "H (Expansion)",      year: "ca. 12.000–8.000 v. Chr.", lat: 44.0, lng: 20.0, info: "Postglaziale Expansion – von den Balkan-Refugien aus breitet sich H über Europa aus und wird zur häufigsten mütterlichen Haplogruppe." },
+  { group: "H41a9",              year: "ca. 769–1.248 n. Chr.", lat: 46.5, lng: 14.8, info: "<strong>Österreich / Kroatien</strong> – direkter mütterlicher Ursprung in der Pilz-Chronik. Jüngste gemeinsame Vorfahrin ca. 1000 n. Chr. 4 getestete Nachkommen aus Österreich und Kroatien.", highlight: true }
 ];
+// Keine Abzweigungen auf der Karte – die archäogenetischen Belege (Fatjanowo, Niš, Sigtuna)
+// betreffen die übergeordnete Linie H41a, nicht direkt unsere Vorfahren.
+var sortedStations = mainRoute;
 var iceCoords = [
   [72,-25],[76,0],[73,15],[70,25],[66,30],[61,30],
   [57,25],[54,20],[52,15],[51,10],[50,5],[50,0],
   [51,-5],[53,-10],[56,-15],[59,-20],[63,-25],[68,-25],[72,-25]
 ];
 var dnaMap, routeGroup, iceLayer, markers = [], animTimer;
-var currentStep = 0, isAnimating = false;
+var currentStep = 0, isAnimating = false, totalSteps;
 function initDnaMap() {
   dnaMap = L.map('map').setView([20, 20], 3);
   L.tileLayer('https://tile.openstreetmap.de/{z}/{x}/{y}.png', {
-    attribution: '© OpenStreetMap-Mitwirkende',
+    attribution: '\u00a9 OpenStreetMap-Mitwirkende',
     maxZoom: 10
   }).addTo(dnaMap);
   routeGroup = L.layerGroup().addTo(dnaMap);
   iceLayer = L.polygon(iceCoords, {
-    color: '#5599cc',
-    fillColor: '#aaccee',
-    fillOpacity: 0.4,
-    weight: 1.5,
-    dashArray: '5 5'
+    color: '#5599cc', fillColor: '#aaccee', fillOpacity: 0.4, weight: 1.5, dashArray: '5 5'
   });
+  totalSteps = mainRoute.length;
 }
 function startAnimation() {
   if (isAnimating) return;
@@ -127,39 +127,7 @@ function startAnimation() {
   document.getElementById('btn-play').disabled = true;
   animateStep(currentStep);
 }
-function updatePanel(i) {
-  var panel = document.getElementById('station-panel');
-  if (i < 0 || i >= waypoints.length) return;
-  var wp = waypoints[i];
-  panel.style.display = 'block';
-  panel.style.borderLeftColor = wp.highlight ? '#cc2222' : '#7a3a8a';
-  panel.style.background = wp.highlight ? '#fef5f5' : '#f5eefb';
-  document.getElementById('panel-group').textContent = 'Haplogruppe ' + wp.group;
-  document.getElementById('panel-group').style.color = wp.highlight ? '#cc2222' : '#7a3a8a';
-  document.getElementById('panel-step').textContent = 'Station ' + (i + 1) + ' von ' + waypoints.length;
-  document.getElementById('panel-year').textContent = wp.year;
-  document.getElementById('panel-info').innerHTML = wp.info;
-}
-function animateStep(i) {
-  if (i >= waypoints.length) {
-    isAnimating = false;
-    document.getElementById('panel-step').textContent = '✓ Route vollständig';
-    return;
-  }
-  var wp = waypoints[i];
-  if (wp.highlight_ice || (i >= 8 && i <= 10)) {
-    if (!dnaMap.hasLayer(iceLayer)) iceLayer.addTo(dnaMap);
-  } else {
-    if (dnaMap.hasLayer(iceLayer)) dnaMap.removeLayer(iceLayer);
-  }
-  updatePanel(i);
-  highlightStation(i);
-  if (i > 0) {
-    var prev = waypoints[i - 1];
-    L.polyline([[prev.lat, prev.lng],[wp.lat, wp.lng]], {
-      color: '#7a3a8a', weight: 2.5, opacity: 0.85
-    }).addTo(routeGroup);
-  }
+function addMarker(wp) {
   var dotColor = wp.highlight ? '#cc2222' : '#7a3a8a';
   var dotSize  = wp.highlight ? 13 : 8;
   var icon = L.divIcon({
@@ -171,10 +139,42 @@ function animateStep(i) {
   var m = L.marker([wp.lat, wp.lng], {icon: icon})
     .addTo(routeGroup)
     .bindPopup('<strong>' + wp.group + '</strong><br><em>' + wp.year + '</em><br><span style="font-size:0.9em">' + wp.info + '</span>');
-  if (wp.highlight) {
-    setTimeout(function() { m.openPopup(); }, 400);
-  }
+  if (wp.highlight) setTimeout(function() { m.openPopup(); }, 400);
   markers.push(m);
+  return m;
+}
+function updatePanel(wp, stepNum) {
+  var panel = document.getElementById('station-panel');
+  panel.style.display = 'block';
+  panel.style.borderLeftColor = wp.highlight ? '#cc2222' : '#7a3a8a';
+  panel.style.background = wp.highlight ? '#fef5f5' : '#f5eefb';
+  document.getElementById('panel-group').textContent = 'Haplogruppe ' + wp.group;
+  document.getElementById('panel-group').style.color = wp.highlight ? '#cc2222' : '#7a3a8a';
+  document.getElementById('panel-step').textContent = 'Station ' + stepNum + ' von ' + totalSteps;
+  document.getElementById('panel-year').textContent = wp.year;
+  document.getElementById('panel-info').innerHTML = wp.info;
+}
+function animateStep(i) {
+  if (i >= mainRoute.length) {
+    isAnimating = false;
+    document.getElementById('panel-step').textContent = '\u2713 Route vollst\u00e4ndig';
+    return;
+  }
+  var wp = mainRoute[i];
+  if (wp.highlight_ice) {
+    if (!dnaMap.hasLayer(iceLayer)) iceLayer.addTo(dnaMap);
+  } else {
+    if (dnaMap.hasLayer(iceLayer)) dnaMap.removeLayer(iceLayer);
+  }
+  updatePanel(wp, i + 1);
+  highlightStation(i);
+  if (i > 0) {
+    var prev = mainRoute[i - 1];
+    L.polyline([[prev.lat, prev.lng],[wp.lat, wp.lng]], {
+      color: '#7a3a8a', weight: 2.5, opacity: 0.85
+    }).addTo(routeGroup);
+  }
+  addMarker(wp);
   dnaMap.panTo([wp.lat, wp.lng], {animate: true, duration: 0.7});
   currentStep = i + 1;
   var delay = wp.highlight ? 2000 : 1100;
@@ -194,31 +194,33 @@ function resetAnimation() {
 function buildStationsTable() {
   var tbody = document.getElementById('stations-tbody');
   if (!tbody) return;
-  waypoints.forEach(function(wp, i) {
+  sortedStations.forEach(function(wp, i) {
     var tr = document.createElement('tr');
     tr.id = 'station-row-' + i;
     tr.style.borderBottom = '1px solid #e9ecef';
     tr.style.transition = 'background-color 0.3s';
     if (wp.highlight) tr.style.fontWeight = '600';
+    var nameColor = wp.highlight ? '#cc2222' : '#7a3a8a';
     tr.innerHTML =
       '<td style="padding:8px 12px; color:#999;">' + (i + 1) + '</td>' +
-      '<td style="padding:8px 12px; font-weight:600; color:' + (wp.highlight ? '#cc2222' : '#7a3a8a') + ';">' + wp.group + '</td>' +
+      '<td style="padding:8px 12px; font-weight:600; color:' + nameColor + ';">' + wp.group + '</td>' +
       '<td style="padding:8px 12px; white-space:nowrap;">' + wp.year + '</td>' +
       '<td style="padding:8px 12px; color:#555;">' + wp.info.replace(/<[^>]*>/g, '') + '</td>';
     tr.style.cursor = 'pointer';
-    tr.addEventListener('click', function() {
-      var m = markers[i];
-      if (m) { dnaMap.setView([wp.lat, wp.lng], 6); m.openPopup(); }
-    });
+    (function(idx, w) {
+      tr.addEventListener('click', function() {
+        var m = markers[idx];
+        if (m) { dnaMap.setView([w.lat, w.lng], 6); m.openPopup(); }
+      });
+    })(i, wp);
     tbody.appendChild(tr);
   });
 }
 function highlightStation(i) {
-  waypoints.forEach(function(_, j) {
+  sortedStations.forEach(function(_, j) {
     var row = document.getElementById('station-row-' + j);
     if (row) row.style.backgroundColor = (j === i) ? '#ead8f5' : '';
   });
-  // Nur innerhalb des Tabellen-Containers scrollen, nicht die ganze Seite
   var activeRow = document.getElementById('station-row-' + i);
   if (activeRow) {
     var container = activeRow.closest('div[style*="overflow-y"]');
