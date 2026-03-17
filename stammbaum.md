@@ -4,19 +4,28 @@ title: Stammbaum & Archiv
 permalink: /stammbaum/
 ---
 
-## Das genealogische Herzstück
+## Stammbäume und Ahnentafeln
 
-Die vollständige Auswertung aller Familiendaten erfolgt über die Plattform **MacFamilyTree**. Hier sind sämtliche Personenblätter, Querverweise und die grafische Darstellung der Ahnentafel zentral zusammengefasst.
+Die wichtigsten Familienlinien als Diagramme – klick direkt auf die Darstellung, die dich interessiert:
 
-### [➤ MacFamilyTree-Archiv öffnen](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html)
+* **[➤ Ahnentafel Pilz](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts)** – Die Hauptlinie über 8 Generationen
+* **[➤ Stammbaum Eberstaller](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts)** – Die mütterliche Linie
+* **[➤ Gesamtübersicht](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts)** – Alle Verbindungen auf einen Blick
 
-**Direktzugriff auf einzelne Archivbereiche:**
+<p style="font-size: 0.9em; color: #666; margin-top: 8px;">
+Die Diagramme öffnen sich im MacFamilyTree-Archiv. Dort findest du oben im Menü unter „Diagramme" weitere Darstellungen.
+</p>
 
-* **[Personen-Verzeichnis](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/persons)** – Alle gelisteten Familienmitglieder im Überblick.
-* **[Familien-Übersicht](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/families)** – Darstellung der Kernfamilien und Verbindungen.
-* **[Orte & Karte](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/places)** – Geografische Zuordnung der Lebensstationen. Ergänzend hierzu findest du auf der Bonusseite eine [OpenStreetMap-basierte Übersichtskarte]({{ site.baseurl }}/orte/) mit tabellarischer Auflistung der wichtigsten Wohnorte.
-* **[Quellenverzeichnis](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/sources)** – Hinterlegte Belege, Urkunden und Archivverweise.
-* **[Diagramme & Tafeln](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts)** – Visuelle Darstellung der Verwandtschaftsverhältnisse.
+---
+
+## Detailsuche im Archiv
+
+Über das MacFamilyTree-Archiv kannst du auch gezielt nach einzelnen Personen, Familien und Orten suchen:
+
+* **[Personen-Verzeichnis](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/persons)** – Alle gelisteten Familienmitglieder
+* **[Familien-Übersicht](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/families)** – Kernfamilien und Verbindungen
+* **[Orte & Karte](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/places)** – Lebensstationen geografisch zugeordnet (ergänzend dazu die [Übersichtskarte]({{ site.baseurl }}/orte/) hier auf der Bonusseite)
+* **[Quellenverzeichnis](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/sources)** – Hinterlegte Belege und Archivverweise
 
 ---
 
@@ -28,6 +37,3 @@ Zu einzelnen Forschungsthemen existieren ergänzende Webseiten auf Google Sites.
 * **[Bechinie-Rätsel](https://sites.google.com/view/raetselphilippbechinie/startseite)** – Offene Forschungsfrage zur böhmischen Bechinie-Linie.
 * **[Pilz-Chronik: DNA](https://sites.google.com/view/pilzdna/startseite)** – Genetische Herkunft und Haplogruppen-Auswertung.
 * **[Von Kofler zu Cofler](https://sites.google.com/view/koflerzucofler/startseite)** – Zur Schreibweise und Geschichte des Familiennamens Kofler/Cofler.
-
----
-*Hinweis: Zur Rückkehr zur Bonusseite nutze bitte den Link im Kopfbereich der Stammbaum-Seite oder schließe das Browser-Tab.*
