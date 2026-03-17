@@ -6,14 +6,25 @@ permalink: /stammbaum/
 
 ## Stammbäume und Ahnentafeln
 
-Die wichtigsten Familienlinien als Diagramme – klick direkt auf die Darstellung, die dich interessiert:
+Die wichtigsten Familienlinien als Diagramme – klick direkt auf die Darstellung, die dich interessiert. Die Diagramme öffnen sich als PDF und lassen sich zoomen und scrollen.
 
-* **[➤ Ahnentafel Pilz](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts)** – Die Hauptlinie über 8 Generationen
-* **[➤ Stammbaum Eberstaller](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts)** – Die mütterliche Linie
-* **[➤ Gesamtübersicht](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts)** – Alle Verbindungen auf einen Blick
+### Linie Pilz (väterlich)
 
-<p style="font-size: 0.9em; color: #666; margin-top: 8px;">
-Die Diagramme öffnen sich im MacFamilyTree-Archiv. Dort findest du oben im Menü unter „Diagramme" weitere Darstellungen.
+* **[➤ Stammbaum Wolfgang Pilz](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/7C3BCD5F-3BE9-4FCE-925E-CF62CAAEB566.pdf?q=1294336917096469500)** – Die vollständige Ahnentafel des Autors über alle Linien
+* **[➤ Stammbaum Christian Gottlob Pilz](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/2DA6A933-B360-4B90-80F3-15C19318DF80.pdf?q=2708549689843906600)** – Die sächsische Pültz-Linie zurück ins 16. Jahrhundert
+
+### Linie Eberstaller / Reider (mütterlich)
+
+* **[➤ Nachfahren Wolff Eberstaller](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/F73B696E-D7BC-4705-9395-7AF0EA18FC0D.pdf?q=808858197171940000)** – Die Eberstaller-Linie ab dem Stammvater (17. Jh.)
+* **[➤ Nachfahren Bartolomäus Reider zu Oberlampach](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/746F574C-99E5-4DFE-8875-C25556D10378.pdf?q=130786253216979230)** – Die Tiroler Reider-Linie
+
+### Linie Kofler / Cofler (Südtirol)
+
+* **[➤ Sanduhrtafel Anton Kofler zu Peterer](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/DD6C4E20-EEE6-46A6-B7AC-D39EE95FDC04.pdf?q=2008111898509203500)** – Vorfahren und Nachkommen des Südtiroler Zweigs
+* **[➤ Verwandtschafts-Diagramm Antonio Cofler](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/D34EE2D9-9033-4157-8246-908FF4943EE6.pdf?q=1507478592630876400)** – Verbindung Kofler/Cofler
+
+<p style="font-size: 0.9em; color: #666; margin-top: 12px;">
+Weitere Diagramme und Darstellungen findest du im <a href="https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts">MacFamilyTree-Archiv unter „Diagramme"</a>.
 </p>
 
 ---
