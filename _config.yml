@@ -24,6 +24,7 @@ collections:
 exclude:
   - _intern
   - suchdaten
+  - vendor
   - MAINTENANCE.md
   - AENDERUNGEN-2026-02-11.md
   - ANLEITUNG_werkstatt.md
