@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // === EBERSTALLER-LINIE ===
         {name: "Wallern/Trattnach", lat: 48.2336, lon: 13.9450, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Ehemals Krenglbach; 300 Jahre Stammsitz der Familie.", ref: "Bd. 1, S. 43"},
-        {name: "Reichhof am Hungersberg", lat: 48.21369194799892, lon: 13.935277169816231, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Bauernhof in Wallern/Trattnach (früher Krenglbach); Herkunft der Familie Eberstaller.", ref: "Bd. 1, S. 43", hof: true},
+        {name: "Reichhof am Hungersberg", lat: 48.21369194799892, lon: 13.935277169816231, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Hungerberg 3, Wallern/Trattnach (früher Krenglbach). Stammsitz der Familie Eberstaller über 300 Jahre.", ref: "Bd. 1, S. 43", hof: true},
         {name: "Krenglbach", lat: 48.1930, lon: 13.9450, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Ursprüngliche Herkunft der Familie Eberstaller.", ref: "Bd. 1, S. 43"},
         {name: "Radstadt", lat: 47.3833, lon: 13.4500, kategorie: "Eberstaller-Linie", region: "Salzburg", beschreibung: "Matthias Eberstaller (Kekulé 24) siedelte hier, Bäckerei.", ref: "Bd. 1, S. 43"},
         {name: "Rott bei Salzburg", lat: 47.8333, lon: 12.9833, kategorie: "Eberstaller-Linie", region: "Salzburg", beschreibung: "Geburt Großvater Johann Eberstaller, 21.8.1893.", ref: "Bd. 1, S. 43"},
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // === TIROLER LINIE ===
         {name: "Kartitsch", lat: 46.7231, lon: 12.5008, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Zentrum der Tiroler Linie; Geburtsort der Mutter.", ref: "Bd. 1, S. 44"},
-        {name: "Petererhof, St. Oswald", lat: 46.73755519924009, lon: 12.478147527197969, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Bauernhof in St. Oswald bei Kartitsch; Herkunft der Familien Kofler und Reider.", ref: "Bd. 1, S. 44", hof: true},
+        {name: "Petererhof, St. Oswald", lat: 46.73755519924009, lon: 12.478147527197969, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Historischer Bauernhof (Nr. 6/8) in St. Oswald bei Kartitsch, vermutlich 1594 errichtet. Stammsitz der Familien Kofler und Reider. Geburtsort von Katharina Eberstaller, geb. Reider (1892–1964), der Großmutter des Autors.", ref: "Bd. 1, S. 44, 110ff.", hof: true},
         {name: "Sexten", lat: 46.7019, lon: 12.3586, kategorie: "Tiroler Linie", region: "Südtirol", beschreibung: "Herkunftsort der Familie Reider.", ref: "Bd. 1, S. 43"},
         {name: "Obertilliach", lat: 46.7125, lon: 12.5961, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Geburtsort Maria Ebner (Kekulé 115), 1746.", ref: "Bd. 2, S. 42"},
         {name: "Rovereto", lat: 45.8885, lon: 11.0413, kategorie: "Tiroler Linie", region: "Trentino", beschreibung: "Kofler/Cofler Dynastie.", ref: "Bd. 1"},
