@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Sybiltha — Josephs erste Frau, Mutter der älteren Geschwister Abrahams"
+title: "Sybilla — Josephs erste Frau, Mutter der älteren Geschwister Abrahams"
 date: 2026-03-01
 tags: [Neue Funde, Hintergrund]
-permalink: /sybiltha-josephs-frau/
+permalink: /sybilla-josephs-frau/
 excerpt: >
   GB AG Sayda Nr. 020, S. 201 (02.02.1617): Joseph Pültz erscheint vor Gericht
-  wegen seiner verstorbenen Frau Sybiltha. Ihre Lesungen wurden von einer
+  wegen seiner verstorbenen Frau Sybilla. Ihre Lesungen wurden von einer
   Paläographie-Expertin bestätigt. Abrahams Mutter bleibt vorerst unbekannt.
 status: vorläufig
 stand_vom: 2026-03-01
@@ -21,14 +21,14 @@ Digitalisat-Seite 216, rechte Seite, findet sich unter dem Datum
 > „Auff heute Sontag als am tage Maria Lichtmeß des 1617 Jares sindt […]
 > nachfolgende personen erschienen, als Georg Klein ein Erbe Vor sich,
 > Christoff Jencken in […] Vormundtschafft seines Weibes Ursüla Vnd
-> **den Joße pültz Wegen seines Verstorbenen Vnd selig[en] Weibes / Sybiltha**"
+> **den Joße pültz Wegen seines Verstorbenen Vnd selig[en] Weibes / Sybilla**"
 
-Die Lesungen **„Joße" (= Joseph)** und **„Sybiltha"** wurden von der
+Die Lesungen **„Joße" (= Joseph)** und **„Sybilla"** wurden von der
 Moderatorin des Ahnenforschungsforums paläographisch bestätigt.
 
 Die drei Männer — Georg Klein, Christoff Jencken und Joseph Pültz — erscheinen
 als Erben des **Christoff Zimmermann** und verzichten auf weitere Ansprüche.
-Sybiltha war also mit der Familie **Zimmermann** in Dörnthal verwandt
+Sybilla war also mit der Familie **Zimmermann** in Dörnthal verwandt
 oder verschwägert.
 
 ---
@@ -36,11 +36,11 @@ oder verschwägert.
 ## Einordnung: Erste oder zweite Frau?
 
 Josephs Datensatz enthält zwei Heiratsdaten: **09.05.1574** und **08.05.1589**.
-Sybiltha war die **erste Frau** (∞ 09.05.1574) und starb **vor dem 2. Februar 1617**,
+Sybilla war die **erste Frau** (∞ 09.05.1574) und starb **vor dem 2. Februar 1617**,
 wahrscheinlich bereits um 1588/89 — denn nach dem Kind von 1588 folgt eine
 Lücke, und Joseph heiratete am 08.05.1589 ein zweites Mal.
 
-### Kinder Sybilthas (∞ 1574)
+### Kinder Sybillas (∞ 1574)
 
 | Kind | Taufe |
 |------|-------|
@@ -60,7 +60,7 @@ Lücke, und Joseph heiratete am 08.05.1589 ein zweites Mal.
 | **Abraham** | **27.08.1591** |
 
 Abraham wurde zwei Jahre nach der zweiten Heirat geboren — er ist daher
-mit großer Wahrscheinlichkeit **nicht** Sybilthas Kind, sondern das Kind
+mit großer Wahrscheinlichkeit **nicht** Sybillas Kind, sondern das Kind
 der unbekannten zweiten Frau. **Abrahams Mutter bleibt vorerst unbekannt.**
 
 ---
@@ -69,9 +69,9 @@ der unbekannten zweiten Frau. **Abrahams Mutter bleibt vorerst unbekannt.**
 
 1. **Wer war die zweite Frau** (∞ 08.05.1589) — Abrahams Mutter?
    Kirchenbuch Dörnthal (LKA Dresden, Bestand 23/24) prüfen.
-2. **Familie Zimmermann**: Über welche Linie war Sybiltha mit
+2. **Familie Zimmermann**: Über welche Linie war Sybilla mit
    Christoff Zimmermann verwandt?
-3. **Sterbeeintrag Sybiltha**: Im Kirchenbuch Dörnthal zwischen
+3. **Sterbeeintrag Sybilla**: Im Kirchenbuch Dörnthal zwischen
    ca. 1585 und 1589 suchen.
 
 ---
@@ -80,7 +80,7 @@ der unbekannten zweiten Frau. **Abrahams Mutter bleibt vorerst unbekannt.**
 
 ✅ **Paläographisch gesichert** (Forumbestätigung), genealogisch
 noch nicht durch Kirchenbuch bestätigt. In MacFamilyTree eingetragen als:
-*Sybiltha [Zimmermann?], ∞ Joseph Pültz 09.05.1574, † vor 02.02.1617,
+*Sybilla [Zimmermann?], ∞ Joseph Pültz 09.05.1574, † vor 02.02.1617,
 Quelle: GB AG Sayda Nr. 020, S. 201.*
 
 ---

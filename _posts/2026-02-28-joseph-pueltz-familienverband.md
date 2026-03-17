@@ -105,14 +105,14 @@ Erben des **Lorenz Drechsel** — seine Frau hieß **Maria**, geborene Drechsel.
 
 ---
 
-## Josephs erste Frau: Sybiltha
+## Josephs erste Frau: Sybilla
 
 Am 2. Februar 1617 erscheint Joseph wegen seiner verstorbenen Frau
-**Sybiltha** vor Gericht (S. 201). Sie war Josephs erste Frau (∞ 09.05.1574),
+**Sybilla** vor Gericht (S. 201). Sie war Josephs erste Frau (∞ 09.05.1574),
 mit der Familie Zimmermann verwandt, und starb wahrscheinlich um 1588/89.
 **Abraham (1591)** ist das Kind der zweiten, unbekannten Frau (∞ 08.05.1589).
 
-→ Ausführlich: [Sybiltha — Josephs erste Frau]({{ '/sybiltha-josephs-frau/' | relative_url }})
+→ Ausführlich: [Sybilla — Josephs erste Frau]({{ '/sybilla-josephs-frau/' | relative_url }})
 
 ---
 

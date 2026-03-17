@@ -35,11 +35,11 @@ permalink: /intern/gerichtsbuch-suche/
 | GB Amtsgericht Olbernhau Nr. 01 | 1646–1797 | Michael Pultzen Häusel-Kauf 1648, fol. 40r | analysiert |
 | GB AG Olbernhau Nr. 68 | ca. 1680–1700 | George Piltz (Hauskauf 1681/1694), Michael Pulz (~1695) | analysiert |
 | GB AG Zöblitz Nr. 56 | — | 6 Treffer: Justine Pulzin, Pultzen, Hanß Pulzens, Christoph Pulz (×2), Pulz Gärt | analysiert |
-| GB AG Zöblitz Nr. 59 (Poberschau) | — | **Samuel Pielz** (2×), Elias, Margarethe, Jeremias u. a. | analysiert |
+| GB AG Zöblitz Nr. 59 (Pobershau) | — | **Samuel Pielz** (2×), Elias, Margarethe, Jeremias u. a. | analysiert |
 | GB AG Zöblitz Nr. 60 | 1719–1729 | ~35 Nennungen, ~10 Personen | vollständig analysiert |
-| GB AG Zöblitz Nr. 62 (Poberschau) | 1730–1750 | Christian Pilz jun. + Familien-Cluster | analysiert |
+| GB AG Zöblitz Nr. 62 (Pobershau) | 1730–1750 | Christian Pilz jun. + Familien-Cluster | analysiert |
 | GB AG Zöblitz Nr. 63 | 1741–1747 | Negativbefund (Hauptlinie) | analysiert |
-| GB AG Zöblitz Nr. 67 | 1768–1775 | Negativbefund (Hauptlinie); Poberschau-Cluster | vollständig analysiert |
+| GB AG Zöblitz Nr. 67 | 1768–1775 | Negativbefund (Hauptlinie); Pobershau-Cluster | vollständig analysiert |
 | GB AG Zöblitz Nr. 69 (Konsensbuch) | 1710–1745 | Negativbefund (Hauptlinie); Zöblitz-Cluster | analysiert |
 | Breitsuche ZIP (11 Bände) | versch. | ~380 Rohtreffer gesamt | Übersichtsanalyse |
 
@@ -167,11 +167,11 @@ Michael Pulz erscheint als Vormund seiner Frau Dorothea geb. Bohm beim Erbkauf B
 
 ---
 
-## IV. Poberschau/Zöblitz — eigenständige Linie
+## IV. Pobershau/Zöblitz — eigenständige Linie
 
-Diese Personen gehören zur eigenständigen Poberschau/Zöblitz-Linie (abstammend von Christoph Pülz ∗1547 laut Seiffen-Chronik). **Kein MFT-Eintrag empfohlen** solange kein Verbindungsnachweis zur Hauptlinie.
+Diese Personen gehören zur eigenständigen Pobershau/Zöblitz-Linie (abstammend von Christoph Pülz ∗1547 laut Seiffen-Chronik). **Kein MFT-Eintrag empfohlen** solange kein Verbindungsnachweis zur Hauptlinie.
 
-Belegte Personen u. a.: Gottfried Pielz (General-Accis-Einnehmer, Gerichtsschöppe, 13+ Einträge 1719–1729), Christian Pilz jun. (Poberschau, 29.09.1738, Curator) — **Widerspruch:** bisher bekannte Ehefrau „Maria Elisabeth Schreiber aus Pockau"; GB AG Zöblitz Nr. 62 belegt jedoch „Barbara Elisabeth geb. Breunigin" — Klärung durch Primärquelle erforderlich., Samuel Pielz (Haus Poberschau/Ansprung ~1741), Jeremias Piltz, Johann Gottlob Pilz (Niederlauterstein 1774), Johann Adam Pilz (Zimmermann Zöblitz 1770).
+Belegte Personen u. a.: Gottfried Pielz (General-Accis-Einnehmer, Gerichtsschöppe, 13+ Einträge 1719–1729), Christian Pilz jun. (Pobershau, 29.09.1738, Curator) — **Widerspruch:** bisher bekannte Ehefrau „Maria Elisabeth Schreiber aus Pockau"; GB AG Zöblitz Nr. 62 belegt jedoch „Barbara Elisabeth geb. Breunigin" — Klärung durch Primärquelle erforderlich., Samuel Pielz (Haus Pobershau/Ansprung ~1741), Jeremias Piltz, Johann Gottlob Pilz (Niederlauterstein 1774), Johann Adam Pilz (Zimmermann Zöblitz 1770).
 
 ---
 

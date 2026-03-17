@@ -11,7 +11,7 @@ tags: [Neue Funde, Korrekturen, Hintergrund]
 
 Im Laufe der letzten Monate habe ich fünfzehn Gerichtshandelsbücher
 aus dem Erzgebirge nach Nennungen der Familie Pültz/Pilz durchsucht —
-Bände aus Dörnthal, Olbernhau, Zöblitz, Poberschau und
+Bände aus Dörnthal, Olbernhau, Zöblitz, Pobershau und
 Niederneuschönberg, entstanden zwischen 1550 und 1799. Ohne
 KI-Unterstützung wäre das in dieser Tiefe und in diesem Tempo nicht
 möglich gewesen: Transkribus übernahm die Transkription der
@@ -36,7 +36,7 @@ Namens.
 
 Neben dieser Korrektur brachten die Suchen eine Reihe weiterer
 Befunde: gesicherte Nennungen für Michael Pilz (1648), den
-Familien-Cluster in Poberschau (der einer eigenständigen Linie
+Familien-Cluster in Pobershau (der einer eigenständigen Linie
 angehört), und mehrere Negativbefunde, die für sich genommen
 informativ sind — etwa der Nachweis, dass Carl Gottlob Pilz nicht
 in den Zöblitzer Gerichtsbüchern auftaucht, weil sein zuständiges
