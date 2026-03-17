@@ -6,7 +6,7 @@
   'use strict';
 
   var ortsnamenData = [];
-  var searchInput, resultsBody, resultCount, noResults, initialHint;
+  var searchInput, resultsBody, resultCount, noResults, initialHint, resultsContainer, clearBtn;
 
   // Diakritika-Normalisierung für Fuzzy-Suche
   // "Zatec" findet "Žatec", "Usti" findet "Ústí" etc.
@@ -75,11 +75,15 @@
     if (!term || term.trim().length < 2) {
       resultCount.textContent = ortsnamenData.length;
       noResults.style.display = 'none';
-      initialHint.style.display = 'block';
+      if (initialHint) initialHint.style.display = 'block';
+      if (resultsContainer) resultsContainer.style.display = 'none';
+      if (clearBtn) clearBtn.style.display = 'none';
       return;
     }
 
-    initialHint.style.display = 'none';
+    if (initialHint) initialHint.style.display = 'none';
+    if (resultsContainer) resultsContainer.style.display = 'block';
+    if (clearBtn) clearBtn.style.display = 'block';
 
     // Suche + Scoring
     var matches = [];
@@ -180,6 +184,8 @@
     resultCount = document.getElementById('ortsnamen-count');
     noResults = document.getElementById('ortsnamen-no-results');
     initialHint = document.getElementById('ortsnamen-hint');
+    resultsContainer = document.getElementById('ortsnamen-ergebnisse');
+    clearBtn = document.getElementById('ortsnamen-clear');
 
     if (!searchInput || !resultsBody) {
       console.warn('Ortsnamen-Tool: DOM-Elemente nicht gefunden');
@@ -191,7 +197,7 @@
       resultCount.textContent = ortsnamenData.length;
     }
 
-    // Event Listener
+    // Event Listener: Suche
     var debounceTimer;
     searchInput.addEventListener('input', function() {
       clearTimeout(debounceTimer);
@@ -200,6 +206,33 @@
         renderResults(val);
       }, 150);
     });
+
+    // Klickbare Beispiel-Suchen
+    var beispiele = document.querySelectorAll('.ortsnamen-beispiel');
+    for (var i = 0; i < beispiele.length; i++) {
+      beispiele[i].addEventListener('click', function() {
+        var term = this.getAttribute('data-term');
+        searchInput.value = term;
+        searchInput.focus();
+        renderResults(term);
+      });
+    }
+
+    // Löschen-Button
+    if (clearBtn) {
+      clearBtn.addEventListener('click', function() {
+        searchInput.value = '';
+        searchInput.focus();
+        renderResults('');
+      });
+    }
+
+    // URL-Hash: Direkt zur Suche springen
+    if (window.location.hash === '#ortsnamen' && searchInput) {
+      setTimeout(function() {
+        searchInput.focus();
+      }, 500);
+    }
   }
 
   // Global verfügbar machen

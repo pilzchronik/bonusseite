@@ -198,6 +198,12 @@ title: Startseite
     <p>Haplogruppen, Verwandtschaftskreise und was die Genetik über die Familienherkunft sagt.</p>
   </a>
 
+  <a href="{{ '/orte/' | relative_url }}#ortsnamen" class="nav-card">
+    <span class="eyebrow">ORTSNAMEN</span>
+    <h3>Ortsnamenlexikon Böhmen</h3>
+    <p>5.700+ deutsche und tschechische Ortsnamen übersetzen – in beide Richtungen. Unverzichtbar für die böhmische Ahnenforschung.</p>
+  </a>
+
   <a href="{{ '/inhalt-index/' | relative_url }}" class="nav-card">
     <span class="eyebrow">NACHSCHLAGEN</span>
     <h3>Inhalt & Index</h3>

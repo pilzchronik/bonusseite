@@ -185,29 +185,36 @@ permalink: /orte/
 <div id="section-ortsnamen">
 
 <p style="color: #555; margin-bottom: 15px; line-height: 1.6;">
-  Zweisprachiges Nachschlagewerk für deutsche und tschechische Ortsnamen – 
-  zwei Sprachformen, die oft seit dem Mittelalter parallel existieren.
-  Die Suche funktioniert in <strong>beide Richtungen</strong> – gib die deutsche <em>oder</em> tschechische Namensform ein.
-  <span class="chronik-badge" style="font-size: 0.9em;">📖</span> markiert Orte, die in der Pilz-Chronik vorkommen.
+  Viele Orte der Pilz-Chronik trugen bis 1945 deutsche Namen, die heute nur noch auf alten Karten und in Kirchenbüchern auftauchen.
+  Dieses Lexikon übersetzt <strong>in beide Richtungen</strong> – gib den deutschen <em>oder</em> tschechischen Namen ein und finde das Gegenstück.
+  Orte mit <span style="display: inline-block; width: 10px; height: 10px; background: #e74c3c; border-radius: 2px; vertical-align: middle;"></span> roter Markierung kommen in der Pilz-Chronik vor.
 </p>
 
-<input type="text" id="ortsnamen-suche" placeholder="Ortsname eingeben (deutsch oder tschechisch) …" 
-  style="width: 100%; padding: 12px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
+<div class="ortsnamen-suche-wrapper">
+  <input type="text" id="ortsnamen-suche" placeholder="Deutschen oder tschechischen Ortsnamen eingeben …"
+    style="width: 100%; padding: 12px; padding-right: 40px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px; font-size: 16px;">
+  <button class="ortsnamen-clear-btn" id="ortsnamen-clear" title="Suche leeren">&times;</button>
+</div>
 
 <div style="font-size: 0.85em; color: #888; margin-bottom: 15px;">
   <span id="ortsnamen-count">0</span> Ortsnamen in der Datenbank · 
   <em>Quelle: <a href="https://de.wikipedia.org/wiki/Liste_deutscher_Namen_tschechischer_Orte" target="_blank" style="color:#2a5d8f;">Wikipedia</a></em>
 </div>
 
-<div id="ortsnamen-hint" style="text-align: center; padding: 25px 15px; color: #999; font-style: italic; background: #f8f9fa; border-radius: 4px; margin-bottom: 15px;">
-  Mindestens 2 Buchstaben eingeben, um die Suche zu starten.
+<div id="ortsnamen-hint" style="text-align: center; padding: 25px 15px; color: #666; background: #f8f9fa; border-radius: 4px; margin-bottom: 15px;">
+  <span style="font-size: 1.05em; display: block; margin-bottom: 10px;">Einfach lostippen – oder einen dieser Orte ausprobieren:</span>
+  <span class="ortsnamen-beispiel" data-term="Karlsbad" style="cursor: pointer; color: #2a5d8f; text-decoration: underline; margin: 0 8px; font-weight: 500;">Karlsbad</span>
+  <span class="ortsnamen-beispiel" data-term="Preßnitz" style="cursor: pointer; color: #2a5d8f; text-decoration: underline; margin: 0 8px; font-weight: 500;">Preßnitz</span>
+  <span class="ortsnamen-beispiel" data-term="Žatec" style="cursor: pointer; color: #2a5d8f; text-decoration: underline; margin: 0 8px; font-weight: 500;">Žatec</span>
+  <span class="ortsnamen-beispiel" data-term="Budweis" style="cursor: pointer; color: #2a5d8f; text-decoration: underline; margin: 0 8px; font-weight: 500;">Budweis</span>
+  <span class="ortsnamen-beispiel" data-term="Schmiedeberg" style="cursor: pointer; color: #2a5d8f; text-decoration: underline; margin: 0 8px; font-weight: 500;">Schmiedeberg</span>
 </div>
 
 <div id="ortsnamen-no-results" style="display: none; text-align: center; padding: 25px 15px; color: #999; font-style: italic; background: #f8f9fa; border-radius: 4px; margin-bottom: 15px;">
   Kein Ortsname gefunden. Versuch eine andere Schreibweise.
 </div>
 
-<div class="orte-liste-container" style="max-height: 400px; margin-bottom: 30px;">
+<div id="ortsnamen-ergebnisse" class="orte-liste-container" style="max-height: 400px; margin-bottom: 30px; display: none;">
   <table class="orte-tabelle" id="ortsnamen-tabelle">
     <thead>
       <tr>
@@ -291,6 +298,31 @@ permalink: /orte/
     outline: none;
     border-color: #2a5d8f;
     box-shadow: 0 0 0 2px rgba(42, 93, 143, 0.15);
+  }
+  .ortsnamen-beispiel:hover {
+    color: #1a4570;
+    text-decoration-thickness: 2px;
+  }
+  /* Suchfeld-Wrapper mit Löschen-Button */
+  .ortsnamen-suche-wrapper {
+    position: relative;
+  }
+  .ortsnamen-clear-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    color: #999;
+    cursor: pointer;
+    display: none;
+    padding: 4px 8px;
+    line-height: 1;
+  }
+  .ortsnamen-clear-btn:hover {
+    color: #333;
   }
 </style>
 
