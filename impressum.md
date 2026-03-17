@@ -37,17 +37,9 @@ permalink: /impressum/
 </div>
 
 <div class="legal-block">
-  <h2>Datenschutz (Kurzinfo)</h2>
+  <h2>Datenschutz</h2>
   <p>
-    Diese Website wird über <strong>GitHub Pages</strong> gehostet. Dabei können durch GitHub technische Zugriffsdaten verarbeitet werden (z.&nbsp;B. IP-Adresse, Zeitpunkt, aufgerufene Seite), insbesondere zur Sicherheit und zum Betrieb des Dienstes.
-  </p>
-  <p>
-    Zusätzlich werden externe Dienste eingebunden (z.&nbsp;B. <strong>Chatling</strong> als Chat-Widget und <strong>OpenStreetMap</strong> für Karten). Dabei werden zur technischen Auslieferung ebenfalls Verbindungsdaten an die jeweiligen Anbieter übertragen.
-  </p>
-  <p>
-    Diese Website setzt durch den Betreiber <strong>keine Cookies</strong>, kein Besuchs-Tracking und kein Analytics ein.
-  </p>
-  <p>
-    Details (inkl. Drittland-Übermittlungen und Links zu den jeweiligen Anbieter-Erklärungen) findest du in der <a href="{{ '/datenschutz/' | relative_url }}">Datenschutzerklärung</a>.
+    Diese Website erhebt keine Nutzerdaten und betreibt kein Tracking.
+    Alle Details findest du auf der <a href="{{ '/datenschutz/' | relative_url }}">Datenschutzseite</a>.
   </p>
 </div>

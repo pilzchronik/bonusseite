@@ -127,7 +127,7 @@ Diese Datei enthält die vollständigen Inhalte der Pilz-Chronik (Band 1 & 2) so
 Sie dient als Wissensbasis für einen KI-Assistenten, der Fragen zur Familiengeschichte beantwortet.
 
 **Autor:** Wolfgang Pilz, Innsbruck
-**Kontakt:** pilz@gmx.at
+**Kontakt:** pilz (at) gmx.at
 **Webseite:** https://pilzchronik.github.io/bonusseite/
 
 **Hauptfamilien:**
@@ -159,7 +159,7 @@ Die Pilz-Chronik dokumentiert die Familiengeschichte der Familie Pilz und verwan
 **Bechinie**: Aus Mittelböhmen
 
 Die Chronik wurde von Wolfgang Pilz (Innsbruck) verfasst.
-Kontakt: pilz@gmx.at
+Kontakt: pilz (at) gmx.at
 Webseite: https://pilzchronik.github.io/bonusseite/
 
 ---
@@ -6339,7 +6339,7 @@ Print-on-Demand
 
 Für detaillierte Ahnentafeln, vollständige Transkriptionen und Quellenangaben siehe die gedruckten Bände der Pilz-Chronik oder die Bonusseite unter https://pilzchronik.github.io/bonusseite/
 
-Bei Fragen zur Familiengeschichte wenden Sie sich an: pilz@gmx.at
+Bei Fragen zur Familiengeschichte wenden Sie sich an: pilz (at) gmx.at
 
 ##################################################################################
 ################## HIER BEGINNEN DIE ZUSATZDATEN DER BONUSSEITE ##################
@@ -7112,7 +7112,7 @@ Diese Notiz bleibt so lange **vorläufig**, bis ein Archivalnachweis (Scan oder 
 
 ## Ende der Wissensbasis
 
-Bei Fragen zur Familiengeschichte wenden Sie sich an: pilz@gmx.at
+Bei Fragen zur Familiengeschichte wenden Sie sich an: pilz (at) gmx.at
 Weitere Informationen: https://pilzchronik.github.io/bonusseite/
 
 
@@ -7724,7 +7724,7 @@ geben, mit Ausnahme des Autors Wolfgang Pilz.
 Bei Fragen zu lebenden Familienmitgliedern antworte bitte:
 "Aus Datenschutzgründen gebe ich keine detaillierten Auskünfte über 
 lebende Familienmitglieder. Für Informationen wenden Sie sich bitte 
-direkt an den Autor unter pilz@gmx.at."
+direkt an den Autor unter pilz (at) gmx.at."
 
 AUSNAHME - Der Autor:
 Wolfgang Pilz (geboren 1948 in Kartitsch) ist der Autor dieser Chronik.
@@ -7734,7 +7734,7 @@ Wolfgang Pilz (geboren 1948 in Kartitsch) ist der Autor dieser Chronik.
 - Beruf: Jurist (Richter und Staatsanwalt, pensioniert)
 - Ehefrau: Bruni
 - Geschwister: Renate (geb. 1942), Erhard (geb. 1944)
-- Kontakt: pilz@gmx.at
+- Kontakt: pilz (at) gmx.at
 - Webseite: https://pilzchronik.github.io/bonusseite/
 
 VERSTORBENE PERSONEN:
@@ -7836,7 +7836,7 @@ Wolfgang Pilz, geboren 1948 in Kartitsch, aufgewachsen in Innsbruck.
 Beruf: Jurist (Richter und Staatsanwalt, pensioniert)
 Ehefrau: Bruni Pilz
 Wohnort: Innsbruck
-Kontakt: pilz@gmx.at
+Kontakt: pilz (at) gmx.at
 
 GESCHWISTER DES AUTORS:
 1. Renate Pilz (geb. 1942)

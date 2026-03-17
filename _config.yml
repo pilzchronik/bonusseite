@@ -16,8 +16,18 @@ plugins:
 
 collections:
   intern:
-    output: true
-    permalink: /intern/:name/
+    output: false
+    # output war "true" → alle _intern-Dateien waren öffentlich erreichbar!
+    # Auf "false" gesetzt am 2026-03-17 (Sicherheitskorrektur).
+
+# Vom Build ausschließen (nicht als HTML generieren):
+exclude:
+  - _intern
+  - suchdaten
+  - MAINTENANCE.md
+  - AENDERUNGEN-2026-02-11.md
+  - ANLEITUNG_werkstatt.md
+  - Blumenau_Geschichte.md
 
 # Navigation
 # WICHTIG: header_pages muss ganz links stehen (keine Leerzeichen davor!)
