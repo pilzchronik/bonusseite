@@ -8,11 +8,11 @@ permalink: /werkstatt/
 
 <style>
   .post-header { display: none !important; }
-  
-  .page-content { 
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
-    color: #333; 
-    line-height: 1.5; 
+
+  .page-content {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
   }
 
   .intro-text {
@@ -22,55 +22,23 @@ permalink: /werkstatt/
     font-size: 0.95em;
   }
 
-  /* Filter-Leiste */
-  .filter-bar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
+  /* Suchleiste */
+  .search-bar {
     margin-bottom: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid #e8e8e8;
   }
 
-  .filter-label {
-    font-size: 0.85em;
-    color: #999;
-    margin-right: 4px;
-  }
-
-  .tag-btn {
-    padding: 5px 14px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    background: white;
-    color: #666;
-    font-size: 0.85em;
-    cursor: pointer;
-    transition: all 0.15s;
-  }
-
-  .tag-btn:hover {
-    border-color: #999;
-    color: #333;
-  }
-
-  .tag-btn.active {
-    background: #333;
-    color: white;
-    border-color: #333;
-  }
-
-  /* Suchfeld */
   .search-box {
-    padding: 6px 12px;
-    font-size: 0.85em;
+    padding: 8px 14px;
+    font-size: 0.9em;
     border: 1px solid #ddd;
     border-radius: 3px;
-    width: 200px;
-    margin-left: auto;
+    width: 100%;
+    max-width: 360px;
+    box-sizing: border-box;
   }
-  
+
   .search-box:focus {
     outline: none;
     border-color: #999;
@@ -127,23 +95,26 @@ permalink: /werkstatt/
   }
 
   /* Post-Einträge */
-  .post-row {
-    display: flex;
-    align-items: baseline;
-    padding: 8px 0;
+  .post-entry {
+    padding: 10px 0;
     border-bottom: 1px solid #f0f0f0;
     transition: background-color 0.1s;
   }
 
-  .post-row:last-child {
+  .post-entry:last-child {
     border-bottom: none;
   }
 
-  .post-row:hover {
+  .post-entry:hover {
     background-color: #fafafa;
     margin: 0 -8px;
-    padding: 8px 8px;
+    padding: 10px 8px;
     border-radius: 3px;
+  }
+
+  .post-title-row {
+    display: flex;
+    align-items: baseline;
   }
 
   .post-date {
@@ -165,14 +136,15 @@ permalink: /werkstatt/
     text-decoration: underline;
   }
 
-  .post-tag {
-    font-size: 0.7em;
-    color: #aaa;
-    margin-left: 10px;
-    flex-shrink: 0;
+  .post-excerpt {
+    margin-left: 80px;
+    font-size: 0.82em;
+    color: #999;
+    margin-top: 2px;
+    line-height: 1.4;
   }
 
-  .post-row.hidden {
+  .post-entry.hidden {
     display: none;
   }
 
@@ -190,43 +162,35 @@ permalink: /werkstatt/
     margin-top: 20px;
   }
 
-  /* Monatsheader ausblenden wenn alle Posts darin hidden */
   .month-group.hidden {
     display: none;
   }
 
   @media (max-width: 600px) {
-    .filter-bar { flex-direction: column; align-items: stretch; }
-    .search-box { width: 100%; margin-left: 0; margin-top: 8px; }
+    .search-box { width: 100%; }
     .post-date { width: 60px; font-size: 0.8em; }
+    .post-excerpt { margin-left: 60px; }
   }
 </style>
 
 <div class="intro-text">
-  <strong>Forschungs-Logbuch:</strong> Alle Posts seit Drucklegung — Neue Funde, Ergänzungen, Korrekturen und laufende Arbeitsnotizen.
-  Über die Filter- und Suchfunktion lässt sich gezielt nach Themen suchen.<br>
-  <span style="font-size:0.9em;">Nur Korrekturen und Neue Funde für Buchbesitzer? → <a href="{{ '/updates/' | relative_url }}">Zur kompakten Übersicht</a></span>
+  Neue Funde, Korrekturen und Ergänzungen zur Pilz-Chronik — alles seit Drucklegung.<br>
+  <span style="font-size:0.9em;">Kompakte Übersicht für Buchbesitzer → <a href="{{ '/updates/' | relative_url }}">Chronik-Updates</a></span>
 </div>
 
 <!-- Angepinnter Errata-Post -->
 {% for post in site.posts %}
   {% if post.pinned %}
-  <div class="pinned-post" data-tag="Korrekturen" data-searchable="{{ post.title | downcase }}">
+  <div class="pinned-post" data-searchable="{{ post.title | downcase }}">
     <span class="pin-label">Angepinnt</span>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
   </div>
   {% endif %}
 {% endfor %}
 
-<!-- Filter + Suche -->
-<div class="filter-bar">
-  <span class="filter-label">Filtern:</span>
-  <button class="tag-btn active" data-tag="alle">Alle</button>
-  <button class="tag-btn" data-tag="Neue Funde">Neue Funde</button>
-  <button class="tag-btn" data-tag="Ergänzungen">Ergänzungen</button>
-  <button class="tag-btn" data-tag="Hintergrund">Hintergrund</button>
-  <button class="tag-btn" data-tag="Logbuch">Logbuch</button>
-  <input type="text" id="searchBox" class="search-box" placeholder="Suchen …" autocomplete="off">
+<!-- Suche -->
+<div class="search-bar">
+  <input type="text" id="searchBox" class="search-box" placeholder="Beitrag suchen …" autocomplete="off">
 </div>
 
 <!-- Beitragsliste gruppiert nach Monat -->
@@ -242,11 +206,14 @@ permalink: /werkstatt/
 <div class="month-group" data-month="{{ post_month }}">
   <div class="month-header">{% include datum.html date=post.date format="monat" %}</div>
   {% endif %}
-  {% assign post_tag = post.tags | first | default: "" %}
-  <div class="post-row" data-tag="{{ post_tag }}" data-searchable="{{ post.title | downcase }}">
-    <span class="post-date">{{ post.date | date: "%d.%m." }}</span>
-    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    {% if post_tag != "" %}<span class="post-tag">{{ post_tag }}</span>{% endif %}
+  <div class="post-entry" data-searchable="{{ post.title | downcase }} {{ post.excerpt | strip_html | strip_newlines | downcase }}">
+    <div class="post-title-row">
+      <span class="post-date">{{ post.date | date: "%d.%m." }}</span>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </div>
+    {% if post.excerpt and post.excerpt != "" %}
+    <div class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</div>
+    {% endif %}
   </div>
   {% endunless %}
 {% endfor %}
@@ -260,22 +227,11 @@ permalink: /werkstatt/
 
 <script>
   var searchBox = document.getElementById('searchBox');
-  var rows = document.querySelectorAll('.post-row');
+  var entries = document.querySelectorAll('.post-entry');
   var pinnedPost = document.querySelector('.pinned-post');
   var monthGroups = document.querySelectorAll('.month-group');
   var noResults = document.getElementById('noResults');
   var resultInfo = document.getElementById('resultInfo');
-  var activeTag = 'alle';
-
-  // Tag-Filter
-  document.querySelector('.filter-bar').addEventListener('click', function(e) {
-    if (!e.target.classList.contains('tag-btn')) return;
-    var buttons = document.querySelectorAll('.tag-btn');
-    for (var i = 0; i < buttons.length; i++) buttons[i].classList.remove('active');
-    e.target.classList.add('active');
-    activeTag = e.target.getAttribute('data-tag');
-    filterPosts();
-  });
 
   searchBox.addEventListener('input', filterPosts);
 
@@ -286,38 +242,32 @@ permalink: /werkstatt/
     // Pinned post
     if (pinnedPost) {
       var pinnedSearchable = pinnedPost.getAttribute('data-searchable');
-      var pinnedTag = pinnedPost.getAttribute('data-tag');
-      var showPinned = (activeTag === 'alle' || pinnedTag === activeTag) &&
-                       (term === '' || pinnedSearchable.indexOf(term) > -1);
+      var showPinned = (term === '' || pinnedSearchable.indexOf(term) > -1);
       pinnedPost.style.display = showPinned ? '' : 'none';
     }
 
     // Regular posts
-    for (var i = 0; i < rows.length; i++) {
-      var row = rows[i];
-      var tag = row.getAttribute('data-tag');
-      var text = row.getAttribute('data-searchable');
-      var matchTag = (activeTag === 'alle' || tag === activeTag);
-      var matchSearch = (term === '' || text.indexOf(term) > -1);
-
-      if (matchTag && matchSearch) {
-        row.classList.remove('hidden');
+    for (var i = 0; i < entries.length; i++) {
+      var entry = entries[i];
+      var text = entry.getAttribute('data-searchable');
+      if (term === '' || text.indexOf(term) > -1) {
+        entry.classList.remove('hidden');
         visible++;
       } else {
-        row.classList.add('hidden');
+        entry.classList.add('hidden');
       }
     }
 
     // Leere Monatsgruppen ausblenden
     for (var j = 0; j < monthGroups.length; j++) {
       var group = monthGroups[j];
-      var visibleRows = group.querySelectorAll('.post-row:not(.hidden)');
-      group.classList.toggle('hidden', visibleRows.length === 0);
+      var visibleEntries = group.querySelectorAll('.post-entry:not(.hidden)');
+      group.classList.toggle('hidden', visibleEntries.length === 0);
     }
 
     noResults.style.display = visible === 0 ? 'block' : 'none';
-    resultInfo.textContent = (term !== '' || activeTag !== 'alle') 
-      ? visible + ' von ' + rows.length + ' Beiträgen' 
+    resultInfo.textContent = term !== ''
+      ? visible + ' von ' + entries.length + ' Beiträgen'
       : '';
   }
 </script>
