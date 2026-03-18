@@ -187,7 +187,7 @@ permalink: /zeitleiste/
   <div class="container">
     <span class="year">† vor April 1558</span>
     <h3>Michel Pültz I., Schöppe in Dörnthal</h3>
-    <p>Tatsächlicher Stammvater und frühester belegter Pültz in Dörnthal. Seine umfangreiche Nachlassregelung im April 1558 (Gerichtsbuch Dörnthal Bd. 01) ist der gesicherte Beginn der Familiengeschichte im Erzgebirge und belegt die Familie bereits als Teil der elitären Gerichtsschöppen.</p>
+    <p>Tatsächlicher Stammvater und frühester belegter Pültz in Dörnthal. Seine umfangreiche Nachlassregelung im April 1558 (<a href="https://www.archiv.sachsen.de/archiv/bestand.jsp?guid=83fd4fae-b046-43d6-b074-58f0f3b1e1c8&_ptabs=%7B%22%23tab-digitalisat%22%3A1%7D#digitalisat" target="_blank" rel="noopener">Gerichtsbuch Dörnthal Bd. 01, Folio 14v–18r</a> · Bilder 0016–0019 im Viewer) ist der gesicherte Beginn der Familiengeschichte im Erzgebirge und belegt die Familie als Teil der dörflichen Gerichtsschöppen.</p>
     <span class="meta-tag">Stammvater</span>
   </div>
 
