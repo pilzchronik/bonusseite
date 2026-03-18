@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Joachimsthal", lat: 50.3583, lon: 12.9344, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Ausbildung von Alois Johann Pilz.", ref: "Bd. 1"},
         {name: "Komotau", lat: 50.4605, lon: 13.4178, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Chomutov. Bezirkshauptstadt.", ref: "Bd. 1"},
         {name: "Saaz", lat: 50.3269, lon: 13.5456, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Hopfenstadt Žatec.", ref: "Bd. 1"},
-        {name: "Eger (Cheb)", lat: 50.07795, lon: 12.36658, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Mägdebrunnen von Oswald Hofmann, Franziskanerklosterhof. Höhe: 458,77 m.", ref: "Bd. 1"},
+        {name: "Eger (Cheb) – Mägdebrunnen", lat: 50.07795, lon: 12.36658, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Exakter Standort des Mägdebrunnens (Statue von Oswald Hofmann) im Franziskanerklosterhof.", ref: "Bd. 1"},
         {name: "Teplitz-Schönau", lat: 50.6403, lon: 13.8244, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bedeutendes Kurbad.", ref: "Bd. 1"},
 
         // --- Mittelböhmen (Bechinie-Gebiet) ---

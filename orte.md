@@ -348,6 +348,13 @@ permalink: /orte/
   <a href="#top">▲ nach oben</a>
 </div>
 
+<!-- Statische Ortsdaten für Pagefind-Indexierung (visuell verborgen, aber im HTML vorhanden) -->
+<div class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;">
+{% for ort in site.data.orte %}
+<p>{{ ort.name }} – {{ ort.region }} – {{ ort.kategorie }}: {{ ort.beschreibung }}{% if ort.ref != "" %} ({{ ort.ref }}){% endif %}</p>
+{% endfor %}
+</div>
+
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="{{ '/assets/js/karte-neu.js' | relative_url }}"></script>
 
