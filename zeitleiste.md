@@ -263,7 +263,7 @@ permalink: /zeitleiste/
 
   <div class="container">
     <span class="year">1764–1777</span>
-    <h3>Dreifachkrise an der Saigerhütte Grünthal – Auslöser der Auswanderung?</h3>
+    <h3>Dreifachkrise an der Saigerhütte Grünthal – Auslöser der Auswanderung von Sachsen nach Böhmen?</h3>
     <p>Als Spätfolge des Siebenjährigen Krieges brach der Kupferabsatz ein; 1777 erwog das Oberbergamt die Stilllegung des Werks. Im Juni 1771 zerstörte ein Jahrhunderthochwasser der Flöha die Hammerwerke. Gleichzeitig löste eine Klimakatastrophe 1770–1772 eine verheerende Hungersnot im Erzgebirge aus – der Getreidepreis verzehnfachte sich. Das Zusammenwirken von Wirtschaftskrise, Naturkatastrophe und Hungersnot gilt als wahrscheinlicher Grund für die Auswanderung des Kupferhammerschmieds Carl Gottlob Biltz/Pilz (* 1738) von Grünthal nach Kallich in Böhmen.</p>
     <span class="meta-tag">Migration – Schlüsselereignis</span>
   </div>
