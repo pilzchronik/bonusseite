@@ -242,9 +242,9 @@ permalink: /zeitleiste/
 
   <div class="container">
     <span class="year">1756–1763</span>
-    <h3>Siebenjähriger Krieg / Migration</h3>
-    <p>Wahrscheinlicher Auslöser der Migration der Familie Pilz von Sachsen ins böhmische Erzgebirge.</p>
-    <span class="meta-tag">Migration</span>
+    <h3>Siebenjähriger Krieg</h3>
+    <p>Der Krieg verwüstet Sachsen und erschüttert die Wirtschaft des Erzgebirges nachhaltig. Seine Spätfolgen treffen in den Jahren danach besonders die Saigerhütte Grünthal.</p>
+    <span class="meta-tag">Zeitgeschichte</span>
   </div>
 
   <div class="container">
@@ -259,6 +259,13 @@ permalink: /zeitleiste/
     <h3>Die Radetzky-Verbindung</h3>
     <p>Taufe der Theresia (Apollonia Jablotzki). Ihr Taufpate ist Graf Peter Eusebius Radetzky – Beginn der sogenannten „Radetzky-Klammer“.</p>
     <span class="meta-tag">Adelsforschung</span>
+  </div>
+
+  <div class="container">
+    <span class="year">1764–1777</span>
+    <h3>Dreifachkrise an der Saigerhütte Grünthal – Auslöser der Auswanderung?</h3>
+    <p>Als Spätfolge des Siebenjährigen Krieges brach der Kupferabsatz ein; 1777 erwog das Oberbergamt die Stilllegung des Werks. Im Juni 1771 zerstörte ein Jahrhunderthochwasser der Flöha die Hammerwerke. Gleichzeitig löste eine Klimakatastrophe 1770–1772 eine verheerende Hungersnot im Erzgebirge aus – der Getreidepreis verzehnfachte sich. Das Zusammenwirken von Wirtschaftskrise, Naturkatastrophe und Hungersnot gilt als wahrscheinlicher Grund für die Auswanderung des Kupferhammerschmieds Carl Gottlob Biltz/Pilz (* 1738) von Grünthal nach Kallich in Böhmen.</p>
+    <span class="meta-tag">Migration – Schlüsselereignis</span>
   </div>
 
   <div class="container">
