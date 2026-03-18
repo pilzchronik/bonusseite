@@ -45,18 +45,18 @@ document.addEventListener('DOMContentLoaded', function() {
     var orte = [
         // === PILZ-LINIE ===
         // --- Sachsen ---
-        {name: "Dörnthal", lat: 50.7339, lon: 13.3486, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Ältester Ursprung (Pültz/Pilz), Richteramt.", ref: "Bd. 1, S. 29"},
-        {name: "Olbernhau", lat: 50.6661, lon: 13.3381, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Handwerkszentrum, Exulantensiedlung.", ref: "Bd. 1, S. 28"},
-        {name: "Blumenau", lat: 50.67018, lon: 13.29584, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Waldhufendorf bei Olbernhau; Flößerei und Holzkohle für Freiberger Erzgruben.", ref: "Bd. 1, S. 28"},
-        {name: "Niederneuschönberg", lat: 50.66699, lon: 13.33097, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "1655 gegründete Exulantensiedlung; evtl. Michel Piltz unter den ersten Siedlern.", ref: "Bd. 1, S. 28"},
-        {name: "Grünthal", lat: 50.65019, lon: 13.36731, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Saigerhütte, UNESCO-Welterbe Montanregion Erzgebirge. Heirat Joh. Georg Pilz, um 1733.", ref: "Bd. 1, S. 29"},
-        {name: "Rothenthal", lat: 50.6342, lon: 13.3733, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Geburt Friedrich August Pilz 1761 (Kekulé 64).", ref: "Bd. 1, S. 29"},
+        {name: "Dörnthal", lat: 50.7339, lon: 13.3486, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Waldhufendorf aus dem 12. Jahrhundert, entstanden im Zuge der Freiberger Silberfunde. Stammort der ältesten bekannten Pilz-Vorfahren; hier lebte und wirkte Joseph Pültz, der gesicherte Stammvater.", ref: "Bd. 1, S. 29"},
+        {name: "Olbernhau", lat: 50.6661, lon: 13.3381, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Die Stadt der sieben Täler, erstmals 1434 urkundlich erwähnt. Abraham Pilz (∗1591) heiratete hier; sein Sohn Michael wurde hier geboren.", ref: "Bd. 1, S. 28"},
+        {name: "Blumenau", lat: 50.67018, lon: 13.29584, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Waldhufendorf nordwestlich von Olbernhau, Zentrum der Holzflößerei aus Böhmen. Maria Hengst, Ehefrau Abrahams, stammte von hier.", ref: "Bd. 1, S. 28"},
+        {name: "Niederneuschönberg", lat: 50.66699, lon: 13.33097, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "1655 auf gerodeten Exulantenböden gegründet. Die Pilz-Hauptlinie lebte hier von Michael (∗1617) bis Carl Gottlob (∗1738) – vier Generationen.", ref: "Bd. 1, S. 28"},
+        {name: "Grünthal", lat: 50.65019, lon: 13.36731, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Sitz der historischen Saigerhütte, heute UNESCO-Welterbe der Montanregion Erzgebirge. Carl Gottlob Pilz (∗1738) arbeitete hier als Kupferhammerschmied – eine Dreifachkrise aus Wirtschaftseinbruch, Hochwasser und Hungersnot (1770–1772) gilt als wahrscheinlicher Auslöser seiner Auswanderung nach Kallich. <a href='https://pilzchronik.github.io/bonusseite/zeitleiste/' target='_blank'>→ Zeitleiste</a>", ref: "Bd. 1, S. 29"},
+        {name: "Rothenthal", lat: 50.6342, lon: 13.3733, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "1626 von böhmischen Exulanten gegründet, geprägt durch Hüttenwesen. Geburtsort von Friedrich August Pilz (∗1761), dem letzten sächsischen Vorfahren vor der Auswanderung.", ref: "Bd. 1, S. 29"},
         {name: "Pockau", lat: 50.704444, lon: 13.225556, kategorie: "Pilz-Linie", region: "Sachsen", beschreibung: "Geburtsort Maria Elisabeth Schreiber (Kekulé 257), um 1712.", ref: "Bd. 2, S. 51"},
 
         // --- Böhmen / Erzgebirge ---
-        {name: "Kallich (Kalek)", lat: 50.5775, lon: 13.3219, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Erster Ankunftsort in Böhmen; Hungersnot 1772.", ref: "Bd. 1, S. 32"},
-        {name: "Schmiedeberg", lat: 50.4381, lon: 13.0536, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Familie Hofmann; Bergbau & Industrie.", ref: "Bd. 1, S. 33"},
-        {name: "Weipert", lat: 50.4922, lon: 13.0319, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bergstadt; Geburt des Großvaters Alois Johann Pilz (1876).", ref: "Bd. 1, S. 34"},
+        {name: "Kallich (Kalek)", lat: 50.5775, lon: 13.3219, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bergdorf auf 700 m im Kreis Komotau, im 16. Jahrhundert von Bergleuten besiedelt, im Dreißigjährigen Krieg stark zerstört. Carl Gottlob Pilz wanderte hierher aus – erster Pilz auf böhmischem Boden nach Jahrzehnten in Sachsen.", ref: "Bd. 1, S. 32"},
+        {name: "Schmiedeberg", lat: 50.4381, lon: 13.0536, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Vom Eisenerzbergbau und der Holzkohlegewinnung geprägt. Heimat der Familie Hofmann; 1872 brachte die Bahnlinie Komotau–Weipert wirtschaftlichen Aufschwung.", ref: "Bd. 1, S. 33"},
+        {name: "Weipert", lat: 50.4922, lon: 13.0319, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Böhmische Grenzstadt im Erzgebirge. Geburtsort von Alois Johann Pilz (∗1876), dem Großvater; die Familie lebte hier nach der Auswanderung aus Sachsen.", ref: "Bd. 1, S. 34"},
         {name: "B. Wiesenthal", lat: 50.4394, lon: 13.0156, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Heirat Vinzenz Pilz & Franziska Gahler; beider Begräbnisort.", ref: "Bd. 1, S. 36"},
         {name: "Gottesgab", lat: 50.4097, lon: 12.9244, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Höchstgelegene Stadt Mitteleuropas. Familien Glaser und Gahler.", ref: "Bd. 1, S. 36"},
         {name: "Stolzenhain", lat: 50.4128, lon: 12.9789, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Hauptort der Förster-Generationen. Tod Vinzenz Pilz 1883 (Kekulé 8).", ref: "Bd. 1, S. 36"},
@@ -66,8 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Sebastiansberg", lat: 50.5100, lon: 13.2511, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Bergstadt. Tod Franziska Pilz 1921 (Kekulé 9).", ref: "Bd. 1, S. 35"},
         {name: "Platten", lat: 50.511667, lon: 13.358056, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Blatno. Vinzenz Wenzel Pilz (Kekulé 16) war hier Revierjäger.", ref: "Bd. 2, S. 18"},
         {name: "Eidlitz", lat: 50.440556, lon: 13.457222, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Údlice bei Chomutov. V.W. Pilz (Kekulé 16), Förster, gest. 29.3.1863.", ref: "Bd. 2, S. 18"},
-        {name: "Schloss Rothenhaus", lat: 50.5123, lon: 13.4519, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Dienstsitz der herrschaftlichen Förster (Grafen Buquoy).", ref: "Bd. 1, S. 32"},
-        {name: "Libeschitz", lat: 50.2939, lon: 13.6233, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Wirkungsstätte Lehrer Friedrich August Pilz (Kekulé 64), gest. 1812.", ref: "Bd. 1, S. 39"},
+        {name: "Schloss Rothenhaus", lat: 50.5123, lon: 13.4519, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Im 14. Jahrhundert erbaut, ab 1893 im Besitz der Grafen Buquoy. Die Vorfahren dienten hier über Generationen als herrschaftliche Förster.", ref: "Bd. 1, S. 32"},
+        {name: "Libeschitz", lat: 50.2939, lon: 13.6233, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Alter Wallfahrtsort in der weltberühmten Hopfenregion Saaz. Friedrich August Pilz (Kekulé 64) wirkte hier als Lehrer bis zu seinem Tod am 29. Dezember 1812.", ref: "Bd. 1, S. 39"},
         {name: "Joachimsthal", lat: 50.3583, lon: 12.9344, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Ausbildung von Alois Johann Pilz.", ref: "Bd. 1"},
         {name: "Komotau", lat: 50.4605, lon: 13.4178, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Chomutov. Bezirkshauptstadt.", ref: "Bd. 1"},
         {name: "Saaz", lat: 50.3269, lon: 13.5456, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Hopfenstadt Žatec.", ref: "Bd. 1"},
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // --- Mittelböhmen (Bechinie-Gebiet) ---
         {name: "Rakonitz", lat: 50.1031, lon: 13.7335, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Rakovník. Bezirksstadt der Bechinie-Herkunftsorte.", ref: "Bd. 1, S. 24"},
-        {name: "Hlawatschow", lat: 49.9120, lon: 14.7660, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Geburt Vinzenz Pilz 1830 (Kekulé 8). Gehört zu Ondrejow.", ref: "Bd. 1, S. 38"},
+        {name: "Hlawatschow", lat: 49.9120, lon: 14.7660, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Mittelböhmisches Hügelland, 25 km südöstlich von Prag. Geburtsort von Vinzenz Pilz (∗1830); Ondrejow erhielt 1745 Marktrecht und beherbergt seit 1898 eine Sternwarte.", ref: "Bd. 1, S. 38"},
         {name: "Ondrejow", lat: 49.9061, lon: 14.7806, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Ondřejov. 25 km südöstlich von Prag; Sternwarte seit 1898.", ref: "Bd. 1, S. 38"},
         {name: "Samechov", lat: 49.88033, lon: 14.84819, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Dorf bei Chocerady. Geburtsort Marie Bechinie, 1813.", ref: "Bd. 2, S. 21"},
         {name: "Silberskalitz", lat: 49.897778, lon: 14.846111, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Stříbrná Skalice. Tod Josef Bechinie (Kekulé 34), 1865.", ref: "Bd. 2, S. 22"},
@@ -85,12 +85,12 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Radmierschitz", lat: 49.64580, lon: 14.75772, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Ratměřice. Geburtsort Josef Bechinie (Kekulé 34), 1776.", ref: "Bd. 2, S. 22"},
         {name: "Chlum", lat: 49.701667, lon: 14.378333, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Heirat Philipp Bechinie (Kekulé 68), 22.10.1769.", ref: "Bd. 2, S. 22"},
         {name: "Bielschitz", lat: 49.843333, lon: 14.808333, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Bělčice. Philipp Bechinie arbeitete hier als 83-jähriger Jäger.", ref: "Bd. 2, S. 22"},
-        {name: "Amschelberg", lat: 49.6558, lon: 14.4744, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Kosova Hora. Taufe Theresia/Apollonia; jüdische Gemeinde.", ref: "Bd. 1, S. 39"},
+        {name: "Amschelberg", lat: 49.6558, lon: 14.4744, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Eine der ältesten Siedlungen Böhmens, 60 km südlich von Prag. Hier lebte Theresia, die jüdische Vorfahrin der Bechinie-Linie; sie wurde 1768 getauft – mit den Eltern des späteren Feldmarschalls Radetzky als Taufpaten.", ref: "Bd. 1, S. 39"},
         {name: "Bechyně", lat: 49.2972, lon: 14.4708, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Bezirk Tabor. Namensgeber der Familie Bechinie?", ref: "Bd. 1"},
         {name: "Prag", lat: 50.0875, lon: 14.4214, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Böhmische Landeshauptstadt.", ref: "Bd. 1"},
 
         // --- Österreich (Pilz) ---
-        {name: "Helfenberg", lat: 48.5442, lon: 14.1419, kategorie: "Pilz-Linie", region: "OÖ", beschreibung: "Waldhäuser: Wirkungsort Alois J. Pilz; Geburt des Vaters.", ref: "Bd. 1, S. 40"},
+        {name: "Helfenberg", lat: 48.5442, lon: 14.1419, kategorie: "Pilz-Linie", region: "OÖ", beschreibung: "Oberösterreichisches Mühlviertel, 567 m Seehöhe. Großvater Alois Johann Pilz lebte hier als Oberförster im Dienst der Familie Revertera; die barocke Pfarrkirche stammt von 1712.", ref: "Bd. 1, S. 40"},
         {name: "Salzburg-Aigen", lat: 47.7833, lon: 13.0831, kategorie: "Pilz-Linie", region: "Salzburg", beschreibung: "Schloss Aigen; Ruhestandsort der Großeltern ab 1936.", ref: "Bd. 1, S. 41"},
         {name: "Kainisch", lat: 47.6167, lon: 13.8333, kategorie: "Pilz-Linie", region: "Steiermark", beschreibung: "Pichl-Kainisch. Erhard Pilz war hier Oberförster.", ref: "Bd. 1, S. 42"},
         {name: "Bad Ischl", lat: 47.7117, lon: 13.6194, kategorie: "Pilz-Linie", region: "OÖ", beschreibung: "Kurstadt im Salzkammergut. Wohnort Erhard Pilz in der Pension.", ref: "Bd. 1, S. 42"},
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // === EBERSTALLER-LINIE ===
         {name: "Wallern/Trattnach", lat: 48.2336, lon: 13.9450, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Ehemals Krenglbach; 300 Jahre Stammsitz der Familie.", ref: "Bd. 1, S. 43"},
         {name: "Reichhof am Hungersberg", lat: 48.21369194799892, lon: 13.935277169816231, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Hungerberg 3, Wallern/Trattnach (früher Krenglbach). Stammsitz der Familie Eberstaller über 300 Jahre.", ref: "Bd. 1, S. 43", hof: true},
-        {name: "Krenglbach", lat: 48.1930, lon: 13.9450, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Ursprüngliche Herkunft der Familie Eberstaller.", ref: "Bd. 1, S. 43"},
+        {name: "Krenglbach", lat: 48.1930, lon: 13.9450, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Hausruckviertel, Oberösterreich. Stammsitz der Familie Eberstaller; der Reichhof gehört heute zur Gemeinde Wallern an der Trattnach.", ref: "Bd. 1, S. 43"},
         {name: "Radstadt", lat: 47.3833, lon: 13.4500, kategorie: "Eberstaller-Linie", region: "Salzburg", beschreibung: "Matthias Eberstaller (Kekulé 24) siedelte hier, Bäckerei.", ref: "Bd. 1, S. 43"},
         {name: "Rott bei Salzburg", lat: 47.8333, lon: 12.9833, kategorie: "Eberstaller-Linie", region: "Salzburg", beschreibung: "Geburt Großvater Johann Eberstaller, 21.8.1893.", ref: "Bd. 1, S. 43"},
         {name: "Bad Aussee", lat: 47.6097, lon: 13.7822, kategorie: "Eberstaller-Linie", region: "Steiermark", beschreibung: "Heirat Eberstaller/Mittermaier (1895).", ref: "Bd. 1, S. 43"},
@@ -116,11 +116,11 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Wels", lat: 48.1656, lon: 14.0353, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Tod von Joh. Baptist Eberstaller (Kekulé 12), 1905.", ref: "Bd. 1, S. 43"},
 
         // === TIROLER LINIE ===
-        {name: "Kartitsch", lat: 46.7231, lon: 12.5008, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Zentrum der Tiroler Linie; Geburtsort der Mutter.", ref: "Bd. 1, S. 44"},
-        {name: "Petererhof, St. Oswald", lat: 46.73755519924009, lon: 12.478147527197969, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Historischer Bauernhof (Nr. 6/8) in St. Oswald bei Kartitsch, vermutlich 1594 errichtet. Stammsitz der Familien Kofler und Reider. Geburtsort von Katharina Eberstaller, geb. Reider (1892–1964), der Großmutter des Autors.", ref: "Bd. 1, S. 44, 110ff.", hof: true},
+        {name: "Kartitsch", lat: 46.7231, lon: 12.5008, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Osttiroler Bergdorf im Pustertal. Geburtsort der Mutter, des Autors und seiner Geschwister; Heimat der Familien Kofler und Reider, deren Geschichte sich über drei Jahrhunderte hier entfaltet.", ref: "Bd. 1, S. 44"},
+        {name: "Petererhof, St. Oswald", lat: 46.73755519924009, lon: 12.478147527197969, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Bauernhof bei Kartitsch, Sitz der Kofler- und Reider-Linie. Von hier brachen die drei Kofler-Brüder auf, die im 19. Jahrhundert Karriere in Innsbruck, Rovereto und Mailand machten.", ref: "Bd. 1, S. 44, 110ff.", hof: true},
         {name: "Sexten", lat: 46.7019, lon: 12.3586, kategorie: "Tiroler Linie", region: "Südtirol", beschreibung: "Herkunftsort der Familie Reider.", ref: "Bd. 1, S. 43"},
         {name: "Obertilliach", lat: 46.7125, lon: 12.5961, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Geburtsort Maria Ebner (Kekulé 115), 1746.", ref: "Bd. 2, S. 42"},
-        {name: "Rovereto", lat: 45.8885, lon: 11.0413, kategorie: "Tiroler Linie", region: "Trentino", beschreibung: "Kofler/Cofler Dynastie.", ref: "Bd. 1"},
+        {name: "Rovereto", lat: 45.8885, lon: 11.0413, kategorie: "Tiroler Linie", region: "Trentino", beschreibung: "Trentino. Anton Kofler (später Cofler) siedelte hierher und begründete die italienische Linie – eine Familiengeschichte, die bis heute nachverfolgt werden kann.", ref: "Bd. 1"},
         {name: "Mailand", lat: 45.4642, lon: 9.1900, kategorie: "Tiroler Linie", region: "Lombardei", beschreibung: "Finanzier Peter Kofler.", ref: "Bd. 1"},
         {name: "Anras", lat: 46.7739, lon: 12.5608, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Pfarrer Bodner/Kofler.", ref: "Bd. 1"},
         {name: "Lienz", lat: 46.8289, lon: 12.7686, kategorie: "Tiroler Linie", region: "Tirol", beschreibung: "Bezirkshauptstadt Osttirol.", ref: "Bd. 1"},
