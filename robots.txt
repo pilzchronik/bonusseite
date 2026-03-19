@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /bonusseite/chronik/
+Disallow: /bonusseite/assets/Band_1-kompr.pdf
+Disallow: /bonusseite/assets/Band_2-kompr.pdf
