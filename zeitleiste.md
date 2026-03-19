@@ -200,8 +200,8 @@ permalink: /zeitleiste/
 
   <div class="container">
     <span class="year">ca. 1539–1619</span>
-    <h3>Joseph Pültz, der Familienvater</h3>
-    <p>Direkter Vorfahre der Auswanderungslinie. Er regelt in den 1610er Jahren mehrfach Land- und Erbverträge für seine Kinder. Darf nicht mit dem gleichzeitig lebenden Richter Jobst Pültz verwechselt werden.</p>
+    <h3>Joseph Pültz</h3>
+    <p>Vater von Abraham Piltz. Er regelt in den 1610er Jahren mehrfach Land- und Erbverträge für seine Kinder. Darf nicht mit dem gleichzeitig lebenden Richter Jobst Pültz verwechselt werden.</p>
     <span class="meta-tag">Stammreihe</span>
   </div>
 
