@@ -199,14 +199,7 @@ permalink: /zeitleiste/
   </div>
 
   <div class="container">
-    <span class="year">† 1619</span>
-    <h3>Jobst Pültz, Richter in Dörnthal</h3>
-    <p>Richter und Amtsträger in Dörnthal. Die ältere Forschung hielt ihn fälschlich für den Vater von Abraham Piltz. Die Auswertung der Gerichtsbücher hat jedoch gezeigt: Jobst und der Familienvater Joseph Pültz sind zwei verschiedene Personen.</p>
-    <span class="meta-tag">Forschungskorrektur</span>
-  </div>
-
-  <div class="container">
-    <span class="year">ab 1610</span>
+    <span class="year">ca. 1539–1619</span>
     <h3>Joseph Pültz, der Familienvater</h3>
     <p>Direkter Vorfahre der Auswanderungslinie. Er regelt in den 1610er Jahren mehrfach Land- und Erbverträge für seine Kinder. Darf nicht mit dem gleichzeitig lebenden Richter Jobst Pültz verwechselt werden.</p>
     <span class="meta-tag">Stammreihe</span>
@@ -215,7 +208,7 @@ permalink: /zeitleiste/
   <div class="container">
     <span class="year">1591</span>
     <h3>Geburt von Abraham Piltz</h3>
-    <p>Sohn von Joseph Pültz. Abraham ist das entscheidende Bindeglied in die Nachbarorte: Er heiratet 1614 Maria Hengst, zieht weg und verlegt den Lebensmittelpunkt der direkten Stammlinie nach Blumenau/Olbernhau (urkundlich belegt 1624 als „Abraham Pültz zu Blumenau"). Ab hier lassen sich die Primärquellen der direkten Linie lückenlos nachweisen.</p>
+    <p>Sohn von Joseph Pültz. Abraham ist das entscheidende Bindeglied in die Nachbarorte: Er heiratet 1614 Maria Hengst und verlegt den Lebensmittelpunkt der direkten Stammlinie nach Blumenau/Olbernhau (urkundlich belegt 1624 als „Abraham Pültz zu Blumenau"). Ab hier lassen sich die Primärquellen der direkten Linie lückenlos nachweisen.</p>
     <span class="meta-tag">Auswanderer</span>
   </div>
 
