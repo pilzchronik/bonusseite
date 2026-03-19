@@ -199,7 +199,7 @@ permalink: /zeitleiste/
   </div>
 
   <div class="container">
-    <span class="year">ca. 1539–1619</span>
+    <span class="year">ca. 1555–1650</span>
     <h3>Joseph Pültz</h3>
     <p>Vater von Abraham Piltz. Er regelt in den 1610er Jahren mehrfach Land- und Erbverträge für seine Kinder. Darf nicht mit dem gleichzeitig lebenden Richter Jobst Pültz verwechselt werden.</p>
     <span class="meta-tag">Stammreihe</span>
@@ -220,16 +220,9 @@ permalink: /zeitleiste/
   </div>
 
   <div class="container">
-    <span class="year">1621</span>
-    <h3>Blutgericht am Altstädter Ring</h3>
-    <p>Hinrichtung von 27 böhmischen Anführern in Prag. Ein dramatischer Wendepunkt für den protestantischen Adel, der den historischen Hintergrund für das "Bechinie-Rätsel" bildet.</p>
-    <span class="meta-tag">Kontext</span>
-  </div>
-
-  <div class="container">
     <span class="year">1672</span>
     <h3>Tod von Wolf Eberstaller</h3>
-    <p>Das „Verlassenschaftsprotokoll“ am Reichhof (Krenglbach) gibt seltene Einblicke in Besitz und Erbfolge jener Zeit.</p>
+    <p>Das „Verlassenschaftsprotokoll" am Reichhof (Krenglbach) gibt seltene Einblicke in Besitz und Erbfolge jener Zeit.</p>
     <span class="meta-tag">Eberstaller-Linie</span>
   </div>
 
@@ -250,7 +243,7 @@ permalink: /zeitleiste/
   <div class="container">
     <span class="year">1768</span>
     <h3>Die Radetzky-Verbindung</h3>
-    <p>Taufe der Theresia (Apollonia Jablotzki). Ihr Taufpate ist Graf Peter Eusebius Radetzky – Beginn der sogenannten „Radetzky-Klammer“.</p>
+    <p>Taufe der Theresia (Apollonia Jablotzki). Ihr Taufpate ist Graf Peter Eusebius Radetzky – Beginn der sogenannten „Radetzky-Klammer".</p>
     <span class="meta-tag">Adelsforschung</span>
   </div>
 
@@ -283,10 +276,10 @@ permalink: /zeitleiste/
   </div>
 
   <div class="container">
-    <span class="year">1858</span>
-    <h3>Radetzky in Italien</h3>
-    <p>Begegnung des Feldmarschalls mit dem Bekanntenkreis von Maria Antonietta Gioppi (geb. Cofler) in Mantua. Ein weiterer Berührungspunkt der Familie mit der Geschichte.</p>
-    <span class="meta-tag">Historie</span>
+    <span class="year">um 1857/58</span>
+    <h3>Ein entfernter Widerschein der „Radetzky-Klammer"</h3>
+    <p>Als Maria Antonietta Gioppi (geb. Cofler) nach Mantua einheiratete, erfuhr sie aus dem dortigen Adelskreis, dass einige dieser Familien vergeblich für einen Verurteilten beim Feldmarschall Radetzky interveniert hatten. Kein persönlicher Kontakt – aber ein letztes, schwaches Echo jener Radetzky-Verbindung, die in der Familiengeschichte an anderer Stelle ausführlicher behandelt wird.</p>
+    <span class="meta-tag">Radetzky-Klammer (Nachklang)</span>
   </div>
 
   <div class="container">
