@@ -276,9 +276,9 @@ permalink: /zeitleiste/
   </div>
 
   <div class="container">
-    <span class="year">1851</span>
+    <span class="year">1838–1851</span>
     <h3>Testament von Peter Kofler</h3>
-    <p>Erstellt in Rovereto. Es dokumentiert den großen Wohlstand und klärt die Verwandtschaftsverhältnisse zwischen Tirol und Italien.</p>
+    <p>Das Originaldokument wurde am 15. Mai 1838 in Mailand verfasst; mehrere Nachträge entstanden bis 1851 ebenfalls in Mailand sowie in Rovereto. Es dokumentiert den großen Wohlstand und klärt die Verwandtschaftsverhältnisse zwischen Tirol und Italien.</p>
     <span class="meta-tag">Kofler-Linie</span>
   </div>
 
