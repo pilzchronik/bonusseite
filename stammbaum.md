@@ -10,7 +10,7 @@ Die wichtigsten Familienlinien als Diagramme – klick direkt auf die Darstellun
 
 ### Linie Pilz (väterlich)
 
-* **[➤ Stammbaum Wolfgang Pilz](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/7C3BCD5F-3BE9-4FCE-925E-CF62CAAEB566.pdf?q=1294336917096469500)** – Die vollständige Ahnentafel des Autors über alle Linien
+* **[➤ Komplettes Baum-Diagramm Wolfgang Pilz](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/F8B11CA7-3F4D-41AF-AF85-1005166AA459.pdf?q=618668161775644400)** – Alle Linien in einem einzigen Diagramm. **Hinweis:** Beim Öffnen wirkt die Darstellung zunächst winzig – das liegt an der Größe des Gesamtbaums. Zoome hinein und scrolle dich durch die einzelnen Äste; so erreichst du jede Person mit allen hinterlegten Daten. Die Übersicht geht dabei etwas verloren, dafür ist wirklich alles enthalten. Wer lieber eine bestimmte Linie gezielt ansehen möchte, findet die Einzeldarstellungen weiter unten.
 * **[➤ Stammbaum Christian Gottlob Pilz](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/2DA6A933-B360-4B90-80F3-15C19318DF80.pdf?q=2708549689843906600)** – Die sächsische Pültz-Linie zurück ins 16. Jahrhundert
 
 ### Linie Eberstaller / Reider (mütterlich)
