@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Die Familie Pültz/Pilz in Dörnthal und Freiberg – Gesamtstand Februar 2026"
+permalink: /doernthal-freiberg/
 date: 2026-02-25
 categories: [werkstatt, Sachsen, Pültz]
 tags: [Neue Funde, Ergänzungen]
@@ -10,7 +11,6 @@ excerpt: >
   (1550–1701), die Verbindung nach Freiberg und der aktuelle Forschungsstand nach Auskunft des
   Stadtarchivs Freiberg (24. Februar 2026).
 status: vorläufig
-stand_vom: 2026-02-25
 stand_vom: 2026-02-25
 ---
 
