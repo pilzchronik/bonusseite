@@ -231,13 +231,13 @@ title: Startseite
   <a href="{{ '/zeitleiste/' | relative_url }}" class="nav-card">
     <span class="eyebrow">CHRONOLOGIE</span>
     <h3>Historische Zeitleiste</h3>
-    <p>500 Jahre Familiengeschichte im Zeitstrahl – von Dörnthal bis Innsbruck.</p>
+    <p>Von den urgeschichtlichen Ursprüngen bis zur Gegenwart – Familiengeschichte im Zeitstrahl.</p>
   </a>
 
   <a href="{{ '/stammbaum/' | relative_url }}" class="nav-card">
-    <span class="eyebrow">ARCHIV</span>
-    <h3>Genealogisches Archiv</h3>
-    <p>Alle Personenblätter, Familien, Ahnentafeln und Querverweise der Pilz-Chronik – gespeichert im MacFamilyTree-Archiv.</p>
+    <span class="eyebrow">STAMMBAUM</span>
+    <h3>Personen & Familien</h3>
+    <p>Alle Personenblätter, Familien, Ahnentafeln und Querverweise der Pilz-Chronik – gespeichert im MacFamilyTree-Webarchiv.</p>
   </a>
 
   <a href="{{ '/quellen/' | relative_url }}" class="nav-card">
