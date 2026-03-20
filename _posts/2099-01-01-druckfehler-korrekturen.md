@@ -57,7 +57,13 @@ stand_vom: 2026-03-01
   <script>(function(){var a="pilz",b="gmx.at",e=document.getElementById("errata-mail");if(e)e.innerHTML='<a href="mailto:'+a+"@"+b+'">'+a+"@"+b+"</a>";})()</script>
 </div>
 
-<p class="errata-stand">Stand: 3. März 2026</p>
+<p class="errata-stand">Stand: 20. März 2026</p>
+
+<div class="errata-eintrag" style="border-left-color: #2a5d8f; background: #f4f8fb;">
+  <h3>Pilz-Chronik als PDF – Leserbereich</h3>
+  <p>Leserinnen und Leser der gedruckten Pilz-Chronik finden auf dieser Bonusseite einen passwortgeschützten Bereich, in dem beide Bände als PDF abrufbar sind. Der Zugang ist ausschließlich für tatsächliche Leser der Chronik bestimmt.</p>
+  <p>→ <a href="{{ '/chronik/' | relative_url }}">Zum Leserbereich</a></p>
+</div>
 
 ## Neue Erkenntnisse
 
