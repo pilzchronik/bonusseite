@@ -18,9 +18,9 @@ Die wichtigsten Familienlinien als Diagramme – klick direkt auf die Darstellun
 * **[➤ Nachfahren Wolff Eberstaller](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/F73B696E-D7BC-4705-9395-7AF0EA18FC0D.pdf?q=808858197171940000)** – Die Eberstaller-Linie ab dem Stammvater (17. Jh.)
 * **[➤ Nachfahren Bartolomäus Reider zu Oberlampach](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/746F574C-99E5-4DFE-8875-C25556D10378.pdf?q=130786253216979230)** – Die Tiroler Reider-Linie
 
-### Linie Kofler / Cofler (Südtirol)
+### Linie Kofler / Cofler (Mailand, Rovereto)
 
-* **[➤ Sanduhrtafel Anton Kofler zu Peterer](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/DD6C4E20-EEE6-46A6-B7AC-D39EE95FDC04.pdf?q=2008111898509203500)** – Vorfahren und Nachkommen des Südtiroler Zweigs
+* **[➤ Sanduhrtafel Anton Kofler zu Peterer](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/DD6C4E20-EEE6-46A6-B7AC-D39EE95FDC04.pdf?q=2008111898509203500)** – Vorfahren und Nachkommen der Kofler-Linie
 * **[➤ Verwandtschafts-Diagramm Antonio Cofler](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/D34EE2D9-9033-4157-8246-908FF4943EE6.pdf?q=1507478592630876400)** – Verbindung Kofler/Cofler
 
 <p style="font-size: 0.9em; color: #666; margin-top: 12px;">
