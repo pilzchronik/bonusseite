@@ -28,6 +28,43 @@ title: Startseite
     line-height: 1.7;
   }
 
+  .highlight-list {
+    max-width: 600px;
+    margin: 20px auto 0 auto;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 1.05em;
+    color: #444;
+    padding-left: 1.5em;
+  }
+
+  .highlight-list li {
+    margin-bottom: 14px;
+  }
+
+  .highlight-list li strong.hl-title {
+    display: block;
+    color: #333;
+    font-size: 1em;
+  }
+
+  .highlight-list li span.hl-desc {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 2px;
+  }
+
+  .section-divider {
+    text-align: center;
+    color: #888;
+    font-size: 0.95em;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+  }
+
   /* Drei Hauptknöpfe oben */
   .primary-actions {
     display: grid;
@@ -143,12 +180,29 @@ title: Startseite
     Du hast Band 1 oder Band 2 der Pilz-Chronik in Händen? Diese Seite ist die offizielle digitale Ergänzung zum Buch.
   </p>
   <p>
-    Hier findest du Korrekturen zu den gedruckten Bänden, neue Archivfunde seit der Drucklegung – und digitale Materialien, die im Buch keinen Platz hatten: eine interaktive Karte aller Familien-Lebensorte, ein vollständiges genealogisches Archiv, eine Zeitleiste, die von der Urgeschichte bis ins 20. Jahrhundert reicht, und eine DNA-Analyse, die die Familienherkunft genetisch tief verankert.
+    Hier findest du die digitale Erweiterung zu beiden Bänden – Materialien, die über das gedruckte Buch hinausgehen. Einige Beispiele:
   </p>
-  <p>
-    Den Chat-Assistenten unten rechts kannst du jederzeit direkt befragen – er kennt beide Bände und antwortet sofort.
-  </p>
+  <ul class="highlight-list">
+    <li>
+      <strong class="hl-title">Urgeschichtliche Wanderrouten</strong>
+      <span class="hl-desc">Die Migrationspfade der Vorfahren als Animation auf der Karte abspielbar</span>
+    </li>
+    <li>
+      <strong class="hl-title">Interaktive Familienkarte</strong>
+      <span class="hl-desc">Lebensstationen aller Familienlinien auf einen Blick</span>
+    </li>
+    <li>
+      <strong class="hl-title">Böhmisches Ortsnamenlexikon</strong>
+      <span class="hl-desc">Über 5.700 Ortsnamen – deutsch und tschechisch, in beide Richtungen abfragbar</span>
+    </li>
+    <li>
+      <strong class="hl-title">Chat-Assistent</strong>
+      <span class="hl-desc">Kennt nicht nur beide Bände, sondern den gesamten Forschungsstand (derzeit bis Februar 2026), wird laufend erweitert und antwortet sofort (unten rechts)</span>
+    </li>
+  </ul>
+</div>
 
+<p class="section-divider">Alle Bereiche im Überblick – klick dich direkt hinein:</p>
 
 <div class="primary-actions">
 
