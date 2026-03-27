@@ -206,7 +206,7 @@ permalink: /werkstatt/
 <div class="month-group" data-month="{{ post_month }}">
   <div class="month-header">{% include datum.html date=post.date format="monat" %}</div>
   {% endif %}
-  <div class="post-entry" data-searchable="{{ post.title | downcase }} {{ post.excerpt | strip_html | strip_newlines | downcase }}">
+  <div class="post-entry" data-searchable="{{ post.title | downcase | xml_escape }} {{ post.excerpt | strip_html | strip_newlines | downcase | xml_escape }}">
     <div class="post-title-row">
       <span class="post-date">{{ post.date | date: "%d.%m." }}</span>
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>

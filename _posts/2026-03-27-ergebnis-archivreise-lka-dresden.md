@@ -6,11 +6,11 @@ permalink: /ergebnis-archivreise-lka-dresden/
 status: vorläufig
 stand_vom: 27.03.2026
 betrifft: Band1, Band2
-tags: [Kirchenbücher, LKA Dresden, Primärquellen, Erzgebirge, Ergebnisse]
+tags: [Neue Funde, Korrekturen, Kirchenbücher, LKA Dresden, Primärquellen, Erzgebirge, Ergebnisse]
 excerpt: >
   Die Kirchenbücher im Landeskirchlichen Archiv Dresden bestätigen die direkte
   Stammlinie über sechs Generationen — und widerlegen die auf dieser Seite
-  veröffentlichte Korrektur „Joseph statt Jobst".
+  veröffentlichte Korrektur &#x201E;Joseph statt Jobst&#x201C;.
 ---
 
 Im März 2026 konnte ich die Kirchenbücher des EVLKS-Bestands Marienberg im **Landeskirchlichen Archiv Dresden** (LKA) einsehen. Die Ergebnisse sind weitreichend — und in einem entscheidenden Punkt anders als erwartet.
