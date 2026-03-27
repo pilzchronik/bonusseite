@@ -127,7 +127,11 @@ permalink: /updates/
           {% endif %}
           
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <span class="tag-date">Aktualisiert am {{ post.date | date: "%d.%m.%Y" }}</span>
+          {% if post.stand_vom %}
+            <span class="tag-date">Stand: {{ post.stand_vom }}</span>
+          {% else %}
+            <span class="tag-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+          {% endif %}
         </li>
         {% endfor %}
       {% else %}
