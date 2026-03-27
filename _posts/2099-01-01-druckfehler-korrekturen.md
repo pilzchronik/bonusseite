@@ -7,7 +7,7 @@ tags: [Korrekturen]
 excerpt: "Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte."
 pinned: true
 status: aktuell
-stand_vom: 2026-03-01
+stand_vom: 2026-03-27
 ---
 
 <style>
@@ -57,31 +57,46 @@ stand_vom: 2026-03-01
   <script>(function(){var a="pilz",b="gmx.at",e=document.getElementById("errata-mail");if(e)e.innerHTML='<a href="mailto:'+a+"@"+b+'">'+a+"@"+b+"</a>";})()</script>
 </div>
 
-<p class="errata-stand">Stand: 3. März 2026</p>
+<p class="errata-stand">Stand: 27. März 2026</p>
 
-## Neue Erkenntnisse
+## Neue Erkenntnisse — Archivreise LKA Dresden, März 2026
 
-<div class="errata-eintrag errata-eintrag--erkenntnis">
-  <h3>Band 1, S. 74–75 — Vater von Abraham Pilz (Kekulé 4.096)</h3>
-  <p>Gedruckt: Jobst Pilz sei Abrahams Vater gewesen.</p>
-  <p><strong>Korrektur:</strong> Der Vater ist <strong>Joseph Pültz der Familienvater</strong> (ca. 1545–nach 1620), belegt durch das Gerichtsbuch AG Sayda Nr. 020, Blatt 772 (1620). Jobst und Joseph wurden in Sekundärquellen irrtümlich gleichgesetzt.
-  → <a href="{{ '/jobst-joseph-verwechslung/' | relative_url }}">Näheres dazu</a></p>
+<div class="errata-hinweis" style="border-left-color:#a0522d; background:#fdf6f0;">
+  <strong>Hinweis zur Transparenz:</strong> Die im März 2026 auf dieser Seite veröffentlichte Korrektur „Joseph Pültz statt Jobst" wurde durch die Auswertung der Kirchenbücher im Landeskirchlichen Archiv Dresden <strong>widerlegt</strong>. Die gedruckte Chronik hatte im Kern recht. Die irrtümlichen Einträge, die hier bis zum 27.&nbsp;März 2026 standen, sind durch die folgenden ersetzt.
+  → <a href="{{ '/ergebnis-archivreise-lka-dresden/' | relative_url }}">Ausführlicher Bericht</a>
 </div>
 
 <div class="errata-eintrag errata-eintrag--erkenntnis">
-  <h3>Band 2, S. 59–60 — Kekulé 8.192 und 8.193: Jobst Pilz und Margaretha Teuffel</h3>
-  <p>Jobst Pilz und seine Ehefrau Margaretha Teuffel sind als direkte Vorfahren <strong>zu streichen</strong>. An die Stelle von Jobst tritt Joseph Pültz (siehe oben). Jobst bleibt für die Dörnthaler Ortsgeschichte relevant, gehört aber nicht in die Ahnenreihe.</p>
+  <h3>Band 1, S. 74–75 — Vater von Abraham Pilz (Kekulé 4.096): bestätigt</h3>
+  <p>Gedruckt: Jobst Pilz sei Abrahams Vater gewesen.</p>
+  <p><strong>Bestätigt.</strong> Im Heiratsregister Reg. 36 (Dörnthal) erscheint zwischen 1568 und 1594 unter Piltz ausschließlich der Name <strong>Jobst</strong>. Ein „Joseph" kommt nicht vor. Jobst Pültz ist Abrahams Vater. — Der Gerichtsbucheintrag von 1620, der Abraham als „Sohn des Joseph" nennt, beruht mit hoher Wahrscheinlichkeit auf einer Fehllesung des Namens Jobst durch den Gerichtsschreiber.</p>
+</div>
+
+<div class="errata-eintrag errata-eintrag--erkenntnis">
+  <h3>Band 2, S. 59–60 — Kekulé 8.192 und 8.193: Jobst Pilz und Margaretha Teuffel: bestätigt</h3>
+  <p>Jobst Pilz und Margaretha Teuffel <strong>gehören in die direkte Ahnenreihe</strong>. Margaretha Teuffel ist mit hoher Wahrscheinlichkeit Abrahams Mutter (Heirat mit Jobst 1589, Taufe Abrahams 1591, Patenschaft einer Teuffelin bei der Taufe).</p>
 </div>
 
 <div class="errata-eintrag errata-eintrag--erkenntnis">
   <h3>Band 2, S. 59 und S. 64 — Geburtsdaten Abraham Pilz (Kekulé 4.096)</h3>
   <p>Gedruckt: „um 1590 in Olbernhau". Auch die Spitzenahnen-Tabelle (S. 64) nennt diese Angabe.</p>
-  <p><strong>Korrektur:</strong> Abraham Pilz wurde am <strong>27. August 1591 in Dörnthal</strong> geboren (Taufeintrag Kirchenbuch Dörnthal).</p>
+  <p><strong>Korrektur:</strong> Abraham Pilz wurde im <strong>August 1591 in Dörnthal</strong> geboren (Taufeintrag Kirchenbuch Dörnthal, KB 23).</p>
 </div>
 
 <div class="errata-eintrag errata-eintrag--erkenntnis">
   <h3>Band 2, S. 64, Fußnote 4 — Verweis auf Jobst Pilz als möglichen Vater</h3>
-  <p>Die Fußnote ist durch die Korrektur (Joseph Pültz statt Jobst) <strong>inhaltlich überholt</strong> und muss gestrichen oder angepasst werden.</p>
+  <p>Die Fußnote nennt Jobst als möglichen Vater Abrahams. Diese Aussage ist durch die Kirchenbücher nun <strong>bestätigt</strong>. Die Fußnote kann unverändert bleiben.</p>
+</div>
+
+<div class="errata-eintrag errata-eintrag--erkenntnis">
+  <h3>Neu — Stammlinie über sechs Generationen gesichert</h3>
+  <p>Die direkte väterliche Linie ist nun lückenlos durch Primärquellen (Tauf- und Heiratsregister, EVLKS-Bestand Marienberg) belegt:</p>
+  <p><strong>Jobst Pültz → Abraham Pilz (*&nbsp;Aug. 1591) → Michael Piltz (*&nbsp;13.7.1617) → Samuel Pilz (*&nbsp;2.3.1654) → Samuel Pilz (*&nbsp;13.1.1683) → Christian Gottlob Pilz (ca. 24.3.1712)</strong></p>
+</div>
+
+<div class="errata-eintrag errata-eintrag--erkenntnis">
+  <h3>Neu — Ältester belegter Vorfahre: Michael PILTZ der Ältere (†&nbsp;26.7.1565)</h3>
+  <p>Im Kirchenbuch Dörnthal (KB 23) ist der Sterbeeintrag eines <em>„alten Michael Piltz"</em> verzeichnet. Er ist der älteste urkundlich belegte Vorfahre. Die Verbindung zu Jobst ist plausibel, aber noch nicht durch eine Primärquelle geschlossen.</p>
 </div>
 
 ## Redaktionelles
