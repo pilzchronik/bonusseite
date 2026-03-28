@@ -124,7 +124,7 @@ Das zeigt: Namensregister sind hilfreich, aber nicht vollständig. Wer sich nur 
 
 Nicht alle Ziele der Archivreise konnten erreicht werden:
 
-**Sterbeeintrag Jobst Pültz (†&nbsp;3.4.1619)** — Die betreffende Digitalisat-Seite 192 in KB 23 ist vorhanden, aber technisch unlesbar. Das Personal des LKA empfahl einen erneuten Druckversuch mit veränderten Kontrasteinstellungen — ein Versuch nach dem Prinzip Trial and Error mit wenig Erfolgsaussicht. Das Originalbuch vor Ort zu lesen wäre eine Alternative; am geeignetsten erscheint aber eine nachträgliche Bildbearbeitung des Digitalisats selbst.
+**Sterbeeintrag Jobst Pültz (†&nbsp;3.4.1619)** — Die betreffende Digitalisat-Seite 192 in KB 23 ist vorhanden, aber technisch unlesbar. Das Personal des LKA empfahl einen erneuten Druckversuch mit veränderten Kontrasteinstellungen — ein Versuch nach dem Prinzip Try and Error mit wenig Erfolgsaussicht. Das Originalbuch vor Ort zu lesen wäre eine Alternative; am geeignetsten erscheint aber eine nachträgliche Bildbearbeitung des Digitalisats selbst.
 
 **Volltext der Traueinträge Jobst (1569) und Joseph (1574)** — Im Kirchenbuch KB 23 nicht auffindbar. Das Register ist ungeordnet; eine systematische Durchsicht des gesamten Bandes wurde wiederholt versucht, scheiterte aber letztlich auch an teilweise komplett unlesbaren Seiten (siehe oben).
 
