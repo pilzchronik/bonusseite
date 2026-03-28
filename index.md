@@ -3,264 +3,69 @@ layout: default
 title: Startseite
 ---
 
-<style>
-  .intro-section {
-    text-align: center;
-    margin-bottom: 50px;
-    padding: 40px 20px;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #e9ecef;
-    border-radius: 4px;
-  }
-
-  .intro-section h1 {
-    margin-top: 0;
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 15px;
-  }
-
-  .intro-section p {
-    font-size: 1.1em;
-    color: #555;
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.7;
-  }
-
-  .highlight-list {
-    max-width: 600px;
-    margin: 20px auto 0 auto;
-    text-align: left;
-    line-height: 1.8;
-    font-size: 1.05em;
-    color: #444;
-    padding-left: 1.5em;
-  }
-
-  .highlight-list li {
-    margin-bottom: 14px;
-  }
-
-  .highlight-list li strong.hl-title {
-    display: block;
-    color: #333;
-    font-size: 1em;
-  }
-
-  .highlight-list li span.hl-desc {
-    display: block;
-    font-size: 0.9em;
-    color: #666;
-    margin-top: 2px;
-  }
-
-  .section-divider {
-    text-align: center;
-    color: #888;
-    font-size: 0.95em;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    padding-top: 20px;
-    border-top: 1px solid #e0e0e0;
-  }
-
-  /* Drei Hauptknöpfe oben */
-  .primary-actions {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    margin-bottom: 50px;
-  }
-
-  .action-card {
-    display: flex;
-    flex-direction: column;
-    padding: 28px 24px;
-    border-radius: 6px;
-    text-decoration: none !important;
-    color: inherit;
-    transition: box-shadow 0.15s;
-  }
-
-  .action-card:hover {
-    box-shadow: 0 4px 14px rgba(0,0,0,0.10);
-    text-decoration: none !important;
-  }
-
-  .action-card.korrekturen {
-    background-color: #fff5f5;
-    border: 1px solid #e8b4b4;
-  }
-
-  .action-card.neues {
-    background-color: #f0f7ff;
-    border: 1px solid #a8c8e8;
-  }
-
-  .action-card.ergaenzungen {
-    background-color: #f4f9f1;
-    border: 1px solid #a8cfa0;
-  }
-
-  .action-card .label {
-    font-size: 0.72em;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    font-weight: bold;
-    color: #888;
-    margin-bottom: 8px;
-    display: block;
-  }
-
-  .action-card h3 {
-    margin: 0 0 10px 0;
-    font-size: 1.25em;
-    color: #222;
-  }
-
-  .action-card p {
-    margin: 0;
-    font-size: 0.9em;
-    color: #666;
-    line-height: 1.55;
-  }
-
-  /* Sekundäre Navigation */
-  .nav-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 24px;
-    margin-bottom: 50px;
-  }
-
-  .nav-card {
-    display: flex;
-    flex-direction: column;
-    padding: 24px;
-    border: 1px solid #dee2e6;
-    border-radius: 6px;
-    text-decoration: none !important;
-    background: white;
-  }
-
-  .nav-card:hover {
-    box-shadow: 0 3px 8px rgba(0,0,0,0.07);
-    border-color: #2a5d8f;
-  }
-
-  .eyebrow {
-    font-size: 0.72em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #999;
-    font-weight: bold;
-    margin-bottom: 8px;
-    display: block;
-  }
-
-  .nav-card h3 {
-    margin-top: 0;
-    color: #2a5d8f;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-
-  .nav-card p {
-    color: #666;
-    line-height: 1.55;
-    margin-bottom: 0;
-    font-size: 0.9em;
-  }
-</style>
+<link href="{{ site.baseurl }}/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="{{ site.baseurl }}/pagefind/pagefind-ui.js"></script>
 
 <div class="intro-section">
   <h1>Digitale Ergänzungen zur Pilz-Chronik</h1>
   <p>
-    Du hast Band 1 oder Band 2 der Pilz-Chronik in Händen? Diese Seite ist die offizielle digitale Ergänzung zum Buch.
+    Korrekturen, neue Forschungsergebnisse und interaktive Materialien zu beiden Bänden.
   </p>
-  <p>
-    Hier findest du die digitale Erweiterung zu beiden Bänden – Materialien, die über das gedruckte Buch hinausgehen. Einige Beispiele:
-  </p>
-  <ul class="highlight-list">
-    <li>
-      <strong class="hl-title">Urgeschichtliche Wanderrouten</strong>
-      <span class="hl-desc">Die Migrationspfade der Vorfahren als Animation auf der Karte abspielbar</span>
-    </li>
-    <li>
-      <strong class="hl-title">Interaktive Familienkarte</strong>
-      <span class="hl-desc">Lebensstationen aller Familienlinien auf einen Blick</span>
-    </li>
-    <li>
-      <strong class="hl-title">Böhmisches Ortsnamenlexikon</strong>
-      <span class="hl-desc">Über 5.700 Ortsnamen – deutsch und tschechisch, in beide Richtungen abfragbar</span>
-    </li>
-    <li>
-      <strong class="hl-title">Chat-Assistent</strong>
-      <span class="hl-desc">Kennt nicht nur beide Bände, sondern den gesamten Forschungsstand (derzeit bis Februar 2026), wird laufend erweitert und antwortet sofort (unten rechts)</span>
-    </li>
-  </ul>
+  <div id="search" style="max-width: 560px; margin: 20px auto 0 auto;"></div>
 </div>
-
-<p class="section-divider">Alle Bereiche im Überblick – klick dich direkt hinein:</p>
 
 <div class="primary-actions">
 
-  <a href="{{ '/korrekturen/' | relative_url }}" class="action-card korrekturen">
-    <span class="label">Druckfehler &amp; Berichtigungen</span>
-    <h3>Korrekturen</h3>
-    <p>Was im gedruckten Buch falsch steht – und wie es richtig lautet.</p>
+  <a href="{{ '/werkstatt/' | relative_url }}" class="action-card korrekturen">
+    <h3>Werkstatt</h3>
+    <p>Korrekturen und neue Funde seit Drucklegung.</p>
   </a>
 
-  <a href="{{ '/updates/' | relative_url }}" class="action-card neues">
-    <span class="label">Seit Drucklegung</span>
-    <h3>Neue Funde</h3>
-    <p>Archivfunde und Erkenntnisse, die nach Abschluss des Manuskripts hinzugekommen sind.</p>
-  </a>
-
-  <a href="{{ '/orte/' | relative_url }}" class="action-card ergaenzungen">
-    <span class="label">Digitales Mehr</span>
+  <a href="{{ '/orte/' | relative_url }}" class="action-card neues">
     <h3>Karte &amp; Orte</h3>
-    <p>Lebensorte auf der interaktiven Karte, Ortsverzeichnis und zweisprachiges Ortsnamenlexikon Böhmen (DE↔CZ).</p>
+    <p>Interaktive Familienkarte, Ortsverzeichnis und Ortsnamenlexikon Böhmen.</p>
+  </a>
+
+  <a href="{{ '/nachweise/' | relative_url }}" class="action-card ergaenzungen">
+    <h3>Nachweise</h3>
+    <p>Quellen, Archive, Inhalt &amp; Index, Abbildungsverzeichnis.</p>
   </a>
 
 </div>
+
+<p class="section-divider">Weiteres</p>
 
 <div class="nav-grid">
 
   <a href="{{ '/zeitleiste/' | relative_url }}" class="nav-card">
-    <span class="eyebrow">CHRONOLOGIE</span>
-    <h3>Historische Zeitleiste</h3>
-    <p>Von den urgeschichtlichen Ursprüngen bis zur Gegenwart – Familiengeschichte im Zeitstrahl.</p>
-  </a>
-
-  <a href="{{ '/stammbaum/' | relative_url }}" class="nav-card">
-    <span class="eyebrow">STAMMBAUM</span>
-    <h3>Personen & Familien</h3>
-    <p>Alle Personenblätter, Familien, Ahnentafeln und Querverweise der Pilz-Chronik – gespeichert im MacFamilyTree-Webarchiv.</p>
-  </a>
-
-  <a href="{{ '/quellen/' | relative_url }}" class="nav-card">
-    <span class="eyebrow">DOKUMENTATION</span>
-    <h3>Quellen & Archive</h3>
-    <p>Verzeichnis der Archive, Datenbanken und digitalen Belege zur Pilz-Chronik.</p>
+    <h3>Zeitleiste</h3>
+    <p>Familiengeschichte im Zeitstrahl — von den genetischen Ursprüngen bis zur Gegenwart.</p>
   </a>
 
   <a href="{{ '/dna-analyse/' | relative_url }}" class="nav-card">
-    <span class="eyebrow">GENETIK</span>
     <h3>DNA-Analyse</h3>
-    <p>Haplogruppen, Verwandtschaftskreise und was die Genetik über die Familienherkunft sagt.</p>
+    <p>Haplogruppen und was die Genetik über die Familienherkunft sagt.</p>
   </a>
 
-  <a href="{{ '/orte/' | relative_url }}#ortsnamen" class="nav-card">
-    <span class="eyebrow">ORTSNAMEN</span>
-    <h3>Ortsnamenlexikon Böhmen</h3>
-    <p>5.700+ deutsche und tschechische Ortsnamen übersetzen – in beide Richtungen. Unverzichtbar für die böhmische Ahnenforschung.</p>
+  <a href="{{ '/stammbaum/' | relative_url }}" class="nav-card">
+    <h3>Personen &amp; Familien</h3>
+    <p>Stammbäume, Ahnentafeln und Detailsuche im MacFamilyTree-Archiv.</p>
   </a>
 
-  <a href="{{ '/inhalt-index/' | relative_url }}" class="nav-card">
-    <span class="eyebrow">NACHSCHLAGEN</span>
-    <h3>Inhalt & Index</h3>
-    <p>Inhaltsverzeichnis und Gesamtindex zu Band 1 und Band 2 — zum schnellen Nachschlagen nach Personen, Orten und Themen.</p>
-  </a>
+</div>
 
+<script>
+  window.addEventListener('DOMContentLoaded', function() {
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      excerptLength: 30,
+      translations: {
+        placeholder: "Person, Ort oder Thema suchen …",
+        zero_results: "Nichts gefunden für „[SEARCH_TERM]"",
+        many_results: "[COUNT] Treffer",
+        one_result: "1 Treffer"
+      }
+    });
+  });
+</script>

@@ -4,179 +4,61 @@ title: Werkstatt
 permalink: /werkstatt/
 ---
 
-<h1 style="color: #111; margin-bottom: 10px;">Werkstatt</h1>
-
-<style>
-  .post-header { display: none !important; }
-
-  .page-content {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    color: #333;
-    line-height: 1.5;
-  }
-
-  .intro-text {
-    max-width: 800px;
-    margin-bottom: 30px;
-    color: #666;
-    font-size: 0.95em;
-  }
-
-  /* Suchleiste */
-  .search-bar {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #e8e8e8;
-  }
-
-  .search-box {
-    padding: 8px 14px;
-    font-size: 0.9em;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    width: 100%;
-    max-width: 360px;
-    box-sizing: border-box;
-  }
-
-  .search-box:focus {
-    outline: none;
-    border-color: #999;
-  }
-
-  /* Angepinnter Beitrag */
-  .pinned-post {
-    display: flex;
-    align-items: baseline;
-    gap: 12px;
-    padding: 14px 18px;
-    margin-bottom: 30px;
-    background: #fafafa;
-    border: 1px solid #e8e8e8;
-    border-radius: 4px;
-  }
-
-  .pinned-post .pin-label {
-    font-size: 0.75em;
-    color: #999;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    flex-shrink: 0;
-  }
-
-  .pinned-post a {
-    color: #333;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.95em;
-  }
-
-  .pinned-post a:hover {
-    text-decoration: underline;
-  }
-
-  /* Monatsgruppen */
-  .month-group {
-    margin-bottom: 10px;
-  }
-
-  .month-header {
-    font-size: 0.8em;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: #999;
-    margin-top: 30px;
-    margin-bottom: 12px;
-    font-weight: 600;
-  }
-
-  .month-header:first-of-type {
-    margin-top: 0;
-  }
-
-  /* Post-Einträge */
-  .post-entry {
-    padding: 10px 0;
-    border-bottom: 1px solid #f0f0f0;
-    transition: background-color 0.1s;
-  }
-
-  .post-entry:last-child {
-    border-bottom: none;
-  }
-
-  .post-entry:hover {
-    background-color: #fafafa;
-    margin: 0 -8px;
-    padding: 10px 8px;
-    border-radius: 3px;
-  }
-
-  .post-title-row {
-    display: flex;
-    align-items: baseline;
-  }
-
-  .post-date {
-    font-size: 0.85em;
-    color: #999;
-    width: 80px;
-    flex-shrink: 0;
-    font-variant-numeric: tabular-nums;
-  }
-
-  .post-link {
-    color: #333;
-    text-decoration: none;
-    font-size: 0.95em;
-    flex: 1;
-  }
-
-  .post-link:hover {
-    text-decoration: underline;
-  }
-
-  .post-excerpt {
-    margin-left: 80px;
-    font-size: 0.82em;
-    color: #999;
-    margin-top: 2px;
-    line-height: 1.4;
-  }
-
-  .post-entry.hidden {
-    display: none;
-  }
-
-  .no-results {
-    text-align: center;
-    padding: 40px 20px;
-    color: #999;
-    font-size: 0.9em;
-  }
-
-  .result-info {
-    font-size: 0.8em;
-    color: #bbb;
-    text-align: right;
-    margin-top: 20px;
-  }
-
-  .month-group.hidden {
-    display: none;
-  }
-
-  @media (max-width: 600px) {
-    .search-box { width: 100%; }
-    .post-date { width: 60px; font-size: 0.8em; }
-    .post-excerpt { margin-left: 60px; }
-  }
-</style>
-
 <div class="intro-text">
-  Alle Beiträge seit Drucklegung — chronologisch, mit Suchfunktion.<br>
-  <span style="font-size:0.9em;">← <a href="{{ '/updates/' | relative_url }}">Zurück zur Übersicht (Aktuelles)</a></span>
+  Korrekturen und neue Forschungsergebnisse seit Drucklegung — oben als Übersicht, unten alle Beiträge chronologisch.
 </div>
+
+<div class="update-container">
+
+  <div class="col-corrections">
+    <h2 class="sec-title" style="color: #8f2a2a;">Berichtigungen</h2>
+    <ul class="update-list">
+      {% assign corrections = site.tags.Korrekturen %}
+      {% if corrections.size > 0 %}
+        {% for post in corrections limit:10 %}
+        <li class="update-item">
+          {% if post.buch_band %}
+            <span class="meta-tag tag-vol">Band {{ post.buch_band }} / S. {{ post.buch_seite }}</span>
+          {% endif %}
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% if post.stand_vom %}
+            <span class="tag-date">Stand: {{ post.stand_vom }}</span>
+          {% else %}
+            <span class="tag-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+          {% endif %}
+        </li>
+        {% endfor %}
+      {% else %}
+        <li class="update-item" style="color:#666; font-style:italic;">Keine offenen Berichtigungen bekannt.</li>
+      {% endif %}
+    </ul>
+  </div>
+
+  <div class="col-additions">
+    <h2 class="sec-title" style="color: #2a5d8f;">Neue Funde</h2>
+    <ul class="update-list">
+      {% assign additions = site.tags["Neue Funde"] %}
+      {% if additions.size > 0 %}
+        {% for post in additions limit:10 %}
+        <li class="update-item">
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="tag-date">{{ post.date | date: "%d.%m.%Y" }}</span>
+          <p style="font-size: 0.9rem; margin: 0.4rem 0 0 0; color: #555;">
+            {{ post.excerpt | strip_html | truncatewords: 15 }}
+          </p>
+        </li>
+        {% endfor %}
+      {% else %}
+        <li class="update-item" style="color:#666; font-style:italic;">Derzeit keine neuen Ergänzungen.</li>
+      {% endif %}
+    </ul>
+  </div>
+
+</div>
+
+---
+
+## Alle Beiträge
 
 <!-- Angepinnter Errata-Post -->
 {% for post in site.posts %}
@@ -188,12 +70,10 @@ permalink: /werkstatt/
   {% endif %}
 {% endfor %}
 
-<!-- Suche -->
 <div class="search-bar">
   <input type="text" id="searchBox" class="search-box" placeholder="Beitrag suchen …" autocomplete="off">
 </div>
 
-<!-- Beitragsliste gruppiert nach Monat -->
 <div id="postList">
 {% assign posts_by_date = site.posts | sort: 'date' | reverse %}
 {% assign current_month = "" %}
@@ -219,10 +99,7 @@ permalink: /werkstatt/
 {% endfor %}
 </div>
 
-<div class="no-results" id="noResults" style="display: none;">
-  Keine Beiträge gefunden.
-</div>
-
+<div class="no-results" id="noResults" style="display: none;">Keine Beiträge gefunden.</div>
 <div class="result-info" id="resultInfo"></div>
 
 <script>
@@ -232,42 +109,24 @@ permalink: /werkstatt/
   var monthGroups = document.querySelectorAll('.month-group');
   var noResults = document.getElementById('noResults');
   var resultInfo = document.getElementById('resultInfo');
-
   searchBox.addEventListener('input', filterPosts);
-
   function filterPosts() {
     var term = searchBox.value.toLowerCase().trim();
     var visible = 0;
-
-    // Pinned post
     if (pinnedPost) {
-      var pinnedSearchable = pinnedPost.getAttribute('data-searchable');
-      var showPinned = (term === '' || pinnedSearchable.indexOf(term) > -1);
-      pinnedPost.style.display = showPinned ? '' : 'none';
+      var ps = pinnedPost.getAttribute('data-searchable');
+      pinnedPost.style.display = (term === '' || ps.indexOf(term) > -1) ? '' : 'none';
     }
-
-    // Regular posts
     for (var i = 0; i < entries.length; i++) {
-      var entry = entries[i];
-      var text = entry.getAttribute('data-searchable');
-      if (term === '' || text.indexOf(term) > -1) {
-        entry.classList.remove('hidden');
-        visible++;
-      } else {
-        entry.classList.add('hidden');
-      }
+      var text = entries[i].getAttribute('data-searchable');
+      if (term === '' || text.indexOf(term) > -1) { entries[i].classList.remove('hidden'); visible++; }
+      else { entries[i].classList.add('hidden'); }
     }
-
-    // Leere Monatsgruppen ausblenden
     for (var j = 0; j < monthGroups.length; j++) {
-      var group = monthGroups[j];
-      var visibleEntries = group.querySelectorAll('.post-entry:not(.hidden)');
-      group.classList.toggle('hidden', visibleEntries.length === 0);
+      var vis = monthGroups[j].querySelectorAll('.post-entry:not(.hidden)');
+      monthGroups[j].classList.toggle('hidden', vis.length === 0);
     }
-
     noResults.style.display = visible === 0 ? 'block' : 'none';
-    resultInfo.textContent = term !== ''
-      ? visible + ' von ' + entries.length + ' Beiträgen'
-      : '';
+    resultInfo.textContent = term !== '' ? visible + ' von ' + entries.length + ' Beiträgen' : '';
   }
 </script>
