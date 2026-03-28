@@ -225,7 +225,7 @@ var epochs = [
     pat:null,
     mat:{group:"H41a9",lat:46.5,lng:14.8,info:"<strong>Österreich/Kroatien</strong> – mütterlicher Ursprung in der Pilz-Chronik.", highlight:true} },
   { year:"1590 n. Chr.", num:1590, phase:5,
-    pat:{group:"J-FT159612",lat:50.65,lng:13.3,info:"<strong>Abraham Pilz, geb. ca. 1590, Erzgebirge</strong> – väterlicher Ursprung in der Pilz-Chronik.", highlight:true},
+    pat:{group:"J-FT159612",lat:50.65,lng:13.3,info:"<strong>Erzgebirge</strong> – ältester nachweisbarer Pilz-Vorfahre der väterlichen Linie.", highlight:true},
     mat:null }
 ];
 
@@ -287,6 +287,10 @@ function moveCamera(phase) {
   dnaMap.flyTo([cam.lat, cam.lng], cam.zoom, { duration: 1.8, easeLinearity: 0.25 });
 }
 
+// ----------------------------------------------------------
+// PANEL: Zeigt IMMER den letzten Stand beider Linien.
+// Volle Sichtbarkeit, kein Ausgrauen, kein Opacity-Wechsel.
+// ----------------------------------------------------------
 function updatePanels(ep) {
   var pg = document.getElementById('pat-group');
   var py = document.getElementById('pat-year');
@@ -297,36 +301,28 @@ function updatePanels(ep) {
   var pp = document.getElementById('panel-pat');
   var mp = document.getElementById('panel-mat');
 
-  if (ep.pat) {
-    var pc = ep.pat.highlight ? END : PAT;
+  // Väterlich: immer letzten Stand zeigen, volle Sichtbarkeit
+  var patData = ep.pat || lastPat;
+  if (patData) {
+    var pc = patData.highlight ? END : PAT;
     pp.style.opacity = '1';
     pp.style.borderLeftColor = pc;
-    pg.textContent = ep.pat.group;
+    pg.textContent = patData.group;
     pg.style.color = pc;
-    py.textContent = ep.year;
-    pi.innerHTML = ep.pat.info;
-  } else {
-    pp.style.opacity = '0.35';
-    pg.textContent = lastPat ? lastPat.group : '—';
-    pg.style.color = '#aaa';
-    py.textContent = '';
-    pi.innerHTML = '<em style="color:#aaa;">Keine Station in dieser Epoche</em>';
+    py.textContent = patData.lastYear || ep.year;
+    pi.innerHTML = patData.info;
   }
 
-  if (ep.mat) {
-    var mc = ep.mat.highlight ? END : MAT;
+  // Mütterlich: immer letzten Stand zeigen, volle Sichtbarkeit
+  var matData = ep.mat || lastMat;
+  if (matData) {
+    var mc = matData.highlight ? END : MAT;
     mp.style.opacity = '1';
     mp.style.borderLeftColor = mc;
-    mg.textContent = ep.mat.group;
+    mg.textContent = matData.group;
     mg.style.color = mc;
-    my_.textContent = ep.year;
-    mi.innerHTML = ep.mat.info;
-  } else {
-    mp.style.opacity = '0.35';
-    mg.textContent = lastMat ? lastMat.group : '—';
-    mg.style.color = '#aaa';
-    my_.textContent = '';
-    mi.innerHTML = '<em style="color:#aaa;">Keine Station in dieser Epoche</em>';
+    my_.textContent = matData.lastYear || ep.year;
+    mi.innerHTML = matData.info;
   }
 
   document.getElementById('epoch-label').textContent =
@@ -370,6 +366,7 @@ function animateStep(i) {
     var m = addDot(ep.pat.lat, ep.pat.lng, pc, sz, ep.pat.info, ep.pat.group, ep.year);
     patMarkers.push(m);
     if (ep.pat.highlight) setTimeout(function(){ m.openPopup(); }, 800);
+    ep.pat.lastYear = ep.year; // Jahreszahl merken für Panel
     lastPat = ep.pat;
   }
 
@@ -385,6 +382,7 @@ function animateStep(i) {
     var m2 = addDot(ep.mat.lat, ep.mat.lng, mc, sz2, ep.mat.info, ep.mat.group, ep.year);
     matMarkers.push(m2);
     if (ep.mat.highlight) setTimeout(function(){ m2.openPopup(); }, 800);
+    ep.mat.lastYear = ep.year; // Jahreszahl merken für Panel
     lastMat = ep.mat;
   }
 
