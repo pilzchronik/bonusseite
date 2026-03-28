@@ -10,6 +10,7 @@ excerpt: >
   in Dörnthal und Freiberg: zwei Gerichtsbuch-Einträge (1558, 1562), drei Bände Gerichtshandelsbücher
   (1550–1701), die Verbindung nach Freiberg und der aktuelle Forschungsstand nach Auskunft des
   Stadtarchivs Freiberg (24. Februar 2026).
+published: false
 status: vorläufig
 stand_vom: 2026-02-25
 ---

@@ -4,7 +4,7 @@ date: 2026-01-24
 tags: [Hintergrund]
 author: Wolfgang Pilz
 published: false
-status: aktuell
+status: überholt
 stand_vom: 2026-01-24
 ---
 

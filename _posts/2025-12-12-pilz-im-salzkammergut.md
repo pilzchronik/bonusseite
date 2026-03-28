@@ -4,9 +4,9 @@ title: "Der Name Pilz in Österreich — Sachsen als gemeinsamer Ausgangspunkt?"
 date: 2025-12-12
 last_updated: 2026-03-03
 tags: [Neue Funde]
+published: false
 status: vorläufig
 stand_vom: 2025-12-12
-published: false
 ---
 
 > **Transparenzhinweis:** Dieser Text wurde von **Claude (Anthropic)** auf Grundlage von Daten, Quellen und Vorgaben von Wolfgang Pilz erstellt. Er fasst den aktuellen Forschungsstand zusammen, ersetzt aber keine wissenschaftliche Publikation. Eine frühere Version (Dezember 2025) enthielt Ungenauigkeiten, die hier korrigiert sind — insbesondere wurde die eigene Familienlinie fälschlich mit dem Salzkammergut verknüpft.

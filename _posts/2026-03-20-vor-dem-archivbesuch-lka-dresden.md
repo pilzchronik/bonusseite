@@ -3,6 +3,7 @@ layout: post
 title: "Vor dem Archivbesuch: Kirchenbücher im Landeskirchlichen Archiv Dresden"
 date: 2026-03-20
 permalink: /vor-dem-archivbesuch-lka-dresden/
+published: false
 status: vorläufig
 stand_vom: 2026-03-20
 betrifft: Band2

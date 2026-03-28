@@ -8,6 +8,7 @@ excerpt: >
   GB AG Sayda Nr. 020, S. 201 (02.02.1617): Joseph Pültz erscheint vor Gericht
   wegen seiner verstorbenen Frau Sybilla. Ihre Lesungen wurden von einer
   Paläographie-Expertin bestätigt. Abrahams Mutter bleibt vorerst unbekannt.
+published: false
 status: vorläufig
 stand_vom: 2026-03-01
 ---

@@ -3,6 +3,7 @@ layout: post
 title: "Fünfzehn Gerichtsbücher — was die Suche ergeben hat"
 date: 2026-03-05
 permalink: /gerichtsbuch-suche-2026/
+published: false
 status: vorläufig
 stand_vom: 2026-03-05
 betrifft: Band1
