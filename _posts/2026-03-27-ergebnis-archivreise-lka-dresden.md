@@ -82,7 +82,7 @@ Dies ist der Punkt, an dem die Archivreise die bisherige Forschung auf dieser Bo
 
 Gestützt auf den Gerichtsbuch-Eintrag von 1620 (GB AG Sayda Nr. 020, L772), hatte ich im März 2026 veröffentlicht, dass **Joseph Pültz** — nicht Jobst — Abrahams Vater sei. Die Argumentation war: Abraham wird im Erbvergleich als Erbe des „Joseph" genannt, also ist Joseph der Vater. Jobst und Joseph seien zwei verschiedene Personen. Die gedruckte Chronik müsse entsprechend korrigiert werden.
 
-→ Beiträge: [Jobst und Joseph — eine folgenreiche Verwechslung]({{ '/jobst-joseph-verwechslung/' | relative_url }}), [Korrekturen & Ergänzungen]({{ '/korrekturen/' | relative_url }})
+→ Beiträge: [Generationentabelle Familie Pültz/Pilz, Dörnthal]({{ '/doernthal-generationentabelle/' | relative_url }}), [Korrekturen & Ergänzungen]({{ '/korrekturen/' | relative_url }})
 
 ### Was die Kirchenbücher zeigen
 
