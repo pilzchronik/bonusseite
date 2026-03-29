@@ -59,6 +59,17 @@ stand_vom: 2026-03-27
 
 <p class="errata-stand">Stand: 27. März 2026</p>
 
+## Berichtigungen
+<div class="errata-eintrag">
+  <h3>Band 1, S. 57 — Übersiedlung nach Innsbruck</h3>
+  <p>Gedruckt: Übersiedlung nach Innsbruck 1953.</p>
+  <p><strong>Korrektur:</strong> Die Übersiedlung erfolgte <strong>1951</strong>, nicht 1953.</p>
+</div>
+<div class="errata-eintrag">
+  <h3>Band 1, S. 63 — Bildunterschrift Bild 41 (Erhard beim Bundesheer)</h3>
+  <p>Gedruckt: Bildunterschrift ohne Jahreszahl.</p>
+  <p><strong>Ergänzung:</strong> Bild 41 zeigt Erhard Pilz beim österreichischen Bundesheer. Aufnahme aus dem Jahr <strong>1963</strong>.</p>
+</div>
 ## Neue Erkenntnisse — Archivreise LKA Dresden, März 2026
 
 <div class="errata-hinweis" style="border-left-color:#a0522d; background:#fdf6f0;">
