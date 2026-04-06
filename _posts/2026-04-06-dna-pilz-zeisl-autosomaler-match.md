@@ -35,8 +35,8 @@ Die Familie Zeisl stammt aus Rozsochy in Böhmen. Mehrere Familienmitglieder wur
 
 ## Vollständige Dokumentation
 
-Die vollständige Dokumentation — Stammbaum, DNA-Befund, Triangulation, Herkunftsorte, historische Schicksale und offene Forschungsfragen — ist auf einer eigenen Seite zusammengefasst:
+Die vollständige Dokumentation — Stammbaum, DNA-Befund, Triangulation, Herkunftsorte, historische Schicksale und offene Forschungsfragen — wird auf einer eigenen Seite zusammengefasst (in Vorbereitung).
 
-[DNA-Matches Pilz — Forschungsstand April 2026](/dna-matches/)
+Hintergrund zu unseren DNA-Ergebnissen: [DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern](/dna-analyse/)
 
-Diese Seite wird laufend aktualisiert. Hinweise von Mitforschern sind willkommen.
+Hinweise von Mitforschern sind willkommen.
