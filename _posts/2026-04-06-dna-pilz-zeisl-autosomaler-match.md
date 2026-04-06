@@ -4,7 +4,7 @@ title: "Autosomale DNA: Pilz und Zeisl — eine jüdisch-böhmische Verbindung"
 date: 2026-04-06
 permalink: /dna-pilz-zeisl-autosomaler-match/
 status: vorläufig
-stand_vom: 2026-04-06
+stand_vom: 2026-04-05
 betrifft: DNA
 tags: [DNA, autosomale, Zeisl, Böhmen, GEDmatch, Triangulation]
 ---
