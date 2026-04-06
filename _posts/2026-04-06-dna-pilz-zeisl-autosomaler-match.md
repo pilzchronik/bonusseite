@@ -1,7 +1,13 @@
+Öffne die Datei:
+_posts/2026-04-05-dna-pilz-zeisl-autosomaler-match.md
+
+Ersetze den gesamten Inhalt der Datei durch folgenden Text 
+(Front Matter und Inhalt komplett):
+
 ---
 layout: post
 title: "Autosomale DNA: Pilz und Zeisl — eine jüdisch-böhmische Verbindung"
-date: 2026-04-06
+date: 2026-04-05
 permalink: /dna-pilz-zeisl-autosomaler-match/
 status: vorläufig
 stand_vom: 2026-04-05
@@ -9,45 +15,36 @@ betrifft: DNA
 tags: [DNA, autosomale, Zeisl, Böhmen, GEDmatch, Triangulation]
 ---
 
-Die auf dieser Seite vorgestellten DNA-Ergebnisse betreffen die Haplogruppen —
-also die uralten Linien der väterlichen und mütterlichen Vererbung. Es gibt aber
-noch eine dritte Art von DNA-Test: den autosomalen Test (Family Finder bei
-FamilyTreeDNA). Er erfasst das gesamte Erbgut, das von beiden Elternteilen
-stammt, und kann Verwandte bis etwa zur 5. Cousinenstufe identifizieren.
+## Der dritte DNA-Test
 
-Ein solcher Test lieferte ein überraschendes Ergebnis: Seit Jahren zeigt die
-Datenbank von GEDmatch einen starken Match zwischen meinem Kit (QU4148768) und
-dem Kit von Walter Steven Zeisl (T405845) aus den USA — einem Nachkommen einer
-jüdisch-böhmischen Familie, deren bekanntestes Mitglied der Komponist
-Erich Zeisl (1905–1959) war.
+Die auf dieser Seite vorgestellten DNA-Ergebnisse betreffen die Haplogruppen — also die uralten Linien der väterlichen und mütterlichen Vererbung. Es gibt aber noch eine dritte Art von DNA-Test: den autosomalen Test (Family Finder bei FamilyTreeDNA). Er erfasst das gesamte Erbgut, das von beiden Elternteilen stammt, und kann Verwandte bis etwa zur 5. Cousinenstufe identifizieren.
 
-Erst 2026 begann die systematische Auswertung. Das Ergebnis: Auf Chromosom 9
-teilen wir ein zusammenhängendes Segment von 29,1 cM — das ist ein klares
-Zeichen echter Verwandtschaft, kein statistisches Rauschen. Die
-MRCA-Berechnung setzt den gemeinsamen Vorfahren auf etwa 4,3 Generationen
-zurück, also in den Zeitraum 1830–1870.
+## Der Match mit der Familie Zeisl
 
-Noch aussagekräftiger: Auf GEDmatch finden sich 43 Personen, die sowohl mit
-mir als auch mit Zeisl verwandt sind. Mehrere davon teilen dasselbe Segment
-auf Chromosom 9 — sie bilden eine Triangulationsgruppe, was die Verwandtschaft
-zusätzlich absichert.
+Ein solcher Test lieferte ein überraschendes Ergebnis: Seit Jahren zeigt die Datenbank von GEDmatch einen starken Match zwischen meinem Kit (QU4148768) und dem Kit von Walter Steven Zeisl (T405845) aus den USA — einem Nachkommen einer jüdisch-böhmischen Familie, deren bekanntestes Mitglied der Komponist Erich Zeisl (1905–1959) war.
 
-Die Verbindung führt mit hoher Wahrscheinlichkeit über meine Vorfahrin Theresia
-(Kekulé-Nr. 69), die 1768 in Amschelberg (Košová Hora) vom Judentum zum
-Katholizismus konvertierte. Über ihre jüdische Familie war bisher nichts
-bekannt. Die DNA-Matches eröffnen nun erstmals die Möglichkeit, diese Linie
-zu erforschen.
+## Das Chromosom-9-Segment
 
-Die Familie Zeisl stammt aus Rozsochy in Böhmen. Mehrere Familienmitglieder
-wurden im Holocaust ermordet — Siegmund und Malvine Zeisl in Treblinka,
-Ediths Eltern in Auschwitz. Erich Zeisls Tochter Barbara heiratete Ronald
-Schönberg, den Sohn des Komponisten Arnold Schönberg.
+Erst 2026 begann die systematische Auswertung. Das Ergebnis: Auf Chromosom 9 teilen wir ein zusammenhängendes Segment von 29,1 cM — das ist ein klares Zeichen echter Verwandtschaft, kein statistisches Rauschen. Die MRCA-Berechnung setzt den gemeinsamen Vorfahren auf etwa 4,3 Generationen zurück, also in den Zeitraum 1830–1870.
 
-Die vollständige Dokumentation — Stammbaum, DNA-Befund, Triangulation,
-Herkunftsorte, historische Schicksale und offene Forschungsfragen — ist auf
-einer eigenen Seite zusammengefasst:
+## Triangulationsgruppe
 
-→ [DNA-Matches Pilz — Forschungsstand April 2026](/dna-matches/)
+Noch aussagekräftiger: Auf GEDmatch finden sich 43 Personen, die sowohl mit mir als auch mit Zeisl verwandt sind. Mehrere davon teilen dasselbe Segment auf Chromosom 9 — sie bilden eine Triangulationsgruppe, was die Verwandtschaft zusätzlich absichert.
 
-Diese Seite wird laufend aktualisiert. Hinweise von Mitforschern sind
-willkommen.
+## Die Verbindung: Theresia (Kekulé-Nr. 69)
+
+Die Verbindung führt mit hoher Wahrscheinlichkeit über meine Vorfahrin Theresia (Kekulé-Nr. 69), die 1768 in Amschelberg (Košová Hora) vom Judentum zum Katholizismus konvertierte. Über ihre jüdische Familie war bisher nichts bekannt. Die DNA-Matches eröffnen nun erstmals die Möglichkeit, diese Linie zu erforschen.
+
+## Die Familie Zeisl
+
+Die Familie Zeisl stammt aus Rozsochy in Böhmen. Mehrere Familienmitglieder wurden im Holocaust ermordet — Siegmund und Malvine Zeisl in Treblinka, Ediths Eltern in Auschwitz. Erich Zeisls Tochter Barbara heiratete Ronald Schönberg, den Sohn des Komponisten Arnold Schönberg.
+
+## Vollständige Dokumentation
+
+Die vollständige Dokumentation — Stammbaum, DNA-Befund, Triangulation, Herkunftsorte, historische Schicksale und offene Forschungsfragen — ist auf einer eigenen Seite zusammengefasst:
+
+[DNA-Matches Pilz — Forschungsstand April 2026](/dna-matches/)
+
+Diese Seite wird laufend aktualisiert. Hinweise von Mitforschern sind willkommen.
+
+Datei speichern. Keine anderen Änderungen vornehmen.
