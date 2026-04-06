@@ -8,11 +8,6 @@ stand_vom: 2026-04-05
 betrifft: DNA
 tags: [DNA, autosomale, Zeisl, Böhmen, GEDmatch, Triangulation]
 ---
-Öffne die Datei:
-_posts/2026-04-05-dna-pilz-zeisl-autosomaler-match.md
-
-Ersetze den gesamten Inhalt nach dem zweiten --- (also alles nach dem 
-Front Matter) durch folgenden Text — exakt so, mit den Leerzeilen:
 
 Die auf dieser Seite vorgestellten DNA-Ergebnisse betreffen die Haplogruppen —
 also die uralten Linien der väterlichen und mütterlichen Vererbung. Es gibt aber
