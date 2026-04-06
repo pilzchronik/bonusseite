@@ -1,16 +1,10 @@
-Öffne die Datei:
-_posts/2026-04-05-dna-pilz-zeisl-autosomaler-match.md
-
-Ersetze den gesamten Inhalt der Datei durch folgenden Text 
-(Front Matter und Inhalt komplett):
-
 ---
 layout: post
 title: "Autosomale DNA: Pilz und Zeisl — eine jüdisch-böhmische Verbindung"
-date: 2026-04-05
+date: 2026-04-06
 permalink: /dna-pilz-zeisl-autosomaler-match/
 status: vorläufig
-stand_vom: 2026-04-05
+stand_vom: 2026-04-06
 betrifft: DNA
 tags: [DNA, autosomale, Zeisl, Böhmen, GEDmatch, Triangulation]
 ---
@@ -46,5 +40,3 @@ Die vollständige Dokumentation — Stammbaum, DNA-Befund, Triangulation, Herkun
 [DNA-Matches Pilz — Forschungsstand April 2026](/dna-matches/)
 
 Diese Seite wird laufend aktualisiert. Hinweise von Mitforschern sind willkommen.
-
-Datei speichern. Keine anderen Änderungen vornehmen.
