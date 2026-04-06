@@ -100,6 +100,11 @@ stand_vom: 2026-03-27
 </div>
 
 <div class="errata-eintrag errata-eintrag--erkenntnis">
+  <h3>Band 2, S. 91–96 (DNA-Kapitel)</h3>
+  <p>Stand überholt. Erweiterte Fassung mit aktuellen Ergebnissen ist geplant.</p>
+</div>
+
+<div class="errata-eintrag errata-eintrag--erkenntnis">
   <h3>Neu — Stammlinie über sechs Generationen gesichert</h3>
   <p>Die direkte väterliche Linie ist nun lückenlos durch Primärquellen (Tauf- und Heiratsregister, EVLKS-Bestand Marienberg) belegt:</p>
   <p><strong>Jobst Pültz → Abraham Pilz (*&nbsp;Aug. 1591) → Michael Piltz (*&nbsp;13.7.1617) → Samuel Pilz (*&nbsp;2.3.1654) → Samuel Pilz (*&nbsp;13.1.1683) → Christian Gottlob Pilz (ca. 24.3.1712)</strong></p>
