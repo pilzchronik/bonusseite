@@ -7,7 +7,7 @@ tags: [Korrekturen]
 excerpt: "Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte."
 pinned: true
 status: aktuell
-stand_vom: 2026-03-27
+stand_vom: 2026-04-09
 ---
 
 <style>
@@ -57,7 +57,7 @@ stand_vom: 2026-03-27
   <script>(function(){var a="pilz",b="gmx.at",e=document.getElementById("errata-mail");if(e)e.innerHTML='<a href="mailto:'+a+"@"+b+'">'+a+"@"+b+"</a>";})()</script>
 </div>
 
-<p class="errata-stand">Stand: 27. März 2026</p>
+<p class="errata-stand">Stand: 9. April 2026</p>
 
 ## Berichtigungen
 <div class="errata-eintrag">
@@ -102,6 +102,13 @@ stand_vom: 2026-03-27
 <div class="errata-eintrag errata-eintrag--erkenntnis">
   <h3>Band 2, S. 91–96 (DNA-Kapitel)</h3>
   <p>Stand überholt. Erweiterte Fassung mit aktuellen Ergebnissen ist geplant.</p>
+</div>
+
+<div class="errata-eintrag errata-eintrag--erkenntnis">
+  <h3>Band 1, S. 39 / Band 2, S. 91–96 — Ergänzung: Miskowitz / Myslkovice</h3>
+  <p>In Miskowitz (Myslkovice, Bezirk Tábor, Südböhmen) — dem Herkunftsort von Theresia (geb. Pessel, Kekulé 69, direkte Vorfahrin des Autors) — sind im Census 1869 eine Familie Zeisl (Haus XVI) und eine Familie Bloch (Haus 56) nachgewiesen.</p>
+  <p>Dies ist ein <strong>Indiz</strong> für eine geographische Überschneidung zwischen dem Herkunftsort Theresias und einem Wohnort der Zeisl-Familie. Ein direkter verwandtschaftlicher Zusammenhang ist damit noch nicht bewiesen.</p>
+  <p>→ <a href="https://pilzchronik.github.io/dna-matches/#herkunftsorte">Details auf der DNA-Matches-Seite</a></p>
 </div>
 
 <div class="errata-eintrag errata-eintrag--erkenntnis">
