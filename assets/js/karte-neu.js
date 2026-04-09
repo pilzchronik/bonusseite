@@ -86,7 +86,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Chlum", lat: 49.701667, lon: 14.378333, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Heirat Philipp Bechinie (Kekulé 68), 22.10.1769.", ref: "Bd. 2, S. 22"},
         {name: "Bielschitz", lat: 49.843333, lon: 14.808333, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Bělčice. Philipp Bechinie arbeitete hier als 83-jähriger Jäger.", ref: "Bd. 2, S. 22"},
         {name: "Amschelberg", lat: 49.6558, lon: 14.4744, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Eine der ältesten Siedlungen Böhmens, 60 km südlich von Prag. Hier lebte Theresia, die jüdische Vorfahrin der Bechinie-Linie; sie wurde 1768 getauft – mit den Eltern des späteren Feldmarschalls Radetzky als Taufpaten.", ref: "Bd. 1, S. 39"},
-        {name: "Bechyně", lat: 49.2972, lon: 14.4708, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Bezirk Tabor. Namensgeber der Familie Bechinie?", ref: "Bd. 1"},
+
+        {name: "Miskowitz", lat: 49.2500, lon: 14.9500, kategorie: "Pilz-Linie", region: "Südböhmen", beschreibung: "Myslkovice (Bezirk Tábor). Jüdische Gemeinde mit Ghetto (seit Ende 17. Jh.), 37 Familianten, Synagoge seit 1770. Herkunftsort von Pessel/Theresia (Kekulé 69, geb. ca. 1735), die ca. 1764 nach Amschelberg einheiratete. Familie Zeisl im Census 1869 (Haus XVI) nachgewiesen – erster Nachweis einer geographischen Überschneidung beider Linien. Auch Familie Bloch (Haus 56) dort belegt.", ref: ""},
         {name: "Prag", lat: 50.0875, lon: 14.4214, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Böhmische Landeshauptstadt.", ref: "Bd. 1"},
 
         // --- Österreich (Pilz) ---
