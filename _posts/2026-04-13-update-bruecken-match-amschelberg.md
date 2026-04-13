@@ -9,7 +9,7 @@ betrifft: DNA, Ahnenforschung
 tags: [DNA, Zeisl, Fürth, Jablonsky, Amschelberg, Košová Hora, Myslkovice, Rot Hradek, GEDmatch, Census]
 ---
 
-Eine Woche nach dem [ersten Bericht über den Zeisl-Match](/dna-pilz-zeisl-autosomaler-match/) sind drei neue Befunde dazugekommen, die die Spurensuche in Amschelberg deutlich schärfer machen.
+Eine Woche nach dem [ersten Bericht über den Zeisl-Match](/bonusseite/dna-pilz-zeisl-autosomaler-match/) sind drei neue Befunde dazugekommen, die die Spurensuche in Amschelberg deutlich schärfer machen.
 
 ## Ein Brücken-Match: Jeanette Stein
 
@@ -43,4 +43,4 @@ Die nächsten Schritte sind: den Brief an Jeanette Stein absenden, die Familiant
 
 Hinweise von Mitforschern sind willkommen.
 
-Zur Einordnung: [Der erste Bericht zum Zeisl-Match](/dna-pilz-zeisl-autosomaler-match/) · [DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern](/dna-analyse/)
+Zur Einordnung: [Der erste Bericht zum Zeisl-Match](/bonusseite/dna-pilz-zeisl-autosomaler-match/) · [DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern](/bonusseite/dna-analyse/)
