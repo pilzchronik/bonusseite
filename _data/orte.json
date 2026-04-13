@@ -18,7 +18,7 @@
   {"name": "Sebastiansberg", "kategorie": "Pilz-Linie", "region": "Böhmen", "beschreibung": "Bergstadt. Tod Franziska Pilz 1921 (Kekulé 9).", "ref": "Bd. 1, S. 35"},
   {"name": "Platten", "kategorie": "Pilz-Linie", "region": "Böhmen", "beschreibung": "Blatno. Vinzenz Wenzel Pilz (Kekulé 16) war hier Revierjäger.", "ref": "Bd. 2, S. 18"},
   {"name": "Eidlitz", "kategorie": "Pilz-Linie", "region": "Böhmen", "beschreibung": "Údlice bei Chomutov. V.W. Pilz (Kekulé 16), Förster, gest. 29.3.1863.", "ref": "Bd. 2, S. 18"},
-  {"name": "Schloss Rothenhaus", "kategorie": "Pilz-Linie", "region": "Böhmen", "beschreibung": "Dienstsitz der herrschaftlichen Förster (Grafen Buquoy).", "ref": "Bd. 1, S. 32"},
+  {"name": "Schloss Rothenhaus", "kategorie": "Pilz-Linie", "region": "Böhmen", "beschreibung": "Červený Hrádek bei Jirkov (Nordböhmen). Dienstsitz der herrschaftlichen Förster (Grafen Buquoy). Nicht zu verwechseln mit Rot Hradek bei Amschelberg (Mittelböhmen).", "ref": "Bd. 1, S. 32"},
   {"name": "Libeschitz", "kategorie": "Pilz-Linie", "region": "Böhmen", "beschreibung": "Wirkungsstätte Lehrer Friedrich August Pilz (Kekulé 64), gest. 1812.", "ref": "Bd. 1, S. 39"},
   {"name": "Joachimsthal", "kategorie": "Pilz-Linie", "region": "Böhmen", "beschreibung": "Ausbildung von Alois Johann Pilz.", "ref": "Bd. 1"},
   {"name": "Komotau", "kategorie": "Pilz-Linie", "region": "Böhmen", "beschreibung": "Chomutov. Bezirkshauptstadt.", "ref": "Bd. 1"},
@@ -36,6 +36,7 @@
   {"name": "Chlum", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Heirat Philipp Bechinie (Kekulé 68), 22.10.1769.", "ref": "Bd. 2, S. 22"},
   {"name": "Bielschitz", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Bělčice. Philipp Bechinie arbeitete hier als 83-jähriger Jäger.", "ref": "Bd. 2, S. 22"},
   {"name": "Amschelberg", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Kosova Hora. Taufe Theresia/Apollonia; jüdische Gemeinde.", "ref": "Bd. 1, S. 39"},
+  {"name": "Rot Hradek (Amschelberg)", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Červený Hrádek u Sedlčan (Bezirk Příbram). Herrschaftssitz der Hradetzky, die 1768 als Taufpaten Theresias fungierten. Zugleich Registrationsort der jüdischen Fürth-Familianten (JewishGen, Berounský Kreis) — geographischer Kreuzungspunkt jüdischer und christlicher Genealogie. Nicht zu verwechseln mit Schloss Rothenhaus (Červený Hrádek u Jirkova, Nordböhmen).", "ref": ""},
 
   {"name": "Miskowitz", "kategorie": "Pilz-Linie", "region": "Südböhmen", "beschreibung": "Myslkovice (Bezirk Tábor). Jüdische Gemeinde mit Ghetto (seit Ende 17. Jh.), 37 Familianten, Synagoge seit 1770. Herkunftsort von Pessel/Theresia (Kekulé 69, geb. ca. 1735). Familie Zeisl und Bloch im Census 1869 nachgewiesen.", "ref": ""},
   {"name": "Prag", "kategorie": "Pilz-Linie", "region": "Böhmen", "beschreibung": "Böhmische Landeshauptstadt.", "ref": "Bd. 1"},
