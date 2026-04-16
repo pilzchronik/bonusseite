@@ -42,10 +42,15 @@ title: Startseite
     <p>Familiengeschichte im Zeitstrahl — von den genetischen Ursprüngen bis zur Gegenwart.</p>
   </a>
 
-  <a href="{{ '/dna-analyse/' | relative_url }}" class="nav-card">
+  <div class="nav-card">
     <h3>DNA-Analyse</h3>
     <p>Haplogruppen und was die Genetik über die Familienherkunft sagt.</p>
-  </a>
+    <p style="margin-top: 10px; margin-bottom: 0;">
+      <a href="{{ '/dna-analyse/' | relative_url }}" style="display: block; margin-bottom: 6px; font-size: 0.88em;">→ Haplogruppen &amp; Migrationsrouten</a>
+      <a href="https://pilzchronik.github.io/dna-matches/" style="display: block; font-size: 0.88em;">→ DNA-Matches Pilz–Zeisl</a>
+      <span style="display: block; font-size: 0.78em; color: #999; margin-top: 3px;">Stärkster Treffer bei FTDNA — autosomale Verwandtschaftsforschung</span>
+    </p>
+  </div>
 
   <a href="{{ '/stammbaum/' | relative_url }}" class="nav-card">
     <h3>Personen &amp; Familien</h3>

@@ -101,7 +101,8 @@ stand_vom: 2026-04-09
 
 <div class="errata-eintrag errata-eintrag--erkenntnis">
   <h3>Band 2, S. 91–96 (DNA-Kapitel)</h3>
-  <p>Stand überholt. Erweiterte Fassung mit aktuellen Ergebnissen ist geplant.</p>
+  <p>Stand überholt. Die erweiterte Dokumentation der autosomalen DNA-Analyse — einschließlich des stärksten Treffers (Familie Zeisl, Wien) — ist auf einer eigenen Seite veröffentlicht:</p>
+  <p>→ <a href="https://pilzchronik.github.io/dna-matches/">DNA-Matches Pilz–Zeisl</a></p>
 </div>
 
 <div class="errata-eintrag errata-eintrag--erkenntnis">

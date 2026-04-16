@@ -108,6 +108,10 @@ H41a9 ist eine sehr seltene Unterlinie mit östlicher Herkunft. Der spezifische 
   (Böhmen – Deutschland – Österreich)
 </div>
 
+Der stärkste autosomale Treffer bei FamilyTreeDNA ist die Wiener Familie Zeisl — eine jüdische Familie mit Wurzeln im selben böhmischen Raum wie Theresia (Kekulé 69), die 1768 in Amschelberg konvertierte. Die systematische Auswertung dieses Fundes ist auf einer eigenen Seite dokumentiert:
+
+→ [DNA-Matches Pilz–Zeisl](https://pilzchronik.github.io/dna-matches/) — Triangulation, Stammbäume, Herkunftsorte und offene Fragen.
+
 ## Zusammenfassung
 
 Diese drei Ergebnisse ergeben ein stimmiges Bild: alte Linien aus dem Nahen Osten und der Bronzezeit gelangen über den Balkan nach Mitteleuropa und sind in historischer Zeit in den mitteleuropäischen Populationen wiederzufinden — genau dort, wo die schriftlichen Quellen die Familie Pilz verorten.
