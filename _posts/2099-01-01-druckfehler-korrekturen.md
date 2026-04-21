@@ -7,7 +7,7 @@ tags: [Korrekturen]
 excerpt: "Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte."
 pinned: true
 status: aktuell
-stand_vom: 2026-04-09
+stand_vom: 2026-04-21
 ---
 
 <style>
@@ -57,7 +57,7 @@ stand_vom: 2026-04-09
   <script>(function(){var a="pilz",b="gmx.at",e=document.getElementById("errata-mail");if(e)e.innerHTML='<a href="mailto:'+a+"@"+b+'">'+a+"@"+b+"</a>";})()</script>
 </div>
 
-<p class="errata-stand">Stand: 9. April 2026</p>
+<p class="errata-stand">Stand: 21. April 2026</p>
 
 ## Berichtigungen
 <div class="errata-eintrag">
@@ -69,6 +69,11 @@ stand_vom: 2026-04-09
   <h3>Band 1, S. 63 — Bildunterschrift Bild 41 (Erhard beim Bundesheer)</h3>
   <p>Gedruckt: Bildunterschrift ohne Jahreszahl.</p>
   <p><strong>Ergänzung:</strong> Bild 41 zeigt Erhard Pilz beim österreichischen Bundesheer. Aufnahme aus dem Jahr <strong>1963</strong>.</p>
+</div>
+<div class="errata-eintrag">
+  <h3>Band 2, S. 95 — Big-Y-Match in den USA: Zeittiefe präzisiert</h3>
+  <p>Gedruckt: Eine genetische Verbindung zu M.&nbsp;T.&nbsp;W. aus den USA wurde über den Big-Y-Test entdeckt; der gemeinsame Vorfahre habe „vor mehreren hundert Jahren" gelebt. Als Erklärung für den unterschiedlichen Nachnamen wurden Migration, Adoption oder uneheliche Geburt erwogen.</p>
+  <p><strong>Korrektur:</strong> Über den Big-Y-Test wurde zusätzlich ein einzelner Match in den USA identifiziert; der gemeinsame Vorfahr lebte allerdings rund <strong>3.000 Jahre zurück</strong> und liegt damit weit jenseits jeder urkundlich rekonstruierbaren Verwandtschaft.</p>
 </div>
 ## Neue Erkenntnisse — Archivreise LKA Dresden, März 2026
 
