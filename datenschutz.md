@@ -9,7 +9,7 @@ Diese Website ist ein privates, nicht-kommerzielles Hobbyprojekt. Ich erhebe, sp
 Die Seite nutzt allerdings externe Dienste, bei denen beim Aufruf technische Verbindungsdaten (z.&nbsp;B. IP-Adresse) anfallen können. Was diese Anbieter mit solchen Daten tun, liegt außerhalb meiner Kenntnis und meines Einflusses. Bewusst verwendet werden folgende Dienste:
 
 - **GitHub Pages** (Hosting der Website): [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-privacy-statement)
-- **Chatling** (Chat-Widget): [Chatling Privacy Policy](https://chatling.ai/privacy-policy)
+- **Chatling** (Chat-Widget): Eingaben in das Chat-Feld werden zur Beantwortung an Chatling (Server in den Niederlanden, Unternehmen in Kanada) und von dort an OpenAI (USA) übermittelt. Bitte gib im Chat keine sensiblen personenbezogenen Daten ein. [Chatling Privacy Policy](https://chatling.ai/privacy-policy)
 - **OpenStreetMap** (Kartenkacheln): [OSM Privacy Policy](https://wiki.osmfoundation.org/wiki/Privacy_Policy)
 - **Leaflet / unpkg.com** (Karten-Software): [unpkg](https://unpkg.com)
 - **Nominatim** (Ortssuche auf der Karte): betrieben von der OpenStreetMap Foundation
