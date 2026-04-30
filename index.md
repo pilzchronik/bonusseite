@@ -21,11 +21,15 @@ title: Startseite
   <div class="bwm-hero-right">
     <p class="bwm-hero-meta">Digitale Erg&auml;nzungen</p>
     <p class="bwm-hero-lead">Korrekturen, neue Forschungsergebnisse und Materialien zu beiden B&auml;nden.</p>
-    <div class="bwm-hero-bands">
-      <p>Band 1<span class="bwm-band-desc">Erz&auml;hlung der Familiengeschichte</span></p>
-      <p>Band 2 &middot; Erg&auml;nzungen<span class="bwm-band-desc">Ahnentafel, Transkriptionen, DNA-Funde, offene Hypothesen</span></p>
+    <div class="bwm-chat-hint">
+      <p class="bwm-chat-eyebrow">Chat-Assistent &mdash; eine Frage frei formulieren</p>
+      <p class="bwm-chat-text">Kennt die <em>gesamte</em> Pilz-Familienforschung &mdash; auch das, was nicht auf dieser Webseite steht (Stand M&auml;rz 2026). Antworten in S&auml;tzen, sofort.</p>
+      <p class="bwm-chat-cue">Knopf rechts unten &searr;</p>
     </div>
-    <div id="search" class="bwm-search" style="margin-top: 12px;"></div>
+
+    <p class="bwm-hero-meta" style="margin-top: 4px;">Stichwort-Suche &mdash; auf dieser Webseite st&ouml;bern</p>
+    <p class="bwm-hero-search-text">Findet Personen, Orte und Themen in den Beitr&auml;gen, der Werkstatt und den Nachweisen.</p>
+    <div id="search" class="bwm-search" style="margin-top: 6px;"></div>
   </div>
 </section>
 

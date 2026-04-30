@@ -243,6 +243,48 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   line-height: 1.4;
 }
 
+/* Erklaer-Text unter Stichwort-Suche-Eyebrow */
+.bwm-hero-search-text {
+  font-family: var(--pc-font-body);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--pc-cremeweiss);
+  opacity: 0.85;
+  margin: 0;
+  max-width: 38ch;
+}
+
+/* Chat-Hervorhebung im Hero rechts */
+.bwm-chat-hint {
+  padding: 14px 0 14px 18px;
+  border-left: 2px solid var(--pc-altrosa);
+  max-width: 38ch;
+}
+.bwm-chat-eyebrow {
+  font-family: var(--pc-font-display);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--pc-altrosa);
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+.bwm-chat-text {
+  font-family: var(--pc-font-body);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--pc-cremeweiss);
+  margin: 0 0 6px;
+}
+.bwm-chat-cue {
+  font-family: var(--pc-font-display);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: var(--pc-cremeweiss);
+  opacity: 0.7;
+  margin: 0;
+}
+
 /* ---------- HAUPTBEREICHE (helle Buchseite) ---------- */
 .bwm-primary {
   padding: 88px 56px 64px;
@@ -374,7 +416,9 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
 /* ---------- FOOTER (Cover, dunkel) ---------- */
 .bwm-footer {
   margin-top: auto;
-  padding: 32px 56px 40px;
+  /* Mehr Platz unten, damit der fixierte Chat-Button rechts unten beim
+     Vollscroll keine Inhalte mehr verdeckt. */
+  padding: 32px 56px 110px;
   border-top: 1px solid rgba(216,132,158,0.35);
   display: flex;
   justify-content: space-between;
@@ -665,7 +709,7 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   .bwm-secondary-item { grid-template-columns: 1fr; gap: 6px; }
   .bwm-secondary-item-arrow { display: none; }
 
-  .bwm-footer { flex-direction: column; gap: 12px; padding: 24px; text-align: center; }
+  .bwm-footer { flex-direction: column; gap: 12px; padding: 24px 24px 100px; text-align: center; }
   .bwm-footer-links { justify-content: center; }
 
   .bwm-page { padding: 40px 24px 64px; }
