@@ -534,7 +534,8 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   font-size: clamp(28px, 3vw, 40px);
   letter-spacing: -0.01em;
   color: var(--pc-fg);
-  margin: 0 0 36px;
+  margin: 0 auto 36px;
+  max-width: 1180px;
 }
 
 .bwm-pinned {
@@ -566,9 +567,10 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
 .bwm-pinned a:hover { color: var(--pc-akzent); }
 
 .bwm-postsearch {
-  margin: 0 0 40px;
-  max-width: 500px;
+  margin: 0 auto 40px;
+  max-width: 1180px;
 }
+.bwm-postsearch-input { max-width: 500px; }
 .bwm-postsearch-input {
   width: 100%;
   background: var(--pc-reinweiss);
