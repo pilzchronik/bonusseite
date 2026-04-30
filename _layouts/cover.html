@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'de' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description | strip_newlines }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  {%- comment -%}
+    Master-Layout der Bonusseite (Cover-Variante).
+    Laedt das eigene Stylesheet plus das bestehende custom-head fuer
+    Pagefind-Search und etwaige seitenuebergreifende Stile.
+  {%- endcomment -%}
+  <link rel="stylesheet" href="{{ '/assets/css/bonus-master.css' | relative_url }}">
+  {%- include custom-head.html -%}
+
+  {%- feed_meta -%}
+  {%- seo -%}
+</head>
+<body class="layout-cover">
+  <div class="bwm-app">
+
+    <header class="bwm-header" role="banner">
+      <a class="bwm-brand" href="{{ '/' | relative_url }}">
+        {%- comment -%} Inline-SVG, damit currentColor das Logo in Altrosa einfaerbt {%- endcomment -%}
+        <span class="bwm-brand-logo" aria-hidden="true">
+          <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pilz-Chronik">
+            <text x="200" y="200" text-anchor="middle" dominant-baseline="central" fill="currentColor" font-family="Barlow, 'Helvetica Neue', Arial, sans-serif" font-size="120" font-weight="700">P</text>
+            <g stroke="currentColor" fill="none" stroke-linecap="round" stroke-width="6">
+              <line x1="276" y1="200" x2="296" y2="200"/>
+              <line x1="238" y1="266" x2="250" y2="287"/>
+              <line x1="162" y1="266" x2="150" y2="287"/>
+              <line x1="124" y1="200" x2="104" y2="200"/>
+              <line x1="162" y1="134" x2="150" y2="113"/>
+              <line x1="238" y1="134" x2="250" y2="113"/>
+            </g>
+            <g fill="currentColor">
+              <circle cx="296" cy="200" r="9"/>
+              <circle cx="250" cy="287" r="9"/>
+              <circle cx="150" cy="287" r="9"/>
+              <circle cx="104" cy="200" r="9"/>
+              <circle cx="150" cy="113" r="9"/>
+              <circle cx="250" cy="113" r="9"/>
+            </g>
+            <g stroke="currentColor" fill="none" stroke-linecap="round" stroke-width="3.5">
+              <line x1="318" y1="200" x2="346" y2="200"/>
+              <line x1="259" y1="300" x2="273" y2="325"/>
+              <line x1="141" y1="300" x2="127" y2="325"/>
+              <line x1="82"  y1="200" x2="54"  y2="200"/>
+              <line x1="141" y1="100" x2="127" y2="75"/>
+              <line x1="259" y1="100" x2="273" y2="75"/>
+            </g>
+            <g fill="currentColor">
+              <circle cx="346" cy="200" r="6"/>
+              <circle cx="273" cy="325" r="6"/>
+              <circle cx="127" cy="325" r="6"/>
+              <circle cx="54"  cy="200" r="6"/>
+              <circle cx="127" cy="75"  r="6"/>
+              <circle cx="273" cy="75"  r="6"/>
+            </g>
+          </svg>
+        </span>
+        <span>
+          <span class="bwm-brand-name">Pilz-Chronik</span><br>
+          <span class="bwm-brand-meta">Bonus-Material</span>
+        </span>
+      </a>
+
+      <nav class="bwm-nav" aria-label="Hauptnavigation">
+        {%- assign here = page.url -%}
+        <a href="{{ '/' | relative_url }}"          {%- if here == '/' or here == '/index.html' %} class="on"{% endif -%}>Startseite</a>
+        <a href="{{ '/werkstatt/' | relative_url }}"{%- if here contains '/werkstatt' %} class="on"{% endif -%}>Werkstatt</a>
+        <a href="{{ '/orte/' | relative_url }}"     {%- if here contains '/orte' %} class="on"{% endif -%}>Orte</a>
+        <a href="{{ '/nachweise/' | relative_url }}"{%- if here contains '/nachweise' %} class="on"{% endif -%}>Nachweise</a>
+      </nav>
+    </header>
+
+    {{ content }}
+
+    <footer class="bwm-footer" role="contentinfo">
+      <div>&copy; {{ site.time | date: '%Y' }} Wolfgang Pilz &middot; {{ site.title }} &middot; Bonus-Material</div>
+      <div class="bwm-footer-links">
+        <a href="{{ '/ueber/' | relative_url }}">&Uuml;ber</a>
+        <a href="{{ '/impressum/' | relative_url }}">Impressum</a>
+        <a href="{{ '/datenschutz/' | relative_url }}">Datenschutz</a>
+        <a href="{{ '/suche/' | relative_url }}">Suche</a>
+      </div>
+    </footer>
+
+  </div>
+
+  {%- comment -%}
+    Chatbot-Embed wie auf der Live-Seite uebernommen.
+  {%- endcomment -%}
+  <script>window.chtlConfig={chatbotId:"1593533597"}</script>
+  <script async data-id="1593533597" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+</body>
+</html>
