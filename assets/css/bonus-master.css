@@ -354,11 +354,21 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
 .bwm-footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
 .bwm-footer-links a { color: inherit; }
 
-/* ---------- SUCHFELD im Hero (optional, an Live-Seite angelehnt) ---------- */
-.bwm-search { margin: 0; max-width: 28rem; }
-.bwm-search :global,
-.bwm-search .pagefind-ui__search-input {
-  background: var(--pc-cremeweiss); color: var(--pc-dunkelblau);
+/* ---------- SUCHFELD im Hero (Pagefind), Master-Look ---------- */
+.bwm-search {
+  margin: 0;
+  max-width: 28rem;
+
+  /* Pagefind nutzt CSS-Variablen — wir setzen sie hier auf die Master-Palette */
+  --pagefind-ui-scale: 0.85;
+  --pagefind-ui-primary: var(--pc-altrosa);
+  --pagefind-ui-text: var(--pc-dunkelblau);
+  --pagefind-ui-background: var(--pc-cremeweiss);
+  --pagefind-ui-border: rgba(216,132,158,0.45);
+  --pagefind-ui-tag: var(--pc-cremeweiss);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 4px;
+  --pagefind-ui-font: var(--pc-font-body);
 }
 .bwm-search input,
 .bwm-search button {
