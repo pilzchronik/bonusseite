@@ -1,12 +1,13 @@
 /* ============================================================
    PILZ-CHRONIK BONUSSEITE · MASTER DESIGN
-   Aus Claude Design uebernommen am 2026-04-30.
-   Quellen:
-     - colors_and_type.css (Tokens, Schriften)
-     - master.css (Layout der Bonus-Webseite Master-Variante)
-   Wirkt nur, wenn das body-Tag die Klasse "layout-cover" traegt
-   (gesetzt vom Layout _layouts/cover.html). Damit sind die
-   anderen Seiten der Bonusseite vom Master-Design unberuehrt.
+   Aus Claude Design uebernommen am 2026-04-30 (Option D, 30.04.2026):
+   Cover (Hero, Header, Footer) bleibt dunkelblau.
+   Inhalts-Bereiche (Hauptbereiche, Sekundaerliste, Unterseiten) sind
+   auf Cremeweiss gesetzt — wie aufgeschlagene Buchseiten.
+
+   Implementierung: kontextuelle CSS-Variablen --pc-bg / --pc-fg /
+   --pc-line. Helle Container ueberschreiben sie, alle Klassen
+   referenzieren die Variablen statt Farben hartzucodieren.
    ============================================================ */
 
 /* ---- Display-Webfont: Barlow (lokal, Pfade relativ zur CSS-Datei) ---- */
@@ -22,10 +23,11 @@
 @font-face { font-family: 'Source Serif 4'; src: url('../fonts/SourceSerif4-SemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: swap; }
 
 :root {
-  --pc-dunkelblau: #132742;
-  --pc-cremeweiss: #ede9dd;
-  --pc-altrosa:    #d8849e;
-  --pc-reinweiss:  #ffffff;
+  --pc-dunkelblau:        #132742;
+  --pc-cremeweiss:        #ede9dd;
+  --pc-altrosa:           #d8849e;  /* helles Akzent-Rosa fuer DUNKLE Hintergruende */
+  --pc-altrosa-dunkel:    #9a3f55;  /* dunkles Akzent-Rosa (Burgunder) fuer HELLE Hintergruende */
+  --pc-reinweiss:         #ffffff;
 
   --pc-font-display: 'Barlow', 'Helvetica Neue', Arial, sans-serif;
   --pc-font-body:    'Source Serif 4', 'Source Serif Pro', Georgia, 'Times New Roman', serif;
@@ -33,10 +35,20 @@
 
 /* ---------- Master-Layout greift NUR auf .layout-cover ---------- */
 body.layout-cover {
+  /* Default-Modus: Cover (dunkel) — Akzent ist das HELLE Altrosa */
+  --pc-bg:           var(--pc-dunkelblau);
+  --pc-fg:           var(--pc-cremeweiss);
+  --pc-fg-soft:      rgba(237,233,221,0.8);
+  --pc-akzent:       var(--pc-altrosa);
+  --pc-akzent-soft:  rgba(216,132,158,0.35);
+  --pc-line:         rgba(216,132,158,0.35);
+  --pc-line-strong:  var(--pc-altrosa);
+  --pc-pinned-bg:    rgba(216,132,158,0.08);
+
   margin: 0;
   padding: 0;
-  background: var(--pc-dunkelblau);
-  color: var(--pc-cremeweiss);
+  background: var(--pc-bg);
+  color: var(--pc-fg);
   font-family: var(--pc-font-body);
   font-size: 17px;
   line-height: 1.65;
@@ -45,7 +57,31 @@ body.layout-cover {
 }
 body.layout-cover * { box-sizing: border-box; }
 body.layout-cover a { color: inherit; text-decoration: none; }
+/* Hover-Default: helles Altrosa fuer dunkle Bereiche (Header, Hero, Footer) */
 body.layout-cover a:hover { color: var(--pc-altrosa); }
+/* In hellen Bereichen: Hover wird Burgunder, weil Altrosa dort kitschig wirkt */
+.bwm-primary a:hover,
+.bwm-secondary a:hover,
+.bwm-page a:hover { color: var(--pc-altrosa-dunkel); }
+
+/* ---------- Helle Inhalts-Bereiche (Buchseiten) ---------- */
+/* Hier wird das Akzent-Rosa zum dunkleren Burgunder, damit es auf
+   Cremeweiss erwachsen wirkt statt pastellig. */
+.bwm-primary,
+.bwm-secondary,
+.bwm-page {
+  --pc-bg:           var(--pc-cremeweiss);
+  --pc-fg:           var(--pc-dunkelblau);
+  --pc-fg-soft:      rgba(19,39,66,0.7);
+  --pc-akzent:       var(--pc-altrosa-dunkel);
+  --pc-akzent-soft:  rgba(154,63,85,0.35);
+  --pc-line:         rgba(19,39,66,0.18);
+  --pc-line-strong:  var(--pc-altrosa-dunkel);
+  --pc-pinned-bg:    rgba(154,63,85,0.10);
+
+  background: var(--pc-bg);
+  color: var(--pc-fg);
+}
 
 .bwm-app {
   min-height: 100vh;
@@ -53,20 +89,16 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   flex-direction: column;
 }
 
-/* ---------- HEADER / NAV ---------- */
+/* ---------- HEADER / NAV (Cover) ---------- */
 .bwm-header {
   display: flex;
   align-items: center;
   gap: 40px;
   padding: 28px 56px 24px;
-  border-bottom: 1px solid rgba(216,132,158,0.35);
+  border-bottom: 1px solid var(--pc-line);
 }
 .bwm-brand {
   display: flex; align-items: center; gap: 14px;
-  color: var(--pc-cremeweiss);
-}
-.bwm-brand {
-  /* damit currentColor im SVG-Logo greift */
   color: var(--pc-cremeweiss);
 }
 .bwm-brand-name { color: var(--pc-cremeweiss); }
@@ -75,13 +107,6 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   display: block;
   color: var(--pc-cremeweiss);
   flex-shrink: 0;
-}
-.bwm-brand-name {
-  font-family: var(--pc-font-display);
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: -0.005em;
-  line-height: 1.1;
 }
 .bwm-brand-meta {
   font-family: var(--pc-font-display);
@@ -113,12 +138,12 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
 .bwm-nav a:hover { opacity: 1; color: var(--pc-altrosa); }
 .bwm-nav a.on { opacity: 1; color: var(--pc-altrosa); border-bottom-color: var(--pc-altrosa); }
 
-/* ---------- HERO (Cover-Klammer) ---------- */
+/* ---------- HERO (Cover, dunkel) ---------- */
 .bwm-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   min-height: 560px;
-  border-bottom: 1px solid rgba(216,132,158,0.35);
+  border-bottom: 1px solid var(--pc-line);
 }
 .bwm-hero-left {
   padding: 80px 56px 56px;
@@ -168,7 +193,7 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
 }
 .bwm-hero-right {
   padding: 80px 56px 56px;
-  border-left: 1px solid rgba(216,132,158,0.35);
+  border-left: 1px solid var(--pc-line);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,7 +220,7 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   font-size: 15px;
   color: var(--pc-cremeweiss);
   opacity: 0.85;
-  border-top: 1px solid rgba(216,132,158,0.35);
+  border-top: 1px solid var(--pc-line);
   padding-top: 18px;
   max-width: 38ch;
   margin: 0;
@@ -211,7 +236,7 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   line-height: 1.4;
 }
 
-/* ---------- HAUPTBEREICHE ---------- */
+/* ---------- HAUPTBEREICHE (helle Buchseite) ---------- */
 .bwm-primary {
   padding: 88px 56px 64px;
 }
@@ -220,7 +245,7 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   font-size: 11px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--pc-altrosa);
+  color: var(--pc-akzent);
   font-weight: 700;
   margin: 0 0 36px;
 }
@@ -236,7 +261,7 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   display: flex;
   flex-direction: column;
   gap: 14px;
-  border-top: 1px solid var(--pc-altrosa);
+  border-top: 1px solid var(--pc-line-strong);
   margin-right: 36px;
   transition: opacity 160ms;
 }
@@ -247,7 +272,7 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   font-size: 11px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--pc-altrosa);
+  color: var(--pc-akzent);
   font-weight: 700;
 }
 .bwm-primary-item-title {
@@ -256,14 +281,14 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.01em;
-  color: var(--pc-cremeweiss);
+  color: var(--pc-fg);
   margin: 0;
 }
 .bwm-primary-item-body {
   font-family: var(--pc-font-body);
   font-size: 16px;
   line-height: 1.55;
-  color: var(--pc-cremeweiss);
+  color: var(--pc-fg);
   opacity: 0.85;
   max-width: 30ch;
   margin: 0;
@@ -274,11 +299,11 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   letter-spacing: 0.18em;
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--pc-altrosa);
+  color: var(--pc-akzent);
   margin-top: 10px;
 }
 
-/* ---------- SEKUNDAERBEREICHE ---------- */
+/* ---------- SEKUNDAERBEREICHE (helle Buchseite) ---------- */
 .bwm-secondary {
   padding: 24px 56px 96px;
 }
@@ -287,7 +312,7 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   font-size: 11px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--pc-altrosa);
+  color: var(--pc-akzent);
   font-weight: 700;
   margin: 0 0 8px;
 }
@@ -298,18 +323,18 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   gap: 36px;
   align-items: baseline;
   padding: 22px 0;
-  border-top: 1px solid rgba(216,132,158,0.35);
+  border-top: 1px solid var(--pc-line);
   color: inherit;
   text-decoration: none;
 }
-.bwm-secondary-item:hover .bwm-secondary-item-title { color: var(--pc-altrosa); }
-.bwm-secondary-item:last-child { border-bottom: 1px solid rgba(216,132,158,0.35); }
+.bwm-secondary-item:hover .bwm-secondary-item-title { color: var(--pc-akzent); }
+.bwm-secondary-item:last-child { border-bottom: 1px solid var(--pc-line); }
 .bwm-secondary-item-title {
   font-family: var(--pc-font-display);
   font-size: 22px;
   font-weight: 700;
   letter-spacing: -0.005em;
-  color: var(--pc-cremeweiss);
+  color: var(--pc-fg);
   transition: color 160ms;
 }
 .bwm-secondary-item-meta {
@@ -318,25 +343,25 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   letter-spacing: 0.14em;
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--pc-altrosa);
+  color: var(--pc-akzent);
 }
 .bwm-secondary-item-body {
   font-family: var(--pc-font-body);
   font-size: 15px;
   line-height: 1.55;
-  color: var(--pc-cremeweiss);
+  color: var(--pc-fg);
   opacity: 0.8;
   max-width: 50ch;
   margin: 0;
 }
 .bwm-secondary-item-arrow {
   font-family: var(--pc-font-display);
-  color: var(--pc-altrosa);
+  color: var(--pc-akzent);
   font-size: 16px;
   text-align: right;
 }
 
-/* ---------- FOOTER ---------- */
+/* ---------- FOOTER (Cover, dunkel) ---------- */
 .bwm-footer {
   margin-top: auto;
   padding: 32px 56px 40px;
@@ -346,20 +371,20 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   align-items: center;
   font-family: var(--pc-font-body);
   font-size: 14px;
+  background: var(--pc-dunkelblau);
   color: var(--pc-cremeweiss);
-  opacity: 0.7;
+  opacity: 0.85;
   flex-wrap: wrap;
   gap: 12px;
 }
+.bwm-footer a { color: var(--pc-cremeweiss); }
 .bwm-footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
-.bwm-footer-links a { color: inherit; }
 
 /* ---------- SUCHFELD im Hero (Pagefind), Master-Look ---------- */
 .bwm-search {
   margin: 0;
   max-width: 28rem;
 
-  /* Pagefind nutzt CSS-Variablen — wir setzen sie hier auf die Master-Palette */
   --pagefind-ui-scale: 0.85;
   --pagefind-ui-primary: var(--pc-altrosa);
   --pagefind-ui-text: var(--pc-dunkelblau);
@@ -375,6 +400,242 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
   font-family: var(--pc-font-body);
 }
 
+/* ============================================================
+   UNTERSEITEN (Werkstatt, Orte, Nachweise, ...) — helle Buchseite
+   ============================================================ */
+.bwm-page {
+  padding: 64px 56px 96px;
+  max-width: 100%;
+}
+.bwm-page > * { max-width: 1180px; margin-left: auto; margin-right: auto; width: 100%; }
+.bwm-page-head {
+  margin-bottom: 64px;
+}
+.bwm-page-head > * { max-width: 78ch; }
+.bwm-page-eyebrow {
+  font-family: var(--pc-font-display);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+.bwm-page-title {
+  font-family: var(--pc-font-display);
+  font-size: clamp(40px, 5vw, 64px);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.02;
+  margin: 0 0 18px;
+  color: var(--pc-fg);
+}
+.bwm-page-line {
+  height: 1px; background: var(--pc-akzent);
+  width: 64px; border: 0; margin: 0 0 28px;
+}
+.bwm-page-lead {
+  font-family: var(--pc-font-body);
+  font-size: 21px; line-height: 1.5;
+  max-width: 56ch; margin: 0;
+  color: var(--pc-fg);
+}
+
+/* ----- WERKSTATT: zweispaltige Uebersicht ----- */
+.bwm-werkstatt-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  margin: 0 auto 80px;
+  max-width: 1180px;
+}
+.bwm-werkstatt-eyebrow {
+  font-family: var(--pc-font-display);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  font-weight: 700;
+  margin: 0 0 18px;
+  border-top: 1px solid var(--pc-akzent);
+  padding-top: 18px;
+}
+.bwm-werkstatt-list { list-style: none; padding: 0; margin: 0; }
+.bwm-werkstatt-item {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--pc-line);
+  font-family: var(--pc-font-body);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.bwm-werkstatt-item:last-child { border-bottom: 0; }
+.bwm-werkstatt-item.bwm-empty {
+  opacity: 0.55;
+  font-style: italic;
+}
+.bwm-werkstatt-tag {
+  display: inline-block;
+  font-family: var(--pc-font-display);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  font-weight: 700;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.bwm-werkstatt-link {
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--pc-fg);
+  letter-spacing: -0.005em;
+}
+.bwm-werkstatt-link:hover { color: var(--pc-akzent); }
+.bwm-werkstatt-date {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: var(--pc-font-display);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: var(--pc-fg);
+  opacity: 0.55;
+}
+.bwm-werkstatt-excerpt {
+  font-family: var(--pc-font-body);
+  font-size: 14px;
+  margin: 6px 0 0 0;
+  opacity: 0.75;
+  line-height: 1.55;
+  color: var(--pc-fg);
+}
+
+/* ----- WERKSTATT: Trennlinie und Post-Liste ----- */
+.bwm-section-divider {
+  border: 0;
+  height: 1px;
+  background: var(--pc-line);
+  margin: 24px auto 56px;
+  max-width: 1180px;
+}
+.bwm-section-title {
+  font-family: var(--pc-font-display);
+  font-weight: 700;
+  font-size: clamp(28px, 3vw, 40px);
+  letter-spacing: -0.01em;
+  color: var(--pc-fg);
+  margin: 0 0 36px;
+}
+
+.bwm-pinned {
+  background: var(--pc-pinned-bg);
+  border-left: 3px solid var(--pc-akzent);
+  padding: 16px 22px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.bwm-pinned.hidden { display: none; }
+.bwm-pin-label {
+  font-family: var(--pc-font-display);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.bwm-pinned a {
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+  color: var(--pc-fg);
+  font-size: 16px;
+}
+.bwm-pinned a:hover { color: var(--pc-akzent); }
+
+.bwm-postsearch {
+  margin: 0 0 40px;
+  max-width: 500px;
+}
+.bwm-postsearch-input {
+  width: 100%;
+  background: var(--pc-reinweiss);
+  color: var(--pc-dunkelblau);
+  border: 1px solid var(--pc-akzent);
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-family: var(--pc-font-body);
+  font-size: 15px;
+  outline: none;
+}
+.bwm-postsearch-input::placeholder {
+  color: var(--pc-dunkelblau);
+  opacity: 0.5;
+}
+.bwm-postsearch-input:focus {
+  border-color: var(--pc-akzent);
+  box-shadow: 0 0 0 3px var(--pc-akzent-soft);
+}
+
+.bwm-postlist { }
+.bwm-month-group { margin-bottom: 32px; }
+.bwm-month-group.hidden { display: none; }
+.bwm-month-header {
+  font-family: var(--pc-font-display);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  font-weight: 700;
+  margin: 0 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--pc-line);
+}
+.bwm-post-entry {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--pc-line);
+}
+.bwm-post-entry.hidden { display: none; }
+.bwm-post-title-row {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.bwm-post-date {
+  font-family: var(--pc-font-display);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--pc-akzent);
+  font-weight: 700;
+  flex-shrink: 0;
+  min-width: 50px;
+}
+.bwm-post-link {
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--pc-fg);
+}
+.bwm-post-link:hover { color: var(--pc-akzent); }
+.bwm-post-excerpt {
+  font-family: var(--pc-font-body);
+  font-size: 14px;
+  margin: 4px 0 0 66px;
+  opacity: 0.7;
+  line-height: 1.55;
+  color: var(--pc-fg);
+}
+.bwm-no-results,
+.bwm-result-info {
+  font-family: var(--pc-font-body);
+  font-size: 14px;
+  opacity: 0.65;
+  margin-top: 16px;
+}
+
 /* ---------- MOBILE ---------- */
 @media (max-width: 880px) {
   .bwm-header { flex-wrap: wrap; padding: 22px 24px 18px; gap: 18px; }
@@ -382,7 +643,7 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
 
   .bwm-hero { grid-template-columns: 1fr; min-height: 0; }
   .bwm-hero-left { padding: 48px 24px 32px; }
-  .bwm-hero-right { padding: 24px 24px 48px; border-left: 0; border-top: 1px solid rgba(216,132,158,0.35); }
+  .bwm-hero-right { padding: 24px 24px 48px; border-left: 0; border-top: 1px solid var(--pc-line); }
 
   .bwm-primary { padding: 56px 24px 48px; }
   .bwm-primary-list { grid-template-columns: 1fr; gap: 0; }
@@ -395,4 +656,8 @@ body.layout-cover a:hover { color: var(--pc-altrosa); }
 
   .bwm-footer { flex-direction: column; gap: 12px; padding: 24px; text-align: center; }
   .bwm-footer-links { justify-content: center; }
+
+  .bwm-page { padding: 40px 24px 64px; }
+  .bwm-werkstatt-overview { grid-template-columns: 1fr; gap: 48px; }
+  .bwm-post-excerpt { margin-left: 0; }
 }
