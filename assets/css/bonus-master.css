@@ -538,13 +538,13 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
 }
 
 .bwm-pinned {
-  background: var(--pc-pinned-bg);
-  border-left: 3px solid var(--pc-akzent);
-  padding: 16px 22px;
-  margin-bottom: 32px;
+  background: transparent;
+  border-left: 2px solid var(--pc-akzent);
+  padding: 6px 16px;
+  margin-bottom: 36px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
   flex-wrap: wrap;
 }
 .bwm-pinned.hidden { display: none; }
