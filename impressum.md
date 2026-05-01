@@ -12,17 +12,20 @@ description: "Impressum der Pilz-Chronik Bonusseite – Medieninhaber, Haftung, 
   <h1 class="bwm-page-title">Impressum</h1>
   <hr class="bwm-page-line">
   <p class="bwm-page-lead">
-    Angaben gem&auml;&szlig; &sect;&nbsp;5 ECG / &sect;&nbsp;25 MedienG zu Medieninhaber, redaktioneller Richtung,
+    Angaben gem&auml;&szlig; &sect;&nbsp;25 MedienG zu Medieninhaber, redaktioneller Richtung,
     Haftung und Urheberrecht.
   </p>
 </div>
 
 <div class="bwm-post-body" markdown="1">
 
-## Medieninhaber
+## Medieninhaber und Verantwortlicher
 
 Wolfgang Pilz<br>
-Österreich<br>
+Mitterhoferstraße 1<br>
+6020 Innsbruck<br>
+Österreich
+
 Kontakt: <span id="impressum-mail"></span><noscript>pilz (at) gmx.at</noscript>
 <script>
 (function(){
@@ -39,7 +42,7 @@ Kontakt: <span id="impressum-mail"></span><noscript>pilz (at) gmx.at</noscript>
 
 Private, nicht-kommerzielle Informations- und Dokumentationsseite zur Ergänzung der gedruckten Pilz-Chronik (Band&nbsp;1 & 2). Sie dient der Darstellung genealogischer Forschungsergebnisse.
 
-## Haftung & Urheberrecht
+## Haftung und Urheberrecht
 
 Sämtliche Inhalte wurden sorgfältig geprüft. Dennoch kann keine Garantie für die Richtigkeit, Vollständigkeit und Aktualität der Angaben übernommen werden.
 
@@ -47,7 +50,11 @@ Die Inhalte dieser Website unterliegen dem Urheberrecht. Eine Weiterverwendung a
 
 ## Datenschutz
 
-Diese Website erhebt keine Nutzerdaten und betreibt kein Tracking. Alle Details findest du auf der [Datenschutzseite]({{ '/datenschutz/' | relative_url }}).
+Details zur Datenverarbeitung beim Aufruf dieser Website findest du auf der [Datenschutzseite]({{ '/datenschutz/' | relative_url }}).
+
+## Stand
+
+Mai 2026
 
 </div>
 
