@@ -2,6 +2,7 @@
 layout: cover
 title: "DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern"
 permalink: /dna-analyse/
+description: "DNA-Analyse der Familie Pilz: Y-DNA-Haplogruppe J-FT159612 und mtDNA H41a9 – Migrationsrouten von Afrika über den Balkan bis ins Erzgebirge."
 ---
 
 <section class="bwm-page bwm-dna" aria-label="DNA-Analyse">

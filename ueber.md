@@ -2,6 +2,7 @@
 layout: cover
 title: Über diese Seite
 permalink: /ueber/
+description: "Über die Bonusseite: digitale Werkstatt zur gedruckten Pilz-Chronik (Band 1 & 2) mit fortgeführter Forschung, Korrekturen und Zusatzmaterialien."
 ---
 
 <section class="bwm-page bwm-ueber" aria-label="Über diese Seite">

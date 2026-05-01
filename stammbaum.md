@@ -2,6 +2,7 @@
 layout: cover
 title: Stammbaum & Archiv
 permalink: /stammbaum/
+description: "Stammbäume der Familie Pilz, Pültz, Eberstaller, Reider und Kofler/Cofler – PDF-Diagramme aus dem MacFamilyTree-Archiv."
 ---
 
 <section class="bwm-page bwm-stammbaum" aria-label="Stammbaum &amp; Archiv">

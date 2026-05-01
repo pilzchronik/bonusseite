@@ -2,6 +2,7 @@
 layout: cover
 title: Suche
 permalink: /suche/
+description: "Volltext-Stichwortsuche auf der Pilz-Chronik Bonusseite – Personen, Orte und Themen aus Werkstatt, Nachweisen und Unterseiten finden."
 ---
 
 <link href="{{ site.baseurl }}/pagefind/pagefind-ui.css" rel="stylesheet">

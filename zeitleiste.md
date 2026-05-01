@@ -2,6 +2,7 @@
 layout: cover
 title: "Zeitleiste"
 permalink: /zeitleiste/
+description: "Chronologische Zeitleiste der Familie Pilz – von den DNA-Ursprüngen bis zur Gegenwart, mit Filtern für DNA, Stammreihe, Migration, Eberstaller, Kofler."
 ---
 
 <section class="bwm-page bwm-zeitleiste" aria-label="Zeitleiste">

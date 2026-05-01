@@ -1,6 +1,7 @@
 ---
 layout: cover
 title: Startseite
+description: "Bonusseite zur gedruckten Pilz-Chronik (Band 1 & 2). Werkstatt mit Korrekturen, Quellenfunden und Forschungsstand zur Familie Pilz/Pültz in Sachsen, Böhmen und Tirol."
 ---
 
 <link href="{{ site.baseurl }}/pagefind/pagefind-ui.css" rel="stylesheet">

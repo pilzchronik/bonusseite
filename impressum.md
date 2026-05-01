@@ -2,6 +2,7 @@
 layout: cover
 title: Impressum
 permalink: /impressum/
+description: "Impressum der Pilz-Chronik Bonusseite – Medieninhaber, Haftung, Urheberrecht."
 ---
 
 <section class="bwm-page bwm-impressum" aria-label="Impressum">

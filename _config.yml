@@ -15,6 +15,7 @@ future: true  # Zeige auch Posts mit zukünftigem Datum
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 collections:
   intern:

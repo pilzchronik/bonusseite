@@ -2,6 +2,7 @@
 layout: cover
 title: Nachweise
 permalink: /nachweise/
+description: "Nachweise und Quellen zur Pilz-Chronik: tschechische und sächsische Archive, österreichische Matriken, Bandindex und Abbildungsverzeichnis."
 ---
 
 <section class="bwm-page bwm-nachweise" aria-label="Nachweise">

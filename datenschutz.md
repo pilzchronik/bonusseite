@@ -2,6 +2,7 @@
 layout: cover
 title: Datenschutz
 permalink: /datenschutz/
+description: "Datenschutz der Pilz-Chronik Bonusseite: privates Hobbyprojekt ohne Tracking, Cookies oder Analytics. Eingesetzte externe Dienste transparent aufgeführt."
 ---
 
 <section class="bwm-page bwm-datenschutz" aria-label="Datenschutz">
