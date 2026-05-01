@@ -1394,6 +1394,187 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   .layout-cover #dna-map { height: 360px; }
 }
 
+/* ============================================================
+   ZEITLEISTE — Cover-Look fuer Filter, Items, Tags
+   Funktion (toggle, filter) bleibt 1:1
+   ============================================================ */
+
+/* Filter-Buttons: cremeweiss, Burgunder-Border, aktiv = gefuellt */
+.layout-cover .tl-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 40px 44px;
+}
+.layout-cover .tl-filters button {
+  padding: 6px 16px;
+  font-family: var(--pc-font-display);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 1px solid var(--pc-line);
+  background: transparent;
+  color: var(--pc-fg);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.layout-cover .tl-filters button:hover {
+  border-color: var(--pc-akzent);
+  color: var(--pc-akzent);
+}
+.layout-cover .tl-filters button.active {
+  background: var(--pc-akzent);
+  color: var(--pc-bg);
+  border-color: var(--pc-akzent);
+}
+
+/* Sektions-Label (Praehistorische Wurzeln, Stammlinie etc.) */
+.layout-cover .tl-section-label {
+  font-family: var(--pc-font-display);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--pc-akzent);
+  text-transform: uppercase;
+  margin: 40px 0 18px 44px;
+  border-top: 1px solid var(--pc-akzent);
+  padding-top: 16px;
+  max-width: 600px;
+}
+
+/* Vertikaler Strich der Timeline */
+.layout-cover .tl-line {
+  position: relative;
+  padding-left: 44px;
+  border-left: 1px solid var(--pc-line);
+  margin-left: 20px;
+}
+.layout-cover .tl-item {
+  position: relative;
+  margin-bottom: 0;
+  padding: 0 0 28px 0;
+}
+.layout-cover .tl-item.hidden { display: none; }
+
+/* Punkt am Strich */
+.layout-cover .tl-dot {
+  position: absolute;
+  left: -50px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid var(--pc-akzent);
+  background: var(--pc-bg);
+  z-index: 2;
+}
+.layout-cover .tl-item.context .tl-dot { border-color: var(--pc-line); }
+.layout-cover .tl-item.context { opacity: 0.65; }
+
+/* Jahr und Titel */
+.layout-cover .tl-year {
+  font-family: var(--pc-font-display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--pc-akzent);
+  margin-bottom: 4px;
+  display: block;
+}
+.layout-cover .tl-item.context .tl-year { color: var(--pc-fg); opacity: 0.6; }
+
+.layout-cover .tl-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+.layout-cover .tl-title {
+  font-family: var(--pc-font-display);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--pc-fg);
+  margin: 0 0 2px 0;
+  line-height: 1.3;
+  flex: 1;
+}
+.layout-cover .tl-item.context .tl-title { opacity: 0.7; }
+
+.layout-cover .tl-toggle {
+  font-family: var(--pc-font-display);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--pc-fg);
+  opacity: 0.55;
+  flex-shrink: 0;
+  margin-top: 4px;
+  user-select: none;
+}
+.layout-cover .tl-title-row:hover .tl-toggle { opacity: 1; color: var(--pc-akzent); }
+
+/* Aufklappbarer Body */
+.layout-cover .tl-body {
+  font-family: var(--pc-font-body);
+  font-size: 16px;
+  color: var(--pc-fg);
+  line-height: 1.6;
+  margin-top: 8px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.25s ease;
+}
+.layout-cover .tl-body.open { max-height: 600px; }
+
+/* Tags (Kategorie-Linien-Codes, dezent in Cover-Sprache) */
+.layout-cover .tl-tag {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 2px 10px;
+  background: transparent;
+  border: 1px solid var(--pc-line);
+  color: var(--pc-fg);
+  opacity: 0.7;
+  font-family: var(--pc-font-display);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 12px;
+}
+/* Kategorie-Tags behalten subtile Farbe als Linien-Code */
+.layout-cover .tl-tag-dna       { border-color: rgba(10,102,72,0.5);   color: #0a6648; opacity: 1; }
+.layout-cover .tl-tag-stamm     { border-color: rgba(154,63,85,0.5);   color: var(--pc-akzent); opacity: 1; }
+.layout-cover .tl-tag-migration { border-color: rgba(133,79,11,0.5);   color: #854f0b; opacity: 1; }
+.layout-cover .tl-tag-context   { border-color: var(--pc-line);        color: var(--pc-fg); opacity: 0.6; }
+
+/* ============================================================
+   NACHWEISE — Hinweisbox in Cover-Sprache
+   ============================================================ */
+.layout-cover .bwm-post-body .hinweis {
+  background: var(--pc-pinned-bg);
+  border-left: 2px solid var(--pc-akzent);
+  padding: 14px 18px;
+  margin: 20px 0;
+  border-radius: 0 4px 4px 0;
+  font-family: var(--pc-font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--pc-fg);
+}
+.layout-cover .bwm-post-body .hinweis strong {
+  font-family: var(--pc-font-display);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  display: block;
+  margin-bottom: 6px;
+}
+
 /* Inline-Status-Box (alte Posts haben das per inline-style;
    wir ueberschreiben die hartcodierten Farben sanft, damit es sich
    in die Buchseiten-Optik einfuegt.) */

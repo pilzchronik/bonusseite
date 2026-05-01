@@ -1,14 +1,19 @@
 ---
-layout: page
+layout: cover
 title: "Zeitleiste"
 permalink: /zeitleiste/
 ---
 
+<section class="bwm-page bwm-zeitleiste" aria-label="Zeitleiste">
 
-<div class="tl-intro">
-  <h2>Geschichte im Zeitraffer</h2>
-  <p>Eine chronologische Reise durch die Familiengeschichte – von den genetischen Ursprüngen bis zur Gegenwart.<br>
-  <small>Klick auf einen Eintrag öffnet den Text. Filter oben blenden Kategorien ein oder aus.</small></p>
+<div class="bwm-page-head">
+  <p class="bwm-page-eyebrow">05 Zeitleiste</p>
+  <h1 class="bwm-page-title">Geschichte im Zeitraffer</h1>
+  <hr class="bwm-page-line">
+  <p class="bwm-page-lead">
+    Eine chronologische Reise durch die Familiengeschichte &ndash; von den genetischen Urspr&uuml;ngen bis zur Gegenwart.
+    Klick auf einen Eintrag &ouml;ffnet den Text. Filter oben blenden Kategorien ein oder aus.
+  </p>
 </div>
 
 <div class="tl-filters" id="tl-filters">
@@ -295,6 +300,8 @@ permalink: /zeitleiste/
   </div>
 
 </div>
+
+</section>
 
 <script>
 function tlToggle(row) {

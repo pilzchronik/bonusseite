@@ -1,12 +1,21 @@
 ---
-layout: page
+layout: cover
 title: Nachweise
 permalink: /nachweise/
 ---
 
-Quellen, Archive und Verzeichnisse zur Pilz-Chronik — alles auf einer Seite.
+<section class="bwm-page bwm-nachweise" aria-label="Nachweise">
 
----
+<div class="bwm-page-head" markdown="0">
+  <p class="bwm-page-eyebrow">04 Nachweise</p>
+  <h1 class="bwm-page-title">Nachweise</h1>
+  <hr class="bwm-page-line">
+  <p class="bwm-page-lead">
+    Quellen, Archive und Verzeichnisse zur Pilz-Chronik &mdash; alles auf einer Seite.
+  </p>
+</div>
+
+<div class="bwm-post-body" markdown="1">
 
 ## Archive & Portale
 
@@ -144,6 +153,8 @@ Quellen, Archive und Verzeichnisse zur Pilz-Chronik — alles auf einer Seite.
 | 8–9 | Wanderungskarten väterliche/mütterliche Linie |
 | 10–15 | Historische Dokumente: Landrichter-Bericht, Lehrbrief, Heiratsurkunden |
 
-<div style="text-align: right; margin-top: 10px;">
-  <a href="#top">▲ nach oben</a>
 </div>
+
+<p class="bwm-orte-top"><a href="#top">&uarr; nach oben</a></p>
+
+</section>
