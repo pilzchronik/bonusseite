@@ -76,10 +76,10 @@ Direkte Links in einzelne Bereiche der Webseite *Pilz Vorfahren* für die geziel
 
 Zu einzelnen Forschungsthemen existieren ergänzende Webseiten auf Google Sites. Diese werden nicht aktiv gepflegt und können jederzeit ohne Vorankündigung entfernt werden – sie sind als Lektüre gedacht, nicht als verlässliche Langzeitquellen.
 
-* **[Rätsel in Slawonien](https://sites.google.com/view/raetsel-in-slawonien/startseite)** – Forschung zu Alois Vjekoslav Pilz und der Auswanderung in den Balkanraum.
-* **[Bechinie-Rätsel](https://sites.google.com/view/raetselphilippbechinie/startseite)** – Offene Forschungsfrage zur böhmischen Bechinie-Linie.
-* **[Pilz-Chronik: DNA](https://sites.google.com/view/pilzdna/startseite)** – Genetische Herkunft und Haplogruppen-Auswertung.
-* **[Von Kofler zu Cofler](https://sites.google.com/view/koflerzucofler/startseite)** – Zur Schreibweise und Geschichte des Familiennamens Kofler/Cofler.
+* **[Rätsel in Slawonien](https://sites.google.com/view/raetsel-in-slawonien/startseite)** – Forschung zu Alois Vjekoslav Pilz und zur Auswanderung der Familie Pilz in den Balkanraum (Slawonien, Kroatien, Habsburgermonarchie).
+* **[Bechinie-Rätsel](https://sites.google.com/view/raetselphilippbechinie/startseite)** – Offene Forschungsfrage zur Herkunft von Philipp Bechinie und zur böhmischen Linie Bechinie/Běchyně.
+* **[Pilz-Chronik: DNA](https://sites.google.com/view/pilzdna/startseite)** – Genetische Herkunft der Pilz-Linie: Y-DNA-Haplogruppe J-FT159612, mtDNA H41a9, Haplogruppen-Auswertung.
+* **[Von Kofler zu Cofler](https://sites.google.com/view/koflerzucofler/startseite)** – Zur Schreibweise und Geschichte des Familiennamens Kofler/Cofler (Tirol, Rovereto, Mailand).
 
 </div>
 
