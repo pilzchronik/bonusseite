@@ -1,0 +1,326 @@
+---
+layout: cover
+title: Orte
+permalink: /orte/
+---
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<section class="bwm-page" aria-label="Orte">
+
+  <div class="bwm-page-head">
+    <p class="bwm-page-eyebrow">02 Orte</p>
+    <h1 class="bwm-page-title">Orte</h1>
+    <hr class="bwm-page-line">
+    <p class="bwm-page-lead">
+      Die dokumentierten Lebensorte der Pilz-Chronik &ndash; auf einer interaktiven Karte,
+      als durchsuchbares Verzeichnis und mit einem zweisprachigen Ortsnamenlexikon f&uuml;r B&ouml;hmen.
+    </p>
+  </div>
+
+  {%- comment -%} ============ KARTE ============ {%- endcomment -%}
+  <div class="bwm-orte-section">
+    <p class="bwm-section-eyebrow">Lebensorte</p>
+    <h2 class="bwm-section-title">Karte</h2>
+
+    <div id="section-karte">
+
+      <div id="map"></div>
+
+      <div class="legende-grid bwm-legende">
+        <div class="legende-item"><span class="legende-marker" style="background-color: #e74c3c;"></span>Pilz-Linie (Sachsen/B&ouml;hmen)</div>
+        <div class="legende-item"><span class="legende-marker" style="background-color: #3498db;"></span>Eberstaller-Linie (Ober&ouml;sterreich)</div>
+        <div class="legende-item"><span class="legende-marker" style="background-color: #2ecc71;"></span>Tiroler Linie</div>
+        <div class="legende-item"><span class="legende-marker" style="background-color: #f39c12;"></span>Zusammenf&uuml;hrung</div>
+        <div class="legende-item"><span class="legende-marker" style="background-color: #95a5a6;"></span>Weitere Orte</div>
+      </div>
+
+    </div>
+  </div>
+
+  {%- comment -%} ============ ORTSVERZEICHNIS ============ {%- endcomment -%}
+  <div class="bwm-orte-section">
+    <p class="bwm-section-eyebrow">Verzeichnis</p>
+    <h2 class="bwm-section-title">Ortsverzeichnis</h2>
+
+    <div id="section-ortsverzeichnis">
+      <p class="bwm-orte-hint">
+        Klick auf einen Ort in der Liste, um ihn auf der Karte anzuzeigen.
+      </p>
+
+      <div class="bwm-postsearch">
+        <input type="text" id="ort-suche" class="bwm-postsearch-input"
+               placeholder="Ort, Region oder Beschreibung suchen &hellip;"
+               onkeyup="filterTable()" autocomplete="off">
+      </div>
+
+      <div class="orte-liste-container bwm-orte-liste">
+        <table class="orte-tabelle bwm-orte-tabelle" id="orte-tabelle">
+          <thead>
+            <tr>
+              <th>Ort</th>
+              <th>Region</th>
+              <th>Beschreibung / Bedeutung</th>
+            </tr>
+          </thead>
+          <tbody id="orte-tbody">
+            </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  {%- comment -%} ============ ORTSNAMENLEXIKON ============ {%- endcomment -%}
+  <div class="bwm-orte-section" id="ortsnamen">
+    <p class="bwm-section-eyebrow">Lexikon</p>
+    <h2 class="bwm-section-title">Zweisprachiges Ortsnamenlexikon B&ouml;hmen</h2>
+
+    <div id="section-ortsnamen">
+
+      <p class="bwm-orte-lexikon-intro">
+        Viele Orte der Pilz-Chronik trugen bis 1945 deutsche Namen, die heute nur noch auf alten
+        Karten und in Kirchenb&uuml;chern auftauchen. Dieses Lexikon &uuml;bersetzt
+        <strong>in beide Richtungen</strong> &ndash; gib den deutschen <em>oder</em>
+        tschechischen Namen ein und finde das Gegenstück.
+        Orte mit <span class="bwm-orte-chronik-dot" aria-hidden="true"></span>
+        roter Markierung kommen in der Pilz-Chronik vor.
+      </p>
+
+      <div class="ortsnamen-suche-wrapper bwm-postsearch">
+        <input type="text" id="ortsnamen-suche" class="bwm-postsearch-input"
+               placeholder="Deutschen oder tschechischen Ortsnamen eingeben &hellip;"
+               autocomplete="off">
+        <button class="ortsnamen-clear-btn" id="ortsnamen-clear" title="Suche leeren">&times;</button>
+      </div>
+
+      <p class="bwm-orte-lexikon-meta">
+        <span id="ortsnamen-count">0</span> Ortsnamen in der Datenbank &middot;
+        <em>Quelle: <a href="https://de.wikipedia.org/wiki/Liste_deutscher_Namen_tschechischer_Orte" target="_blank" rel="noopener">Wikipedia</a></em>
+      </p>
+
+      <div id="ortsnamen-hint" class="bwm-orte-lexikon-hint">
+        <span class="bwm-orte-lexikon-hint-line">Einfach lostippen &ndash; oder einen dieser Orte ausprobieren:</span>
+        <span class="ortsnamen-beispiel" data-term="Karlsbad">Karlsbad</span>
+        <span class="ortsnamen-beispiel" data-term="Pre&szlig;nitz">Pre&szlig;nitz</span>
+        <span class="ortsnamen-beispiel" data-term="&Zcaron;atec">&Zcaron;atec</span>
+        <span class="ortsnamen-beispiel" data-term="Budweis">Budweis</span>
+        <span class="ortsnamen-beispiel" data-term="Schmiedeberg">Schmiedeberg</span>
+      </div>
+
+      <div id="ortsnamen-no-results" class="bwm-orte-lexikon-noresults" style="display: none;">
+        Kein Ortsname gefunden. Versuch eine andere Schreibweise.
+      </div>
+
+      <div id="ortsnamen-ergebnisse" class="orte-liste-container bwm-orte-liste" style="display: none; max-height: 400px;">
+        <table class="orte-tabelle bwm-orte-tabelle" id="ortsnamen-tabelle">
+          <thead>
+            <tr>
+              <th style="width: 50%;">Deutsch</th>
+              <th style="width: 50%;">Tschechisch</th>
+            </tr>
+          </thead>
+          <tbody id="ortsnamen-tbody">
+          </tbody>
+        </table>
+      </div>
+
+      <script src="{{ '/assets/js/ortsnamen-tool.js' | relative_url }}"></script>
+      <script>
+        // Daten aus Jekyll _data/ortsnamen.json laden
+        var ortsnamenDaten = {{ site.data.ortsnamen | jsonify }};
+        if (typeof window.initOrtsnamenTool === 'function') {
+          window.initOrtsnamenTool(ortsnamenDaten);
+        }
+      </script>
+
+    </div>
+  </div>
+
+  {%- comment -%} ============ DNA-CTA ============ {%- endcomment -%}
+  <div class="bwm-orte-cta">
+    <p class="bwm-orte-cta-text">
+      Die genetische Herkunft der Familie &ndash; Haplogruppen, Migrationsrouten und DNA-Analyse &ndash;
+      findest du auf einer eigenen Seite:
+    </p>
+    <p class="bwm-orte-cta-link">
+      <a href="{{ '/dna-analyse/' | relative_url }}">Zur DNA-Analyse &rarr;</a>
+    </p>
+  </div>
+
+  <p class="bwm-orte-top"><a href="#top">&uarr; nach oben</a></p>
+
+  {%- comment -%} Statische Ortsdaten f&uuml;r Pagefind-Indexierung (visuell verborgen, aber im HTML vorhanden) {%- endcomment -%}
+  <div class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0;">
+    {% for ort in site.data.orte %}
+    <p>{{ ort.name }} &ndash; {{ ort.region }} &ndash; {{ ort.kategorie }}: {{ ort.beschreibung }}{% if ort.ref != "" %} ({{ ort.ref }}){% endif %}</p>
+    {% endfor %}
+  </div>
+
+</section>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="{{ '/assets/js/karte-neu.js' | relative_url }}"></script>
+
+<script>
+// === Aufklappbare Sektionen (falls in Zukunft mit class="collapsible" markiert) ===
+document.querySelectorAll('.collapsible').forEach(function(header) {
+  header.addEventListener('click', function() {
+    var targetId = this.getAttribute('data-target');
+    var content = document.getElementById(targetId);
+    var icon = this.querySelector('.collapse-icon');
+    if (!content) return;
+
+    var isOpen = content.style.display !== 'none';
+    content.style.display = isOpen ? 'none' : 'block';
+    icon.textContent = isOpen ? '▶' : '▼';
+    this.classList.toggle('active', !isOpen);
+
+    if (targetId === 'section-karte' && !isOpen && window.karteMap) {
+      setTimeout(function() { window.karteMap.invalidateSize(); }, 100);
+    }
+  });
+});
+
+// === Geocoding: Ort auf Karte zeigen ===
+(function() {
+  var tempMarker = null;
+
+  // Koordinaten der Chronik-Orte aus karte-neu.js (fest hinterlegt)
+  var chronikKoords = {
+    'dörnthal': [50.7339, 13.3486],
+    'olbernhau': [50.6661, 13.3381],
+    'rothenthal': [50.6342, 13.3733],
+    'kallich': [50.5775, 13.3219], 'kalek': [50.5775, 13.3219],
+    'schmiedeberg': [50.4381, 13.0536], 'kovářská': [50.4381, 13.0536],
+    'weipert': [50.4922, 13.0319], 'vejprty': [50.4922, 13.0319],
+    'stolzenhain': [50.4128, 12.9789], 'háj u loučné': [50.4128, 12.9789],
+    'preßnitz': [50.4667, 13.1333], 'přísečnice': [50.4667, 13.1333],
+    'kupferberg': [50.4214, 13.1153], 'měděnec': [50.4214, 13.1153],
+    'hlawatschow': [49.9120, 14.7660], 'hlavačov': [49.9120, 14.7660],
+    'helfenberg': [48.5442, 14.1419],
+    'libeschitz': [50.2939, 13.6233], 'liběšice u žatce': [50.2939, 13.6233],
+    'amschelberg': [49.6558, 14.4744], 'kosova hora': [49.6558, 14.4744],
+    'schloss rothenhaus': [50.5123, 13.4519], 'červený hrádek': [50.5123, 13.4519],
+    'gottesgab': [50.4097, 12.9244], 'boží dar': [50.4097, 12.9244],
+    'b. wiesenthal': [50.4394, 13.0156], 'böhmisch wiesenthal': [50.4394, 13.0156], 'loučná pod klínovcem': [50.4394, 13.0156],
+    'sebastiansberg': [50.5100, 13.2511], 'hora svatého šebestiána': [50.5100, 13.2511],
+    'eger': [50.07795, 12.36658], 'cheb': [50.07795, 12.36658],
+    'bechyně': [49.2972, 14.4708], 'bechinie': [49.2972, 14.4708],
+    'joachimsthal': [50.3583, 12.9344], 'jáchymov': [50.3583, 12.9344],
+    'komotau': [50.4605, 13.4178], 'chomutov': [50.4605, 13.4178],
+    'saaz': [50.3269, 13.5456], 'žatec': [50.3269, 13.5456],
+    'prag': [50.0875, 14.4214], 'praha': [50.0875, 14.4214],
+    'teplitz-schönau': [50.6403, 13.8244], 'teplitz': [50.6403, 13.8244], 'teplice': [50.6403, 13.8244],
+    'salzburg-aigen': [47.7833, 13.0831],
+    'münchen': [48.1372, 11.5755],
+    'pechau': [52.0919, 11.7303],
+    'wallern/trattnach': [48.2336, 13.9450],
+    'radstadt': [47.3833, 13.4500],
+    'rott bei salzburg': [47.8333, 12.9833],
+    'bad aussee': [47.6097, 13.7822],
+    'linz': [48.3064, 14.2861],
+    'rannariedl': [48.4831, 13.7833],
+    'steyr': [48.0425, 14.4211],
+    'wels': [48.1656, 14.0353],
+    'kartitsch': [46.7231, 12.5008],
+    'sexten': [46.7019, 12.3586],
+    'rovereto': [45.8885, 11.0413],
+    'mailand': [45.4642, 9.1900],
+    'anras': [46.7739, 12.5608],
+    'lienz': [46.8289, 12.7686],
+    'padua': [45.4064, 11.8768],
+    'triest': [45.6495, 13.7768],
+    'innsbruck': [47.2692, 11.3933],
+    'sillian': [46.7528, 12.4211],
+    'badljevina': [45.5135, 17.1924],
+    'ivanovo polje': [45.5900, 17.1500],
+    'negoslavci': [45.2783, 18.9975],
+    'wien': [48.2092, 16.3728],
+    'budapest': [47.4979, 19.0402],
+    'schwarzkosteletz': [49.9944, 14.8597], 'kostelec nad černými lesy': [49.9944, 14.8597],
+    'samechow': [49.7500, 15.0167], 'samechov': [49.7500, 15.0167],
+    'ondrejow': [49.9058, 14.7803], 'ondřejov': [49.9058, 14.7803],
+    'schwarz wodierad': [49.9500, 14.8000], 'černé voděrady': [49.9500, 14.8000]
+  };
+
+  function showOnMap(deName, czName) {
+    var karteSection = document.getElementById('section-karte');
+    var karteHeader = document.querySelector('[data-target="section-karte"]');
+    if (karteSection && karteSection.style.display === 'none') {
+      karteSection.style.display = 'block';
+      var icon = karteHeader && karteHeader.querySelector('.collapse-icon');
+      if (icon) icon.textContent = '▼';
+      if (karteHeader) karteHeader.classList.add('active');
+    }
+
+    var mapEl = document.getElementById('map');
+    if (mapEl) {
+      mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    setTimeout(function() {
+      var map = window.karteMap;
+      if (!map) { alert('Karte nicht verfügbar'); return; }
+      map.invalidateSize();
+
+      if (tempMarker) {
+        map.removeLayer(tempMarker);
+        tempMarker = null;
+      }
+
+      var label = deName + (czName ? ' / ' + czName : '');
+
+      var key = deName.toLowerCase();
+      var keyCz = czName ? czName.toLowerCase() : '';
+      var coords = chronikKoords[key] || chronikKoords[keyCz];
+
+      if (coords) {
+        placeMarker(map, coords[0], coords[1], label);
+        return;
+      }
+
+      var searchName = czName || deName;
+      var url = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&q=' +
+                encodeURIComponent(searchName);
+
+      fetch(url)
+        .then(function(r) { return r.json(); })
+        .then(function(results) {
+          if (results && results.length > 0) {
+            placeMarker(map, parseFloat(results[0].lat), parseFloat(results[0].lon), label);
+          } else if (deName && deName !== searchName) {
+            var url2 = 'https://nominatim.openstreetmap.org/search?format=json&limit=1&q=' +
+                        encodeURIComponent(deName);
+            return fetch(url2).then(function(r) { return r.json(); }).then(function(r2) {
+              if (r2 && r2.length > 0) {
+                placeMarker(map, parseFloat(r2[0].lat), parseFloat(r2[0].lon), label);
+              } else {
+                alert('Ort „' + label + '" konnte nicht auf der Karte gefunden werden.');
+              }
+            });
+          } else {
+            alert('Ort „' + label + '" konnte nicht auf der Karte gefunden werden.');
+          }
+        })
+        .catch(function() {
+          alert('Geocoding fehlgeschlagen. Bitte versuch es später erneut.');
+        });
+    }, 300);
+  }
+
+  function placeMarker(map, lat, lon, label) {
+    tempMarker = L.marker([lat, lon], {
+      icon: L.divIcon({
+        className: 'custom-div-icon',
+        html: '<div style="background-color: #9a3f55; width: 18px; height: 18px; border-radius: 50%; border: 3px solid #ede9dd; box-shadow: 0 0 8px rgba(154,63,85,0.6);"></div>',
+        iconSize: [18, 18],
+        iconAnchor: [9, 9]
+      })
+    }).addTo(map);
+    tempMarker.bindPopup('<strong>' + label + '</strong><br><small style="color:#999;">Ortsnamen-Suche</small>').openPopup();
+    map.setView([lat, lon], 12);
+  }
+
+  window.showOrtOnMap = showOnMap;
+})();
+</script>

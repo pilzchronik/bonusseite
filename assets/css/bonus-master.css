@@ -909,6 +909,269 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   border-radius: 0;
 }
 
+/* ============================================================
+   ORTE-SEITE — Karte, Verzeichnis, Ortsnamenlexikon
+   ueberschreibt die in pages.css definierten Funktionsstile mit
+   Cover-Sprache (Buchseiten-Look). Funktion bleibt unangetastet.
+   ============================================================ */
+
+/* Sektions-Header pro Block (Karte / Verzeichnis / Lexikon) */
+.bwm-orte-section { margin-bottom: 56px; }
+.bwm-orte-section .bwm-section-eyebrow {
+  font-family: var(--pc-font-display);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  font-weight: 700;
+  margin: 0 0 8px;
+  border-top: 1px solid var(--pc-akzent);
+  padding-top: 18px;
+}
+.bwm-orte-section .bwm-section-title {
+  font-family: var(--pc-font-display);
+  font-weight: 700;
+  font-size: clamp(24px, 2.4vw, 32px);
+  letter-spacing: -0.005em;
+  color: var(--pc-fg);
+  margin: 0 0 24px;
+}
+
+/* Karte selbst — Rahmen passt sich ein, max-width vom Page-Container */
+.layout-cover #map {
+  height: 480px;
+  border: 1px solid var(--pc-line);
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+/* Legende: cremeweiss-getoent, ruhiger Rahmen */
+.layout-cover .bwm-legende {
+  background: transparent;
+  border: 1px solid var(--pc-line);
+  border-radius: 4px;
+  padding: 16px;
+  font-family: var(--pc-font-body);
+  font-size: 16px;
+  color: var(--pc-fg);
+}
+.layout-cover .bwm-legende .legende-marker {
+  border: 1px solid rgba(19,39,66,0.2);
+}
+
+/* Hint-Text vor dem Verzeichnis */
+.bwm-orte-hint {
+  font-family: var(--pc-font-body);
+  font-size: 15px;
+  color: var(--pc-fg);
+  opacity: 0.7;
+  margin: 0 0 14px;
+}
+
+/* Tabellen-Container (scrollbarer Bereich) */
+.layout-cover .bwm-orte-liste {
+  border: 1px solid var(--pc-line);
+  border-radius: 4px;
+  background: transparent;
+}
+
+/* Tabellen-Look — Cover-Eyebrow-Header statt dunkelblauer Balken */
+.layout-cover .bwm-orte-tabelle {
+  font-family: var(--pc-font-body);
+  font-size: 16px;
+}
+.layout-cover .bwm-orte-tabelle th {
+  background: var(--pc-bg);
+  color: var(--pc-akzent);
+  font-family: var(--pc-font-display);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--pc-akzent);
+}
+.layout-cover .bwm-orte-tabelle td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--pc-line);
+  color: var(--pc-fg);
+}
+.layout-cover .bwm-orte-tabelle tr:hover {
+  background-color: var(--pc-pinned-bg);
+}
+.layout-cover .bwm-orte-tabelle .ort-name {
+  font-weight: 600;
+  color: var(--pc-fg);
+}
+.layout-cover .bwm-orte-tabelle .ort-meta {
+  font-size: 14px;
+  color: var(--pc-fg);
+  opacity: 0.65;
+  display: block;
+  margin-top: 2px;
+}
+
+/* Lexikon: Intro, Meta, Hint-Box, No-Results — alle in Cover-Sprache */
+.bwm-orte-lexikon-intro {
+  font-family: var(--pc-font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--pc-fg);
+  margin: 0 0 16px;
+}
+.bwm-orte-chronik-dot {
+  display: inline-block;
+  width: 10px; height: 10px;
+  background: var(--pc-akzent);
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 2px;
+}
+
+.bwm-orte-lexikon-meta {
+  font-family: var(--pc-font-display);
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  color: var(--pc-fg);
+  opacity: 0.7;
+  margin: 0 0 16px;
+}
+.bwm-orte-lexikon-meta a { color: var(--pc-fg); text-decoration: underline; text-decoration-color: var(--pc-akzent-soft); }
+
+.bwm-orte-lexikon-hint {
+  text-align: center;
+  padding: 22px 16px;
+  border: 1px solid var(--pc-line);
+  border-radius: 4px;
+  margin-bottom: 16px;
+  background: transparent;
+}
+.bwm-orte-lexikon-hint-line {
+  display: block;
+  margin-bottom: 12px;
+  font-family: var(--pc-font-body);
+  font-size: 16px;
+  color: var(--pc-fg);
+}
+/* Beispiel-Chips — Burgunder statt knalliges Blau */
+.layout-cover .ortsnamen-beispiel {
+  cursor: pointer;
+  color: var(--pc-akzent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  margin: 0 8px;
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+}
+.layout-cover .ortsnamen-beispiel:hover {
+  color: var(--pc-akzent) !important;
+  text-decoration-thickness: 2px;
+}
+
+/* Clear-Button im Lexikon-Suchfeld — schlicht */
+.bwm-orte-section .ortsnamen-clear-btn {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--pc-fg);
+  opacity: 0.6;
+  cursor: pointer;
+}
+.bwm-orte-section .ortsnamen-clear-btn:hover { opacity: 1; color: var(--pc-akzent); }
+
+/* No-Results-Hinweis */
+.bwm-orte-lexikon-noresults {
+  text-align: center;
+  padding: 22px 16px;
+  font-style: italic;
+  color: var(--pc-fg);
+  opacity: 0.6;
+  border: 1px solid var(--pc-line);
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+/* Lexikon-Treffer "in der Pilz-Chronik" — Burgunder-Markierung statt rot */
+.layout-cover .ortsnamen-chronik {
+  background-color: var(--pc-pinned-bg) !important;
+  border-left: 3px solid var(--pc-akzent) !important;
+}
+.layout-cover .ortsnamen-chronik:hover {
+  background-color: rgba(154,63,85,0.18) !important;
+}
+
+/* Karten-Button im Lexikon-Treffer */
+.layout-cover .ortsnamen-map-btn {
+  font-family: var(--pc-font-display);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  background: transparent;
+  border: 1px solid var(--pc-akzent-soft);
+  border-radius: 3px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+.layout-cover .ortsnamen-map-btn:hover {
+  background-color: var(--pc-akzent);
+  color: var(--pc-bg);
+  border-color: var(--pc-akzent);
+}
+
+/* CTA-Block am Ende — ruhige Buchseiten-Optik */
+.bwm-orte-cta {
+  margin-top: 56px;
+  padding: 28px 32px;
+  background: var(--pc-pinned-bg);
+  border-left: 2px solid var(--pc-akzent);
+  border-radius: 4px;
+}
+.bwm-orte-cta-text {
+  font-family: var(--pc-font-body);
+  font-size: 17px;
+  margin: 0 0 8px;
+  color: var(--pc-fg);
+}
+.bwm-orte-cta-link {
+  margin: 0;
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+  font-size: 17px;
+}
+.bwm-orte-cta-link a {
+  color: var(--pc-akzent);
+  text-decoration: underline;
+  text-decoration-color: var(--pc-akzent-soft);
+  text-underline-offset: 3px;
+}
+.bwm-orte-cta-link a:hover {
+  color: var(--pc-akzent) !important;
+  text-decoration-color: var(--pc-akzent);
+}
+
+/* "Nach oben"-Link */
+.bwm-orte-top {
+  text-align: right;
+  margin-top: 32px;
+  font-family: var(--pc-font-display);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--pc-fg);
+  opacity: 0.7;
+}
+.bwm-orte-top a { color: var(--pc-fg); }
+.bwm-orte-top a:hover { color: var(--pc-akzent) !important; opacity: 1; }
+
 /* Inline-Status-Box (alte Posts haben das per inline-style;
    wir ueberschreiben die hartcodierten Farben sanft, damit es sich
    in die Buchseiten-Optik einfuegt.) */
