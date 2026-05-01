@@ -85,8 +85,8 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Radmierschitz", lat: 49.64580, lon: 14.75772, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Ratměřice. Geburtsort Josef Bechinie (Kekulé 34), 1776.", ref: "Bd. 2, S. 22"},
         {name: "Chlum", lat: 49.701667, lon: 14.378333, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Heirat Philipp Bechinie (Kekulé 68), 22.10.1769.", ref: "Bd. 2, S. 22"},
         {name: "Bielschitz", lat: 49.843333, lon: 14.808333, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Bělčice. Philipp Bechinie arbeitete hier als 83-jähriger Jäger.", ref: "Bd. 2, S. 22"},
-        {name: "Amschelberg", lat: 49.6558, lon: 14.4744, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Eine der ältesten Siedlungen Böhmens, 60 km südlich von Prag. Hier lebte Theresia, die jüdische Vorfahrin der Bechinie-Linie; sie wurde 1768 getauft – mit den Eltern des späteren Feldmarschalls Radetzky als Taufpaten.", ref: "Bd. 1, S. 39"},
-        {name: "Rot Hradek (Amschelberg)", lat: 49.656, lon: 14.453, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Červený Hrádek u Sedlčan, Bezirk Příbram. Herrschaftssitz der Hradetzky (Taufpaten Theresias 1768) und Registrationsort der jüdischen Fürth-Familianten — geographischer Kreuzungspunkt jüdischer und christlicher Genealogie rund um Amschelberg. Nicht zu verwechseln mit Schloss Rothenhaus bei Jirkov in Nordböhmen.", ref: ""},
+        {name: "Amschelberg (Kosova Hora)", lat: 49.6558, lon: 14.4744, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Eine der ältesten Siedlungen Böhmens, 60 km südlich von Prag. Hier lebte Theresia, die jüdische Vorfahrin der Bechinie-Linie; sie wurde 1768 getauft – mit den Eltern des späteren Feldmarschalls Radetzky als Taufpaten.", ref: "Bd. 1, S. 39"},
+        {name: "Rot Hradek u Sedlčan", lat: 49.656, lon: 14.453, kategorie: "Pilz-Linie", region: "Mittelböhmen", beschreibung: "Červený Hrádek u Sedlčan (Bezirk Příbram, Mittelböhmen). Herrschaftssitz der Hradetzky, die 1768 als Taufpaten Theresias in Amschelberg auftraten — geographischer und genealogischer Bezugspunkt zu Amschelberg, aber nicht identisch damit. Zugleich Registrationsort der jüdischen Fürth-Familianten (JewishGen, Berounský Kreis). Trägt denselben tschechischen Namen wie das Schloss Rothenhaus bei Jirkov in Nordböhmen — die beiden Orte liegen weit auseinander und sind nicht zu verwechseln.", ref: ""},
 
         {name: "Miskowitz", lat: 49.2500, lon: 14.9500, kategorie: "Pilz-Linie", region: "Südböhmen", beschreibung: "Myslkovice (Bezirk Tábor). Jüdische Gemeinde mit Ghetto (seit Ende 17. Jh.), 37 Familianten, Synagoge seit 1770. Herkunftsort von Theresia (geb. Pessel, Kekulé 69, direkte Vorfahrin des Autors), die ca. 1764 nach Amschelberg einheiratete. Im Census 1869 sind hier auch eine Familie Zeisl (Haus XVI) und eine Familie Bloch (Haus 56) nachgewiesen — ein Indiz für eine geographische Überschneidung mit der Zeisl-Familie.", ref: ""},
         {name: "Prag", lat: 50.0875, lon: 14.4214, kategorie: "Pilz-Linie", region: "Böhmen", beschreibung: "Böhmische Landeshauptstadt.", ref: "Bd. 1"},
@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Feldkirchen", lat: 48.3490, lon: 14.2470, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Geburtsort Klara Mittermaier (Kekulé 13), 30.5.1865.", ref: "Bd. 2, S. 30"},
         {name: "Linz", lat: 48.3064, lon: 14.2861, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Oberösterreichische Landeshauptstadt.", ref: "Bd. 1"},
         {name: "Rannariedl", lat: 48.4831, lon: 13.7833, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Gerichtsdiener Strixner.", ref: "Bd. 1"},
-        {name: "Steyr", lat: 48.0425, lon: 14.4211, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Industriestadt.", ref: "Bd. 1"},
+        {name: "Steyr", lat: 48.0425, lon: 14.4211, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Industriestadt; Sitz der reichen Kaufmannsfamilie Eberstaller und der Karoline Eberstaller, Freundin von Franz Schubert.", ref: "Bd. 1"},
         {name: "Wels", lat: 48.1656, lon: 14.0353, kategorie: "Eberstaller-Linie", region: "OÖ", beschreibung: "Tod von Joh. Baptist Eberstaller (Kekulé 12), 1905.", ref: "Bd. 1, S. 43"},
 
         // === TIROLER LINIE ===
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {name: "Triest", lat: 45.6495, lon: 13.7768, kategorie: "Tiroler Linie", region: "Friaul-Jul. V.", beschreibung: "Cofler-Ärzte.", ref: "Bd. 1"},
 
         // === ZUSAMMENFÜHRUNG ===
-        {name: "Innsbruck", lat: 47.2692, lon: 11.3933, kategorie: "Zusammenführung", region: "Tirol", beschreibung: "Zentraler Wohnort ab 1953.", ref: "Bd. 1"},
+        {name: "Innsbruck", lat: 47.2692, lon: 11.3933, kategorie: "Zusammenführung", region: "Tirol", beschreibung: "Zentraler Wohnort ab 1951.", ref: "Bd. 1"},
         {name: "Sillian", lat: 46.7528, lon: 12.4211, kategorie: "Zusammenführung", region: "Tirol", beschreibung: "Zollamt Alois A. Pilz.", ref: "Bd. 1"},
 
         // === SONSTIGE ===

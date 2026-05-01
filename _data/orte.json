@@ -35,8 +35,8 @@
   {"name": "Radmierschitz", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Ratměřice. Geburtsort Josef Bechinie (Kekulé 34), 1776.", "ref": "Bd. 2, S. 22"},
   {"name": "Chlum", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Heirat Philipp Bechinie (Kekulé 68), 22.10.1769.", "ref": "Bd. 2, S. 22"},
   {"name": "Bielschitz", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Bělčice. Philipp Bechinie arbeitete hier als 83-jähriger Jäger.", "ref": "Bd. 2, S. 22"},
-  {"name": "Amschelberg", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Kosova Hora. Taufe Theresia/Apollonia; jüdische Gemeinde.", "ref": "Bd. 1, S. 39"},
-  {"name": "Rot Hradek (Amschelberg)", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Červený Hrádek u Sedlčan (Bezirk Příbram). Herrschaftssitz der Hradetzky, die 1768 als Taufpaten Theresias fungierten. Zugleich Registrationsort der jüdischen Fürth-Familianten (JewishGen, Berounský Kreis) — geographischer Kreuzungspunkt jüdischer und christlicher Genealogie. Nicht zu verwechseln mit Schloss Rothenhaus (Červený Hrádek u Jirkova, Nordböhmen).", "ref": ""},
+  {"name": "Amschelberg (Kosova Hora)", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Taufe Theresia/Apollonia; jüdische Gemeinde.", "ref": "Bd. 1, S. 39"},
+  {"name": "Rot Hradek u Sedlčan", "kategorie": "Pilz-Linie", "region": "Mittelböhmen", "beschreibung": "Červený Hrádek u Sedlčan (Bezirk Příbram, Mittelböhmen). Herrschaftssitz der Hradetzky, die 1768 als Taufpaten Theresias in Amschelberg auftraten — geographischer und genealogischer Bezugspunkt zu Amschelberg, aber nicht identisch damit. Zugleich Registrationsort der jüdischen Fürth-Familianten (JewishGen, Berounský Kreis). Trägt denselben tschechischen Namen wie das Schloss Rothenhaus bei Jirkov in Nordböhmen — die beiden Orte liegen weit auseinander und sind nicht zu verwechseln.", "ref": ""},
 
   {"name": "Miskowitz", "kategorie": "Pilz-Linie", "region": "Südböhmen", "beschreibung": "Myslkovice (Bezirk Tábor). Jüdische Gemeinde mit Ghetto (seit Ende 17. Jh.), 37 Familianten, Synagoge seit 1770. Herkunftsort von Pessel/Theresia (Kekulé 69, geb. ca. 1735). Familie Zeisl und Bloch im Census 1869 nachgewiesen.", "ref": ""},
   {"name": "Prag", "kategorie": "Pilz-Linie", "region": "Böhmen", "beschreibung": "Böhmische Landeshauptstadt.", "ref": "Bd. 1"},
@@ -58,7 +58,7 @@
   {"name": "Feldkirchen", "kategorie": "Eberstaller-Linie", "region": "OÖ", "beschreibung": "Geburtsort Klara Mittermaier (Kekulé 13), 30.5.1865.", "ref": "Bd. 2, S. 30"},
   {"name": "Linz", "kategorie": "Eberstaller-Linie", "region": "OÖ", "beschreibung": "Oberösterreichische Landeshauptstadt.", "ref": "Bd. 1"},
   {"name": "Rannariedl", "kategorie": "Eberstaller-Linie", "region": "OÖ", "beschreibung": "Gerichtsdiener Strixner.", "ref": "Bd. 1"},
-  {"name": "Steyr", "kategorie": "Eberstaller-Linie", "region": "OÖ", "beschreibung": "Industriestadt.", "ref": "Bd. 1"},
+  {"name": "Steyr", "kategorie": "Eberstaller-Linie", "region": "OÖ", "beschreibung": "Industriestadt; Sitz der reichen Kaufmannsfamilie Eberstaller und der Karoline Eberstaller, Freundin von Franz Schubert.", "ref": "Bd. 1"},
   {"name": "Wels", "kategorie": "Eberstaller-Linie", "region": "OÖ", "beschreibung": "Tod von Joh. Baptist Eberstaller (Kekulé 12), 1905.", "ref": "Bd. 1, S. 43"},
   {"name": "Kartitsch", "kategorie": "Tiroler Linie", "region": "Tirol", "beschreibung": "Zentrum der Tiroler Linie; Geburtsort der Mutter.", "ref": "Bd. 1, S. 44"},
   {"name": "Petererhof, St. Oswald", "kategorie": "Tiroler Linie", "region": "Tirol", "beschreibung": "Historischer Bauernhof (Nr. 6/8) in St. Oswald bei Kartitsch, vermutlich 1594 errichtet. Stammsitz der Familien Kofler und Reider. Geburtsort von Katharina Eberstaller, geb. Reider (1892–1964), der Großmutter des Autors.", "ref": "Bd. 1, S. 44, 110ff."},
@@ -70,7 +70,7 @@
   {"name": "Lienz", "kategorie": "Tiroler Linie", "region": "Tirol", "beschreibung": "Bezirkshauptstadt Osttirol.", "ref": "Bd. 1"},
   {"name": "Padua", "kategorie": "Tiroler Linie", "region": "Venetien", "beschreibung": "Universität (Joh. B. Kofler, Studium).", "ref": "Bd. 1"},
   {"name": "Triest", "kategorie": "Tiroler Linie", "region": "Friaul-Jul. V.", "beschreibung": "Cofler-Ärzte.", "ref": "Bd. 1"},
-  {"name": "Innsbruck", "kategorie": "Zusammenführung", "region": "Tirol", "beschreibung": "Zentraler Wohnort ab 1953.", "ref": "Bd. 1"},
+  {"name": "Innsbruck", "kategorie": "Zusammenführung", "region": "Tirol", "beschreibung": "Zentraler Wohnort ab 1951.", "ref": "Bd. 1"},
   {"name": "Sillian", "kategorie": "Zusammenführung", "region": "Tirol", "beschreibung": "Zollamt Alois A. Pilz.", "ref": "Bd. 1"},
   {"name": "Wien", "kategorie": "Sonstige", "region": "Wien", "beschreibung": "Reichshauptstadt.", "ref": ""},
   {"name": "Budapest", "kategorie": "Sonstige", "region": "Ungarn", "beschreibung": "Metropole an der Donau.", "ref": ""}

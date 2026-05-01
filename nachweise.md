@@ -73,7 +73,7 @@ description: "Nachweise und Quellen zur Pilz-Chronik: tschechische und sächsisc
 - [Salzburger Chronik (1887): Wirtshausstreit](https://anno.onb.ac.at/cgi-content/anno?aid=sch&datum=18870521&seite=3)
 - [Mühlviertler Nachrichten (1925): Unglücksfall](https://anno.onb.ac.at/cgi-content/anno?aid=mvn&datum=19250306&seite=3)
 - [Lienzer Nachrichten (1928): Nachruf Leonhard Reider](http://digital.tessmann.it/tessmannDigital/Zeitungsarchiv/Seite/Zeitung/63023/1/09.11.1928/386414/9)
-- [Tagblatt Linz (1898): „Radfahrerwildling" Alois Pilz](https://anno.onb.ac.at/anno-suche/simple?query=%22mit%20einem%20Fahrrade%20in%20sausendem%20Tempo%22)
+- [Tagblatt Linz (1925): „Radfahrerwildling" Alois Pilz](https://anno.onb.ac.at/anno-suche/simple?query=%22mit%20einem%20Fahrrade%20in%20sausendem%20Tempo%22)
 
 ### Sonderdokumente
 
