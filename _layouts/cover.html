@@ -3,14 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <meta name="description" content="{{ site.description | strip_newlines }}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
-
   {%- comment -%}
     Master-Layout der Bonusseite (Cover-Variante).
-    Laedt das eigene Stylesheet plus das bestehende custom-head fuer
-    Pagefind-Search und etwaige seitenuebergreifende Stile.
+    Title, description und canonical werden weiter unten von
+    jekyll-seo-tag automatisch generiert — page.description aus
+    dem Front-Matter wird respektiert mit Fallback auf site.description.
   {%- endcomment -%}
   <link rel="stylesheet" href="{{ '/assets/css/bonus-master.css' | relative_url }}">
   {%- include custom-head.html -%}
