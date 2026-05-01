@@ -870,11 +870,15 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   margin: 24px auto;
 }
 .bwm-post-body figure { margin: 24px 0; }
+/* Bildunterschrift — !important, weil aeltere Posts hartcodierte
+   Inline-Styles am <figcaption>-Tag tragen (font-size:0.85em; color:#666),
+   die externes CSS sonst ueberschreiben. */
 .bwm-post-body figcaption {
-  font-family: var(--pc-font-body);
-  font-size: 15px;
-  line-height: 1.5;
-  color: var(--pc-fg);
+  font-family: var(--pc-font-body) !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  color: var(--pc-fg) !important;
+  font-style: italic;
   text-align: center;
   margin-top: 10px;
 }
