@@ -454,6 +454,66 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   font-family: var(--pc-font-body);
 }
 
+/* Suchergebnis-Drawer: cremeweisses Panel auf dem dunklen Cover-Hero,
+   sonst ist der dunkelblaue Pagefind-Text auf Dunkelblau unlesbar.
+   --pagefind-ui-background greift nur auf die UI-Variablen, nicht auf
+   die Result-Items selbst — die brauchen explizites Background. */
+.bwm-search .pagefind-ui__drawer {
+  background: var(--pc-cremeweiss);
+  color: var(--pc-dunkelblau);
+  padding: 14px 18px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(19, 39, 66, 0.12);
+  max-height: 70vh;
+  overflow-y: auto;
+}
+.bwm-search .pagefind-ui__drawer:empty {
+  display: none;
+}
+.bwm-search .pagefind-ui__results-area {
+  padding: 0;
+}
+.bwm-search .pagefind-ui__result {
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(19, 39, 66, 0.12);
+  background: transparent;
+}
+.bwm-search .pagefind-ui__result:last-child {
+  border-bottom: 0;
+}
+.bwm-search .pagefind-ui__result-title,
+.bwm-search .pagefind-ui__result-link {
+  color: var(--pc-dunkelblau);
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+}
+.bwm-search .pagefind-ui__result-link:hover {
+  color: var(--pc-altrosa-dunkel);
+}
+.bwm-search .pagefind-ui__result-excerpt {
+  color: var(--pc-dunkelblau);
+  font-family: var(--pc-font-body);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.bwm-search .pagefind-ui__result-excerpt mark,
+.bwm-search .pagefind-ui__result-title mark {
+  background-color: var(--pc-altrosa-dunkel);
+  color: var(--pc-cremeweiss);
+  padding: 0 3px;
+  border-radius: 2px;
+}
+.bwm-search .pagefind-ui__message {
+  color: var(--pc-dunkelblau);
+  font-family: var(--pc-font-body);
+  font-size: 14px;
+  padding: 8px 0;
+}
+.bwm-search .pagefind-ui__result-thumb {
+  border-radius: 3px;
+}
+
 /* ============================================================
    UNTERSEITEN (Werkstatt, Orte, Nachweise, ...) — helle Buchseite
    ============================================================ */
