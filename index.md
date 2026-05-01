@@ -51,40 +51,33 @@ description: "Bonusseite zur gedruckten Pilz-Chronik (Band 1 & 2). Werkstatt mit
       <span class="bwm-primary-item-cta">Karte &ouml;ffnen &rarr;</span>
     </a>
 
-    <a class="bwm-primary-item" href="{{ '/nachweise/' | relative_url }}">
+    <a class="bwm-primary-item" href="{{ '/dna-analyse/' | relative_url }}">
       <span class="bwm-primary-item-num">03</span>
+      <h2 class="bwm-primary-item-title">DNA-Analyse</h2>
+      <p class="bwm-primary-item-body">Haplogruppen und was die Genetik &uuml;ber die Familienherkunft sagt.</p>
+      <span class="bwm-primary-item-cta">DNA ansehen &rarr;</span>
+    </a>
+
+    <a class="bwm-primary-item" href="{{ '/nachweise/' | relative_url }}">
+      <span class="bwm-primary-item-num">04</span>
       <h2 class="bwm-primary-item-title">Nachweise</h2>
       <p class="bwm-primary-item-body">Quellen, Archive, Inhalt &amp; Index, Abbildungsverzeichnis.</p>
       <span class="bwm-primary-item-cta">Nachweise durchsuchen &rarr;</span>
     </a>
-  </div>
-</section>
 
-<section class="bwm-secondary" aria-label="Weitere Materialien">
-  <p class="bwm-secondary-eyebrow">Weitere Materialien</p>
-  <div class="bwm-secondary-list">
-
-    <a class="bwm-secondary-item" href="{{ '/zeitleiste/' | relative_url }}">
-      <span class="bwm-secondary-item-title">Zeitleiste</span>
-      <span class="bwm-secondary-item-meta">Zeitleiste</span>
-      <span class="bwm-secondary-item-body">Chronologische &Uuml;bersicht der Familienereignisse &uuml;ber beide B&auml;nde.</span>
-      <span class="bwm-secondary-item-arrow">&rarr;</span>
+    <a class="bwm-primary-item" href="{{ '/zeitleiste/' | relative_url }}">
+      <span class="bwm-primary-item-num">05</span>
+      <h2 class="bwm-primary-item-title">Zeitleiste</h2>
+      <p class="bwm-primary-item-body">Chronologische &Uuml;bersicht der Familienereignisse &uuml;ber beide B&auml;nde.</p>
+      <span class="bwm-primary-item-cta">Zeitleiste &ouml;ffnen &rarr;</span>
     </a>
 
-    <a class="bwm-secondary-item" href="{{ '/dna-analyse/' | relative_url }}">
-      <span class="bwm-secondary-item-title">DNA-Analyse</span>
-      <span class="bwm-secondary-item-meta">DNA-Analyse</span>
-      <span class="bwm-secondary-item-body">Haplogruppen und was die Genetik &uuml;ber die Familienherkunft sagt.</span>
-      <span class="bwm-secondary-item-arrow">&rarr;</span>
+    <a class="bwm-primary-item" href="{{ '/stammbaum/' | relative_url }}">
+      <span class="bwm-primary-item-num">06</span>
+      <h2 class="bwm-primary-item-title">Stammbaum</h2>
+      <p class="bwm-primary-item-body">Diagramme als PDF und Hauptzugang zur Webseite Pilz Vorfahren mit Personen, Familien, Orten und Quellen.</p>
+      <span class="bwm-primary-item-cta">Stammbaum &ouml;ffnen &rarr;</span>
     </a>
-
-    <a class="bwm-secondary-item" href="{{ '/stammbaum/' | relative_url }}">
-      <span class="bwm-secondary-item-title">Stammbaum</span>
-      <span class="bwm-secondary-item-meta">Stammbaum</span>
-      <span class="bwm-secondary-item-body">Diagramme als PDF und Hauptzugang zur Webseite Pilz Vorfahren mit Personen, Familien, Orten und Quellen.</span>
-      <span class="bwm-secondary-item-arrow">&rarr;</span>
-    </a>
-
   </div>
 </section>
 

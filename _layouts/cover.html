@@ -60,23 +60,26 @@
         </span>
         <span>
           <span class="bwm-brand-name">Pilz-Chronik</span><br>
-          <span class="bwm-brand-meta">Bonus-Material</span>
+          <span class="bwm-brand-meta">Digitale Erg&auml;nzungen</span>
         </span>
       </a>
 
       <nav class="bwm-nav" aria-label="Hauptnavigation">
         {%- assign here = page.url -%}
-        <a href="{{ '/' | relative_url }}"          {%- if here == '/' or here == '/index.html' %} class="on"{% endif -%}>Startseite</a>
-        <a href="{{ '/werkstatt/' | relative_url }}"{%- if here contains '/werkstatt' %} class="on"{% endif -%}>Werkstatt</a>
-        <a href="{{ '/orte/' | relative_url }}"     {%- if here contains '/orte' %} class="on"{% endif -%}>Orte</a>
-        <a href="{{ '/nachweise/' | relative_url }}"{%- if here contains '/nachweise' %} class="on"{% endif -%}>Nachweise</a>
+        <a href="{{ '/' | relative_url }}"             {%- if here == '/' or here == '/index.html' %} class="on"{% endif -%}>Startseite</a>
+        <a href="{{ '/werkstatt/' | relative_url }}"   {%- if here contains '/werkstatt' %} class="on"{% endif -%}>Werkstatt</a>
+        <a href="{{ '/orte/' | relative_url }}"        {%- if here contains '/orte' %} class="on"{% endif -%}>Orte</a>
+        <a href="{{ '/dna-analyse/' | relative_url }}" {%- if here contains '/dna-analyse' %} class="on"{% endif -%}>DNA-Analyse</a>
+        <a href="{{ '/nachweise/' | relative_url }}"   {%- if here contains '/nachweise' %} class="on"{% endif -%}>Nachweise</a>
+        <a href="{{ '/zeitleiste/' | relative_url }}"  {%- if here contains '/zeitleiste' %} class="on"{% endif -%}>Zeitleiste</a>
+        <a href="{{ '/stammbaum/' | relative_url }}"   {%- if here contains '/stammbaum' %} class="on"{% endif -%}>Stammbaum</a>
       </nav>
     </header>
 
     {{ content }}
 
     <footer class="bwm-footer" role="contentinfo">
-      <div>&copy; {{ site.time | date: '%Y' }} Wolfgang Pilz &middot; {{ site.title }} &middot; Bonus-Material</div>
+      <div>&copy; {{ site.time | date: '%Y' }} Wolfgang Pilz &middot; Pilz-Chronik &middot; Digitale Erg&auml;nzungen</div>
       <div class="bwm-footer-links">
         <a href="{{ '/ueber/' | relative_url }}">&Uuml;ber</a>
         <a href="{{ '/impressum/' | relative_url }}">Impressum</a>

@@ -314,7 +314,9 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   margin-right: 36px;
   transition: opacity 160ms;
 }
+.bwm-primary-item:nth-child(3n),
 .bwm-primary-item:last-child { margin-right: 0; padding-right: 0; }
+.bwm-primary-item:nth-child(n+4) { margin-top: 48px; }
 .bwm-primary-item:hover { color: inherit; }
 .bwm-primary-item:hover .bwm-primary-item-title,
 .bwm-primary-item:hover .bwm-primary-item-cta { color: var(--pc-akzent); }
