@@ -6,3 +6,5 @@ _site/
 Gemfile.lock
 *.swp
 *~
+_preview/
+*.minima-bak

@@ -1,29 +1,41 @@
 ---
-layout: default
+layout: cover
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+{%- comment -%}
+  Post-Layout der Bonusseite (Master-Variante, ab 2026-05-01).
+  Erbt Cover-Header und -Footer von cover.html.
+  Body sitzt in .bwm-page (cremeweiss / Buchseite); Lauftext-Klasse
+  .bwm-post-body steuert die Markdown-Standardelemente in Cover-Sprache.
+  Eyebrow ist 'Werkstatt' als Default und kann pro Post via
+  Front-Matter `eyebrow: "..."` ueberschrieben werden.
+{%- endcomment -%}
+<article class="bwm-page bwm-post h-entry"
+         itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
+  <div class="bwm-page-head">
+    <p class="bwm-page-eyebrow">{{ page.eyebrow | default: "Werkstatt" }}</p>
+    <h1 class="bwm-page-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <hr class="bwm-page-line">
+    <p class="bwm-post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- include datum.html date=page.date format="lang" -%}
       </time>
+      {%- if page.stand_vom -%}
+        <span class="bwm-post-meta-sep">&middot;</span>
+        <span class="bwm-post-meta-stand">Stand: {{ page.stand_vom }}</span>
+      {%- endif -%}
       {%- if page.author -%}
+        <span class="bwm-post-meta-sep">&middot;</span>
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          &bull; <span itemprop="name">{{ page.author }}</span>
+          <span itemprop="name">{{ page.author }}</span>
         </span>
       {%- endif -%}
     </p>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
+  <div class="bwm-post-body e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

@@ -715,4 +715,211 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   .bwm-page { padding: 40px 24px 64px; }
   .bwm-werkstatt-overview { grid-template-columns: 1fr; gap: 48px; }
   .bwm-post-excerpt { margin-left: 0; }
+  .bwm-post-body { font-size: 17px; }
+  .bwm-post-body table { font-size: 15px; }
 }
+
+/* ============================================================
+   POST-LAYOUT — Lauftext einzelner Beitraege (Markdown-Output)
+   Cover-Sprache, Buchseiten-Logik. .bwm-post-body sitzt unter
+   .bwm-page, erbt also bereits cremeweiss + Burgunder als Akzent.
+   ============================================================ */
+.bwm-post .bwm-page-head { margin-bottom: 48px; }
+
+/* Post-Titel zurueckgenommen — die grosse Variante (40-64px) bleibt der
+   Werkstatt-Uebersicht vorbehalten, einzelne Beitraege sollen ruhiger wirken. */
+.bwm-post .bwm-page-title {
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.15;
+}
+
+.bwm-post-meta {
+  font-family: var(--pc-font-display);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--pc-fg);
+  opacity: 0.65;
+  margin: 0;
+}
+.bwm-post-meta-sep { margin: 0 8px; opacity: 0.5; }
+.bwm-post-meta-stand { font-style: italic; }
+
+.bwm-post-body {
+  max-width: 78ch;
+  margin: 0 auto;
+  font-family: var(--pc-font-body);
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--pc-fg);
+}
+
+/* Absaetze und Listen */
+.bwm-post-body p { margin: 0 0 1.1em; }
+.bwm-post-body ul,
+.bwm-post-body ol { margin: 0 0 1.1em; padding-left: 1.4em; }
+.bwm-post-body li { margin: 0 0 0.4em; }
+.bwm-post-body li > ul,
+.bwm-post-body li > ol { margin-top: 0.4em; }
+
+/* Headlines */
+.bwm-post-body h2,
+.bwm-post-body h3,
+.bwm-post-body h4 {
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  color: var(--pc-fg);
+  line-height: 1.25;
+}
+.bwm-post-body h2 {
+  font-size: clamp(24px, 2.4vw, 30px);
+  margin: 56px 0 18px;
+  padding-top: 28px;
+  border-top: 1px solid var(--pc-line);
+}
+.bwm-post-body > h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.bwm-post-body h3 {
+  font-size: 21px;
+  margin: 36px 0 12px;
+}
+.bwm-post-body h4 {
+  font-size: 17px;
+  margin: 24px 0 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Links im Lauftext */
+.bwm-post-body a {
+  color: var(--pc-fg);
+  text-decoration: underline;
+  text-decoration-color: var(--pc-akzent-soft);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+.bwm-post-body a:hover {
+  color: var(--pc-akzent) !important;
+  text-decoration-color: var(--pc-akzent);
+}
+
+/* Hervorhebungen */
+.bwm-post-body strong { font-weight: 600; color: var(--pc-fg); }
+.bwm-post-body em { font-style: italic; }
+
+/* Zitat */
+.bwm-post-body blockquote {
+  margin: 24px 0;
+  padding: 6px 0 6px 22px;
+  border-left: 2px solid var(--pc-akzent);
+  font-style: italic;
+  color: var(--pc-fg);
+  font-size: 18px;
+}
+.bwm-post-body blockquote p { margin-bottom: 0.6em; }
+.bwm-post-body blockquote p:last-child { margin-bottom: 0; }
+
+/* Trennlinie */
+.bwm-post-body hr {
+  border: 0;
+  height: 1px;
+  background: var(--pc-line);
+  margin: 40px 0;
+}
+
+/* Tabellen */
+.bwm-post-body .table-wrap,
+.bwm-post-body table {
+  margin: 24px 0;
+}
+.bwm-post-body table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--pc-font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.bwm-post-body thead {
+  border-bottom: 1px solid var(--pc-line-strong);
+}
+.bwm-post-body th {
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 14px;
+  color: var(--pc-akzent);
+  white-space: nowrap;
+}
+.bwm-post-body td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--pc-line);
+  vertical-align: top;
+}
+.bwm-post-body tbody tr:last-child td { border-bottom: 0; }
+
+/* Bilder */
+.bwm-post-body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 24px auto;
+}
+.bwm-post-body figure { margin: 24px 0; }
+.bwm-post-body figcaption {
+  font-family: var(--pc-font-body);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--pc-fg);
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Code */
+.bwm-post-body code {
+  font-family: 'SFMono-Regular', Menlo, Consolas, monospace;
+  font-size: 0.92em;
+  background: rgba(19, 39, 66, 0.06);
+  padding: 1px 6px;
+  border-radius: 3px;
+}
+.bwm-post-body pre {
+  font-family: 'SFMono-Regular', Menlo, Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.55;
+  background: rgba(19, 39, 66, 0.05);
+  padding: 16px 18px;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 20px 0;
+}
+.bwm-post-body pre code {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* Inline-Status-Box (alte Posts haben das per inline-style;
+   wir ueberschreiben die hartcodierten Farben sanft, damit es sich
+   in die Buchseiten-Optik einfuegt.) */
+.bwm-post-body .status-box {
+  background: var(--pc-pinned-bg) !important;
+  border-left: 2px solid var(--pc-akzent) !important;
+  color: var(--pc-fg) !important;
+  font-family: var(--pc-font-body);
+  font-size: 16px !important;
+  line-height: 1.6;
+  padding: 14px 18px !important;
+  margin: 0 0 28px !important;
+}
+.bwm-post-body .status-box span:first-child {
+  color: var(--pc-akzent) !important;
+  font-family: var(--pc-font-display) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.14em !important;
+}
+
