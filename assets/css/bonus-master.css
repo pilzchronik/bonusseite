@@ -1455,6 +1455,22 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
 }
 
 /* ============================================================
+   META-NOTE — kleiner dezenter Absatz fuer Fussnoten/Hinweise
+   im Lauftext (z.B. Stammbaum-Seite, "Weitere Diagramme im Archiv")
+   ============================================================ */
+.layout-cover .bwm-post-body .bwm-meta-note {
+  font-family: var(--pc-font-display);
+  font-size: 13px;
+  letter-spacing: 0.03em;
+  color: var(--pc-fg);
+  opacity: 0.7;
+  margin-top: 12px;
+}
+.layout-cover .bwm-post-body .bwm-meta-note a {
+  text-decoration-color: var(--pc-akzent-soft);
+}
+
+/* ============================================================
    ZEITLEISTE — Cover-Look fuer Filter, Items, Tags
    Funktion (toggle, filter) bleibt 1:1
    ============================================================ */

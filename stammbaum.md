@@ -1,8 +1,23 @@
 ---
-layout: page
+layout: cover
 title: Stammbaum & Archiv
 permalink: /stammbaum/
 ---
+
+<section class="bwm-page bwm-stammbaum" aria-label="Stammbaum &amp; Archiv">
+
+<div class="bwm-page-head" markdown="0">
+  <p class="bwm-page-eyebrow">06 Stammbaum &amp; Archiv</p>
+  <h1 class="bwm-page-title">Stammbaum &amp; Archiv</h1>
+  <hr class="bwm-page-line">
+  <p class="bwm-page-lead">
+    Diagramme aller Familienlinien als PDF, dazu die Detailsuche im
+    MacFamilyTree-Archiv und weiterf&uuml;hrende Google-Sites zu einzelnen
+    Forschungsthemen.
+  </p>
+</div>
+
+<div class="bwm-post-body" markdown="1">
 
 ## Stammbäume und Ahnentafeln
 
@@ -23,8 +38,8 @@ Die wichtigsten Familienlinien als Diagramme – klick direkt auf die Darstellun
 * **[➤ Sanduhrtafel Anton Kofler zu Peterer](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/DD6C4E20-EEE6-46A6-B7AC-D39EE95FDC04.pdf?q=2008111898509203500)** – Vorfahren und Nachkommen der Kofler-Linie
 * **[➤ Verwandtschafts-Diagramm Antonio Cofler](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/D34EE2D9-9033-4157-8246-908FF4943EE6.pdf?q=1507478592630876400)** – Verbindung Kofler/Cofler
 
-<p style="font-size: 0.9em; color: #666; margin-top: 12px;">
-Weitere Diagramme und Darstellungen findest du im <a href="https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts">MacFamilyTree-Archiv unter „Diagramme"</a>.
+<p class="bwm-meta-note">
+Weitere Diagramme und Darstellungen findest du im <a href="https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts">MacFamilyTree-Archiv unter &bdquo;Diagramme&ldquo;</a>.
 </p>
 
 ---
@@ -48,3 +63,7 @@ Zu einzelnen Forschungsthemen existieren ergänzende Webseiten auf Google Sites.
 * **[Bechinie-Rätsel](https://sites.google.com/view/raetselphilippbechinie/startseite)** – Offene Forschungsfrage zur böhmischen Bechinie-Linie.
 * **[Pilz-Chronik: DNA](https://sites.google.com/view/pilzdna/startseite)** – Genetische Herkunft und Haplogruppen-Auswertung.
 * **[Von Kofler zu Cofler](https://sites.google.com/view/koflerzucofler/startseite)** – Zur Schreibweise und Geschichte des Familiennamens Kofler/Cofler.
+
+</div>
+
+</section>
