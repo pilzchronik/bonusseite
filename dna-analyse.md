@@ -1,10 +1,23 @@
 ---
-layout: page
+layout: cover
 title: "DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern"
 permalink: /dna-analyse/
 ---
 
-Die klassische Ahnenforschung endet meist im 16. oder 17. Jahrhundert. Mittels moderner DNA-Analyse konnten wir jedoch zwei Linien bis weit in die Vorzeit zurückverfolgen.
+<section class="bwm-page bwm-dna" aria-label="DNA-Analyse">
+
+<div class="bwm-page-head" markdown="0">
+  <p class="bwm-page-eyebrow">03 DNA-Analyse</p>
+  <h1 class="bwm-page-title">DNA-Analyse</h1>
+  <hr class="bwm-page-line">
+  <p class="bwm-page-lead">
+    Die klassische Ahnenforschung endet meist im 16. oder 17. Jahrhundert.
+    Mittels moderner DNA-Analyse konnten wir jedoch zwei Linien bis weit
+    in die Vorzeit zurückverfolgen.
+  </p>
+</div>
+
+<div class="bwm-post-body bwm-dna-body" markdown="1">
 
 ## Väterliche Linie (Y-DNA)
 
@@ -117,6 +130,9 @@ Der stärkste autosomale Treffer bei FamilyTreeDNA ist die Wiener Familie Zeisl 
 Diese drei Ergebnisse ergeben ein stimmiges Bild: alte Linien aus dem Nahen Osten und der Bronzezeit gelangen über den Balkan nach Mitteleuropa und sind in historischer Zeit in den mitteleuropäischen Populationen wiederzufinden — genau dort, wo die schriftlichen Quellen die Familie Pilz verorten.
 
 *Die genetischen Ergebnisse sind eine Ergänzung zur Chronik. Jede genealogische Aussage bleibt durch die schriftlichen Quellen der Bände 1 und 2 abzusichern. FamilyTreeDNA, Kit 330595.*
+
+</div>
+</section>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

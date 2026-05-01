@@ -1172,6 +1172,228 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
 .bwm-orte-top a { color: var(--pc-fg); }
 .bwm-orte-top a:hover { color: var(--pc-akzent) !important; opacity: 1; }
 
+/* ============================================================
+   DNA-ANALYSE — Cover-Look fuer fact-Boxen, Tool-Container,
+   Buttons, Dual-Panel, Haplo-Tabelle, Epoch-Progress.
+   Funktion (Karte, Animation, Daten) bleibt 1:1.
+   ============================================================ */
+
+/* Haplogruppen-fact-box: Burgunder durchgehend (auch ueber Inline-Styles)
+   Die alte mtDNA-Box hat hartcodiertes Orange via inline-style — !important. */
+.layout-cover .bwm-dna-body .fact-box {
+  background: var(--pc-pinned-bg) !important;
+  border-left: 2px solid var(--pc-akzent) !important;
+  padding: 16px 20px !important;
+  margin: 24px 0 !important;
+  border-radius: 0 4px 4px 0;
+  font-family: var(--pc-font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--pc-fg);
+}
+.layout-cover .bwm-dna-body .fact-box .fact-title {
+  display: block;
+  font-family: var(--pc-font-display) !important;
+  font-weight: 700;
+  font-size: 11px !important;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--pc-akzent) !important;
+  margin-bottom: 8px;
+}
+
+/* Tool-Container: Buttons */
+.layout-cover #dna-controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 24px 0 16px;
+}
+.layout-cover #dna-controls button {
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  background: transparent;
+  border: 1px solid var(--pc-akzent);
+  border-radius: 3px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.layout-cover #dna-controls button:hover:not(:disabled) {
+  background-color: var(--pc-akzent);
+  color: var(--pc-bg);
+}
+.layout-cover #dna-controls button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.layout-cover #epoch-label {
+  font-family: var(--pc-font-display);
+  font-size: 13px;
+  color: var(--pc-fg);
+  opacity: 0.75;
+  margin-left: 4px;
+}
+
+/* Dual-Panel (Y-DNA / mtDNA Anzeige) */
+.layout-cover #dual-panel {
+  display: none;
+  gap: 16px;
+  margin: 16px 0;
+}
+.layout-cover .line-panel {
+  flex: 1;
+  padding: 14px 18px;
+  border: 1px solid var(--pc-line);
+  border-left: 3px solid #1a5f9e;
+  border-radius: 4px;
+  background: var(--pc-pinned-bg);
+}
+.layout-cover .line-panel.mat { border-left-color: #c66a1e; }
+.layout-cover .line-label {
+  font-family: var(--pc-font-display);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--pc-fg);
+  opacity: 0.7;
+  margin-bottom: 6px;
+}
+.layout-cover .panel-group {
+  font-family: var(--pc-font-display);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.layout-cover .panel-year {
+  font-family: var(--pc-font-display);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  color: var(--pc-fg);
+  opacity: 0.7;
+  margin-bottom: 6px;
+}
+.layout-cover .panel-info {
+  font-family: var(--pc-font-body);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--pc-fg);
+}
+
+/* Karten-Container und Hinweis-Absatz darunter */
+.layout-cover #dna-map {
+  height: 480px;
+  border: 1px solid var(--pc-line);
+  border-radius: 4px;
+  margin: 8px 0 0;
+}
+
+/* Epoch-Progress-Bar */
+.layout-cover #epoch-progress {
+  margin: 14px 0 24px;
+  background: rgba(19,39,66,0.08);
+  height: 4px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.layout-cover #epoch-bar {
+  height: 100%;
+  width: 0%;
+  background: var(--pc-akzent);
+  transition: width 0.4s ease;
+}
+
+/* Erklaerungs-Details */
+.layout-cover .dna-details {
+  margin: 24px 0;
+  padding: 14px 18px;
+  border: 1px solid var(--pc-line);
+  border-radius: 4px;
+}
+.layout-cover .dna-details summary {
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: var(--pc-akzent);
+  cursor: pointer;
+  list-style: none;
+}
+.layout-cover .dna-details summary::-webkit-details-marker { display: none; }
+.layout-cover .dna-details[open] summary { margin-bottom: 12px; }
+.layout-cover .dna-details-body {
+  font-family: var(--pc-font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--pc-fg);
+}
+
+/* Haplo-Tabelle (kleine Erklaer-Tabelle in den Details) */
+.layout-cover .haplo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0;
+  font-family: var(--pc-font-body);
+}
+.layout-cover .haplo-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--pc-line);
+  vertical-align: top;
+  font-size: 15px;
+}
+.layout-cover .haplo-table tr:last-child td { border-bottom: 0; }
+.layout-cover .haplo-table .haplo-name {
+  font-family: var(--pc-font-display);
+  font-weight: 700;
+  width: 30%;
+  white-space: nowrap;
+}
+.layout-cover .haplo-table .haplo-name.pat { color: #1a5f9e; }
+.layout-cover .haplo-table .haplo-name.mat { color: #c66a1e; }
+
+/* Epochen-Tabelle (scrollbarer Container) */
+.layout-cover .epoch-table-wrap {
+  max-height: 380px;
+  overflow-y: auto;
+  border: 1px solid var(--pc-line);
+  border-radius: 4px;
+  margin: 8px 0 24px;
+}
+.layout-cover #epoch-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--pc-font-body);
+  font-size: 14px;
+}
+.layout-cover #epoch-table thead {
+  position: sticky;
+  top: 0;
+  background: var(--pc-bg);
+  border-bottom: 1px solid var(--pc-akzent);
+}
+.layout-cover #epoch-table th {
+  font-family: var(--pc-font-display);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  padding: 10px 8px;
+  text-align: left;
+}
+
+/* Mobile-Anpassung */
+@media (max-width: 760px) {
+  .layout-cover #dual-panel { flex-direction: column; }
+  .layout-cover #dna-map { height: 360px; }
+}
+
 /* Inline-Status-Box (alte Posts haben das per inline-style;
    wir ueberschreiben die hartcodierten Farben sanft, damit es sich
    in die Buchseiten-Optik einfuegt.) */
