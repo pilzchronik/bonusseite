@@ -1,20 +1,36 @@
 ---
 layout: cover
-title: Stammbaum & Archiv
+title: Stammbaum
 permalink: /stammbaum/
-description: "Stammbäume der Familie Pilz, Pültz, Eberstaller, Reider und Kofler/Cofler – PDF-Diagramme aus dem MacFamilyTree-Archiv."
+description: "Stammbäume der Familie Pilz, Pültz, Eberstaller, Reider und Kofler/Cofler – Diagramme als PDF und Hauptzugang zur Webseite Pilz Vorfahren."
 ---
 
-<section class="bwm-page bwm-stammbaum" aria-label="Stammbaum &amp; Archiv">
+<section class="bwm-page bwm-stammbaum" aria-label="Stammbaum">
 
 <div class="bwm-page-head" markdown="0">
-  <p class="bwm-page-eyebrow">06 Stammbaum &amp; Archiv</p>
-  <h1 class="bwm-page-title">Stammbaum &amp; Archiv</h1>
+  <p class="bwm-page-eyebrow">06 Stammbaum</p>
+  <h1 class="bwm-page-title">Stammbaum</h1>
   <hr class="bwm-page-line">
   <p class="bwm-page-lead">
-    Diagramme aller Familienlinien als PDF, dazu die Detailsuche im
-    MacFamilyTree-Archiv und weiterf&uuml;hrende Google-Sites zu einzelnen
-    Forschungsthemen.
+    Eine Auswahl der wichtigsten Diagramme als PDF, dazu der Hauptzugang
+    zur vollst&auml;ndigen Stammbaum-Webseite <em>Pilz Vorfahren</em>.
+  </p>
+</div>
+
+<div class="bwm-stammbaum-cta">
+  <p class="bwm-stammbaum-cta-eyebrow">Hauptzugang</p>
+  <p class="bwm-stammbaum-cta-text">
+    Der vollst&auml;ndige Familienstammbaum mit allen Personen, Familien, Orten und
+    Quellen liegt als eigenst&auml;ndige Webseite vor: <strong>Pilz Vorfahren</strong> &mdash;
+    mit Suchfunktion und durchsuchbaren Verzeichnissen.
+  </p>
+  <p class="bwm-stammbaum-cta-link">
+    <a href="https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html"
+       target="_blank" rel="noopener">&rarr; Zur Webseite Pilz Vorfahren</a>
+  </p>
+  <p class="bwm-stammbaum-cta-note">
+    Die Diagramme weiter unten auf dieser Seite sind eine Auswahl der wichtigsten
+    Linien als PDF zum Ausdrucken oder schnellen &Uuml;berblick.
   </p>
 </div>
 
@@ -40,23 +56,23 @@ Die wichtigsten Familienlinien als Diagramme – klick direkt auf die Darstellun
 * **[➤ Verwandtschafts-Diagramm Antonio Cofler](https://www.macfamilytree.com/pilzw/Pilz-Chronik/resources/charts/D34EE2D9-9033-4157-8246-908FF4943EE6.pdf?q=1507478592630876400)** – Verbindung Kofler/Cofler
 
 <p class="bwm-meta-note">
-Weitere Diagramme und Darstellungen findest du im <a href="https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts">MacFamilyTree-Archiv unter &bdquo;Diagramme&ldquo;</a>.
+Weitere Diagramme und Darstellungen findest du auf der Webseite <a href="https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/charts">Pilz Vorfahren unter &bdquo;Diagramme&ldquo;</a>.
 </p>
 
 ---
 
-## Detailsuche im Archiv
+## Direktzugänge
 
-Über das MacFamilyTree-Archiv kannst du auch gezielt nach einzelnen Personen, Familien und Orten suchen:
+Direkte Links in einzelne Bereiche der Webseite *Pilz Vorfahren* für die gezielte Suche nach Personen, Familien und Orten:
 
 * **[Personen-Verzeichnis](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/persons)** – Alle gelisteten Familienmitglieder
 * **[Familien-Übersicht](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/families)** – Kernfamilien und Verbindungen
 * **[Orte & Karte](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/places)** – Lebensstationen geografisch zugeordnet (ergänzend dazu die [Übersichtskarte]({{ site.baseurl }}/orte/) hier auf der Bonusseite)
-* **[Quellenverzeichnis](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/sources)** – Hinterlegte Belege und Archivverweise
+* **[Quellenverzeichnis](https://www.macfamilytree.com/pilzw/Pilz-Chronik/index.html#/sources)** – Hinterlegte Belege und Quellverweise
 
 ---
 
-## Weiterführende Google-Sites
+## Ältere Forschungsseiten
 
 Zu einzelnen Forschungsthemen existieren ergänzende Webseiten auf Google Sites. Diese werden nicht aktiv gepflegt und können jederzeit ohne Vorankündigung entfernt werden – sie sind als Lektüre gedacht, nicht als verlässliche Langzeitquellen.
 

@@ -1473,6 +1473,60 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
 }
 
 /* ============================================================
+   STAMMBAUM — Hauptzugang-CTA direkt unter dem Page-Header
+   ruhige Buchseiten-Optik, hebt das MacFamilyTree-Archiv
+   als Hauptziel hervor (statt nur Sub-Tabs zu verlinken)
+   ============================================================ */
+.bwm-stammbaum-cta {
+  margin: 0 0 48px;
+  padding: 24px 28px;
+  background: var(--pc-pinned-bg);
+  border-left: 2px solid var(--pc-akzent);
+  border-radius: 4px;
+}
+.bwm-stammbaum-cta-eyebrow {
+  font-family: var(--pc-font-display);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--pc-akzent);
+  margin: 0 0 10px;
+}
+.bwm-stammbaum-cta-text {
+  font-family: var(--pc-font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0 0 14px;
+  color: var(--pc-fg);
+}
+.bwm-stammbaum-cta-link {
+  margin: 0 0 12px;
+  font-family: var(--pc-font-display);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+}
+.bwm-stammbaum-cta-link a {
+  color: var(--pc-akzent);
+  text-decoration: underline;
+  text-decoration-color: var(--pc-akzent-soft);
+  text-underline-offset: 3px;
+}
+.bwm-stammbaum-cta-link a:hover {
+  color: var(--pc-akzent) !important;
+  text-decoration-color: var(--pc-akzent);
+}
+.bwm-stammbaum-cta-note {
+  font-family: var(--pc-font-body);
+  font-size: 15px;
+  font-style: italic;
+  color: var(--pc-fg);
+  opacity: 0.8;
+  margin: 0;
+}
+
+/* ============================================================
    META-NOTE — kleiner dezenter Absatz fuer Fussnoten/Hinweise
    im Lauftext (z.B. Stammbaum-Seite, "Weitere Diagramme im Archiv")
    ============================================================ */

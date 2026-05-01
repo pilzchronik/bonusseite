@@ -79,9 +79,9 @@ description: "Bonusseite zur gedruckten Pilz-Chronik (Band 1 & 2). Werkstatt mit
     </a>
 
     <a class="bwm-secondary-item" href="{{ '/stammbaum/' | relative_url }}">
-      <span class="bwm-secondary-item-title">Personen &amp; Familien</span>
-      <span class="bwm-secondary-item-meta">Personen &amp; Familien</span>
-      <span class="bwm-secondary-item-body">Stammb&auml;ume, Ahnentafeln und Detailsuche im MacFamilyTree-Archiv.</span>
+      <span class="bwm-secondary-item-title">Stammbaum</span>
+      <span class="bwm-secondary-item-meta">Stammbaum</span>
+      <span class="bwm-secondary-item-body">Diagramme als PDF und Hauptzugang zur Webseite Pilz Vorfahren mit Personen, Familien, Orten und Quellen.</span>
       <span class="bwm-secondary-item-arrow">&rarr;</span>
     </a>
 
