@@ -7,6 +7,7 @@ status: vorläufig
 stand_vom: 27.03.2026
 betrifft: Band1
 tags: [Hintergrund, Ehe, Geschichte, Vinzenz Pilz]
+description: "Warum die Pilz-Chronik keine Liebesgeschichten enthält: Hintergrundtext zur Bedeutung der Ehe in der habsburgischen Gesellschaft des 18. und 19. Jahrhunderts."
 ---
 *Wie sich das Verständnis von Ehe über Jahrhunderte verändert hat — und warum diese Chronik keine romantischen Geschichten enthält*
 ## Was man in dieser Chronik nicht findet

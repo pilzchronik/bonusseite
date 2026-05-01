@@ -7,6 +7,7 @@ status: vorläufig
 stand_vom: 2026-04-06
 betrifft: DNA
 tags: [DNA, autosomale, Zeisl, Böhmen, GEDmatch, Triangulation]
+description: "Autosomaler DNA-Test (Family Finder, FamilyTreeDNA) zeigt einen Match zwischen den Familien Pilz und Zeisl – eine jüdisch-böhmische Spur, geprüft per Triangulation auf GEDmatch."
 ---
 
 ## Der dritte DNA-Test

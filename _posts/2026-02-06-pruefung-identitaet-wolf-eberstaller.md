@@ -4,6 +4,7 @@ title: "Eberstaller: Prüfung der Identität von „Wolf“ gestartet"
 date: 2026-02-06
 tags: [Neue Funde]
 categories: [Forschung]
+description: "Mehrere gleichnamige Wolf/Wolfgang Eberstaller im 17. Jahrhundert zwischen Kremsmünster, Krenglbach und Windischgarsten – laufende quellenkritische Identitätsprüfung."
 excerpt: "Mehrere gleichnamige Wolf/Wolfgang Eberstaller im 17. Jh.: Die quellenkritische Prüfung wurde begonnen. Erste Abgrenzungen sind möglich, zentrale Zuordnungen bleiben vorerst offen."
 status: vorläufig
 stand_vom: 2026-02-06

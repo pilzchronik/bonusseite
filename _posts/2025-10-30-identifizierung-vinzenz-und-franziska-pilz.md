@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Identifizierung bestätigt: Vinzenz und Franziska Pilz"
+title: "Vinzenz Pilz (1830–1883) und Franziska Gahler (1844–1921): Atelierfoto identifiziert"
 date: 2025-10-30
 tags: [Neue Funde]
 status: vorläufig
@@ -8,6 +8,7 @@ stand_vom: 2025-10-30
 author: "Wolfgang Pilz"
 categories: [Ahnenforschung, Forensik]
 image: /assets/images/Vinzenz-und-Franziska-Pilz.jpg
+description: "Forensische Foto-Analyse identifiziert Vinzenz Pilz (1830–1883) und seine Frau Franziska, geb. Gahler (1844–1921), auf einem unbeschrifteten Atelierfoto der Familie Pilz."
 excerpt: "Forensische Analysen bestätigen: Das bisher unbeschriftete Atelierfoto zeigt mit hoher Wahrscheinlichkeit Vinzenz Pilz (1830–1883) und Franziska Pilz, geb. Gahler (1844–1921) – die Urgroßeltern unserer Familie."
 ---
 <style>

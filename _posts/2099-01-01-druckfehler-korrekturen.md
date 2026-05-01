@@ -4,6 +4,7 @@ title: "Korrekturen & Ergänzungen zur Pilz-Chronik (Band 1 & 2)"
 date: 2099-01-01
 permalink: /korrekturen/
 tags: [Korrekturen]
+description: "Sammlung der Korrekturen und Ergänzungen zur gedruckten Pilz-Chronik (Wolfgang Pilz, Band 1 & 2, 2025) – laufend aktualisiert."
 excerpt: "Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte."
 pinned: true
 status: aktuell

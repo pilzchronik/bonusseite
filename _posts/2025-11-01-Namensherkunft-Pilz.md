@@ -7,6 +7,7 @@ status: aktuell
 stand_vom: 2025-11-01
 author: "Wolfgang Pilz"
 categories: ["Namenskunde", "Ergänzungen"]
+description: "Der Familienname Pilz geht auf mittelhochdeutsch bülz/bülez zurück (Pilzsammler/-händler). Schreibvarianten Bueltz, Pültz, Piltz, Pilz vom 12. bis 19. Jahrhundert."
 excerpt: >
   Der Familienname Pilz geht auf mittelhochdeutsch bülz/bülez zurück und bezeichnet
   ursprünglich einen Sammler oder Händler von Speisepilzen. Die Varianten Bueltz,

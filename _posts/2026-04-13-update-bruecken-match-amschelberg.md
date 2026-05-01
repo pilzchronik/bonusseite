@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Update April: Ein Brücken-Match und die Familie Jablansky in Amschelberg"
+title: "DNA-Brückenmatch Pilz–Jablansky: Amschelberg/Košová Hora (April 2026)"
 date: 2026-04-13
 permalink: /update-bruecken-match-amschelberg/
 status: vorläufig
 stand_vom: 2026-04-13
 betrifft: DNA, Ahnenforschung
 tags: [DNA, Zeisl, Fürth, Jablonsky, Amschelberg, Košová Hora, Myslkovice, Rot Hradek, GEDmatch, Census]
+description: "DNA-Brückenmatch zur Familie Jablansky in Amschelberg (Košová Hora, Böhmen) – drei neue Befunde zur Pilz-Zeisl-Verbindung, Triangulation auf GEDmatch."
 ---
 
 Eine Woche nach dem [ersten Bericht über den Zeisl-Match](/bonusseite/dna-pilz-zeisl-autosomaler-match/) sind drei neue Befunde dazugekommen, die die Spurensuche in Amschelberg deutlich schärfer machen.

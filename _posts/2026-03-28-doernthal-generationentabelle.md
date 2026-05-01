@@ -7,6 +7,7 @@ tags: [Korrekturen, Stammreihe]
 status: aktuell
 stand_vom: 2026-03-28
 betrifft: Band1
+description: "Korrigierte Generationentabelle der Familie Pültz/Pilz in Dörnthal (Sachsen, Erzgebirge) – Stand März 2026 nach Archivbesuch im LKA Dresden, Grundlage Heiratsregister 1568–1594."
 ---
 
 Korrigierte Stammreihe nach dem Archivbesuch im LKA Dresden (März 2026).

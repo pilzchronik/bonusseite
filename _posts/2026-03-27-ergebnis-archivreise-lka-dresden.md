@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Archivreise LKA Dresden — Die Stammlinie ist gesichert"
+title: "Archivreise LKA Dresden: Stammlinie Pültz/Pilz Dörnthal über sechs Generationen gesichert"
 date: 2026-03-27
 permalink: /ergebnis-archivreise-lka-dresden/
 status: vorläufig
 stand_vom: 27.03.2026
 betrifft: Band1, Band2
 tags: [Neue Funde, Korrekturen, Kirchenbücher, LKA Dresden, Primärquellen, Erzgebirge, Ergebnisse]
+description: 'Kirchenbücher im Landeskirchlichen Archiv Dresden bestätigen die direkte Stammlinie Pültz/Pilz in Dörnthal über sechs Generationen – Korrektur „Joseph statt Jobst“ damit widerlegt.'
 excerpt: >
   Die Kirchenbücher im Landeskirchlichen Archiv Dresden bestätigen die direkte
   Stammlinie über sechs Generationen — und widerlegen die auf dieser Seite

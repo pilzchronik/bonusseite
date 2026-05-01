@@ -4,6 +4,7 @@ title: "Forschungsstand – Familie Bechinie / Běchyně (Ondřejov und Chlum)"
 date: 2026-01-30
 tags: [Neue Funde]
 categories: [Forschung]
+description: "Auskunft des Erzbistums Prag zum Verbleib der Pfarrunterlagen von Ondřejov und Chlum (Středočeský kraj) – Grundlage für staatliche Archivanfragen zur Familie Bechinie/Běchyně."
 excerpt: "Eine kirchliche Auskunft klärt den institutionellen Verbleib älterer Pfarrunterlagen. Daraus ergeben sich gezielte Anfragen an staatliche Archive zu Ondřejov und Chlum."
 status: vorläufig
 stand_vom: 2026-01-30

@@ -5,6 +5,7 @@ permalink: /doernthal-freiberg/
 date: 2026-02-25
 categories: [werkstatt, Sachsen, Pültz]
 tags: [Neue Funde, Ergänzungen]
+description: "Sächsische Stammlinie Pültz/Pilz in Dörnthal (Erzgebirge) und Freiberg: zwei Gerichtsbuch-Einträge (1558, 1562), drei Bände Gerichtshandelsbücher (1550–1701), Archivstand Februar 2026."
 excerpt: >
   Zusammenfassung aller gesicherten Erkenntnisse zur sächsischen Stammlinie der Familie Pültz/Pilz
   in Dörnthal und Freiberg: zwei Gerichtsbuch-Einträge (1558, 1562), drei Bände Gerichtshandelsbücher
@@ -26,7 +27,7 @@ stand_vom: 2026-02-25
 
 ## Überblick: Quellen und Methode
 
-Die Grundlage dieser Rekonstruktion bilden drei Gerichtshandelsbücher des Gerichts Dörnthal, die im Sächsischen Hauptstaatsarchiv Dresden als Digitalisate vorliegen (Bestand 12613 Gerichtsbücher, GB AG Sayda):
+Die Grundlage dieser Rekonstruktion bilden drei Gerichtshandelsbücher des Gerichts Dörnthal (in älteren Quellen und Datenbanken auch *Doernthal* oder *Dornthal*), die im Sächsischen Hauptstaatsarchiv Dresden als Digitalisate vorliegen (Bestand 12613 Gerichtsbücher, GB AG Sayda):
 
 | Band | Signatur | Zeitraum | Register |
 |------|----------|----------|---------|
