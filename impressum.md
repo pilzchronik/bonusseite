@@ -23,7 +23,16 @@ permalink: /impressum/
 Wolfgang Pilz<br>
 Österreich<br>
 Kontakt: <span id="impressum-mail"></span><noscript>pilz (at) gmx.at</noscript>
-<script>(function(){var a="pilz",b="gmx.at",e=document.getElementById("impressum-mail");if(e)e.innerHTML='<a href="mailto:'+a+"@"+b+'">'+a+"@"+b+"</a>";})()</script>
+<script>
+(function(){
+  var a="pilz", b="gmx.at", e=document.getElementById("impressum-mail");
+  if(!e) return;
+  var link=document.createElement("a");
+  link.href="mailto:"+a+"@"+b;
+  link.textContent=a+"@"+b;
+  e.appendChild(link);
+})();
+</script>
 
 ## Grundlegende Richtung
 

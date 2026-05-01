@@ -54,7 +54,16 @@ stand_vom: 2026-04-21
 <div class="errata-hinweis">
   Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte.
   Hinweise gerne an <strong><span id="errata-mail"></span><noscript>pilz (at) gmx.at</noscript></strong>.
-  <script>(function(){var a="pilz",b="gmx.at",e=document.getElementById("errata-mail");if(e)e.innerHTML='<a href="mailto:'+a+"@"+b+'">'+a+"@"+b+"</a>";})()</script>
+  <script>
+  (function(){
+    var a="pilz", b="gmx.at", e=document.getElementById("errata-mail");
+    if(!e) return;
+    var link=document.createElement("a");
+    link.href="mailto:"+a+"@"+b;
+    link.textContent=a+"@"+b;
+    e.appendChild(link);
+  })();
+  </script>
 </div>
 
 <p class="errata-stand">Stand: 21. April 2026</p>
