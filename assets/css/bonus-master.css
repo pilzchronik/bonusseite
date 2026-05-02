@@ -1750,3 +1750,17 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   letter-spacing: 0.14em !important;
 }
 
+/* ============================================================
+   CHATBOT-SPRECHBLASE (Chatling-Embed unten rechts)
+   Burgunder als Default, helles Altrosa beim Hover.
+   Wir ueberschreiben die schwarzen Inline-Styles des Embed-Codes.
+   ============================================================ */
+#chtl-open-chat-icon > div {
+  background-color: var(--pc-altrosa-dunkel) !important;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+#chtl-open-chat-icon:hover > div {
+  background-color: var(--pc-altrosa) !important;
+}
+

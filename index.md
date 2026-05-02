@@ -25,7 +25,7 @@ description: "Bonusseite zur gedruckten Pilz-Chronik (Band 1 & 2). Werkstatt mit
     <div class="bwm-chat-hint">
       <p class="bwm-chat-eyebrow">Chat-Assistent &mdash; eine Frage frei formulieren</p>
       <p class="bwm-chat-text">Kennt die <em>gesamte</em> Pilz-Familienforschung &mdash; auch das, was nicht auf dieser Webseite steht (Stand M&auml;rz 2026). Antworten in S&auml;tzen, sofort.</p>
-      <p class="bwm-chat-cue">Knopf rechts unten &searr;</p>
+      <p class="bwm-chat-cue">Sprechblase rechts unten &searr;</p>
     </div>
 
     <p class="bwm-hero-meta" style="margin-top: 4px;">Stichwort-Suche &mdash; auf dieser Webseite st&ouml;bern</p>
