@@ -1055,28 +1055,30 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   text-decoration: none;
 }
 
-/* Vor/Zurueck-Navigation am Ende */
+/* Vor/Zurueck-Navigation am Ende: zwei gleich breite, gleich hohe Felder */
 .bwm-post-nav {
   max-width: 78ch;
   margin: 48px auto 0;
   padding-top: 32px;
   border-top: 1px solid var(--pc-line);
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
   align-items: stretch;
 }
-.bwm-post-nav-cell { min-width: 0; }
-.bwm-post-nav-prev  { text-align: left; }
-.bwm-post-nav-up    { text-align: center; }
-.bwm-post-nav-next  { text-align: right; }
+.bwm-post-nav-cell {
+  min-width: 0;
+  display: flex; /* leere Cell behaelt ihre Spaltenbreite, Link fuellt voll */
+}
+.bwm-post-nav-prev { justify-content: flex-start; }
+.bwm-post-nav-next { justify-content: flex-end; }
 
 .bwm-post-nav-link {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   gap: 4px;
-  max-width: 100%;
-  padding: 12px 14px;
+  width: 100%;
+  padding: 14px 16px;
   color: var(--pc-fg);
   text-decoration: none;
   border: 1px solid var(--pc-line);
@@ -1084,20 +1086,21 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   background: transparent;
   transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
+.bwm-post-nav-prev .bwm-post-nav-link { text-align: left;  align-items: flex-start; }
+.bwm-post-nav-next .bwm-post-nav-link { text-align: right; align-items: flex-end;   }
+
 .bwm-post-nav-link:hover {
   color: var(--pc-akzent) !important;
   border-color: var(--pc-akzent);
   text-decoration: none;
 }
-.bwm-post-nav-up .bwm-post-nav-link { padding: 12px 18px; }
 
 .bwm-post-nav-arrow {
   font-family: var(--pc-font-display);
   font-size: 14px;
   opacity: 0.7;
+  display: block;
 }
-.bwm-post-nav-prev .bwm-post-nav-arrow { display: block; }
-.bwm-post-nav-next .bwm-post-nav-arrow { display: block; }
 
 .bwm-post-nav-label {
   font-family: var(--pc-font-display);
@@ -1118,14 +1121,17 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   overflow: hidden;
 }
 
-/* Mobile: drei Felder untereinander stapeln */
+/* Mobile: zwei Felder untereinander stapeln, beide linksbuendig */
 @media (max-width: 640px) {
   .bwm-post-nav {
     grid-template-columns: 1fr;
   }
   .bwm-post-nav-prev,
-  .bwm-post-nav-up,
-  .bwm-post-nav-next { text-align: left; }
+  .bwm-post-nav-next { justify-content: stretch; }
+  .bwm-post-nav-next .bwm-post-nav-link {
+    text-align: left;
+    align-items: flex-start;
+  }
 }
 
 /* ============================================================

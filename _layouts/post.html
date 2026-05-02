@@ -69,12 +69,6 @@ layout: cover
         </a>
       {%- endif -%}
     </div>
-    <div class="bwm-post-nav-cell bwm-post-nav-up">
-      <a href="{{ '/werkstatt/' | relative_url }}" class="bwm-post-nav-link">
-        <span class="bwm-post-nav-label">&Uuml;bersicht</span>
-        <span class="bwm-post-nav-title">Alle Beitr&auml;ge</span>
-      </a>
-    </div>
     <div class="bwm-post-nav-cell bwm-post-nav-next">
       {%- if page.previous and page.previous.pinned != true -%}
         <a href="{{ page.previous.url | relative_url }}" class="bwm-post-nav-link">
