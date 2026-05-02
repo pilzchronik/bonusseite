@@ -92,7 +92,7 @@ description: "Werkstatt der Pilz-Chronik: Errata, neue Funde und Forschungsstand
   <div class="bwm-month-group" data-month="{{ post_month }}">
     <div class="bwm-month-header">{% include datum.html date=post.date format="monat" %}</div>
     {% endif %}
-    <div class="bwm-post-entry" data-searchable="{{ post.title | downcase | xml_escape }} {{ post.excerpt | strip_html | strip_newlines | downcase | xml_escape }}">
+    <div class="bwm-post-entry" data-searchable="{{ post.title | downcase | xml_escape }} {{ post.excerpt | strip_html | strip_newlines | downcase | xml_escape }} {{ post.tags | join: ' ' | downcase | xml_escape }}">
       <div class="bwm-post-title-row">
         <span class="bwm-post-date">{{ post.date | date: "%d.%m." }}</span>
         <a class="bwm-post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -119,6 +119,16 @@ description: "Werkstatt der Pilz-Chronik: Errata, neue Funde und Forschungsstand
   var resultInfo = document.getElementById('resultInfo');
   if (searchBox) {
     searchBox.addEventListener('input', filterPosts);
+    // Tag-Klick aus einem Post: ?q=tagname uebernehmen und Filter anwenden
+    try {
+      var params = new URLSearchParams(window.location.search);
+      var preset = params.get('q');
+      if (preset) {
+        searchBox.value = preset;
+        filterPosts();
+        searchBox.focus();
+      }
+    } catch (e) { /* aelterer Browser: kein Problem, normale Suche bleibt */ }
   }
   function filterPosts() {
     var term = searchBox.value.toLowerCase().trim();

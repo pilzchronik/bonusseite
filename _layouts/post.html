@@ -12,6 +12,13 @@ layout: cover
 <article class="bwm-page bwm-post h-entry"
          itemscope itemtype="http://schema.org/BlogPosting">
 
+  <nav class="bwm-post-breadcrumb" aria-label="Brotkrumen-Navigation">
+    <a href="{{ '/werkstatt/' | relative_url }}" class="bwm-post-breadcrumb-link">
+      <span class="bwm-post-breadcrumb-arrow" aria-hidden="true">&larr;</span>
+      <span>Werkstatt</span>
+    </a>
+  </nav>
+
   <div class="bwm-page-head">
     <p class="bwm-page-eyebrow">{{ page.eyebrow | default: "Werkstatt" }}</p>
     <h1 class="bwm-page-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -36,6 +43,49 @@ layout: cover
   <div class="bwm-post-body e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {%- if page.tags and page.tags.size > 0 -%}
+  <div class="bwm-post-tags" aria-label="Themen dieses Beitrags">
+    <span class="bwm-post-tags-label">Themen:</span>
+    {%- for tag in page.tags -%}
+      <a class="bwm-post-tag" href="{{ '/werkstatt/' | relative_url }}?q={{ tag | url_encode }}">{{ tag }}</a>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+
+  {%- comment -%}
+    Vor/Zurueck-Logik: angepinnte Posts (z.B. die Korrekturen-Sammelseite mit Datum 2099)
+    werden als chronologische Nachbarn ausgeblendet, damit sie nicht als "Neuerer Beitrag"
+    erscheinen. Auf dem Pin-Post selbst zeigen wir die Navigation gar nicht.
+  {%- endcomment -%}
+  {%- unless page.pinned -%}
+  <nav class="bwm-post-nav" aria-label="Weitere Beitr&auml;ge">
+    <div class="bwm-post-nav-cell bwm-post-nav-prev">
+      {%- if page.next and page.next.pinned != true -%}
+        <a href="{{ page.next.url | relative_url }}" class="bwm-post-nav-link">
+          <span class="bwm-post-nav-arrow" aria-hidden="true">&larr;</span>
+          <span class="bwm-post-nav-label">&Auml;lterer Beitrag</span>
+          <span class="bwm-post-nav-title">{{ page.next.title }}</span>
+        </a>
+      {%- endif -%}
+    </div>
+    <div class="bwm-post-nav-cell bwm-post-nav-up">
+      <a href="{{ '/werkstatt/' | relative_url }}" class="bwm-post-nav-link">
+        <span class="bwm-post-nav-label">&Uuml;bersicht</span>
+        <span class="bwm-post-nav-title">Alle Beitr&auml;ge</span>
+      </a>
+    </div>
+    <div class="bwm-post-nav-cell bwm-post-nav-next">
+      {%- if page.previous and page.previous.pinned != true -%}
+        <a href="{{ page.previous.url | relative_url }}" class="bwm-post-nav-link">
+          <span class="bwm-post-nav-label">Neuerer Beitrag</span>
+          <span class="bwm-post-nav-title">{{ page.previous.title }}</span>
+          <span class="bwm-post-nav-arrow" aria-hidden="true">&rarr;</span>
+        </a>
+      {%- endif -%}
+    </div>
+  </nav>
+  {%- endunless -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
