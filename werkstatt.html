@@ -111,46 +111,149 @@ description: "Werkstatt der Pilz-Chronik: Errata, neue Funde und Forschungsstand
 </section>
 
 <script>
-  var searchBox = document.getElementById('searchBox');
-  var entries = document.querySelectorAll('.bwm-post-entry');
-  var pinnedPost = document.querySelector('.bwm-pinned');
-  var monthGroups = document.querySelectorAll('.bwm-month-group');
-  var noResults = document.getElementById('noResults');
-  var resultInfo = document.getElementById('resultInfo');
-  if (searchBox) {
-    searchBox.addEventListener('input', filterPosts);
+  // Beitrags-Schnellsuche im Werkstatt-Listing.
+  // Nutzt die globale Pagefind-Volltextsuche und blendet im bestehenden
+  // Listing alle Eintraege aus, deren URL nicht zu den Pagefind-Treffern passt.
+  // Fallback (z.B. wenn Pagefind nicht laedt): Substring-Suche in
+  // data-searchable (Titel + Auszug + Tags).
+  (function () {
+    var PAGEFIND_URL = '{{ "/pagefind/pagefind.js" | relative_url }}';
+    var searchBox = document.getElementById('searchBox');
+    if (!searchBox) return;
+
+    var entries = Array.prototype.slice.call(document.querySelectorAll('.bwm-post-entry'));
+    var pinnedPost = document.querySelector('.bwm-pinned');
+    var monthGroups = Array.prototype.slice.call(document.querySelectorAll('.bwm-month-group'));
+    var noResults = document.getElementById('noResults');
+    var resultInfo = document.getElementById('resultInfo');
+
+    function normalizeUrl(u) {
+      try {
+        var path = new URL(u, window.location.origin).pathname;
+        return path.replace(/\/index\.html$/, '/').replace(/\/$/, '').toLowerCase();
+      } catch (e) {
+        return String(u || '').toLowerCase();
+      }
+    }
+
+    // URL → Eintrag-Map (fuer schnelles Matching mit Pagefind-Treffern)
+    var entriesByUrl = new Map();
+    entries.forEach(function (entry) {
+      var link = entry.querySelector('.bwm-post-link');
+      if (link && link.getAttribute('href')) {
+        entriesByUrl.set(normalizeUrl(link.getAttribute('href')), entry);
+      }
+    });
+    var pinnedUrl = null;
+    if (pinnedPost) {
+      var pinnedLink = pinnedPost.querySelector('a');
+      if (pinnedLink && pinnedLink.getAttribute('href')) {
+        pinnedUrl = normalizeUrl(pinnedLink.getAttribute('href'));
+      }
+    }
+
+    // Pagefind lazy laden — beim ersten Tastendruck
+    var pagefindPromise = null;
+    function loadPagefind() {
+      if (!pagefindPromise) {
+        pagefindPromise = import(PAGEFIND_URL).catch(function (err) {
+          console.warn('Pagefind konnte nicht geladen werden, nutze Fallback:', err);
+          return null;
+        });
+      }
+      return pagefindPromise;
+    }
+
+    function showAll() {
+      if (pinnedPost) pinnedPost.classList.remove('hidden');
+      entries.forEach(function (e) { e.classList.remove('hidden'); });
+      monthGroups.forEach(function (g) { g.classList.remove('hidden'); });
+      noResults.style.display = 'none';
+      resultInfo.textContent = '';
+    }
+
+    function applyVisibility(visibleEntries, pinnedVisible) {
+      var visible = 0;
+      entries.forEach(function (e) {
+        if (visibleEntries.has(e)) {
+          e.classList.remove('hidden');
+          visible++;
+        } else {
+          e.classList.add('hidden');
+        }
+      });
+      monthGroups.forEach(function (g) {
+        var hasVisible = g.querySelector('.bwm-post-entry:not(.hidden)');
+        g.classList.toggle('hidden', !hasVisible);
+      });
+      if (pinnedPost) {
+        pinnedPost.classList.toggle('hidden', !pinnedVisible);
+      }
+      var total = entries.length + (pinnedPost ? 1 : 0);
+      var totalVisible = visible + (pinnedVisible ? 1 : 0);
+      noResults.style.display = totalVisible === 0 ? 'block' : 'none';
+      resultInfo.textContent = totalVisible + ' von ' + total + ' Beiträgen';
+    }
+
+    function fallbackFilter(term) {
+      var lower = term.toLowerCase();
+      var visible = new Set();
+      entries.forEach(function (e) {
+        var ds = e.getAttribute('data-searchable') || '';
+        if (ds.indexOf(lower) > -1) visible.add(e);
+      });
+      var pinnedVisible = false;
+      if (pinnedPost) {
+        var ds = pinnedPost.getAttribute('data-searchable') || '';
+        pinnedVisible = ds.indexOf(lower) > -1;
+      }
+      applyVisibility(visible, pinnedVisible);
+    }
+
+    var searchToken = 0;
+    function doSearch(rawTerm) {
+      var term = (rawTerm || '').trim();
+      if (!term) { showAll(); return; }
+
+      var myToken = ++searchToken;
+      loadPagefind().then(function (pf) {
+        if (myToken !== searchToken) return;
+        if (!pf) { fallbackFilter(term); return; }
+
+        return pf.debouncedSearch(term, {}, 150).then(function (result) {
+          if (myToken !== searchToken) return;
+          if (!result) return; // wurde durch eine spaetere Eingabe ersetzt
+
+          var dataPromises = result.results.map(function (r) { return r.data(); });
+          return Promise.all(dataPromises).then(function (datas) {
+            if (myToken !== searchToken) return;
+            var matchedUrls = new Set();
+            datas.forEach(function (d) { matchedUrls.add(normalizeUrl(d.url)); });
+            var visible = new Set();
+            entriesByUrl.forEach(function (entry, url) {
+              if (matchedUrls.has(url)) visible.add(entry);
+            });
+            var pinnedVisible = pinnedUrl ? matchedUrls.has(pinnedUrl) : false;
+            applyVisibility(visible, pinnedVisible);
+          });
+        });
+      }).catch(function (err) {
+        console.warn('Pagefind-Suche fehlgeschlagen, nutze Fallback:', err);
+        fallbackFilter(term);
+      });
+    }
+
+    searchBox.addEventListener('input', function () { doSearch(searchBox.value); });
+
     // Tag-Klick aus einem Post: ?q=tagname uebernehmen und Filter anwenden
     try {
       var params = new URLSearchParams(window.location.search);
       var preset = params.get('q');
       if (preset) {
         searchBox.value = preset;
-        filterPosts();
+        doSearch(preset);
         searchBox.focus();
       }
-    } catch (e) { /* aelterer Browser: kein Problem, normale Suche bleibt */ }
-  }
-  function filterPosts() {
-    var term = searchBox.value.toLowerCase().trim();
-    var visible = 0;
-    if (pinnedPost) {
-      var ps = pinnedPost.getAttribute('data-searchable');
-      pinnedPost.classList.toggle('hidden', !(term === '' || ps.indexOf(term) > -1));
-    }
-    for (var i = 0; i < entries.length; i++) {
-      var text = entries[i].getAttribute('data-searchable');
-      if (term === '' || text.indexOf(term) > -1) {
-        entries[i].classList.remove('hidden');
-        visible++;
-      } else {
-        entries[i].classList.add('hidden');
-      }
-    }
-    for (var j = 0; j < monthGroups.length; j++) {
-      var vis = monthGroups[j].querySelectorAll('.bwm-post-entry:not(.hidden)');
-      monthGroups[j].classList.toggle('hidden', vis.length === 0);
-    }
-    noResults.style.display = visible === 0 ? 'block' : 'none';
-    resultInfo.textContent = term !== '' ? visible + ' von ' + entries.length + ' Beiträgen' : '';
-  }
+    } catch (e) { /* aelterer Browser: kein Problem, Fallback bleibt */ }
+  })();
 </script>
