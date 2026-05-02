@@ -1480,7 +1480,8 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
    als Hauptziel hervor (statt nur Sub-Tabs zu verlinken)
    ============================================================ */
 .bwm-stammbaum-cta {
-  margin: 0 0 48px;
+  margin: 0 auto 48px;
+  max-width: 44rem;
   padding: 24px 28px;
   background: var(--pc-pinned-bg);
   border-left: 2px solid var(--pc-akzent);
@@ -1554,7 +1555,9 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 0 0 40px 44px;
+  max-width: 44rem;
+  margin: 0 auto 40px;
+  padding-left: 44px;
 }
 .layout-cover .tl-filters button {
   padding: 6px 16px;
@@ -1588,18 +1591,20 @@ body.layout-cover .bwm-pinned a:hover { color: var(--pc-altrosa-dunkel) !importa
   letter-spacing: 0.18em;
   color: var(--pc-akzent);
   text-transform: uppercase;
-  margin: 40px 0 18px 44px;
+  max-width: 44rem;
+  margin: 40px auto 18px;
   border-top: 1px solid var(--pc-akzent);
   padding-top: 16px;
-  max-width: 600px;
+  padding-left: 44px;
 }
 
 /* Vertikaler Strich der Timeline */
 .layout-cover .tl-line {
   position: relative;
+  max-width: 44rem;
+  margin: 0 auto;
   padding-left: 44px;
   border-left: 1px solid var(--pc-line);
-  margin-left: 20px;
 }
 .layout-cover .tl-item {
   position: relative;
