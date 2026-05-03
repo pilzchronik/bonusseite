@@ -4,7 +4,7 @@ title: "Heiraten war nicht immer eine Liebesheirat"
 date: 2026-03-27
 permalink: /heirat-hintergrund/
 status: vorläufig
-stand_vom: 27.03.2026
+stand_vom: 03.05.2026
 betrifft: Band1
 tags: [Hintergrund, Ehe, Geschichte, Vinzenz Pilz]
 description: "Warum die Pilz-Chronik keine Liebesgeschichten enthält: Hintergrundtext zur Bedeutung der Ehe in der habsburgischen Gesellschaft des 18. und 19. Jahrhunderts."
@@ -78,7 +78,7 @@ Die Idee, dass man aus Liebe heiraten sollte, ist überraschend jung. Sie entsta
 ---
 ## War das tragisch? Nicht zwingend
 Man sollte sich diese alte Welt nicht als durchgehend freudlos vorstellen. Die Menschen, die so lebten, kannten es nicht anders. Viele Ehen, die aus Vernunft geschlossen wurden, entwickelten mit den Jahren Zuneigung, Vertrauen und Zusammenhalt. Gefühle entstanden — sie standen nur nicht am Anfang.
-Und dass das Herz trotzdem manchmal aus der Reihe tanzte, zeigt auch ein Fall in dieser Familiengeschichte. Ein junger Forstadjunkt und eine Försterstochter in Böhmen — beide aus dem richtigen Milieu, aber er noch ohne feste Anstellung. Sie bekamen zwei Kinder außer der Ehe. Die Eltern des Mädchens waren dagegen. Geheiratet haben die beiden dann jeweils andere.
+Und dass das Herz trotzdem manchmal aus der Reihe tanzte, zeigt auch ein Fall in dieser Familiengeschichte. Ein junger Forstadjunkt und eine Försterstochter in Böhmen — beide aus dem richtigen Milieu, aber er noch ohne feste Anstellung. Sie bekamen drei Kinder außer der Ehe. Die Eltern des Mädchens waren dagegen. Geheiratet haben die beiden dann jeweils andere.
 ---
 ## Was diese Chronik verzeichnet
 Namen, Daten, Berufe, Heiraten. Was die Menschen dabei empfanden — die Hoffnungen, die Enttäuschungen, das stille Einverständnis — muss man sich selbst vorstellen. Vielleicht ist das die ehrlichste Form des Erinnerns.

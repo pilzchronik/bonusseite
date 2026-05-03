@@ -4,7 +4,7 @@ title: "Alois Pilz im Wehrmachts-Dienst 1940–1945: Recherche zu Einheiten und 
 date: 2025-12-16
 tags: [Ergänzungen]
 status: aktuell
-stand_vom: 2025-12-16
+stand_vom: 2026-05-03
 author: Wolfgang Pilz
 categories: [Ahnenforschung, Zweiter Weltkrieg]
 description: "Recherche zu den Wehrmachts-Einheiten von Alois Pilz 1940–1945: Truppenteile, Stationen, historische Kontexte."
@@ -201,7 +201,7 @@ Diese Recherche kann die Lücke nicht füllen. Sie kann aber verhindern, dass Un
 
 ## Anhang und Quellen
 
-**→ [Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung]({{ site.baseurl }}/assets/mds/forensischer_anhang.md)**
+**→ [Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung]({{ '/wehrmacht-vier-hauptvorwuerfe/' | relative_url }})**
 
 **Bundesarchiv-Dokumentation:**
 - Auskunftsschreiben vom 01.12.2025 (DR 22025/G-7171)
