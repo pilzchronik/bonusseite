@@ -201,7 +201,7 @@ Diese Recherche kann die Lücke nicht füllen. Sie kann aber verhindern, dass Un
 
 ## Anhang und Quellen
 
-**→ [Detailanalyse: Die vier Hauptvorwürfe und ihre Widerlegung]({{ '/wehrmacht-vier-hauptvorwuerfe/' | relative_url }})**
+**→ [Stationen meines Vaters im Krieg 1940–1945: Wo er war und wo nicht]({{ '/wehrmacht-stationen/' | relative_url }})**
 
 **Bundesarchiv-Dokumentation:**
 - Auskunftsschreiben vom 01.12.2025 (DR 22025/G-7171)
