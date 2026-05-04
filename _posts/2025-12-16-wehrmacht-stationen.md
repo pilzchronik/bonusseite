@@ -1,26 +1,46 @@
 ---
 layout: post
 title: "Stationen meines Vaters im Krieg 1940–1945"
-date: 2025-12-17
+date: 2025-12-16
 permalink: /wehrmacht-stationen/
 status: aktuell
 stand_vom: 2026-05-03
 author: Wolfgang Pilz
 categories: [Ahnenforschung, Zweiter Weltkrieg]
 tags: [Detailanalyse, Wehrmacht, Alois Pilz]
-description: "Die fünf dokumentierten Einheiten meines Vaters Alois Pilz zwischen 1940 und 1945, geografisch und zeitlich eingeordnet — mit der Phase, in der seine Einheit Kriegsverbrechen beging und er nachweislich vor Ort war."
-excerpt: "Die fünf dokumentierten Einheiten meines Vaters Alois Pilz zwischen 1940 und 1945, geografisch und zeitlich eingeordnet."
+description: "Wo Alois Pilz, der Vater des Verfassers, zwischen 1940 und 1945 als Wehrmachtssoldat eingesetzt war: fünf Einheiten, sechs Stationen, eine Schnittmenge mit dem Verbrechensraum seiner Einheit (Kaukasus 1942/43)."
+excerpt: "Die fünf dokumentierten Einheiten meines Vaters Alois Pilz zwischen 1940 und 1945, geografisch und zeitlich eingeordnet — mit der Phase, in der seine Einheit Kriegsverbrechen beging und er nachweislich vor Ort war."
 ---
 
-**17. Dezember 2025 | Wolfgang Pilz**
+**16. Dezember 2025 | Wolfgang Pilz**
 
 ---
 
-## Vorbemerkung
+## Ausgangspunkt: Die Archivauskunft
 
-Die Karteikarte des Bundesarchivs verzeichnet für meinen Vater Alois Pilz fünf Einheiten zwischen 1940 und 1945. Eine eigentliche Personalakte existiert nicht — das ist für Mannschaftsdienstgrade und Unteroffiziere der Wehrmacht der Regelfall. Was die Auskunft hergibt, sind Einheitsbezeichnungen, Zeiträume und einzelne medizinische Vermerke.
+Im März 2025 wandte ich mich an das Bundesarchiv mit der Bitte um Auskunft über die militärische Verwendung meines Vaters Alois Pilz (*25.08.1909, †26.07.1968).
 
-Dieser Anhang ordnet die fünf Stationen geografisch und zeitlich ein. Was die Archive belegen, wird als Fakt dargestellt. Was sich nicht belegen lässt, bleibt offen.
+Die Antwort erreichte mich am 1. Dezember 2025 (Aktenzeichen DR 22025/G-7171). Sie bestätigte, was für Mannschaftsdienstgrade bzw. Unteroffiziere der Wehrmacht typisch ist: Es existiert keine Personalakte, sondern lediglich eine Karteikarte und Einträge in Erkennungsmarkenverzeichnissen.
+
+Die Auskunft dokumentiert fünf Einheiten:
+
+1. **3. Kompanie Bau-Bataillon 158** (1940)
+2. **2. Kompanie Landesschützen-Ersatz-Bataillon 18** (1942)
+3. **14. Kompanie Gebirgsjäger-Ersatz-Regiment III/136** (1942)
+4. **2. Kompanie Gebirgsjäger-Regiment 99** (1942)
+5. **Stamm-Kompanie Grenadier-Ersatz-Bataillon 107** (1944)
+
+Das Bundesarchiv weist darauf hin, dass nähere Informationen zu Einsatzräumen von Wehrmacht-Einheiten in der Publikation von Georg Tessin (*Verbände und Truppen der deutschen Wehrmacht und Waffen-SS im Zweiten Weltkrieg 1939–1945*) sowie im *Lexikon der Wehrmacht* zu finden sind.
+
+---
+
+## Was die Quellen erlauben — und was nicht
+
+Was diese Recherche kann: ordnen, wo mein Vater zwischen 1940 und 1945 stationiert war, mit welcher Einheit, in welchem Raum. Was sie nicht kann: sagen, was er im Einzelnen tat. Die Karteikarte schweigt zu Handlungen.
+
+Daraus folgt eine zweite Frage, die sich an die erste anschließt: in welchem Raum operierte die jeweilige Einheit, und welche dokumentierten Verbrechen fanden in diesem Raum während seiner Anwesenheit statt? Diese Frage lässt sich aus der Quellenkombination — Bundesarchiv, Sekundärliteratur, datierte biografische Anker — beantworten.
+
+Was die Archive belegen, wird im Folgenden als Fakt dargestellt. Was sich nicht belegen lässt, bleibt offen.
 
 ---
 
@@ -107,7 +127,7 @@ Das Gebirgsjäger-Regiment 99 war Teil der Heeresgruppe A und führte die Offens
 
 Was sich aus den Quellen nicht ablesen lässt, ist die individuelle Beteiligung. Ob mein Vater an Exekutionen teilhatte, wie er sich in konkreten Situationen verhielt — dazu schweigen die Archive, und er selbst hat zeitlebens nicht darüber gesprochen. Was bleibt, ist die nüchterne Feststellung: er war im Verband einer Einheit, die Verbrechen beging.
 
-Die Zäsur kam unfreiwillig. Im Winter 1942/43 erkrankte er am Wolhynischen Sumpffieber; die Karteikarte verzeichnet zudem ein Krampfadernleiden. Beides führte zur Einstufung als „nicht mehr frontverwendungsfähig". Diese Einstufung beendete seine Frontzeit beim GJR 99 — und bewahrte ihn vor der Beteiligung an den späteren, noch schwereren Verbrechen der 1. Gebirgs-Division in Griechenland.
+Im Winter 1942/43 erkrankte er am Wolhynischen Sumpffieber; die Karteikarte verzeichnet zudem ein Krampfadernleiden. Beides führte zur Einstufung als „nicht mehr frontverwendungsfähig". Diese Einstufung beendete seine Frontzeit beim GJR 99.
 
 ---
 
@@ -122,7 +142,7 @@ Während die 1. Gebirgs-Division 1943 nach Griechenland verlegt wurde und dort d
 | September 1943 | Massaker Kefalonia (>5.000 Tote) | Ersatzheer |
 | Winter 1943/44 | „Sühnemaßnahmen" Epirus | Übergang zur Stamm-Kompanie Gren.Ers.Btl. 107 |
 
-Die medizinische Invalidität, die ihn von der Ostfront trennte, trennte ihn auch vom Balkan.
+Mein Vater war zu dieser Zeit nicht mehr Teil des Gebirgsjäger-Regiments 99 und nicht in Griechenland.
 
 ---
 
@@ -148,7 +168,26 @@ Aus den fünf dokumentierten Einheiten ergibt sich eine einzige Schnittmenge zwi
 | 1943 | – (frontuntauglich) | Lazarett, Ersatzheer | Griechenland-Massaker: medizinisch verhindert |
 | 1944 | Gren.Ers.-Btl. 107 | Westwall | Kampfgruppe, schwere Verwundung |
 
-Diese Aufstellung zeigt, wo mein Vater war und wo nicht. Was er in dem einzigen Zeitraum tat, in dem er während der Verbrechen seiner Einheit anwesend war, geht aus den Archiven nicht hervor — und er selbst hat zeitlebens nicht darüber gesprochen. Es gehört zu dem, was in dieser Familiengeschichte offen bleibt.
+Diese Aufstellung zeigt, wo mein Vater war und wo nicht. Was er in dem einzigen Zeitraum tat, in dem er während der Verbrechen seiner Einheit anwesend war, geht aus den Archiven nicht hervor.
+
+---
+
+## Was ich über meinen Vater weiß – und was nicht
+
+Mein Vater hat nie über den Krieg gesprochen. Nicht ein Wort.
+
+Ich kenne seine Kriegserfahrung nur aus Archivdokumenten. Ich weiß, wo er war – aber nicht, was er tat, wie er dachte, was er empfand.
+
+Die Karteikarte des Bundesarchivs verzeichnet nüchtern:
+- Erkennungsmarke: 4545-33A
+- Geburtsort: Waldhäuser/Mühlviertel
+- Dienstgrad: Feldwebel
+- Einheiten: siehe oben
+- Medizinische Einträge: Krampfadern, weitere unleserliche Vermerke
+
+Das steife Bein, das Resultat der schweren Schussverletzung am Westwall 1944, begleitete ihn sein Leben lang. Das Schweigen auch.
+
+Diese Aufstellung kann die Lücke nicht füllen. Sie kann aber verhindern, dass Unwahrheiten an die Stelle treten, wo Wahrheit fehlt.
 
 ---
 
