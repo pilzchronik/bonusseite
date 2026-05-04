@@ -25,7 +25,7 @@ description: "Bonusseite zur gedruckten Pilz-Chronik (Band 1 & 2). Werkstatt mit
     <div class="bwm-chat-hint">
       <p class="bwm-chat-eyebrow">Chat-Assistent &mdash; eine Frage frei formulieren</p>
       <p class="bwm-chat-text">Kennt die <em>gesamte</em> Pilz-Familienforschung &mdash; auch das, was nicht auf dieser Webseite steht (Stand M&auml;rz 2026). Antworten in S&auml;tzen, sofort.</p>
-      <p class="bwm-chat-cue">Sprechblase rechts unten &searr;</p>
+      <button type="button" class="bwm-chat-cue" id="bwm-chat-open">Sprechblase rechts unten <svg class="bwm-chat-cue-arrow" aria-hidden="true" focusable="false" viewBox="0 0 24 24"><path d="M6 6 L18 18 M18 11 L18 18 L11 18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
     </div>
 
     <p class="bwm-hero-meta" style="margin-top: 4px;">Stichwort-Suche &mdash; auf dieser Webseite st&ouml;bern</p>
@@ -93,6 +93,14 @@ description: "Bonusseite zur gedruckten Pilz-Chronik (Band 1 & 2). Werkstatt mit
           zero_results: "Nichts gefunden für „[SEARCH_TERM]“",
           many_results: "[COUNT] Treffer",
           one_result: "1 Treffer"
+        }
+      });
+    }
+    var chatBtn = document.getElementById('bwm-chat-open');
+    if (chatBtn) {
+      chatBtn.addEventListener('click', function() {
+        if (window.Chatling && typeof window.Chatling.open === 'function') {
+          window.Chatling.open();
         }
       });
     }
