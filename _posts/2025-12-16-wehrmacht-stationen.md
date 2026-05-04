@@ -172,22 +172,21 @@ Diese Aufstellung zeigt, wo mein Vater war und wo nicht. Was er in dem einzigen 
 
 ---
 
-## Was ich über meinen Vater weiß – und was nicht
+## Was die Quellen offenlassen
 
-Mein Vater hat nie über den Krieg gesprochen. Nicht ein Wort.
+Mein Vater hat über den Krieg nicht gesprochen. Was ich über seine Kriegsjahre weiß, weiß ich aus den Archivdokumenten, nicht aus seinen Worten. Die Quellen ordnen, wo er war; sie lassen offen, wie er sich verhielt.
 
-Ich kenne seine Kriegserfahrung nur aus Archivdokumenten. Ich weiß, wo er war – aber nicht, was er tat, wie er dachte, was er empfand.
+Die Karteikarte des Bundesarchivs verzeichnet das Wenige, was an persönlichen Daten erfasst wurde:
 
-Die Karteikarte des Bundesarchivs verzeichnet nüchtern:
 - Erkennungsmarke: 4545-33A
 - Geburtsort: Waldhäuser/Mühlviertel
 - Dienstgrad: Feldwebel
 - Einheiten: siehe oben
 - Medizinische Einträge: Krampfadern, weitere unleserliche Vermerke
 
-Das steife Bein, das Resultat der schweren Schussverletzung am Westwall 1944, begleitete ihn sein Leben lang. Das Schweigen auch.
+Die Schussverletzung am Westwall im Herbst 1944 hinterließ ein steifes Bein, das ihm bis zu seinem Tod 1968 blieb. Über die Jahre dazwischen — die Zeit nach dem Krieg, die Rückkehr in den Zolldienst, das Familienleben — gibt es Erinnerungen in der Familie. Über die Kriegsjahre selbst gibt es sie nicht.
 
-Diese Aufstellung kann die Lücke nicht füllen. Sie kann aber verhindern, dass Unwahrheiten an die Stelle treten, wo Wahrheit fehlt.
+Diese Aufstellung schließt diese Lücke nicht. Sie hält fest, was die Archive hergeben, und markiert den Bereich, in dem die Quellen schweigen.
 
 ---
 
