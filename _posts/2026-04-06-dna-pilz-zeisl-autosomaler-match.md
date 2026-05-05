@@ -4,7 +4,7 @@ title: "Autosomale DNA: Pilz und Zeisl — eine jüdisch-böhmische Verbindung"
 date: 2026-04-06
 permalink: /dna-pilz-zeisl-autosomaler-match/
 status: vorläufig
-stand_vom: 2026-04-06
+stand_vom: 2026-05-05
 betrifft: DNA
 tags: [DNA, autosomale, Zeisl, Böhmen, GEDmatch, Triangulation]
 description: "Autosomaler DNA-Test (Family Finder, FamilyTreeDNA) zeigt einen Match zwischen den Familien Pilz und Zeisl – eine jüdisch-böhmische Spur, geprüft per Triangulation auf GEDmatch."
@@ -28,7 +28,7 @@ Noch aussagekräftiger: Auf GEDmatch finden sich 43 Personen, die sowohl mit mir
 
 ## Die Verbindung: Theresia (Kekulé-Nr. 69)
 
-Die Verbindung führt mit hoher Wahrscheinlichkeit über meine Vorfahrin Theresia (Kekulé-Nr. 69), die 1768 in Amschelberg (Košová Hora) vom Judentum zum Katholizismus konvertierte. Über ihre jüdische Familie war bisher nichts bekannt. Die DNA-Matches eröffnen nun erstmals die Möglichkeit, diese Linie zu erforschen.
+Die Verbindung führt mit hoher Wahrscheinlichkeit über meine Vorfahrin Theresia (Kekulé-Nr. 69), die am 30.&nbsp;Oktober 1768 in Amschelberg (Košová Hora) vom Judentum zum Katholizismus konvertierte und ein Jahr später (22.&nbsp;Oktober 1769 in Chlum) den Revierjäger Philipp Bechinie heiratete. Über ihre jüdische Familie war bisher nichts bekannt. Die DNA-Matches eröffnen nun erstmals die Möglichkeit, diese Linie zu erforschen.
 
 ## Die Familie Zeisl
 

@@ -8,7 +8,7 @@ description: "Sammlung der Korrekturen und Ergänzungen zur gedruckten Pilz-Chro
 excerpt: "Genealogische Forschung ist nie abgeschlossen. Hier halte ich fest, was seit dem Druck korrigiert oder präzisiert werden konnte."
 pinned: true
 status: aktuell
-stand_vom: 2026-04-21
+stand_vom: 2026-05-05
 ---
 
 <style>
@@ -67,7 +67,7 @@ stand_vom: 2026-04-21
   </script>
 </div>
 
-<p class="errata-stand">Stand: 21. April 2026</p>
+<p class="errata-stand">Stand: 5. Mai 2026</p>
 
 ## Berichtigungen
 <div class="errata-eintrag">
@@ -84,6 +84,12 @@ stand_vom: 2026-04-21
   <h3>Band 2, S. 95 — Big-Y-Match in den USA: Zeittiefe präzisiert</h3>
   <p>Gedruckt: Eine genetische Verbindung zu M.&nbsp;T.&nbsp;W. aus den USA wurde über den Big-Y-Test entdeckt; der gemeinsame Vorfahre habe „vor mehreren hundert Jahren" gelebt. Als Erklärung für den unterschiedlichen Nachnamen wurden Migration, Adoption oder uneheliche Geburt erwogen.</p>
   <p><strong>Korrektur:</strong> Über den Big-Y-Test wurde zusätzlich ein einzelner Match in den USA identifiziert; der gemeinsame Vorfahr lebte allerdings rund <strong>3.000 Jahre zurück</strong> und liegt damit weit jenseits jeder urkundlich rekonstruierbaren Verwandtschaft.</p>
+</div>
+<div class="errata-eintrag">
+  <h3>Band 2, S. 91–96 — Geburtsjahr Theresia/Pessel</h3>
+  <p>Bisherige Annahme (auch in früheren Web-Notizen): „geboren ca. 1735".</p>
+  <p><strong>Korrektur:</strong> Der Konsistorialakt zur Konversion vom Oktober 1768 nennt das Alter Pessels mit „19 Jahre vor Weihnachten 1768"; daraus ergibt sich ein Geburtsdatum um <strong>November/Dezember 1749</strong>. Die ältere Schätzung beruhte auf einem rückgerechneten vermuteten Heiratsalter und ist hinfällig.</p>
+  <p>Quelle: APA I, kart. 1449, Pilz057–063 (Recherche Mgr. Jarmila Dubská, NA Praha, 9. Juli 2025).</p>
 </div>
 ## Neue Erkenntnisse — Archivreise LKA Dresden, März 2026
 
@@ -122,8 +128,8 @@ stand_vom: 2026-04-21
 
 <div class="errata-eintrag errata-eintrag--erkenntnis">
   <h3>Band 1, S. 39 / Band 2, S. 91–96 — Ergänzung: Miskowitz / Myslkovice</h3>
-  <p>In Miskowitz (Myslkovice, Bezirk Tábor, Südböhmen) — dem Herkunftsort von Theresia (geb. Pessel, Kekulé 69, direkte Vorfahrin des Autors) — sind im Census 1869 eine Familie Zeisl (Haus XVI) und eine Familie Bloch (Haus 56) nachgewiesen.</p>
-  <p>Dies ist ein <strong>Indiz</strong> für eine geographische Überschneidung zwischen dem Herkunftsort Theresias und einem Wohnort der Zeisl-Familie. Ein direkter verwandtschaftlicher Zusammenhang ist damit noch nicht bewiesen.</p>
+  <p>In Miskowitz (Myslkovice, Bezirk Tábor, Südböhmen) — einem der drei aktuell parallel verfolgten Geburtsort-Kandidaten für Theresia (geb. Pessel, Kekulé 69, direkte Vorfahrin des Autors) — sind im Census 1869 eine Familie Zeisl (Haus XVI) und eine Familie Bloch (Haus 56) nachgewiesen.</p>
+  <p>Dies ist ein <strong>Indiz</strong> für eine geographische Überschneidung zwischen einem möglichen Herkunftsort Theresias und einem Wohnort der Zeisl-Familie. Ein direkter verwandtschaftlicher Zusammenhang ist damit noch nicht bewiesen, ebenso wenig die Geburtsort-Frage selbst.</p>
   <p>→ <a href="https://pilzchronik.github.io/dna-matches/#herkunftsorte">Details auf der DNA-Matches-Seite</a></p>
 </div>
 

@@ -13,10 +13,17 @@ layout: cover
          itemscope itemtype="http://schema.org/BlogPosting">
 
   <nav class="bwm-post-breadcrumb" aria-label="Brotkrumen-Navigation">
+    {%- if page.unlisted -%}
+    <a href="{{ '/' | relative_url }}" class="bwm-post-breadcrumb-link">
+      <span class="bwm-post-breadcrumb-arrow" aria-hidden="true">&larr;</span>
+      <span>Pilz-Chronik</span>
+    </a>
+    {%- else -%}
     <a href="{{ '/werkstatt/' | relative_url }}" class="bwm-post-breadcrumb-link">
       <span class="bwm-post-breadcrumb-arrow" aria-hidden="true">&larr;</span>
       <span>Werkstatt</span>
     </a>
+    {%- endif -%}
   </nav>
 
   <div class="bwm-page-head">

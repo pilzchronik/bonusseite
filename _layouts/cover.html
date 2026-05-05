@@ -15,7 +15,7 @@
   {%- feed_meta -%}
   {%- seo -%}
 </head>
-<body class="layout-cover">
+<body class="layout-cover"{%- if page.unlisted %} data-pagefind-ignore="all"{% endif -%}>
   <div class="bwm-app">
 
     <header class="bwm-header" role="banner">

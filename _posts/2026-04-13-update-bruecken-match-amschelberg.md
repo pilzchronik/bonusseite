@@ -4,7 +4,7 @@ title: "DNA-Brückenmatch Pilz–Jablansky: Amschelberg/Košová Hora (April 202
 date: 2026-04-13
 permalink: /update-bruecken-match-amschelberg/
 status: vorläufig
-stand_vom: 2026-04-13
+stand_vom: 2026-05-05
 betrifft: DNA, Ahnenforschung
 tags: [DNA, Zeisl, Fürth, Jablonsky, Amschelberg, Košová Hora, Myslkovice, Rot Hradek, GEDmatch, Census]
 description: "DNA-Brückenmatch zur Familie Jablansky in Amschelberg (Košová Hora, Böhmen) – drei neue Befunde zur Pilz-Zeisl-Verbindung, Triangulation auf GEDmatch."
@@ -22,8 +22,8 @@ Genau diese beiden Stränge suche ich zu verbinden. Meine Vorfahrin Theresia (Ke
 
 Bisher war die Existenz der jüdischen Familie Jablansky/Jablonsky in Amschelberg nur aus Sekundärliteratur bekannt. Die Bohemian-Census-Listen der Jahre 1783 und 1793, die JewishGen als PDF zugänglich macht, liefern nun den ersten primärquelligen Beleg:
 
-- **1783, Haus Nr. 21:** Abraham Jablansky, verheiratet, Hausierer.
-- **1793:** derselbe Abraham Jablansky, verheiratet mit Ludmilla, nach wie vor in Haus Nr. 21, nach wie vor Hausierer.
+- **1783, Haus Nr. 7:** Abraham Jablansky, verheiratet, Hausierer.
+- **1793, Haus Nr. 21:** derselbe Abraham Jablansky, verheiratet mit Ludmilla, weiterhin Hausierer — also Umzug innerhalb von Amschelberg zwischen 1783 und 1793.
 - Ein weiterer Census-Eintrag zeigt ihn als **Familiant seit 1764** — also vier Jahre vor der Taufe Theresias.
 
 Zeitlich und örtlich stimmt alles: Die Frau, die 1768 in Amschelberg zum Christentum konvertierte und als Rudolphiana Bechinie in die katholischen Kirchenbücher einging, verließ dabei ihren jüdischen Ehemann. Der Abraham Jablansky des Census 1783/93 ist mit hoher Wahrscheinlichkeit derselbe Mann — 15 bis 25 Jahre später, mit einer zweiten Ehefrau.

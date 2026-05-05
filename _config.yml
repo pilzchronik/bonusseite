@@ -22,6 +22,14 @@ collections:
     output: false
     # output war "true" → alle _intern-Dateien waren öffentlich erreichbar!
     # Auf "false" gesetzt am 2026-03-17 (Sicherheitskorrektur).
+  unlisted:
+    output: true
+    # Sammlung "_unlisted" → Posts werden gerendert und sind per Permalink
+    # erreichbar, sind aber nicht in site.posts. Damit automatisch ausgeschlossen
+    # aus: Werkstatt-Listing, Korrekturen-/Neue-Funde-Tagseiten, Vor/Zurück-
+    # Navigation, RSS-Feed (jekyll-feed) und Tag-Filter-Suche.
+    # Zusatzgriffe pro Post: sitemap: false, unlisted: true (für noindex),
+    # data-pagefind-ignore via Layout. Eingerichtet am 2026-05-05.
 
 # Vom Build ausschließen (nicht als HTML generieren):
 exclude:
