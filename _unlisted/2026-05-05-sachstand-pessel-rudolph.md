@@ -88,14 +88,23 @@ Christina Kaul liefert in derselben Mail einen zweiten Rudolph-Knoten: **Markus 
 
 Kaul stellt die Hypothese: Markus d. Ä. könnte ein älterer Bruder Pessels sein. Methodisch ist das eine zur Samuel-These parallele Spur — beide spielen im Tábor-Kreis, beide in der gleichen Generation, keine direkte Verbindung zwischen ihnen ist belegt. Auch hier: **plausibel aber unbelegt**.
 
-### 3.4 DNA-Befund und Ostspur (Kontext der gesamten Forschung)
+### 3.4 Ostspur aus der DNA-Forschung — zwei Hypothesen parallel
 
-Der Anlass dieser ganzen Recherche ist ein konkreter autosomaler DNA-Match: **36,57 cM auf zwei Chr-9-Segmenten zwischen Wolfgang Pilz und Walter Steven Zeisl**, davon ein langes zusammenhängendes Stück von **29,1 cM in TG9_0** (76,36–95,83 Mb) und ein zweites Segment von 7,5 cM (2,75–5,32 Mb). Außerhalb von Chromosom 9 teilen die beiden nichts (GEDmatch One-to-One, 19.4.2026). Das lange Segment ist der eigentliche Anker; es ist auch das Stück, an dem die fünf-köpfige Chr-9-Triangulationsgruppe hängt. Pessel bat Mosche ist die einzige bisher belegte jüdische Vorfahrin Wolfgangs und damit der naheliegendste Knoten, an dem dieser Match angeschlossen werden kann. Zur DNA-Auswertung im Detail siehe das verlinkte [DNA-Projekt](/dna-analyse/) und den Werkstatt-Post [„DNA Pilz–Zeisl"](/dna-pilz-zeisl-autosomaler-match/).
+Die zentrale Triangulationsgruppe auf Chromosom 9 (fünf Kits, bestätigt auf FTDNA und GEDmatch am 12.4.2026) zeigt eine deutliche Ostorientierung. Drei der fünf Kerngruppen-Mitglieder verorten ihre Familien im Pale of Settlement:
 
-Aus diesem Projekt resultiert auch die **Chr-9-Kleingruppe** (fünf triangulierte Matches, davon Wolfgang–Walter Zeisl als härtester Anker; eingebettet in den Großcluster **TG9_0** Chr-9 76–96 Mb). Drei der fünf Mitglieder verorten ihre Herkunft im Pale of Settlement (Polen, Weißrussland, Ukraine). Konsequenz für die Datierung: Der gemeinsame Vorfahre dieser Triangulationsgruppe muss vor der West-Ost-Spaltung der Aschkenasim liegen — methodisch wahrscheinlich zwischen ~1300 und ~1700, nicht innerhalb der Reichweite der erhaltenen Matriken. Diese „Ostspur" ist genealogisch nicht handhabbar. Sie *ergänzt*, *ersetzt* aber nicht die böhmische Rudolph-Spur:
+- **Kimble** — Łomża/Mir (Polen/Weißrussland)
+- **David Seldin (petctdoc)** — Minsk/Grodno bzw. Talne/Uman (Belarus/Ukraine)
+- **Cohen** — Płońsk/Masowien
 
-- Familiennamen entstanden bei aschkenasischen Juden in zwei separaten staatlichen Akten — Habsburg/Böhmen 1787, Russisches Reich 1804 ff. Ein DNA-Common Ancestor um 1700 hätte noch keinen Familiennamen gehabt; spätere Rudolph-Vergaben in Böhmen (Veith Rudolph 1793, Markus 1758, Samuel 1771) und im Pale (z.B. Jacob Rudolph in Kiew, Großvater Rudolph in Minsk) sind unabhängige Namenswahlen.
-- Die genealogisch handhabbare Bohemia-Linie verläuft weiter über Zeisl/Rozsochy/Myslkovice in TG9_0 und bleibt an die Tábor-Spur angeschlossen — und damit an die Pessel/Rudolph-Frage.
+Nur **Walter Zeisl** und Wolfgang haben einen böhmischen Ankerpunkt (Stern–Fürth-Nexus, südböhmisches Dreieck Sušice/Myslkovice/Amschelberg). Daraus folgt: Der gemeinsame Vorfahre dieser Gruppe kann nicht in Böhmen sitzen, sondern muss tiefer in der aschkenasischen Vergangenheit im Osten liegen. Zeitlich passt das zu MRCAs im Bereich von etwa 7–15 Generationen (rund 200–500 Jahre, in aschkenasischer Endogamie auch eher 500–1000 Jahre); die kurzen Segmente sind dafür typisch.
+
+#### Zwei Erklärungs-Hypothesen, parallel stehend
+
+**(a) Tiefen-Hypothese (bisheriger Stand).** MRCA liegt vor der West-Ost-Spaltung der Aschkenasim, methodisch wahrscheinlich zwischen ~1300 und ~1700. Familiennamen entstanden bei aschkenasischen Juden in zwei separaten staatlichen Akten (Habsburg/Böhmen 1787, Russisches Reich 1804 ff.) — ein DNA-Common Ancestor um 1700 hätte noch keinen Familiennamen gehabt; spätere Rudolph-Vergaben in Böhmen (Markus 1758, Samuel 1771, Veith 1793) und im Pale (Jacob Rudolph Kiew, Lotkin-Großvater Rudolph Minsk) wären unabhängige Namenswahlen. In dieser Lesart ist die Spur genealogisch nicht handhabbar.
+
+**(b) Migrations-Hypothese (neu, 6.5.2026).** Christina Kaul weist auf eine Galizien/Russland-Zuwanderung nach Myslkovice hin (Quelle und Datierung noch zu klären — Novotný 1999? Hugo Gold 1934? Anderes?). Wenn diese Zuwanderung im 17./18. Jahrhundert stattfand, kann der MRCA chronologisch viel jünger sein, als die Tiefen-Hypothese annimmt — Pessels Vater (geboren um 1715) oder Großvater wäre dann selbst die Migrationsgeneration aus dem Pale, und die Ost-Matches der Triangulationsgruppe wären seine in Böhmen nicht weiter dokumentierten Verwandten. Das ist die genealogisch sparsamere Erklärung — sie verlangt aber die Verifikation der Zuwanderungs-Datierung. Anfrage an Kaul ist offen (6.5.2026).
+
+Beide Hypothesen bleiben parallel stehen, bis die Datierung der Myslkovice-Zuwanderung geklärt ist. In jedem Fall *ergänzt* die DNA-Ostspur die böhmische Rudolph-Spur — sie *ersetzt* sie nicht. Die genealogisch handhabbare Bohemia-Linie verläuft weiter über Zeisl/Rozsochy/Myslkovice in TG9_0 (Großcluster Chr-9 76–96 Mb) und bleibt an die Tábor-Spur angeschlossen.
 
 ### 3.5 Patronage-Hypothese Lipowsky-Malowetz
 
