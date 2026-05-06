@@ -5,7 +5,7 @@ date: 2026-05-05
 permalink: /sachstand-pessel-rudolph-2026-05/
 eyebrow: "Arbeitsnotiz · nicht öffentlich gelistet"
 status: vorläufig
-stand_vom: 2026-05-05
+stand_vom: 2026-05-06
 betrifft: Band1, DNA, Ahnenforschung
 unlisted: true
 sitemap: false
@@ -14,24 +14,28 @@ description: "Zentralisierte Übersicht zur Forschung über Pessel bat Mosche / 
 
 > **Hinweis zum Status dieser Seite.** Diese Arbeitsnotiz ist nicht in der Werkstatt gelistet, nicht im Suchindex und nicht in Suchmaschinen auffindbar. Sie erreichen sie nur über den direkten Link, den Sie vom Autor erhalten haben. Inhalte sind *vorläufig* und werden laufend fortgeschrieben.
 
-**Stand:** 5. Mai 2026
-**Zweck:** Zentralisierte Übersicht über den Stand der Forschung zur Herkunft von Pessel bat Mosche / Apollonia Jablotzkin / Theresia Bechinie (Kekulé-Nr. 69). Dual gedacht — als Arbeitsspeicher für Wolfgang Pilz und als Lese-Vorlage für Mitforschende (insbesondere Christina Kaul).
+**Stand:** 6. Mai 2026
+**Anlass:** Diese Forschung steht nicht für sich allein. Der eigentliche Auslöser ist ein autosomaler DNA-Match zwischen Wolfgang Pilz und **Walter Steven Zeisl** (Wien): 36,57 cM auf zwei Chr-9-Segmenten, davon ein langes zusammenhängendes Stück von 29,1 cM in TG9_0 (~76–96 Mb), ein zweites kleines Segment von 7,5 cM (~2,75–5,32 Mb). Außerhalb von Chromosom 9 teilen Wolfgang und Walter Zeisl nichts; Chr-9-Total und Match-Total sind in diesem Fall identisch (Beleg: GEDmatch One-to-One vom 19.4.2026). Pessel bat Mosche / Apollonia Jablotzkin / Theresia Bechinie (Kekulé-Nr. 69) ist die einzige jüdische Vorfahrin in Wolfgangs bisher belegter Ahnenreihe und damit der naheliegendste Kandidat für eine gemeinsame Wurzel mit Walter Zeisl, dessen Linien ebenfalls in den böhmischen Raum führen. Der Match ist daher der Anlass, weshalb Christina Kaul (Familia Austria) und Patrick Bernhart (JewishGen) die Spur Pessel/Rudolph parallel mitverfolgen.
+**Zweck:** Zentralisierte Übersicht über den Stand der Forschung zur Herkunft Pessels. Dual gedacht — als Arbeitsspeicher für Wolfgang Pilz und als Lese-Vorlage für Mitforschende (insbesondere Christina Kaul).
 
 ---
 
 ## 1. Problemstellung
 
-Im Zentrum der Forschung steht eine konvertierte Jüdin, die in drei Identitäten greifbar ist:
+Im Zentrum der Forschung steht eine konvertierte Jüdin, die in den Quellen unter mehreren Namen greifbar ist:
 
 - als **Pessel bat Mosche** in der jüdischen Vorgeschichte,
-- als **Apollonia Jablotzkin** während des Konversionsverfahrens 1768,
-- als **Theresia Bechinie** nach Taufe (30. Oktober 1768 in Kosova Hora) und Heirat (22. Oktober 1769 in Chlum) mit dem Revierjäger Philipp Bechinie.
+- als **Apollonia Jablotzkin** (verheiratet mit Abraham Jablotzky) während des Konversionsverfahrens 1768,
+- als **Theresia** in der Taufe am 30. Oktober 1768 in Kosova Hora,
+- mit dem Konversionsbeinamen **„Kosso-Horska"** (vom Taufort Kosova Hora) bzw. der lateinischen Form **„Rudolphiana"** im Trauungseintrag 1769 („baptisata Judaea Rudolphiana ex oppido Kosowa Hora") — letzterer ist zugleich der namentliche Anker, an dem die gesamte Rudolph-Spur (Samuel Rudolph, Markus Rudolph, Veith Rudolph) hängt,
+- als **Theresia Bechinie** nach Heirat (22. Oktober 1769 in Chlum) mit dem Revierjäger Philipp Bechinie,
+- und schließlich, fast 35 Jahre später, mit dem im Hochzeitseintrag des Sohnes Josef 1803 genannten Mädchennamen **„Kopidlansky"** — bisher die einzige Quelle für diesen Namen.
 
 Sie ist Vorfahrin des Autors auf Kekulé-Position 69. Drei Fragen führen die Recherche:
 
 1. **Wo wurde sie geboren?** Drei Ortskandidaten parallel; keiner primärquellig festgenagelt.
 2. **Wer war ihr Vater?** Im Konsistorialakt namentlich genannt als „Joseph Rudolph", hebräisch im Get-Vermerk „Pesl bas Mosche" — also bürgerlich Joseph, jüdisch Mosche. Identität, Wohnort und Stelle aber offen.
-3. **Wie kam sie in das Konversionspaket Get → Taufe → Heirat in nur einem Jahr?** Die Patronage-Hypothese stützt sich auf zwei Spuren, die sich ergänzen: Theresia Lipowsky-Malowetz (Herrschaft Kniowitz) auf der regionalen Ebene — gestützt durch Tauf- und Tauf-Zeugen-Befunde — und auf der hochadeligen Ebene Graf Peter Eusebius Radetzky, der als Taufpate der Konvertitin selbst auftritt („Radetzky-Klammer", auch in der [Zeitleiste](/zeitleiste/) der Bonusseite verzeichnet). Beides ist nicht durch Herrschaftsakten belegt.
+3. **Wie kam sie in das Konversionspaket Get → Taufe → Heirat in nur einem Jahr?** Die Patronage-Hypothese stützt sich auf zwei Spuren, die sich ergänzen: Theresia Lipowsky-Malowetz (Herrschaft Kniowitz) auf der regionalen Ebene — gestützt durch einen primärquellig belegten Tauf-Zeugen-Befund (Anton Lipowsky von Lipovice 1770, siehe §2) — und auf der hochadeligen Ebene Graf Peter Eusebius Radetzky, der als Taufpate der Konvertitin selbst auftritt („Radetzky-Klammer", siehe Eintrag 1768 in der [Zeitleiste](/zeitleiste/) der Bonusseite). Beides ist nicht durch Herrschaftsakten belegt; siehe Hypothese 3.5.
 
 ---
 
@@ -39,8 +43,8 @@ Sie ist Vorfahrin des Autors auf Kekulé-Position 69. Drei Fragen führen die Re
 
 | Quelle | Befund | Signatur |
 |---|---|---|
-| Konsistorialakt Konversion 1768 | Eltern: Vater „Joseph Rudolph", Mutter „Anna Beporzaná" (Lesart unsicher); Alter Pessels 19 Jahre vor Weihnachten 1768 → geb. ~Nov./Dez. 1749; Mitgift bei Heirat mit Abraham Jablotzky 200 fl.; Get übergeben am 14.10.1768 in Kosova Hora durch Zensor Leopold Tirsch; Plenarsitzung 16.10.1768. | APA I, kart. 1449, Pilz057–063 (Recherche Mgr. Jarmila Dubská, NA Praha, 9.7.2025) |
-| Trauungseintrag 1769 | Heirat Philipp Bechinie ⚭ Theresia, 22.10.1769, Chlum (Bezeichnung „baptisata Judaea Rudolphiana ex oppido Kosowa Hora"); Sohn Franz Adam getauft 31.8.1770 in Krchleby — Taufzeuge Anton Lipowsky von Lipovice. | SOA Praha, Pfarre Chlum |
+| Konsistorialakt Konversion 1768 | Eltern: Vater „Joseph Rudolph"; Mutter — die handschriftliche Eintragung wird vom Autor versuchsweise als „Anna Beporzaná" gelesen, die Lesart ist nicht gesichert und sollte unabhängig nachgeprüft werden. Alter Pessels 19 Jahre vor Weihnachten 1768 → geb. ~Nov./Dez. 1749; Mitgift bei Heirat mit Abraham Jablotzky 200 fl.; Get übergeben am 14.10.1768 in Kosova Hora durch Zensor Leopold Tirsch; Plenarsitzung 16.10.1768. | APA I, kart. 1449, Pilz057–063 (Recherche Mgr. Jarmila Dubská, NA Praha, 9.7.2025) |
+| Trauungseintrag 1769 | Heirat Philipp Bechinie ⚭ Theresia, 22.10.1769, Chlum (Bezeichnung „baptisata Judaea Rudolphiana ex oppido Kosowa Hora"); Sohn Franz Adam getauft 31.8.1770 in Krchleby — Taufzeuge **Anton Lipowsky von Lipovice**. Dieser Taufzeuge ist die primärquellige Brücke zur Patronage-Hypothese (Theresia Lipowsky-Malowetz, Herrschaft Kniowitz; siehe §3.5). | SOA Praha, Pfarre Chlum |
 | Census Amschelberg 1783 | Abraham Jablansky, Hausierer, Haus Nr. 7, verheiratet, 0 Kinder. Kein Rudolph in Amschelberg. | NA Praha (transkribiert) |
 | Census Amschelberg 1793 | Abraham Jablansky, Hausierer, Haus Nr. 21 — also Wechsel von Haus 7 nach Haus 21 zwischen 1783 und 1793. | NA Praha |
 | Census Amschelberg 1799 | Abraham Jablonsky Familiant seit 1764; Löwy Jablonsky aus Gradlitz/Königgrätz, konvertiert, kinderlos † (Gubernialdekret 25740/1818). | NA Praha (transkribiert) |
@@ -57,7 +61,7 @@ Sie ist Vorfahrin des Autors auf Kekulé-Position 69. Drei Fragen führen die Re
 
 ### 3.1 Drei Hypothesen zum Geburtsort (parallel, keine primärquellig belegt)
 
-- **Hypothese A — Myslkovice (Tábor-Kreis).** Gestützt auf die mündliche Aussage von Julius Müller (Familia Austria, 2025): „Pessel aus Miskowitz", ohne Mädchennamen, ohne Vater-Mosche-Bezug. Indirekter Sekundär-Beleg: Samuel Rudolph in HBF XV/IV Táborský kraj mit Ortscluster Myslkovice (1811–1848), chronologisch passend als Enkel/Urenkel eines Mosche. Hugo Gold 1934 bestätigt zudem Myslkovice als realen Matrikenort („Matriken der Zuständigkeits- und Geburtsorte Radenin, Miskowitz") — Müllers Wortlaut sitzt auf einer existierenden Gemeinde.
+- **Hypothese A — Myslkovice (Tábor-Kreis).** Gestützt auf eine E-Mail-Auskunft von Julius Müller (Toledot, 2025): „Pessel aus Miskowitz", ohne Mädchennamen, ohne Vater-Mosche-Bezug. Auf eine schriftliche Rückfrage hat Müller nicht mehr geantwortet. Indirekter Sekundär-Beleg: Samuel Rudolph in HBF XV/IV Táborský kraj mit Ortscluster Myslkovice (1811–1848), chronologisch passend als Enkel/Urenkel eines Mosche. Hugo Gold 1934 bestätigt zudem Myslkovice als realen Matrikenort („Matriken der Zuständigkeits- und Geburtsorte Radenin, Miskowitz") — Müllers Wortlaut sitzt auf einer existierenden Gemeinde.
 - **Hypothese B — Kopidlno-Region (Bydžovský kraj).** Gestützt auf den Mädchennamen Kopidlansky aus dem Hochzeitseintrag des Sohnes Josef 1803, ergänzt durch Christina Kaul: „in Dasice gibt es eine Familiantenfamilie Kopidlansky" (Pardubitz-Region). Toponymische Bildung Kopidlno → Kopidlansky regelhaft; „Kopidlansky" als jüdischer Familienname in keiner durchsuchten Quelle weiter dokumentiert.
 - **Hypothese C — Amschelberg selbst.** Schwach. Der Tauf-Beiname „Kosso-Horska" ist Konversionsbeiname, kein Geburtsbeleg. Die Hauslisten Amschelberg 1780 (Gold 1934) und 1793 (Census) kennen keine Rudolph-Familie. Hypothese hält sich nur, weil sie sich bisher nicht eindeutig hat ausschließen lassen.
 
@@ -75,21 +79,51 @@ Status: **plausibel aber unbelegt**. Verifikation hängt am Heiratskonsens-Akt 1
 
 ### 3.3 Markus-Rudolph-Cluster (neu, 5. Mai 2026)
 
-Christina Kaul liefert in derselben Mail einen zweiten Rudolph-Knoten: **Markus Rudolph, Familiant Veselíčko / Liebiegitz, Heiratskonsens 1758, †19.7.1801, Wohnort Stahletz** (Tábor-Kreis). Gut dokumentierte Sippe:
+Christina Kaul liefert in derselben Mail einen zweiten Rudolph-Knoten: **Markus Rudolph (im Folgenden „Markus d. Ä."), Familiant Veselíčko / Liebiegitz, Heiratskonsens 1758, †19.7.1801, Wohnort Stahletz** (Tábor-Kreis). Geburtsjahr nicht überliefert; aus dem Heiratskonsens 1758 grob auf ~1730–1740 zu schätzen, das Sterbedatum 1801 ist damit konsistent. Gut dokumentierte Sippe:
 
-- **Isaak Joseph** (Sohn), Familiant Kleinchischka, Heiratskonsens 1791, „aus wichtiger gesetzlicher Ursache geschieden" nach 8 Kindern †1823.
-- **Helena/Anna** (Tochter), Heiratskonsens 1795, ⚭ Loebel Marzik in Liebignitz.
-- **Wolf** (Sohn), *1772, Smichov, Fleischhauermeister, †1858.
-- **Möglicher Markus** (Enkel?), 1783 Gut Precin, Sohn Simon (~1776 †1848 ledig).
+- **Isaak Joseph** (Sohn von Markus d. Ä.), Familiant Kleinchischka, Heiratskonsens 1791, „aus wichtiger gesetzlicher Ursache geschieden" nach 8 Kindern †1823.
+- **Helena/Anna** (Tochter von Markus d. Ä.), Heiratskonsens 1795, ⚭ Loebel Marzik in Liebignitz.
+- **Wolf** (Sohn von Markus d. Ä.), *1772, Smichov, Fleischhauermeister, †1858.
+- Daneben taucht im Material ein **zweiter, jüngerer Markus** auf, der 1783 auf dem Gut Precin nachweisbar ist und einen Sohn Simon (~1776, †1848 ledig) hat. Generationsabstand zu Markus d. Ä. ist ungeklärt — Enkel ist denkbar, ein Neffe oder eine namensgleiche Sekundärlinie aber ebenso möglich. Dieser Punkt wäre über die Familianten-Bücher Tábor zu klären.
 
-Kaul stellt die Hypothese: Markus könnte ein älterer Bruder Pessels sein. Methodisch ist das eine zur Samuel-These parallele Spur — beide spielen im Tábor-Kreis, beide in der gleichen Generation, keine direkte Verbindung zwischen ihnen ist belegt. Auch hier: **plausibel aber unbelegt**.
+Kaul stellt die Hypothese: Markus d. Ä. könnte ein älterer Bruder Pessels sein. Methodisch ist das eine zur Samuel-These parallele Spur — beide spielen im Tábor-Kreis, beide in der gleichen Generation, keine direkte Verbindung zwischen ihnen ist belegt. Auch hier: **plausibel aber unbelegt**.
 
-### 3.4 Ostspur aus der DNA-Forschung (Kontext, kein Rudolph-Beleg)
+### 3.4 DNA-Befund und Ostspur (Kontext der gesamten Forschung)
 
-Aus dem Parallelprojekt zur DNA-Forschung: Drei der fünf Mitglieder der Chr-9-Kleingruppe verorten ihre Herkunft im Pale of Settlement (Polen, Weißrussland, Ukraine). Konsequenz für die Datierung: Der MRCA dieser Triangulationsgruppe muss vor der West-Ost-Spaltung der Aschkenasim liegen — methodisch wahrscheinlich zwischen ~1300 und ~1700, nicht innerhalb der Reichweite der erhaltenen Matriken. Diese Spur ist genealogisch nicht handhabbar. Sie *ergänzt*, *ersetzt* aber nicht die böhmische Rudolph-Spur:
+Der Anlass dieser ganzen Recherche ist ein konkreter autosomaler DNA-Match: **36,57 cM auf zwei Chr-9-Segmenten zwischen Wolfgang Pilz und Walter Steven Zeisl**, davon ein langes zusammenhängendes Stück von **29,1 cM in TG9_0** (76,36–95,83 Mb) und ein zweites Segment von 7,5 cM (2,75–5,32 Mb). Außerhalb von Chromosom 9 teilen die beiden nichts (GEDmatch One-to-One, 19.4.2026). Das lange Segment ist der eigentliche Anker; es ist auch das Stück, an dem die fünf-köpfige Chr-9-Triangulationsgruppe hängt. Pessel bat Mosche ist die einzige bisher belegte jüdische Vorfahrin Wolfgangs und damit der naheliegendste Knoten, an dem dieser Match angeschlossen werden kann. Zur DNA-Auswertung im Detail siehe das verlinkte [DNA-Projekt](/dna-analyse/) und den Werkstatt-Post [„DNA Pilz–Zeisl"](/dna-pilz-zeisl-autosomaler-match/).
+
+Aus diesem Projekt resultiert auch die **Chr-9-Kleingruppe** (fünf triangulierte Matches, davon Wolfgang–Walter Zeisl als härtester Anker; eingebettet in den Großcluster **TG9_0** Chr-9 76–96 Mb). Drei der fünf Mitglieder verorten ihre Herkunft im Pale of Settlement (Polen, Weißrussland, Ukraine). Konsequenz für die Datierung: Der gemeinsame Vorfahre dieser Triangulationsgruppe muss vor der West-Ost-Spaltung der Aschkenasim liegen — methodisch wahrscheinlich zwischen ~1300 und ~1700, nicht innerhalb der Reichweite der erhaltenen Matriken. Diese „Ostspur" ist genealogisch nicht handhabbar. Sie *ergänzt*, *ersetzt* aber nicht die böhmische Rudolph-Spur:
 
 - Familiennamen entstanden bei aschkenasischen Juden in zwei separaten staatlichen Akten — Habsburg/Böhmen 1787, Russisches Reich 1804 ff. Ein DNA-Common Ancestor um 1700 hätte noch keinen Familiennamen gehabt; spätere Rudolph-Vergaben in Böhmen (Veith Rudolph 1793, Markus 1758, Samuel 1771) und im Pale (z.B. Jacob Rudolph in Kiew, Großvater Rudolph in Minsk) sind unabhängige Namenswahlen.
-- Die genealogisch handhabbare Bohemia-Linie verläuft weiter über Zeisl/Rozsochy/Myslkovice in TG9_0 (Großcluster Chr-9 76–96 Mb) und bleibt an die Tábor-Spur angeschlossen.
+- Die genealogisch handhabbare Bohemia-Linie verläuft weiter über Zeisl/Rozsochy/Myslkovice in TG9_0 und bleibt an die Tábor-Spur angeschlossen — und damit an die Pessel/Rudolph-Frage.
+
+### 3.5 Patronage-Hypothese Lipowsky-Malowetz
+
+Die Geschwindigkeit, mit der das Konversionspaket Get → Taufe → Heirat 1768/69 abgewickelt wurde, deutet auf adelige Patronage hin. Zwei Spuren ergeben dafür ein konsistentes Bild:
+
+- **Regionale Ebene — Theresia Lipowsky-Malowetz (Herrschaft Kniowitz).** Befundgrundlage: Im Taufeintrag des erstgeborenen Sohnes Franz Adam (Krchleby, 31.8.1770) ist **Anton Lipowsky von Lipovice** Taufzeuge (siehe §2). Der direkte Anschluss vom Tauf-Zeugen-Befund an Theresia Lipowsky-Malowetz ist damit primärquellig nahegelegt, aber nicht durch Herrschaftsakten zwingend abgesichert. Plausibel ist, dass der Konversions- und Heirats­vorgang über Verbindungen der Familie Lipowsky in den Kreis der Herrschaft Kniowitz/Kosova Hora protegiert wurde.
+- **Hochadelige Ebene — Graf Peter Eusebius Radetzky.** Tritt als Taufpate der Konvertitin selbst auf („Radetzky-Klammer"; siehe Eintrag 1768 in der [Zeitleiste](/zeitleiste/)). Eine direkte Patronage-Verbindung zwischen Radetzky und der Familie Lipowsky-Malowetz ist nicht belegt; beide Spuren laufen vorerst nebeneinander.
+
+Status: **plausibel aber unbelegt**. Verifikation hängt an den Vrchnostenské-Beständen (Kniowitz, Kosova Hora, Komorní Hrádek, Krchleby) im SOA Praha, abgedeckt durch Anfrage E-21 an Mgr. Sovák.
+
+### 3.6 Suchstrategie nach der Theresia-These (methodische Konsequenz)
+
+Wenn die Verbindung Wolfgang ↔ Walter Zeisl tatsächlich über Theresia Bechinie/Kopidlansky läuft — wofür inhaltlich vieles spricht —, hat das eine konkrete methodische Konsequenz für die weitere Suche.
+
+**Was *wegfällt* als Suchpfad.** Sobald in der Linie auf Wolfgangs Seite einmal eine Frau steht (Theresia auf Kekulé-69), greifen die geschlechtsgebundenen DNA-Erbgänge nicht mehr:
+
+- **Y-DNA** (rein väterlich, Vater → Sohn → Sohn): bricht ab, sobald eine Frau in der Kette steht. Auf der Theresia-Spur also nicht handhabbar.
+- **mtDNA** (rein mütterlich, Mutter → Kind, weitergegeben aber nur durch Töchter): bricht ab, sobald ein Sohn die Linie unterbricht. Auf der Theresia-Spur ebenfalls nicht handhabbar.
+
+Beides ist für den 36,57-cM-Match auf Chromosom 9 irrelevant — autosomale DNA wird zu je 50 % von Vater und Mutter vererbt, unabhängig davon, ob die Linie über Männer oder Frauen läuft.
+
+**Was *bleibt* als Suchpfad.** Ab dem Moment, an dem die Linie über Theresia geht, ist die autosomale DNA „geschlechtsblind". Praktisch heißt das:
+
+- Auf **Wolfgangs Seite** ist nicht mehr eine konkrete Linie „Theresia → Tochter → Tochter" gesucht, sondern *irgendein* Vorfahre oder Seitenverwandter Theresias, der in Walter Zeisls Stammbaum auftaucht: ihre Mutter, ihr Onkel, ihre Großmutter mütterlicherseits, eine Cousine zweiten Grades — alle gleichermaßen mögliche Brücken.
+- Auf **Walter Zeisls Seite** spiegelbildlich: irgendeine Frau in seinem Stammbaum oder ein männlicher Nebenzweig, der nicht über die Zeisl-Y-Linie läuft (z. B. eine eingeheiratete Linie eine Generation darüber).
+- Beide Seiten zusammen treffen sich dann in einer Person (oder einem Paar) **um ~1700–1770**, die auf beiden Stammbäumen auftaucht. Das wäre der MRCA der Chr-9-Großcluster-Triangulation. Das gemeinsame Segment auf Chr 9 (TG9_0 ~76–96 Mb) ist genau der Marker, an dem zu erkennen ist, dass der richtige Vorfahre erreicht ist.
+
+Konsequenz für die Recherche: Die Suche wird *breiter* (mehr mögliche Pfade), aber nicht weniger zielführend. Aus der Pessel/Rudolph-Spur dürfen nicht nur direkte aszendenten Linien, sondern auch *Geschwister, Onkel/Tanten, Cousinen* dokumentiert werden — die Geschwister-Hypothesen Samuel Rudolph (§3.2) und Markus Rudolph (§3.3) sind also nicht nur Nebenstränge, sondern in dieser Logik gleichberechtigte Treffer-Kandidaten.
 
 ---
 
@@ -105,8 +139,8 @@ Aus dem Parallelprojekt zur DNA-Forschung: Drei der fünf Mitglieder der Chr-9-K
 | 4 | 27.01.2023 | → | Archiv Kadaň | tschechische Wiederholung der Anfrage 1 | Anfrage gestellt |
 | 5 | 27.01.2023 | ← | Petr Rak, Archiv Kadaň | Trauungs-Duplikat 1803 als Anhang | **Erfolg** — Scan erhalten |
 | 6 | 27.01.2023 | → | Archiv Kadaň | Dank + Entschuldigung für Doppelanfrage | Antwort verschickt |
-| 7 | 30.09.2023 | → | Pfarramt Ondřejov, Erzbistum Prag (geplant) | Vincenc Pilz / Bechinie-Genealogie 1939er Brief | **Nicht zugestellt** — Domain nicht gefunden |
-| 8 | (~2025) | ↔ | SOA Praha, Valerie Macháčková | EP20250000003345 — Bechinie / Velkostatek Komorní Hrádek | Vorgang läuft, Originalmails fehlen in der Mailbox |
+| 7 | 30.09.2023 ff. | ↔ | Pfarramt Ondřejov, Erzbistum Prag (zunächst Pfarrer Andergassen, dann Nachfolger) | Vincenc Pilz / Bechinie-Genealogie 1939er Brief | Pfarrer Andergassen war ursprünglich zuständig; sein Nachfolger wurde angeschrieben und antwortete, dass er aufgrund seelsorgerlicher Überlastung keine Zeit für genealogische Recherchen habe. Anliegen wird nicht weiterverfolgt. |
+| 8 | Datum unklar | ↔ | SOA Praha, Valerie Macháčková | EP20250000003345 — Bechinie / Velkostatek Komorní Hrádek | Vorgang läuft, Originalmails fehlen in der Mailbox (siehe §5.2 Punkt 10 als offenes Risiko) |
 | 9 | 26.06.2025 | → | NA Praha, Mgr. Jarmila Dubská | Konsistorialakt Konversion 1768 / Heirat 1769 | Anfrage gestellt |
 | 10 | 09.07.2025 | ← | Mgr. Jarmila Dubská | Verweis APA I Karton 1449 / Repertorienbuch sign. A 39/10 fol. 258 | **Substanzielle Antwort** |
 | 11 | 09.07.2025 | ← | Dubská via Úschovna | Scan-Datei `APA I, k. 1449.zip` (20,7 MB) | **Erfolg** — 8 Scans erhalten |
@@ -141,7 +175,7 @@ Aus dem Parallelprojekt zur DNA-Forschung: Drei der fünf Mitglieder der Chr-9-K
 | April 2026 | Thomas Fürth (Stockholm) | Stammbaum bis 1600 geliefert, Fürth-Linie ist Ortskontext, kein Pessel/Moshe/Rudolph/Kopidlansky in seinen Quellen. Genealogisch abgeschlossen. |
 | April 2026 | Jeanette Stein (Hannover) | Vier Stammbäume + Screenshots geliefert. Verweis auf Thomas Fürth, Klepetarsch-Verbindung. Antwort-Entwurf von Wolfgang fertig, noch nicht abgesendet. |
 | April 2026 | Mehrere DNA-Match-Korrespondenzen | Ohne direkten Bohemia-Bezug; in der Klarnamen-Liste nur intern geführt. Inhaltlich kein Beitrag zur Pessel/Rudolph-Spur. |
-| 2025 | Julius Müller (Toledot) | Originalwortlaut „Pessel aus Miskowitz" geliefert; auf weitere Nachfragen nicht mehr reagiert. |
+| 2025 | Julius Müller (Toledot) | Originalwortlaut „Pessel aus Miskowitz" per E-Mail geliefert; auf E-Mail-Rückfrage nicht mehr geantwortet. |
 
 ---
 
@@ -152,7 +186,7 @@ Aus dem Parallelprojekt zur DNA-Forschung: Drei der fünf Mitglieder der Chr-9-K
 1. **Anfrage E-23 an Mgr. Dubská (NA Praha)** abschicken — beide Aktenzahlen 43354/1829 und 23044/1845 prüfen lassen. Zentrales Ziel: wer war 1828 verzogen, wer hat 1845 die Stelle Mühlhausen Nr. 9 reklamieren lassen.
 2. **Anfrage E-21 an Mgr. Sovák (SOA Praha)** abschicken — vier Herrschaftsfonds für Bechinie/Konversion/Patronage abdecken.
 3. **Anfrage E-22 an SOA Třeboň** abschicken — Velkostatek Myslkovice, Urbar 1721, jüdische Bestände vor 1811.
-4. **Antwort an Christina Kaul** (Mail vom 5.5.2026) — kompakt; Dank für Markus-Rudolph-Spur; Hinweis auf Patrick Bernhart und Samuel Rudolph; Hinweis auf den vorliegenden Sachstandsbericht (Link nachreichen, sobald online).
+4. **Antwort an Christina Kaul** (Mail vom 5.5.2026) — *erledigt am 6.5.2026:* kompakte Antwort mit Dank für Markus-Rudolph-Spur, Hinweis auf Patrick Bernhart und Samuel Rudolph sowie Link auf den vorliegenden Sachstandsbericht abgesendet.
 5. **Anfrage an Patrick Bernhart** — Rückfrage, ob er im Familianten-Buch eine Vorgänger-Spalte sieht (wer hatte Mühlhausen Nr. 9 vor Samuel?).
 
 ### 5.2 Mittelfristig
@@ -161,7 +195,7 @@ Aus dem Parallelprojekt zur DNA-Forschung: Drei der fünf Mitglieder der Chr-9-K
 7. **Heiratskonsens-Akt Pessel ⚭ Abraham Jablotzky 1764 Amschelberg** — Velkostatek Kosova Hora oder vergleichbarer Bestand. Würde Pessels Eltern direkt aus dem Konsens-Akt belegen.
 8. **HBF XV/IV Táborský kraj fol. 31–103 (Original)** — Vorgänger-Spalte des Myslkovice-Samuel im Buch 1811–1848: ist dort die Mühlhausen-Stelle als Vorgänger-Stelle eingetragen? Wenn ja: Brücke Mühlhausen → Myslkovice in der Folgegeneration belegt.
 9. **Anfragen E-24 (Židovské muzeum) und E-25 (Vojenský ústřední archiv) entwerfen und abschicken.**
-10. **Macháčková-Strang (EP20250000003345)** — Statusupdate einholen oder über Sovak-Schiene mit verbinden.
+10. **Macháčková-Strang (EP20250000003345) — offenes Risiko.** Vorgang zu Bechinie / Velkostatek Komorní Hrádek im SOA Praha läuft formal weiter, aber die Originalmails der Korrespondentin Valerie Macháčková sind in der lokalen Mailbox nicht mehr auffindbar. Damit fehlt sowohl der Wortlaut bisheriger Auskünfte als auch jeder verbindliche Stand. Schritte: (a) bei Mgr. Sovák nachfragen, ob der Vorgang dort intern bekannt ist und mit der neuen Anfrage E-21 verbunden werden kann; (b) ggf. das SOA Praha um Statusbericht zur Vorgangs-ID 3345 bitten; (c) eigenen Aktenstand soweit möglich aus Eingangsbestätigungen rekonstruieren.
 
 ### 5.3 Langfristig / Hintergrund
 
@@ -173,7 +207,7 @@ Aus dem Parallelprojekt zur DNA-Forschung: Drei der fünf Mitglieder der Chr-9-K
 
 ## 6. Methodische Anmerkungen
 
-- **Unsicherheits-Markierung** durchgängig verwendet: *urkundlich belegt* / *Sekundärquelle* / *plausibel aber unbelegt* / *mündlich*. Keine Hypothese wird übergewichtet, solange sie nur in einer dieser Stufen abgesichert ist.
+- **Unsicherheits-Markierung** durchgängig verwendet: *urkundlich belegt* / *Sekundärquelle* / *plausibel aber unbelegt* / *informelle Forscherauskunft (E-Mail/Liste)*. Keine Hypothese wird übergewichtet, solange sie nur in einer dieser Stufen abgesichert ist.
 - **Drei Hypothesen zum Geburtsort** laufen weiter parallel; methodisch wird keine vorab eliminiert. Spannung wird ausgehalten, auch wenn das die Darstellung sperriger macht.
 - **Frühere Korrekturen, die in diesen Bericht eingegangen sind:** Müllers Originalwortlaut ist „Pessel aus Miskowitz" (nicht „Familie Rudolph aus Myslkovice"); Tauf-Beiname „Kosso-Horska" ist Konversionsbeiname, kein Geburtsbeleg; Geburtsjahr Theresia ~Nov./Dez. 1749 (aus Konsistorialakt), nicht ~1735 wie früher angenommen; Census Amschelberg: Wechsel Haus 7 (1783) → Haus 21 (1793).
 - **Adressat-Sprache:** Der Bericht ist so geschrieben, dass er ohne Vorwissen lesbar ist (für Mitforschende), enthält aber alle Aktenzeichen, Signaturen und Personennamen, die als Arbeitsspeicher gebraucht werden.
@@ -186,6 +220,10 @@ Diese Tabelle wird mit jeder neuen Korrespondenz, jeder Antwort und jedem Befund
 
 | Datum | Richtung | Person / Archiv | Thema | Ergebnis / nächster Schritt |
 |---|---|---|---|---|
+| 05.05.2026 | (intern) | — | Sachstandsbericht angelegt | Erstfassung als unlisted Post (`/sachstand-pessel-rudolph-2026-05/`) |
+| 06.05.2026 | → | Christina Kaul | Antwort auf Mail vom 5.5.2026 mit Link auf den Sachstandsbericht | Versendet; Reaktion offen |
+| 06.05.2026 | (intern) | — | Sachstandsbericht überarbeitet | Identitätskette ergänzt (Rudolphiana, Kosso-Horska, Kopidlansky), DNA-Anker Wolfgang–Walter Zeisl explizit, Lipowsky-Hypothese als §3.5 eingeführt, mehrere formale Korrekturen |
+| 06.05.2026 | (intern) | — | DNA-Zahlen präzisiert + §3.6 ergänzt | 36,57 cM auf zwei Chr-9-Segmenten (davon 29,1 cM in TG9_0) nach GEDmatch One-to-One 19.4.2026; neuer §3.6 zur Suchstrategie nach der Theresia-These (autosomal geschlechtsagnostisch, Geschwister-/Seiten­linien als gleichberechtigte Treffer-Kandidaten) |
 | | | | | |
 
 ---
@@ -202,4 +240,4 @@ Weiterführende Detaildokumente (Konsistorialakt-Transkription, Vergleichsanalys
 
 ---
 
-*Dieser Bericht ist als laufendes Dokument angelegt. Letzte inhaltliche Aktualisierung: 5. Mai 2026. Änderungen werden im Front-Matter-Feld `stand_vom` mitgeführt.*
+*Dieser Bericht ist als laufendes Dokument angelegt. Letzte inhaltliche Aktualisierung: 6. Mai 2026. Änderungen werden im Front-Matter-Feld `stand_vom` mitgeführt.*
