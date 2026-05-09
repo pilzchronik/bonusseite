@@ -241,7 +241,7 @@ Diese Tabelle wird mit jeder neuen Korrespondenz, jeder Antwort und jedem Befund
 
 - **DNA-Analyse:** [pilzchronik.github.io/bonusseite/dna-analyse/](/dna-analyse/)
 - **Werkstatt-Post „DNA Pilz–Zeisl: autosomaler Match" (April 2026):** [/dna-pilz-zeisl-autosomaler-match/](/dna-pilz-zeisl-autosomaler-match/)
-- **Werkstatt-Post „Update Brückenmatch Amschelberg" (April 2026):** [/update-bruecken-match-amschelberg/](/update-bruecken-match-amschelberg/)
+- **Forschungsgeschichte „Theresia Bechinie geb. Pessel" (Mai 2026, ersetzt den Brückenmatch-Post vom April):** [/theresia-bechinie-forschungsgeschichte/](/theresia-bechinie-forschungsgeschichte/)
 - **Korrekturen-/Errata-Sammelseite:** [/druckfehler-korrekturen/](/druckfehler-korrekturen/)
 - **Zeitleiste, Eintrag 1768 (Taufe / Radetzky-Klammer):** [/zeitleiste/](/zeitleiste/)
 
