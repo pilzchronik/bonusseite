@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Theresia Bechinie geb. Pessel — Forschungsgeschichte und derzeitiger Stand"
-date: 2026-05-09
+date: 2026-05-10
 permalink: /theresia-bechinie-forschungsgeschichte/
 status: vorläufig
-stand_vom: 2026-05-09
+stand_vom: 2026-05-10
 betrifft: Band2, DNA, Ahnenforschung
 ersetzt: /update-bruecken-match-amschelberg/
 tags: [Bechinie, Pessel, Rudolph, Kopidlansky, Jablonsky, Amschelberg, Kosova Hora, Myslkovice, Konversion, Konsistorialakt, DNA, Zeisl]
@@ -101,11 +101,15 @@ Wenn Rudolph der Familienname Pessels war, ist die Spur jenseits des Konsistoria
 
 **Veith Rudolph** erscheint 1793 als jüdischer Knecht in Wrutiz im Bunzlauer Kreis (Pos. 19), gehört zum Schutz nach Bezno — der erste primärquellige Beleg, dass *Rudolph* als jüdischer Familianten-Name in Böhmen geführt wurde.
 
-**Markus Rudolph**, Familiant Veselíčko/Liebiegitz, Heiratskonsens 1758, †19.7.1801. Söhne Isaak Joseph (Familiant Kleinchischka, HK 1791), Wolf (*1772 Smichov, Fleischhauermeister), Tochter Helena/Anna. Christina Kaul hat ihn im Mai 2026 als möglichen älteren Bruder Pessels vorgeschlagen.
+**Markus Rudolph**, Familiantenstelle **Nr. 52 auf Velkostatek Veselíčko/Liebiegitz**, Heiratskonsens 1758, †19.7.1801 (Wohnort Stahletz). Söhne Isaak Joseph (Familiant Kleinchischka, HK 1791), Wolf (*1772 Smichov, Fleischhauermeister), Tochter Helena/Anna. Christina Kaul hat ihn im Mai 2026 als möglichen älteren Bruder Pessels vorgeschlagen. Beleg: [Vademecum-Permalink](https://vademecum.nacr.cz/vademecum/permalink?xid=3000885f-5853-4c6b-b0f9-f8f9e9276415).
 
-**Samuel Rudolph**, Familiant Mühlhausen (Milevsko) Nr. 9, Heiratskonsens 1771, Wohnort Czim/Cim, vier Söhne Samson, Moises, Michael, Löbl. Am 5. Mai 2026 von Patrick Bernhart über JewishGen identifiziert; auch hier ist die Geschwister-Hypothese explizit gestellt.
+Eine Live-Recherche im Vademecum am 10. Mai 2026 ergänzt die Markus-Spur um einen Hinweis auf seinen Sohn Wolf: Der **Heiratskonsens 1801 für Wolf Rudolph** ist nicht in Veselíčko, sondern am **Weinbergamt (Královský vinohradský úřad), Familiantenstelle Nr. 19** registriert, mit dem Vermerk „Vater zemřel 1801" — die Stelle wurde also erst nach dem Tod von Markus erteilt. Beleg: [Vademecum-Permalink](https://vademecum.nacr.cz/vademecum/permalink?xid=63d3c6c5-b454-44a1-9880-606eceee3053). Christina Kaul liest diesen Befund auf zwei Weisen: entweder als Stellenverschiebung Veselíčko → Weinbergamt zwischen 1799 und 1801, oder als Stellenverlust auf Markus-Seite und neue Stelle für Wolf am Weinbergamt als Ersatz. Beide Lesarten stehen vorerst parallel.
+
+**Samuel Rudolph**, Familiantenstelle **Mühlhausen, Landes-Nummer 9 / Dominial-Nummer 27**, Heiratskonsens 1771, Wohnort Czim/Cim, vier Söhne Samson, Moises, Michael, Löbl. Beleg: [Vademecum-Permalink](https://vademecum.nacr.cz/vademecum/permalink?xid=fffde945-cc62-45b6-9207-583a20683008). Das Hauptverzeichnis führt für diese Familiantenstelle zwei parallele Numerierungen — Landes- und Dominial-Nummer —, beide korrekt, gleiche Person. Am 5. Mai 2026 von Patrick Bernhart über JewishGen identifiziert (mit Landes-Nr. 9), das Vademecum führt die Dominial-Nr. 27; geklärt durch den Original-Scan des Familianten-Hauptverzeichnisses am 10. Mai 2026. Auch hier ist die Geschwister-Hypothese explizit gestellt.
 
 Beide Männer passen zeitlich (geboren ~1745–1750) und geographisch (Tábor-Kreis, ~25 km von Myslkovice) als Bruder Pessels. Der Sohn Moises bei Samuel könnte nach aschkenasischer Konvention auf einen verstorbenen Großvater Mosche zurückgehen — schwacher Hinweis, weil Moses zu den häufigsten Vornamen gehört. Beide Hypothesen sind plausibel, aber unbelegt; Verifikation hängt an den Heiratskonsens-Akten 1758 und 1771.
+
+**Methodische Notiz zur Census-Systematik.** Ein methodischer Hinweis von Christina Kaul (Mai 2026): Der Judenzensus verwendet nicht in allen Jahrgängen dieselbe Systematik. **1783 und 1793 stellen auf den Wohnort ab; 1793 nennt zusätzlich die Schutzherrschaft. 1799 dagegen führt jeden Familianten unter der Herrschaft, wo seine Familiantenstelle ist — nicht unter dem Wohnort.** Das erklärt scheinbare Widersprüche zwischen den Jahrgängen, etwa wenn Samuel Rudolph 1793 weder in Cim noch in Mühlhausen erscheint.
 
 ## Der Knoten Myslkovice und die Familie Zeisl
 
@@ -175,14 +179,16 @@ Sie macht es wahrscheinlich, dass Bechinie- und Zeisl-Linie sich zwischen ca. 17
 - Geburtsname der Mutter Anna (Lesart „Beporzaná"; Lesehilfe-Forum 2026: „Woporzana" — Verifikation am Original ausstehend)
 - die genealogische Verbindung Bechinie ↔ Zeisl, die der DNA-Match nahelegt
 
-## Was als Nächstes geprüft wird
+## Stand der Anfragen
 
-Vier konkrete nächste Schritte:
+Am 10. Mai 2026 wurden acht Anfragen an tschechische Archive versendet, dazu ein Nachfasser an die Studovna SOA Praha. Antworten stehen aus.
 
-1. **Familianten-Listen Myslkovice** im Nationalarchiv Prag — gibt es einen Familianten *Joseph* oder *Mosche* mit Namen *Rudolph*? Anfrage an SOA Třeboň (Velkostatek Myslkovice) liegt im Entwurf bereit.
-2. **Heiratskonsens-Akten 1758 (Markus) und 1771 (Samuel)** — beide nennen den Vater des Bräutigams. Treffer auf *Mosche* würde die Geschwister-Hypothese stützen.
-3. **Census 1869 Myslkovice** (digi.ceskearchivy.cz, Inv.-Nr. 4436) — schwer lesbar, aber primäre Quelle.
-4. **Pfarrmatrik Kosova Hora** für die Folge­einträge der Fleischer-Familie Kopidlansky.
+- **NA Praha** (`posta@na.gov.cz` und persönlich Mgr. Jarmila Dubská) — drei Anfragen: Familianten-Hauptverzeichnisse Bydžovský und Táborský kraj (Suche nach Mosche/Pessel ca. 1720–1770), Heiratskonsens Wolf Rudolph 1801 im Fond České gubernium (Familiantenstelle Nr. 19 am Weinbergamt) und konkrete Gubernial-Akten N. 43354/1829 + N. 23044/1845 zur Stelle Samuel Rudolphs in Mühlhausen.
+- **SOA Třeboň, Veselíčko-Fond** — Reproauftrag Velkostatek Veselíčko (NAD 182), inv. č. 34 sign. VII-1 karton 3 (Familianten-Stellen-Liste mit Inhabern (1777) 1789–1844) und inv. č. 33 sign. VI-1 karton 2 (jüdische Matriken Veselíčko 1803–1840). Caveat: die jüdische Aktenüberlieferung in diesem Fond beginnt erst (1777) 1789, der originale Heiratskonsens Markus Rudolph 1758 ist dort wahrscheinlich nicht erhalten; greifbar bleibt aber die Liste der Stelleninhaber.
+- **SOkA Písek, fond OS Milevsko** — für Samuel Rudolphs 1771er Heiratskonsens und den 1828er Stellenverlust. Velkostatek Milevsko existiert nicht als eigener Fond bei SOA Třeboň; nach 1850 wanderten die Patrimonialakten der Region zur OS Milevsko und liegen heute beim SOkA Písek.
+- **SOA Praha** — Mgr. Martin Sovák zum Velkostatek Kosova Hora-Amschelberg / Heiratskonsens Pessel × Abraham Jablonsky 1764; dazu ein Nachfasser an die Studovna zum Pozůstalostní spis Philipp Bechinie (mit CC an Mgr. Macháčková, Bezug EP20250000003345).
+- **Židovské muzeum v Praze** — Get Pessel ↔ Abraham Jablotzky 1768 und Archivalien zur jüdischen Gemeinde Kosova Hora 1768/69 (vom NA Praha empfohlen).
+- **Vojenský ústřední archiv Praha** — Militärmatriken Philipp Bechinie 1740–1819.
 
 Auf der Zeisl-Seite: Auswertung der Korrespondenz mit Randy Schoenberg (Caizl-Hinweis, Notiz zu Kolodeje nad Lužnicí als „nächstgelegenem Zeisl-Punkt") und der direkte Kontakt mit Walter Steven Zeisl.
 
@@ -201,4 +207,4 @@ Das ist mehr, als zu Beginn der Spurensuche zu sehen war — und weniger, als n�
 - [DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern](/dna-analyse/)
 - [Korrekturen-/Errata-Sammelseite](/druckfehler-korrekturen/)
 
-*Dieser Beitrag ersetzt den Werkstatt-Post „Update Brückenmatch Amschelberg" (April 2026) und konsolidiert den Forschungsstand. Stand: 9. Mai 2026.*
+*Dieser Beitrag ersetzt den Werkstatt-Post „Update Brückenmatch Amschelberg" (April 2026) und konsolidiert den Forschungsstand. Stand: 10. Mai 2026.*

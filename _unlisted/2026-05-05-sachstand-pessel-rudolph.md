@@ -5,7 +5,7 @@ date: 2026-05-05
 permalink: /sachstand-pessel-rudolph-2026-05/
 eyebrow: "Arbeitsnotiz · nicht öffentlich gelistet"
 status: vorläufig
-stand_vom: 2026-05-06
+stand_vom: 2026-05-10
 betrifft: Band1, DNA, Ahnenforschung
 unlisted: true
 sitemap: false
@@ -14,7 +14,7 @@ description: "Zentralisierte Übersicht zur Forschung über Pessel bat Mosche / 
 
 > **Hinweis zum Status dieser Seite.** Diese Arbeitsnotiz ist nicht in der Werkstatt gelistet, nicht im Suchindex und nicht in Suchmaschinen auffindbar. Sie erreichen sie nur über den direkten Link, den Sie vom Autor erhalten haben. Inhalte sind *vorläufig* und werden laufend fortgeschrieben.
 
-**Stand:** 6. Mai 2026
+**Stand:** 10. Mai 2026
 **Anlass:** Diese Forschung steht nicht für sich allein. Der eigentliche Auslöser ist ein autosomaler DNA-Match zwischen Wolfgang Pilz und **Walter Steven Zeisl** (Wien): 36,57 cM auf zwei Chr-9-Segmenten, davon ein langes zusammenhängendes Stück von 29,1 cM in TG9_0 (~76–96 Mb), ein zweites kleines Segment von 7,5 cM (~2,75–5,32 Mb). Außerhalb von Chromosom 9 teilen Wolfgang und Walter Zeisl nichts; Chr-9-Total und Match-Total sind in diesem Fall identisch (Beleg: GEDmatch One-to-One vom 19.4.2026). Pessel bat Mosche / Apollonia Jablotzkin / Theresia Bechinie (Kekulé-Nr. 69) ist die einzige jüdische Vorfahrin in Wolfgangs bisher belegter Ahnenreihe und damit der naheliegendste Kandidat für eine gemeinsame Wurzel mit Walter Zeisl, dessen Linien ebenfalls in den böhmischen Raum führen. Der Match ist daher der Anlass, weshalb Christina Kaul (Familia Austria) und Patrick Bernhart (JewishGen) die Spur Pessel/Rudolph parallel mitverfolgen.
 **Zweck:** Zentralisierte Übersicht über den Stand der Forschung zur Herkunft Pessels. Dual gedacht — als Arbeitsspeicher für Wolfgang Pilz und als Lese-Vorlage für Mitforschende (insbesondere Christina Kaul).
 
@@ -50,7 +50,7 @@ Sie ist Vorfahrin des Autors auf Kekulé-Position 69. Drei Fragen führen die Re
 | Census Amschelberg 1799 | Abraham Jablonsky Familiant seit 1764; Löwy Jablonsky aus Gradlitz/Königgrätz, konvertiert, kinderlos † (Gubernialdekret 25740/1818). | NA Praha (transkribiert) |
 | Hochzeitseintrag Sohn Josef 1803 | Mädchenname der Mutter dort als „Kopidlansky" eingetragen — erste Erwähnung dieses Namens, fast 35 Jahre nach der Konversion. | SOA Praha |
 | Hausliste Amschelberg 1780 (Hugo Gold 1934, aus Fassionsbuch) | 19 Familienoberhäupter, kein Rudolph, kein Kopidlansky, kein Jablo(t)zky. Schnittmenge mit Rosenzweig 1808 nur Fürth + Klepetsch. | Hugo Gold (Hg.), *Die Juden und Judengemeinden Böhmens*, Brünn 1934 |
-| Familianten-Buch Mühlhausen (Milevsko) Nr. 9 | Samuel Rudolph, Heiratskonsens 1771, Wohnort Cim/Czim; Eltern und Frau „Unbekannt"; vier Söhne Samson, Moises, Michael, Löbl; Anmerkung 1: 21. Januar 1828 unwidersprochen abwesend, ganz erloschen angesehen, Akt N. 43354/1829; Anmerkung 2: nachträglich anerkannt 1845, aber nicht erledigt, Akt N. 23044/1845. | Familianten-Buch der Herrschaft Mühlhausen, Stelle Nr. 9 (Patrick Bernhart, JewishGen, 5.5.2026) |
+| Familianten-Buch Mühlhausen (Milevsko) Landes-Nr. 9 / Dominial-Nr. 27 | Samuel Rudolph, Heiratskonsens 1771, Wohnort Cim/Czim; Eltern und Frau „Unbekannt"; vier Söhne Samson, Moises, Michael, Löbl; Anmerkung 1: 21. Januar 1828 unwidersprochen abwesend, ganz erloschen angesehen, Akt N. 43354/1829; Anmerkung 2: nachträglich anerkannt 1845, aber nicht erledigt, Akt N. 23044/1845. | Familianten-Buch der Herrschaft Mühlhausen, Stelle Landes-Nr. 9 / Dominial-Nr. 27 (Patrick Bernhart, JewishGen, 5.5.2026 — Landes-Nr.; Dominial-Nr. 27 ergänzt aus Vademecum-Permalink xid=fffde945; parallele Numerierung im Hauptverzeichnis durch Original-Scan am 10.5.2026 geklärt). |
 | HBF XV/IV Táborský kraj | Samuel Rudolph mit Ortscluster Myslkovice, fol. 31–103, 1811–1848 — chronologisch Enkel/Urenkel-Generation eines mutmaßlichen Mosche Rudolph vor 1811. | NA Praha, ČG-HBF, NAD 29, inv.č. 144 (JewishGen Familianten-DB) |
 | Familianten-Verzeichnis Bunzlauer Kreis 1793 Pos. 19 Wrutiz | „Veith Rudolph, Knecht, ledig, gehört in Schutz nach Bezno" — primärquelliger Beleg für Rudolph als jüdischen Familiennamen. | (docplayer.org, OCR-Volltext) |
 | Vergleichsanalyse Mitgift 1715–1734 | Konsignationen Sušice/Bechyně/Týn/Pacov: Median jüd. Familie 75–100 fl./Jahr; Familianten-300-fl.-Schwelle als Mindestvermögen. Pessels 200 fl. = 2/3 dieser Schwelle, obere Mittelschicht der südböhmischen Schutzjuden, nicht Großhändler-Klasse. | Forschungsnotiz Vergleichsanalyse Mitgift Pessel 1764, Südböhmen, 4.5.2026 |
@@ -67,7 +67,7 @@ Sie ist Vorfahrin des Autors auf Kekulé-Position 69. Drei Fragen führen die Re
 
 ### 3.2 Geschwister-These Samuel Rudolph ↔ Pessel (neu, 5. Mai 2026)
 
-Christina Kaul (Mail vom 5.5.2026) und Patrick Bernhart (JewishGen, Antwort vom 5.5.2026) finden unabhängig denselben Mann: **Samuel Rudolph, Familiant auf der Stelle Mühlhausen Nr. 9, Heiratskonsens 1771, Wohnort Czim/Cim**, vier Söhne (Samson, Moises, Michael, Löbl). Patrick stellt explizit die Frage, ob Samuel und Pessel Geschwister gewesen sein könnten. Argumente für die Hypothese:
+Christina Kaul (Mail vom 5.5.2026) und Patrick Bernhart (JewishGen, Antwort vom 5.5.2026) finden unabhängig denselben Mann: **Samuel Rudolph, Familiantenstelle Mühlhausen Landes-Nr. 9 / Dominial-Nr. 27, Heiratskonsens 1771, Wohnort Czim/Cim**, vier Söhne (Samson, Moises, Michael, Löbl). Beleg: [Vademecum-Permalink](https://vademecum.nacr.cz/vademecum/permalink?xid=fffde945-cc62-45b6-9207-583a20683008). Patrick stellt explizit die Frage, ob Samuel und Pessel Geschwister gewesen sein könnten. Patrick Bernhart hatte 5.5.2026 die Landes-Nr. 9 gemeldet, das Vademecum führt die Dominial-Nr. 27 — die Numerierungsdiskrepanz aus dem Stand 5./6.5.2026 ist durch den Original-Scan des Familianten-Hauptverzeichnisses am 10.5.2026 geklärt: gleiche Stelle, zwei parallele Numerierungen, gleiche Person. Argumente für die Geschwister-Hypothese:
 
 - *Chronologie:* Pessel geb. ~1749, Samuel Heiratskonsens 1771 → Geburt ~1745–1750. Passt als gleiche oder benachbarte Generation.
 - *Geographie:* Mühlhausen (Milevsko) und Myslkovice beide Tábor-Kreis, ~25 km Distanz. Kompatibel mit Müller-Verortung.
@@ -75,16 +75,16 @@ Christina Kaul (Mail vom 5.5.2026) und Patrick Bernhart (JewishGen, Antwort vom 
 
 Argument *gegen* die Hypothese: Im Familianten-Buch sind „beiderseitige Eltern" und „Gattin" als „Unbekannt" eingetragen — Samuels Vater wird hier nicht namentlich genannt. Das schließt die These nicht aus, lässt sie aber im Buch selbst offen.
 
-Status: **plausibel aber unbelegt**. Verifikation hängt am Heiratskonsens-Akt 1771 selbst (Herrschaftsarchiv Mühlhausen, vermutlich SOA Třeboň oder Velkostatek-Bestand).
+Status: **plausibel aber unbelegt**. Verifikation hängt am Heiratskonsens-Akt 1771 selbst (SOkA Písek, fond OS Milevsko — Velkostatek Milevsko existiert nicht als eigener Fond bei SOA Třeboň, beide Abteilungen Třeboň und Český Krumlov geprüft am 10.5.2026; abgedeckt durch Anfrage C7).
 
 ### 3.3 Markus-Rudolph-Cluster (neu, 5. Mai 2026)
 
-Christina Kaul liefert in derselben Mail einen zweiten Rudolph-Knoten: **Markus Rudolph (im Folgenden „Markus d. Ä."), Familiant Veselíčko / Liebiegitz, Heiratskonsens 1758, †19.7.1801, Wohnort Stahletz** (Tábor-Kreis). Geburtsjahr nicht überliefert; aus dem Heiratskonsens 1758 grob auf ~1730–1740 zu schätzen, das Sterbedatum 1801 ist damit konsistent. Gut dokumentierte Sippe:
+Christina Kaul liefert in derselben Mail einen zweiten Rudolph-Knoten: **Markus Rudolph (im Folgenden „Markus d. Ä."), Familiantenstelle Nr. 52 auf Velkostatek Veselíčko / Liebiegitz, Heiratskonsens 1758, †19.7.1801, Wohnort Stahletz** (Tábor-Kreis). Beleg: [Vademecum-Permalink](https://vademecum.nacr.cz/vademecum/permalink?xid=3000885f-5853-4c6b-b0f9-f8f9e9276415). Geburtsjahr nicht überliefert; aus dem Heiratskonsens 1758 grob auf ~1730–1740 zu schätzen, das Sterbedatum 1801 ist damit konsistent. Gut dokumentierte Sippe:
 
 - **Isaak Joseph** (Sohn von Markus d. Ä.), Familiant Kleinchischka, Heiratskonsens 1791, „aus wichtiger gesetzlicher Ursache geschieden" nach 8 Kindern †1823.
 - **Helena/Anna** (Tochter von Markus d. Ä.), Heiratskonsens 1795, ⚭ Loebel Marzik in Liebignitz.
-- **Wolf** (Sohn von Markus d. Ä.), *1772, Smichov, Fleischhauermeister, †1858.
-- Daneben taucht im Material ein **zweiter, jüngerer Markus** auf, der 1783 auf dem Gut Precin nachweisbar ist und einen Sohn Simon (~1776, †1848 ledig) hat. Generationsabstand zu Markus d. Ä. ist ungeklärt — Enkel ist denkbar, ein Neffe oder eine namensgleiche Sekundärlinie aber ebenso möglich. Dieser Punkt wäre über die Familianten-Bücher Tábor zu klären.
+- **Wolf** (Sohn von Markus d. Ä.), *1772, Smichov, Fleischhauermeister, †1858. **Heiratskonsens 1801 nicht in Veselíčko, sondern am Weinbergamt (Královský vinohradský úřad), Familiantenstelle Nr. 19, mit Vermerk „Vater zemřel 1801"** — die Stelle wurde also erst nach dem Tod von Markus erteilt. Beleg: [Vademecum-Permalink](https://vademecum.nacr.cz/vademecum/permalink?xid=63d3c6c5-b454-44a1-9880-606eceee3053). Lesart Kaul (10.5.2026): entweder Stellenverschiebung Veselíčko → Weinbergamt zwischen 1799 und 1801, oder Markus verlor die Stelle und Wolf bekam eine neue am Weinbergamt als Ersatz. Beide Lesarten stehen vorerst parallel.
+- Daneben taucht im Material ein **zweiter, jüngerer Markus** („Marcus Rudolff jun.") auf, der 1783 auf dem Gut Precin nachweisbar ist und einen Sohn Simon (~1776, †1848 ledig) hat. Christina Kaul (Mail 10.5.2026) stellt explizit die Frage, ob dieser jüngere Markus ein **Sohn** von Markus d. Ä. sei (mit der Beobachtung, dass er später nicht mehr auftaucht); diese Sohn-Lesart ist Kauls gegenwärtige Tendenz. Enkel-, Neffe- oder eine namensgleiche Sekundärlinie sind weiterhin nicht ausgeschlossen. Klärung über die Familianten-Bücher Tábor.
 
 Kaul stellt die Hypothese: Markus d. Ä. könnte ein älterer Bruder Pessels sein. Methodisch ist das eine zur Samuel-These parallele Spur — beide spielen im Tábor-Kreis, beide in der gleichen Generation, keine direkte Verbindung zwischen ihnen ist belegt. Auch hier: **plausibel aber unbelegt**.
 
@@ -162,18 +162,31 @@ Konsequenz für die Recherche: Die Suche wird *breiter* (mehr mögliche Pfade), 
 | 18 | 07.02.2026 | → | NA Praha | Anfrage zu staatlichen Akten Konversion + Heirat | Anfrage gestellt |
 | 19 | 09.02.2026 | ← | NA Elektronická podatelna (automatisch) | Eingangsbestätigung, NACRX006FK93 | Bestätigt |
 | 20 | 02.03.2026 (Brief 27.02.) | ← | Mgr. Jitka Křečková (vyřizuje Dubská), NA Praha | APA I 1379–1820: rozlukový list nicht erhalten; jüd. Matriken erst ab 1784. Empfehlung Židovské muzeum Praha | **Negativ-Befund mit Empfehlung** |
+| 21 | 10.05.2026 | → | NA Praha (`posta@na.gov.cz`) — C1 | Familianten-Hauptverzeichnisse Bydžovský + Táborský kraj, Suche nach Mosche/Pessel ca. 1720–1770 | Anfrage gestellt |
+| 22 | 10.05.2026 | → | Židovské muzeum v Praze (`archive@jewishmuseum.cz`) — C2 | Get Pessel ↔ Abraham Jablotzky 1768; Archivalien jüdische Gemeinde Kosova Hora 1768/69 | Anfrage gestellt |
+| 23 | 10.05.2026 | → | Mgr. Martin Sovák, SOA Praha (`martin.sovak@soapraha.cz`) — C3 | Velkostatek Kosova Hora-Amschelberg, Heiratskonsens Pessel × Abraham Jablonsky 1764 | Anfrage gestellt |
+| 24 | 10.05.2026 | → | Vojenský ústřední archiv Praha (`podatelna-vua@army.cz`) — C4 | Militärmatriken Philipp Bechinie 1740–1819 | Anfrage gestellt |
+| 25 | 10.05.2026 | → | NA Praha (`posta@na.gov.cz`) — C5 | Heiratskonsens Wolf Rudolph 1801, fond České gubernium, Familiantenstelle Nr. 19 am Weinbergamt | Anfrage gestellt |
+| 26 | 10.05.2026 | → | SOA Třeboň oddělení Třeboň (`posta@ceskearchivy.cz`) — C6 | Reproauftrag Velkostatek Veselíčko (NAD 182): inv. č. 34 sign. VII-1 karton 3 (Familianten-Stellen-Liste 1789–1844) und inv. č. 33 sign. VI-1 karton 2 (Židovské matriky 1803–1840) | Anfrage gestellt |
+| 27 | 10.05.2026 | → | SOkA Písek (`posta@pi.ceskearchivy.cz`) — C7 | fond OS Milevsko, Samuel Rudolph 1771 + 1828er Stellenverlust | Anfrage gestellt |
+| 28 | 10.05.2026 | → | NA Praha, Mgr. Jarmila Dubská (`jarmila.dubska@na.gov.cz`, CC `posta@na.gov.cz`) — C8 | konkrete Gubernial-Akten N. 43354/1829 (Verlust-Erklärung Samuel Rudolph) und N. 23044/1845 (nachträgliche Anerkennung Mühlhausen Nr. 9/27) | Anfrage gestellt |
+| 29 | 10.05.2026 | → | Studovna SOA Praha (CC Mgr. Macháčková) — B1/B2 Nachfasser | Erinnerung an Pozůstalostní spis Philipp Bechinie, Bezug EP20250000003345 (Aw vom 6.1.2026) | Nachfasser gestellt |
 
 *E-Mail-Adressen der Archive sind dienstlich auf den jeweiligen Webseiten aufgeführt und werden hier zur besseren Lesbarkeit weggelassen. Mitforschende, die eine Adresse benötigen, schreiben bitte an den Autor.*
 
-### 4.2 Vorbereitete, noch nicht abgeschickte Anfragen (Stand 5. Mai 2026)
+### 4.2 Anfragen versendet 10. Mai 2026, Antwort offen
 
-| Nr. | Datum (Entwurf) | Empfänger | Thema | Status |
-|---|---|---|---|---|
-| E-21 | 04.05.2026 | Mgr. Martin Sovák, SOA Praha | Vrchnostenské fondy (Amschelberg, Kniowitz, Krchleby, Komorní Hrádek) — Bechinie / Rudolph-Jablotzky 1768–1769; Patronage Lipowsky-Malowetz | Entwurf liegt vor, zur Prüfung |
-| E-22 | 04.05.2026 | SOA v Třeboni, e-podatelna | Velkostatek Myslkovice — Familie Rudolph / Pessel bat Mosche, ~1748–1770; Urbar 1721, Familianten-Bücher vor 1811, Anton Novotný „Židé v Myslkovicích" | Entwurf liegt vor, zur Prüfung |
-| E-23 | 05.05.2026 | Mgr. Jarmila Dubská, NA Praha | Konkrete Akten N. 43354/1829 und N. 23044/1845 zur Familianten-Stelle Mühlhausen Nr. 9 (Samuel Rudolph) im Bestand Böhmisches Gubernium / Judaica | Entwurf liegt vor (5.5.2026), 1845-Lesart **„anerkannt"** zweifelsfrei festgelegt |
-| E-24 | offen | Židovské muzeum v Praze, odbor archivů | Vom NA Praha empfohlen (Brief Křečková, 27.02.2026): jüdische Gemeinde Kosova Hora 1768, Get-Bestände, ggf. Einträge zur Familie Rudolph in Tábor-Kreis | Anfrage noch nicht entworfen |
-| E-25 | offen | Vojenský ústřední archiv Praha | Böhmische Militärmatriken (Hinweis aus Familia-Austria-Liste, 10.04.2026 Susanna Rihs); Relevanz für Bechinie-Linie zu prüfen | Anfrage noch nicht entworfen |
+Sämtliche Entwürfe der Reihe E-21 bis E-25 sind in der Versandwelle vom 10.5.2026 in der Reihe C1–C8 aufgegangen. Mapping zur Nachvollziehbarkeit:
+
+- **E-21** (Sovák / Velkostatek Amschelberg, Patronage Lipowsky-Malowetz) → entspricht inhaltlich **C3** (versendet).
+- **E-22** (Velkostatek Myslkovice → SOA Třeboň) → in der 10.5.-Welle aufgegliedert in **C6** (Velkostatek Veselíčko, NAD 182 — Stellenliste und jüdische Matriken) und **C7** (SOkA Písek / fond OS Milevsko, weil Velkostatek Milevsko bei SOA Třeboň nicht existiert: beide Abteilungen Třeboň und Český Krumlov geprüft).
+- **E-23** (Dubská zu N. 43354/1829 + N. 23044/1845) → entspricht **C8** (versendet 10.5., persönlich an Dubská mit `posta@na.gov.cz` in CC).
+- **E-24** (Židovské muzeum) → entspricht **C2** (versendet).
+- **E-25** (Vojenský ústřední archiv) → entspricht **C4** (versendet).
+
+Zusätzlich versendet: **C1** (NA Praha, Hauptverzeichnisse Bydžovský + Táborský) und **C5** (NA Praha, Heiratskonsens Wolf Rudolph 1801 / Weinbergamt Nr. 19) — beide neu aus den Befunden vom 10.5. abgeleitet. Dazu der Nachfasser **B1/B2** an die Studovna SOA Praha (CC Macháčková) zum laufenden Vorgang EP20250000003345.
+
+Eine zweite vorgemerkte Anfrage **B3** (formelle Rešerše-Anfrage e-podatelna SOA Praha vom 24.1.2026, EP20260000000518) bleibt für späteren Nachfass vorgemerkt.
 
 ### 4.3 Forscher-Korrespondenz (kein Archiv, aber gleicher Themenkomplex)
 
@@ -192,19 +205,17 @@ Konsequenz für die Recherche: Die Suche wird *breiter* (mehr mögliche Pfade), 
 
 ### 5.1 Sofort
 
-1. **Anfrage E-23 an Mgr. Dubská (NA Praha)** abschicken — beide Aktenzahlen 43354/1829 und 23044/1845 prüfen lassen. Zentrales Ziel: wer war 1828 verzogen, wer hat 1845 die Stelle Mühlhausen Nr. 9 reklamieren lassen.
-2. **Anfrage E-21 an Mgr. Sovák (SOA Praha)** abschicken — vier Herrschaftsfonds für Bechinie/Konversion/Patronage abdecken.
-3. **Anfrage E-22 an SOA Třeboň** abschicken — Velkostatek Myslkovice, Urbar 1721, jüdische Bestände vor 1811.
-4. **Antwort an Christina Kaul** (Mail vom 5.5.2026) — *erledigt am 6.5.2026:* kompakte Antwort mit Dank für Markus-Rudolph-Spur, Hinweis auf Patrick Bernhart und Samuel Rudolph sowie Link auf den vorliegenden Sachstandsbericht abgesendet.
-5. **Anfrage an Patrick Bernhart** — Rückfrage, ob er im Familianten-Buch eine Vorgänger-Spalte sieht (wer hatte Mühlhausen Nr. 9 vor Samuel?).
+Punkte 1–4 sind erledigt: Die Versandwelle vom 10.5.2026 (C1–C8) deckt die ursprünglichen Punkte 1–3 vollständig ab (Mapping siehe §4.2); Punkt 4 (Antwort an Christina Kaul) wurde am 6.5.2026 abgesendet.
+
+5. **Anschluss-Mail an Patrick Bernhart** — Rückfrage, ob er im Familianten-Buch eine Vorgänger-Spalte sieht (wer hatte Mühlhausen Landes-Nr. 9 / Dominial-Nr. 27 vor Samuel?). Bleibt offen.
 
 ### 5.2 Mittelfristig
 
-6. **Heiratskonsens-Akt Samuel Rudolph 1771 Mühlhausen** — Herrschaftsarchiv (Velkostatek Milevsko, vermutlich SOA Třeboň). Dort sollten Eltern Samuels namentlich genannt sein.
+6. **Heiratskonsens-Akt Samuel Rudolph 1771 Mühlhausen** — SOkA Písek, fond OS Milevsko (Velkostatek Milevsko existiert nicht als eigener Fond bei SOA Třeboň). Dort sollten Eltern Samuels namentlich genannt sein. Abgedeckt durch Anfrage C7 vom 10.5.2026.
 7. **Heiratskonsens-Akt Pessel ⚭ Abraham Jablotzky 1764 Amschelberg** — Velkostatek Kosova Hora oder vergleichbarer Bestand. Würde Pessels Eltern direkt aus dem Konsens-Akt belegen.
 8. **HBF XV/IV Táborský kraj fol. 31–103 (Original)** — Vorgänger-Spalte des Myslkovice-Samuel im Buch 1811–1848: ist dort die Mühlhausen-Stelle als Vorgänger-Stelle eingetragen? Wenn ja: Brücke Mühlhausen → Myslkovice in der Folgegeneration belegt.
-9. **Anfragen E-24 (Židovské muzeum) und E-25 (Vojenský ústřední archiv) entwerfen und abschicken.**
-10. **Macháčková-Strang (EP20250000003345) — offenes Risiko.** Vorgang zu Bechinie / Velkostatek Komorní Hrádek im SOA Praha läuft formal weiter, aber die Originalmails der Korrespondentin Valerie Macháčková sind in der lokalen Mailbox nicht mehr auffindbar. Damit fehlt sowohl der Wortlaut bisheriger Auskünfte als auch jeder verbindliche Stand. Schritte: (a) bei Mgr. Sovák nachfragen, ob der Vorgang dort intern bekannt ist und mit der neuen Anfrage E-21 verbunden werden kann; (b) ggf. das SOA Praha um Statusbericht zur Vorgangs-ID 3345 bitten; (c) eigenen Aktenstand soweit möglich aus Eingangsbestätigungen rekonstruieren.
+9. *(erledigt)* Anfragen Židovské muzeum und Vojenský ústřední archiv sind als **C2** und **C4** in der Versandwelle vom 10.5.2026 raus (siehe §4.1 / §4.2).
+10. **Macháčková-Strang (EP20250000003345) — Status: Nachfasser am 10.5.2026 an Studovna mit CC Macháčková gesendet, Antwort offen.** Vorgang zu Bechinie / Velkostatek Komorní Hrádek im SOA Praha läuft formal weiter, die Originalmails der Korrespondentin Valerie Macháčková sind in der lokalen Mailbox nicht mehr auffindbar. Der Nachfasser bezieht sich auf die Aw vom 6.1.2026 unter EP20250000003345.
 
 ### 5.3 Langfristig / Hintergrund
 
@@ -218,6 +229,7 @@ Konsequenz für die Recherche: Die Suche wird *breiter* (mehr mögliche Pfade), 
 
 - **Unsicherheits-Markierung** durchgängig verwendet: *urkundlich belegt* / *Sekundärquelle* / *plausibel aber unbelegt* / *informelle Forscherauskunft (E-Mail/Liste)*. Keine Hypothese wird übergewichtet, solange sie nur in einer dieser Stufen abgesichert ist.
 - **Drei Hypothesen zum Geburtsort** laufen weiter parallel; methodisch wird keine vorab eliminiert. Spannung wird ausgehalten, auch wenn das die Darstellung sperriger macht.
+- **Census-Systematik 1783/1793/1799 (Hinweis Christina Kaul, 10.5.2026):** Der Judenzensus verwendet nicht in allen Jahrgängen dieselbe Systematik. **1783 und 1793 stellen auf den Wohnort ab; 1793 nennt zusätzlich die Schutzherrschaft. 1799 dagegen führt jeden Familianten unter der Herrschaft, wo seine Familiantenstelle ist — nicht unter dem Wohnort.** Erklärt scheinbare Widersprüche zwischen den Jahrgängen, etwa wenn Samuel Rudolph 1793 weder in Cim noch in Mühlhausen erscheint. Quellenkritisch zu beachten bei jeder Census-basierten Verortung.
 - **Frühere Korrekturen, die in diesen Bericht eingegangen sind:** Müllers Originalwortlaut ist „Pessel aus Miskowitz" (nicht „Familie Rudolph aus Myslkovice"); Tauf-Beiname „Kosso-Horska" ist Konversionsbeiname, kein Geburtsbeleg; Geburtsjahr Theresia ~Nov./Dez. 1749 (aus Konsistorialakt), nicht ~1735 wie früher angenommen; Census Amschelberg: Wechsel Haus 7 (1783) → Haus 21 (1793).
 - **Adressat-Sprache:** Der Bericht ist so geschrieben, dass er ohne Vorwissen lesbar ist (für Mitforschende), enthält aber alle Aktenzeichen, Signaturen und Personennamen, die als Arbeitsspeicher gebraucht werden.
 
@@ -233,6 +245,9 @@ Diese Tabelle wird mit jeder neuen Korrespondenz, jeder Antwort und jedem Befund
 | 06.05.2026 | → | Christina Kaul | Antwort auf Mail vom 5.5.2026 mit Link auf den Sachstandsbericht | Versendet; Reaktion offen |
 | 06.05.2026 | (intern) | — | Sachstandsbericht überarbeitet | Identitätskette ergänzt (Rudolphiana, Kosso-Horska, Kopidlansky), DNA-Anker Wolfgang–Walter Zeisl explizit, Lipowsky-Hypothese als §3.5 eingeführt, mehrere formale Korrekturen |
 | 06.05.2026 | (intern) | — | DNA-Zahlen präzisiert + §3.6 ergänzt | 36,57 cM auf zwei Chr-9-Segmenten (davon 29,1 cM in TG9_0) nach GEDmatch One-to-One 19.4.2026; neuer §3.6 zur Suchstrategie nach der Theresia-These (autosomal geschlechtsagnostisch, Geschwister-/Seiten­linien als gleichberechtigte Treffer-Kandidaten) |
+| 10.05.2026 | → | acht Archive | Versandwelle C1–C8 versendet (NA Praha 3×, Židovské muzeum, Sovák/SOA Praha, Vojenský ústřední archiv, SOA Třeboň/Veselíčko, SOkA Písek/OS Milevsko); Antworten offen | Tabelle §4.1 fortgeschrieben |
+| 10.05.2026 | → | Studovna SOA Praha (CC Macháčková) | Nachfasser B1/B2 zum Pozůstalostní spis Philipp Bechinie, Bezug EP20250000003345 | Antwort offen |
+| 10.05.2026 | (intern) | — | Sachstandsbericht überarbeitet | §3.2 (Mühlhausen Landes-Nr. 9 / Dominial-Nr. 27 + Vademecum-Permalink), §3.3 (Markus Nr. 52 + Permalink, Wolf 1801 Weinbergamt Nr. 19 + Permalink, Marcus jun. Sohn-Lesart nach Kaul), §4.1 acht neue Zeilen + Nachfasser, §4.2 Mapping E-21..E-25 → C-Wellen, §5.1/§5.2 aktualisiert, §6 Census-Systematik ergänzt |
 | | | | | |
 
 ---
@@ -249,4 +264,4 @@ Weiterführende Detaildokumente (Konsistorialakt-Transkription, Vergleichsanalys
 
 ---
 
-*Dieser Bericht ist als laufendes Dokument angelegt. Letzte inhaltliche Aktualisierung: 6. Mai 2026. Änderungen werden im Front-Matter-Feld `stand_vom` mitgeführt.*
+*Dieser Bericht ist als laufendes Dokument angelegt. Letzte inhaltliche Aktualisierung: 10. Mai 2026. Änderungen werden im Front-Matter-Feld `stand_vom` mitgeführt.*
