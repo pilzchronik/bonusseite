@@ -69,7 +69,7 @@ Drei Vorbehalte zur jüdischen Vorgeschichte:
 
 **Geburtsort offen.** Dass Pessel aus *Myslkovice* (deutsch *Miskowitz*) stammt, geht auf eine Sekundärinformation des Lokalforschers Julius Müller zurück. Drei Hypothesen laufen parallel:
 
-- **A — Myslkovice (Tábor-Kreis):** gestützt auf Müller und auf einen Samuel Rudolph mit Ortscluster Myslkovice in HBF XV/IV (1811–1848).
+- **A — Myslkovice (Tábor-Kreis):** gestützt auf Müller und auf einen Samuel Rudolph mit Ortscluster Myslkovice in HBF XV/IV (1811–1848). *Geschwächt durch das Hauptverzeichnis Tábor 1799 (10.5.2026):* Miskowitz Gut Nr. 26 führt zwischen 1735 und 1799 keinen Rudolph; der Myslkovice-Ortscluster ab 1811 ist demnach ein Spätzuzug, nicht der Heimatort der Familie.
 - **B — Kopidlno-Region (Bydžovský kraj):** nur durch den Mädchennamen *Kopidlansky* gestützt.
 - **C — Amschelberg selbst:** schwach.
 
@@ -108,6 +108,10 @@ Eine Live-Recherche im Vademecum am 10. Mai 2026 ergänzt die Markus-Spur um ein
 **Samuel Rudolph**, Familiantenstelle **Mühlhausen, Landes-Nummer 9 / Dominial-Nummer 27**, Heiratskonsens 1771, Wohnort Czim/Cim, vier Söhne Samson, Moises, Michael, Löbl. Beleg: [Vademecum-Permalink](https://vademecum.nacr.cz/vademecum/permalink?xid=fffde945-cc62-45b6-9207-583a20683008). Das Hauptverzeichnis führt für diese Familiantenstelle zwei parallele Numerierungen — Landes- und Dominial-Nummer —, beide korrekt, gleiche Person. Am 5. Mai 2026 von Patrick Bernhart über JewishGen identifiziert (mit Landes-Nr. 9), das Vademecum führt die Dominial-Nr. 27; geklärt durch den Original-Scan des Familianten-Hauptverzeichnisses am 10. Mai 2026. Auch hier ist die Geschwister-Hypothese explizit gestellt.
 
 Beide Männer passen zeitlich (geboren ~1745–1750) und geographisch (Tábor-Kreis, ~25 km von Myslkovice) als Bruder Pessels. Der Sohn Moises bei Samuel könnte nach aschkenasischer Konvention auf einen verstorbenen Großvater Mosche zurückgehen — schwacher Hinweis, weil Moses zu den häufigsten Vornamen gehört. Beide Hypothesen sind plausibel, aber unbelegt; Verifikation hängt an den Heiratskonsens-Akten 1758 und 1771.
+
+**Vor-Wohnorte aus dem Hauptverzeichnis Tábor 1799 (Edition Karls-Universität Prag).** Die edierte Familianten-Liste des Taborer Kreises 1799 nennt für beide Männer den Herkunftskreis vor der Tábor-Stelle: Markus Rudorf kam 1758 nach Veselíčko aus „Liebiegitz und Czechtitz Gut Prachiner Kreises", Samuel Rudolph 1771 nach Mühlhausen aus „Czimnasakowetz Lehnhof Berauner Kreises". Dazu eine dritte Bewegung in derselben Generation: Salomon Adler kam 1775 aus Wottitz (Berauner Kreis) nach Wopořan. Drei voneinander unabhängige Migrationen aus den westlich/nordwestlich angrenzenden Kreisen in zwei Jahrzehnten — kein Zufallsmuster.
+
+Ergänzend zeigt der Census Caslavsko 1793 einen *Lazar Rudolfer* aus „Trebetsh in Mähren" (Třebíč), wohnhaft in Ledetsch — primärquelliger Beleg für eine Bewegung Mähren → Böhmen unter dem Familiennamen Rudolph. Damit rückt eine Mähren-Herkunft der Sippe in den Vordergrund (siehe auch DNA-Migrationshypothese unten).
 
 **Methodische Notiz zur Census-Systematik.** Ein methodischer Hinweis von Christina Kaul (Mai 2026): Der Judenzensus verwendet nicht in allen Jahrgängen dieselbe Systematik. **1783 und 1793 stellen auf den Wohnort ab; 1793 nennt zusätzlich die Schutzherrschaft. 1799 dagegen führt jeden Familianten unter der Herrschaft, wo seine Familiantenstelle ist — nicht unter dem Wohnort.** Das erklärt scheinbare Widersprüche zwischen den Jahrgängen, etwa wenn Samuel Rudolph 1793 weder in Cim noch in Mühlhausen erscheint.
 
@@ -163,20 +167,27 @@ Sie macht es wahrscheinlich, dass Bechinie- und Zeisl-Linie sich zwischen ca. 17
 - Heirat 22. Oktober 1769 in Chlum (Philipp Bechinie und Rudolphiana)
 - Heiratseintrag des Sohnes Josef 1803 mit „geb. Kopidlansky"
 - Fleischer-Familie Johann Kopidlansky in Kosova Hora 1767–1790
+- **Geburtsort der Mutter Anna: Wopořan / Opařany** (10.5.2026): Lesart „Wopařaná" im Konsistorialakt = zeitgenössische Frauenform der Allodialherrschaft *Wopořan und Bernarditz* (Sommer 1842, Bd. 10 Taborer Kreis), 15 km westlich von Tábor, ab 1850 Bezirkshauptmannschaft Milevsko.
+
+**Primärquellig gestützt (neu, 10.5.2026):**
+
+- Drei Migrationsvektoren in den Tábor-Kreis 1758–1775 (Markus Prachiner → Veselíčko; Samuel Berauner → Mühlhausen; Salomon Adler Berauner → Wopořan)
+- Mähren-Anker via Lazar Rudolfer 1793 (Třebíč → Ledetsch, Census Caslavsko)
+- Familianten-Stellen-Numerierung Markus Veselíčko Nr. 52, Samuel Mühlhausen Landes-Nr. 9 / Dominial-Nr. 27, Wolf Weinbergamt Nr. 19 (Vademecum-Permalinks)
 
 **Wahrscheinlich, aber nicht abschließend gesichert:**
 
 - Identität Apollonia Jablonsky / Teresia Kosso-Horska / Rudolphiana / Theresia Bechinie
 - Erste jüdische Ehe um 1764 mit Abraham Jablonsky in Amschelberg
 - Joseph Rudolph = Mosche (gleiche Person, doppelter Name)
-- Herkunft aus Myslkovice (eine von drei Hypothesen)
+- Herkunft Pessels: Myslkovice geschwächt (kein Rudolph dort 1735–1799), zwei Lesarten parallel: Kopidlno-Region (B) oder Mähren-Herkunft via Berauner/Prachiner Aussiedlung (neu)
 - Geschwister-Beziehung zu Markus und/oder Samuel Rudolph
 - Bedeutung des Namens *Kopidlansky* (vier Lesarten parallel)
 
 **Offen:**
 
-- Geburtsort Pessels und Berufsstand des Vaters
-- Geburtsname der Mutter Anna (Lesart „Beporzaná"; Lesehilfe-Forum 2026: „Woporzana" — Verifikation am Original ausstehend)
+- Verbleib des Vaters Joseph/Mosche Rudolph: drei Lesarten parallel — Tod vor 1783 / Verbleib in Mähren / nicht-konsensierter Sohn (in 14 böhmischen Kreisen 1733–1799 nicht greifbar)
+- Berufsstand des Vaters
 - die genealogische Verbindung Bechinie ↔ Zeisl, die der DNA-Match nahelegt
 
 ## Stand der Anfragen
@@ -203,6 +214,7 @@ Das ist mehr, als zu Beginn der Spurensuche zu sehen war — und weniger, als n�
 **Anlagen und verwandte Stellen:**
 
 - [DNA-Skizze (Stammbäume, Chromosom 9, Brücken-Diagramm)](/bonusseite/assets/dna-skizze.html)
+- [Pessel/Rudolph-Befunde Mai 2026 — Skizze (Wopořan, Migrationsvektoren, Mähren-Anker)](/bonusseite/assets/befunde-rudolph-mai-2026.html)
 - [DNA Pilz–Zeisl: autosomaler Match](/dna-pilz-zeisl-autosomaler-match/)
 - [DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern](/dna-analyse/)
 - [Korrekturen-/Errata-Sammelseite](/druckfehler-korrekturen/)
