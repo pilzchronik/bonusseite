@@ -44,13 +44,13 @@ Die Übereinstimmung mit der Heirat ein Jahr später ist deutlich: derselbe Vorn
 
 **Chronologie der Konversion 1768:**
 
-- 13. August — erstes Bittgesuch beim Pfarrer
-- 13. Oktober — Eingang im Prager Konsistorium
-- 14. Oktober — Übergabe des Get in Kosova Hora durch den Jesuiten-Hebraisten Leopold Tirsch SJ
-- 16. Oktober — Plenarsitzung, Tauferlaubnis ausgefertigt
-- 30. Oktober — Taufe
+- **13. August** — erstes Bittgesuch der Pessel beim Pfarrer Carolus Petrus Wottawa in Kosova Hora
+- **13. Oktober** — Eingang des Bittgesuchs im Prager Konsistorium; gleichentags Auftrag an P. Leopold Tirsch SJ, die Get-Übergabe zu beaufsichtigen
+- **14. Oktober** — Übergabe des Get in Kosova Hora in Anwesenheit Tirschs, in einem Termin mit beiden Eheleuten; Tirschs Bericht eingeht am gleichen Tag im Konsistorium
+- **16. Oktober** — Plenarsitzung des Konsistoriums, Tauferlaubnis am gleichen Tag expediert
+- **30. Oktober** — Taufe in Kosova Hora durch Wottawa
 
-Das Konsistorium verlangte den Get, obwohl die jüdische Ehe durch die Taufe ohnehin nichtig wurde. Der Get war der sichtbare Nachweis, dass auch die jüdische Gemeinde die Trennung anerkannte — andernfalls hätte Theresia in zwei Rechtswelten zugleich existiert.
+Der Get war für die Kirche keine Formalie, sondern Voraussetzung für die Taufe: das Konsistorium verlangte ihn ausdrücklich, weil sich nur so vermeiden ließ, dass die Konvertitin in zwei Rechtswelten zugleich existierte — kirchenrechtlich getrennt durch die Taufe, halachisch aber weiter mit Abraham Jablonsky verheiratet. Mit dem nach dem Gesetz Moses' überreichten Scheidebrief wurde die Trennung auch von der jüdischen Gemeinde als rechtsgültig anerkannt. Die Anordnung verstand sich damit als friedensstiftende Maßnahme zwischen den beiden Religionsgemeinschaften, nicht als bloße Pflicht der Konvertitin.
 
 ## Die jüdische Vorgeschichte
 
@@ -88,8 +88,8 @@ Vier Lesarten kommen in Frage: Herkunftsname, bei der Taufe oder Heirat 1769 zug
 
 Ein Fund aus dem Frühjahr 2026 (Pfarrmatrik Kosova Hora, ebadatelna SOA Praha) konkretisiert die Kopidlansky-Frage räumlich: Am Konversionsort selbst lebte 1768 die katholische Fleischer-Familie Johann Kopidlansky × Anna.
 
-- 7. April 1767 — Tochter Maria Anna getauft, Patin u. a. Maria Anna Wottavová
-- 28. April 1769 — Tochter *Magdalena Teresia* Kopidlansky getauft, Patin Catharina Wottavová
+- **7. April 1767** — Tochter Maria Anna getauft, Patin u. a. Maria Anna Wottavová
+- **28. April 1769** — Tochter *Magdalena Teresia* Kopidlansky getauft, Patin Catharina Wottavová
 
 Beide Kinder taufte derselbe Pfarrer Karl Peter Wottava, der zwischen den beiden Geburten Pessel zur Christin gemacht hatte. Daraus ergibt sich ein Beziehungsband zwischen Pfarrer und Fleischer-Familie vor und nach Pessels Konversion.
 
