@@ -4,7 +4,7 @@ title: "Theresia Bechinie geb. Pessel — Forschungsgeschichte und derzeitiger S
 date: 2026-05-10
 permalink: /theresia-bechinie-forschungsgeschichte/
 status: vorläufig
-stand_vom: 2026-05-10
+stand_vom: 2026-05-11
 betrifft: Band2, DNA, Ahnenforschung
 ersetzt: /update-bruecken-match-amschelberg/
 tags: [Bechinie, Pessel, Rudolph, Kopidlansky, Jablonsky, Amschelberg, Kosova Hora, Myslkovice, Konversion, Konsistorialakt, DNA, Zeisl]
@@ -67,13 +67,14 @@ Drei Vorbehalte zur jüdischen Vorgeschichte:
 
 **Keine Primärquelle für 1764 und für den Get.** Ein staatliches jüdisches Trauregister gab es vor Joseph II. nicht; die systematische Matrikenführung für jüdische Gemeinden (HBMa) begann erst 1784. Der Get selbst ist nur durch Tirschs Bericht bezeugt — der Text liegt nicht vor.
 
-**Geburtsort offen.** Dass Pessel aus *Myslkovice* (deutsch *Miskowitz*) stammt, geht auf eine Sekundärinformation des Lokalforschers Julius Müller zurück. Drei Hypothesen laufen parallel:
+**Geburtsort offen.** Dass Pessel aus *Myslkovice* (deutsch *Miskowitz*) stammt, geht auf eine Sekundärinformation des Lokalforschers Julius Müller zurück. Inzwischen laufen vier Lesarten parallel:
 
 - **A — Myslkovice (Tábor-Kreis):** gestützt auf Müller und auf einen Samuel Rudolph mit Ortscluster Myslkovice in HBF XV/IV (1811–1848). *Geschwächt durch das Hauptverzeichnis Tábor 1799 (10.5.2026):* Miskowitz Gut Nr. 26 führt zwischen 1735 und 1799 keinen Rudolph; der Myslkovice-Ortscluster ab 1811 ist demnach ein Spätzuzug, nicht der Heimatort der Familie.
 - **B — Kopidlno-Region (Bydžovský kraj):** nur durch den Mädchennamen *Kopidlansky* gestützt.
 - **C — Amschelberg selbst:** schwach.
+- **A′ — Mühlhausen (Milevsko), Tábor-Kreis (neu, 11.5.2026):** Pessels Vater Moses/Joseph saß auf der Familianten-Stelle Mühlhausen Landes-Nr. 9 / Dominial-Nr. 27, starb 1771, sein Sohn Samuel erbte zeitgleich mit dem Heiratskonsens. Markus 1758 (Veselíčko) wäre der ältere Bruder, der die elterliche Stelle nicht abwarten konnte; Pessel die jüngere Schwester. Eine phonetische Erwägung Christina Kauls stützt die Lesart: Müllers mündliche Auskunft „Pessel aus Miskowitz" könnte eine Verwechslung von *Milevsko (Mühlhausen)* mit *Myslkovice* sein — beide Toponyme klingen ähnlich genug. Strukturell besser fundiert als A, weil sie Markus, Samuel und Pessel in einer Familienkonstellation organisiert; siehe den Werkstatt-Beitrag [Zwei Familien in einem Dorf?]({{ '/veselicko-zwei-familien-ein-dorf/' | relative_url }}).
 
-Keine ist primärquellig festgelegt.
+Keine der vier Lesarten ist primärquellig festgelegt; A′ wartet auf den Heiratskonsens-Akt 1771 (SOkA Písek, fond OS Milevsko, Anfrage C7 vom 10.5.).
 
 **Name Kopidlansky.** Außerhalb des Familienkreises Theresias ist der Name an *vier* Stellen greifbar:
 
