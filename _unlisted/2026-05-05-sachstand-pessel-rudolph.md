@@ -66,11 +66,14 @@ Sie ist Vorfahrin des Autors auf Kekulé-Position 69. Drei Fragen führen die Re
 
 ## 3. Hypothesen-Lage
 
-### 3.1 Drei Hypothesen zum Geburtsort (parallel, keine primärquellig belegt)
+### 3.1 Vier Hypothesen zum Geburtsort (parallel, keine primärquellig belegt)
 
 - **Hypothese A — Myslkovice (Tábor-Kreis).** Gestützt auf eine E-Mail-Auskunft von Julius Müller (Toledot, 2025): „Pessel aus Miskowitz", ohne Mädchennamen, ohne Vater-Mosche-Bezug. Auf eine schriftliche Rückfrage hat Müller nicht mehr geantwortet. Indirekter Sekundär-Beleg: Samuel Rudolph in HBF XV/IV Táborský kraj mit Ortscluster Myslkovice (1811–1848), chronologisch passend als Enkel/Urenkel eines Mosche. Hugo Gold 1934 bestätigt zudem Myslkovice als realen Matrikenort („Matriken der Zuständigkeits- und Geburtsorte Radenin, Miskowitz") — Müllers Wortlaut sitzt auf einer existierenden Gemeinde. **Geschwächt durch den neuen Befund (10.5.2026, Edition Hauptverzeichnis Tábor 1799):** Miskowitz Gut Nr. 26 führt zwischen 1735 und 1799 *keinen* Rudolph; der Myslkovice-Ortscluster ab 1811 ist demnach ein Spätzuzug, nicht der Heimatort der Familie. Damit verliert Hypothese A ihren wichtigsten Sekundärbeleg — Müllers Auskunft selbst bleibt aber unwidersprochen.
+- **Hypothese A′ — Mühlhausen (Milevsko), Tábor-Kreis (neu, 11.5.2026).** Christina Kauls paläographisch-strukturelle Erwägung vom 11.5.2026: Moses/Joseph Rudolph hatte seine Familianten-Stelle in Mühlhausen Landes-Nr. 9 / Dominial-Nr. 27, †1771; sein Sohn Samuel erbte die Stelle und bekam zeitgleich den Heiratskonsens. Markus (HK 1758, eigene Stelle Veselíčko) wäre der ältere Bruder, der die elterliche Stelle nicht abwarten konnte; Pessel (~1749) die jüngere Schwester. Phonetische Erwägung: Müllers mündliche „Pessel aus Miskowitz"-Auskunft könnte eine Verwechslung von *Milevsko (Mühlhausen)* mit *Myslkovice* sein — beide Toponyme klingen ähnlich. **Strukturell besser fundiert als A**, weil sie Markus, Samuel und Pessel in einer Familienkonstellation organisiert. Status: *plausibel aber unbelegt*. Verifikation hängt an der Vorgänger-Spalte der Stelle Mühlhausen im Velkostatek Milevsko bzw. am Heiratskonsens-Akt Samuel 1771 (SOkA Písek, fond OS Milevsko — Anfrage C7 vom 10.5.).
 - **Hypothese B — Kopidlno-Region (Bydžovský kraj).** Gestützt auf den Mädchennamen Kopidlansky aus dem Hochzeitseintrag des Sohnes Josef 1803, ergänzt durch Christina Kaul: „in Dasice gibt es eine Familiantenfamilie Kopidlansky" (Pardubitz-Region). Toponymische Bildung Kopidlno → Kopidlansky regelhaft; „Kopidlansky" als jüdischer Familienname in keiner durchsuchten Quelle weiter dokumentiert.
 - **Hypothese C — Amschelberg selbst.** Schwach. Der Tauf-Beiname „Kosso-Horska" ist Konversionsbeiname, kein Geburtsbeleg. Die Hauslisten Amschelberg 1780 (Gold 1934) und 1793 (Census) kennen keine Rudolph-Familie. Hypothese hält sich nur, weil sie sich bisher nicht eindeutig hat ausschließen lassen.
+
+A und A′ sitzen beide im Tábor-Kreis, in 25 km Distanz; beide haben Müllers „Miskowitz"-Auskunft als Anker. A′ ist die strukturell engere Lesart. Werkstatt-Beitrag: [/veselicko-zwei-familien-ein-dorf/](/veselicko-zwei-familien-ein-dorf/).
 
 ### 3.2 Geschwister-These Samuel Rudolph ↔ Pessel (neu, 5. Mai 2026)
 
@@ -173,6 +176,33 @@ Eine visuelle Übersicht der drei Migrationsvektoren plus Mähren-Anker liegt al
 
 Status: **primärquellig gestützt** für die drei Migrationsvektoren und den Mähren-Anker; **plausibel aber unbelegt** für die Lesart, dass Pessels Vater zur selben Sippe gehört.
 
+### 3.9 Veselíčko-Konvergenz: Susan Fisher Boyer und die Vodička-Spur (neu, 10./11.5.2026)
+
+Aus der DNA-Korrespondenz mit den USA ergibt sich ein zweiter Brückenstrang neben Walter Zeisl, der unabhängig vom Markus-Rudolph-Cluster auf denselben Ort verweist.
+
+**DNA-Konstellation:**
+
+- Wolfgang ↔ **Susan Fisher Boyer**: 11 cM (FTDNA).
+- Susan ↔ **Walter Steven Zeisl**: 83 cM (FTDNA) — Größenordnung Cousinen 2./3. Grades.
+- Wolfgang ↔ Walter Zeisl: 29,1 cM auf Chr-9 (GEDmatch, 19.4.2026).
+
+**Familientradition Vodička.** Susans väterliche Linie geht nach Familientradition auf **Samuel Vodička, um 1710, in Veselíčko** zurück. Im 19. Jh. lebt die Familie in **Petrovice u Sedlčan**; Susans Urgroßmutter wurde 1942 von dort nach Theresienstadt deportiert und ist dort umgekommen. Quelle der frühen Generationen: **Jiří Fiedler** (†2018), bestätigt über Tom Weiss und Nancy Sinderbrand Deutsch (Familienzweige).
+
+**Geographische Klarstellung (zwei Veselíčkos):**
+
+| Ort | Kreis | Distanz zu Petrovice u Sedlčan |
+|---|---|---|
+| **Veselíčko u Milevska** (= Markus Rudolph Stelle Nr. 52) | Písek / Jihočeský | ~21 km südlich |
+| **Veselíčko u Počepic** (Streusiedlung, ~10 Hausnummern) | Příbram / Středočeský | ~4 km nördlich |
+
+Distanz zwischen beiden Veselíčkos: ~24 km. Susans Wortlaut „south of Petrovice" passt geographisch nur auf das Milevsko-Veselíčko — also den Ort, an dem auch Markus Rudolphs Familianten-Stelle saß. Die Konvergenz Rudolph + Vodička im selben Dorf hält damit.
+
+**Lesart.** Die Vodička-Spur ist eine Brückenlinie, nicht eine Aszendenz-Lesart. Sie zeigt geographische Plausibilität für die DNA-Verwandtschaft Pilz/Zeisl im Tábor-Kreis, ohne den genealogischen Knoten zu benennen. Vodička und Rudolph sind verschiedene Familien; die 11 cM zu Wolfgang sind in aschkenasisch-endogamem Kontext schwer generationsgenau lesbar. Status: **primärquellig gestützt** für DNA-Werte und Familientradition; **plausibel aber unbelegt** für eine direkte Verwandtschaft.
+
+**Tom Weiss** wurde in Susans dritter Mail (10.5.2026) ins CC gesetzt und kann (a) bestätigen, in welchem Veselíčko Samuel Vodička 1710 saß, und (b) zur Datierungsbasis der frühen Vodičkas Auskunft geben. Antwort offen.
+
+**Schoenberg-Anschrieb vorgemerkt.** Susan empfiehlt **Randy Schoenberg** (`randols@bslaw.net`) als Spezialist für die Zeisl-Linie. Wolfgangs Anschreiben (Entwurf 21.4.2026) liegt, muss aber um den Zeisl-Anker (36,57 cM, MRCA ~6–9 Generationen) ergänzt werden. Versand zeitnah nach Antwort an Susan.
+
 ---
 
 ## 4. Korrespondenz mit tschechischen Archiven (Übersicht)
@@ -204,7 +234,7 @@ Status: **primärquellig gestützt** für die drei Migrationsvektoren und den M�
 | 21 | 10.05.2026 | → | NA Praha (`posta@na.gov.cz`) — C1 | Familianten-Hauptverzeichnisse Bydžovský + Táborský kraj, Suche nach Mosche/Pessel ca. 1720–1770 | Anfrage gestellt |
 | 22 | 10.05.2026 | → | Židovské muzeum v Praze (`archive@jewishmuseum.cz`) — C2 | Get Pessel ↔ Abraham Jablotzky 1768; Archivalien jüdische Gemeinde Kosova Hora 1768/69 | Anfrage gestellt |
 | 23 | 10.05.2026 | → | Mgr. Martin Sovák, SOA Praha (`martin.sovak@soapraha.cz`) — C3 | Velkostatek Kosova Hora-Amschelberg, Heiratskonsens Pessel × Abraham Jablonsky 1764 | Anfrage gestellt |
-| 24 | 10.05.2026 | → | Vojenský ústřední archiv Praha (`podatelna-vua@army.cz`) — C4 | Militärmatriken Philipp Bechinie 1740–1819 | Anfrage gestellt |
+| 24 | 10.05.2026 | → | Vojenský ústřední archiv Praha (`podatelna-vua@army.cz`) — C4 | Militärmatriken Philipp Bechinie 1740–1819 | **Am 11.5.2026 zurückgezogen.** VÚA-Matriken setzen erst ab ~1820 ein (Bechinie *1735, †1819); zudem Pechau-bei-Magdeburg-Hypothese „Militär-Kontext" durch Personenbericht widerlegt (Sohn lebte in Pechau, †1819 bei Familienbesuch). Falls Militärrecherche nochmal angefasst wird, Kriegsarchiv Wien. |
 | 25 | 10.05.2026 | → | NA Praha (`posta@na.gov.cz`) — C5 | Heiratskonsens Wolf Rudolph 1801, fond České gubernium, Familiantenstelle Nr. 19 am Weinbergamt | Anfrage gestellt |
 | 26 | 10.05.2026 | → | SOA Třeboň oddělení Třeboň (`posta@ceskearchivy.cz`) — C6 | Reproauftrag Velkostatek Veselíčko (NAD 182): inv. č. 34 sign. VII-1 karton 3 (Familianten-Stellen-Liste 1789–1844) und inv. č. 33 sign. VI-1 karton 2 (Židovské matriky 1803–1840) | Anfrage gestellt |
 | 27 | 10.05.2026 | → | SOkA Písek (`posta@pi.ceskearchivy.cz`) — C7 | fond OS Milevsko, Samuel Rudolph 1771 + 1828er Stellenverlust | Anfrage gestellt |
@@ -236,7 +266,10 @@ Eine zweite vorgemerkte Anfrage **B3** (formelle Rešerše-Anfrage e-podatelna S
 | April 2026 | Thomas Fürth (Stockholm) | Stammbaum bis 1600 geliefert, Fürth-Linie ist Ortskontext, kein Pessel/Moshe/Rudolph/Kopidlansky in seinen Quellen. Genealogisch abgeschlossen. |
 | April 2026 | Jeanette Stein (Hannover) | Vier Stammbäume + Screenshots geliefert. Verweis auf Thomas Fürth, Klepetarsch-Verbindung. Antwort-Entwurf von Wolfgang fertig, noch nicht abgesendet. |
 | April 2026 | Mehrere DNA-Match-Korrespondenzen | Ohne direkten Bohemia-Bezug; in der Klarnamen-Liste nur intern geführt. Inhaltlich kein Beitrag zur Pessel/Rudolph-Spur. |
-| 2025 | Julius Müller (Toledot) | Originalwortlaut „Pessel aus Miskowitz" per E-Mail geliefert; auf E-Mail-Rückfrage nicht mehr geantwortet. |
+| 10.05.2026 | Susan Fisher Boyer (USA) | DNA-Match Wolfgang ↔ Susan 11 cM (FTDNA); Susan ↔ Walter Zeisl 83 cM. Drei Mails am 10.5.: Vodička-Linie zurück auf Samuel Vodička c.1710 in Veselíčko; 1800er-Jahre Petrovice u Sedlčan; Urgroßmutter 1942 Theresienstadt †. Quelle frühe Generationen: Jiří Fiedler. Dritte Mail mit Tom Weiss in CC (umfangreichstes Vodička-Material). Empfiehlt Randy Schoenberg (Zeisl-Spezialist). |
+| 10.05.2026 | Tom Weiss (USA, im CC) | Antwort offen — kann (a) Veselíčko-Lesung Samuel Vodička 1710 bestätigen und (b) Datierungsbasis der frühen Vodičkas einordnen. |
+| 11.05.2026 | Randy Schoenberg (`randols@bslaw.net`) | **Anschrieb vorgemerkt.** Entwurf von 21.4.2026 liegt; Zeisl-Anker (36,57 cM, MRCA ~6–9 Generationen) muss noch eingearbeitet werden. Versand zeitnah nach Antwort an Susan. |
+| 2025 | Julius Müller (Toledot) | Originalwortlaut „Pessel aus Miskowitz" per E-Mail geliefert; auf E-Mail-Rückfrage nicht mehr geantwortet. **Update 11.5.2026:** Kauls phonetische Erwägung — möglicherweise Verwechslung *Milevsko/Mühlhausen* mit *Myslkovice* — eröffnet Hypothese A′ (siehe §3.1). |
 
 ---
 
@@ -250,7 +283,7 @@ Punkte 1–4 sind erledigt: Die Versandwelle vom 10.5.2026 (C1–C8) deckt die u
 
 ### 5.2 Mittelfristig
 
-6. **Heiratskonsens-Akt Samuel Rudolph 1771 Mühlhausen** — SOkA Písek, fond OS Milevsko (Velkostatek Milevsko existiert nicht als eigener Fond bei SOA Třeboň). Dort sollten Eltern Samuels namentlich genannt sein. Abgedeckt durch Anfrage C7 vom 10.5.2026.
+6. **Heiratskonsens-Akt Samuel Rudolph 1771 Mühlhausen** — SOkA Písek, fond OS Milevsko (Velkostatek Milevsko existiert nicht als eigener Fond bei SOA Třeboň). Dort sollten Eltern Samuels namentlich genannt sein. Abgedeckt durch Anfrage C7 vom 10.5.2026. **Seit 11.5.2026 zugleich der Verifizierungs-Anker für Hypothese A′ (Pessel aus Mühlhausen, §3.1):** Wenn Samuels Vater im Konsens-Akt 1771 als „Moses/Joseph Rudolph" greifbar ist und die Stelle als „erst seit 1771 von Samuel" geführt wird, ist A′ primärquellig gestützt; wenn nicht, fällt A′.
 7. **Heiratskonsens-Akt Pessel ⚭ Abraham Jablotzky 1764 Amschelberg** — Velkostatek Kosova Hora oder vergleichbarer Bestand. Würde Pessels Eltern direkt aus dem Konsens-Akt belegen.
 8. **HBF XV/IV Táborský kraj fol. 31–103 (Original)** — Vorgänger-Spalte des Myslkovice-Samuel im Buch 1811–1848: ist dort die Mühlhausen-Stelle als Vorgänger-Stelle eingetragen? Wenn ja: Brücke Mühlhausen → Myslkovice in der Folgegeneration belegt.
 9. *(erledigt)* Anfragen Židovské muzeum und Vojenský ústřední archiv sind als **C2** und **C4** in der Versandwelle vom 10.5.2026 raus (siehe §4.1 / §4.2).
@@ -269,6 +302,8 @@ Punkte 1–4 sind erledigt: Die Versandwelle vom 10.5.2026 (C1–C8) deckt die u
 - **Unsicherheits-Markierung** durchgängig verwendet: *urkundlich belegt* / *Sekundärquelle* / *plausibel aber unbelegt* / *informelle Forscherauskunft (E-Mail/Liste)*. Keine Hypothese wird übergewichtet, solange sie nur in einer dieser Stufen abgesichert ist.
 - **Drei Hypothesen zum Geburtsort** laufen weiter parallel; methodisch wird keine vorab eliminiert. Spannung wird ausgehalten, auch wenn das die Darstellung sperriger macht.
 - **Census-Systematik 1783/1793/1799 (Hinweis Christina Kaul, 10.5.2026):** Der Judenzensus verwendet nicht in allen Jahrgängen dieselbe Systematik. **1783 und 1793 stellen auf den Wohnort ab; 1793 nennt zusätzlich die Schutzherrschaft. 1799 dagegen führt jeden Familianten unter der Herrschaft, wo seine Familiantenstelle ist — nicht unter dem Wohnort.** Erklärt scheinbare Widersprüche zwischen den Jahrgängen, etwa wenn Samuel Rudolph 1793 weder in Cim noch in Mühlhausen erscheint. Quellenkritisch zu beachten bei jeder Census-basierten Verortung.
+- **Hypothese A′ Mühlhausen, Verlauf der Lesart (11.5.2026):** Aus dem Material der Wochen 19./20. (Familianten-Buch Samuel, Vademecum-Permalink, Hauptverzeichnis Tábor 1799) hat Christina Kaul eine strukturelle Lesart formuliert, die Markus, Samuel und Pessel in *eine* Familienkonstellation organisiert (Vater Moses/Joseph in Mühlhausen, †1771, Samuel erbt). Phonetische Brücke: Müllers mündliches „Miskowitz" könnte Verwechslung von Milevsko/Mühlhausen mit Myslkovice sein. Status: *plausibel aber unbelegt*; Verifikation am Heiratskonsens-Akt Samuel 1771 (C7). Hypothese A bleibt parallel stehen, weil Müllers Auskunft formal nicht ersetzt, sondern nur neu gelesen wird.
+- **Veselíčko-Konvergenz (10./11.5.2026):** Vodička-Linie Susan Boyer (Familientradition Jiří Fiedler) und Markus-Rudolph-Stelle sitzen im selben Dorf (Veselíčko u Milevska). Geographische Plausibilisierung, kein genealogischer Beleg. Vodička und Rudolph sind verschiedene Familien.
 - **14 böhmische Kreise systematisch durchgesehen (10.5.2026):** Hauptverzeichnis-Material 1733/1783/1793/1799 für Berounsko, Boleslavsko, Bydzovsko, Caslavsko, Chrudimsko, Hradecko, Klatovsko, Kourimsko, Litomericko, Plzensko, Prachensko, Rakovnicko, Tábor und Žatecko. **Pessels Vater Joseph/Mosche Rudolph ist in keiner dieser Listen genannt.** Drei Lesarten bleiben parallel: **(a)** Tod vor 1783 — biologisch plausibel (Pessels Geburt ~1749, Vater ~1715–1720, also 1783 ca. 65); **(b)** Verbleib in Mähren — durch den Lazar-Rudolfer-Befund (§3.4) primärquellig gestützt; **(c)** nicht-konsensierter Sohn — passt schlecht zur 200-fl.-Mitgift Pessels und ist daher unwahrscheinlich.
 - **Lesart Wopařaná = Wopořan aufgelöst (10.5.2026):** Die im Konsistorialakt 1768 für Pessels Mutter Anna stehende Eintragung wurde bisher versuchsweise als „Beporzaná" oder „Woporzana" gelesen; Sommer 1842 (Bd. 10) verifiziert die zeitgenössisch-böhmische Frauenform der Allodialherrschaft Wopořan und Bernarditz. Siehe §3.7.
 - **Frühere Korrekturen, die in diesen Bericht eingegangen sind:** Müllers Originalwortlaut ist „Pessel aus Miskowitz" (nicht „Familie Rudolph aus Myslkovice"); Tauf-Beiname „Kosso-Horska" ist Konversionsbeiname, kein Geburtsbeleg; Geburtsjahr Theresia ~Nov./Dez. 1749 (aus Konsistorialakt), nicht ~1735 wie früher angenommen; Census Amschelberg: Wechsel Haus 7 (1783) → Haus 21 (1793).
@@ -290,6 +325,10 @@ Diese Tabelle wird mit jeder neuen Korrespondenz, jeder Antwort und jedem Befund
 | 10.05.2026 | → | Studovna SOA Praha (CC Macháčková) | Nachfasser B1/B2 zum Pozůstalostní spis Philipp Bechinie, Bezug EP20250000003345 | Antwort offen |
 | 10.05.2026 | (intern) | — | Sachstandsbericht überarbeitet | §3.2 (Mühlhausen Landes-Nr. 9 / Dominial-Nr. 27 + Vademecum-Permalink), §3.3 (Markus Nr. 52 + Permalink, Wolf 1801 Weinbergamt Nr. 19 + Permalink, Marcus jun. Sohn-Lesart nach Kaul), §4.1 acht neue Zeilen + Nachfasser, §4.2 Mapping E-21..E-25 → C-Wellen, §5.1/§5.2 aktualisiert, §6 Census-Systematik ergänzt |
 | 10.05.2026 | (intern) | — | Sachstandsbericht zweite Erweiterung | §2 sieben neue primärquellige Zeilen (Hauptverzeichnis Tábor 1799 mit Vor-Wohnorten Markus/Samuel; Census Berounsko 1783 Nr. 13, Prachensko 1793 S. 55, Prachensko 1783 Přečín, Caslavsko 1793 Lazar Rudolfer, Berounsko/Wopořan 1775 Salomon Adler, Sommer 1842 Wopořan); §3.1 Hypothese A geschwächt (kein Rudolph in Miskowitz 1735–1799); §3.4 Migrationshypothese (b) primärquellig gestützt durch Lazar Rudolfer; neuer §3.7 (Wopořan = Annas Geburtsort verifiziert) und §3.8 (Migrationsvektoren); §6 14-Kreise-Suche / 3 Lesarten zu Joseph/Mosches Verbleib; Skizze [befunde-rudolph-mai-2026.html](/bonusseite/assets/befunde-rudolph-mai-2026.html) als Anlage publikfähig gemacht und verlinkt |
+| 10.05.2026 | ↔ | Susan Fisher Boyer (USA) | DNA-Konstellation + Vodička-Linie | drei Mails empfangen; cM-Werte Wolfgang↔Susan 11 cM (FTDNA), Susan↔Zeisl 83 cM; Vodička-Spur Samuel c.1710 in Veselíčko, 19. Jh. Petrovice u Sedlčan, Urgroßmutter 1942 Theresienstadt †; Quelle Fiedler. Dritte Mail mit Tom Weiss in CC. Schoenberg empfohlen. Antwort von Wolfgang in Arbeit. |
+| 11.05.2026 | ← | Christina Kaul | Bauchhypothese A′ Mühlhausen | Paläographisch-strukturelle Erwägung: Moses/Joseph in Mühlhausen †1771, Samuel erbte; Markus älterer Bruder, Pessel jüngere Schwester. Phonetische Brücke Milevsko/Myslkovice. Status: plausibel aber unbelegt — Verifikation an C7. |
+| 11.05.2026 | (intern) | — | VÚA-Anfrage C4 zurückgezogen | Zwei Gründe: VÚA-Matriken setzen erst ~1820 ein (Bechinie *1735, †1819); Pechau-bei-Magdeburg-Hypothese „Militär-Kontext" durch Personenbericht widerlegt. Falls Militärrecherche reaktiviert wird, Kriegsarchiv Wien. §4.1 Zeile 24 mit Rückzugsvermerk versehen. |
+| 11.05.2026 | (intern) | — | Sachstandsbericht dritte Erweiterung | §3.1 als „vier Hypothesen" umstrukturiert, A′ Mühlhausen ergänzt; neuer §3.9 Veselíčko-Konvergenz (Susan Boyer + Vodička, zwei-Veselíčkos-Klärung, Tom Weiss/Schoenberg); §4.3 drei neue Zeilen (Susan, Tom Weiss, Schoenberg) + Müller-Lesart; §5.2 Punkt 6 A′-Verifizierungs-Anker; §6 zwei neue Bullets (A′-Verlauf, Veselíčko-Konvergenz); Werkstatt-Post `/veselicko-zwei-familien-ein-dorf/` als Anlage verlinkt. |
 | | | | | |
 
 ---
@@ -299,6 +338,7 @@ Diese Tabelle wird mit jeder neuen Korrespondenz, jeder Antwort und jedem Befund
 - **DNA-Analyse:** [pilzchronik.github.io/bonusseite/dna-analyse/](/dna-analyse/)
 - **Werkstatt-Post „DNA Pilz–Zeisl: autosomaler Match" (April 2026):** [/dna-pilz-zeisl-autosomaler-match/](/dna-pilz-zeisl-autosomaler-match/)
 - **Forschungsgeschichte „Theresia Bechinie geb. Pessel" (Mai 2026, ersetzt den Brückenmatch-Post vom April):** [/theresia-bechinie-forschungsgeschichte/](/theresia-bechinie-forschungsgeschichte/)
+- **Werkstatt-Beitrag „Zwei Familien in einem Dorf? Veselíčko, ein DNA-Match aus den USA und Hypothese A′" (11.5.2026):** [/veselicko-zwei-familien-ein-dorf/](/veselicko-zwei-familien-ein-dorf/)
 - **Pessel/Rudolph-Befunde Mai 2026 — Skizze (visuelle Anlage: Wopořan, Migrationsvektoren, Mähren-Anker):** [/assets/befunde-rudolph-mai-2026.html](/bonusseite/assets/befunde-rudolph-mai-2026.html)
 - **DNA-Skizze (Stammbäume, Chromosom 9, Brücken-Diagramm):** [/assets/dna-skizze.html](/bonusseite/assets/dna-skizze.html)
 - **Korrekturen-/Errata-Sammelseite:** [/druckfehler-korrekturen/](/druckfehler-korrekturen/)
@@ -308,4 +348,4 @@ Weiterführende Detaildokumente (Konsistorialakt-Transkription, Vergleichsanalys
 
 ---
 
-*Dieser Bericht ist als laufendes Dokument angelegt. Letzte inhaltliche Aktualisierung: 10. Mai 2026. Änderungen werden im Front-Matter-Feld `stand_vom` mitgeführt.*
+*Dieser Bericht ist als laufendes Dokument angelegt. Letzte inhaltliche Aktualisierung: 11. Mai 2026. Änderungen werden im Front-Matter-Feld `stand_vom` mitgeführt.*
