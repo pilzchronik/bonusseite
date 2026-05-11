@@ -187,7 +187,7 @@ Sie macht es wahrscheinlich, dass Bechinie- und Zeisl-Linie sich zwischen ca. 17
 - Identität Apollonia Jablonsky / Teresia Kosso-Horska / Rudolphiana / Theresia Bechinie
 - Erste jüdische Ehe um 1764 mit Abraham Jablonsky in Amschelberg
 - Joseph Rudolph = Mosche (gleiche Person, doppelter Name)
-- Herkunft Pessels: Myslkovice geschwächt (kein Rudolph dort 1735–1799), zwei Lesarten parallel: Kopidlno-Region (B) oder Mähren-Herkunft via Berauner/Prachiner Aussiedlung (neu)
+- Herkunft Pessels: Myslkovice geschwächt (kein Rudolph dort 1735–1799), drei Lesarten parallel: Kopidlno-Region (B), Mähren-Herkunft via Berauner/Prachiner Aussiedlung, oder Mühlhausen/Milevsko (A′, neu 11.5.2026 — Vater Moses/Joseph saß dort, Samuel erbte 1771)
 - Geschwister-Beziehung zu Markus und/oder Samuel Rudolph
 - Bedeutung des Namens *Kopidlansky* (vier Lesarten parallel)
 
@@ -206,7 +206,7 @@ Am 10. Mai 2026 wurden acht Anfragen an tschechische Archive versendet, dazu ein
 - **SOkA Písek, fond OS Milevsko** — für Samuel Rudolphs 1771er Heiratskonsens und den 1828er Stellenverlust. Velkostatek Milevsko existiert nicht als eigener Fond bei SOA Třeboň; nach 1850 wanderten die Patrimonialakten der Region zur OS Milevsko und liegen heute beim SOkA Písek.
 - **SOA Praha** — Mgr. Martin Sovák zum Velkostatek Kosova Hora-Amschelberg / Heiratskonsens Pessel × Abraham Jablonsky 1764; dazu ein Nachfasser an die Studovna zum Pozůstalostní spis Philipp Bechinie (mit CC an Mgr. Macháčková, Bezug EP20250000003345).
 - **Židovské muzeum v Praze** — Get Pessel ↔ Abraham Jablotzky 1768 und Archivalien zur jüdischen Gemeinde Kosova Hora 1768/69 (vom NA Praha empfohlen).
-- **Vojenský ústřední archiv Praha** — Militärmatriken Philipp Bechinie 1740–1819.
+- **Vojenský ústřední archiv Praha** — Militärmatriken Philipp Bechinie 1740–1819. *Anfrage am 11.5.2026 zurückgezogen* (VÚA-Matriken setzen erst ab ~1820 ein; Pechau-bei-Magdeburg-Hypothese durch den Personenbericht widerlegt — Sohn lebte in Pechau, Tod 1819 bei Familienbesuch).
 
 Auf der Zeisl-Seite: Auswertung der Korrespondenz mit Randy Schoenberg (Caizl-Hinweis, Notiz zu Kolodeje nad Lužnicí als „nächstgelegenem Zeisl-Punkt") und der direkte Kontakt mit Walter Steven Zeisl.
 
