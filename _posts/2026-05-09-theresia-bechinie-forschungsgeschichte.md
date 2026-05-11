@@ -222,8 +222,9 @@ Das ist mehr, als zu Beginn der Spurensuche zu sehen war — und weniger, als n�
 
 - [DNA-Skizze (Stammbäume, Chromosom 9, Brücken-Diagramm)](/bonusseite/assets/dna-skizze.html)
 - [Pessel/Rudolph-Befunde Mai 2026 — Skizze (Wopořan, Migrationsvektoren, Mähren-Anker)](/bonusseite/assets/befunde-rudolph-mai-2026.html)
+- [Zwei Familien in einem Dorf? Veselíčko, ein DNA-Match aus den USA und Hypothese A′](/veselicko-zwei-familien-ein-dorf/)
 - [DNA Pilz–Zeisl: autosomaler Match](/dna-pilz-zeisl-autosomaler-match/)
 - [DNA-Analyse: Unsere Herkunft vor den Kirchenbüchern](/dna-analyse/)
 - [Korrekturen-/Errata-Sammelseite](/druckfehler-korrekturen/)
 
-*Dieser Beitrag ersetzt den Werkstatt-Post „Update Brückenmatch Amschelberg" (April 2026) und konsolidiert den Forschungsstand. Stand: 10. Mai 2026.*
+*Dieser Beitrag ersetzt den Werkstatt-Post „Update Brückenmatch Amschelberg" (April 2026) und konsolidiert den Forschungsstand. Stand: 11. Mai 2026.*

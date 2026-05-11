@@ -5,7 +5,7 @@ date: 2026-05-05
 permalink: /sachstand-pessel-rudolph-2026-05/
 eyebrow: "Arbeitsnotiz · nicht öffentlich gelistet"
 status: vorläufig
-stand_vom: 2026-05-10
+stand_vom: 2026-05-11
 betrifft: Band1, DNA, Ahnenforschung
 unlisted: true
 sitemap: false
@@ -14,7 +14,7 @@ description: "Zentralisierte Übersicht zur Forschung über Pessel bat Mosche / 
 
 > **Hinweis zum Status dieser Seite.** Diese Arbeitsnotiz ist nicht in der Werkstatt gelistet, nicht im Suchindex und nicht in Suchmaschinen auffindbar. Sie erreichen sie nur über den direkten Link, den Sie vom Autor erhalten haben. Inhalte sind *vorläufig* und werden laufend fortgeschrieben.
 
-**Stand:** 10. Mai 2026
+**Stand:** 11. Mai 2026
 **Anlass:** Diese Forschung steht nicht für sich allein. Der eigentliche Auslöser ist ein autosomaler DNA-Match zwischen Wolfgang Pilz und **Walter Steven Zeisl** (Wien): 36,57 cM auf zwei Chr-9-Segmenten, davon ein langes zusammenhängendes Stück von 29,1 cM in TG9_0 (~76–96 Mb), ein zweites kleines Segment von 7,5 cM (~2,75–5,32 Mb). Außerhalb von Chromosom 9 teilen Wolfgang und Walter Zeisl nichts; Chr-9-Total und Match-Total sind in diesem Fall identisch (Beleg: GEDmatch One-to-One vom 19.4.2026). Pessel bat Mosche / Apollonia Jablotzkin / Theresia Bechinie (Kekulé-Nr. 69) ist die einzige jüdische Vorfahrin in Wolfgangs bisher belegter Ahnenreihe und damit der naheliegendste Kandidat für eine gemeinsame Wurzel mit Walter Zeisl, dessen Linien ebenfalls in den böhmischen Raum führen. Der Match ist daher der Anlass, weshalb Christina Kaul (Familia Austria) und Patrick Bernhart (JewishGen) die Spur Pessel/Rudolph parallel mitverfolgen.
 **Zweck:** Zentralisierte Übersicht über den Stand der Forschung zur Herkunft Pessels. Dual gedacht — als Arbeitsspeicher für Wolfgang Pilz und als Lese-Vorlage für Mitforschende (insbesondere Christina Kaul).
 
