@@ -14,7 +14,8 @@
 | Reeva K. | Reeva Jacobson Kimble | T286556 | UEBERGABE_fuer_Seitenprojekt.md |
 | Renee F. | Renee Fisher | M524793 | UEBERGABE_fuer_Seitenprojekt.md |
 | Victor N. | Victor Neumann | T080523 | UEBERGABE_fuer_Seitenprojekt.md |
-| Herbert E. F. | Herbert E. Fisher | T725386 | Anonymisierungsrunde 2 (2026-04-19), vorher offen auf der Seite |
+| Herbert E. F. | Herbert E. Fisher (†, Kit-Verwalterin posthum: Tochter Susan F. Boyer) | T725386 (GEDmatch) + FTDNA-Kit | Anonymisierungsrunde 2 (2026-04-19), vorher offen auf der Seite; Kit-Konstellation klargestellt 12.5.2026 |
+| Lester F. | Lester Fisher (†, Halbbruder/Doppelcousin Herberts, Kit-Verwalterin posthum: Nichte Susan F. Boyer) | FTDNA (Nummer nicht bekannt) | Eingeführt 12.5.2026; Match-Status zu Wolfgang ungeprüft; doppelte Vodička-Genetik (Mütter Minnie/Elsie Vodička waren Schwestern) |
 | Scott K. | Scott Kieserman | — | Anonymisierungsrunde 2 (2026-04-19), vorher offen auf der Seite |
 | Joaquin R. | — im Fachprojekt DNA einsehen | BV5754921 | — |
 | Sean G. | — im Fachprojekt DNA einsehen | — | — |
@@ -28,7 +29,7 @@
 | Sally S. S. | — im Fachprojekt DNA einsehen | — | — |
 | Esther R. | — im Fachprojekt DNA einsehen | — | — |
 | S. S. | — im Fachprojekt DNA einsehen | — | — |
-| Susan B. | — im Fachprojekt DNA einsehen (Kontakt/Verwalterin für Herbert E. F.) | — | — |
+| Susan B. | Susan F. Boyer — Kit-Verwalterin posthum für Herbert E. Fisher († Vater) und Lester Fisher († Onkel); kein eigener DNA-Test | — | Aktualisiert 12.5.2026 |
 | Vivian K. | — im Fachprojekt DNA einsehen (Verwalterin für Victor N., JewishGen Hungarian SIG Director) | — | — |
 | Rebecca G. | — im Fachprojekt DNA einsehen | — | — |
 | Ronald Sch. | Ronald Schönberg (Sohn Arnold Schönbergs, Vater E. Randol Schönbergs) | — | Öffentlich bekannt aus Schönberg-/Zeisl-Familiengeschichte |

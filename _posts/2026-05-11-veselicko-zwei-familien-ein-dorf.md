@@ -4,7 +4,7 @@ title: "Zwei Familien in einem Dorf? Veselíčko, ein DNA-Match aus den USA und 
 date: 2026-05-11
 permalink: /veselicko-zwei-familien-ein-dorf/
 status: vorläufig
-stand_vom: 2026-05-11
+stand_vom: 2026-05-12
 betrifft: Band2, DNA, Ahnenforschung
 tags: [Neue Funde, Hintergrund, Pessel, Rudolph, Vodička, Veselíčko, Mühlhausen, DNA, Zeisl]
 excerpt: >
@@ -12,17 +12,51 @@ excerpt: >
   die Familianten-Stelle Markus Rudolph in Veselíčko und die Vodička-Linie einer
   DNA-Match-Partnerin aus den USA. Daraus eine neue, vierte Lesart der Pessel-Herkunft —
   zurückhaltend formuliert, plausibel, unbelegt.
-description: "Veselíčko-Konvergenz Mai 2026: Markus Rudolph (Familianten-Stelle Nr. 52) und Samuel Vodička (Vorfahr von DNA-Match Susan Fisher Boyer) sitzen im selben Dorf. Aus Christina Kauls Hypothese A′ folgt eine neue Lesart der Pessel-Herkunft: aus Mühlhausen, nicht aus Myslkovice."
+description: "Veselíčko-Konvergenz Mai 2026: Markus Rudolph (Familianten-Stelle Nr. 52) und Samuel Vodička (väterlicher Vorfahr des FTDNA-Match-Trägers Herbert E. Fisher †, Kit-Verwalterin posthum: Tochter Susan F. Boyer) sitzen im selben Dorf. Aus Christina Kauls Hypothese A′ folgt eine neue Lesart der Pessel-Herkunft: aus Mühlhausen, nicht aus Myslkovice."
 ---
+
+<div class="status-box" style="background-color: #fff8e1; border-left: 4px solid #c66a1e; padding: 15px; margin-bottom: 20px; color: #444; font-size: 0.95em;">
+  <span style="display: block; font-weight: bold; text-transform: uppercase; font-size: 0.8em; color: #c66a1e; margin-bottom: 6px; letter-spacing: 0.5px;">Korrektur 12.5.2026 (drei Klarstellungen)</span>
+  <strong>1. Match-Träger ist nicht Susan, sondern ihr Vater Herbert.</strong>
+  Die ursprüngliche Fassung dieses Posts (11.5.2026) hat Susan Fisher Boyer als eigene
+  DNA-Match-Partnerin geführt — ein Missverständnis. <strong>Match-Träger ist ihr
+  verstorbener Vater Herbert E. Fisher</strong>; Susan verwaltet seinen FTDNA-Kit (und den
+  GEDmatch-Kit T725386) posthum, hat aber keinen eigenen DNA-Test (Stand 19.4.2026 enthält
+  die FF-Liste drei Fishers: Herbert 11,09&nbsp;cM, Milton 11,28&nbsp;cM, Lester 10,59&nbsp;cM —
+  keine Susan). Die cM-Werte (11,09&nbsp;cM FTDNA Wolfgang↔Herbert, 10,3&nbsp;cM GEDmatch
+  Chr&nbsp;13, 83&nbsp;cM Herbert↔Walter Zeisl) und die Vodička-Linie (über Herberts Mutter
+  Minnie Vodička) gehören Herbert, nicht Susan. Ein zweiter FTDNA-Kit existiert für Herberts
+  Halbbruder/Doppelcousin <strong>Lester Fisher</strong> (†); ob er mich ebenfalls matcht,
+  ist noch ungeprüft. Bruder <strong>Milton L. Fisher</strong> (11,28&nbsp;cM, eigener
+  FTDNA-Kit) bestätigt das Bohemia-Surname-Bündel.
+
+  <strong style="display: block; margin-top: 10px;">2. Wolfgang↔Fisher und Wolfgang↔Zeisl sitzen auf verschiedenen Chromosomen.</strong>
+  Der GEDmatch One-to-One vom 6.4.2026 verortet Wolfgang↔Herbert auf <strong>Chr&nbsp;13</strong>
+  (Position 92.913.176–97.586.348, 10,3&nbsp;cM, 1.691 SNPs, 1 Segment). Das Wolfgang↔Zeisl-Großsegment
+  TG9_0 liegt dagegen auf <strong>Chr&nbsp;9</strong> (76,36–95,83&nbsp;Mb). Zwei verschiedene
+  Chromosomen, zwei verschiedene Vererbungswege — <em>kein gemeinsamer DNA-Cluster</em>. Die
+  Veselíčko-Konvergenz bleibt eine geographische Plausibilisierung, nicht ein gemeinsamer
+  DNA-Anker. Christina Kaul hat am 12.5.2026 zudem festgestellt: jüdische und kath.
+  Kontrollmatriken Veselíčko werden von Vodička dominiert, <em>kein Rudolph</em> dort —
+  Markus Rudolph saß damit „virtuell, nicht physisch“ in Veselíčko. Auch das relativiert
+  die räumliche Konvergenz.
+
+  <strong style="display: block; margin-top: 10px;">3. Methodisch tragfähig ist das Surname-Bündel, nicht die Einzellinie.</strong>
+  Herbert hat in seinem FTDNA-Profil am 22.4.2021 24 Ancestral Surnames eigenhändig
+  hinterlegt, darunter Vodička, Stern, Fürth und Zeisl plus die Herkunftsangabe
+  Podkovan/Sovínky/Mladá Boleslav. Bei 10,3&nbsp;cM auf einem Segment ist nicht entscheidbar,
+  welche der vier Linien das Chr-13-Segment trägt — das Bündel ist hart belegt, die
+  Einzellinie nicht. Der Text unten ist entsprechend umformuliert.
+</div>
 
 <div class="status-box" style="background-color: #f9f9f9; border-left: 4px solid #999; padding: 15px; margin-bottom: 30px; color: #444; font-size: 0.95em;">
   <span style="display: block; font-weight: bold; text-transform: uppercase; font-size: 0.8em; color: #666; margin-bottom: 6px; letter-spacing: 0.5px;">Status: Arbeitsdokument / vorläufig</span>
   Dieser Beitrag fasst zwei voneinander unabhängige Befunde vom 10. und 11. Mai 2026 zusammen
   und stellt eine zusätzliche, bisher nicht formulierte Hypothese zur Diskussion. Quellenstand:
   ein Familianten-Eintrag im Vademecum (urkundlich), eine DNA-Match-Konstellation (urkundlich),
-  zwei DNA-Match-Selbstauskünfte (familienkundlich, Quelle Jiří&nbsp;Fiedler), eine
-  paläographische Erwägung von Christina Kaul (Bauchhypothese). Die Lesart ist *plausibel
-  aber unbelegt*.
+  eine DNA-Match-Selbstauskunft Herberts Familie (familienkundlich, Quelle Jiří&nbsp;Fiedler,
+  vermittelt durch Kit-Verwalterin Susan F. Boyer), eine paläographische Erwägung von
+  Christina Kaul (Bauchhypothese). Die Lesart ist *plausibel aber unbelegt*.
 </div>
 
 ## Worum es geht
@@ -31,14 +65,16 @@ Im Mai 2026 sind in der Pessel/Rudolph-Forschung zwei Spuren parallel gelaufen, 
 nichts miteinander zu tun zu haben schienen. Die eine kommt aus dem Familianten-Material des
 böhmischen Landesarchivs: Markus Rudolph, Stelleninhaber in Veselíčko (Tábor-Kreis), war nach
 Christina Kauls Hypothese ein älterer Bruder Theresia Bechinies geborenen Pessel. Die andere
-kommt aus einer DNA-Korrespondenz mit den Vereinigten Staaten: eine Match-Partnerin auf
-FTDNA, deren väterliche Linie zu einem Samuel Vodička um 1710 in Veselíčko zurückgeht.
+kommt aus einer DNA-Korrespondenz mit den Vereinigten Staaten: ein Match auf FTDNA
+(Kit Herbert E. Fisher †, Kit-Verwalterin posthum: Tochter Susan F. Boyer), dessen
+väterliche Linie über die Mutter Minnie Vodička zu einem Samuel Vodička um 1710 in
+Veselíčko zurückgeht.
 
 Beide Spuren treffen sich am selben Punkt auf der Landkarte. Genau dort — in einem Dorf mit
 einer Hand voll Familien — sitzen im 18. Jahrhundert zwei Linien, die heute über
 unabhängige DNA-Kanäle wieder zusammenkommen: die Rudolph-Linie über Theresia Bechinie ins
-Pilz-Stemma, und die Vodička-Linie über Susan Fisher Boyer und Walter Zeisl in die
-DNA-Match-Gruppe Wolfgang/Zeisl.
+Pilz-Stemma, und die Vodička-Linie über Herbert E. Fisher (Kit-Verwalterin Susan F. Boyer)
+und Walter Zeisl in die DNA-Match-Gruppe Wolfgang/Zeisl.
 
 Aus der Konvergenz und einer parallelen paläographischen Erwägung Christina Kauls ergibt
 sich eine vierte Lesart der Pessel-Herkunft, die hier zum ersten Mal formuliert wird:
@@ -88,25 +124,35 @@ verloren, weil Markus seit Jahrzehnten *physisch bei der Nachbarherrschaft Liebi
 während seine Stelle in Veselíčko verbucht blieb. Die Notiz ist nicht ein Befund zu Markus,
 sondern ein Befund zur Lückenhaftigkeit der herrschaftlichen Personenkenntnis.
 
-## Die zweite Spur: Susan Fisher Boyer und die Vodička-Linie
+## Die zweite Spur: Herbert E. Fisher und die Vodička-Linie
 
 Aus dem DNA-Korrespondenzkanal kam parallel die Match-Konstellation, die diesen Beitrag
-auslöst:
+auslöst. Der Match liegt auf einem FTDNA-Kit, das Susan F. Boyer für ihren verstorbenen
+Vater **Herbert E. Fisher** posthum verwaltet (Kit-Nummer in GEDmatch: T725386).
+Susan selbst hat keinen eigenen DNA-Test.
 
-- Wolfgang ↔ **Susan Fisher Boyer**: 11&nbsp;cM (FTDNA)
-- Susan ↔ **Walter Zeisl**: 83&nbsp;cM (FTDNA)
+- Wolfgang ↔ **Herbert E. Fisher** (†): 11,09&nbsp;cM (FTDNA) bzw. 10,3&nbsp;cM auf
+  Chr&nbsp;13 (GEDmatch, 92.913.176–97.586.348, 1.691 SNPs, 1 Segment)
+- Herbert ↔ **Walter Zeisl**: 83&nbsp;cM (FTDNA, 56&nbsp;cM auf 6&nbsp;Segmenten im
+  GEDmatch One-to-One vom 13.4.2026)
 - Wolfgang ↔ Walter Zeisl: 29,1&nbsp;cM auf Chromosom&nbsp;9 (GEDmatch; siehe
   [DNA-Skizze]({{ '/assets/dna-skizze.html' | relative_url }}))
 
-Susans väterliche Linie geht nach Familientradition auf **Samuel Vodička, um 1710, in
-Veselíčko** zurück. Im 19.&nbsp;Jahrhundert lebt die Familie in **Petrovice u Sedlčan**;
-ihre Urgroßmutter wurde 1942 von dort nach Theresienstadt deportiert und ist dort umgekommen.
-Quelle der frühen Generationen ist eine Familienzusammenstellung von **Jiří Fiedler**
-(†&nbsp;2018, langjähriger Forscher zur jüdischen Topographie Böhmens), bestätigt über zwei
-weitere Familienforscher der Vodička-Verwandtschaft.
+Herberts väterliche Linie geht über seine Mutter **Minnie Vodička** nach Familientradition
+auf **Samuel Vodička, um 1710, in Veselíčko** zurück. Im 19.&nbsp;Jahrhundert lebt die
+Familie in **Petrovice u Sedlčan**; Herberts Großmutter (Susans Urgroßmutter) wurde 1942
+von dort nach Theresienstadt deportiert und ist dort umgekommen. Quelle der frühen
+Generationen ist eine Familienzusammenstellung von **Jiří Fiedler** (†&nbsp;2018,
+langjähriger Forscher zur jüdischen Topographie Böhmens), bestätigt über zwei weitere
+Familienforscher der Vodička-Verwandtschaft.
 
-Die 83&nbsp;cM zwischen Susan und Walter Zeisl ordnen die beiden in eine relativ enge
-Verwandtschaft ein — Größenordnung Cousinen zweiten oder dritten Grades. Die 11&nbsp;cM zu
+Ein **zweiter FTDNA-Kit** existiert für Herberts Halbbruder/Doppelcousin **Lester Fisher**
+(†, ebenfalls von Susan posthum verwaltet). Lester und Herbert teilen den Vater Louis Fisher;
+ihre Mütter Minnie und Elsie Vodička waren Schwestern — beide Kits tragen damit doppelte
+Vodička-Genetik. Ob Lester mich ebenfalls matcht, ist noch ungeprüft.
+
+Die 83&nbsp;cM zwischen Herbert und Walter Zeisl ordnen die beiden in eine relativ enge
+Verwandtschaft ein — Größenordnung Cousinen zweiten oder dritten Grades. Die 11,09&nbsp;cM zu
 Wolfgang sind dagegen ein schwacher Match, in aschkenasisch-endogamem Kontext schwer
 generationsgenau zu lesen. Was den Befund interessant macht, ist nicht das absolute
 cM-Niveau, sondern die geographische Schnittmenge mit der Rudolph-Spur: derselbe Ort,
@@ -189,13 +235,20 @@ mehr Substanz, als A, B und C im April 2026 zusammen hatten.
 
 - **Anfrage SOkA Písek, fond OS Milevsko** (10.5.2026, C7): klärt Heiratskonsens-Akt
   Samuel Rudolph 1771 und die Vorgänger-Spalte der Stelle Mühlhausen. Antwort offen.
-- **Korrespondenz mit Susan Fisher Boyer** (10.5.2026): drei Mails, dritte mit CC an
-  **Tom&nbsp;Weiss**, der nach Susans Angabe das umfangreichste Vodička-Material besitzt.
-  Antwort von Tom Weiss offen — er kann (a) bestätigen, in welchem der beiden Veselíčkos
-  Samuel 1710 saß, und (b) die Datierungsbasis der frühen Vodičkas einordnen.
+- **Korrespondenz mit Susan F. Boyer** als Kit-Verwalterin Herberts (10.5.2026): drei
+  Mails, dritte mit CC an **Tom&nbsp;Weiss**, der nach Susans Angabe das umfangreichste
+  Vodička-Material besitzt. Antwort von Tom Weiss offen — er kann (a) bestätigen, in
+  welchem der beiden Veselíčkos Samuel 1710 saß, und (b) die Datierungsbasis der frühen
+  Vodičkas einordnen.
+- **Klarstellung der Fisher-Kit-Konstellation** (12.5.2026, Susan F. Boyer): kein eigener
+  Test Susans; Match-Träger Herbert E. Fisher (†); zweiter FTDNA-Kit Onkel Lester Fisher
+  (†, Doppelcousin via Vodička-Schwestern Minnie/Elsie), Match-Status zu mir noch
+  ungeprüft. Wortlaut Susan 12.4.2026: „Both my uncle Lester and my father Herbert have
+  DNA on FTDNA and both have died since those sample were entered. My father and his
+  brother had mother\u2019s who were sisters. They had the same father."
 - **Anschreiben an Randy&nbsp;Schoenberg** (Spezialist für die Zeisl-Linie, von Susan
-  empfohlen): in der Susan-Antwort zugesagt; Entwurf liegt seit 21.&nbsp;April 2026, Zeisl-Anker
-  muss noch eingearbeitet werden.
+  empfohlen): in Susans Antwort zugesagt; Entwurf liegt seit 21.&nbsp;April 2026,
+  Zeisl-Anker muss noch eingearbeitet werden.
 
 Sobald von Tom Weiss eine Rückmeldung kommt, wird sie separat eingearbeitet — dieser Beitrag
 greift dem nicht vor.
@@ -232,9 +285,10 @@ Heiratskonsens-Akt 1771 in Mühlhausen.
   [Wolf Rudolph Weinbergamt Nr.&nbsp;19, 1801](https://vademecum.nacr.cz/vademecum/permalink?xid=63d3c6c5-b454-44a1-9880-606eceee3053)
 - **Patrick Bernhart** (JewishGen), Familianten-Buch-Scan Mühlhausen Landes-Nr.&nbsp;9
   (5.&nbsp;Mai 2026)
-- **Susan Fisher Boyer**, Mails vom 10.&nbsp;Mai 2026 (DNA-Konstellation Wolfgang/Susan/Zeisl;
-  Vodička-Linie); Familientradition nach **Jiří&nbsp;Fiedler**, bestätigt über Tom&nbsp;Weiss
-  und Nancy Sinderbrand Deutsch.
+- **Susan F. Boyer** (USA, Kit-Verwalterin posthum für Herbert E. Fisher †), Mails vom
+  10.&nbsp;und 12.&nbsp;Mai 2026 (DNA-Konstellation Wolfgang/Herbert/Zeisl; Vodička-Linie;
+  Klarstellung Herbert/Lester-Kit-Konstellation am 12.5.); Familientradition nach
+  **Jiří&nbsp;Fiedler**, bestätigt über Tom&nbsp;Weiss und Nancy Sinderbrand Deutsch.
 - **GEDmatch One-to-One** Wolfgang ↔ Walter Zeisl, 19.&nbsp;April 2026, 29,1&nbsp;cM auf
   Chromosom&nbsp;9.
 - **Hauptverzeichnis Tábor 1799** (Edition Karls-Universität Prag,
