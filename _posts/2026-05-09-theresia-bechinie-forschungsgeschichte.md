@@ -4,7 +4,7 @@ title: "Theresia Bechinie geb. Pessel — Forschungsgeschichte und derzeitiger S
 date: 2026-05-10
 permalink: /theresia-bechinie-forschungsgeschichte/
 status: vorläufig
-stand_vom: 2026-05-11
+stand_vom: 2026-05-12
 betrifft: Band2, DNA, Ahnenforschung
 ersetzt: /update-bruecken-match-amschelberg/
 tags: [Bechinie, Pessel, Rudolph, Kopidlansky, Jablonsky, Amschelberg, Kosova Hora, Myslkovice, Konversion, Konsistorialakt, DNA, Zeisl]

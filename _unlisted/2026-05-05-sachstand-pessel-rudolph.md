@@ -5,7 +5,7 @@ date: 2026-05-05
 permalink: /sachstand-pessel-rudolph-2026-05/
 eyebrow: "Arbeitsnotiz · nicht öffentlich gelistet"
 status: vorläufig
-stand_vom: 2026-05-11
+stand_vom: 2026-05-12
 betrifft: Band1, DNA, Ahnenforschung
 unlisted: true
 sitemap: false
