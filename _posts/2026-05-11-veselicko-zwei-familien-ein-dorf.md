@@ -23,18 +23,23 @@ description: "Veselíčko-Konvergenz Mai 2026: Markus Rudolph (Familianten-Stell
   verstorbener Vater Herbert E. Fisher</strong>; Susan verwaltet seinen FTDNA-Kit (und den
   GEDmatch-Kit T725386) posthum, hat aber keinen eigenen DNA-Test (Stand 19.4.2026 enthält
   die FF-Liste drei Fishers: Herbert 11,09&nbsp;cM, Milton 11,28&nbsp;cM, Lester 10,59&nbsp;cM —
-  keine Susan). Die cM-Werte (11,09&nbsp;cM FTDNA Wolfgang↔Herbert, 10,3&nbsp;cM GEDmatch
-  Chr&nbsp;13, 83&nbsp;cM Herbert↔Walter Zeisl) und die Vodička-Linie (über Herberts Mutter
+  keine Susan). Die cM-Werte (11,09&nbsp;cM FTDNA Wolfgang↔Herbert auf Segment 92,66–97,59&nbsp;Mb,
+  10,3&nbsp;cM im GEDmatch One-to-One vom 6.4.2026, 83&nbsp;cM Herbert↔Walter Zeisl) und die Vodička-Linie (über Herberts Mutter
   Minnie Vodička) gehören Herbert, nicht Susan. Ein zweiter FTDNA-Kit existiert für Herberts
   Halbbruder/Doppelcousin <strong>Lester Fisher</strong> (†); ob er mich ebenfalls matcht,
   ist noch ungeprüft. Bruder <strong>Milton L. Fisher</strong> (11,28&nbsp;cM, eigener
   FTDNA-Kit) bestätigt das Bohemia-Surname-Bündel.
 
   <strong style="display: block; margin-top: 10px;">2. Wolfgang↔Fisher und Wolfgang↔Zeisl sitzen auf verschiedenen Chromosomen.</strong>
-  Der GEDmatch One-to-One vom 6.4.2026 verortet Wolfgang↔Herbert auf <strong>Chr&nbsp;13</strong>
-  (Position 92.913.176–97.586.348, 10,3&nbsp;cM, 1.691 SNPs, 1 Segment). Das Wolfgang↔Zeisl-Großsegment
-  TG9_0 liegt dagegen auf <strong>Chr&nbsp;9</strong> (76,36–95,83&nbsp;Mb). Zwei verschiedene
-  Chromosomen, zwei verschiedene Vererbungswege — <em>kein gemeinsamer DNA-Cluster</em>. Die
+  Die FTDNA-Direktquelle vom 12.5.2026 (Chromosome Browser Export
+  <code>330595_Chromosome_Browser_Results_20260512.csv</code>) verortet das Wolfgang↔Herbert-Segment auf
+  <strong>Chr&nbsp;14</strong> (Position 92.660.000–97.590.000, 11,09&nbsp;cM, 1 Segment). Die
+  GEDmatch-Notiz vom 6.4.2026 hatte dasselbe Segment auf <strong>Chr&nbsp;13</strong> verortet
+  (92,9–97,6&nbsp;Mb, 1.691 SNPs, 10,3&nbsp;cM); die End-Positionen sind plattformübergreifend auf
+  360&nbsp;bp deckungsgleich, FTDNA gilt als primär bis zu einem neuen GEDmatch-Lauf. Das
+  Wolfgang↔Zeisl-Großsegment TG9_0 liegt dagegen auf <strong>Chr&nbsp;9</strong>
+  (76,36–95,83&nbsp;Mb). Zwei verschiedene Chromosomen, zwei verschiedene Vererbungswege —
+  <em>kein gemeinsamer DNA-Cluster</em>. Die
   Veselíčko-Konvergenz bleibt eine geographische Plausibilisierung, nicht ein gemeinsamer
   DNA-Anker. Christina Kaul hat am 12.5.2026 zudem festgestellt: jüdische und kath.
   Kontrollmatriken Veselíčko werden von Vodička dominiert, <em>kein Rudolph</em> dort —
@@ -131,8 +136,8 @@ auslöst. Der Match liegt auf einem FTDNA-Kit, das Susan F. Boyer für ihren ver
 Vater **Herbert E. Fisher** posthum verwaltet (Kit-Nummer in GEDmatch: T725386).
 Susan selbst hat keinen eigenen DNA-Test.
 
-- Wolfgang ↔ **Herbert E. Fisher** (†): 11,09&nbsp;cM (FTDNA) bzw. 10,3&nbsp;cM auf
-  Chr&nbsp;13 (GEDmatch, 92.913.176–97.586.348, 1.691 SNPs, 1 Segment)
+- Wolfgang ↔ **Herbert E. Fisher** (†): 11,09&nbsp;cM (FTDNA, Segment Chr&nbsp;14: 92,66–97,59&nbsp;Mb, Direktquelle 12.5.2026)
+  bzw. 10,3&nbsp;cM im GEDmatch One-to-One vom 6.4.2026 (dort auf Chr&nbsp;13 notiert, 92.913.176–97.586.348, 1.691 SNPs, 1 Segment — gleiches Segment, Plattform-Konflikt offen)
 - Herbert ↔ **Walter Zeisl**: 83&nbsp;cM (FTDNA, 56&nbsp;cM auf 6&nbsp;Segmenten im
   GEDmatch One-to-One vom 13.4.2026)
 - Wolfgang ↔ Walter Zeisl: 29,1&nbsp;cM auf Chromosom&nbsp;9 (GEDmatch; siehe
@@ -162,6 +167,16 @@ Was sich daraus *nicht* ableiten lässt: dass Pessel direkt von einem Vodička a
 Vodička-Linie ist eine Brückenlinie — sie zeigt, dass die DNA-Verwandtschaft Pilz/Zeisl
 plausibel über einen Knoten in Veselíčko u Milevska gelaufen sein *könnte*, ohne den Knoten
 zu benennen.
+
+**Cluster C′ (reaktiviert 12.5.2026 abends):** Der FTDNA-Chromosome-Browser-Export vom
+12.5.2026 zeigt das Wolfgang↔Herbert-Segment auf Chr 14 (92,66–97,59 Mb, 11,09 cM); Herberts
+Bruder Milton liegt mit 92,37–97,57 Mb / 11,28 cM praktisch identisch — IBD-Bestätigung über
+ihre gemeinsame Mutter Minnie Vodička. In derselben Region triangulieren zwei weitere
+Matches: Amy Lager (90,96–98,12 Mb / 14,71 cM) und Menia Tzabary-Giermanowicz
+(90,66–97,66 Mb / 14,67 cM). Damit Vier-Personen-Triangulation Chr 14 92,66–97,57 Mb mit
+mir als fünftem Träger. Die Region war am 18.4.2026 als Linie C (Kieserman) zurückgestellt
+worden; sie ist jetzt reaktiviert — nicht als Kieserman-Spur, sondern als eigener
+Chr-14-Fisher-Cluster (Details auf der DNA-Seite, Abschnitt 5.2).
 
 ## Die Bauchhypothese A′: Pessel aus Mühlhausen
 
