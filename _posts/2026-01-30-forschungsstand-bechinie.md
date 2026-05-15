@@ -6,8 +6,8 @@ tags: [Neue Funde]
 categories: [Forschung]
 description: "Auskunft des Erzbistums Prag zum Verbleib der Pfarrunterlagen von Ondřejov und Chlum (Středočeský kraj) – Grundlage für staatliche Archivanfragen zur Familie Bechinie/Běchyně."
 excerpt: "Eine kirchliche Auskunft klärt den institutionellen Verbleib älterer Pfarrunterlagen. Daraus ergeben sich gezielte Anfragen an staatliche Archive zu Ondřejov und Chlum."
-status: vorläufig
-stand_vom: 2026-01-30
+status: überholt
+stand_vom: 2026-05-15
 ---
 
 <style>
@@ -38,7 +38,12 @@ stand_vom: 2026-01-30
 </style>
 
 <div class="status-box">
-  <span class="status-label">STATUS: LAUFENDE ANFRAGEN</span>
+  <span class="status-label">ÜBERHOLT — MAI 2026</span>
+  Dieser Beitrag dokumentiert den frühen Recherchestand vom Januar 2026. Der aktuelle Forschungsstand zur Familie Bechinie und zu Theresia geb. Pessel findet sich im Beitrag <a href="{{ '/theresia-bechinie-forschungsgeschichte/' | relative_url }}">Theresia Bechinie geb. Pessel — Forschungsgeschichte und derzeitiger Stand</a>.
+</div>
+
+<div class="status-box">
+  <span class="status-label">STATUS: LAUFENDE ANFRAGEN (Januar 2026)</span>
   Stand: 30. Januar 2026 – Antworten der staatlichen Archive ausstehend.
 </div>
 
