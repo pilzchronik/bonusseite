@@ -4,7 +4,7 @@ title: "Archivreise LKA Dresden: Stammlinie Pültz/Pilz Dörnthal über sechs Ge
 date: 2026-03-27
 permalink: /ergebnis-archivreise-lka-dresden/
 status: vorläufig
-stand_vom: 27.03.2026
+stand_vom: 2026-05-15
 betrifft: Band1, Band2
 tags: [Neue Funde, Korrekturen, Kirchenbücher, LKA Dresden, Primärquellen, Erzgebirge, Ergebnisse]
 description: 'Kirchenbücher im Landeskirchlichen Archiv Dresden bestätigen die direkte Stammlinie Pültz/Pilz in Dörnthal über sechs Generationen – Korrektur „Joseph statt Jobst“ damit widerlegt.'
@@ -141,4 +141,14 @@ Nicht alle Ziele der Archivreise konnten erreicht werden:
 
 Die Archivreise hat das Wichtigste gebracht: Die direkte Stammlinie steht auf festem Grund. Was in der gedruckten Chronik vorsichtig als Hypothese formuliert war, ist nun durch Primärquellen belegt. Und was auf dieser Bonusseite als Korrektur der Chronik veröffentlicht wurde, hat sich selbst als korrekturbedürftig erwiesen — eine Erfahrung, die zur Ehrlichkeit genealogischer Arbeit dazugehört.
 
-*Stand: 27. März 2026. Quellen: Kirchenbücher EVLKS-Bestand Marienberg (KB 23, 34, 36, 429, 430, 437, 438, 458), eingesehen im Landeskirchlichen Archiv Dresden, März 2026.*+
+---
+
+## Nachtrag April 2026: Erbkauff 1558 — eine weitere Generation
+
+Dieser Fund stammt nicht aus dem Archivbesuch, sondern aus einem online zugänglichen Gerichtsbuch: den digitalisierten Akten des Gerichtsbuchs Sayda (Nr. 239, Bd. 1, f. 14v–17r).
+
+Der Eintrag vom 13. April 1558 belegt die Erbteilung nach **Michel Pültz I.**, der vor diesem Datum verstorben war. Erbe des Hofs wurde **Jacob Pültz**; sechs weitere Kinder waren 1558 noch unmündig (Michel jr., Hans, Jorg, Matheß, Caspar, Sibilla).
+
+Die Konsequenz: **Michel Pültz I. (†vor 1558) und Michael Pültz d.Ä. (†26.7.1565) sind zwei verschiedene Personen** — nicht eine, wie bisher angenommen. Damit öffnet sich vor der bisherigen Generation (0) eine weitere Generation. Die Generationentabelle wurde entsprechend aktualisiert: [Familie Pültz/Pilz, Dörnthal — Generationentabelle]({{ '/doernthal-generationentabelle/' | relative_url }}).
+
+*Stand: 27. März 2026; Nachtrag: Mai 2026. Quellen: Kirchenbücher EVLKS-Bestand Marienberg (KB 23, 34, 36, 429, 430, 437, 438, 458), eingesehen im Landeskirchlichen Archiv Dresden, März 2026. Erbkauff-Eintrag: Gerichtsbuch Sayda Nr. 239 Bd. 1, f. 14v–17r (online).*
