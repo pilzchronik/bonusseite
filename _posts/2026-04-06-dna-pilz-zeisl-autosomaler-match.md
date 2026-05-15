@@ -4,7 +4,7 @@ title: "Autosomale DNA: Pilz und Zeisl — eine jüdisch-böhmische Verbindung"
 date: 2026-04-06
 permalink: /dna-pilz-zeisl-autosomaler-match/
 status: vorläufig
-stand_vom: 2026-05-05
+stand_vom: 2026-05-15
 betrifft: DNA
 tags: [DNA, autosomale, Zeisl, Böhmen, GEDmatch, Triangulation]
 description: "Autosomaler DNA-Test (Family Finder, FamilyTreeDNA) zeigt einen Match zwischen den Familien Pilz und Zeisl – eine jüdisch-böhmische Spur, geprüft per Triangulation auf GEDmatch."
@@ -20,7 +20,7 @@ Ein solcher Test lieferte ein überraschendes Ergebnis: Seit Jahren zeigt die Da
 
 ## Das Chromosom-9-Segment
 
-Erst 2026 begann die systematische Auswertung. Das Ergebnis: Auf Chromosom 9 teilen wir ein zusammenhängendes Segment von 29,1 cM — das ist ein klares Zeichen echter Verwandtschaft, kein statistisches Rauschen. Die MRCA-Berechnung setzt den gemeinsamen Vorfahren auf etwa 4,3 Generationen zurück, also in den Zeitraum 1830–1870.
+Erst 2026 begann die systematische Auswertung. Das Ergebnis: Auf Chromosom 9 teilen wir insgesamt **36,57 cM** in zwei Segmenten: das große Segment (29,1 cM, Position 76,4–95,8 Mb) und ein kleineres (7,5 cM, Position 2,7–5,3 Mb). Das ist ein klares Zeichen echter Verwandtschaft, kein statistisches Rauschen. In aschkenasisch-endogamem Kontext liegt der gemeinsame Vorfahre bei dieser Segmentgröße grob im 18. Jahrhundert — eine präzise Generationenzahl lässt sich daraus nicht ableiten.
 
 ## Triangulationsgruppe
 
