@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>Pilz-Chronik – Seite umgezogen</title>
+<script>
+  // Aufruf der nackten Adresse /bonusseite/ -> Wurzel.
+  (function () {
+    var ZIEL = "https://pilzchronik.github.io";
+    var pfad = window.location.pathname.replace(/^\/bonusseite/, "");
+    if (pfad === "") { pfad = "/"; }
+    window.location.replace(ZIEL + pfad + window.location.search + window.location.hash);
+  })();
+</script>
+<meta http-equiv="refresh" content="2; url=https://pilzchronik.github.io/">
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+         max-width: 32rem; margin: 4rem auto; padding: 0 1.25rem;
+         color: #1e293b; line-height: 1.55; }
+  a { color: #1d4ed8; }
+</style>
+</head>
+<body>
+<h1>Die Bonusseite ist umgezogen</h1>
+<p>Die Pilz-Chronik hat jetzt eine kürzere, dauerhafte Adresse.
+   Sie werden automatisch weitergeleitet.</p>
+<p>Falls nicht: <a href="https://pilzchronik.github.io/">pilzchronik.github.io</a></p>
+</body>
+</html>
